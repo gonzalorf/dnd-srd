@@ -1,0 +1,54 @@
+{
+ "id": "spell.guarda-contra-la-muerte",
+ "name": "Guarda contra la muerte",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura y le concedes cierta protección frente a la muerte. La primera vez que los puntos de golpe del objetivo fueran a reducirse a 0 antes de que el conjuro termine, en lugar de eso, se reducen a 1 y el conjuro termina.\n\nSi el conjuro sigue activo cuando el objetivo sufre un efecto que fuera a matarlo al instante sin causarle daño, se niega ese efecto y el conjuro termina.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Tocas a una criatura y le concedes cierta protección frente a la muerte. La primera vez que los puntos de golpe del objetivo fueran a reducirse a 0 antes de que el conjuro termine, en lugar de eso, se reducen a 1 y el conjuro termina.",
+   "text": "Tocas a una criatura y le concedes cierta protección frente a la muerte. La primera vez que los puntos de golpe del objetivo fueran a reducirse a 0 antes de que el conjuro termine, en lugar de eso, se reducen a 1 y el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Si el conjuro sigue activo cuando el objetivo sufre un efecto que fuera a matarlo al instante sin causarle daño, se niega ese efecto y el conjuro termina.",
+   "text": "Si el conjuro sigue activo cuando el objetivo sufre un efecto que fuera a matarlo al instante sin causarle daño, se niega ese efecto y el conjuro termina."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 153
+ }
+}

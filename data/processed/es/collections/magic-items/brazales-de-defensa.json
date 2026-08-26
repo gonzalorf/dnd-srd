@@ -1,0 +1,23 @@
+{
+ "id": "item.brazales-de-defensa",
+ "name": "Brazales de defensa",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Mientras lleves estos brazales, obtendrás un bonificador de +2 a la clase de armadura si no vistes ninguna armadura ni embrazas ningún escudo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Mientras lleves estos brazales, obtendrás un bonificador de +2 a la clase de armadura si no vistes ninguna armadura ni embrazas ningún escudo.",
+   "text": "Mientras lleves estos brazales, obtendrás un bonificador de +2 a la clase de armadura si no vistes ninguna armadura ni embrazas ningún escudo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ }
+}

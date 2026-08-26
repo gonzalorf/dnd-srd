@@ -1,0 +1,44 @@
+{
+ "id": "item.botella-siemprehumeante",
+ "name": "Botella siemprehumeante",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Como acción de magia, puedes abrir o cerrar esta botella.\n\nAbrirla provoca que una nube de denso humo salga de ella y llene una emanación de 18 m que se origina en la botella. El área se considera muy oscura.\n\nCada minuto que la botella permanezca abierta, el tamaño de la emanación aumenta en 3 m, hasta que alcance su tamaño máximo de 36 m.\n\nCerrar la botella hace que la nube se quede en su sitio hasta que se disipe tras 10 minutos. Un viento fuerte (como el que crea el conjuro ráfaga de viento) la disipará después de 1 minuto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Como acción de magia, puedes abrir o cerrar esta botella.",
+   "text": "Como acción de magia, puedes abrir o cerrar esta botella."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Abrirla provoca que una nube de denso humo salga de ella y llene una emanación de 18 m que se origina en la botella. El área se considera muy oscura.",
+   "text": "Abrirla provoca que una nube de denso humo salga de ella y llene una emanación de 18 m que se origina en la botella. El área se considera muy oscura."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Cada minuto que la botella permanezca abierta, el tamaño de la emanación aumenta en 3 m, hasta que alcance su tamaño máximo de 36 m.",
+   "text": "Cada minuto que la botella permanezca abierta, el tamaño de la emanación aumenta en 3 m, hasta que alcance su tamaño máximo de 36 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Cerrar la botella hace que la nube se quede en su sitio hasta que se disipe tras 10 minutos. Un viento fuerte (como el que crea el conjuro *ráfaga de viento*) la disipará después de 1 minuto.",
+   "text": "Cerrar la botella hace que la nube se quede en su sitio hasta que se disipe tras 10 minutos. Un viento fuerte (como el que crea el conjuro ráfaga de viento) la disipará después de 1 minuto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ },
+ "refs": [
+  "spell.rafaga-de-viento"
+ ]
+}

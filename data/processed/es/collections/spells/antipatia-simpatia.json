@@ -1,0 +1,78 @@
+{
+ "id": "spell.antipatia-simpatia",
+ "name": "Antipatía/simpatía",
+ "level": 8,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (una mezcla de vinagre y miel)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una mezcla de vinagre y miel",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "10 días",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "día"
+ },
+ "text": "Mientras lanzas el conjuro, elige si crea antipatía o simpatía y haz objetivo a una criatura u objeto de tamaño Enorme o más pequeño. A continuación, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido harán una tirada de salvación de Sabiduría cuando se acerquen a 36 m o menos del objetivo. La elección de antipatía o simpatía determina lo que le sucede a una criatura si falla la salvación:\n\nAntipatía. La criatura tiene el estado de asustada y deberá utilizar su movimiento en sus turnos para alejarse lo máximo posible del objetivo por la ruta más segura.\n\nSimpatía. La criatura tiene el estado de hechizada y deberá utilizar su movimiento en sus turnos para acercarse lo máximo posible al objetivo por\n\nla ruta más segura. Si la criatura se encuentra a 1,5 m o menos del objetivo, no podrá alejarse de él voluntariamente. Si el objetivo daña a la criatura hechizada, esta podrá hacer una tirada de salvación de Sabiduría para poner fin al efecto, como se describe a continuación.\n\nPoner fin al efecto. Si la criatura asustada o hechizada termina su turno a más de 36 m del objetivo, deberá hacer una tirada de salvación de Sabiduría. Si la supera, dejará de verse afectada por el objetivo. Las criaturas que superen la tirada de salvación contra este efecto serán inmunes a él durante 1 minuto y después podrán verse afectadas otra vez.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 121,
+   "md": "Mientras lanzas el conjuro, elige si crea antipatía o simpatía y haz objetivo a una criatura u objeto de tamaño Enorme o más pequeño. A continuación, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido harán una tirada de salvación de Sabiduría cuando se acerquen a 36 m o menos del objetivo. La elección de antipatía o simpatía determina lo que le sucede a una criatura si falla la salvación:",
+   "text": "Mientras lanzas el conjuro, elige si crea antipatía o simpatía y haz objetivo a una criatura u objeto de tamaño Enorme o más pequeño. A continuación, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido harán una tirada de salvación de Sabiduría cuando se acerquen a 36 m o menos del objetivo. La elección de antipatía o simpatía determina lo que le sucede a una criatura si falla la salvación:"
+  },
+  {
+   "type": "definition",
+   "page": 121,
+   "md": "**Antipatía.** La criatura tiene el estado de asustada y deberá utilizar su movimiento en sus turnos para alejarse lo máximo posible del objetivo por la ruta más segura.",
+   "text": "Antipatía. La criatura tiene el estado de asustada y deberá utilizar su movimiento en sus turnos para alejarse lo máximo posible del objetivo por la ruta más segura."
+  },
+  {
+   "type": "definition",
+   "page": 121,
+   "md": "**Simpatía.** La criatura tiene el estado de hechizada y deberá utilizar su movimiento en sus turnos para acercarse lo máximo posible al objetivo por",
+   "text": "Simpatía. La criatura tiene el estado de hechizada y deberá utilizar su movimiento en sus turnos para acercarse lo máximo posible al objetivo por"
+  },
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "la ruta más segura. Si la criatura se encuentra a 1,5 m o menos del objetivo, no podrá alejarse de él voluntariamente. Si el objetivo daña a la criatura hechizada, esta podrá hacer una tirada de salvación de Sabiduría para poner fin al efecto, como se describe a continuación.",
+   "text": "la ruta más segura. Si la criatura se encuentra a 1,5 m o menos del objetivo, no podrá alejarse de él voluntariamente. Si el objetivo daña a la criatura hechizada, esta podrá hacer una tirada de salvación de Sabiduría para poner fin al efecto, como se describe a continuación."
+  },
+  {
+   "type": "definition",
+   "page": 122,
+   "md": "***Poner fin al efecto.*** Si la criatura asustada o hechizada termina su turno a más de 36 m del objetivo, deberá hacer una tirada de salvación de Sabiduría. Si la supera, dejará de verse afectada por el objetivo. Las criaturas que superen la tirada de salvación contra este efecto serán inmunes a él durante 1 minuto y después podrán verse afectadas otra vez.",
+   "text": "Poner fin al efecto. Si la criatura asustada o hechizada termina su turno a más de 36 m del objetivo, deberá hacer una tirada de salvación de Sabiduría. Si la supera, dejará de verse afectada por el objetivo. Las criaturas que superen la tirada de salvación contra este efecto serán inmunes a él durante 1 minuto y después podrán verse afectadas otra vez."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 121
+ }
+}

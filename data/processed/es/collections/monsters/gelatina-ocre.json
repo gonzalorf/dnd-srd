@@ -1,0 +1,119 @@
+{
+ "id": "monster.gelatina-ocre",
+ "name": "Gelatina ocre",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 327
+ },
+ "context": [
+  "Gelatina ocre"
+ ],
+ "metaRaw": "Cieno Grande, sin alineamiento",
+ "type": "Cieno",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 8,
+ "acRaw": "8",
+ "initiative": {
+  "mod": -2,
+  "score": 8
+ },
+ "hp": {
+  "raw": "52 (7d10 + 14)",
+  "average": 52,
+  "formula": "7d10 + 14"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "trepar": 6.0
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "cortante",
+  "relámpago",
+  "agarrado",
+  "apresado",
+  "asustado",
+  "cansancio",
+  "derribado",
+  "ensordecido",
+  "hechizado"
+ ],
+ "resistances": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "traits": [
+  {
+   "name": "Amorfa",
+   "md": "***Amorfa.*** La gelatina puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.",
+   "page": 327,
+   "description": "La gelatina puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo."
+  },
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** La gelatina puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 327,
+   "description": "La gelatina puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Pseudópodo",
+   "md": "***Pseudópodo.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 12 (3d6 + 2) de daño de ácido.",
+   "page": 327,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 12 (3d6 + 2) de daño de ácido."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Dividirse",
+   "md": "***Dividirse.*** *Detonante:* mientras sea Grande o Mediana y tenga 10 o más puntos de golpe, la gelatina pasa a estar maltrecha o recibe daño cortante o de relámpago. *Respuesta:* la gelatina se divide en dos nuevas gelatinas ocres. Cada nueva gelatina tiene un tamaño inferior al de la gelatina original y actúa en su orden de iniciativa. Los puntos de golpe de la gelatina original se dividen a partes iguales entre las nuevas gelatinas (redondeados hacia abajo).",
+   "page": 327,
+   "description": "*Detonante:* mientras sea Grande o Mediana y tenga 10 o más puntos de golpe, la gelatina pasa a estar maltrecha o recibe daño cortante o de relámpago. *Respuesta:* la gelatina se divide en dos nuevas gelatinas ocres. Cada nueva gelatina tiene un tamaño inferior al de la gelatina original y actúa en su orden de iniciativa. Los puntos de golpe de la gelatina original se dividen a partes iguales entre las nuevas gelatinas (redondeados hacia abajo)."
+  }
+ ]
+}

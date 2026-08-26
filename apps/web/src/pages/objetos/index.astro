@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import { collections, slugOf } from "../../lib/srd";
+const items = collections.itemIndex().sort((a, b) => a.name.localeCompare(b.name, "es"));
+const cats = [...new Set(items.map((i) => i.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+const RAREZAS = ["común", "infrecuente", "raro", "muy raro", "legendario", "artefacto", "varía"];
+---
+
+<Base title="Objetos mágicos" subtitle="Los 258 objetos mágicos del SRD, filtrables por categoría, rareza y sintonización.">
+  <p class="entradilla">{items.length} objetos.</p>
+  <form class="filtros" id="filtros">
+    <label>Categoría <select name="cat"><option value="">Todas</option>{cats.map((c) => <option>{c}</option>)}</select></label>
+    <label>Rareza <select name="rareza"><option value="">Todas</option>{RAREZAS.map((r) => <option>{r}</option>)}</select></label>
+    <label class="check"><input type="checkbox" name="sint" /> Requiere sintonización</label>
+  </form>
+
+  <table class="fichas">
+    <thead><tr><th>Objeto</th><th>Categoría</th><th>Rareza</th><th>Sint.</th><th>p.</th></tr></thead>
+    <tbody>
+      {items.map((i) => (
+        <tr data-cat={i.category ?? ""} data-rareza={i.rarity ?? ""} data-sint={String(i.attunement)}>
+          <td><a href={`/objetos/${slugOf(i.id)}/`}>{i.name}</a></td>
+          <td>{i.category}{i.variant ? ` (${i.variant})` : ""}</td>
+          <td>{i.rarity}</td>
+          <td>{i.attunement ? "Sí" : "—"}</td>
+          <td class="pag">{i.page}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p class="sin-resultados" hidden>Ningún objeto coincide con los filtros.</p>
+
+  <script is:inline>
+    const form = document.getElementById("filtros");
+    const filas = [...document.querySelectorAll("table.fichas tbody tr")];
+    const aviso = document.querySelector(".sin-resultados");
+    form.addEventListener("change", () => {
+      const d = new FormData(form);
+      let visibles = 0;
+      for (const fila of filas) {
+        const ok = (!d.get("cat") || fila.dataset.cat === d.get("cat")) &&
+                   (!d.get("rareza") || fila.dataset.rareza === d.get("rareza")) &&
+                   (!d.get("sint") || fila.dataset.sint === "true");
+        fila.hidden = !ok;
+        if (ok) visibles++;
+      }
+      aviso.hidden = visibles > 0;
+    });
+  </script>
+</Base>

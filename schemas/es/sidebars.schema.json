@@ -1,0 +1,82 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "sidebars",
+ "description": "Inferido de 18 fichas de la colección «sidebars».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "md": {
+       "type": "string"
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "paragraph"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "text",
+      "type"
+     ]
+    }
+   },
+   "context": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "item.pergamino-de-conjuro"
+     ]
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "title": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "blocks",
+   "context",
+   "id",
+   "source",
+   "title"
+  ]
+ }
+}

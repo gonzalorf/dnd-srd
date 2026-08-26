@@ -1,0 +1,33 @@
+{
+ "id": "table.ritmo-de-viaje",
+ "caption": "Ritmo de viaje",
+ "header": [
+  "Ritmo",
+  "Distancia recorrida por… MinutoHoraDía"
+ ],
+ "rows": [
+  [
+   "Rápido",
+   "120 m6 km45 km"
+  ],
+  [
+   "Normal",
+   "90 m4,5 km36 km"
+  ],
+  [
+   "Lento",
+   "60 m3 km27 km"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Exploración",
+  "Viajar",
+  "Ritmo de viaje"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 13
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.espacio-ocupado",
+ "name": "Espacio ocupado",
+ "text": "Un espacio se considera ocupado si una criatura se encuentra en él o si está completamente lleno de objetos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Un espacio se considera ocupado si una criatura se encuentra en él o si está completamente lleno de objetos.",
+   "text": "Un espacio se considera ocupado si una criatura se encuentra en él o si está completamente lleno de objetos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ }
+}

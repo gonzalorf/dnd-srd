@@ -1,0 +1,78 @@
+{
+ "id": "item.cinturon-de-fuerza-de-gigante",
+ "name": "Cinturón de fuerza de gigante",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "varía",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, rareza variable (requiere sintonización)",
+ "text": "Mientras lleves puesto este cinturón, tu Fuerza cambiará a una puntuación proporcionada por el cinturón. El tipo de gigante determina la puntuación (consulta la tabla más adelante). No tendrá ningún efecto si tu Fuerza sin el cinturón es igual o superior a la que proporciona.\n\nCinturón de fuerza de gigante 27 Legendario (nubes)",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 248,
+   "md": "Mientras lleves puesto este cinturón, tu Fuerza cambiará a una puntuación proporcionada por el cinturón. El tipo de gigante determina la puntuación (consulta la tabla más adelante). No tendrá ningún efecto si tu Fuerza sin el cinturón es igual o superior a la que proporciona.",
+   "text": "Mientras lleves puesto este cinturón, tu Fuerza cambiará a una puntuación proporcionada por el cinturón. El tipo de gigante determina la puntuación (consulta la tabla más adelante). No tendrá ningún efecto si tu Fuerza sin el cinturón es igual o superior a la que proporciona."
+  },
+  {
+   "type": "table",
+   "page": 248,
+   "caption": null,
+   "header": [
+    "Cinturón",
+    "Fue",
+    "Rareza"
+   ],
+   "rows": [
+    [
+     "Cinturón de fuerza de gigante (colinas)",
+     "21",
+     "Raro"
+    ],
+    [
+     "Cinturón de fuerza de gigante (escarcha o piedra)",
+     "23",
+     "Muy raro"
+    ],
+    [
+     "Cinturón de fuerza de gigante (fuego)",
+     "25",
+     "Muy raro"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 249,
+   "caption": null,
+   "header": [
+    "Cinturón",
+    "Fue",
+    "Rareza"
+   ],
+   "rows": [
+    [
+     "Cinturón de fuerza de gigante",
+     "29",
+     "Legendario"
+    ],
+    [
+     "(tormentas)",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 249,
+   "md": "*Cinturón de fuerza de gigante* 27 Legendario (nubes)",
+   "text": "Cinturón de fuerza de gigante 27 Legendario (nubes)"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 248
+ }
+}

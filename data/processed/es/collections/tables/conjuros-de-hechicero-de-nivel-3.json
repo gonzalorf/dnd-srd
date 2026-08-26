@@ -1,0 +1,126 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-3",
+ "caption": "Conjuros de hechicero de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Acelerar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Bola de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Caminar sobre el agua",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Clarividencia",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Contrahechizo",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Desplazamiento",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Don de lenguas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Forma gaseosa",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Imagen mayor",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Luz del día",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Nube apestosa",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Patrón hipnótico",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Protección contra energía",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Ralentizar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Relámpago",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Respirar bajo el agua",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Terror",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Toque vampírico",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Tormenta de aguanieve",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Volar",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 69
+ }
+}

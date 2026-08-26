@@ -1,0 +1,52 @@
+{
+ "id": "spell.parar-el-tiempo",
+ "name": "Parar el tiempo",
+ "level": 9,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Detienes el paso del tiempo brevemente para todo el mundo menos para ti. Para las demás criaturas, el tiempo no avanza, mientras que tú puedes llevar a cabo 1d4 + 1 turnos seguidos, durante los cuales puedes usar acciones y moverte con normalidad.\n\nEste conjuro termina si una de las acciones que usas o uno de los efectos que creas durante este periodo afecta a una criatura que no seas tú o a un objeto que lleve o vista alguien que no seas tú. También termina si te mueves a un sitio que esté a más de 300 m del lugar donde lo lanzaste.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Detienes el paso del tiempo brevemente para todo el mundo menos para ti. Para las demás criaturas, el tiempo no avanza, mientras que tú puedes llevar a cabo 1d4 + 1 turnos seguidos, durante los cuales puedes usar acciones y moverte con normalidad.",
+   "text": "Detienes el paso del tiempo brevemente para todo el mundo menos para ti. Para las demás criaturas, el tiempo no avanza, mientras que tú puedes llevar a cabo 1d4 + 1 turnos seguidos, durante los cuales puedes usar acciones y moverte con normalidad."
+  },
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Este conjuro termina si una de las acciones que usas o uno de los efectos que creas durante este periodo afecta a una criatura que no seas tú o a un objeto que lleve o vista alguien que no seas tú. También termina si te mueves a un sitio que esté a más de 300 m del lugar donde lo lanzaste.",
+   "text": "Este conjuro termina si una de las acciones que usas o uno de los efectos que creas durante este periodo afecta a una criatura que no seas tú o a un objeto que lleve o vista alguien que no seas tú. También termina si te mueves a un sitio que esté a más de 300 m del lugar donde lo lanzaste."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "species",
+ "description": "Inferido de 9 fichas de la colección «species».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": "string",
+       "enum": [
+        "Ancestros dracónicos",
+        "Legados infernales",
+        "Linajes élficos"
+       ]
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "enum": [
+         "Dragón",
+         "Legado",
+         "Linaje",
+         "Nivel 1",
+         "Nivel 3",
+         "Nivel 5",
+         "Tipo de daño"
+        ]
+       }
+      },
+      "md": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "callout",
+        "definition",
+        "paragraph",
+        "table"
+       ]
+      }
+     },
+     "required": [
+      "page",
+      "type"
+     ]
+    }
+   },
+   "id": {
+    "type": "string",
+    "enum": [
+     "species.draconido",
+     "species.elfo",
+     "species.enano",
+     "species.gnomo",
+     "species.goliat",
+     "species.humano",
+     "species.mediano",
+     "species.orco",
+     "species.tiefling"
+    ]
+   },
+   "name": {
+    "type": "string",
+    "enum": [
+     "Dracónido",
+     "Elfo",
+     "Enano",
+     "Gnomo",
+     "Goliat",
+     "Humano",
+     "Mediano",
+     "Orco",
+     "Tiefling"
+    ]
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "spell.hablar-con-los-animales",
+      "spell.ilusion-menor",
+      "spell.prestidigitacion",
+      "spell.reparar",
+      "spell.taumaturgia"
+     ]
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "text": {
+    "type": "string",
+    "enum": [
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,2 y 1,5 m de altura)\n\nVelocidad: 9 m\n\nComo enano, tienes estos atributos especiales:\n\nAfinidad con la piedra. Como acción adicional, ganas la capacidad de sentir vibraciones con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada. Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.\n\nAguante enano. Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel.\n\nResistencia enana. Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 36 m.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie\n\nVelocidad: 9 m\n\nComo humano, tienes estos atributos especiales:\n\nDiestro. Ganas competencia en una habilidad de tu elección.\n\nIngenioso. Obtienes inspiración heroica tras finalizar un descanso largo.\n\nVersátil. Obtienes una dote de origen de tu elección (consulta el capítulo “Dotes”). Se recomienda Habilidoso.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 90 cm y 1,2 m de altura), elegido al seleccionar la especie\n\nVelocidad: 9 m\n\nComo tiefling, tienes los siguientes atributos especiales:\n\nLegado infernal. Eres el destinatario de un legado que te otorga capacidades sobrenaturales. Elige un legado de la tabla “Legados infernales”. Obtienes el beneficio de nivel 1 del legado elegido. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro\n\npreparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado.\n\nLa Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el legado).\n\nPresencia sobrenatural. Conoces el truco taumaturgia. Cuando lo lances con este atributo, el conjuro utiliza la misma aptitud mágica que la de tu atributo Legado infernal.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,5 y 1,8 m de altura)\n\nVelocidad: 9 m\n\nComo elfo, tienes estos atributos especiales:\n\nLinaje élfico. Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla “Linajes élficos”. Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de ha\n\ncerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado.\n\nLa Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje).\n\nLinaje feérico. Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado.\n\nSentidos agudos. Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia.\n\nTrance. No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,5 y 2,1 m de altura)\n\nVelocidad: 9 m\n\nComo dracónido, tienes estos atributos especiales:\n\nLinaje dracónico. Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón en la tabla “Ancestros dracónicos”. Tu elección afectará a tus atributos Ataque de aliento y Resistencia al daño además de a tu aspecto.\n\nAtaque de aliento. Cuando lleves a cabo la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo y 1,5 m de ancho (elige la forma cada vez). Todas las criaturas situadas en esa zona deberán hacer una tirada de salvación de Destreza (CD 8 más tu modificador por Constitución y tu bonificador por competencia). Si la fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje dracónico. Si la superan, sufrirán la mitad de ese daño. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.\n\nResistencia al daño. Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.\n\nVuelo dracónico. Cuando alcanzas el nivel 5 de personaje, puedes canalizar la magia dracónica para volar de forma temporal. Como acción adicional, haces que en la espalda te broten unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o tengas el estado de incapacitado. Durante ese tiempo, tendrás una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu ataque de aliento. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,8 y 2,1 m de altura)\n\nVelocidad: 9 m\n\nComo orco, tienes estos atributos especiales:\n\nAguante incansable. Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.\n\nDescarga de adrenalina. Puedes llevar a cabo la acción de correr como acción adicional. Cuando lo hagas, obtendrás una cantidad de puntos de golpe temporales igual a tu bonificador por competencia. Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso corto o largo.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 36 m.",
+     "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 2,1 y 2,4 m de altura)\n\nVelocidad: 10,5 m\n\nComo goliat, tienes estos atributos especiales:\n\nConstitución poderosa. Tienes ventaja en cualquier prueba de característica que hagas para poner fin al estado de agarrado. Además, al determinar tu capacidad de carga, cuentas como si tuvieras un tamaño una categoría superior.\n\nForma grande. A partir del nivel 5 de personaje, puedes cambiar de tamaño a Grande como acción adicional si estás en un lugar lo bastante espacioso. Esta transformación dura 10 minutos o hasta que le pongas fin (no requiere acción). Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza y tu velocidad aumentará en 3 m. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.\n\nLinaje gigante. Desciendes de los gigantes. Elige uno de los siguientes beneficios sobrenaturales que te concede tu linaje; podrás usar el beneficio elegido una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo:\n\nAbrasión del fuego (gigante de fuego). Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d10 de daño de fuego.\n\nCaída de las colinas (gigante de las colinas). Cuando aciertes a una criatura Grande o más pequeña con una tirada de ataque y le causes daño, también puedes infligirle el estado de derribada.\n\nExcursión de las nubes (gigante de las nubes). Como acción adicional, te teletransportas mágicamente hasta 9 m a un espacio sin ocupar que puedas ver.\n\nFrío de la escarcha (gigante de escarcha). Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d6 de daño de frío y reducir su velocidad en 3 m hasta el principio de tu siguiente turno.\n\nResistencia de la piedra (gigante de piedra). Cuando recibas daño, puedes usar una reacción para tirar 1d12. Suma tu modificador por Constitución al resultado y reduce el daño en ese total.\n\nTrueno de la tormenta (gigante de las tormentas). Cuando una criatura que esté a 18 m o menos de ti te cause daño, puedes usar una reacción para infligirle 1d8 de daño de trueno.",
+     "Tipo de criatura: humanoide\n\nTamaño: Pequeño (entre 60 y 90 cm de altura)\n\nVelocidad: 9 m\n\nComo mediano, tienes estos atributos especiales:\n\nAgilidad de mediano. Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio.\n\nFortuna. Cuando saques un 1 en una prueba con d20, podrás repetir la tirada y deberás utilizar el nuevo resultado.\n\nSigiloso por naturaleza. Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo.\n\nValiente. Tienes ventaja en las tiradas de salvación que hagas para evitar o poner fin al estado de asustado.",
+     "Tipo de criatura: humanoide\n\nTamaño: Pequeño (entre 90 cm y 1,2 m de altura)\n\nVelocidad: 9 m\n\nComo gnomo, tienes estos atributos especiales:\n\nAstucia gnoma. Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.\n\nLinaje gnomo. Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):\n\nGnomo de las rocas. Conoces los trucos prestidigitación y reparar. Además, puedes pasar 10 minutos lanzando prestidigitación para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de prestidigitación. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Por ejemplo, si eliges el efecto de encender o apagar del conjuro, determinas si el dispositivo enciende o apaga los fuegos: el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar.\n\nGnomo de los bosques. Conoces el truco ilusión menor. Además, siempre tienes el conjuro hablar con los animales preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m."
+    ]
+   }
+  },
+  "required": [
+   "blocks",
+   "id",
+   "name",
+   "source",
+   "text"
+  ]
+ }
+}

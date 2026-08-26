@@ -1,0 +1,17 @@
+---
+import Base from "../../layouts/Base.astro";
+import Bloques from "../../components/Bloques.astro";
+import { collections, slugOf } from "../../lib/srd";
+
+export function getStaticPaths() {
+  return collections.magicItems().map((i) => ({ params: { slug: slugOf(i.id) }, props: { i } }));
+}
+const { i } = Astro.props as any;
+---
+
+<Base title={i.name} page={i.source.page} subtitle={i.subtitle}>
+  <article data-pagefind-body>
+    <p class="subtitulo">{i.subtitle}</p>
+    <Bloques nodes={i.blocks.map((b: any) => ({ ...b, source: { page: b.page } }))} depth={2} selfId={i.id} />
+  </article>
+</Base>

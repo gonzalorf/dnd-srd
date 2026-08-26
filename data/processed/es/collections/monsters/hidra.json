@@ -1,0 +1,124 @@
+{
+ "id": "monster.hidra",
+ "name": "Hidra",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 337,
+  "pages": [
+   337,
+   338
+  ]
+ },
+ "context": [
+  "Hidra"
+ ],
+ "metaRaw": "Monstruosidad Enorme, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "184 (16d12 + 80)",
+  "average": 184,
+  "formula": "16d12 + 80"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0
+ },
+ "skills": {
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "asustado",
+  "aturdido",
+  "cegado",
+  "ensordecido",
+  "hechizado",
+  "inconsciente"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Aguantar la respiración",
+   "md": "***Aguantar la respiración.*** La hidra puede aguantar la respiración durante 1 hora.",
+   "page": 337,
+   "description": "La hidra puede aguantar la respiración durante 1 hora."
+  },
+  {
+   "name": "Cabezas reactivas",
+   "md": "***Cabezas reactivas.*** Por cada cabeza que tenga además de la primera, la hidra obtiene una reacción adicional que solo puede usar para realizar ataques de oportunidad.",
+   "page": 337,
+   "description": "Por cada cabeza que tenga además de la primera, la hidra obtiene una reacción adicional que solo puede usar para realizar ataques de oportunidad."
+  },
+  {
+   "name": "Múltiples cabezas",
+   "md": "***Múltiples cabezas.*** La hidra tiene cinco cabezas. Si recibe 25 o más de daño en un solo turno, perderá una de sus cabezas. Si todas sus cabezas mueren, la hidra morirá. Al final de cada uno de sus turnos, mientras tenga al menos una cabeza viva, a la hidra le crecerán dos cabezas por cada cabeza que haya muerto desde su último turno, a menos que haya recibido daño de fuego desde su último turno. Cuando le crecen nuevas cabezas, la hidra recupera 20 puntos de golpe.",
+   "page": 337,
+   "description": "La hidra tiene cinco cabezas. Si recibe 25 o más de daño en un solo turno, perderá una de sus cabezas. Si todas sus cabezas mueren, la hidra morirá. Al final de cada uno de sus turnos, mientras tenga al menos una cabeza viva, a la hidra le crecerán dos cabezas por cada cabeza que haya muerto desde su último turno, a menos que haya recibido daño de fuego desde su último turno. Cuando le crecen nuevas cabezas, la hidra recupera 20 puntos de golpe."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La hidra realiza un ataque de mordisco por cada cabeza que tenga.",
+   "page": 338,
+   "description": "La hidra realiza un ataque de mordisco por cada cabeza que tenga."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 10 (1d10 + 5) de daño perforante.",
+   "page": 338,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 10 (1d10 + 5) de daño perforante."
+  }
+ ]
+}

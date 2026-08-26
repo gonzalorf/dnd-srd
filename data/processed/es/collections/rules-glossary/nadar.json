@@ -1,0 +1,17 @@
+{
+ "id": "rule.nadar",
+ "name": "Nadar",
+ "text": "Cuando nadas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad nadando y la usas para nadar. Si tu GM lo cree conveniente, para recorrer cualquier distancia por aguas revueltas podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Cuando nadas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad nadando y la usas para nadar. Si tu GM lo cree conveniente, para recorrer cualquier distancia por aguas revueltas podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15.",
+   "text": "Cuando nadas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad nadando y la usas para nadar. Si tu GM lo cree conveniente, para recorrer cualquier distancia por aguas revueltas podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

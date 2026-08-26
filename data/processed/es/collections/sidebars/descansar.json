@@ -1,0 +1,20 @@
+{
+ "id": "sidebar.descansar",
+ "title": "Descansar",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Los personajes no pueden pasarse cada momento del día enfrascados en sus aventuras. Necesitan descansar. Todas las criaturas pueden hacer descansos cortos de una hora durante el día y uno largo de 8 horas al finalizarlo. Recuperar puntos de golpe es uno de los beneficios principales de descansar. En el capítulo “Glosario de reglas” se explica cómo funcionan los descansos cortos y los largos.",
+   "text": "Los personajes no pueden pasarse cada momento del día enfrascados en sus aventuras. Necesitan descansar. Todas las criaturas pueden hacer descansos cortos de una hora durante el día y uno largo de 8 horas al finalizarlo. Recuperar puntos de golpe es uno de los beneficios principales de descansar. En el capítulo “Glosario de reglas” se explica cómo funcionan los descansos cortos y los largos."
+  }
+ ],
+ "context": [
+  "Cómo jugar",
+  "Daño y curación",
+  "Tiradas de salvación y daño"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 18
+ }
+}

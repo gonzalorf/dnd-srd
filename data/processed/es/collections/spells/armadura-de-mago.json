@@ -1,0 +1,50 @@
+{
+ "id": "spell.armadura-de-mago",
+ "name": "Armadura de mago",
+ "level": 1,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de piel curtida)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de piel curtida",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 más su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 más su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.",
+   "text": "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 más su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 122
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.alcance",
+ "name": "Alcance",
+ "text": "Una criatura tiene un alcance de 1,5 m a menos que una regla indique algo distinto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Una criatura tiene un alcance de 1,5 m a menos que una regla indique algo distinto.",
+   "text": "Una criatura tiene un alcance de 1,5 m a menos que una regla indique algo distinto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

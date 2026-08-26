@@ -1,0 +1,53 @@
+{
+ "id": "spell.castigo-abrasador",
+ "name": "Castigo abrasador",
+ "level": 1,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.\n\nCon un espacio de conjuro de nivel superior. Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.",
+   "text": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará."
+  },
+  {
+   "type": "definition",
+   "page": 127,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 127
+ }
+}

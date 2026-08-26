@@ -1,0 +1,32 @@
+{
+ "id": "item.pocion-de-amistad-animal",
+ "name": "Poción de amistad animal",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "Cuando bebas esta poción, podrás lanzar la versión de nivel 3 del conjuro encantar animal (CD de salvación 13).\n\nSi agitas esta turbia poción, verás pequeños fragmentos: una escama de un pez, una pluma de colibrí, la garra de un gato o el pelo de una ardilla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "Cuando bebas esta poción, podrás lanzar la versión de nivel 3 del conjuro *encantar animal* (CD de salvación 13).",
+   "text": "Cuando bebas esta poción, podrás lanzar la versión de nivel 3 del conjuro encantar animal (CD de salvación 13)."
+  },
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "Si agitas esta turbia poción, verás pequeños fragmentos: una escama de un pez, una pluma de colibrí, la garra de un gato o el pelo de una ardilla.",
+   "text": "Si agitas esta turbia poción, verás pequeños fragmentos: una escama de un pez, una pluma de colibrí, la garra de un gato o el pelo de una ardilla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 266
+ },
+ "refs": [
+  "spell.encantar-animal"
+ ]
+}

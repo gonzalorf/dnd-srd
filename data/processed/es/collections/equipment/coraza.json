@@ -1,0 +1,29 @@
+{
+ "id": "armor.coraza",
+ "name": "Coraza",
+ "kind": "armor",
+ "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Coraza",
+  "Clase de armadura (CA)": "14 + modificador por Des (máx. 2)",
+  "Fuerza": "—",
+  "Sigilo": "—",
+  "Peso": "10 kg",
+  "Precio": "400 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "10 kg",
+  "kg": 10.0
+ },
+ "price": {
+  "raw": "400 po",
+  "amount": 400.0,
+  "coin": "po",
+  "gp": 400.0
+ }
+}

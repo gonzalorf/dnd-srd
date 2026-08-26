@@ -1,0 +1,68 @@
+{
+ "id": "spell.cambiar-de-forma",
+ "name": "Cambiar de forma",
+ "level": 9,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una diadema de jade que valga al menos 1500 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una diadema de jade que valga al menos 1500 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Asumes la forma de otra criatura hasta que termine el conjuro o hasta que uses una acción de magia para adoptar otra forma para la que cumplas los requisitos. La nueva forma debe ser la de una criatura con un valor de desafío igual o menor a tu nivel o valor de desafío. Tienes que haber visto alguna criatura de ese tipo y no puede ser un autómata ni un muerto viviente.\n\nCuando lanzas el conjuro, obtienes una cantidad de puntos de golpe temporales igual a los puntos de golpe de la primera forma que adoptes. Estos puntos de golpe temporales se desvanecerán si conservas alguno cuando el conjuro termine.\n\nTu perfil se sustituye por el de la forma elegida, pero conservarás tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabiduría y Carisma, puntos de golpe, dados de puntos de golpe, competencias y capacidad para comunicarte. También conservas el rasgo Lanzamiento de conjuros si lo tienes.\n\nAl cambiar de forma, eliges si tu equipo cae al suelo o cambia de tamaño y forma para adaptarse a tu nuevo aspecto mientras lo adoptes.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 126,
+   "md": "Asumes la forma de otra criatura hasta que termine el conjuro o hasta que uses una acción de magia para adoptar otra forma para la que cumplas los requisitos. La nueva forma debe ser la de una criatura con un valor de desafío igual o menor a tu nivel o valor de desafío. Tienes que haber visto alguna criatura de ese tipo y no puede ser un autómata ni un muerto viviente.",
+   "text": "Asumes la forma de otra criatura hasta que termine el conjuro o hasta que uses una acción de magia para adoptar otra forma para la que cumplas los requisitos. La nueva forma debe ser la de una criatura con un valor de desafío igual o menor a tu nivel o valor de desafío. Tienes que haber visto alguna criatura de ese tipo y no puede ser un autómata ni un muerto viviente."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Cuando lanzas el conjuro, obtienes una cantidad de puntos de golpe temporales igual a los puntos de golpe de la primera forma que adoptes. Estos puntos de golpe temporales se desvanecerán si conservas alguno cuando el conjuro termine.",
+   "text": "Cuando lanzas el conjuro, obtienes una cantidad de puntos de golpe temporales igual a los puntos de golpe de la primera forma que adoptes. Estos puntos de golpe temporales se desvanecerán si conservas alguno cuando el conjuro termine."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Tu perfil se sustituye por el de la forma elegida, pero conservarás tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabiduría y Carisma, puntos de golpe, dados de puntos de golpe, competencias y capacidad para comunicarte. También conservas el rasgo Lanzamiento de conjuros si lo tienes.",
+   "text": "Tu perfil se sustituye por el de la forma elegida, pero conservarás tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabiduría y Carisma, puntos de golpe, dados de puntos de golpe, competencias y capacidad para comunicarte. También conservas el rasgo Lanzamiento de conjuros si lo tienes."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Al cambiar de forma, eliges si tu equipo cae al suelo o cambia de tamaño y forma para adaptarse a tu nuevo aspecto mientras lo adoptes.",
+   "text": "Al cambiar de forma, eliges si tu equipo cae al suelo o cambia de tamaño y forma para adaptarse a tu nuevo aspecto mientras lo adoptes."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 126
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "table.progreso-de-los-personajes",
+ "caption": "Progreso de los personajes",
+ "header": [
+  "Nivel",
+  "Puntos de experiencia",
+  "Bonificador por competencia"
+ ],
+ "rows": [
+  [
+   "1",
+   "0",
+   "+2"
+  ],
+  [
+   "2",
+   "300",
+   "+2"
+  ],
+  [
+   "3",
+   "900",
+   "+2"
+  ],
+  [
+   "4",
+   "2700",
+   "+2"
+  ],
+  [
+   "5",
+   "6500",
+   "+3"
+  ],
+  [
+   "6",
+   "14 000",
+   "+3"
+  ],
+  [
+   "7",
+   "23 000",
+   "+3"
+  ],
+  [
+   "8",
+   "34 000",
+   "+3"
+  ],
+  [
+   "9",
+   "48 000",
+   "+4"
+  ],
+  [
+   "10",
+   "64 000",
+   "+4"
+  ],
+  [
+   "11",
+   "85 000",
+   "+4"
+  ],
+  [
+   "12",
+   "100 000",
+   "+4"
+  ],
+  [
+   "13",
+   "120 000",
+   "+5"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Progresión de niveles"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 25
+ }
+}

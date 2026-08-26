@@ -1,0 +1,106 @@
+{
+ "id": "table.conjuros-de-clerigo-de-nivel-2",
+ "caption": "Conjuros de clérigo de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Arma espiritual",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Augurio",
+   "Adivinación",
+   "R, M"
+  ],
+  [
+   "Auxilio",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Calmar emociones",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Detectar trampas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Dulce descanso",
+   "Nigromancia",
+   "R, M"
+  ],
+  [
+   "Inmovilizar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Llama permanente",
+   "Evocación",
+   "M"
+  ],
+  [
+   "Localizar objeto",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Plegaria de curación",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Potenciar característica",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Protección contra veneno",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Restablecimiento menor",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Silencio",
+   "Ilusionismo",
+   "C, R"
+  ],
+  [
+   "Sordera/ceguera",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Vínculo protector",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Zona de la verdad",
+   "Encantamiento",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo",
+  "Lista de conjuros de clérigo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 50
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "spell.esfera-vitriolica",
+ "name": "Esfera vitriólica",
+ "level": 4,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (una gota de bilis)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gota de bilis",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Señalas un lugar dentro del alcance y una bola resplandeciente de ácido de 30 cm de diámetro vuela hacia el punto escogido y explota en una esfera de 6 m de radio. Todas las criaturas situadas en esa zona realizan una tirada de salvación de Destreza. Si la fallan, recibirán 10d4 de daño de ácido y otros 5d4 de daño de ácido al final de su siguiente turno. Si la superan, solo sufren la mitad del daño inicial.\n\nCon un espacio de conjuro de nivel superior. El daño inicial aumenta en 2d4 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Señalas un lugar dentro del alcance y una bola resplandeciente de ácido de 30 cm de diámetro vuela hacia el punto escogido y explota en una esfera de 6 m de radio. Todas las criaturas situadas en esa zona realizan una tirada de salvación de Destreza. Si la fallan, recibirán 10d4 de daño de ácido y otros 5d4 de daño de ácido al final de su siguiente turno. Si la superan, solo sufren la mitad del daño inicial.",
+   "text": "Señalas un lugar dentro del alcance y una bola resplandeciente de ácido de 30 cm de diámetro vuela hacia el punto escogido y explota en una esfera de 6 m de radio. Todas las criaturas situadas en esa zona realizan una tirada de salvación de Destreza. Si la fallan, recibirán 10d4 de daño de ácido y otros 5d4 de daño de ácido al final de su siguiente turno. Si la superan, solo sufren la mitad del daño inicial."
+  },
+  {
+   "type": "definition",
+   "page": 148,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño inicial aumenta en 2d4 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño inicial aumenta en 2d4 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 148
+ }
+}

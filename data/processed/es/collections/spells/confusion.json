@@ -1,0 +1,92 @@
+{
+ "id": "spell.confusion",
+ "name": "Confusión",
+ "level": 4,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V, S, M (tres cáscaras de nuez)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "tres cáscaras de nuez",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación.\n\nAl final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.\n\nCon un espacio de conjuro de nivel superior. El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 131,
+   "md": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación.",
+   "text": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación."
+  },
+  {
+   "type": "table",
+   "page": 131,
+   "caption": null,
+   "header": [
+    "1d10",
+    "Comportamiento del turno"
+   ],
+   "rows": [
+    [
+     "1",
+     "El objetivo no usa ninguna acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, tira 1d4: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste."
+    ],
+    [
+     "2–6",
+     "El objetivo no se mueve ni realiza acciones."
+    ],
+    [
+     "7–8",
+     "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción."
+    ],
+    [
+     "9–10",
+     "El objetivo elige su comportamiento."
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 131,
+   "md": "Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.",
+   "text": "Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 131,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 131
+ }
+}

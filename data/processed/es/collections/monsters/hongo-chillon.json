@@ -1,0 +1,88 @@
+{
+ "id": "monster.hongo-chillon",
+ "name": "Hongo chillón",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 341
+ },
+ "context": [
+  "Hongos"
+ ],
+ "metaRaw": "Planta Mediana, sin alineamiento",
+ "type": "Planta",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 5,
+ "acRaw": "5",
+ "initiative": {
+  "mod": -5,
+  "score": 5
+ },
+ "hp": {
+  "raw": "13 (3d8)",
+  "average": 13,
+  "formula": "3d8"
+ },
+ "speeds": {
+  "caminando": 1.5
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 6",
+  "passivePerception": 6
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "asustado",
+  "cegado",
+  "ensordecido",
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "0 (0 PX; BC +2)",
+  "cr": 0,
+  "xp": 0,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "des": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "reactions": [
+  {
+   "name": "Chillar",
+   "md": "***Chillar.*** *Detonante:* una criatura o una fuente de luz brillante se acerca a 9 m o menos del chillón. *Respuesta:* el chillón emite un grito audible a 90 m de él durante 1 minuto o hasta que muera.",
+   "page": 341,
+   "description": "*Detonante:* una criatura o una fuente de luz brillante se acerca a 9 m o menos del chillón. *Respuesta:* el chillón emite un grito audible a 90 m de él durante 1 minuto o hasta que muera."
+  }
+ ]
+}

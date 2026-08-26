@@ -1,0 +1,193 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "magic-items",
+ "description": "Inferido de 258 fichas de la colección «magic-items».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "attunement": {
+    "type": "boolean"
+   },
+   "attunementRequires": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "enum": [
+     "un bardo, brujo, clérigo, druida, hechicero o mago",
+     "un bardo, clérigo o druida",
+     "un brujo, druida, hechicero o mago",
+     "un brujo, hechicero o mago",
+     "un clérigo o paladín",
+     "un clérigo, druida o paladín",
+     "un enano o una criatura sintonizada con un cinturón enano",
+     "un lanzador de conjuros",
+     "un mago",
+     "un paladín",
+     null
+    ]
+   },
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": [
+        "string",
+        "null"
+       ],
+       "enum": [
+        "Baraja de ilusiones",
+        "Baraja misteriosa",
+        "Bolsa de trucos gris",
+        "Bolsa de trucos marrón",
+        "Bolsa de trucos rojiza",
+        "Caras del cubo de fuerza",
+        "Efectos de la varita de las maravillas",
+        "Fichas de pluma",
+        "Palancas del aparato del crustáceo",
+        null
+       ]
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": "string",
+       "enum": [
+        "Avatar de la muerte",
+        "Mosca gigante"
+       ]
+      },
+      "page": {
+       "type": "integer"
+      },
+      "ref": {
+       "type": "string",
+       "enum": [
+        "statblock.avatar-de-la-muerte",
+        "statblock.mosca-gigante"
+       ]
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "definition",
+        "list-item",
+        "paragraph",
+        "property",
+        "statblock",
+        "table"
+       ]
+      }
+     },
+     "required": [
+      "page",
+      "type"
+     ]
+    }
+   },
+   "category": {
+    "type": "string",
+    "enum": [
+     "Anillo",
+     "Arma",
+     "Armadura",
+     "Bastón",
+     "Objeto maravilloso",
+     "Pergamino",
+     "Poción",
+     "Vara",
+     "Varita"
+    ]
+   },
+   "id": {
+    "type": "string"
+   },
+   "name": {
+    "type": "string"
+   },
+   "rarity": {
+    "type": "string",
+    "enum": [
+     "artefacto",
+     "común",
+     "infrecuente",
+     "legendario",
+     "muy raro",
+     "raro",
+     "varía"
+    ]
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "subtitle": {
+    "type": "string"
+   },
+   "text": {
+    "type": "string"
+   },
+   "variant": {
+    "type": [
+     "string",
+     "null"
+    ]
+   }
+  },
+  "required": [
+   "attunement",
+   "attunementRequires",
+   "blocks",
+   "category",
+   "id",
+   "name",
+   "rarity",
+   "source",
+   "subtitle",
+   "text",
+   "variant"
+  ]
+ }
+}

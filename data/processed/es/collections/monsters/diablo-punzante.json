@@ -1,0 +1,138 @@
+{
+ "id": "monster.diablo-punzante",
+ "name": "Diablo punzante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 296
+ },
+ "context": [
+  "Diablo punzante"
+ ],
+ "metaRaw": "Infernal Mediano (diablo), legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "tags": [
+  "diablo"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "110 (13d8 + 52)",
+  "average": 110,
+  "formula": "13d8 + 52"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Engaño": 5,
+  "Percepción": 8,
+  "Perspicacia": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m (no afectada por la oscuridad mágica); Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "infernal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 6
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 7
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 5
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Piel espinosa",
+   "md": "***Piel espinosa.*** Al principio de cada uno de sus turnos, el diablo inflige 5 (1d10) de daño perforante a cualquier criatura a la que esté agarrando o que lo esté agarrando a él.",
+   "page": 296,
+   "description": "Al principio de cada uno de sus turnos, el diablo inflige 5 (1d10) de daño perforante a cualquier criatura a la que esté agarrando o que lo esté agarrando a él."
+  },
+  {
+   "name": "Recuperación diabólica",
+   "md": "***Recuperación diabólica.*** Si el diablo muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos.",
+   "page": 296,
+   "description": "Si el diablo muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El diablo tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 296,
+   "description": "El diablo tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El diablo realiza un ataque con sus garras y uno con su cola o realiza dos ataques de arrojar llama.",
+   "page": 296,
+   "description": "El diablo realiza un ataque con sus garras y uno con su cola o realiza dos ataques de arrojar llama."
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 14 (2d10 + 3) de daño cortante.",
+   "page": 296,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 14 (2d10 + 3) de daño cortante."
+  },
+  {
+   "name": "Garras",
+   "md": "***Garras.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 13 para escapar) por ambas garras.",
+   "page": 296,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 13 para escapar) por ambas garras."
+  },
+  {
+   "name": "Arrojar llama",
+   "md": "***Arrojar llama.*** *Tirada de ataque a distancia:* +5, alcance 45 m. *Acierto:* 17 (5d6) de daño de fuego. Si el objetivo es un objeto inflamable que no lleve o vista nadie, empieza a arder.",
+   "page": 296,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 45 m. *Acierto:* 17 (5d6) de daño de fuego. Si el objetivo es un objeto inflamable que no lleve o vista nadie, empieza a arder."
+  }
+ ]
+}

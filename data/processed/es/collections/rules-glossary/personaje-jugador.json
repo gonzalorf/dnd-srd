@@ -1,0 +1,17 @@
+{
+ "id": "rule.personaje-jugador",
+ "name": "Personaje jugador",
+ "text": "Un personaje jugador (también llamado personaje de un jugador) es un personaje que controla un jugador. Consulta también el capítulo “Creación de personajes”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "Un personaje jugador (también llamado personaje de un jugador) es un personaje que controla un jugador. *Consulta también* el capítulo “Creación de personajes”.",
+   "text": "Un personaje jugador (también llamado personaje de un jugador) es un personaje que controla un jugador. Consulta también el capítulo “Creación de personajes”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 205
+ }
+}

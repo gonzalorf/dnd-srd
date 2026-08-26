@@ -1,0 +1,121 @@
+{
+ "id": "monster.dragon-blanco-joven",
+ "name": "Dragón blanco joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 299,
+  "pages": [
+   299,
+   300
+  ]
+ },
+ "context": [
+  "Dragones blancos"
+ ],
+ "metaRaw": "Dragón Grande (cromático), caótico malvado",
+ "type": "Dragón",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "123 (13d10 + 52)",
+  "average": 123,
+  "formula": "13d10 + 52"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "excavar": 6.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 6,
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 3
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 3
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Caminar por el hielo",
+   "md": "***Caminar por el hielo.*** El dragón puede moverse y trepar por superficies heladas sin tener que hacer pruebas de característica. Además, desplazarse por terreno difícil compuesto de nieve o hielo no le cuesta movimiento adicional.",
+   "page": 300,
+   "description": "El dragón puede moverse y trepar por superficies heladas sin tener que hacer pruebas de característica. Además, desplazarse por terreno difícil compuesto de nieve o hielo no le cuesta movimiento adicional."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro.",
+   "page": 300,
+   "description": "El dragón realiza tres ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 9 (2d4 + 4) de daño cortante más 2 (1d4) de daño de frío.",
+   "page": 300,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 9 (2d4 + 4) de daño cortante más 2 (1d4) de daño de frío."
+  },
+  {
+   "name": "Aliento gélido",
+   "md": "***Aliento gélido (recarga 5–6).*** *Tirada de salvación de Constitución:* CD 15, todas las criaturas en un cono de 9 m. *Fallo:* 40 (9d8) de daño de frío. *Éxito:* la mitad del daño.",
+   "page": 300,
+   "description": "*Tirada de salvación de Constitución:* CD 15, todas las criaturas en un cono de 9 m. *Fallo:* 40 (9d8) de daño de frío. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "item.cuerno-de-estallido",
+ "name": "Cuerno de estallido",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Puedes emplear una acción de magia para soplar este cuerno, que emitirá un estallido estruendoso en un cono de 9 m audible a 180 m de distancia. Todas las criaturas situadas en el cono harán una tirada de salvación de Constitución con CD 15. Si la fallan, sufrirán 5d8 de daño de trueno y tendrán el estado de ensordecidas durante 1 minuto. Si la superan, solo sufrirán la mitad de ese daño. Los objetos de cristal o de vidrio que nadie vista o lleve en el cono recibirán 10d8 de daño de trueno.\n\nCada uso de la magia del cuerno tiene un 20 % de probabilidad de hacerlo explotar. La explosión inflige 10d6 de daño de fuerza a quien lo utiliza y destruye el cuerno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Puedes emplear una acción de magia para soplar este cuerno, que emitirá un estallido estruendoso en un cono de 9 m audible a 180 m de distancia. Todas las criaturas situadas en el cono harán una tirada de salvación de Constitución con CD 15. Si la fallan, sufrirán 5d8 de daño de trueno y tendrán el estado de ensordecidas durante 1 minuto. Si la superan, solo sufrirán la mitad de ese daño. Los objetos de cristal o de vidrio que nadie vista o lleve en el cono recibirán 10d8 de daño de trueno.",
+   "text": "Puedes emplear una acción de magia para soplar este cuerno, que emitirá un estallido estruendoso en un cono de 9 m audible a 180 m de distancia. Todas las criaturas situadas en el cono harán una tirada de salvación de Constitución con CD 15. Si la fallan, sufrirán 5d8 de daño de trueno y tendrán el estado de ensordecidas durante 1 minuto. Si la superan, solo sufrirán la mitad de ese daño. Los objetos de cristal o de vidrio que nadie vista o lleve en el cono recibirán 10d8 de daño de trueno."
+  },
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Cada uso de la magia del cuerno tiene un 20 % de probabilidad de hacerlo explotar. La explosión inflige 10d6 de daño de fuerza a quien lo utiliza y destruye el cuerno.",
+   "text": "Cada uso de la magia del cuerno tiene un 20 % de probabilidad de hacerlo explotar. La explosión inflige 10d6 de daño de fuerza a quien lo utiliza y destruye el cuerno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 251
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "spell.levitar",
+ "name": "Levitar",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un muelle de metal)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un muelle de metal",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Una criatura o un objeto suelto de tu elección que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine. El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvación de Constitución.\n\nEl objetivo solo puede moverse empujándose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si tú mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acción de magia para mover al objetivo, que deberá permanecer dentro del alcance del conjuro.\n\nCuando el conjuro termine, el objetivo flotará suavemente hasta llegar al suelo si todavía está en el aire.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Una criatura o un objeto suelto de tu elección que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine. El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvación de Constitución.",
+   "text": "Una criatura o un objeto suelto de tu elección que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine. El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvación de Constitución."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "El objetivo solo puede moverse empujándose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si tú mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acción de magia para mover al objetivo, que deberá permanecer dentro del alcance del conjuro.",
+   "text": "El objetivo solo puede moverse empujándose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si tú mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acción de magia para mover al objetivo, que deberá permanecer dentro del alcance del conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Cuando el conjuro termine, el objetivo flotará suavemente hasta llegar al suelo si todavía está en el aire.",
+   "text": "Cuando el conjuro termine, el objetivo flotará suavemente hasta llegar al suelo si todavía está en el aire."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 161
+ }
+}

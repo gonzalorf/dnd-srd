@@ -1,0 +1,20 @@
+{
+ "id": "sidebar.criaturas-sin-alineamiento",
+ "title": "Criaturas sin alineamiento",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "La mayoría de las criaturas que carecen de raciocinio no poseen alineamiento alguno: son sin alineamiento. Los tiburones son depredadores salvajes, por ejemplo, pero no son malvados; simplemente, no tienen alineamiento.",
+   "text": "La mayoría de las criaturas que carecen de raciocinio no poseen alineamiento alguno: son sin alineamiento. Los tiburones son depredadores salvajes, por ejemplo, pero no son malvados; simplemente, no tienen alineamiento."
+  }
+ ],
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 4: alineamiento"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 24
+ }
+}

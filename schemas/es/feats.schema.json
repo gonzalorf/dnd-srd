@@ -1,0 +1,86 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "feats",
+ "description": "Inferido de 17 fichas de la colección «feats».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "md": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "definition",
+        "paragraph",
+        "subtitle"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "page",
+      "text",
+      "type"
+     ]
+    }
+   },
+   "category": {
+    "type": "string",
+    "enum": [
+     "Dotes de don épico",
+     "Dotes de estilo de combate",
+     "Dotes de origen",
+     "Dotes generales"
+    ]
+   },
+   "id": {
+    "type": "string"
+   },
+   "name": {
+    "type": "string"
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "text": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "blocks",
+   "category",
+   "id",
+   "name",
+   "source",
+   "text"
+  ]
+ }
+}

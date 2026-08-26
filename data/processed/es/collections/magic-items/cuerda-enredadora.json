@@ -1,0 +1,35 @@
+{
+ "id": "item.cuerda-enredadora",
+ "name": "Cuerda enredadora",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Esta cuerda mide 9 m de largo. Mientras sujetas uno de los extremos, puedes emplear una acción de magia para ordenarle al otro que salga volando y enrede a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza con CD 15 o tendrá el estado de apresado. Puedes liberar al objetivo soltando tu extremo de la cuerda, lo que hará que se enrolle en el espacio del objetivo, o usando una acción adicional para repetir la orden, lo que hará que la cuerda se enrolle en tu mano.\n\nUn objetivo apresado por la cuerda puede usar una acción para hacer una prueba de Fuerza (Atletismo) o de Destreza (Acrobacias) con CD 15, a su elección. Si la supera, el objetivo dejará de estar apresado por la cuerda. Si todavía sostienes la cuerda cuando un objetivo se zafe de ella, podrás emplear una reacción para ordenarle a la cuerda que se enrolle en tu mano. Si no lo haces, se enrollará en el espacio del objetivo.\n\nLa cuerda tiene una CA de 20, 20 pg e inmunidad al daño psíquico y de veneno. Recupera 1 punto de golpe cada 5 minutos mientras tenga al menos 1 punto de golpe. Si los puntos de golpe de la cuerda se reducen a 0, se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "Esta cuerda mide 9 m de largo. Mientras sujetas uno de los extremos, puedes emplear una acción de magia para ordenarle al otro que salga volando y enrede a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza con CD 15 o tendrá el estado de apresado. Puedes liberar al objetivo soltando tu extremo de la cuerda, lo que hará que se enrolle en el espacio del objetivo, o usando una acción adicional para repetir la orden, lo que hará que la cuerda se enrolle en tu mano.",
+   "text": "Esta cuerda mide 9 m de largo. Mientras sujetas uno de los extremos, puedes emplear una acción de magia para ordenarle al otro que salga volando y enrede a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza con CD 15 o tendrá el estado de apresado. Puedes liberar al objetivo soltando tu extremo de la cuerda, lo que hará que se enrolle en el espacio del objetivo, o usando una acción adicional para repetir la orden, lo que hará que la cuerda se enrolle en tu mano."
+  },
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "Un objetivo apresado por la cuerda puede usar una acción para hacer una prueba de Fuerza (Atletismo) o de Destreza (Acrobacias) con CD 15, a su elección. Si la supera, el objetivo dejará de estar apresado por la cuerda. Si todavía sostienes la cuerda cuando un objetivo se zafe de ella, podrás emplear una reacción para ordenarle a la cuerda que se enrolle en tu mano. Si no lo haces, se enrollará en el espacio del objetivo.",
+   "text": "Un objetivo apresado por la cuerda puede usar una acción para hacer una prueba de Fuerza (Atletismo) o de Destreza (Acrobacias) con CD 15, a su elección. Si la supera, el objetivo dejará de estar apresado por la cuerda. Si todavía sostienes la cuerda cuando un objetivo se zafe de ella, podrás emplear una reacción para ordenarle a la cuerda que se enrolle en tu mano. Si no lo haces, se enrollará en el espacio del objetivo."
+  },
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "La cuerda tiene una CA de 20, 20 pg e inmunidad al daño psíquico y de veneno. Recupera 1 punto de golpe cada 5 minutos mientras tenga al menos 1 punto de golpe. Si los puntos de golpe de la cuerda se reducen a 0, se destruye.",
+   "text": "La cuerda tiene una CA de 20, 20 pg e inmunidad al daño psíquico y de veneno. Recupera 1 punto de golpe cada 5 minutos mientras tenga al menos 1 punto de golpe. Si los puntos de golpe de la cuerda se reducen a 0, se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 250
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "id": "ammunition.balas-de-arma-de-fuego",
+ "name": "Balas de arma de fuego",
+ "kind": "ammunition",
+ "group": null,
+ "table": "Munición",
+ "fields": {
+  "Tipo": "Balas de arma de fuego",
+  "Cantidad": "10",
+  "Recipiente": "Bolsa",
+  "Peso": "1 kg",
+  "Precio": "3 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 106
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "3 po",
+  "amount": 3.0,
+  "coin": "po",
+  "gp": 3.0
+ }
+}

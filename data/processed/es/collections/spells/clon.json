@@ -1,0 +1,55 @@
+{
+ "id": "spell.clon",
+ "name": "Clon",
+ "level": 8,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Tocas a una criatura o al menos un cubo de su carne de 2,5 cm. Dentro del recipiente empleado para lanzar el conjuro se crea un duplicado inerte de la criatura que alcanza la madurez en 120 días; tú decides si el clon terminado tiene la misma edad que la criatura o si es más joven. El clon permanecerá inerte y durará indefinidamente, siempre que su recipiente se mantenga intacto.\n\nSi la criatura original muere después de que el clon haya madurado, su alma se transferirá al clon si el alma es libre y desea regresar. El clon es físicamente idéntico al original, al igual que su personalidad, sus recuerdos y sus capacidades, pero no posee nada de su equipo original. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, ya que el alma de la criatura está en otra parte.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Tocas a una criatura o al menos un cubo de su carne de 2,5 cm. Dentro del recipiente empleado para lanzar el conjuro se crea un duplicado inerte de la criatura que alcanza la madurez en 120 días; tú decides si el clon terminado tiene la misma edad que la criatura o si es más joven. El clon permanecerá inerte y durará indefinidamente, siempre que su recipiente se mantenga intacto.",
+   "text": "Tocas a una criatura o al menos un cubo de su carne de 2,5 cm. Dentro del recipiente empleado para lanzar el conjuro se crea un duplicado inerte de la criatura que alcanza la madurez en 120 días; tú decides si el clon terminado tiene la misma edad que la criatura o si es más joven. El clon permanecerá inerte y durará indefinidamente, siempre que su recipiente se mantenga intacto."
+  },
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Si la criatura original muere después de que el clon haya madurado, su alma se transferirá al clon si el alma es libre y desea regresar. El clon es físicamente idéntico al original, al igual que su personalidad, sus recuerdos y sus capacidades, pero no posee nada de su equipo original. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, ya que el alma de la criatura está en otra parte.",
+   "text": "Si la criatura original muere después de que el clon haya madurado, su alma se transferirá al clon si el alma es libre y desea regresar. El clon es físicamente idéntico al original, al igual que su personalidad, sus recuerdos y sus capacidades, pero no posee nada de su equipo original. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, ya que el alma de la criatura está en otra parte."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 130
+ }
+}

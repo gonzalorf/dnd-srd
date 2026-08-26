@@ -1,0 +1,35 @@
+{
+ "id": "item.talisman-del-mal-definitivo",
+ "name": "Talismán del mal definitivo",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario (requiere sintonización)",
+ "text": "Este objeto simboliza el mal impenitente. Una criatura que no sea infernal o muerto viviente que toque el talismán sufre 8d6 de daño necrótico y sufrirá el daño de nuevo cada vez que sostenga o lleve puesto el talismán al terminar su turno.\n\nFinal definitivo. El talismán tiene 6 cargas. Mientras lo lleves puesto o lo sostengas, puedes emplear una acción de magia para gastar 1 carga y hacer objetivo a una criatura que puedas ver en el suelo a 36 m o menos de ti. Una grieta ardiente se abrirá bajo el objetivo, que hará una tirada de salvación de Destreza con CD 20. Si el objetivo es un celestial, tendrá desventaja en la tirada. Si la falla, caerá en la grieta y será destruido, sin dejar restos. Si la supera, no caerá en la grieta, pero sufrirá 4d6 de daño psíquico debido a la terrible experiencia. En cualquier caso, la grieta se cerrará y no quedará huella de su existencia. Cuando gastes la última carga, el talismán se disolverá en un limo apestoso y se destruirá.\n\nSímbolo sagrado. Puedes emplear el talismán como símbolo sagrado. Obtendrás un bonificador de +2 a las tiradas de ataque de conjuro mientras lo lleves puesto o lo sostengas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 270,
+   "md": "Este objeto simboliza el mal impenitente. Una criatura que no sea infernal o muerto viviente que toque el talismán sufre 8d6 de daño necrótico y sufrirá el daño de nuevo cada vez que sostenga o lleve puesto el talismán al terminar su turno.",
+   "text": "Este objeto simboliza el mal impenitente. Una criatura que no sea infernal o muerto viviente que toque el talismán sufre 8d6 de daño necrótico y sufrirá el daño de nuevo cada vez que sostenga o lleve puesto el talismán al terminar su turno."
+  },
+  {
+   "type": "definition",
+   "page": 270,
+   "md": "***Final definitivo.*** El talismán tiene 6 cargas. Mientras lo lleves puesto o lo sostengas, puedes emplear una acción de magia para gastar 1 carga y hacer objetivo a una criatura que puedas ver en el suelo a 36 m o menos de ti. Una grieta ardiente se abrirá bajo el objetivo, que hará una tirada de salvación de Destreza con CD 20. Si el objetivo es un celestial, tendrá desventaja en la tirada. Si la falla, caerá en la grieta y será destruido, sin dejar restos. Si la supera, no caerá en la grieta, pero sufrirá 4d6 de daño psíquico debido a la terrible experiencia. En cualquier caso, la grieta se cerrará y no quedará huella de su existencia. Cuando gastes la última carga, el talismán se disolverá en un limo apestoso y se destruirá.",
+   "text": "Final definitivo. El talismán tiene 6 cargas. Mientras lo lleves puesto o lo sostengas, puedes emplear una acción de magia para gastar 1 carga y hacer objetivo a una criatura que puedas ver en el suelo a 36 m o menos de ti. Una grieta ardiente se abrirá bajo el objetivo, que hará una tirada de salvación de Destreza con CD 20. Si el objetivo es un celestial, tendrá desventaja en la tirada. Si la falla, caerá en la grieta y será destruido, sin dejar restos. Si la supera, no caerá en la grieta, pero sufrirá 4d6 de daño psíquico debido a la terrible experiencia. En cualquier caso, la grieta se cerrará y no quedará huella de su existencia. Cuando gastes la última carga, el talismán se disolverá en un limo apestoso y se destruirá."
+  },
+  {
+   "type": "definition",
+   "page": 270,
+   "md": "***Símbolo sagrado.*** Puedes emplear el talismán como símbolo sagrado. Obtendrás un bonificador de +2 a las tiradas de ataque de conjuro mientras lo lleves puesto o lo sostengas.",
+   "text": "Símbolo sagrado. Puedes emplear el talismán como símbolo sagrado. Obtendrás un bonificador de +2 a las tiradas de ataque de conjuro mientras lo lleves puesto o lo sostengas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 270
+ }
+}

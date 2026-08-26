@@ -1,0 +1,32 @@
+{
+ "id": "table.p147",
+ "caption": null,
+ "header": [
+  "Conocimiento sobre el objetivo",
+  "Modificador de la tirada de salvación"
+ ],
+ "rows": [
+  [
+   "De segundas (has oído hablar del objetivo)",
+   "+5"
+  ],
+  [
+   "De primera mano (has conocido al objetivo)",
+   "+0"
+  ],
+  [
+   "Familiar (conoces bien al objetivo)",
+   "−5"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Escudriñar"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 147
+ }
+}

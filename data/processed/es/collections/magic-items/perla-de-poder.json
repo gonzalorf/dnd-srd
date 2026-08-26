@@ -1,0 +1,23 @@
+{
+ "id": "item.perla-de-poder",
+ "name": "Perla de poder",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": "un lanzador de conjuros",
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización por parte de un lanzador de conjuros)",
+ "text": "Mientras lleves esta perla contigo, puedes emplear una acción de magia para recuperar un espacio de conjuro gastado de nivel 3 o inferior. Una vez que utilices la perla, no podrás volver a emplearla hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 265,
+   "md": "Mientras lleves esta perla contigo, puedes emplear una acción de magia para recuperar un espacio de conjuro gastado de nivel 3 o inferior. Una vez que utilices la perla, no podrás volver a emplearla hasta el siguiente amanecer.",
+   "text": "Mientras lleves esta perla contigo, puedes emplear una acción de magia para recuperar un espacio de conjuro gastado de nivel 3 o inferior. Una vez que utilices la perla, no podrás volver a emplearla hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 265
+ }
+}

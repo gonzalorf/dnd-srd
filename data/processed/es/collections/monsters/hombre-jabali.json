@@ -1,0 +1,121 @@
+{
+ "id": "monster.hombre-jabali",
+ "name": "Hombre jabalí",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 338,
+  "pages": [
+   338,
+   339
+  ]
+ },
+ "context": [
+  "Hombre jabalí"
+ ],
+ "metaRaw": "Monstruosidad Mediana o Pequeña (licántropo), neutral malvada",
+ "type": "Monstruosidad",
+ "alignment": "neutral malvada",
+ "size": "Mediano",
+ "tags": [
+  "licántropo"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "97 (15d8 + 30)",
+  "average": 97,
+  "formula": "15d8 + 30"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común (no puede hablar en forma de jabalí)"
+ ],
+ "gear": [
+  "jabalinas (6)"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hombre jabalí realiza dos ataques con sus colmillos o sus jabalinas en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco.",
+   "page": 339,
+   "description": "El hombre jabalí realiza dos ataques con sus colmillos o sus jabalinas en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco."
+  },
+  {
+   "name": "Colmillos (solo en forma de jabalí o híbrida)",
+   "md": "***Colmillos (solo en forma de jabalí o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña y el hombre jabalí recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 7 (2d6) de daño perforante adicional y tendrá el estado de derribada.",
+   "page": 339,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña y el hombre jabalí recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 7 (2d6) de daño perforante adicional y tendrá el estado de derribada."
+  },
+  {
+   "name": "Mordisco (solo en forma de jabalí o híbrida)",
+   "md": "***Mordisco (solo en forma de jabalí o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 12 (2d8 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 12. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre jabalí controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre jabalí durante 24 horas.",
+   "page": 339,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 12 (2d8 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 12. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre jabalí controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre jabalí durante 24 horas."
+  },
+  {
+   "name": "Jabalina (solo en forma humanoide o híbrida)",
+   "md": "***Jabalina (solo en forma humanoide o híbrida).*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 13 (3d6 + 3) de daño perforante.",
+   "page": 339,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 13 (3d6 + 3) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El hombre jabalí adopta la forma de un híbrido de jabalí-humanoide Mediano o de un jabalí Pequeño, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 339,
+   "description": "El hombre jabalí adopta la forma de un híbrido de jabalí-humanoide Mediano o de un jabalí Pequeño, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ]
+}

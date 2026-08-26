@@ -1,0 +1,29 @@
+{
+ "id": "item.elixir-de-salud",
+ "name": "Elixir de salud",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, rara",
+ "text": "Cuando bebes esta poción, te curas de cualquier enfermedad mágica. Además, dejarás de sufrir los estados de cegado, ensordecido, envenenado y paralizado.\n\nEl líquido rojo claro tiene pequeñas burbujas de luz.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Cuando bebes esta poción, te curas de cualquier enfermedad mágica. Además, dejarás de sufrir los estados de cegado, ensordecido, envenenado y paralizado.",
+   "text": "Cuando bebes esta poción, te curas de cualquier enfermedad mágica. Además, dejarás de sufrir los estados de cegado, ensordecido, envenenado y paralizado."
+  },
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "El líquido rojo claro tiene pequeñas burbujas de luz.",
+   "text": "El líquido rojo claro tiene pequeñas burbujas de luz."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

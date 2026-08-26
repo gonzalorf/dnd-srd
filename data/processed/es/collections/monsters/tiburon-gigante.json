@@ -1,0 +1,104 @@
+{
+ "id": "monster.tiburon-gigante",
+ "name": "Tiburón gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 396,
+  "pages": [
+   396,
+   397
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "92 (8d12 + 40)",
+  "average": 92,
+  "formula": "8d12 + 40"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "nadar": 18.0
+ },
+ "skills": {
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Respirar en el agua",
+   "md": "***Respirar en el agua.*** El tiburón solo puede respirar bajo el agua.",
+   "page": 397,
+   "description": "El tiburón solo puede respirar bajo el agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El tiburón realiza dos ataques de mordisco.",
+   "page": 397,
+   "description": "El tiburón realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +9 (con ventaja si el objetivo no tiene todos sus puntos de golpe), alcance 1,5 m. *Acierto:* 22 (3d10 + 6) de daño perforante.",
+   "page": 397,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9 (con ventaja si el objetivo no tiene todos sus puntos de golpe), alcance 1,5 m. *Acierto:* 22 (3d10 + 6) de daño perforante."
+  }
+ ]
+}

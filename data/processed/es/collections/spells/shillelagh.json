@@ -1,0 +1,61 @@
+{
+ "id": "spell.shillelagh",
+ "name": "Shillelagh",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (muérdago)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "muérdago",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud mágica en lugar de tu Fuerza para las tiradas de ataque y de daño de tus ataques cuerpo a cuerpo usando esa arma y el dado de daño pasa a ser un d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección).\n\nEl conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.\n\nMejora de truco. El dado de daño cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud mágica en lugar de tu Fuerza para las tiradas de ataque y de daño de tus ataques cuerpo a cuerpo usando esa arma y el dado de daño pasa a ser un d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección).",
+   "text": "Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud mágica en lugar de tu Fuerza para las tiradas de ataque y de daño de tus ataques cuerpo a cuerpo usando esa arma y el dado de daño pasa a ser un d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección)."
+  },
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.",
+   "text": "El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma."
+  },
+  {
+   "type": "definition",
+   "page": 184,
+   "md": "***Mejora de truco.*** El dado de daño cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).",
+   "text": "Mejora de truco. El dado de daño cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 184
+ }
+}

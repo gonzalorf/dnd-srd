@@ -1,0 +1,50 @@
+{
+ "id": "spell.revivir",
+ "name": "Revivir",
+ "level": 3,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo",
+  "druida",
+  "explorador",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un diamante que valga al menos 300 po y que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un diamante que valga al menos 300 po y que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Tocas a una criatura que haya muerto en el último minuto. La criatura revive con 1 punto de golpe. Este conjuro no puede revivir a una criatura que haya muerto de vieja ni devolverle las partes del cuerpo que haya perdido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 182,
+   "md": "Tocas a una criatura que haya muerto en el último minuto. La criatura revive con 1 punto de golpe. Este conjuro no puede revivir a una criatura que haya muerto de vieja ni devolverle las partes del cuerpo que haya perdido.",
+   "text": "Tocas a una criatura que haya muerto en el último minuto. La criatura revive con 1 punto de golpe. Este conjuro no puede revivir a una criatura que haya muerto de vieja ni devolverle las partes del cuerpo que haya perdido."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 182
+ }
+}

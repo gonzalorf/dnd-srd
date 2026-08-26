@@ -1,0 +1,35 @@
+{
+ "id": "item.arma-de-advertencia",
+ "name": "Arma de advertencia",
+ "category": "Arma",
+ "variant": "cualquiera sencilla o marcial",
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquiera sencilla o marcial), infrecuente (requiere sintonización)",
+ "text": "Mientras esta arma esté dentro de tu alcance y tengas sintonización con ella, tú y tus aliados a 9 m o menos de ti obtenéis los siguientes beneficios:\n\nAlarma. El arma despierta mágicamente a cada sujeto que esté durmiendo de forma normal cuando comience un combate. Este beneficio no despierta a los sujetos que duerman a causa de un sueño inducido mediante magia.\n\nPreparación sobrenatural. Todos los sujetos tienen ventaja en sus tiradas de iniciativa.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Mientras esta arma esté dentro de tu alcance y tengas sintonización con ella, tú y tus aliados a 9 m o menos de ti obtenéis los siguientes beneficios:",
+   "text": "Mientras esta arma esté dentro de tu alcance y tengas sintonización con ella, tú y tus aliados a 9 m o menos de ti obtenéis los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 235,
+   "md": "***Alarma.*** El arma despierta mágicamente a cada sujeto que esté durmiendo de forma normal cuando comience un combate. Este beneficio no despierta a los sujetos que duerman a causa de un sueño inducido mediante magia.",
+   "text": "Alarma. El arma despierta mágicamente a cada sujeto que esté durmiendo de forma normal cuando comience un combate. Este beneficio no despierta a los sujetos que duerman a causa de un sueño inducido mediante magia."
+  },
+  {
+   "type": "definition",
+   "page": 235,
+   "md": "***Preparación sobrenatural.*** Todos los sujetos tienen ventaja en sus tiradas de iniciativa.",
+   "text": "Preparación sobrenatural. Todos los sujetos tienen ventaja en sus tiradas de iniciativa."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

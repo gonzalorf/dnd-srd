@@ -1,0 +1,17 @@
+{
+ "id": "rule.ataque-de-conjuro",
+ "name": "Ataque de conjuro",
+ "text": "Un ataque de conjuro es una tirada de ataque que se hace como parte de un conjuro u otro efecto mágico. Consulta también el capítulo “Conjuros” (“Lanzar conjuros”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Un ataque de conjuro es una tirada de ataque que se hace como parte de un conjuro u otro efecto mágico. *Consulta también* el capítulo “Conjuros” (“Lanzar conjuros”).",
+   "text": "Un ataque de conjuro es una tirada de ataque que se hace como parte de un conjuro u otro efecto mágico. Consulta también el capítulo “Conjuros” (“Lanzar conjuros”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "item.filtro-de-amor",
+ "name": "Filtro de amor",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "La próxima vez que veas a una criatura en los 10 minutos posteriores a beber este filtro, quedarás embelesado por ella y tendrás el estado de hechizado durante 1 hora.\n\nEl líquido efervescente y de tonalidad rosa contiene una burbuja, fácil de pasar por alto, con forma de corazón.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 257,
+   "md": "La próxima vez que veas a una criatura en los 10 minutos posteriores a beber este filtro, quedarás embelesado por ella y tendrás el estado de hechizado durante 1 hora.",
+   "text": "La próxima vez que veas a una criatura en los 10 minutos posteriores a beber este filtro, quedarás embelesado por ella y tendrás el estado de hechizado durante 1 hora."
+  },
+  {
+   "type": "paragraph",
+   "page": 257,
+   "md": "El líquido efervescente y de tonalidad rosa contiene una burbuja, fácil de pasar por alto, con forma de corazón.",
+   "text": "El líquido efervescente y de tonalidad rosa contiene una burbuja, fácil de pasar por alto, con forma de corazón."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 257
+ }
+}

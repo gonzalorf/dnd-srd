@@ -1,0 +1,53 @@
+{
+ "id": "spell.regenerar",
+ "name": "Regenerar",
+ "level": 7,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una rueda de plegarias)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una rueda de plegarias",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una criatura a la que toques recupera 4d8 + 15 puntos de golpe. Hasta que el conjuro termine, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos y los miembros cercenados crecen de nuevo al cabo de 2 minutos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 180,
+   "md": "Una criatura a la que toques recupera 4d8 + 15 puntos de golpe. Hasta que el conjuro termine, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos y los miembros cercenados crecen de nuevo al cabo de 2 minutos.",
+   "text": "Una criatura a la que toques recupera 4d8 + 15 puntos de golpe. Hasta que el conjuro termine, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos y los miembros cercenados crecen de nuevo al cabo de 2 minutos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 180
+ }
+}

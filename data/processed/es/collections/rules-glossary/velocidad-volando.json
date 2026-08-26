@@ -1,0 +1,17 @@
+{
+ "id": "rule.velocidad-volando",
+ "name": "Velocidad volando",
+ "text": "Una velocidad volando sirve para viajar por el aire. Mientras tengas una velocidad volando, podrás permanecer en el aire hasta que aterrices, caigas o mueras. Consulta también “Velocidad” y “Volar”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Una velocidad volando sirve para viajar por el aire. Mientras tengas una velocidad volando, podrás permanecer en el aire hasta que aterrices, caigas o mueras. *Consulta también* “Velocidad” y “Volar”.",
+   "text": "Una velocidad volando sirve para viajar por el aire. Mientras tengas una velocidad volando, podrás permanecer en el aire hasta que aterrices, caigas o mueras. Consulta también “Velocidad” y “Volar”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

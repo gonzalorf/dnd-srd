@@ -1,0 +1,112 @@
+{
+ "id": "monster.capitan-bandido",
+ "name": "Capitán bandido",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 287
+ },
+ "context": [
+  "Bandidos"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "52 (8d8 + 16)",
+  "average": 52,
+  "formula": "8d8 + 16"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Atletismo": 4,
+  "Engaño": 4
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común",
+  "jerga de ladrones"
+ ],
+ "gear": [
+  "armadura de cuero tachonado",
+  "cimitarra",
+  "pistola"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 4
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 5
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El bandido realiza dos ataques con su cimitarra o su pistola en cualquier combinación.",
+   "page": 287,
+   "description": "El bandido realiza dos ataques con su cimitarra o su pistola en cualquier combinación."
+  },
+  {
+   "name": "Cimitarra",
+   "md": "***Cimitarra.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante.",
+   "page": 287,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante."
+  },
+  {
+   "name": "Pistola",
+   "md": "***Pistola.*** *Tirada de ataque a distancia:* +5, alcance 9/27 m. *Acierto:* 8 (1d10 + 3) de daño perforante.",
+   "page": 287,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 9/27 m. *Acierto:* 8 (1d10 + 3) de daño perforante."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Parada",
+   "md": "***Parada.*** *Detonante:* una tirada de ataque cuerpo a cuerpo acierta al bandido mientras sostiene un arma. *Respuesta:* el bandido suma 2 a su CA contra ese ataque, lo que puede hacer que falle.",
+   "page": 287,
+   "description": "*Detonante:* una tirada de ataque cuerpo a cuerpo acierta al bandido mientras sostiene un arma. *Respuesta:* el bandido suma 2 a su CA contra ese ataque, lo que puede hacer que falle."
+  }
+ ]
+}

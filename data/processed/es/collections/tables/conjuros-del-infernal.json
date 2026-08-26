@@ -1,0 +1,37 @@
+{
+ "id": "table.conjuros-del-infernal",
+ "caption": "Conjuros del infernal",
+ "header": [
+  "Nivel de brujo",
+  "Conjuros"
+ ],
+ "rows": [
+  [
+   "3",
+   "Manos ardientes, orden imperiosa, rayo abrasador, sugestión"
+  ],
+  [
+   "5",
+   "Bola de fuego, nube apestosa"
+  ],
+  [
+   "7",
+   "Escudo de fuego, muro de fuego"
+  ],
+  [
+   "9",
+   "Geas, plaga de insectos"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Subclase de brujo: Patrón infernal",
+  "Nivel 3: Conjuros del infernal"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 46
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "item.vara-de-la-alerta",
+ "name": "Vara de la alerta",
+ "category": "Vara",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Vara, muy rara (requiere sintonización)",
+ "text": "Esta vara tiene las siguientes propiedades.\n\nAlerta. Mientras empuñes la vara, tendrás ventaja en las pruebas de Sabiduría (Percepción) y en las tiradas de iniciativa.\n\nConjuros. Mientras empuñes la vara, puedes lanzar los siguientes conjuros desde ella:\n\n• Detectar el bien y el mal\n\n• Detectar magia\n\n• Detectar venenos y enfermedades\n\n• Ver invisibilidad\n\nAura protectora. Como acción de magia, puedes clavar el extremo de la empuñadura en el suelo, tras lo cual la cabeza de la vara emitirá luz brillante en un radio de 18 m y luz tenue 18 m más allá. Mientras os encontréis en esa luz brillante, tus aliados y tú obtendréis un bonificador de +1 a la clase de armadura y a las tiradas de salvación. Además, podréis sentir la ubicación de cualquier criatura invisible que también esté bajo la luz brillante. La cabeza de la vara dejará de brillar y el efecto terminará después de 10 minutos o cuando una\n\ncriatura utilice una acción de magia para sacar la vara de suelo. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 272,
+   "md": "Esta vara tiene las siguientes propiedades.",
+   "text": "Esta vara tiene las siguientes propiedades."
+  },
+  {
+   "type": "definition",
+   "page": 272,
+   "md": "***Alerta.*** Mientras empuñes la vara, tendrás ventaja en las pruebas de Sabiduría (Percepción) y en las tiradas de iniciativa.",
+   "text": "Alerta. Mientras empuñes la vara, tendrás ventaja en las pruebas de Sabiduría (Percepción) y en las tiradas de iniciativa."
+  },
+  {
+   "type": "definition",
+   "page": 272,
+   "md": "***Conjuros.*** Mientras empuñes la vara, puedes lanzar los siguientes conjuros desde ella:",
+   "text": "Conjuros. Mientras empuñes la vara, puedes lanzar los siguientes conjuros desde ella:"
+  },
+  {
+   "type": "list-item",
+   "page": 272,
+   "md": "• *Detectar el bien y el mal*",
+   "text": "• Detectar el bien y el mal"
+  },
+  {
+   "type": "list-item",
+   "page": 272,
+   "md": "• *Detectar magia*",
+   "text": "• Detectar magia"
+  },
+  {
+   "type": "list-item",
+   "page": 272,
+   "md": "• *Detectar venenos y enfermedades*",
+   "text": "• Detectar venenos y enfermedades"
+  },
+  {
+   "type": "list-item",
+   "page": 272,
+   "md": "• *Ver invisibilidad*",
+   "text": "• Ver invisibilidad"
+  },
+  {
+   "type": "definition",
+   "page": 272,
+   "md": "***Aura protectora.*** Como acción de magia, puedes clavar el extremo de la empuñadura en el suelo, tras lo cual la cabeza de la vara emitirá luz brillante en un radio de 18 m y luz tenue 18 m más allá. Mientras os encontréis en esa luz brillante, tus aliados y tú obtendréis un bonificador de +1 a la clase de armadura y a las tiradas de salvación. Además, podréis sentir la ubicación de cualquier criatura invisible que también esté bajo la luz brillante. La cabeza de la vara dejará de brillar y el efecto terminará después de 10 minutos o cuando una",
+   "text": "Aura protectora. Como acción de magia, puedes clavar el extremo de la empuñadura en el suelo, tras lo cual la cabeza de la vara emitirá luz brillante en un radio de 18 m y luz tenue 18 m más allá. Mientras os encontréis en esa luz brillante, tus aliados y tú obtendréis un bonificador de +1 a la clase de armadura y a las tiradas de salvación. Además, podréis sentir la ubicación de cualquier criatura invisible que también esté bajo la luz brillante. La cabeza de la vara dejará de brillar y el efecto terminará después de 10 minutos o cuando una"
+  },
+  {
+   "type": "paragraph",
+   "page": 273,
+   "md": "criatura utilice una acción de magia para sacar la vara de suelo. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "criatura utilice una acción de magia para sacar la vara de suelo. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 272
+ },
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.detectar-magia",
+  "spell.detectar-venenos-y-enfermedades",
+  "spell.ver-invisibilidad"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "table.idiomas-inusuales",
+ "caption": "Idiomas inusuales",
+ "header": [
+  "Idioma",
+  "Idioma"
+ ],
+ "rows": [
+  [
+   "Abisal",
+   "Infracomún"
+  ],
+  [
+   "Celestial",
+   "Jerga de ladrones"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 2: origen del personaje",
+  "Elige tus idiomas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 22
+ }
+}

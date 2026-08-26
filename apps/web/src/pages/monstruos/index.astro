@@ -1,0 +1,54 @@
+---
+import Base from "../../layouts/Base.astro";
+import { collections, slugOf } from "../../lib/srd";
+const monsters = collections.monsterIndex().sort((a, b) => a.name.localeCompare(b.name, "es"));
+const tipos = [...new Set(monsters.map((m) => m.type).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+const tamanos = ["Diminuto", "Pequeño", "Mediano", "Grande", "Enorme", "Gargantuesco"];
+const vd = (m) => (m.challenge?.cr ?? null);
+---
+
+<Base title="Monstruos" subtitle="Los 336 perfiles de criatura del SRD, filtrables por tipo, tamaño y valor de desafío.">
+  <p class="entradilla">{monsters.length} perfiles.</p>
+  <form class="filtros" id="filtros">
+    <label>Tipo <select name="tipo"><option value="">Todos</option>{tipos.map((t) => <option>{t}</option>)}</select></label>
+    <label>Tamaño <select name="tamano"><option value="">Todos</option>{tamanos.map((t) => <option>{t}</option>)}</select></label>
+    <label>VD mínimo <input type="number" name="vdmin" min="0" max="30" step="1" /></label>
+  </form>
+
+  <table class="fichas">
+    <thead><tr><th>Criatura</th><th>Tamaño</th><th>Tipo</th><th>VD</th><th>CA</th><th>p.</th></tr></thead>
+    <tbody>
+      {monsters.map((m) => (
+        <tr data-tipo={m.type ?? ""} data-tamano={m.size ?? ""} data-vd={vd(m) ?? ""}>
+          <td><a href={`/monstruos/${slugOf(m.id)}/`}>{m.name}</a></td>
+          <td>{m.size}</td><td>{m.type}</td>
+          <td>{vd(m) === null ? "—" : vd(m) < 1 ? `1/${Math.round(1 / vd(m))}` : vd(m)}</td>
+          <td>{m.ac ?? "—"}</td>
+          <td class="pag">{m.page}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p class="sin-resultados" hidden>Ninguna criatura coincide con los filtros.</p>
+
+  <script is:inline>
+    const form = document.getElementById("filtros");
+    const filas = [...document.querySelectorAll("table.fichas tbody tr")];
+    const aviso = document.querySelector(".sin-resultados");
+    form.addEventListener("input", () => {
+      const d = new FormData(form);
+      const tipo = d.get("tipo"), tamano = d.get("tamano"), vdmin = d.get("vdmin");
+      let visibles = 0;
+      for (const fila of filas) {
+        const cr = fila.dataset.vd === "" ? null : Number(fila.dataset.vd);
+        const ok =
+          (!tipo || fila.dataset.tipo === tipo) &&
+          (!tamano || fila.dataset.tamano === tamano) &&
+          (!vdmin || (cr !== null && cr >= Number(vdmin)));
+        fila.hidden = !ok;
+        if (ok) visibles++;
+      }
+      aviso.hidden = visibles > 0;
+    });
+  </script>
+</Base>

@@ -1,0 +1,46 @@
+{
+ "id": "table.bolsa-de-trucos-rojiza",
+ "caption": "Bolsa de trucos rojiza",
+ "header": [
+  "1d8",
+  "Criatura",
+  "1d8",
+  "Criatura"
+ ],
+ "rows": [
+  [
+   "1",
+   "Rata",
+   "5",
+   "Cabra gigante"
+  ],
+  [
+   "2",
+   "Búho",
+   "6",
+   "Jabalí gigante"
+  ],
+  [
+   "3",
+   "Mastín",
+   "7",
+   "León"
+  ],
+  [
+   "4",
+   "Cabra",
+   "8",
+   "Oso pardo"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bolsa de trucos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 244
+ }
+}

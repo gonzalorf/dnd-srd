@@ -1,0 +1,48 @@
+{
+ "id": "table.efectos-de-la-varita-de-las-maravillas",
+ "caption": "Efectos de la varita de las maravillas",
+ "header": [
+  "1d100",
+  "Efecto"
+ ],
+ "rows": [
+  [
+   "01–20",
+   "Lanzas un conjuro que se origina en el punto elegido. Tira 1d10 para determinar el conjuro: si el resultado es 1–2, bola de fuego; si es 3–4, fuego feérico; si es 5–6, nube apestosa; si es 7–8, oscuridad; si es 9–10, ralentizar."
+  ],
+  [
+   "21–25",
+   "No sucede nada en el punto de origen elegido. En vez de eso, creerás que ha sucedido algo asombroso y tendrás el estado de aturdido hasta el principio de tu siguiente turno."
+  ],
+  [
+   "26–30",
+   "Lanzas ráfaga de viento. La línea que crea el conjuro se extiende desde ti hacia el punto de origen elegido."
+  ],
+  [
+   "31–35",
+   "No sucede nada en el punto de origen elegido. En vez de eso, recibes 1d6 de daño psíquico."
+  ],
+  [
+   "36–40",
+   "Una lluvia intensa cae durante 1 minuto en un cilindro de 36 m de alto y 18 m de radio centrado en el punto de origen elegido. Durante ese tiempo, el área de efecto se considera ligeramente oscura."
+  ],
+  [
+   "41–45",
+   "Una nube de 600 mariposas de gran tamaño llena un cilindro de 18 m de alto y 9 m de radio centrado en el punto de origen elegido. Las mariposas permanecen 10 minutos. Durante ese tiempo, el área de efecto se considera muy oscura."
+  ],
+  [
+   "46–50",
+   "Lanzas relámpago. La línea que crea el conjuro se extiende desde ti hacia el punto de origen elegido."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Varita de las maravillas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 274
+ }
+}

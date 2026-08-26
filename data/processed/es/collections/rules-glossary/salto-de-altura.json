@@ -1,0 +1,23 @@
+{
+ "id": "rule.salto-de-altura",
+ "name": "Salto de altura",
+ "text": "Cuando hagas un salto de altura, ascenderás una distancia de 90 cm + 30 cm × tu modificador por Fuerza (como mínimo 0 m) si te mueves al menos 3 m a pie antes de saltar. Si saltas sin coger carrerilla, solo podrás ascender la mitad de esa distancia. En cualquier caso, cada metro que saltes te costará un metro de tu movimiento.\n\nMientras saltas, puedes estirar los brazos una distancia equivalente a la mitad de tu altura por encima de ti. De esta forma, podrás alcanzar con las manos una distancia igual a la de la altura del salto más una vez y media tu altura.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Cuando hagas un salto de altura, ascenderás una distancia de 90 cm + 30 cm × tu modificador por Fuerza (como mínimo 0 m) si te mueves al menos 3 m a pie antes de saltar. Si saltas sin coger carrerilla, solo podrás ascender la mitad de esa distancia. En cualquier caso, cada metro que saltes te costará un metro de tu movimiento.",
+   "text": "Cuando hagas un salto de altura, ascenderás una distancia de 90 cm + 30 cm × tu modificador por Fuerza (como mínimo 0 m) si te mueves al menos 3 m a pie antes de saltar. Si saltas sin coger carrerilla, solo podrás ascender la mitad de esa distancia. En cualquier caso, cada metro que saltes te costará un metro de tu movimiento."
+  },
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Mientras saltas, puedes estirar los brazos una distancia equivalente a la mitad de tu altura por encima de ti. De esta forma, podrás alcanzar con las manos una distancia igual a la de la altura del salto más una vez y media tu altura.",
+   "text": "Mientras saltas, puedes estirar los brazos una distancia equivalente a la mitad de tu altura por encima de ti. De esta forma, podrás alcanzar con las manos una distancia igual a la de la altura del salto más una vez y media tu altura."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "table.p147-2",
+ "caption": null,
+ "header": [
+  "¿Qué tienes del objetivo?",
+  "Modificador de la tirada de salvación"
+ ],
+ "rows": [
+  [
+   "Dibujo u otro retrato",
+   "−2"
+  ],
+  [
+   "Prenda u otra posesión",
+   "−4"
+  ],
+  [
+   "Parte del cuerpo, mechón de pelo o trozo de uña",
+   "−10"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Escudriñar"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 147
+ }
+}

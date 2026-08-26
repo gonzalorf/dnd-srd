@@ -1,0 +1,17 @@
+{
+ "id": "rule.campana",
+ "name": "Campaña",
+ "text": "Una campaña es una serie de aventuras. Consulta también “Aventura”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 197,
+   "md": "Una campaña es una serie de aventuras. *Consulta también* “Aventura”.",
+   "text": "Una campaña es una serie de aventuras. Consulta también “Aventura”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "spell.sanctasanctorum-privado",
+ "name": "Sanctasanctórum privado",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una lámina fina de plomo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una lámina fina de plomo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Haces que una zona dentro del alcance sea mágicamente segura. Esta zona es un cubo que puede tener un tamaño desde tan solo 1,5 m de lado a hasta 30 m y permanecerá hasta que el conjuro termine.\n\nCuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:\n\n• El sonido no puede atravesar la barrera del perímetro de la zona protegida.\n\n• La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a través de ella (incluso a la visión en la oscuridad).\n\n• Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinación, ni estos pueden atravesar la barrera del perímetro.\n\n• Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinación.\n\n• Nada puede teletransportarse ni al interior ni al exterior del área protegida.\n\n• El viaje interplanar está bloqueado dentro de la zona.\n\nSi este conjuro se lanza a diario en el mismo lugar durante 365 días, durará hasta que sea disipado.\n\nCon un espacio de conjuro de nivel superior. Puedes aumentar el tamaño del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 183,
+   "md": "Haces que una zona dentro del alcance sea mágicamente segura. Esta zona es un cubo que puede tener un tamaño desde tan solo 1,5 m de lado a hasta 30 m y permanecerá hasta que el conjuro termine.",
+   "text": "Haces que una zona dentro del alcance sea mágicamente segura. Esta zona es un cubo que puede tener un tamaño desde tan solo 1,5 m de lado a hasta 30 m y permanecerá hasta que el conjuro termine."
+  },
+  {
+   "type": "paragraph",
+   "page": 183,
+   "md": "Cuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:",
+   "text": "Cuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:"
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• El sonido no puede atravesar la barrera del perímetro de la zona protegida.",
+   "text": "• El sonido no puede atravesar la barrera del perímetro de la zona protegida."
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a través de ella (incluso a la visión en la oscuridad).",
+   "text": "• La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a través de ella (incluso a la visión en la oscuridad)."
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinación, ni estos pueden atravesar la barrera del perímetro.",
+   "text": "• Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinación, ni estos pueden atravesar la barrera del perímetro."
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinación.",
+   "text": "• Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinación."
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• Nada puede teletransportarse ni al interior ni al exterior del área protegida.",
+   "text": "• Nada puede teletransportarse ni al interior ni al exterior del área protegida."
+  },
+  {
+   "type": "list-item",
+   "page": 183,
+   "md": "• El viaje interplanar está bloqueado dentro de la zona.",
+   "text": "• El viaje interplanar está bloqueado dentro de la zona."
+  },
+  {
+   "type": "paragraph",
+   "page": 183,
+   "md": "Si este conjuro se lanza a diario en el mismo lugar durante 365 días, durará hasta que sea disipado.",
+   "text": "Si este conjuro se lanza a diario en el mismo lugar durante 365 días, durará hasta que sea disipado."
+  },
+  {
+   "type": "definition",
+   "page": 184,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes aumentar el tamaño del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes aumentar el tamaño del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 183
+ }
+}

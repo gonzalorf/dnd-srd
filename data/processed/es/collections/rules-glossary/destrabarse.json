@@ -1,0 +1,18 @@
+{
+ "id": "rule.destrabarse",
+ "name": "Destrabarse",
+ "text": "Si llevas a cabo la acción de destrabarse, tu movimiento no provocará ataques de oportunidad durante el resto del turno actual.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Si llevas a cabo la acción de destrabarse, tu movimiento no provocará ataques de oportunidad durante el resto del turno actual.",
+   "text": "Si llevas a cabo la acción de destrabarse, tu movimiento no provocará ataques de oportunidad durante el resto del turno actual."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ },
+ "kind": "acción"
+}

@@ -1,0 +1,180 @@
+{
+ "id": "monster.dragon-de-oro-anciano",
+ "name": "Dragón de oro anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 306,
+  "pages": [
+   306,
+   307
+  ]
+ },
+ "context": [
+  "Dragones de oro"
+ ],
+ "metaRaw": "Dragón Gargantuesco (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Gargantuesco",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 22,
+ "acRaw": "22",
+ "initiative": {
+  "mod": 16,
+  "score": 26
+ },
+ "hp": {
+  "raw": "546 (28d20 + 252)",
+  "average": 546,
+  "formula": "28d20 + 252"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 17,
+  "Perspicacia": 10,
+  "Persuasión": 16,
+  "Sigilo": 9
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 27",
+  "passivePerception": 27
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "24 (62 000 PX o 75 000 en la guarida; BC +7)",
+  "cr": 24,
+  "xp": 62000,
+  "proficiencyBonus": 7,
+  "xpInLair": 75000
+ },
+ "abilities": {
+  "fue": {
+   "score": 30,
+   "mod": 10,
+   "save": 10
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 9
+  },
+  "con": {
+   "score": 29,
+   "mod": 9,
+   "save": 9
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 17,
+   "mod": 3,
+   "save": 10
+  },
+  "car": {
+   "score": 28,
+   "mod": 9,
+   "save": 9
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 306,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 306,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 4) o de (B) su aliento debilitador.",
+   "page": 306,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 4) o de (B) su aliento debilitador."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +17 a acertar, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 9 (2d8) de daño de fuego.",
+   "page": 307,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +17 a acertar, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 9 (2d8) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 71 (13d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 307,
+   "description": ". *Tirada de salvación de Destreza:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 71 (13d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento debilitador",
+   "md": "***Aliento debilitador.*** *Tirada de salvación de Fuerza:* CD 24, todas las criaturas que no estén afectadas ya por este aliento en un cono de 27 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 5 (1d10) a sus tiradas de daño. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 307,
+   "description": "*Tirada de salvación de Fuerza:* CD 24, todas las criaturas que no estén afectadas ya por este aliento en un cono de 27 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 5 (1d10) a sus tiradas de daño. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 24, +16 a acertar con ataques de conjuro):",
+   "page": 307,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 24, +16 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración ni puntos de golpe temporales para mantener el conjuro), *detectar magia*, *saeta guía* (versión de nivel 4) 1/día cada uno: *golpe flamígero* (versión de nivel 6), *palabra de regreso*, *zona de la verdad*",
+   "page": 307
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 307,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Desterrar",
+    "md": "***Desterrar.*** *Tirada de salvación de Carisma:* CD 24, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 24 (7d6) de daño de fuerza y el objetivo tendrá el estado de incapacitado y será transportado a un semiplano inofensivo hasta el principio del siguiente turno del dragón, momento en el que reaparecerá en un espacio sin ocupar a elección del dragón a 36 m o menos de este. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 307,
+    "description": "*Tirada de salvación de Carisma:* CD 24, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 24 (7d6) de daño de fuerza y el objetivo tendrá el estado de incapacitado y será transportado a un semiplano inofensivo hasta el principio del siguiente turno del dragón, momento en el que reaparecerá en un espacio sin ocupar a elección del dragón a 36 m o menos de este. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Luz guía",
+    "md": "***Luz guía.*** El dragón utiliza su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 4).",
+    "page": 307,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 4)."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.saeta-guia",
+  "spell.cambiar-de-forma",
+  "spell.detectar-magia",
+  "spell.golpe-flamigero",
+  "spell.palabra-de-regreso",
+  "spell.zona-de-la-verdad"
+ ]
+}

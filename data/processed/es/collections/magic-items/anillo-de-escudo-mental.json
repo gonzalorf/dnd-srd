@@ -1,0 +1,35 @@
+{
+ "id": "item.anillo-de-escudo-mental",
+ "name": "Anillo de escudo mental",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves puesto este anillo, serás inmune a la magia que permita a otras criaturas leer tus pensamientos, determinar si mientes, saber tu alineamiento o averiguar tu tipo de criatura. Otras criaturas solo podrán comunicarse telepáticamente contigo si se lo permites.\n\nPuedes emplear una acción de magia para que el anillo se vuelva imperceptible hasta que uses otra acción de magia para hacerlo perceptible, hasta que te lo quites o hasta que mueras.\n\nSi mueres mientras llevas puesto el anillo, tu alma entrará en él salvo que ya albergue otra alma. Puedes permanecer en el anillo o partir al más allá. Mientras tu alma se encuentre en el anillo, podrás comunicarte telepáticamente con cualquier criatura que lo lleve puesto. Quien lo utilice no podrá evitar esta comunicación telepática.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 231,
+   "md": "Mientras lleves puesto este anillo, serás inmune a la magia que permita a otras criaturas leer tus pensamientos, determinar si mientes, saber tu alineamiento o averiguar tu tipo de criatura. Otras criaturas solo podrán comunicarse telepáticamente contigo si se lo permites.",
+   "text": "Mientras lleves puesto este anillo, serás inmune a la magia que permita a otras criaturas leer tus pensamientos, determinar si mientes, saber tu alineamiento o averiguar tu tipo de criatura. Otras criaturas solo podrán comunicarse telepáticamente contigo si se lo permites."
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "md": "Puedes emplear una acción de magia para que el anillo se vuelva imperceptible hasta que uses otra acción de magia para hacerlo perceptible, hasta que te lo quites o hasta que mueras.",
+   "text": "Puedes emplear una acción de magia para que el anillo se vuelva imperceptible hasta que uses otra acción de magia para hacerlo perceptible, hasta que te lo quites o hasta que mueras."
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "md": "Si mueres mientras llevas puesto el anillo, tu alma entrará en él salvo que ya albergue otra alma. Puedes permanecer en el anillo o partir al más allá. Mientras tu alma se encuentre en el anillo, podrás comunicarte telepáticamente con cualquier criatura que lo lleve puesto. Quien lo utilice no podrá evitar esta comunicación telepática.",
+   "text": "Si mueres mientras llevas puesto el anillo, tu alma entrará en él salvo que ya albergue otra alma. Puedes permanecer en el anillo o partir al más allá. Mientras tu alma se encuentre en el anillo, podrás comunicarte telepáticamente con cualquier criatura que lo lleve puesto. Quien lo utilice no podrá evitar esta comunicación telepática."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 231
+ }
+}

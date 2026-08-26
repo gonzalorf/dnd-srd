@@ -1,0 +1,78 @@
+{
+ "id": "item.cota-de-escamas-de-dragon",
+ "name": "Cota de escamas de dragón",
+ "category": "Armadura",
+ "variant": "cota de escamas",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (cota de escamas), muy rara (requiere sintonización)",
+ "text": "Una cota de escamas de dragón está hecha con las escamas de un dragón de un tipo concreto. A veces, los dragones recogen las escamas que se les caen para regalarlas. Otras veces, un cazador preserva cuidadosamente la piel de un cadáver de dragón. En cualquier caso, una cota de escamas de dragón es muy valiosa.\n\nMientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura, tendrás ventaja en tiradas de salvación contra los ataques de aliento de los dragones y tendrás resistencia contra un tipo de daño determinado por el dragón que proporcionó las escamas (consulta la tabla a continuación).\n\nAdemás, puedes concentrar tus sentidos como acción de magia y discernir la distancia y la dirección del dragón más cercano que esté a 45 km o menos de ti y sea del mismo tipo que la armadura. Esta acción no puede volver a emplearse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Una *cota de escamas de dragón* está hecha con las escamas de un dragón de un tipo concreto. A veces, los dragones recogen las escamas que se les caen para regalarlas. Otras veces, un cazador preserva cuidadosamente la piel de un cadáver de dragón. En cualquier caso, una *cota de escamas de dragón* es muy valiosa.",
+   "text": "Una cota de escamas de dragón está hecha con las escamas de un dragón de un tipo concreto. A veces, los dragones recogen las escamas que se les caen para regalarlas. Otras veces, un cazador preserva cuidadosamente la piel de un cadáver de dragón. En cualquier caso, una cota de escamas de dragón es muy valiosa."
+  },
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura, tendrás ventaja en tiradas de salvación contra los ataques de aliento de los dragones y tendrás resistencia contra un tipo de daño determinado por el dragón que proporcionó las escamas (consulta la tabla a continuación).",
+   "text": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura, tendrás ventaja en tiradas de salvación contra los ataques de aliento de los dragones y tendrás resistencia contra un tipo de daño determinado por el dragón que proporcionó las escamas (consulta la tabla a continuación)."
+  },
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Además, puedes concentrar tus sentidos como acción de magia y discernir la distancia y la dirección del dragón más cercano que esté a 45 km o menos de ti y sea del mismo tipo que la armadura. Esta acción no puede volver a emplearse hasta el siguiente amanecer.",
+   "text": "Además, puedes concentrar tus sentidos como acción de magia y discernir la distancia y la dirección del dragón más cercano que esté a 45 km o menos de ti y sea del mismo tipo que la armadura. Esta acción no puede volver a emplearse hasta el siguiente amanecer."
+  },
+  {
+   "type": "table",
+   "page": 250,
+   "caption": null,
+   "header": [
+    "Dragón",
+    "Resistencia",
+    "Dragón",
+    "Resistencia"
+   ],
+   "rows": [
+    [
+     "Azul",
+     "Relámpago",
+     "Oro",
+     "Fuego"
+    ],
+    [
+     "Blanco",
+     "Frío",
+     "Oropel",
+     "Fuego"
+    ],
+    [
+     "Bronce",
+     "Relámpago",
+     "Plata",
+     "Frío"
+    ],
+    [
+     "Cobre",
+     "Ácido",
+     "Rojo",
+     "Fuego"
+    ],
+    [
+     "Negro",
+     "Ácido",
+     "Verde",
+     "Veneno"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 249
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "id": "item.armadura-1-2-o-3",
+ "name": "Armadura +1, +2 o +3",
+ "category": "Armadura",
+ "variant": "ligera, media o pesada",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (ligera, media o pesada), rara (+1), muy rara (+2) o legendaria (+3)",
+ "text": "Obtienes un bonificador a la clase de armadura mientras lleves esta armadura. El bonificador depende de su rareza.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Obtienes un bonificador a la clase de armadura mientras lleves esta armadura. El bonificador depende de su rareza.",
+   "text": "Obtienes un bonificador a la clase de armadura mientras lleves esta armadura. El bonificador depende de su rareza."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

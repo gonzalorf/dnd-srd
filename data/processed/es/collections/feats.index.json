@@ -1,0 +1,104 @@
+[
+ {
+  "id": "feat.alerta",
+  "name": "Alerta",
+  "category": "Dotes de origen",
+  "page": 94
+ },
+ {
+  "id": "feat.atacante-salvaje",
+  "name": "Atacante salvaje",
+  "category": "Dotes de origen",
+  "page": 94
+ },
+ {
+  "id": "feat.habilidoso",
+  "name": "Habilidoso",
+  "category": "Dotes de origen",
+  "page": 94
+ },
+ {
+  "id": "feat.iniciado-en-la-magia",
+  "name": "Iniciado en la magia",
+  "category": "Dotes de origen",
+  "page": 94
+ },
+ {
+  "id": "feat.apresador",
+  "name": "Apresador",
+  "category": "Dotes generales",
+  "page": 94
+ },
+ {
+  "id": "feat.mejora-de-caracteristica",
+  "name": "Mejora de característica",
+  "category": "Dotes generales",
+  "page": 94
+ },
+ {
+  "id": "feat.combate-con-armas-a-dos-manos",
+  "name": "Combate con armas a dos manos",
+  "category": "Dotes de estilo de combate",
+  "page": 95
+ },
+ {
+  "id": "feat.combate-con-dos-armas",
+  "name": "Combate con dos armas",
+  "category": "Dotes de estilo de combate",
+  "page": 95
+ },
+ {
+  "id": "feat.defensa",
+  "name": "Defensa",
+  "category": "Dotes de estilo de combate",
+  "page": 95
+ },
+ {
+  "id": "feat.tiro-con-arco",
+  "name": "Tiro con arco",
+  "category": "Dotes de estilo de combate",
+  "page": 95
+ },
+ {
+  "id": "feat.don-de-la-pericia-en-combate",
+  "name": "Don de la pericia en combate",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-de-la-vision-verdadera",
+  "name": "Don de la visión verdadera",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-del-ataque-imparable",
+  "name": "Don del ataque imparable",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-del-destino",
+  "name": "Don del destino",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-del-espiritu-de-la-noche",
+  "name": "Don del espíritu de la noche",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-del-recuerdo-de-conjuros",
+  "name": "Don del recuerdo de conjuros",
+  "category": "Dotes de don épico",
+  "page": 95
+ },
+ {
+  "id": "feat.don-del-viaje-dimensional",
+  "name": "Don del viaje dimensional",
+  "category": "Dotes de don épico",
+  "page": 96
+ }
+]

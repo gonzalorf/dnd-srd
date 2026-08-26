@@ -1,0 +1,56 @@
+{
+ "id": "spell.arma-magica",
+ "name": "Arma mágica",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "explorador",
+  "hechicero",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas un arma no mágica. Hasta que el conjuro termine, esa arma se convierte en un arma mágica con un bonificador de +1 a las tiradas de ataque y de daño. El conjuro termina antes si lo vuelves a lanzar.\n\nCon un espacio de conjuro de nivel superior. El bonificador aumenta a +2 si utilizas un espacio de niveles 3 a 5. El bonificador aumenta a +3 si utilizas un espacio de nivel 6 o superior.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "Tocas un arma no mágica. Hasta que el conjuro termine, esa arma se convierte en un arma mágica con un bonificador de +1 a las tiradas de ataque y de daño. El conjuro termina antes si lo vuelves a lanzar.",
+   "text": "Tocas un arma no mágica. Hasta que el conjuro termine, esa arma se convierte en un arma mágica con un bonificador de +1 a las tiradas de ataque y de daño. El conjuro termina antes si lo vuelves a lanzar."
+  },
+  {
+   "type": "definition",
+   "page": 122,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El bonificador aumenta a +2 si utilizas un espacio de niveles 3 a 5. El bonificador aumenta a +3 si utilizas un espacio de nivel 6 o superior.",
+   "text": "Con un espacio de conjuro de nivel superior. El bonificador aumenta a +2 si utilizas un espacio de niveles 3 a 5. El bonificador aumenta a +3 si utilizas un espacio de nivel 6 o superior."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 122
+ }
+}

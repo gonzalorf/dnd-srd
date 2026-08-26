@@ -1,0 +1,23 @@
+{
+ "id": "item.anteojos-de-la-noche",
+ "name": "Anteojos de la noche",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Mientras lleves estas lentes oscuras, tienes visión en la oscuridad hasta 18 m. Si ya posees visión en la oscuridad, estos anteojos aumentan su alcance en 18 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Mientras lleves estas lentes oscuras, tienes visión en la oscuridad hasta 18 m. Si ya posees visión en la oscuridad, estos anteojos aumentan su alcance en 18 m.",
+   "text": "Mientras lleves estas lentes oscuras, tienes visión en la oscuridad hasta 18 m. Si ya posees visión en la oscuridad, estos anteojos aumentan su alcance en 18 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ }
+}

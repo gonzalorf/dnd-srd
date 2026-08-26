@@ -1,0 +1,29 @@
+{
+ "id": "armor.cota-de-escamas",
+ "name": "Cota de escamas",
+ "kind": "armor",
+ "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Cota de escamas",
+  "Clase de armadura (CA)": "14 + modificador por Des (máx. 2)",
+  "Fuerza": "—",
+  "Sigilo": "Desventaja",
+  "Peso": "22,5 kg",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "22,5 kg",
+  "kg": 22.5
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

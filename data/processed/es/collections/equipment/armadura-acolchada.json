@@ -1,0 +1,29 @@
+{
+ "id": "armor.armadura-acolchada",
+ "name": "Armadura acolchada",
+ "kind": "armor",
+ "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Armadura acolchada",
+  "Clase de armadura (CA)": "11 + modificador por Des",
+  "Fuerza": "—",
+  "Sigilo": "Desventaja",
+  "Peso": "4 kg",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "4 kg",
+  "kg": 4.0
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ }
+}

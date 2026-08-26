@@ -1,0 +1,17 @@
+{
+ "id": "rule.tirada-de-ataque",
+ "name": "Tirada de ataque",
+ "text": "Una tirada de ataque es una prueba con d20 que representa hacer un ataque con un arma, un ataque sin armas o un conjuro. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 209,
+   "md": "Una tirada de ataque es una prueba con d20 que representa hacer un ataque con un arma, un ataque sin armas o un conjuro. *Consulta también* el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+   "text": "Una tirada de ataque es una prueba con d20 que representa hacer un ataque con un arma, un ataque sin armas o un conjuro. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 209
+ }
+}

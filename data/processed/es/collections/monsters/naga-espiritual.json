@@ -1,0 +1,130 @@
+{
+ "id": "monster.naga-espiritual",
+ "name": "Naga espiritual",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 353
+ },
+ "context": [
+  "Naga espiritual"
+ ],
+ "metaRaw": "Infernal Grande, caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "135 (18d10 + 36)",
+  "average": 135,
+  "formula": "18d10 + 36"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "abisal",
+  "común"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado",
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 6
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 5
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 5
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 6
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación infernal",
+   "md": "***Recuperación infernal.*** Si muere, la naga volverá a la vida tras 1d6 días y recuperará todos sus puntos de golpe. Solo un conjuro *deseo* puede evitar que este atributo tenga efecto.",
+   "page": 353,
+   "description": "Si muere, la naga volverá a la vida tras 1d6 días y recuperará todos sus puntos de golpe. Solo un conjuro *deseo* puede evitar que este atributo tenga efecto."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La naga realiza tres ataques de mordisco o rayo necrótico en cualquier combinación.",
+   "page": 353,
+   "description": "La naga realiza tres ataques de mordisco o rayo necrótico en cualquier combinación."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 7 (1d6 + 4) de daño perforante más 14 (4d6) de daño de veneno.",
+   "page": 353,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 7 (1d6 + 4) de daño perforante más 14 (4d6) de daño de veneno."
+  },
+  {
+   "name": "Rayo necrótico",
+   "md": "***Rayo necrótico.*** *Tirada de ataque a distancia:* +6, alcance 18 m. *Acierto:* 21 (6d6) de daño necrótico.",
+   "page": 353,
+   "description": "*Tirada de ataque a distancia:* +6, alcance 18 m. *Acierto:* 21 (6d6) de daño necrótico."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La naga lanza uno de los siguientes conjuros, que no requiere componentes somáticos o materiales y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 14):",
+   "page": 353,
+   "description": "La naga lanza uno de los siguientes conjuros, que no requiere componentes somáticos o materiales y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 14):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *ilusión menor*, *mano de mago*, *respirar bajo el agua* 2/día cada uno: *detectar pensamientos*, *inmovilizar persona* (versión de nivel 3), *puerta dimensional*, *relámpago* (versión de nivel 4)",
+   "page": 353
+  }
+ ],
+ "refs": [
+  "spell.deseo",
+  "spell.detectar-magia",
+  "spell.ilusion-menor",
+  "spell.mano-de-mago",
+  "spell.respirar-bajo-el-agua",
+  "spell.detectar-pensamientos",
+  "spell.inmovilizar-persona",
+  "spell.puerta-dimensional",
+  "spell.relampago"
+ ]
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "id": "background.acolito",
+  "name": "Acólito",
+  "page": 89
+ },
+ {
+  "id": "background.criminal",
+  "name": "Criminal",
+  "page": 89
+ },
+ {
+  "id": "background.erudito",
+  "name": "Erudito",
+  "page": 89
+ },
+ {
+  "id": "background.soldado",
+  "name": "Soldado",
+  "page": 89
+ }
+]

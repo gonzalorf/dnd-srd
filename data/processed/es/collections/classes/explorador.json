@@ -1,0 +1,974 @@
+{
+ "id": "class.explorador",
+ "name": "Explorador",
+ "coreTraits": {
+  "Característica principal": "Destreza y Sabiduría",
+  "Dado de puntos de golpe": "1d10 por nivel de explorador",
+  "Competencias en tiradas de salvación": "Fuerza y Destreza",
+  "Competencias en habilidades": "Elige tres: Atletismo, Investigación, Naturaleza, Percepción, Perspicacia, Sigilo, Supervivencia o Trato con animales",
+  "Competencias con armas": "Armas sencillas y marciales",
+  "Entrenamiento con armaduras": "Armaduras ligeras y medias y escudos",
+  "Equipo inicial": "Elige A o B: (A) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, canalizador druídico (rama de muérdago), paquete de explorador y 7 po, o (B) 150 po"
+ },
+ "progression": {
+  "caption": "Rasgos de explorador",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Enemigo predilecto",
+   "Conjuros preparados",
+   "Espacios de conjuro por cada nivel de conjuro 12345"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Lanzamiento de conjuros, Enemigo predilecto, Maestría con armas",
+    "2",
+    "2",
+    "2————"
+   ],
+   [
+    "2",
+    "+2",
+    "Estilo de combate, Explorador hábil",
+    "2",
+    "3",
+    "2————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de explorador",
+    "2",
+    "4",
+    "3————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "2",
+    "5",
+    "3————"
+   ],
+   [
+    "5",
+    "+3",
+    "Ataque adicional",
+    "3",
+    "6",
+    "42———"
+   ],
+   [
+    "6",
+    "+3",
+    "Errante",
+    "3",
+    "6",
+    "42———"
+   ],
+   [
+    "7",
+    "+3",
+    "Rasgo de subclase",
+    "3",
+    "7",
+    "43———"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "3",
+    "7",
+    "43———"
+   ],
+   [
+    "9",
+    "+4",
+    "Pericia",
+    "4",
+    "9",
+    "432——"
+   ],
+   [
+    "10",
+    "+4",
+    "Infatigable",
+    "4",
+    "9",
+    "432——"
+   ],
+   [
+    "11",
+    "+4",
+    "Rasgo de subclase",
+    "4",
+    "10",
+    "433——"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "4",
+    "10",
+    "433——"
+   ],
+   [
+    "13",
+    "+5",
+    "Cazador persistente",
+    "5",
+    "11",
+    "4331—"
+   ],
+   [
+    "14",
+    "+5",
+    "Velo de la naturaleza",
+    "5",
+    "11",
+    "4331—"
+   ],
+   [
+    "15",
+    "+5",
+    "Rasgo de subclase",
+    "5",
+    "12",
+    "4332—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "5",
+    "12",
+    "4332—"
+   ],
+   [
+    "17",
+    "+6",
+    "Cazador preciso",
+    "6",
+    "14",
+    "43331"
+   ],
+   [
+    "18",
+    "+6",
+    "Sentidos salvajes",
+    "6",
+    "14",
+    "43331"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "6",
+    "15",
+    "43332"
+   ],
+   [
+    "20",
+    "+6",
+    "Azote de enemigos",
+    "6",
+    "15",
+    "43332"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Enemigo predilecto",
+   "title": "Nivel 1: Enemigo predilecto",
+   "subclass": null,
+   "text": "Siempre tienes el conjuro marca del cazador preparado. Puedes lanzarlo dos veces sin gastar un espacio de conjuro y recuperas todos los usos de esta capacidad tras finalizar un descanso largo.\n\nLa cantidad de veces que puedes lanzar el conjuro sin gastar un espacio aumenta según alcanzas ciertos niveles de explorador, como se muestra en la columna “Enemigo predilecto” de la tabla “Rasgos de explorador”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Siempre tienes el conjuro *marca del cazador* preparado. Puedes lanzarlo dos veces sin gastar un espacio de conjuro y recuperas todos los usos de esta capacidad tras finalizar un descanso largo.",
+     "text": "Siempre tienes el conjuro marca del cazador preparado. Puedes lanzarlo dos veces sin gastar un espacio de conjuro y recuperas todos los usos de esta capacidad tras finalizar un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "La cantidad de veces que puedes lanzar el conjuro sin gastar un espacio aumenta según alcanzas ciertos niveles de explorador, como se muestra en la columna “Enemigo predilecto” de la tabla “Rasgos de explorador”.",
+     "text": "La cantidad de veces que puedes lanzar el conjuro sin gastar un espacio aumenta según alcanzas ciertos niveles de explorador, como se muestra en la columna “Enemigo predilecto” de la tabla “Rasgos de explorador”."
+    }
+   ],
+   "page": 59
+  },
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Has aprendido a canalizar la esencia mágica de la naturaleza para lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de explorador, que encontrarás más adelante en la lista de conjuros de explorador de la descripción de la clase.\n\nEspacios de conjuro. La tabla “Rasgos de explorador” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de explorador de nivel 1. Se recomiendan curar heridas y golpe apresador.\n\nEl número de conjuros de tu lista aumenta conforme subes de nivel de explorador, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de explorador”. Cuando ese número aumente, elige conjuros de explorador adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de explorador”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une exploradore de nivel 5, podrías preparar cualquier combinación de seis conjuros de explorador de nivel 1 o 2.\n\nSi otro rasgo de explorador te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de explorador para ti.\n\nCambiar los conjuros preparados. Tras finalizar un descanso largo, puedes sustituir un conjuro de tu lista por otro conjuro de explorador para el que tengas espacios de conjuro.\n\nAptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de explorador.\n\nCanalizador mágico. Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de explorador.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Has aprendido a canalizar la esencia mágica de la naturaleza para lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de explorador, que encontrarás más adelante en la lista de conjuros de explorador de la descripción de la clase.",
+     "text": "Has aprendido a canalizar la esencia mágica de la naturaleza para lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de explorador, que encontrarás más adelante en la lista de conjuros de explorador de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de explorador” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de explorador” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de explorador de nivel 1. Se recomiendan *curar heridas* y *golpe apresador*.",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de explorador de nivel 1. Se recomiendan curar heridas y golpe apresador."
+    },
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "El número de conjuros de tu lista aumenta conforme subes de nivel de explorador, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de explorador”. Cuando ese número aumente, elige conjuros de explorador adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de explorador”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une exploradore de nivel 5, podrías preparar cualquier combinación de seis conjuros de explorador de nivel 1 o 2.",
+     "text": "El número de conjuros de tu lista aumenta conforme subes de nivel de explorador, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de explorador”. Cuando ese número aumente, elige conjuros de explorador adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de explorador”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une exploradore de nivel 5, podrías preparar cualquier combinación de seis conjuros de explorador de nivel 1 o 2."
+    },
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Si otro rasgo de explorador te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de explorador para ti.",
+     "text": "Si otro rasgo de explorador te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de explorador para ti."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Cambiar los conjuros preparados.*** Tras finalizar un descanso largo, puedes sustituir un conjuro de tu lista por otro conjuro de explorador para el que tengas espacios de conjuro.",
+     "text": "Cambiar los conjuros preparados. Tras finalizar un descanso largo, puedes sustituir un conjuro de tu lista por otro conjuro de explorador para el que tengas espacios de conjuro."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Aptitud mágica.*** La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de explorador.",
+     "text": "Aptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de explorador."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Canalizador mágico.*** Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de explorador.",
+     "text": "Canalizador mágico. Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de explorador."
+    }
+   ],
+   "page": 59
+  },
+  {
+   "level": 1,
+   "name": "Maestría con armas",
+   "title": "Nivel 1: Maestría con armas",
+   "subclass": null,
+   "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como arcos largos y espadas cortas.\n\nTras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas largas.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como arcos largos y espadas cortas.",
+     "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como arcos largos y espadas cortas."
+    },
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Tras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas largas.",
+     "text": "Tras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas largas."
+    }
+   ],
+   "page": 59
+  },
+  {
+   "level": 2,
+   "name": "Estilo de combate",
+   "title": "Nivel 2: Estilo de combate",
+   "subclass": null,
+   "text": "Obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). En lugar de elegir una de esas dotes, puedes elegir la opción presentada a continuación.\n\nGuerrero druídico. Aprendes dos trucos de druida de tu elección (consulta la sección de la clase druida para ver la lista de conjuros de druida). Se recomiendan guía y voluta estelar. Los trucos elegidos cuentan como conjuros de explorador para ti y la Sabiduría es tu aptitud mágica para lanzarlos. Cada vez que subas un nivel de explorador, puedes sustituir uno de estos trucos por otro truco de druida.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). En lugar de elegir una de esas dotes, puedes elegir la opción presentada a continuación.",
+     "text": "Obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). En lugar de elegir una de esas dotes, puedes elegir la opción presentada a continuación."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Guerrero druídico.*** Aprendes dos trucos de druida de tu elección (consulta la sección de la clase druida para ver la lista de conjuros de druida). Se recomiendan *guía* y *voluta estelar*. Los trucos elegidos cuentan como conjuros de explorador para ti y la Sabiduría es tu aptitud mágica para lanzarlos. Cada vez que subas un nivel de explorador, puedes sustituir uno de estos trucos por otro truco de druida.",
+     "text": "Guerrero druídico. Aprendes dos trucos de druida de tu elección (consulta la sección de la clase druida para ver la lista de conjuros de druida). Se recomiendan guía y voluta estelar. Los trucos elegidos cuentan como conjuros de explorador para ti y la Sabiduría es tu aptitud mágica para lanzarlos. Cada vez que subas un nivel de explorador, puedes sustituir uno de estos trucos por otro truco de druida."
+    }
+   ],
+   "page": 59
+  },
+  {
+   "level": 2,
+   "name": "Explorador hábil",
+   "title": "Nivel 2: Explorador hábil",
+   "subclass": null,
+   "text": "Tus viajes te proporcionan los siguientes beneficios.\n\nIdiomas. Conoces dos idiomas de tu elección de las tablas de idiomas del capítulo “Creación de personajes”.\n\nPericia. Escoge una de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esa habilidad.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 59,
+     "md": "Tus viajes te proporcionan los siguientes beneficios.",
+     "text": "Tus viajes te proporcionan los siguientes beneficios."
+    },
+    {
+     "type": "definition",
+     "page": 59,
+     "md": "***Idiomas.*** Conoces dos idiomas de tu elección de las tablas de idiomas del capítulo “Creación de personajes”.",
+     "text": "Idiomas. Conoces dos idiomas de tu elección de las tablas de idiomas del capítulo “Creación de personajes”."
+    },
+    {
+     "type": "definition",
+     "page": 60,
+     "md": "***Pericia.*** Escoge una de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esa habilidad.",
+     "text": "Pericia. Escoge una de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esa habilidad."
+    }
+   ],
+   "page": 59
+  },
+  {
+   "level": 3,
+   "name": "Subclase de explorador",
+   "title": "Nivel 3: Subclase de explorador",
+   "subclass": null,
+   "text": "Consigues una subclase de explorador de tu elección. La subclase de cazador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de explorador. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de explorador e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Consigues una subclase de explorador de tu elección. La subclase de cazador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de explorador. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de explorador e inferiores.",
+     "text": "Consigues una subclase de explorador de tu elección. La subclase de cazador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de explorador. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de explorador e inferiores."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de explorador.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de explorador.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de explorador."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 5,
+   "name": "Ataque adicional",
+   "title": "Nivel 5: Ataque adicional",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 6,
+   "name": "Errante",
+   "title": "Nivel 6: Errante",
+   "subclass": null,
+   "text": "Tu velocidad aumenta en 3 m si no llevas armadura pesada. También tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Tu velocidad aumenta en 3 m si no llevas armadura pesada. También tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad.",
+     "text": "Tu velocidad aumenta en 3 m si no llevas armadura pesada. También tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 9,
+   "name": "Pericia",
+   "title": "Nivel 9: Pericia",
+   "subclass": null,
+   "text": "Escoge dos de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esas habilidades.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Escoge dos de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esas habilidades.",
+     "text": "Escoge dos de tus competencias en habilidades con las que no tengas pericia. Ganas pericia en esas habilidades."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 10,
+   "name": "Infatigable",
+   "title": "Nivel 10: Infatigable",
+   "subclass": null,
+   "text": "Las fuerzas primigenias te ayudan ahora en tus viajes, lo que te otorga los siguientes beneficios.\n\nPuntos de golpe temporales. Como acción de magia, puedes concederte una cantidad de puntos de golpe temporales igual a 1d8 más tu modificador por Sabiduría (mínimo de 1). Puedes usar esta acción una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.\n\nDisminuir cansancio. Tras finalizar un descanso corto, tu nivel de cansancio, si lo tienes, se reduce en 1.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Las fuerzas primigenias te ayudan ahora en tus viajes, lo que te otorga los siguientes beneficios.",
+     "text": "Las fuerzas primigenias te ayudan ahora en tus viajes, lo que te otorga los siguientes beneficios."
+    },
+    {
+     "type": "definition",
+     "page": 60,
+     "md": "***Puntos de golpe temporales.*** Como acción de magia, puedes concederte una cantidad de puntos de golpe temporales igual a 1d8 más tu modificador por Sabiduría (mínimo de 1). Puedes usar esta acción una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.",
+     "text": "Puntos de golpe temporales. Como acción de magia, puedes concederte una cantidad de puntos de golpe temporales igual a 1d8 más tu modificador por Sabiduría (mínimo de 1). Puedes usar esta acción una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 60,
+     "md": "***Disminuir cansancio.*** Tras finalizar un descanso corto, tu nivel de cansancio, si lo tienes, se reduce en 1.",
+     "text": "Disminuir cansancio. Tras finalizar un descanso corto, tu nivel de cansancio, si lo tienes, se reduce en 1."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 13,
+   "name": "Cazador persistente",
+   "title": "Nivel 13: Cazador persistente",
+   "subclass": null,
+   "text": "Sufrir daño no rompe tu concentración de marca del cazador.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Sufrir daño no rompe tu concentración de *marca del cazador*.",
+     "text": "Sufrir daño no rompe tu concentración de marca del cazador."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 14,
+   "name": "Velo de la naturaleza",
+   "title": "Nivel 14: Velo de la naturaleza",
+   "subclass": null,
+   "text": "Invocas espíritus de la naturaleza para esconderte mágicamente. Como acción adicional, puedes otorgarte el estado de invisible hasta el final de tu siguiente turno.\n\nPuedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Invocas espíritus de la naturaleza para esconderte mágicamente. Como acción adicional, puedes otorgarte el estado de invisible hasta el final de tu siguiente turno.",
+     "text": "Invocas espíritus de la naturaleza para esconderte mágicamente. Como acción adicional, puedes otorgarte el estado de invisible hasta el final de tu siguiente turno."
+    },
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.",
+     "text": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 17,
+   "name": "Cazador preciso",
+   "title": "Nivel 17: Cazador preciso",
+   "subclass": null,
+   "text": "Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu marca del cazador sobre ella.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu *marca del cazador* sobre ella.",
+     "text": "Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu marca del cazador sobre ella."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 18,
+   "name": "Sentidos salvajes",
+   "title": "Nivel 18: Sentidos salvajes",
+   "subclass": null,
+   "text": "Tu conexión con las fuerzas de la naturaleza te otorga visión ciega hasta 9 m.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Tu conexión con las fuerzas de la naturaleza te otorga visión ciega hasta 9 m.",
+     "text": "Tu conexión con las fuerzas de la naturaleza te otorga visión ciega hasta 9 m."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional."
+    }
+   ],
+   "page": 60
+  },
+  {
+   "level": 20,
+   "name": "Azote de enemigos",
+   "title": "Nivel 20: Azote de enemigos",
+   "subclass": null,
+   "text": "El dado de daño de tu marca del cazador es un d10 en lugar de un d6.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 60,
+     "md": "El dado de daño de tu *marca del cazador* es un d10 en lugar de un d6.",
+     "text": "El dado de daño de tu marca del cazador es un d10 en lugar de un d6."
+    }
+   ],
+   "page": 60
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de explorador: Cazador",
+   "features": [
+    {
+     "level": 3,
+     "name": "El cazador y la presa",
+     "title": "Nivel 3: El cazador y la presa",
+     "subclass": "Subclase de explorador: Cazador",
+     "text": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra.\n\nAzote de colosos. Tu tenacidad puede agotar incluso a los enemigos más resistentes. Cuando aciertes a una criatura con un arma, esta inflige 1d8 de daño adicional si el objetivo no tiene todos sus puntos de golpe. Solo puedes infligir este daño adicional una vez por turno.\n\nDestructor de hordas. Una vez en cada uno de tus turnos, cuando hagas un ataque con un arma, puedes realizar otro con la misma arma contra una criatura distinta que se encuentre a 1,5 m o menos del objetivo original si no la has atacado este turno y está dentro del alcance del arma.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 61,
+       "md": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra.",
+       "text": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra."
+      },
+      {
+       "type": "definition",
+       "page": 61,
+       "md": "***Azote de colosos.*** Tu tenacidad puede agotar incluso a los enemigos más resistentes. Cuando aciertes a una criatura con un arma, esta inflige 1d8 de daño adicional si el objetivo no tiene todos sus puntos de golpe. Solo puedes infligir este daño adicional una vez por turno.",
+       "text": "Azote de colosos. Tu tenacidad puede agotar incluso a los enemigos más resistentes. Cuando aciertes a una criatura con un arma, esta inflige 1d8 de daño adicional si el objetivo no tiene todos sus puntos de golpe. Solo puedes infligir este daño adicional una vez por turno."
+      },
+      {
+       "type": "definition",
+       "page": 61,
+       "md": "***Destructor de hordas.*** Una vez en cada uno de tus turnos, cuando hagas un ataque con un arma, puedes realizar otro con la misma arma contra una criatura distinta que se encuentre a 1,5 m o menos del objetivo original si no la has atacado este turno y está dentro del alcance del arma.",
+       "text": "Destructor de hordas. Una vez en cada uno de tus turnos, cuando hagas un ataque con un arma, puedes realizar otro con la misma arma contra una criatura distinta que se encuentre a 1,5 m o menos del objetivo original si no la has atacado este turno y está dentro del alcance del arma."
+      }
+     ],
+     "page": 61
+    },
+    {
+     "level": 3,
+     "name": "Sabiduría del cazador",
+     "title": "Nivel 3: Sabiduría del cazador",
+     "subclass": "Subclase de explorador: Cazador",
+     "text": "Puedes invocar a las fuerzas de la naturaleza para mostrar ciertos puntos fuertes y débiles de tu presa. Mientras una criatura tenga tu marca del cazador sobre ella, sabrás si tiene alguna inmunidad, resistencia o vulnerabilidad y cuáles son, de ser así.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 61,
+       "md": "Puedes invocar a las fuerzas de la naturaleza para mostrar ciertos puntos fuertes y débiles de tu presa. Mientras una criatura tenga tu *marca del cazador* sobre ella, sabrás si tiene alguna inmunidad, resistencia o vulnerabilidad y cuáles son, de ser así.",
+       "text": "Puedes invocar a las fuerzas de la naturaleza para mostrar ciertos puntos fuertes y débiles de tu presa. Mientras una criatura tenga tu marca del cazador sobre ella, sabrás si tiene alguna inmunidad, resistencia o vulnerabilidad y cuáles son, de ser así."
+      }
+     ],
+     "page": 61
+    },
+    {
+     "level": 7,
+     "name": "Tácticas defensivas",
+     "title": "Nivel 7: Tácticas defensivas",
+     "subclass": "Subclase de explorador: Cazador",
+     "text": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra.\n\nDefensa contra ataques múltiples. Cuando una criatura te acierte con una tirada de ataque, esa criatura tendrá desventaja en todas las demás tiradas de ataque contra ti este turno.\n\nEscapar de la horda. Los ataques de oportunidad tienen desventaja contra ti.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 61,
+       "md": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra.",
+       "text": "Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra."
+      },
+      {
+       "type": "definition",
+       "page": 61,
+       "md": "***Defensa contra ataques múltiples.*** Cuando una criatura te acierte con una tirada de ataque, esa criatura tendrá desventaja en todas las demás tiradas de ataque contra ti este turno.",
+       "text": "Defensa contra ataques múltiples. Cuando una criatura te acierte con una tirada de ataque, esa criatura tendrá desventaja en todas las demás tiradas de ataque contra ti este turno."
+      },
+      {
+       "type": "definition",
+       "page": 61,
+       "md": "***Escapar de la horda.*** Los ataques de oportunidad tienen desventaja contra ti.",
+       "text": "Escapar de la horda. Los ataques de oportunidad tienen desventaja contra ti."
+      }
+     ],
+     "page": 61
+    },
+    {
+     "level": 11,
+     "name": "El cazador experto y la presa",
+     "title": "Nivel 11: El cazador experto y la presa",
+     "subclass": "Subclase de explorador: Cazador",
+     "text": "Una vez por turno, cuando inflijas daño a una criatura que tenga tu marca del cazador, también puedes hacer el daño adicional del conjuro a una criatura distinta que puedas ver a 9 m o menos de la primera criatura.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 61,
+       "md": "Una vez por turno, cuando inflijas daño a una criatura que tenga tu *marca del cazador*, también puedes hacer el daño adicional del conjuro a una criatura distinta que puedas ver a 9 m o menos de la primera criatura.",
+       "text": "Una vez por turno, cuando inflijas daño a una criatura que tenga tu marca del cazador, también puedes hacer el daño adicional del conjuro a una criatura distinta que puedas ver a 9 m o menos de la primera criatura."
+      }
+     ],
+     "page": 61
+    },
+    {
+     "level": 15,
+     "name": "Defensa de cazador experto",
+     "title": "Nivel 15: Defensa de cazador experto",
+     "subclass": "Subclase de explorador: Cazador",
+     "text": "Cuando recibes daño, puedes usar una reacción para concederte resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final de ese turno.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 61,
+       "md": "Cuando recibes daño, puedes usar una reacción para concederte resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final de ese turno.",
+       "text": "Cuando recibes daño, puedes usar una reacción para concederte resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final de ese turno."
+      }
+     ],
+     "page": 61
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 1,
+   "caption": "Conjuros de explorador de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Alarma",
+     "Abjuración",
+     "R"
+    ],
+    [
+     "Buenas bayas",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Curar heridas",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Detectar venenos y enfermedades",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Encantar animal",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Enmarañar",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Golpe apresador",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Hablar con los animales",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Marca del cazador",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Nube de oscurecimiento",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Salto",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Zancada prodigiosa",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 60
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de explorador de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Arma mágica",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Auxilio",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Crecimiento espinoso",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Detectar trampas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Localizar animales o plantas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Localizar objeto",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Mensajero animal",
+     "Encantamiento",
+     "R"
+    ],
+    [
+     "Pasar sin rastro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Piel robliza",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Protección contra veneno",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Ráfaga de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Restablecimiento menor",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Silencio",
+     "Ilusionismo",
+     "C, R"
+    ],
+    [
+     "Visión en la oscuridad",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 61
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de explorador de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Caminar sobre el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Conjurar animales",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Crecimiento vegetal",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Fundirse con la piedra",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Hablar con las plantas",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Indetectable",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Luz del día",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Muro de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Protección contra energía",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Respirar bajo el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Revivir",
+     "Nigromancia",
+     "M"
+    ]
+   ],
+   "page": 61
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de explorador de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Conjurar seres del bosque",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Dominar bestia",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Libertad de movimiento",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Localizar criatura",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Piel pétrea",
+     "Transmutación",
+     "C, M"
+    ]
+   ],
+   "page": 61
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de explorador de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Comunión con la naturaleza",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Paso arbóreo",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Restablecimiento mayor",
+     "Abjuración",
+     "M"
+    ]
+   ],
+   "page": 61
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 58
+ },
+ "refs": [
+  "spell.marca-del-cazador",
+  "spell.curar-heridas",
+  "spell.golpe-apresador",
+  "spell.guia",
+  "spell.voluta-estelar"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "table.ejemplos-de-tiradas-de-salvacion",
+ "caption": "Ejemplos de tiradas de salvación",
+ "header": [
+  "Característica",
+  "Haz una tirada de salvación para..."
+ ],
+ "rows": [
+  [
+   "Fuerza",
+   "Resistir físicamente una fuerza directa."
+  ],
+  [
+   "Destreza",
+   "Esquivar una amenaza."
+  ],
+  [
+   "Constitución",
+   "Resistir un peligro tóxico."
+  ],
+  [
+   "Inteligencia",
+   "Identificar una ilusión como falsa."
+  ],
+  [
+   "Sabiduría",
+   "Resistir una agresión mental."
+  ],
+  [
+   "Carisma",
+   "Reafirmar tu identidad."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las pruebas con d20",
+  "Tiradas de salvación",
+  "Modificador por característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 7
+ }
+}

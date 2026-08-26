@@ -1,0 +1,46 @@
+{
+ "id": "table.canalizadores-arcanos",
+ "caption": "Canalizadores arcanos",
+ "header": [
+  "Canalizador",
+  "Peso",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Bastón",
+   "2 kg",
+   "5 po"
+  ],
+  [
+   "Cristal",
+   "0,5 kg",
+   "10 po"
+  ],
+  [
+   "Orbe",
+   "1,5 kg",
+   "20 po"
+  ],
+  [
+   "Vara",
+   "1 kg",
+   "10 po"
+  ],
+  [
+   "Varita",
+   "0,5 kg",
+   "10 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Equipo de aventureros",
+  "Canalizador arcano (variable)"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 105
+ }
+}

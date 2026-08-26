@@ -1,0 +1,17 @@
+{
+ "id": "rule.canalizador-magico",
+ "name": "Canalizador mágico",
+ "text": "Un canalizador mágico es un objeto que pueden usar determinadas criaturas en lugar de los componentes materiales de un conjuro si este no los consume y los materiales no tienen un coste especificado. Algunas clases permiten a sus miembros utilizar ciertos tipos de canalizadores mágicos. Consulta también el capítulo “Conjuros” (“Lanzar conjuros”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 197,
+   "md": "Un canalizador mágico es un objeto que pueden usar determinadas criaturas en lugar de los componentes materiales de un conjuro si este no los consume y los materiales no tienen un coste especificado. Algunas clases permiten a sus miembros utilizar ciertos tipos de canalizadores mágicos. *Consulta también* el capítulo “Conjuros” (“Lanzar conjuros”).",
+   "text": "Un canalizador mágico es un objeto que pueden usar determinadas criaturas en lugar de los componentes materiales de un conjuro si este no los consume y los materiales no tienen un coste especificado. Algunas clases permiten a sus miembros utilizar ciertos tipos de canalizadores mágicos. Consulta también el capítulo “Conjuros” (“Lanzar conjuros”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ }
+}

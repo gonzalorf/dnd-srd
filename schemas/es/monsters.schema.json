@@ -1,0 +1,631 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "monsters",
+ "description": "Inferido de 336 fichas de la colección «monsters».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "abilities": {
+    "type": "object",
+    "properties": {
+     "car": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     },
+     "con": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     },
+     "des": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     },
+     "fue": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     },
+     "int": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     },
+     "sab": {
+      "type": "object",
+      "properties": {
+       "mod": {
+        "type": "integer"
+       },
+       "save": {
+        "type": "integer"
+       },
+       "score": {
+        "type": "integer"
+       }
+      },
+      "required": [
+       "mod",
+       "save",
+       "score"
+      ]
+     }
+    },
+    "required": [
+     "car",
+     "con",
+     "des",
+     "fue",
+     "int",
+     "sab"
+    ]
+   },
+   "ac": {
+    "type": "integer"
+   },
+   "acRaw": {
+    "type": "string"
+   },
+   "actions": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "description": {
+       "type": "string"
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "page": {
+       "type": "integer"
+      },
+      "uses": {
+       "type": "string",
+       "enum": [
+        "1/día",
+        "2/día",
+        "3/día",
+        "recarga 4–6",
+        "recarga 5–6",
+        "recarga 6"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "name",
+      "page"
+     ]
+    }
+   },
+   "alignment": {
+    "type": "string"
+   },
+   "bonusActions": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "description": {
+       "type": "string"
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "page": {
+       "type": "integer"
+      },
+      "uses": {
+       "type": "string",
+       "enum": [
+        "1/día",
+        "2/día",
+        "3/día",
+        "recarga 4–6",
+        "recarga 5–6",
+        "recarga 6",
+        "se recarga tras un descanso corto o largo",
+        "solo celestial; se recarga tras un descanso largo",
+        "solo feérico; se recarga tras un descanso largo",
+        "solo infernal; se recarga tras un descanso largo"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "name",
+      "page"
+     ]
+    }
+   },
+   "challenge": {
+    "type": "object",
+    "properties": {
+     "cr": {
+      "type": "number"
+     },
+     "proficiencyBonus": {
+      "type": "integer"
+     },
+     "raw": {
+      "type": "string"
+     },
+     "xp": {
+      "type": "integer"
+     },
+     "xpInLair": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "raw"
+    ]
+   },
+   "context": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "gear": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "hp": {
+    "type": "object",
+    "properties": {
+     "average": {
+      "type": "integer"
+     },
+     "formula": {
+      "type": "string"
+     },
+     "raw": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "raw"
+    ]
+   },
+   "id": {
+    "type": "string"
+   },
+   "immunities": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "initiative": {
+    "type": "object",
+    "properties": {
+     "mod": {
+      "type": "integer"
+     },
+     "score": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "mod",
+     "score"
+    ]
+   },
+   "languages": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "legendary": {
+    "type": "object",
+    "properties": {
+     "actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "description": {
+         "type": "string"
+        },
+        "md": {
+         "type": "string"
+        },
+        "name": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "page": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "md",
+        "name",
+        "page"
+       ]
+      }
+     },
+     "intro": {
+      "type": "string",
+      "enum": [
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el aboleth puede emplear un uso para llevar a cabo una de las siguientes acciones. El aboleth recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el kraken puede emplear un uso para llevar a cabo una de las siguientes acciones. El kraken recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el liche puede emplear un uso para llevar a cabo una de las siguientes acciones. El liche recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el vampiro puede emplear un uso para llevar a cabo una de las siguientes acciones. El vampiro recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, la esfinge puede emplear un uso para llevar a cabo una de las siguientes acciones. La esfinge recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, la momia puede emplear un uso para llevar a cabo una de las siguientes acciones. La momia recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3. Justo después del turno de otra criatura, el solar puede emplear un uso para llevar a cabo una de las siguientes acciones. El solar recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3. Justo después del turno de otra criatura, el unicornio puede emplear un uso para llevar a cabo una de las siguientes acciones. El unicornio recupera todos los usos al principio de cada uno de sus turnos.",
+       "Usos de acciones legendarias: 3. Justo después del turno de otra criatura, la tarasca puede emplear un uso para llevar a cabo una de las siguientes acciones. La tarasca recupera todos los usos al principio de cada uno de sus turnos."
+      ]
+     },
+     "uses": {
+      "type": "integer"
+     },
+     "usesInLair": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "actions",
+     "intro",
+     "uses"
+    ]
+   },
+   "metaRaw": {
+    "type": "string"
+   },
+   "name": {
+    "type": "string"
+   },
+   "reactions": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "description": {
+       "type": "string"
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "uses": {
+       "type": "string",
+       "enum": [
+        "1/día",
+        "2/día",
+        "3/día",
+        "recarga 5–6"
+       ]
+      }
+     },
+     "required": [
+      "description",
+      "md",
+      "name",
+      "page"
+     ]
+    }
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "resistances": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "senses": {
+    "type": "object",
+    "properties": {
+     "passivePerception": {
+      "type": "integer"
+     },
+     "raw": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "passivePerception",
+     "raw"
+    ]
+   },
+   "size": {
+    "type": "string",
+    "enum": [
+     "Diminuto",
+     "Enorme",
+     "Gargantuesco",
+     "Grande",
+     "Mediano",
+     "Pequeño"
+    ]
+   },
+   "skills": {
+    "type": "object",
+    "properties": {
+     "Acrobacias": {
+      "type": "integer"
+     },
+     "Atletismo": {
+      "type": "integer"
+     },
+     "Conocimiento arcano": {
+      "type": "integer"
+     },
+     "Engaño": {
+      "type": "integer"
+     },
+     "Historia": {
+      "type": "integer"
+     },
+     "Interpretación": {
+      "type": "integer"
+     },
+     "Investigación": {
+      "type": "integer"
+     },
+     "Juego de manos": {
+      "type": "integer"
+     },
+     "Medicina": {
+      "type": "integer"
+     },
+     "Naturaleza": {
+      "type": "integer"
+     },
+     "Percepción": {
+      "type": "integer"
+     },
+     "Perspicacia": {
+      "type": "integer"
+     },
+     "Persuasión": {
+      "type": "integer"
+     },
+     "Religión": {
+      "type": "integer"
+     },
+     "Sigilo": {
+      "type": "integer"
+     },
+     "Supervivencia": {
+      "type": "integer"
+     }
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     },
+     "pages": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "speeds": {
+    "type": "object",
+    "properties": {
+     "caminando": {
+      "type": "number"
+     },
+     "excavar": {
+      "type": "number"
+     },
+     "nadar": {
+      "type": "number"
+     },
+     "trepar": {
+      "type": "number"
+     },
+     "trepar o volar": {
+      "type": "number"
+     },
+     "volar": {
+      "type": "number"
+     }
+    },
+    "required": [
+     "caminando"
+    ]
+   },
+   "tags": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "traits": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "description": {
+       "type": "string"
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "page": {
+       "type": "integer"
+      },
+      "uses": {
+       "type": "string",
+       "enum": [
+        "3/día",
+        "3/día o 4/día en la guarida",
+        "4/día",
+        "4/día o 5/día en la guarida",
+        "6/día"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "name",
+      "page"
+     ]
+    }
+   },
+   "type": {
+    "type": "string"
+   },
+   "vulnerabilities": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "contundente",
+      "daño perforante de armas empuñadas por criaturas bajo el efecto de un conjuro bendición",
+      "frío",
+      "fuego",
+      "radiante",
+      "trueno"
+     ]
+    }
+   }
+  },
+  "required": [
+   "abilities",
+   "ac",
+   "acRaw",
+   "alignment",
+   "challenge",
+   "context",
+   "hp",
+   "id",
+   "languages",
+   "metaRaw",
+   "name",
+   "senses",
+   "size",
+   "source",
+   "speeds",
+   "type"
+  ]
+ }
+}

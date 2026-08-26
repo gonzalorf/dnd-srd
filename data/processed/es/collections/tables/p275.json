@@ -1,0 +1,25 @@
+{
+ "id": "table.p275",
+ "caption": null,
+ "header": [],
+ "rows": [
+  [
+   "93–97",
+   "Lanzas polimorfar haciendo objetivo a la criatura más cercana al punto de origen elegido. Tira 1d4 para determinar la nueva forma del objetivo. Si el resultado es 1, se convertirá en una avispa gigante; si es 2, en un oso negro; si es 3–4, en una rana."
+  ],
+  [
+   "98–00",
+   "La criatura más cercana al punto de origen"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Varita de las maravillas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 275
+ }
+}

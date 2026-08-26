@@ -1,0 +1,23 @@
+{
+ "id": "rule.accion",
+ "name": "Acción",
+ "text": "En tu turno, puedes llevar a cabo una acción. Elige qué acción quieres realizar entre las que aparecen a continuación o entre las acciones especiales que te otorgan tus rasgos. Consulta también el capítulo “Cómo jugar” (“Acciones”). Estas acciones se definen en otras partes del glosario:\n\nAtacar Esconderse Preparar una Ayudar Esquivar acción Buscar Estudiar Utilizar Correr Influir Destrabarse Magia",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 194,
+   "md": "En tu turno, puedes llevar a cabo una acción. Elige qué acción quieres realizar entre las que aparecen a continuación o entre las acciones especiales que te otorgan tus rasgos. *Consulta también* el capítulo “Cómo jugar” (“Acciones”). Estas acciones se definen en otras partes del glosario:",
+   "text": "En tu turno, puedes llevar a cabo una acción. Elige qué acción quieres realizar entre las que aparecen a continuación o entre las acciones especiales que te otorgan tus rasgos. Consulta también el capítulo “Cómo jugar” (“Acciones”). Estas acciones se definen en otras partes del glosario:"
+  },
+  {
+   "type": "callout",
+   "page": 194,
+   "md": "Atacar Esconderse Preparar una Ayudar Esquivar acción Buscar Estudiar Utilizar Correr Influir Destrabarse Magia",
+   "text": "Atacar Esconderse Preparar una Ayudar Esquivar acción Buscar Estudiar Utilizar Correr Influir Destrabarse Magia"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 194
+ }
+}

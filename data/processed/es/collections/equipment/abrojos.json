@@ -1,0 +1,458 @@
+{
+ "id": "gear.abrojos",
+ "name": "Abrojos",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Abrojos",
+  "Peso": "1 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 102,
+   "md": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.",
+   "text": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos."
+  },
+  {
+   "type": "table",
+   "page": 103,
+   "caption": "Equipo de aventureros",
+   "header": [
+    "Objeto",
+    "Peso",
+    "Precio"
+   ],
+   "rows": [
+    [
+     "Abrojos",
+     "1 kg",
+     "1 po"
+    ],
+    [
+     "Aceite",
+     "0,5 kg",
+     "1 pp"
+    ],
+    [
+     "Ácido",
+     "0,5 kg",
+     "25 po"
+    ],
+    [
+     "Agua bendita",
+     "0,5 kg",
+     "25 po"
+    ],
+    [
+     "Aljaba",
+     "0,5 kg",
+     "1 po"
+    ],
+    [
+     "Antitoxina",
+     "—",
+     "50 po"
+    ],
+    [
+     "Antorcha",
+     "0,5 kg",
+     "1 pc"
+    ],
+    [
+     "Ariete portátil",
+     "17,5 kg",
+     "4 po"
+    ],
+    [
+     "Barril",
+     "35 kg",
+     "2 po"
+    ],
+    [
+     "Bolas de metal",
+     "1 kg",
+     "1 po"
+    ],
+    [
+     "Bolsa",
+     "0,5 kg",
+     "5 pp"
+    ],
+    [
+     "Botella de cristal",
+     "1 kg",
+     "2 po"
+    ],
+    [
+     "Cadena",
+     "5 kg",
+     "5 po"
+    ],
+    [
+     "Campana",
+     "—",
+     "1 po"
+    ],
+    [
+     "Canalizador arcano",
+     "Variable",
+     "Variable"
+    ],
+    [
+     "Canalizador druídico",
+     "Variable",
+     "Variable"
+    ],
+    [
+     "Cantimplora",
+     "2,5 kg (llena)",
+     "2 pp"
+    ],
+    [
+     "Catalejo",
+     "0,5 kg",
+     "1000 po"
+    ],
+    [
+     "Cerradura",
+     "0,5 kg",
+     "10 po"
+    ],
+    [
+     "Cesta",
+     "1 kg",
+     "4 pp"
+    ],
+    [
+     "Cofre",
+     "12,5 kg",
+     "5 po"
+    ],
+    [
+     "Cordel",
+     "—",
+     "1 pp"
+    ],
+    [
+     "Cubo",
+     "1 kg",
+     "5 pc"
+    ],
+    [
+     "Cuerda",
+     "2,5 kg",
+     "1 po"
+    ],
+    [
+     "Disfraz",
+     "2 kg",
+     "5 po"
+    ],
+    [
+     "Escalera",
+     "12,5 kg",
+     "1 pp"
+    ],
+    [
+     "Espejo",
+     "250 g",
+     "5 po"
+    ],
+    [
+     "Esposas",
+     "3 kg",
+     "2 po"
+    ],
+    [
+     "Estuche para mapas o pergaminos",
+     "0,5 kg",
+     "1 po"
+    ],
+    [
+     "Estuche para virotes de ballesta",
+     "0,5 kg",
+     "1 po"
+    ],
+    [
+     "Frasco",
+     "0,5 kg",
+     "2 pc"
+    ],
+    [
+     "Fuego de alquimista",
+     "0,5 kg",
+     "50 po"
+    ],
+    [
+     "Garfio de escalada",
+     "2 kg",
+     "2 po"
+    ],
+    [
+     "Jarro",
+     "2 kg",
+     "2 pc"
+    ],
+    [
+     "Lámpara",
+     "0,5 kg",
+     "5 pp"
+    ],
+    [
+     "Libro",
+     "2,5 kg",
+     "25 po"
+    ],
+    [
+     "Linterna de ojo de buey",
+     "1 kg",
+     "10 po"
+    ],
+    [
+     "Linterna sorda",
+     "1 kg",
+     "5 po"
+    ],
+    [
+     "Lupa",
+     "—",
+     "100 po"
+    ],
+    [
+     "Manta",
+     "1,5 kg",
+     "5 pp"
+    ],
+    [
+     "Mapa",
+     "—",
+     "1 po"
+    ],
+    [
+     "Mochila",
+     "2,5 kg",
+     "2 po"
+    ],
+    [
+     "Munición",
+     "Variable",
+     "Variable"
+    ],
+    [
+     "Olla de hierro",
+     "5 kg",
+     "2 po"
+    ],
+    [
+     "Pala",
+     "2,5 kg",
+     "2 po"
+    ],
+    [
+     "Palanqueta",
+     "2,5 kg",
+     "2 po"
+    ],
+    [
+     "Papel",
+     "—",
+     "2 pp"
+    ],
+    [
+     "Paquete de artista",
+     "29,25 kg",
+     "40 po"
+    ],
+    [
+     "Paquete de diplomático",
+     "19,5 kg",
+     "39 po"
+    ],
+    [
+     "Paquete de erudito",
+     "11 kg",
+     "40 po"
+    ],
+    [
+     "Paquete de explorador",
+     "27,5 kg",
+     "10 po"
+    ],
+    [
+     "Paquete de explorador de mazmorras",
+     "27,5 kg",
+     "12 po"
+    ],
+    [
+     "Paquete de ladrón",
+     "21 kg",
+     "16 po"
+    ],
+    [
+     "Paquete de sacerdote",
+     "14,5 kg",
+     "33 po"
+    ],
+    [
+     "Perfume",
+     "—",
+     "5 po"
+    ],
+    [
+     "Pergamino",
+     "—",
+     "1 pp"
+    ],
+    [
+     "Pergamino de conjuro (truco)",
+     "—",
+     "30 po"
+    ],
+    [
+     "Pergamino de conjuro (nivel 1)",
+     "—",
+     "50 po"
+    ],
+    [
+     "Petate",
+     "3,5 kg",
+     "1 po"
+    ],
+    [
+     "Pluma",
+     "—",
+     "2 pc"
+    ],
+    [
+     "Poción de curación",
+     "250 g",
+     "50 po"
+    ],
+    [
+     "Polipasto",
+     "2,5 kg",
+     "1 po"
+    ],
+    [
+     "Puntas de hierro",
+     "2,5 kg",
+     "1 po"
+    ],
+    [
+     "Raciones",
+     "1 kg",
+     "5 pp"
+    ],
+    [
+     "Red",
+     "1,5 kg",
+     "1 po"
+    ],
+    [
+     "Ropas de calidad",
+     "3 kg",
+     "15 po"
+    ],
+    [
+     "Ropas de viaje",
+     "2 kg",
+     "2 po"
+    ],
+    [
+     "Saco",
+     "250 g",
+     "1 pc"
+    ],
+    [
+     "Saquito de componentes",
+     "1 kg",
+     "25 po"
+    ],
+    [
+     "Silbato de supervivencia",
+     "—",
+     "5 pc"
+    ],
+    [
+     "Símbolo sagrado",
+     "Variable",
+     "Variable"
+    ],
+    [
+     "Tienda",
+     "10 kg",
+     "2 po"
+    ],
+    [
+     "Tinta",
+     "—",
+     "10 po"
+    ],
+    [
+     "Trampa para cazar",
+     "12,5 kg",
+     "5 po"
+    ],
+    [
+     "Túnica",
+     "2 kg",
+     "1 po"
+    ],
+    [
+     "Útiles de escalada",
+     "6 kg",
+     "25 po"
+    ],
+    [
+     "Útiles de sanador",
+     "1,5 kg",
+     "5 po"
+    ],
+    [
+     "Vara",
+     "3,5 kg",
+     "5 pc"
+    ],
+    [
+     "Vela",
+     "—",
+     "1 pc"
+    ],
+    [
+     "Veneno básico",
+     "—",
+     "100 po"
+    ],
+    [
+     "Vial",
+     "—",
+     "1 po"
+    ],
+    [
+     "Yesquero",
+     "0,5 kg",
+     "5 pp"
+    ]
+   ]
+  }
+ ],
+ "descriptionPage": 102
+}

@@ -1,0 +1,108 @@
+{
+ "id": "monster.pseudodragon",
+ "name": "Pseudodragón",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 361
+ },
+ "context": [
+  "Pseudodragón"
+ ],
+ "metaRaw": "Dragón Diminuto, neutral bueno",
+ "type": "Dragón",
+ "alignment": "neutral bueno",
+ "size": "Diminuto",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "10 (3d4 + 3)",
+  "average": 10,
+  "formula": "3d4 + 3"
+ },
+ "speeds": {
+  "caminando": 4.5,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 5,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 3 m, visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "entiende común y dracónico",
+  "pero no puede hablar"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El pseudodragón tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 361,
+   "description": "El pseudodragón tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El pseudodragón realiza dos ataques de mordisco.",
+   "page": 361,
+   "description": "El pseudodragón realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante.",
+   "page": 361,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante."
+  },
+  {
+   "name": "Aguijón",
+   "md": "***Aguijón.*** *Tirada de salvación de Constitución:* CD 12, una criatura que el pseudodragón pueda ver a 1,5 m o menos. *Fallo:* 5 (2d4) de daño de veneno y el objetivo tendrá el estado de envenenado durante 1 hora. *Fallo por 5 o más:* mientras esté envenenado, el objetivo también tendrá el estado de inconsciente, que terminará antes si recibe daño o una criatura a 1,5 m o menos de él utiliza una acción para despertarlo.",
+   "page": 361,
+   "description": "*Tirada de salvación de Constitución:* CD 12, una criatura que el pseudodragón pueda ver a 1,5 m o menos. *Fallo:* 5 (2d4) de daño de veneno y el objetivo tendrá el estado de envenenado durante 1 hora. *Fallo por 5 o más:* mientras esté envenenado, el objetivo también tendrá el estado de inconsciente, que terminará antes si recibe daño o una criatura a 1,5 m o menos de él utiliza una acción para despertarlo."
+  }
+ ]
+}

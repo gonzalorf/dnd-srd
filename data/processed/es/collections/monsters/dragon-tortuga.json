@@ -1,0 +1,123 @@
+{
+ "id": "monster.dragon-tortuga",
+ "name": "Dragón tortuga",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 316,
+  "pages": [
+   316,
+   317
+  ]
+ },
+ "context": [
+  "Dragón tortuga"
+ ],
+ "metaRaw": "Dragón Gargantuesco, neutral",
+ "type": "Dragón",
+ "alignment": "neutral",
+ "size": "Gargantuesco",
+ "ac": 20,
+ "acRaw": "20",
+ "initiative": {
+  "mod": 6,
+  "score": 16
+ },
+ "hp": {
+  "raw": "356 (23d20 + 115)",
+  "average": 356,
+  "formula": "23d20 + 115"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "nadar": 15.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "dracónico",
+  "primordial (acuano)"
+ ],
+ "resistances": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "17 (18 000 PX; BC +6)",
+  "cr": 17,
+  "xp": 18000,
+  "proficiencyBonus": 6
+ },
+ "abilities": {
+  "fue": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 11
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 7
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 316,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de mordisco. Puede sustituir uno de ellos por un ataque con su cola.",
+   "page": 316,
+   "description": "El dragón realiza tres ataques de mordisco. Puede sustituir uno de ellos por un ataque con su cola."
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +13, alcance 4,5 m. *Acierto:* 18 (2d10 + 7) de daño contundente. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de derribada.",
+   "page": 316,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +13, alcance 4,5 m. *Acierto:* 18 (2d10 + 7) de daño contundente. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +13, alcance 4,5 m. *Acierto:* 23 (3d10 + 7) de daño perforante más 7 (2d6) de daño de fuego. Estar bajo el agua no otorga resistencia a este daño de fuego.",
+   "page": 316,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +13, alcance 4,5 m. *Acierto:* 23 (3d10 + 7) de daño perforante más 7 (2d6) de daño de fuego. Estar bajo el agua no otorga resistencia a este daño de fuego."
+  },
+  {
+   "name": "Aliento de vapor",
+   "md": "***Aliento de vapor (recarga 5–6).*** *Tirada de salvación de Constitución:* CD 19, todas las criaturas en un cono de 18 m. *Fallo:* 56 (16d6) de daño de fuego. *Éxito:* la mitad",
+   "page": 316,
+   "description": "*Tirada de salvación de Constitución:* CD 19, todas las criaturas en un cono de 18 m. *Fallo:* 56 (16d6) de daño de fuego. *Éxito:* la mitad",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": null,
+   "md": "del daño. *Fallo o éxito:* estar bajo el agua no otorga resistencia a este daño de fuego.",
+   "page": 317
+  }
+ ]
+}

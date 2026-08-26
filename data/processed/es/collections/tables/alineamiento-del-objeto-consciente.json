@@ -1,0 +1,53 @@
+{
+ "id": "table.alineamiento-del-objeto-consciente",
+ "caption": "Alineamiento del objeto consciente",
+ "header": [
+  "1d100",
+  "Alineamiento",
+  "1d100",
+  "Alineamiento"
+ ],
+ "rows": [
+  [
+   "01–15",
+   "Legal bueno",
+   "74–85",
+   "Caótico neutral"
+  ],
+  [
+   "16–35",
+   "Neutral bueno",
+   "86–89",
+   "Legal malvado"
+  ],
+  [
+   "36–50",
+   "Caótico bueno",
+   "90–96",
+   "Neutral malvado"
+  ],
+  [
+   "51–63",
+   "Legal neutral",
+   "97–00",
+   "Caótico malvado"
+  ],
+  [
+   "64–73",
+   "Neutral",
+   "",
+   ""
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos conscientes",
+  "Atributos de objetos mágicos conscientes",
+  "Propósito especial"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 227
+ }
+}

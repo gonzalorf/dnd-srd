@@ -1,0 +1,17 @@
+{
+ "id": "rule.inmunidad",
+ "name": "Inmunidad",
+ "text": "Si tienes inmunidad a un tipo de daño o un estado, no te afectará de ningún modo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Si tienes inmunidad a un tipo de daño o un estado, no te afectará de ningún modo.",
+   "text": "Si tienes inmunidad a un tipo de daño o un estado, no te afectará de ningún modo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

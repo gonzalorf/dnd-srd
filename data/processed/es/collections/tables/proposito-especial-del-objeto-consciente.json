@@ -1,0 +1,49 @@
+{
+ "id": "table.proposito-especial-del-objeto-consciente",
+ "caption": "Propósito especial del objeto consciente",
+ "header": [
+  "1d10 1",
+  "Propósito especial"
+ ],
+ "rows": [
+  [
+   "",
+   "Alineado. El objeto quiere derrotar o destruir a aquellos de alineamiento diametralmente opuesto. Un objeto de este tipo nunca es neutral."
+  ],
+  [
+   "2",
+   "Buscador de alma gemela. El objeto busca otro objeto mágico consciente; por ejemplo, uno similar a él."
+  ],
+  [
+   "3",
+   "Buscador de conocimiento. El objeto anhela conocimientos o está decidido a resolver un misterio, desvelar un secreto o descifrar una enigmática profecía."
+  ],
+  [
+   "4",
+   "Buscador de gloria. El objeto quiere ser conocido como el mejor objeto mágico del mundo, por lo que buscará la fama y notoriedad de quien lo porte."
+  ],
+  [
+   "5",
+   "Buscador del creador. El objeto busca a su creador y quiere saber por qué lo creó."
+  ],
+  [
+   "6",
+   "Buscador del destino. El objeto está convencido de que tanto él como quien lo posee tendrán papeles clave en sucesos futuros."
+  ],
+  [
+   "7",
+   "Destructor. El objeto ansía la destrucción e incita a su usuario a luchar de forma arbitraria."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos conscientes",
+  "Atributos de objetos mágicos conscientes",
+  "Propósito especial"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 227
+ }
+}

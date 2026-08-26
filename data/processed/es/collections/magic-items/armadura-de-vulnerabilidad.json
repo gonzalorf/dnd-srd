@@ -1,0 +1,33 @@
+{
+ "id": "item.armadura-de-vulnerabilidad",
+ "name": "Armadura de vulnerabilidad",
+ "category": "Armadura",
+ "variant": "ligera, media o pesada",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (ligera, media o pesada), rara (requiere sintonización)",
+ "text": "Mientras lleves esta armadura, tienes resistencia a un tipo de daño de entre los siguientes: contundente, cortante o perforante. Tu GM elige el tipo o lo determina al azar.\n\nMaldición. Esta armadura está maldita, circunstancia que solo se revela cuando se lanza el conjuro identificar sobre ella o te sintonizas con ella. Al sintonizarte con la armadura, sufres la maldición hasta que seas el objetivo del conjuro levantar maldición u otro efecto mágico similar. Quitarse la armadura no pone fin a la maldición. Mientras sufras la maldición, serás vulnerable a dos de los tres tipos de daño asociados con la armadura (salvo al que tienes resistencia gracias a ella).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 236,
+   "md": "Mientras lleves esta armadura, tienes resistencia a un tipo de daño de entre los siguientes: contundente, cortante o perforante. Tu GM elige el tipo o lo determina al azar.",
+   "text": "Mientras lleves esta armadura, tienes resistencia a un tipo de daño de entre los siguientes: contundente, cortante o perforante. Tu GM elige el tipo o lo determina al azar."
+  },
+  {
+   "type": "definition",
+   "page": 236,
+   "md": "***Maldición.*** Esta armadura está maldita, circunstancia que solo se revela cuando se lanza el conjuro *identificar* sobre ella o te sintonizas con ella. Al sintonizarte con la armadura, sufres la maldición hasta que seas el objetivo del conjuro *levantar maldición* u otro efecto mágico similar. Quitarse la armadura no pone fin a la maldición. Mientras sufras la maldición, serás vulnerable a dos de los tres tipos de daño asociados con la armadura (salvo al que tienes resistencia gracias a ella).",
+   "text": "Maldición. Esta armadura está maldita, circunstancia que solo se revela cuando se lanza el conjuro identificar sobre ella o te sintonizas con ella. Al sintonizarte con la armadura, sufres la maldición hasta que seas el objetivo del conjuro levantar maldición u otro efecto mágico similar. Quitarse la armadura no pone fin a la maldición. Mientras sufras la maldición, serás vulnerable a dos de los tres tipos de daño asociados con la armadura (salvo al que tienes resistencia gracias a ella)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 236
+ },
+ "refs": [
+  "spell.identificar",
+  "spell.levantar-maldicion"
+ ]
+}

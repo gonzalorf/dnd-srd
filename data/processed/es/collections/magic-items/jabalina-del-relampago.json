@@ -1,0 +1,29 @@
+{
+ "id": "item.jabalina-del-relampago",
+ "name": "Jabalina del relámpago",
+ "category": "Arma",
+ "variant": "jabalina",
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (jabalina), infrecuente",
+ "text": "Cada vez que hagas una tirada de ataque con esta arma mágica y aciertes, puedes hacer que cause daño de relámpago en lugar de daño perforante.\n\nRelámpago. Cuando arrojes esta arma contra un objetivo a 36 m o menos de ti, puedes renunciar a hacer una tirada de ataque a distancia y convertirla en un relámpago. El relámpago forma una línea de 1,5 m de ancho entre el objetivo y tú. Dicho objetivo y las demás criaturas situadas en la línea (excepto tú) harán una tirada de salvación de Destreza con CD 13; sufrirán 4d6 de daño de relámpago si la fallan o la mitad del daño si la superan. Inmediatamente después de causar daño, el arma vuelve a aparecer en tu mano. Esta propiedad no podrá volver a usarse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "Cada vez que hagas una tirada de ataque con esta arma mágica y aciertes, puedes hacer que cause daño de relámpago en lugar de daño perforante.",
+   "text": "Cada vez que hagas una tirada de ataque con esta arma mágica y aciertes, puedes hacer que cause daño de relámpago en lugar de daño perforante."
+  },
+  {
+   "type": "definition",
+   "page": 261,
+   "md": "***Relámpago.*** Cuando arrojes esta arma contra un objetivo a 36 m o menos de ti, puedes renunciar a hacer una tirada de ataque a distancia y convertirla en un relámpago. El relámpago forma una línea de 1,5 m de ancho entre el objetivo y tú. Dicho objetivo y las demás criaturas situadas en la línea (excepto tú) harán una tirada de salvación de Destreza con CD 13; sufrirán 4d6 de daño de relámpago si la fallan o la mitad del daño si la superan. Inmediatamente después de causar daño, el arma vuelve a aparecer en tu mano. Esta propiedad no podrá volver a usarse hasta el siguiente amanecer.",
+   "text": "Relámpago. Cuando arrojes esta arma contra un objetivo a 36 m o menos de ti, puedes renunciar a hacer una tirada de ataque a distancia y convertirla en un relámpago. El relámpago forma una línea de 1,5 m de ancho entre el objetivo y tú. Dicho objetivo y las demás criaturas situadas en la línea (excepto tú) harán una tirada de salvación de Destreza con CD 13; sufrirán 4d6 de daño de relámpago si la fallan o la mitad del daño si la superan. Inmediatamente después de causar daño, el arma vuelve a aparecer en tu mano. Esta propiedad no podrá volver a usarse hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 261
+ }
+}

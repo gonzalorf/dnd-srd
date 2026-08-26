@@ -1,0 +1,52 @@
+{
+ "id": "table.escuelas-magicas",
+ "caption": "Escuelas mágicas",
+ "header": [
+  "Escuela",
+  "Efectos típicos"
+ ],
+ "rows": [
+  [
+   "Abjuración",
+   "Impide o deshace efectos dañinos."
+  ],
+  [
+   "Adivinación",
+   "Revela información."
+  ],
+  [
+   "Conjuración",
+   "Transporta criaturas u objetos."
+  ],
+  [
+   "Encantamiento",
+   "Influye en las mentes."
+  ],
+  [
+   "Evocación",
+   "Canaliza la energía para crear efectos a menudo destructivos."
+  ],
+  [
+   "Ilusionismo",
+   "Engaña a la mente o los sentidos."
+  ],
+  [
+   "Nigromancia",
+   "Manipula la vida y la muerte."
+  ],
+  [
+   "Transmutación",
+   "Transforma criaturas u objetos."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Lanzar conjuros",
+  "Escuela mágica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 115
+ }
+}

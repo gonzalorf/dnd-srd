@@ -1,0 +1,71 @@
+{
+ "id": "species.gnomo",
+ "name": "Gnomo",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Pequeño (entre 90 cm y 1,2 m de altura)\n\nVelocidad: 9 m\n\nComo gnomo, tienes estos atributos especiales:\n\nAstucia gnoma. Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.\n\nLinaje gnomo. Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):\n\nGnomo de las rocas. Conoces los trucos prestidigitación y reparar. Además, puedes pasar 10 minutos lanzando prestidigitación para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de prestidigitación. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Por ejemplo, si eliges el efecto de encender o apagar del conjuro, determinas si el dispositivo enciende o apaga los fuegos: el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar.\n\nGnomo de los bosques. Conoces el truco ilusión menor. Además, siempre tienes el conjuro hablar con los animales preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 91,
+   "md": "Tamaño: Pequeño (entre 90 cm y 1,2 m de altura)",
+   "text": "Tamaño: Pequeño (entre 90 cm y 1,2 m de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Como gnomo, tienes estos atributos especiales:",
+   "text": "Como gnomo, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Astucia gnoma.*** Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.",
+   "text": "Astucia gnoma. Tienes ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Linaje gnomo.*** Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):",
+   "text": "Linaje gnomo. Formas parte de un linaje que te otorga capacidades sobrenaturales. Escoge una de las siguientes opciones; elijas la que elijas, la Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje):"
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "**Gnomo de las rocas.** Conoces los trucos *prestidigitación* y *reparar*. Además, puedes pasar 10 minutos lanzando *prestidigitación* para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de *prestidigitación*. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Por ejemplo, si eliges el efecto de encender o apagar del conjuro, determinas si el dispositivo enciende o apaga los fuegos: el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar.",
+   "text": "Gnomo de las rocas. Conoces los trucos prestidigitación y reparar. Además, puedes pasar 10 minutos lanzando prestidigitación para crear un dispositivo mecánico Diminuto (CA 5, 1 pg), como un juguete, un encendedor o una caja de música. Cuando crees el dispositivo, determinarás su función eligiendo un efecto de prestidigitación. El dispositivo producirá ese efecto cada vez que otra criatura o tú empleéis una acción adicional para activarlo con un toque. Si el efecto elegido tiene varias opciones, escoges una de ellas para el dispositivo cuando lo crees. Por ejemplo, si eliges el efecto de encender o apagar del conjuro, determinas si el dispositivo enciende o apaga los fuegos: el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos activos al mismo tiempo y se desarman 8 horas después de crearlos o cuando los desmontes con un toque como acción de utilizar."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "**Gnomo de los bosques.** Conoces el truco *ilusión menor*. Además, siempre tienes el conjuro *hablar con los animales* preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo.",
+   "text": "Gnomo de los bosques. Conoces el truco ilusión menor. Además, siempre tienes el conjuro hablar con los animales preparado. Puedes lanzarlo sin gastar un espacio de conjuro una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo. También puedes usar cualquier espacio de conjuro que tengas para lanzarlo."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Visión en la oscuridad.*** Tienes visión en la oscuridad hasta 18 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 18 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 91
+ },
+ "refs": [
+  "spell.prestidigitacion",
+  "spell.reparar",
+  "spell.ilusion-menor",
+  "spell.hablar-con-los-animales"
+ ]
+}

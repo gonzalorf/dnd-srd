@@ -1,0 +1,29 @@
+{
+ "id": "weapon.cerbatana",
+ "name": "Cerbatana",
+ "kind": "weapon",
+ "group": "Armas a distancia marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Cerbatana",
+  "Daño": "1 perforante",
+  "Propiedades": "Munición (alcance 7,5/30; dardo), recarga",
+  "Maestría": "Molestar",
+  "Peso": "0,5 kg",
+  "Precio": "10 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "0,5 kg",
+  "kg": 0.5
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

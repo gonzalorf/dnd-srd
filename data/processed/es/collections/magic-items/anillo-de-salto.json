@@ -1,0 +1,26 @@
+{
+ "id": "item.anillo-de-salto",
+ "name": "Anillo de salto",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves puesto este anillo, puedes lanzar salto desde él, pero solo puedes hacerte objetivo a ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Mientras lleves puesto este anillo, puedes lanzar *salto* desde él, pero solo puedes hacerte objetivo a ti.",
+   "text": "Mientras lleves puesto este anillo, puedes lanzar salto desde él, pero solo puedes hacerte objetivo a ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ },
+ "refs": [
+  "spell.salto"
+ ]
+}

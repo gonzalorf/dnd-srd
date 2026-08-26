@@ -1,0 +1,126 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-2",
+ "caption": "Conjuros de bardo de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Abrir",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Agrandar/reducir",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Auxilio",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Boca mágica",
+   "Ilusionismo",
+   "R, M"
+  ],
+  [
+   "Calentar metal",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Calmar emociones",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Detectar pensamientos",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Embelesar",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Hacer añicos",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Imagen múltiple",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Inmovilizar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Invisibilidad",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Localizar animales o plantas",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Localizar objeto",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Mensajero animal",
+   "Encantamiento",
+   "R"
+  ],
+  [
+   "Potenciar característica",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Restablecimiento menor",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Sordera/ceguera",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Sugestión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Ver invisibilidad",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Zona de la verdad",
+   "Encantamiento",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 38
+ }
+}

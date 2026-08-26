@@ -1,0 +1,109 @@
+{
+ "id": "monster.espiritu-draconico",
+ "name": "Espíritu dracónico",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 160
+ },
+ "context": [
+  "Invocar dragón"
+ ],
+ "metaRaw": "Dragón Grande, neutral",
+ "type": "Dragón",
+ "alignment": "neutral",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14 + el nivel del conjuro",
+ "hp": {
+  "raw": "50 + 10 por cada nivel del conjuro superior al 5",
+  "average": 50
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "dracónico",
+  "entiende los idiomas que conozcas"
+ ],
+ "immunities": [
+  "asustado",
+  "envenenado",
+  "hechizado"
+ ],
+ "resistances": [
+  "ácido",
+  "frío",
+  "fuego",
+  "relámpago",
+  "veneno"
+ ],
+ "challenge": {
+  "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencias compartidas",
+   "md": "***Resistencias compartidas.*** Cuando invoques al espíritu, elige una de sus resistencias. Tienes resistencia al tipo de daño elegido hasta que el conjuro termine.",
+   "page": 160,
+   "description": "Cuando invoques al espíritu, elige una de sus resistencias. Tienes resistencia al tipo de daño elegido hasta que el conjuro termine."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El espíritu realiza una cantidad de ataques de desgarro igual a la mitad del nivel del conjuro (redondeado hacia abajo) y utiliza su ataque de aliento.",
+   "page": 160,
+   "description": "El espíritu realiza una cantidad de ataques de desgarro igual a la mitad del nivel del conjuro (redondeado hacia abajo) y utiliza su ataque de aliento."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 3 m. *Acierto:* 1d6 + 4 + el nivel del conjuro de daño perforante.",
+   "page": 160,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 3 m. *Acierto:* 1d6 + 4 + el nivel del conjuro de daño perforante."
+  },
+  {
+   "name": "Ataque de aliento",
+   "md": "***Ataque de aliento.*** *Tirada de salvación de Destreza:* CD igual a tu CD de salvación de conjuros, todas las criaturas en un cono de 9 m. *Fallo:* 2d6 de daño de un tipo al que este espíritu tenga resistencia (a tu elección cuando lanzas el conjuro). *Éxito:* la mitad del daño.",
+   "page": 160,
+   "description": "*Tirada de salvación de Destreza:* CD igual a tu CD de salvación de conjuros, todas las criaturas en un cono de 9 m. *Fallo:* 2d6 de daño de un tipo al que este espíritu tenga resistencia (a tu elección cuando lanzas el conjuro). *Éxito:* la mitad del daño."
+  }
+ ]
+}

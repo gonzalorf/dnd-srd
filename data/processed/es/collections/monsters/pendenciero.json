@@ -1,0 +1,105 @@
+{
+ "id": "monster.pendenciero",
+ "name": "Pendenciero",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 357,
+  "pages": [
+   357,
+   358
+  ]
+ },
+ "context": [
+  "Pendencieros"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "32 (5d8 + 10)",
+  "average": 32,
+  "formula": "5d8 + 10"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "armadura de cuero",
+  "ballesta pesada",
+  "maza"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en grupo",
+   "md": "***Atacar en grupo.*** El pendenciero tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del pendenciero se encuentra a 1,5 m de la criatura y no tiene el estado de incapacitado.",
+   "page": 357,
+   "description": "El pendenciero tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del pendenciero se encuentra a 1,5 m de la criatura y no tiene el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Maza",
+   "md": "***Maza.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño contundente.",
+   "page": 358,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño contundente."
+  },
+  {
+   "name": "Ballesta pesada",
+   "md": "***Ballesta pesada.*** *Tirada de ataque a distancia:* +3, alcance 30/120 m. *Acierto:* 6 (1d10 + 1) de daño perforante.",
+   "page": 358,
+   "description": "*Tirada de ataque a distancia:* +3, alcance 30/120 m. *Acierto:* 6 (1d10 + 1) de daño perforante."
+  }
+ ]
+}

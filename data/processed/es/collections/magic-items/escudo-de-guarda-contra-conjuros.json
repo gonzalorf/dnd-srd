@@ -1,0 +1,23 @@
+{
+ "id": "item.escudo-de-guarda-contra-conjuros",
+ "name": "Escudo de guarda contra conjuros",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), muy rara (requiere sintonización)",
+ "text": "Mientras lleves embrazado este escudo, tendrás ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos, y las tiradas de ataque de conjuro tendrán desventaja contra ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 253,
+   "md": "Mientras lleves embrazado este escudo, tendrás ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos, y las tiradas de ataque de conjuro tendrán desventaja contra ti.",
+   "text": "Mientras lleves embrazado este escudo, tendrás ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos, y las tiradas de ataque de conjuro tendrán desventaja contra ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 253
+ }
+}

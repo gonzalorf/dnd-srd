@@ -1,0 +1,23 @@
+{
+ "id": "item.capa-de-desplazamiento",
+ "name": "Capa de desplazamiento",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Mientras lleves esta capa, proyectará mágicamente una ilusión que hace que parezcas estar en un lugar cerca de tu ubicación real, lo que provoca que todas las criaturas tengan desventaja en las tiradas de ataque contra ti. Si recibes daño, la propiedad dejará de funcionar hasta el principio de tu siguiente turno. Esta propiedad quedará suprimida mientras tu velocidad sea de 0.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 247,
+   "md": "Mientras lleves esta capa, proyectará mágicamente una ilusión que hace que parezcas estar en un lugar cerca de tu ubicación real, lo que provoca que todas las criaturas tengan desventaja en las tiradas de ataque contra ti. Si recibes daño, la propiedad dejará de funcionar hasta el principio de tu siguiente turno. Esta propiedad quedará suprimida mientras tu velocidad sea de 0.",
+   "text": "Mientras lleves esta capa, proyectará mágicamente una ilusión que hace que parezcas estar en un lugar cerca de tu ubicación real, lo que provoca que todas las criaturas tengan desventaja en las tiradas de ataque contra ti. Si recibes daño, la propiedad dejará de funcionar hasta el principio de tu siguiente turno. Esta propiedad quedará suprimida mientras tu velocidad sea de 0."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 247
+ }
+}

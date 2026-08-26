@@ -1,0 +1,53 @@
+{
+ "id": "species.orco",
+ "name": "Orco",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,8 y 2,1 m de altura)\n\nVelocidad: 9 m\n\nComo orco, tienes estos atributos especiales:\n\nAguante incansable. Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.\n\nDescarga de adrenalina. Puedes llevar a cabo la acción de correr como acción adicional. Cuando lo hagas, obtendrás una cantidad de puntos de golpe temporales igual a tu bonificador por competencia. Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso corto o largo.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 36 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 92,
+   "md": "Tamaño: Mediano (entre 1,8 y 2,1 m de altura)",
+   "text": "Tamaño: Mediano (entre 1,8 y 2,1 m de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Como orco, tienes estos atributos especiales:",
+   "text": "Como orco, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Aguante incansable.*** Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "text": "Aguante incansable. Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Descarga de adrenalina.*** Puedes llevar a cabo la acción de correr como acción adicional. Cuando lo hagas, obtendrás una cantidad de puntos de golpe temporales igual a tu bonificador por competencia. Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso corto o largo.",
+   "text": "Descarga de adrenalina. Puedes llevar a cabo la acción de correr como acción adicional. Cuando lo hagas, obtendrás una cantidad de puntos de golpe temporales igual a tu bonificador por competencia. Puedes usar este atributo una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso corto o largo."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Visión en la oscuridad.*** Tienes visión en la oscuridad hasta 36 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 36 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 92
+ }
+}

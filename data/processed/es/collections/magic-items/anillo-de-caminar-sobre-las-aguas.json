@@ -1,0 +1,26 @@
+{
+ "id": "item.anillo-de-caminar-sobre-las-aguas",
+ "name": "Anillo de caminar sobre las aguas",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Anillo, infrecuente",
+ "text": "Mientras lleves puesto este anillo, puedes lanzar caminar sobre el agua desde él eligiéndote como objetivo solo a ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Mientras lleves puesto este anillo, puedes lanzar *caminar sobre el agua* desde él eligiéndote como objetivo solo a ti.",
+   "text": "Mientras lleves puesto este anillo, puedes lanzar caminar sobre el agua desde él eligiéndote como objetivo solo a ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ },
+ "refs": [
+  "spell.caminar-sobre-el-agua"
+ ]
+}

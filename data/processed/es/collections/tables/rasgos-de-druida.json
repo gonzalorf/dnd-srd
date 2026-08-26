@@ -1,0 +1,205 @@
+{
+ "id": "table.rasgos-de-druida",
+ "caption": "Rasgos de druida",
+ "header": [
+  "Nivel",
+  "Bonificador por competencia",
+  "Rasgos de clase",
+  "Forma salvaje",
+  "Trucos",
+  "Conjuros preparados",
+  "—Espacios de conjuro por cada nivel de conjuro— 123456789"
+ ],
+ "rows": [
+  [
+   "1",
+   "+2",
+   "Druídico, Lanzamiento de conjuros, Orden primigenia",
+   "—",
+   "2",
+   "4",
+   "2————————"
+  ],
+  [
+   "2",
+   "+2",
+   "Compañero salvaje, Forma salvaje",
+   "2",
+   "2",
+   "5",
+   "3————————"
+  ],
+  [
+   "3",
+   "+2",
+   "Subclase de druida",
+   "2",
+   "2",
+   "6",
+   "42———————"
+  ],
+  [
+   "4",
+   "+2",
+   "Mejora de característica",
+   "2",
+   "3",
+   "7",
+   "43———————"
+  ],
+  [
+   "5",
+   "+3",
+   "Resurgimiento salvaje",
+   "2",
+   "3",
+   "9",
+   "432——————"
+  ],
+  [
+   "6",
+   "+3",
+   "Rasgo de subclase",
+   "3",
+   "3",
+   "10",
+   "433——————"
+  ],
+  [
+   "7",
+   "+3",
+   "Furia elemental",
+   "3",
+   "3",
+   "11",
+   "4331—————"
+  ],
+  [
+   "8",
+   "+3",
+   "Mejora de característica",
+   "3",
+   "3",
+   "12",
+   "4332—————"
+  ],
+  [
+   "9",
+   "+4",
+   "—",
+   "3",
+   "3",
+   "14",
+   "43331————"
+  ],
+  [
+   "10",
+   "+4",
+   "Rasgo de subclase",
+   "3",
+   "4",
+   "15",
+   "43332————"
+  ],
+  [
+   "11",
+   "+4",
+   "—",
+   "3",
+   "4",
+   "16",
+   "433321———"
+  ],
+  [
+   "12",
+   "+4",
+   "Mejora de característica",
+   "3",
+   "4",
+   "16",
+   "433321———"
+  ],
+  [
+   "13",
+   "+5",
+   "—",
+   "3",
+   "4",
+   "17",
+   "4333211——"
+  ],
+  [
+   "14",
+   "+5",
+   "Rasgo de subclase",
+   "3",
+   "4",
+   "17",
+   "4333211——"
+  ],
+  [
+   "15",
+   "+5",
+   "Furia elemental mejorada",
+   "3",
+   "4",
+   "18",
+   "43332111—"
+  ],
+  [
+   "16",
+   "+5",
+   "Mejora de característica",
+   "3",
+   "4",
+   "18",
+   "43332111—"
+  ],
+  [
+   "17",
+   "+6",
+   "—",
+   "4",
+   "4",
+   "19",
+   "433321111"
+  ],
+  [
+   "18",
+   "+6",
+   "Conjurar como bestia",
+   "4",
+   "4",
+   "20",
+   "433331111"
+  ],
+  [
+   "19",
+   "+6",
+   "Don épico",
+   "4",
+   "4",
+   "21",
+   "433332111"
+  ],
+  [
+   "20",
+   "+6",
+   "Archidruida",
+   "4",
+   "4",
+   "22",
+   "433332211"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Clases",
+  "Druida",
+  "Rasgos de clase de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 52
+ }
+}

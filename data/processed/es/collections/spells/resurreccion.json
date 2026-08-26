@@ -1,0 +1,68 @@
+{
+ "id": "spell.resurreccion",
+ "name": "Resurrección",
+ "level": 7,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "bardo",
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un diamante que valga al menos 1000 po y que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un diamante que valga al menos 1000 po y que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Con un toque, revives a una criatura que no lleve más de un siglo muerta, que no muriera de vieja y que no fuera un muerto viviente cuando falleció.\n\nLa criatura vuelve a la vida con todos sus puntos de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales y devuelve las partes del cuerpo que falten.\n\nRegresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.\n\nLanzar el conjuro para revivir a una criatura que lleve muerta 365 días o más te exige un gran esfuerzo. Hasta que finalices un descanso largo, no podrás volver a lanzar conjuros y tendrás desventaja en las pruebas con d20.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Con un toque, revives a una criatura que no lleve más de un siglo muerta, que no muriera de vieja y que no fuera un muerto viviente cuando falleció.",
+   "text": "Con un toque, revives a una criatura que no lleve más de un siglo muerta, que no muriera de vieja y que no fuera un muerto viviente cuando falleció."
+  },
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "La criatura vuelve a la vida con todos sus puntos de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales y devuelve las partes del cuerpo que falten.",
+   "text": "La criatura vuelve a la vida con todos sus puntos de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales y devuelve las partes del cuerpo que falten."
+  },
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Regresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.",
+   "text": "Regresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer."
+  },
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Lanzar el conjuro para revivir a una criatura que lleve muerta 365 días o más te exige un gran esfuerzo. Hasta que finalices un descanso largo, no podrás volver a lanzar conjuros y tendrás desventaja en las pruebas con d20.",
+   "text": "Lanzar el conjuro para revivir a una criatura que lleve muerta 365 días o más te exige un gran esfuerzo. Hasta que finalices un descanso largo, no podrás volver a lanzar conjuros y tendrás desventaja en las pruebas con d20."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 181
+ }
+}

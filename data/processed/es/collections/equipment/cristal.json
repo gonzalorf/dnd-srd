@@ -1,0 +1,26 @@
+{
+ "id": "focus.cristal",
+ "name": "Cristal",
+ "kind": "focus",
+ "group": null,
+ "table": "Canalizadores arcanos",
+ "fields": {
+  "Canalizador": "Cristal",
+  "Peso": "0,5 kg",
+  "Precio": "10 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 105
+ },
+ "weight": {
+  "raw": "0,5 kg",
+  "kg": 0.5
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

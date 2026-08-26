@@ -1,0 +1,39 @@
+{
+ "id": "item.aceite-escurridizo",
+ "name": "Aceite escurridizo",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro libertad de movimiento durante 8 horas.\n\nDe forma alternativa, el aceite se puede verter en el suelo como acción de magia y cubrirá un cuadrado de 3 m de lado que duplicará el efecto del conjuro grasa en la zona durante 8 horas.\n\nEste ungüento negro y pegajoso parece denso y pesado, pero fluye rápidamente cuando se vierte.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro *libertad de movimiento* durante 8 horas.",
+   "text": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro libertad de movimiento durante 8 horas."
+  },
+  {
+   "type": "paragraph",
+   "page": 229,
+   "md": "De forma alternativa, el aceite se puede verter en el suelo como acción de magia y cubrirá un cuadrado de 3 m de lado que duplicará el efecto del conjuro *grasa* en la zona durante 8 horas.",
+   "text": "De forma alternativa, el aceite se puede verter en el suelo como acción de magia y cubrirá un cuadrado de 3 m de lado que duplicará el efecto del conjuro grasa en la zona durante 8 horas."
+  },
+  {
+   "type": "paragraph",
+   "page": 229,
+   "md": "Este ungüento negro y pegajoso parece denso y pesado, pero fluye rápidamente cuando se vierte.",
+   "text": "Este ungüento negro y pegajoso parece denso y pesado, pero fluye rápidamente cuando se vierte."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ },
+ "refs": [
+  "spell.libertad-de-movimiento",
+  "spell.grasa"
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "monster.sapo-gigante",
+ "name": "Sapo gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 394
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "39 (6d10 + 6)",
+  "average": 39,
+  "formula": "6d10 + 6"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El sapo puede respirar tanto dentro como fuera del agua.",
+   "page": 394,
+   "description": "El sapo puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Saltar sin carrera",
+   "md": "***Saltar sin carrera.*** El sapo puede hacer un salto de longitud de hasta 6 m o un salto de altura de hasta 3 m, tanto si ha cogido carrerilla como si no.",
+   "page": 394,
+   "description": "El sapo puede hacer un salto de longitud de hasta 6 m o un salto de altura de hasta 3 m, tanto si ha cogido carrerilla como si no."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 5 (2d4) de daño de veneno. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 12 para escapar).",
+   "page": 394,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 5 (2d4) de daño de veneno. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 12 para escapar)."
+  },
+  {
+   "name": "Engullir",
+   "md": "***Engullir.*** El sapo engulle a un objetivo Mediano o más pequeño al que esté agarrando. Mientras esté engullido, el objetivo no estará agarrado, sino que tendrá los estados de apresado y cegado, y tendrá cobertura completa contra los ataques y otros efectos fuera del sapo. Además, el objetivo recibirá 10 (3d6) de daño de ácido al final de cada turno del sapo. El sapo solo puede engullir a un objetivo a la vez y no podrá usar su mordisco mientras tenga a un objetivo engullido. Si el sapo muere, una criatura engullida dejará de estar apresada por él y podrá gastar 1,5 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada.",
+   "page": 394,
+   "description": "El sapo engulle a un objetivo Mediano o más pequeño al que esté agarrando. Mientras esté engullido, el objetivo no estará agarrado, sino que tendrá los estados de apresado y cegado, y tendrá cobertura completa contra los ataques y otros efectos fuera del sapo. Además, el objetivo recibirá 10 (3d6) de daño de ácido al final de cada turno del sapo. El sapo solo puede engullir a un objetivo a la vez y no podrá usar su mordisco mientras tenga a un objetivo engullido. Si el sapo muere, una criatura engullida dejará de estar apresada por él y podrá gastar 1,5 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada."
+  }
+ ]
+}

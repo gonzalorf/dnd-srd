@@ -1,0 +1,54 @@
+{
+ "id": "spell.relampago",
+ "name": "Relámpago",
+ "level": 3,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un poco de pelaje y una vara de cristal)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de pelaje y una vara de cristal",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Un relámpago que forma una línea de 30 m de largo y 1,5 m de ancho surge de ti en la dirección que elijas. Todas las criaturas situadas en esa línea deberán hacer una tirada de salvación de Destreza; sufrirán 8d6 de daño de relámpago si la fallan o la mitad del daño si la superan.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 180,
+   "md": "Un relámpago que forma una línea de 30 m de largo y 1,5 m de ancho surge de ti en la dirección que elijas. Todas las criaturas situadas en esa línea deberán hacer una tirada de salvación de Destreza; sufrirán 8d6 de daño de relámpago si la fallan o la mitad del daño si la superan.",
+   "text": "Un relámpago que forma una línea de 30 m de largo y 1,5 m de ancho surge de ti en la dirección que elijas. Todas las criaturas situadas en esa línea deberán hacer una tirada de salvación de Destreza; sufrirán 8d6 de daño de relámpago si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "definition",
+   "page": 180,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 180
+ }
+}

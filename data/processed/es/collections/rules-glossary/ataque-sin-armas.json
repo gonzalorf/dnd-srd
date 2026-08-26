@@ -1,0 +1,41 @@
+{
+ "id": "rule.ataque-sin-armas",
+ "name": "Ataque sin armas",
+ "text": "En lugar de utilizar un arma para realizar un ataque cuerpo a cuerpo, puedes dar un puñetazo, una patada, un cabezazo o cualquier otro golpe enérgico. En la terminología del juego, esto se denomina un ataque sin armas: un ataque cuerpo a cuerpo en el que usas tu cuerpo para dañar, agarrar o empujar a un objetivo a 1,5 m o menos de ti.\n\nCuando uses tu ataque sin armas, elige una de las siguientes opciones para su efecto.\n\nDaño. Haces una tirada de ataque contra el objetivo. Tu bonificador a la tirada es igual a tu modificador por Fuerza más tu bonificador por competencia. Si acierta, el objetivo sufre una cantidad de daño contundente igual a 1 más tu modificador por Fuerza.\n\nAgarre. El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección) o tendrá el estado de agarrado. La CD para la tirada de salvación y cualquier intento de escapar será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede ejecutar este agarre si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya y si tienes una mano libre para agarrarlo. Consulta también “Agarrar”.\n\nEmpujón. El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección); de lo contrario, lo empujarás 1,5 m respecto a ti o harás que tenga el estado de derribado. La CD para la tirada de salvación será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede dar este empujón si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "En lugar de utilizar un arma para realizar un ataque cuerpo a cuerpo, puedes dar un puñetazo, una patada, un cabezazo o cualquier otro golpe enérgico. En la terminología del juego, esto se denomina un ataque sin armas: un ataque cuerpo a cuerpo en el que usas tu cuerpo para dañar, agarrar o empujar a un objetivo a 1,5 m o menos de ti.",
+   "text": "En lugar de utilizar un arma para realizar un ataque cuerpo a cuerpo, puedes dar un puñetazo, una patada, un cabezazo o cualquier otro golpe enérgico. En la terminología del juego, esto se denomina un ataque sin armas: un ataque cuerpo a cuerpo en el que usas tu cuerpo para dañar, agarrar o empujar a un objetivo a 1,5 m o menos de ti."
+  },
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Cuando uses tu ataque sin armas, elige una de las siguientes opciones para su efecto.",
+   "text": "Cuando uses tu ataque sin armas, elige una de las siguientes opciones para su efecto."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Daño.*** Haces una tirada de ataque contra el objetivo. Tu bonificador a la tirada es igual a tu modificador por Fuerza más tu bonificador por competencia. Si acierta, el objetivo sufre una cantidad de daño contundente igual a 1 más tu modificador por Fuerza.",
+   "text": "Daño. Haces una tirada de ataque contra el objetivo. Tu bonificador a la tirada es igual a tu modificador por Fuerza más tu bonificador por competencia. Si acierta, el objetivo sufre una cantidad de daño contundente igual a 1 más tu modificador por Fuerza."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Agarre.*** El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección) o tendrá el estado de agarrado. La CD para la tirada de salvación y cualquier intento de escapar será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede ejecutar este agarre si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya y si tienes una mano libre para agarrarlo. *Consulta también* “Agarrar”.",
+   "text": "Agarre. El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección) o tendrá el estado de agarrado. La CD para la tirada de salvación y cualquier intento de escapar será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede ejecutar este agarre si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya y si tienes una mano libre para agarrarlo. Consulta también “Agarrar”."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Empujón.*** El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección); de lo contrario, lo empujarás 1,5 m respecto a ti o harás que tenga el estado de derribado. La CD para la tirada de salvación será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede dar este empujón si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya.",
+   "text": "Empujón. El objetivo deberá superar una tirada de salvación de Fuerza o Destreza (a su elección); de lo contrario, lo empujarás 1,5 m respecto a ti o harás que tenga el estado de derribado. La CD para la tirada de salvación será igual a 8 más tu modificador por Fuerza y tu bonificador por competencia. Solo se puede dar este empujón si el tamaño del objetivo está, como mucho, una categoría por encima de la tuya."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "monster.grimlock",
+ "name": "Grimlock",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 334
+ },
+ "context": [
+  "Grimlock"
+ ],
+ "metaRaw": "Aberración Mediana, neutral malvada",
+ "type": "Aberración",
+ "alignment": "neutral malvada",
+ "size": "Mediano",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Atletismo": 5,
+  "Percepción": 3,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Garrote óseo",
+   "md": "***Garrote óseo.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente más 2 (1d4) de daño psíquico.",
+   "page": 334,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente más 2 (1d4) de daño psíquico."
+  }
+ ]
+}

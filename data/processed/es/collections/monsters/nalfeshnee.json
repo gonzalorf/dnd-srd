@@ -1,0 +1,140 @@
+{
+ "id": "monster.nalfeshnee",
+ "name": "Nalfeshnee",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 354
+ },
+ "context": [
+  "Nalfeshnee"
+ ],
+ "metaRaw": "Infernal Grande (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 5,
+  "score": 15
+ },
+ "hp": {
+  "raw": "184 (16d10 + 96)",
+  "average": 184,
+  "formula": "16d10 + 96"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "volar": 9.0
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "abisal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "asustado",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "13 (10 000 PX; BC +5)",
+  "cr": 13,
+  "xp": 10000,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 22,
+   "mod": 6,
+   "save": 11
+  },
+  "int": {
+   "score": 19,
+   "mod": 4,
+   "save": 9
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 6
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 7
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación demoníaca",
+   "md": "***Recuperación demoníaca.*** Si el nalfeshnee muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.",
+   "page": 354,
+   "description": "Si el nalfeshnee muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El nalfeshnee tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 354,
+   "description": "El nalfeshnee tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El nalfeshnee realiza tres ataques de desgarro.",
+   "page": 354,
+   "description": "El nalfeshnee realiza tres ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 16 (2d10 + 5) de daño cortante más 11 (2d10) de daño de fuerza.",
+   "page": 354,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 16 (2d10 + 5) de daño cortante más 11 (2d10) de daño de fuerza."
+  },
+  {
+   "name": "Teletransporte",
+   "md": "***Teletransporte.*** El nalfeshnee se teletransporta hasta 36 m a un espacio sin ocupar que pueda ver.",
+   "page": 354,
+   "description": "El nalfeshnee se teletransporta hasta 36 m a un espacio sin ocupar que pueda ver."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Nimbo horrible",
+   "md": "***Nimbo horrible (recarga 5–6).*** *Tirada de salvación de Sabiduría:* CD 15, todas las criaturas en una emanación de 4,5 m que se origina en el nalfeshnee. *Fallo:* 28 (8d6) de daño psíquico y el objetivo tendrá el estado de asustado durante 1 minuto, hasta que reciba daño o termine su turno con el nalfeshnee fuera de su línea de visión. *Éxito:* el objetivo será inmune al nimbo horrible de este nalfeshnee durante 24 horas.",
+   "page": 354,
+   "description": "*Tirada de salvación de Sabiduría:* CD 15, todas las criaturas en una emanación de 4,5 m que se origina en el nalfeshnee. *Fallo:* 28 (8d6) de daño psíquico y el objetivo tendrá el estado de asustado durante 1 minuto, hasta que reciba daño o termine su turno con el nalfeshnee fuera de su línea de visión. *Éxito:* el objetivo será inmune al nimbo horrible de este nalfeshnee durante 24 horas.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Persecución",
+   "md": "***Persecución.*** *Detonante:* otra criatura que el nalfeshnee pueda ver termina su movimiento a 36 m o menos de él. *Respuesta:* el nalfeshnee utiliza su teletransporte, pero el espacio de destino debe estar a 3 m o menos de la criatura detonante.",
+   "page": 354,
+   "description": "*Detonante:* otra criatura que el nalfeshnee pueda ver termina su movimiento a 36 m o menos de él. *Respuesta:* el nalfeshnee utiliza su teletransporte, pero el espacio de destino debe estar a 3 m o menos de la criatura detonante."
+  }
+ ]
+}

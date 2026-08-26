@@ -1,0 +1,52 @@
+{
+ "id": "spell.descarga-sobrenatural",
+ "name": "Descarga sobrenatural",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "brujo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Lanzas un rayo de energía chisporroteante. Haz un ataque de conjuro a distancia contra una criatura u objeto dentro del alcance. Si acierta, el objetivo recibe 1d10 de daño de fuerza.\n\nMejora de truco. El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos distintos. Realiza una tirada de ataque por separado para cada rayo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 139,
+   "md": "Lanzas un rayo de energía chisporroteante. Haz un ataque de conjuro a distancia contra una criatura u objeto dentro del alcance. Si acierta, el objetivo recibe 1d10 de daño de fuerza.",
+   "text": "Lanzas un rayo de energía chisporroteante. Haz un ataque de conjuro a distancia contra una criatura u objeto dentro del alcance. Si acierta, el objetivo recibe 1d10 de daño de fuerza."
+  },
+  {
+   "type": "definition",
+   "page": 139,
+   "md": "***Mejora de truco.*** El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos distintos. Realiza una tirada de ataque por separado para cada rayo.",
+   "text": "Mejora de truco. El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos distintos. Realiza una tirada de ataque por separado para cada rayo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 139
+ }
+}

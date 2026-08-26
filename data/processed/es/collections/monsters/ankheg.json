@@ -1,0 +1,98 @@
+{
+ "id": "monster.ankheg",
+ "name": "Ankheg",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 284
+ },
+ "context": [
+  "Ankheg"
+ ],
+ "metaRaw": "Monstruosidad Grande, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "45 (6d10 + 12)",
+  "average": 45,
+  "formula": "6d10 + 12"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "excavar": 3.0
+ },
+ "senses": {
+  "raw": "sentir vibraciones 18 m, visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Excavador",
+   "md": "***Excavador.*** El ankheg puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 3 m de diámetro.",
+   "page": 284,
+   "description": "El ankheg puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 3 m de diámetro."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el ankheg tiene agarrado al objetivo), alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante más 3 (1d6) de daño de ácido. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 13 para escapar).",
+   "page": 284,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el ankheg tiene agarrado al objetivo), alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante más 3 (1d6) de daño de ácido. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 13 para escapar)."
+  },
+  {
+   "name": "Chorro de ácido",
+   "md": "***Chorro de ácido (recarga 6).*** *Tirada de salvación de Destreza:* CD 12, todas las criaturas en una línea de 9 m de largo y 1,5 m de ancho. *Fallo:* 14 (4d6) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 284,
+   "description": "*Tirada de salvación de Destreza:* CD 12, todas las criaturas en una línea de 9 m de largo y 1,5 m de ancho. *Fallo:* 14 (4d6) de daño de ácido. *Éxito:* la mitad del daño.",
+   "uses": "recarga 6"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "item.abanico-del-viento",
+ "name": "Abanico del viento",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Mientras sostengas este abanico, puedes lanzar ráfaga de viento (CD de salvación 13) desde él. Cada vez siguiente que se utilice el abanico antes del próximo amanecer, existe una posibilidad acumulativa del 20 % de que no funcione y se desgarre en jirones inútiles y carentes de magia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Mientras sostengas este abanico, puedes lanzar *ráfaga de viento* (CD de salvación 13) desde él. Cada vez siguiente que se utilice el abanico antes del próximo amanecer, existe una posibilidad acumulativa del 20 % de que no funcione y se desgarre en jirones inútiles y carentes de magia.",
+   "text": "Mientras sostengas este abanico, puedes lanzar ráfaga de viento (CD de salvación 13) desde él. Cada vez siguiente que se utilice el abanico antes del próximo amanecer, existe una posibilidad acumulativa del 20 % de que no funcione y se desgarre en jirones inútiles y carentes de magia."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ },
+ "refs": [
+  "spell.rafaga-de-viento"
+ ]
+}

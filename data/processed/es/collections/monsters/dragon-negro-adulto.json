@@ -1,0 +1,167 @@
+{
+ "id": "monster.dragon-negro-adulto",
+ "name": "Dragón negro adulto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 312
+ },
+ "context": [
+  "Dragones negros"
+ ],
+ "metaRaw": "Dragón Enorme (cromático), caótico malvado",
+ "type": "Dragón",
+ "alignment": "caótico malvado",
+ "size": "Enorme",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 12,
+  "score": 22
+ },
+ "hp": {
+  "raw": "195 (17d12 + 85)",
+  "average": 195,
+  "formula": "17d12 + 85"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 11,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 21",
+  "passivePerception": 21
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "14 (11 500 PX o 13 000 en la guarida; BC +5)",
+  "cr": 14,
+  "xp": 11500,
+  "proficiencyBonus": 5,
+  "xpInLair": 13000
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 7
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 6
+  },
+  "car": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 312,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 312,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *flecha ácida* (versión de nivel 3).",
+   "page": 312,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *flecha ácida* (versión de nivel 3)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +11, alcance 3 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 4 (1d8) de daño de ácido.",
+   "page": 312,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +11, alcance 3 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 4 (1d8) de daño de ácido."
+  },
+  {
+   "name": "Aliento ácido",
+   "md": "***Aliento ácido (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 18, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:* 54 (12d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 312,
+   "description": "*Tirada de salvación de Destreza:* CD 18, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:* 54 (12d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17, +9 a acertar con ataques de conjuro):",
+   "page": 312,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17, +9 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *flecha ácida* (versión de nivel 3), *terror* 1/día cada uno: *esfera vitriólica*, *hablar con los muertos*",
+   "page": 312
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 312,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Nubarrón de insectos",
+    "md": "***Nubarrón de insectos.*** *Tirada de salvación de Destreza:* CD 17, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 22 (4d10) de daño de veneno y el objetivo tendrá desventaja en las tiradas de salvación para mantener la concentración hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 312,
+    "description": "*Tirada de salvación de Destreza:* CD 17, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 22 (4d10) de daño de veneno y el objetivo tendrá desventaja en las tiradas de salvación para mantener la concentración hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Presencia aterradora",
+    "md": "***Presencia aterradora.*** El dragón utiliza su lanzamiento de conjuros para lanzar *terror*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 312,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *terror*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.flecha-acida",
+  "spell.detectar-magia",
+  "spell.terror",
+  "spell.esfera-vitriolica",
+  "spell.hablar-con-los-muertos"
+ ]
+}

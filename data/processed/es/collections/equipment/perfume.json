@@ -1,0 +1,32 @@
+{
+ "id": "gear.perfume",
+ "name": "Perfume",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Perfume",
+  "Peso": "—",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "text": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti.",
+   "text": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti."
+  }
+ ],
+ "descriptionPage": 107
+}

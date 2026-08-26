@@ -1,0 +1,120 @@
+{
+ "id": "monster.semidragon",
+ "name": "Semidragón",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 368
+ },
+ "context": [
+  "Semidragón"
+ ],
+ "metaRaw": "Dragón Mediano, neutral",
+ "type": "Dragón",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 5,
+  "score": 15
+ },
+ "hp": {
+  "raw": "105 (14d8 + 42)",
+  "average": 105,
+  "formula": "14d8 + 42"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Atletismo": 7,
+  "Percepción": 5,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión ciega 3 m, visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "resistances": [
+  "tipo de daño elegido para el atributo Origen dracónico más adelante"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 5
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 5
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Origen dracónico",
+   "md": "***Origen dracónico.*** El semidragón está relacionado con un tipo de dragón asociado con uno de los siguientes tipos de daño (a elección de cada GM): ácido, frío, fuego, relámpago o veneno. Esta elección afecta a otros aspectos del perfil.",
+   "page": 368,
+   "description": "El semidragón está relacionado con un tipo de dragón asociado con uno de los siguientes tipos de daño (a elección de cada GM): ácido, frío, fuego, relámpago o veneno. Esta elección afecta a otros aspectos del perfil."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El semidragón realiza dos ataques con sus garras.",
+   "page": 368,
+   "description": "El semidragón realiza dos ataques con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 6 (1d4 + 4) de daño cortante más 7 (2d6) de daño del tipo elegido para el atributo Origen dracónico.",
+   "page": 368,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 6 (1d4 + 4) de daño cortante más 7 (2d6) de daño del tipo elegido para el atributo Origen dracónico."
+  },
+  {
+   "name": "Aliento de dragón",
+   "md": "***Aliento de dragón (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 14, todas las criaturas en un cono de 9 m. *Fallo:* 28 (8d6) de daño del tipo elegido para el atributo Origen dracónico. *Éxito:* la mitad del daño.",
+   "page": 368,
+   "description": "*Tirada de salvación de Destreza:* CD 14, todas las criaturas en un cono de 9 m. *Fallo:* 28 (8d6) de daño del tipo elegido para el atributo Origen dracónico. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto",
+   "md": "***Salto.*** El semidragón gasta 3 m de movimiento para saltar hasta 9 m.",
+   "page": 368,
+   "description": "El semidragón gasta 3 m de movimiento para saltar hasta 9 m."
+  }
+ ]
+}

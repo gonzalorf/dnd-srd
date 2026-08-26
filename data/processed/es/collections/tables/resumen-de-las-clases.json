@@ -1,0 +1,81 @@
+{
+ "id": "table.resumen-de-las-clases",
+ "caption": "Resumen de las clases",
+ "header": [
+  "Clase",
+  "Preferencia",
+  "Característica Complejidad principal"
+ ],
+ "rows": [
+  [
+   "Bárbaro",
+   "Batalla",
+   "FuerzaMedia"
+  ],
+  [
+   "Bardo",
+   "Actuación",
+   "CarismaAlta"
+  ],
+  [
+   "Brujo",
+   "Ocultismo",
+   "CarismaAlta"
+  ],
+  [
+   "Clérigo",
+   "Dioses",
+   "SabiduríaMedia"
+  ],
+  [
+   "Druida",
+   "Naturaleza",
+   "SabiduríaAlta"
+  ],
+  [
+   "Explora",
+   "Superviven",
+   "Destreza Media"
+  ],
+  [
+   "Guerrero",
+   "Armas",
+   "Fuerza Baja o Destreza"
+  ],
+  [
+   "Hechicero",
+   "Poderes",
+   "CarismaAlta"
+  ],
+  [
+   "Mago",
+   "Libros de conjuros",
+   "InteligenciaMedia"
+  ],
+  [
+   "Monje",
+   "Combate sin armas",
+   "Destreza Alta y Sabiduría"
+  ],
+  [
+   "Paladín",
+   "Defensa",
+   "Fuerza Media y Carisma"
+  ],
+  [
+   "Pícaro",
+   "Sigilo",
+   "DestrezaBaja"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 1: elegir una clase"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 21
+ }
+}

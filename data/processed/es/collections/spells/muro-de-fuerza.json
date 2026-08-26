@@ -1,0 +1,60 @@
+{
+ "id": "spell.muro-de-fuerza",
+ "name": "Muro de fuerza",
+ "level": 5,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de vidrio)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de vidrio",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Un muro de fuerza invisible surge de la nada en un punto de tu elección dentro del alcance. Este muro adopta la orientación que tú elijas y puede ser tanto una barrera horizontal o vertical como estar situado en ángulo. También puede flotar o estar apoyado en una superficie sólida. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 6 mm y durará hasta que termine el conjuro. Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál).\n\nNada puede atravesar el muro físicamente. Es inmune a todo el daño y no se puede eliminar mediante disipar magia. Sin embargo, un conjuro desintegrar destruye el muro al instante. El muro también se extiende hasta el Plano Etéreo e impide el viaje etéreo a través de él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Un muro de fuerza invisible surge de la nada en un punto de tu elección dentro del alcance. Este muro adopta la orientación que tú elijas y puede ser tanto una barrera horizontal o vertical como estar situado en ángulo. También puede flotar o estar apoyado en una superficie sólida. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 6 mm y durará hasta que termine el conjuro. Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál).",
+   "text": "Un muro de fuerza invisible surge de la nada en un punto de tu elección dentro del alcance. Este muro adopta la orientación que tú elijas y puede ser tanto una barrera horizontal o vertical como estar situado en ángulo. También puede flotar o estar apoyado en una superficie sólida. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 6 mm y durará hasta que termine el conjuro. Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál)."
+  },
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Nada puede atravesar el muro físicamente. Es inmune a todo el daño y no se puede eliminar mediante *disipar magia*. Sin embargo, un conjuro *desintegrar* destruye el muro al instante. El muro también se extiende hasta el Plano Etéreo e impide el viaje etéreo a través de él.",
+   "text": "Nada puede atravesar el muro físicamente. Es inmune a todo el daño y no se puede eliminar mediante disipar magia. Sin embargo, un conjuro desintegrar destruye el muro al instante. El muro también se extiende hasta el Plano Etéreo e impide el viaje etéreo a través de él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 167
+ },
+ "refs": [
+  "spell.disipar-magia",
+  "spell.desintegrar"
+ ]
+}

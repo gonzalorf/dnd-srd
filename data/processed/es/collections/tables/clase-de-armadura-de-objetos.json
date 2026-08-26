@@ -1,0 +1,46 @@
+{
+ "id": "table.clase-de-armadura-de-objetos",
+ "caption": "Clase de armadura de objetos",
+ "header": [
+  "CA",
+  "Sustancia",
+  "CA",
+  "Sustancia"
+ ],
+ "rows": [
+  [
+   "11",
+   "Tela, papel, cuerda",
+   "19",
+   "Hierro, acero"
+  ],
+  [
+   "13",
+   "Cristal, vidrio, hielo",
+   "21",
+   "Mithral"
+  ],
+  [
+   "15",
+   "Madera",
+   "23",
+   "Adamantina"
+  ],
+  [
+   "17",
+   "Piedra",
+   "",
+   ""
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Romper objetos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

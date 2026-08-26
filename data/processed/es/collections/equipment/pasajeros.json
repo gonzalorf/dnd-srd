@@ -1,0 +1,19 @@
+{
+ "id": "vehicle.pasajeros",
+ "name": "Pasajeros",
+ "kind": "vehicle",
+ "group": "Vehículos grandes",
+ "text": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 109,
+   "md": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día.",
+   "text": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ }
+}

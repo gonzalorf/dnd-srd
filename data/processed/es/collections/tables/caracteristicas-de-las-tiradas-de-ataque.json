@@ -1,0 +1,33 @@
+{
+ "id": "table.caracteristicas-de-las-tiradas-de-ataque",
+ "caption": "Características de las tiradas de ataque",
+ "header": [
+  "Característica",
+  "Tipo de ataque"
+ ],
+ "rows": [
+  [
+   "Fuerza",
+   "Ataque cuerpo a cuerpo con un arma o un ataque sin armas (consulta el capítulo “Glosario de reglas”)."
+  ],
+  [
+   "Destreza",
+   "Ataque a distancia con un arma."
+  ],
+  [
+   "Variable",
+   "Ataque de conjuro (el rasgo de lanzamiento de conjuros del lanzador determina la característica empleada, como se explica en el capítulo “Conjuros”)."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las pruebas con d20",
+  "Tiradas de ataque",
+  "Modificador por característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 7
+ }
+}

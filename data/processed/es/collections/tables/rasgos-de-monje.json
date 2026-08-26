@@ -1,0 +1,183 @@
+{
+ "id": "table.rasgos-de-monje",
+ "caption": "Rasgos de monje",
+ "header": [
+  "Nivel",
+  "Bonificador por competencia",
+  "Rasgos de clase",
+  "Artes marciales",
+  "Puntos de concentración",
+  "Movimiento sin armadura"
+ ],
+ "rows": [
+  [
+   "1",
+   "+2",
+   "Artes marciales, Defensa sin armadura",
+   "1d6",
+   "—",
+   "—"
+  ],
+  [
+   "2",
+   "+2",
+   "Concentración de monje, Metabolismo asombroso, Movimiento sin armadura",
+   "1d6",
+   "2",
+   "+3 m"
+  ],
+  [
+   "3",
+   "+2",
+   "Desviar ataques, subclase de monje",
+   "1d6",
+   "3",
+   "+3 m"
+  ],
+  [
+   "4",
+   "+2",
+   "Caída lenta, Mejora de característica",
+   "1d6",
+   "4",
+   "+3 m"
+  ],
+  [
+   "5",
+   "+3",
+   "Ataque adicional, Golpe aturdidor",
+   "1d8",
+   "5",
+   "+3 m"
+  ],
+  [
+   "6",
+   "+3",
+   "Golpes potenciados, rasgo de subclase",
+   "1d8",
+   "6",
+   "+4,5 m"
+  ],
+  [
+   "7",
+   "+3",
+   "Evasión",
+   "1d8",
+   "7",
+   "+4,5 m"
+  ],
+  [
+   "8",
+   "+3",
+   "Mejora de característica",
+   "1d8",
+   "8",
+   "+4,5 m"
+  ],
+  [
+   "9",
+   "+4",
+   "Movimiento acrobático",
+   "1d8",
+   "9",
+   "+4,5 m"
+  ],
+  [
+   "10",
+   "+4",
+   "Autorrestablecimiento, Concentración agudizada",
+   "1d8",
+   "10",
+   "+6 m"
+  ],
+  [
+   "11",
+   "+4",
+   "Rasgo de subclase",
+   "1d10",
+   "11",
+   "+6 m"
+  ],
+  [
+   "12",
+   "+4",
+   "Mejora de característica",
+   "1d10",
+   "12",
+   "+6 m"
+  ],
+  [
+   "13",
+   "+5",
+   "Desviar energía",
+   "1d10",
+   "13",
+   "+6 m"
+  ],
+  [
+   "14",
+   "+5",
+   "Superviviente disciplinado",
+   "1d10",
+   "14",
+   "+7,5 m"
+  ],
+  [
+   "15",
+   "+5",
+   "Concentración perfecta",
+   "1d10",
+   "15",
+   "+7,5 m"
+  ],
+  [
+   "16",
+   "+5",
+   "Mejora de característica",
+   "1d10",
+   "16",
+   "+7,5 m"
+  ],
+  [
+   "17",
+   "+6",
+   "Rasgo de subclase",
+   "1d12",
+   "17",
+   "+7,5 m"
+  ],
+  [
+   "18",
+   "+6",
+   "Defensa superior",
+   "1d12",
+   "18",
+   "+9 m"
+  ],
+  [
+   "19",
+   "+6",
+   "Don épico",
+   "1d12",
+   "19",
+   "+9 m"
+  ],
+  [
+   "20",
+   "+6",
+   "Cuerpo y mente",
+   "1d12",
+   "20",
+   "+9 m"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Clases",
+  "Monje"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 77
+ }
+}

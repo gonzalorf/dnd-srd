@@ -1,0 +1,1674 @@
+{
+ "id": "class.hechicero",
+ "name": "Hechicero",
+ "coreTraits": {
+  "Característica principal": "Carisma",
+  "Dado de puntos de golpe": "1d6 por nivel de hechicero",
+  "Competencias en tiradas de salvación": "Constitución y Carisma",
+  "Competencias en habilidades": "Elige dos: Conocimiento arcano, Engaño, Intimidación, Perspicacia, Persuasión o Religión",
+  "Competencias con armas": "Amas sencillas",
+  "Entrenamiento con armaduras": "Ninguna",
+  "Equipo inicial": "Elige A o B: (A) lanza, 2 dagas, canalizador arcano (cristal), paquete de explorador de mazmorras y 28 po, o (B) 50 po"
+ },
+ "progression": {
+  "caption": "Rasgos de hechicero",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Puntos de hechicería",
+   "Trucos",
+   "Conjuros preparados",
+   "—Espacios de conjuro por cada nivel de conjuro— 123456789"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Lanzamiento de conjuros, Hechicería innata",
+    "—",
+    "4",
+    "2",
+    "2————————"
+   ],
+   [
+    "2",
+    "+2",
+    "Fuente de magia, Metamagia",
+    "2",
+    "4",
+    "4",
+    "3————————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de hechicero",
+    "3",
+    "4",
+    "6",
+    "42———————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "4",
+    "5",
+    "7",
+    "43———————"
+   ],
+   [
+    "5",
+    "+3",
+    "Recuperación mágica",
+    "5",
+    "5",
+    "9",
+    "432——————"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "6",
+    "5",
+    "10",
+    "433——————"
+   ],
+   [
+    "7",
+    "+3",
+    "Encarnación mágica",
+    "7",
+    "5",
+    "11",
+    "4331—————"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "8",
+    "5",
+    "12",
+    "4332—————"
+   ],
+   [
+    "9",
+    "+4",
+    "—",
+    "9",
+    "5",
+    "14",
+    "43331————"
+   ],
+   [
+    "10",
+    "+4",
+    "Metamagia",
+    "10",
+    "6",
+    "15",
+    "43332————"
+   ],
+   [
+    "11",
+    "+4",
+    "—",
+    "11",
+    "6",
+    "16",
+    "433321———"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "12",
+    "6",
+    "16",
+    "433321———"
+   ],
+   [
+    "13",
+    "+5",
+    "—",
+    "13",
+    "6",
+    "17",
+    "4333211——"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "14",
+    "6",
+    "17",
+    "4333211——"
+   ],
+   [
+    "15",
+    "+5",
+    "—",
+    "15",
+    "6",
+    "18",
+    "43332111—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "16",
+    "6",
+    "18",
+    "43332111—"
+   ],
+   [
+    "17",
+    "+6",
+    "Metamagia",
+    "17",
+    "6",
+    "19",
+    "433321111"
+   ],
+   [
+    "18",
+    "+6",
+    "Rasgo de subclase",
+    "18",
+    "6",
+    "20",
+    "433331111"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "19",
+    "6",
+    "21",
+    "433332111"
+   ],
+   [
+    "20",
+    "+6",
+    "Apoteosis arcana",
+    "20",
+    "6",
+    "22",
+    "433332211"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Recurres a tu magia innata, lo que te permite lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de hechicero, que encontrarás más adelante en la lista de conjuros de hechicero de la descripción de la clase.\n\nTrucos. Conoces cuatro trucos de hechicero de tu elección. Se recomiendan agarre electrizante, estallido mágico, luz y prestidigitación. Cada vez que subas un nivel de hechicero, puedes sustituir uno de tus trucos de este rasgo por otro truco de hechicero de tu elección. Cuando alcanzas los niveles 4 y 10 de hechicero, aprendes otro truco de hechicero de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de hechicero”.\n\nEspacios de conjuro. La tabla “Rasgos de hechicero” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superio\n\nres, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de hechicero de nivel 1. Se recomiendan detectar magia y manos ardientes.\n\nEl número de conjuros de tu lista aumenta conforme subes de nivel de hechicero, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de hechicero”. Cuando ese número aumente, elige conjuros de hechicero adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de hechicero”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un hechicero de nivel 3, podrías preparar cualquier combinación de seis conjuros de hechicero de nivel 1 o 2.\n\nSi otro rasgo de hechicero te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de hechicero para ti.\n\nCambiar los conjuros preparados. Cada vez que subas un nivel de hechicero, puedes sustituir un conjuro de tu lista por otro conjuro de hechicero para el que tengas espacios de conjuro.\n\nAptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de hechicero.\n\nCanalizador mágico. Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de hechicero.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 64,
+     "md": "Recurres a tu magia innata, lo que te permite lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de hechicero, que encontrarás más adelante en la lista de conjuros de hechicero de la descripción de la clase.",
+     "text": "Recurres a tu magia innata, lo que te permite lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de hechicero, que encontrarás más adelante en la lista de conjuros de hechicero de la descripción de la clase."
+    },
+    {
+     "type": "table",
+     "page": 65,
+     "caption": "Rasgos de hechicero",
+     "header": [
+      "Nivel",
+      "Bonificador por competencia",
+      "Rasgos de clase",
+      "Puntos de hechicería",
+      "Trucos",
+      "Conjuros preparados",
+      "—Espacios de conjuro por cada nivel de conjuro— 123456789"
+     ],
+     "rows": [
+      [
+       "1",
+       "+2",
+       "Lanzamiento de conjuros, Hechicería innata",
+       "—",
+       "4",
+       "2",
+       "2————————"
+      ],
+      [
+       "2",
+       "+2",
+       "Fuente de magia, Metamagia",
+       "2",
+       "4",
+       "4",
+       "3————————"
+      ],
+      [
+       "3",
+       "+2",
+       "Subclase de hechicero",
+       "3",
+       "4",
+       "6",
+       "42———————"
+      ],
+      [
+       "4",
+       "+2",
+       "Mejora de característica",
+       "4",
+       "5",
+       "7",
+       "43———————"
+      ],
+      [
+       "5",
+       "+3",
+       "Recuperación mágica",
+       "5",
+       "5",
+       "9",
+       "432——————"
+      ],
+      [
+       "6",
+       "+3",
+       "Rasgo de subclase",
+       "6",
+       "5",
+       "10",
+       "433——————"
+      ],
+      [
+       "7",
+       "+3",
+       "Encarnación mágica",
+       "7",
+       "5",
+       "11",
+       "4331—————"
+      ],
+      [
+       "8",
+       "+3",
+       "Mejora de característica",
+       "8",
+       "5",
+       "12",
+       "4332—————"
+      ],
+      [
+       "9",
+       "+4",
+       "—",
+       "9",
+       "5",
+       "14",
+       "43331————"
+      ],
+      [
+       "10",
+       "+4",
+       "Metamagia",
+       "10",
+       "6",
+       "15",
+       "43332————"
+      ],
+      [
+       "11",
+       "+4",
+       "—",
+       "11",
+       "6",
+       "16",
+       "433321———"
+      ],
+      [
+       "12",
+       "+4",
+       "Mejora de característica",
+       "12",
+       "6",
+       "16",
+       "433321———"
+      ],
+      [
+       "13",
+       "+5",
+       "—",
+       "13",
+       "6",
+       "17",
+       "4333211——"
+      ],
+      [
+       "14",
+       "+5",
+       "Rasgo de subclase",
+       "14",
+       "6",
+       "17",
+       "4333211——"
+      ],
+      [
+       "15",
+       "+5",
+       "—",
+       "15",
+       "6",
+       "18",
+       "43332111—"
+      ],
+      [
+       "16",
+       "+5",
+       "Mejora de característica",
+       "16",
+       "6",
+       "18",
+       "43332111—"
+      ],
+      [
+       "17",
+       "+6",
+       "Metamagia",
+       "17",
+       "6",
+       "19",
+       "433321111"
+      ],
+      [
+       "18",
+       "+6",
+       "Rasgo de subclase",
+       "18",
+       "6",
+       "20",
+       "433331111"
+      ],
+      [
+       "19",
+       "+6",
+       "Don épico",
+       "19",
+       "6",
+       "21",
+       "433332111"
+      ],
+      [
+       "20",
+       "+6",
+       "Apoteosis arcana",
+       "20",
+       "6",
+       "22",
+       "433332211"
+      ]
+     ]
+    },
+    {
+     "type": "definition",
+     "page": 65,
+     "md": "***Trucos.*** Conoces cuatro trucos de hechicero de tu elección. Se recomiendan *agarre electrizante*, *estallido mágico*, *luz* y *prestidigitación*. Cada vez que subas un nivel de hechicero, puedes sustituir uno de tus trucos de este rasgo por otro truco de hechicero de tu elección. Cuando alcanzas los niveles 4 y 10 de hechicero, aprendes otro truco de hechicero de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de hechicero”.",
+     "text": "Trucos. Conoces cuatro trucos de hechicero de tu elección. Se recomiendan agarre electrizante, estallido mágico, luz y prestidigitación. Cada vez que subas un nivel de hechicero, puedes sustituir uno de tus trucos de este rasgo por otro truco de hechicero de tu elección. Cuando alcanzas los niveles 4 y 10 de hechicero, aprendes otro truco de hechicero de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de hechicero”."
+    },
+    {
+     "type": "definition",
+     "page": 65,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de hechicero” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de hechicero” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 65,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superio",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superio"
+    },
+    {
+     "type": "paragraph",
+     "page": 65,
+     "md": "res, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de hechicero de nivel 1. Se recomiendan *detectar magia* y *manos ardientes*.",
+     "text": "res, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de hechicero de nivel 1. Se recomiendan detectar magia y manos ardientes."
+    },
+    {
+     "type": "paragraph",
+     "page": 65,
+     "md": "El número de conjuros de tu lista aumenta conforme subes de nivel de hechicero, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de hechicero”. Cuando ese número aumente, elige conjuros de hechicero adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de hechicero”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un hechicero de nivel 3, podrías preparar cualquier combinación de seis conjuros de hechicero de nivel 1 o 2.",
+     "text": "El número de conjuros de tu lista aumenta conforme subes de nivel de hechicero, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de hechicero”. Cuando ese número aumente, elige conjuros de hechicero adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla “Rasgos de hechicero”. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un hechicero de nivel 3, podrías preparar cualquier combinación de seis conjuros de hechicero de nivel 1 o 2."
+    },
+    {
+     "type": "paragraph",
+     "page": 65,
+     "md": "Si otro rasgo de hechicero te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de hechicero para ti.",
+     "text": "Si otro rasgo de hechicero te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de hechicero para ti."
+    },
+    {
+     "type": "definition",
+     "page": 66,
+     "md": "***Cambiar los conjuros preparados.*** Cada vez que subas un nivel de hechicero, puedes sustituir un conjuro de tu lista por otro conjuro de hechicero para el que tengas espacios de conjuro.",
+     "text": "Cambiar los conjuros preparados. Cada vez que subas un nivel de hechicero, puedes sustituir un conjuro de tu lista por otro conjuro de hechicero para el que tengas espacios de conjuro."
+    },
+    {
+     "type": "definition",
+     "page": 66,
+     "md": "***Aptitud mágica.*** El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de hechicero.",
+     "text": "Aptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de hechicero."
+    },
+    {
+     "type": "definition",
+     "page": 66,
+     "md": "***Canalizador mágico.*** Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de hechicero.",
+     "text": "Canalizador mágico. Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de hechicero."
+    }
+   ],
+   "page": 64
+  },
+  {
+   "level": 1,
+   "name": "Hechicería innata",
+   "title": "Nivel 1: Hechicería innata",
+   "subclass": null,
+   "text": "Un suceso de tu pasado dejó una marca indeleble en ti, llenándote de magia latente. Como acción adicional, puedes desatar esa magia durante 1 minuto, durante el cual obtienes los siguientes beneficios:\n\n• La CD de salvación de tus conjuros de hechicero aumenta en 1.\n\n• Tienes ventaja en las tiradas de ataque de los conjuros de hechicero que lances.\n\nPuedes usar este rasgo dos veces y recuperas todos los usos tras finalizar un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Un suceso de tu pasado dejó una marca indeleble en ti, llenándote de magia latente. Como acción adicional, puedes desatar esa magia durante 1 minuto, durante el cual obtienes los siguientes beneficios:",
+     "text": "Un suceso de tu pasado dejó una marca indeleble en ti, llenándote de magia latente. Como acción adicional, puedes desatar esa magia durante 1 minuto, durante el cual obtienes los siguientes beneficios:"
+    },
+    {
+     "type": "list-item",
+     "page": 66,
+     "md": "• La CD de salvación de tus conjuros de hechicero aumenta en 1.",
+     "text": "• La CD de salvación de tus conjuros de hechicero aumenta en 1."
+    },
+    {
+     "type": "list-item",
+     "page": 66,
+     "md": "• Tienes ventaja en las tiradas de ataque de los conjuros de hechicero que lances.",
+     "text": "• Tienes ventaja en las tiradas de ataque de los conjuros de hechicero que lances."
+    },
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Puedes usar este rasgo dos veces y recuperas todos los usos tras finalizar un descanso largo.",
+     "text": "Puedes usar este rasgo dos veces y recuperas todos los usos tras finalizar un descanso largo."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 2,
+   "name": "Fuente de magia",
+   "title": "Nivel 2: Fuente de magia",
+   "subclass": null,
+   "text": "Puedes acceder a una abundante fuente de magia que nace de tu interior. Esta fuente se representa mediante una serie de puntos de hechicería, que te permiten crear una gran variedad de efectos mágicos.\n\nPosees 2 puntos de hechicería, pero obtendrás más conforme subas de nivel en esta clase, como se muestra en la columna “Puntos de hechicería” de la tabla “Rasgos de hechicero”. No puedes tener más puntos de hechicería que la cantidad indicada en la tabla para tu nivel. Recuperas todos los puntos de hechicería gastados tras finalizar un descanso largo.\n\nPuedes emplear tus puntos de hechicería en las opciones presentadas a continuación y en otros rasgos que usan dichos puntos, como el de Metamagia.\n\nConvertir espacios de conjuro en puntos de hechicería. Puedes gastar un espacio de conjuro para obtener tantos puntos de hechicería como el nivel del espacio (no requiere acción).\n\nCrear espacios de conjuro. Como acción adicional, puedes transformar puntos de hechicería que no hayas gastado aún en un espacio de conjuro. La tabla “Crear espacios de conjuro” indica el coste de crear un espacio de conjuro de un nivel determinado y el nivel mínimo de hechicero que debes tener para crear un espacio. Puedes crear espacios de conjuro de nivel 5 como máximo. Cualquier espacio creado mediante este rasgo se desvanece tras finalizar un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Puedes acceder a una abundante fuente de magia que nace de tu interior. Esta fuente se representa mediante una serie de puntos de hechicería, que te permiten crear una gran variedad de efectos mágicos.",
+     "text": "Puedes acceder a una abundante fuente de magia que nace de tu interior. Esta fuente se representa mediante una serie de puntos de hechicería, que te permiten crear una gran variedad de efectos mágicos."
+    },
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Posees 2 puntos de hechicería, pero obtendrás más conforme subas de nivel en esta clase, como se muestra en la columna “Puntos de hechicería” de la tabla “Rasgos de hechicero”. No puedes tener más puntos de hechicería que la cantidad indicada en la tabla para tu nivel. Recuperas todos los puntos de hechicería gastados tras finalizar un descanso largo.",
+     "text": "Posees 2 puntos de hechicería, pero obtendrás más conforme subas de nivel en esta clase, como se muestra en la columna “Puntos de hechicería” de la tabla “Rasgos de hechicero”. No puedes tener más puntos de hechicería que la cantidad indicada en la tabla para tu nivel. Recuperas todos los puntos de hechicería gastados tras finalizar un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Puedes emplear tus puntos de hechicería en las opciones presentadas a continuación y en otros rasgos que usan dichos puntos, como el de Metamagia.",
+     "text": "Puedes emplear tus puntos de hechicería en las opciones presentadas a continuación y en otros rasgos que usan dichos puntos, como el de Metamagia."
+    },
+    {
+     "type": "definition",
+     "page": 66,
+     "md": "***Convertir espacios de conjuro en puntos de hechicería.*** Puedes gastar un espacio de conjuro para obtener tantos puntos de hechicería como el nivel del espacio (no requiere acción).",
+     "text": "Convertir espacios de conjuro en puntos de hechicería. Puedes gastar un espacio de conjuro para obtener tantos puntos de hechicería como el nivel del espacio (no requiere acción)."
+    },
+    {
+     "type": "definition",
+     "page": 66,
+     "md": "***Crear espacios de conjuro.*** Como acción adicional, puedes transformar puntos de hechicería que no hayas gastado aún en un espacio de conjuro. La tabla “Crear espacios de conjuro” indica el coste de crear un espacio de conjuro de un nivel determinado y el nivel mínimo de hechicero que debes tener para crear un espacio. Puedes crear espacios de conjuro de nivel 5 como máximo. Cualquier espacio creado mediante este rasgo se desvanece tras finalizar un descanso largo.",
+     "text": "Crear espacios de conjuro. Como acción adicional, puedes transformar puntos de hechicería que no hayas gastado aún en un espacio de conjuro. La tabla “Crear espacios de conjuro” indica el coste de crear un espacio de conjuro de un nivel determinado y el nivel mínimo de hechicero que debes tener para crear un espacio. Puedes crear espacios de conjuro de nivel 5 como máximo. Cualquier espacio creado mediante este rasgo se desvanece tras finalizar un descanso largo."
+    },
+    {
+     "type": "table",
+     "page": 66,
+     "caption": "Crear espacios de conjuro",
+     "header": [
+      "Nivel del espacio de conjuro",
+      "Coste en puntos de hechicería",
+      "Nivel mínimo de hechicero"
+     ],
+     "rows": [
+      [
+       "1",
+       "2",
+       "2"
+      ],
+      [
+       "2",
+       "3",
+       "3"
+      ],
+      [
+       "3",
+       "5",
+       "5"
+      ],
+      [
+       "4",
+       "6",
+       "7"
+      ],
+      [
+       "5",
+       "7",
+       "9"
+      ]
+     ]
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 2,
+   "name": "Metamagia",
+   "title": "Nivel 2: Metamagia",
+   "subclass": null,
+   "text": "Como la magia fluye desde tu interior, puedes alterar tus conjuros y adaptarlos a conveniencia. Consigues dos de las opciones de metamagia de tu elección del apartado “Opciones de metamagia” que aparece más adelante en la descripción de esta clase. Usarás las opciones elegidas para modificar temporalmente los conjuros que lances. Para usar una, deberás gastar la cantidad de puntos de hechicería que cueste.\n\nSolo puedes usar una opción de metamagia en un conjuro cuando lo lanzas, a menos que se especifique otra cosa en las opciones.\n\nCada vez que subas un nivel de hechicero, puedes sustituir una de las opciones de metamagia por otra que no conozcas. Obtienes dos opciones más en el nivel 10 de hechicero y otras dos más en el nivel 17.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Como la magia fluye desde tu interior, puedes alterar tus conjuros y adaptarlos a conveniencia. Consigues dos de las opciones de metamagia de tu elección del apartado “Opciones de metamagia” que aparece más adelante en la descripción de esta clase. Usarás las opciones elegidas para modificar temporalmente los conjuros que lances. Para usar una, deberás gastar la cantidad de puntos de hechicería que cueste.",
+     "text": "Como la magia fluye desde tu interior, puedes alterar tus conjuros y adaptarlos a conveniencia. Consigues dos de las opciones de metamagia de tu elección del apartado “Opciones de metamagia” que aparece más adelante en la descripción de esta clase. Usarás las opciones elegidas para modificar temporalmente los conjuros que lances. Para usar una, deberás gastar la cantidad de puntos de hechicería que cueste."
+    },
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Solo puedes usar una opción de metamagia en un conjuro cuando lo lanzas, a menos que se especifique otra cosa en las opciones.",
+     "text": "Solo puedes usar una opción de metamagia en un conjuro cuando lo lanzas, a menos que se especifique otra cosa en las opciones."
+    },
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Cada vez que subas un nivel de hechicero, puedes sustituir una de las opciones de metamagia por otra que no conozcas. Obtienes dos opciones más en el nivel 10 de hechicero y otras dos más en el nivel 17.",
+     "text": "Cada vez que subas un nivel de hechicero, puedes sustituir una de las opciones de metamagia por otra que no conozcas. Obtienes dos opciones más en el nivel 10 de hechicero y otras dos más en el nivel 17."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 3,
+   "name": "Subclase de hechicero",
+   "title": "Nivel 3: Subclase de hechicero",
+   "subclass": null,
+   "text": "Consigues una subclase de hechicero de tu elección. La subclase de hechicería dracónica se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de hechicero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de hechicero e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Consigues una subclase de hechicero de tu elección. La subclase de hechicería dracónica se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de hechicero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de hechicero e inferiores.",
+     "text": "Consigues una subclase de hechicero de tu elección. La subclase de hechicería dracónica se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de hechicero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de hechicero e inferiores."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de hechicero.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de hechicero.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de hechicero."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 5,
+   "name": "Recuperación mágica",
+   "title": "Nivel 5: Recuperación mágica",
+   "subclass": null,
+   "text": "Tras finalizar un descanso corto, puedes recuperar una cantidad de puntos de hechicería igual o inferior a la mitad de tu nivel de hechicero (redondeando hacia abajo). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Tras finalizar un descanso corto, puedes recuperar una cantidad de puntos de hechicería igual o inferior a la mitad de tu nivel de hechicero (redondeando hacia abajo). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Tras finalizar un descanso corto, puedes recuperar una cantidad de puntos de hechicería igual o inferior a la mitad de tu nivel de hechicero (redondeando hacia abajo). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 7,
+   "name": "Encarnación mágica",
+   "title": "Nivel 7: Encarnación mágica",
+   "subclass": null,
+   "text": "Si no te quedan usos del rasgo Hechicería innata, puedes usarlo si gastas 2 puntos de hechicería cuando empleas la acción adicional para activarlo.\n\nAdemás, mientras tengas activo el rasgo Hechicería innata, puedes usar hasta dos de tus opciones de metamagia en cada conjuro que lances.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 66,
+     "md": "Si no te quedan usos del rasgo Hechicería innata, puedes usarlo si gastas 2 puntos de hechicería cuando empleas la acción adicional para activarlo.",
+     "text": "Si no te quedan usos del rasgo Hechicería innata, puedes usarlo si gastas 2 puntos de hechicería cuando empleas la acción adicional para activarlo."
+    },
+    {
+     "type": "paragraph",
+     "page": 67,
+     "md": "Además, mientras tengas activo el rasgo Hechicería innata, puedes usar hasta dos de tus opciones de metamagia en cada conjuro que lances.",
+     "text": "Además, mientras tengas activo el rasgo Hechicería innata, puedes usar hasta dos de tus opciones de metamagia en cada conjuro que lances."
+    }
+   ],
+   "page": 66
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 67,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional."
+    }
+   ],
+   "page": 67
+  },
+  {
+   "level": 20,
+   "name": "Apoteosis arcana",
+   "title": "Nivel 20: Apoteosis arcana",
+   "subclass": null,
+   "text": "Mientras tengas activo el rasgo Hechicería innata, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 67,
+     "md": "Mientras tengas activo el rasgo Hechicería innata, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería.",
+     "text": "Mientras tengas activo el rasgo Hechicería innata, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería."
+    }
+   ],
+   "page": 67
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de hechicero: Hechicería dracónica",
+   "features": [
+    {
+     "level": 3,
+     "name": "Conjuros dracónicos",
+     "title": "Nivel 3: Conjuros dracónicos",
+     "subclass": "Subclase de hechicero: Hechicería dracónica",
+     "text": "Cuando alcances un nivel de hechicero especificado en la tabla “Conjuros dracónicos”, a partir de entonces siempre tendrás preparados los conjuros que se indican.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Cuando alcances un nivel de hechicero especificado en la tabla “Conjuros dracónicos”, a partir de entonces siempre tendrás preparados los conjuros que se indican.",
+       "text": "Cuando alcances un nivel de hechicero especificado en la tabla “Conjuros dracónicos”, a partir de entonces siempre tendrás preparados los conjuros que se indican."
+      },
+      {
+       "type": "table",
+       "page": 70,
+       "caption": "Conjuros dracónicos",
+       "header": [
+        "Nivel de hechicero",
+        "Conjuros"
+       ],
+       "rows": [
+        [
+         "3",
+         "Aliento de dragón, alterar el propio aspecto, orbe cromático, orden imperiosa"
+        ],
+        [
+         "5",
+         "Terror, volar"
+        ],
+        [
+         "7",
+         "Hechizar monstruo, ojo arcano"
+        ],
+        [
+         "9",
+         "Conocer las leyendas, invocar dragón"
+        ]
+       ]
+      }
+     ],
+     "page": 70
+    },
+    {
+     "level": 3,
+     "name": "Resistencia dracónica",
+     "title": "Nivel 3: Resistencia dracónica",
+     "subclass": "Subclase de hechicero: Hechicería dracónica",
+     "text": "La magia de tu cuerpo manifiesta tu don dracónico de forma física. Tus puntos de golpe máximos aumentan en 3 y en 1 más por cada nivel de hechicero que subas en el futuro.\n\nAdemás, partes de tu cuerpo se cubren de escamas similares a las de los dragones. Mientras no lleves armadura, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Carisma.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "La magia de tu cuerpo manifiesta tu don dracónico de forma física. Tus puntos de golpe máximos aumentan en 3 y en 1 más por cada nivel de hechicero que subas en el futuro.",
+       "text": "La magia de tu cuerpo manifiesta tu don dracónico de forma física. Tus puntos de golpe máximos aumentan en 3 y en 1 más por cada nivel de hechicero que subas en el futuro."
+      },
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Además, partes de tu cuerpo se cubren de escamas similares a las de los dragones. Mientras no lleves armadura, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Carisma.",
+       "text": "Además, partes de tu cuerpo se cubren de escamas similares a las de los dragones. Mientras no lleves armadura, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Carisma."
+      }
+     ],
+     "page": 70
+    },
+    {
+     "level": 6,
+     "name": "Afinidad elemental",
+     "title": "Nivel 6: Afinidad elemental",
+     "subclass": "Subclase de hechicero: Hechicería dracónica",
+     "text": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de estos tipos: ácido, frío, fuego, relámpago o veneno.\n\nTienes resistencia a ese tipo de daño. Además, cuando lances un conjuro que inflija daño de ese tipo, puedes sumar tu modificador por Carisma a una tirada de daño del conjuro.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de estos tipos: ácido, frío, fuego, relámpago o veneno.",
+       "text": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de estos tipos: ácido, frío, fuego, relámpago o veneno."
+      },
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Tienes resistencia a ese tipo de daño. Además, cuando lances un conjuro que inflija daño de ese tipo, puedes sumar tu modificador por Carisma a una tirada de daño del conjuro.",
+       "text": "Tienes resistencia a ese tipo de daño. Además, cuando lances un conjuro que inflija daño de ese tipo, puedes sumar tu modificador por Carisma a una tirada de daño del conjuro."
+      }
+     ],
+     "page": 70
+    },
+    {
+     "level": 14,
+     "name": "Alas de dragón",
+     "title": "Nivel 14: Alas de dragón",
+     "subclass": "Subclase de hechicero: Hechicería dracónica",
+     "text": "Como acción adicional, puedes hacer que te crezcan alas dracónicas de la espalda. Las alas permanecen 1 hora o hasta que las hagas desaparecer (no requiere acción). Mientras dure el efecto, tienes una velocidad volando de 18 m.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes 3 puntos de hechicería (no requiere acción) para restablecer su uso.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Como acción adicional, puedes hacer que te crezcan alas dracónicas de la espalda. Las alas permanecen 1 hora o hasta que las hagas desaparecer (no requiere acción). Mientras dure el efecto, tienes una velocidad volando de 18 m.",
+       "text": "Como acción adicional, puedes hacer que te crezcan alas dracónicas de la espalda. Las alas permanecen 1 hora o hasta que las hagas desaparecer (no requiere acción). Mientras dure el efecto, tienes una velocidad volando de 18 m."
+      },
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes 3 puntos de hechicería (no requiere acción) para restablecer su uso.",
+       "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes 3 puntos de hechicería (no requiere acción) para restablecer su uso."
+      }
+     ],
+     "page": 70
+    },
+    {
+     "level": 18,
+     "name": "Compañero dragón",
+     "title": "Nivel 18: Compañero dragón",
+     "subclass": "Subclase de hechicero: Hechicería dracónica",
+     "text": "Puedes lanzar invocar dragón sin ningún componente material. También puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo.\n\nCuando empieces a lanzar el conjuro, puedes modificarlo para que no requiera concentración. Si lo haces, la duración del conjuro es de 1 minuto para ese lanzamiento.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Puedes lanzar *invocar dragón* sin ningún componente material. También puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo.",
+       "text": "Puedes lanzar invocar dragón sin ningún componente material. También puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo."
+      },
+      {
+       "type": "paragraph",
+       "page": 70,
+       "md": "Cuando empieces a lanzar el conjuro, puedes modificarlo para que no requiera concentración. Si lo haces, la duración del conjuro es de 1 minuto para ese lanzamiento.",
+       "text": "Cuando empieces a lanzar el conjuro, puedes modificarlo para que no requiera concentración. Si lo haces, la duración del conjuro es de 1 minuto para ese lanzamiento."
+      }
+     ],
+     "page": 70
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de hechicero de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Agarre electrizante",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Descarga de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Elementalismo",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Estallido mágico",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Ilusión menor",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Impacto certero",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Luces danzantes",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Luz",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Mano de mago",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Mensaje",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Prestidigitación",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Rayo de escarcha",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Reparar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Rociada venenosa",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Salpicadura ácida",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Toque helado",
+     "Nigromancia",
+     "—"
+    ]
+   ],
+   "page": 68
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de hechicero de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Armadura de mago",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Caída de pluma",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Cuchillo de hielo",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Disfrazarse",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Dormir",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Entender idiomas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Escudo",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Falsa vida",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Grasa",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Hechizar persona",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Manos ardientes",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Nube de oscurecimiento",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Ola atronadora",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Orbe cromático",
+     "Evocación",
+     "M"
+    ],
+    [
+     "Proyectil mágico",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Rayo nauseabundo",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Retirada expeditiva",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Rociada de color",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Salto",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 68
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de hechicero de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Abrir",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Agrandar/reducir",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Aliento de dragón",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Alterar el propio aspecto",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Arma mágica",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Contorno borroso",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Detectar pensamientos",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Esfera de llamas",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Hacer añicos",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Hoja de fuego",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Imagen múltiple",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Invisibilidad",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Levitar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Oscuridad",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Paso brumoso",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Ráfaga de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Rayo abrasador",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Sordera/ceguera",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Sugestión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Telaraña",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Trepar cual arácnido",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Ver invisibilidad",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Visión en la oscuridad",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 68
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de hechicero de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Acelerar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Bola de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Caminar sobre el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Clarividencia",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Contrahechizo",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Desplazamiento",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Don de lenguas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Forma gaseosa",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Imagen mayor",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Luz del día",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Nube apestosa",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Patrón hipnótico",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Protección contra energía",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Ralentizar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Relámpago",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Respirar bajo el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Terror",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Toque vampírico",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Tormenta de aguanieve",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Volar",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 69
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de hechicero de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Confusión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Destierro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Dominar bestia",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Escudo de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Esfera vitriólica",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Hechizar monstruo",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Invisibilidad mejorada",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Marchitar",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Muro de fuego",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Piel pétrea",
+     "Transmutación",
+     "C, M"
+    ],
+    [
+     "Polimorfar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Puerta dimensional",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Tormenta de hielo",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 69
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de hechicero de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Animar objetos",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Apariencia",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Círculo de teletransportación",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Cono de frío",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Creación",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Dominar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Inmovilizar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Mano arcana",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Muro de piedra",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Nube aniquiladora",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Plaga de insectos",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Telequinesis",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 69
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de hechicero de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Círculo de muerte",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "De la carne a la piedra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Desintegrar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Esfera congelante",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Globo de invulnerabilidad",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Mal de ojo",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Mover la tierra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Rayo solar",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Relámpago en cadena",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Sugestión en masa",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Visión veraz",
+     "Adivinación",
+     "M"
+    ]
+   ],
+   "page": 69
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de hechicero de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Bola de fuego de explosión retardada",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Dedo de la muerte",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Desplazamiento entre planos",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Excursión etérea",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Invertir la gravedad",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Rociada prismática",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Teletransporte",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Tormenta de fuego",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 69
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de hechicero de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Dominar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Explosión solar",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Nube incendiaria",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Palabra de poder: aturdir",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Semiplano",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Terremoto",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 70
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de hechicero de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Deseo",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Palabra de poder: matar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Parar el tiempo",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Portal",
+     "Conjuración",
+     "C, M"
+    ],
+    [
+     "Tormenta de meteoritos",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 70
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 64
+ },
+ "refs": [
+  "spell.invocar-dragon",
+  "spell.agarre-electrizante",
+  "spell.estallido-magico",
+  "spell.luz",
+  "spell.prestidigitacion",
+  "spell.detectar-magia",
+  "spell.manos-ardientes"
+ ]
+}

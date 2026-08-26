@@ -1,0 +1,23 @@
+{
+ "id": "item.anillo-de-natacion",
+ "name": "Anillo de natación",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Anillo, infrecuente",
+ "text": "Tienes una velocidad nadando de 12 m mientras lleves puesto este anillo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 232,
+   "md": "Tienes una velocidad nadando de 12 m mientras lleves puesto este anillo.",
+   "text": "Tienes una velocidad nadando de 12 m mientras lleves puesto este anillo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 232
+ }
+}

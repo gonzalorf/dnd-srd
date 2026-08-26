@@ -1,0 +1,22 @@
+{
+ "id": "mount.mula",
+ "name": "Mula",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Mula",
+  "Capacidad de carga": "210 kg",
+  "Precio": "8 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "8 po",
+  "amount": 8.0,
+  "coin": "po",
+  "gp": 8.0
+ }
+}

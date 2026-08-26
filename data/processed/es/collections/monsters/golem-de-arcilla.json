@@ -1,0 +1,143 @@
+{
+ "id": "monster.golem-de-arcilla",
+ "name": "Gólem de arcilla",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 331,
+  "pages": [
+   331,
+   332
+  ]
+ },
+ "context": [
+  "Gólem de arcilla"
+ ],
+ "metaRaw": "Autómata Grande, sin alineamiento",
+ "type": "Autómata",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "123 (13d10 + 52)",
+  "average": 123,
+  "formula": "13d10 + 52"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "immunities": [
+  "ácido",
+  "psíquico",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "contundente",
+  "cortante",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "9 (5000 PX; BC +4)",
+  "cr": 9,
+  "xp": 5000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "traits": [
+  {
+   "name": "Absorción de ácido",
+   "md": "***Absorción de ácido.*** Siempre que fuese a recibir daño de ácido, el gólem no sufre ese daño y recupera una cantidad de puntos de golpe igual al daño de ácido infligido.",
+   "page": 332,
+   "description": "Siempre que fuese a recibir daño de ácido, el gólem no sufre ese daño y recupera una cantidad de puntos de golpe igual al daño de ácido infligido."
+  },
+  {
+   "name": "Berserk",
+   "md": "***Berserk.*** Siempre que el gólem comience su turno maltrecho, tira 1d6. Si sacas un 6, el gólem se ve poseído por una furia berserk. En cada uno de los turnos que pase en este estado, el gólem atacará a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante próxima como para que se mueva hasta ella y la ataque, el gólem atacará a un objeto. Una vez que el gólem se ve poseído por la furia berserk, continuará así hasta que sea destruido o deje de estar maltrecho.",
+   "page": 332,
+   "description": "Siempre que el gólem comience su turno maltrecho, tira 1d6. Si sacas un 6, el gólem se ve poseído por una furia berserk. En cada uno de los turnos que pase en este estado, el gólem atacará a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante próxima como para que se mueva hasta ella y la ataque, el gólem atacará a un objeto. Una vez que el gólem se ve poseído por la furia berserk, continuará así hasta que sea destruido o deje de estar maltrecho."
+  },
+  {
+   "name": "Forma inmutable",
+   "md": "***Forma inmutable.*** El gólem no puede cambiar de forma.",
+   "page": 332,
+   "description": "El gólem no puede cambiar de forma."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El gólem tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 332,
+   "description": "El gólem tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gólem realiza dos ataques con su golpe o tres si ha utilizado la acción adicional de prisa en este turno.",
+   "page": 332,
+   "description": "El gólem realiza dos ataques con su golpe o tres si ha utilizado la acción adicional de prisa en este turno."
+  },
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 10 (1d10 + 5) de daño contundente más 6 (1d12) de daño de ácido y los puntos de golpe máximos del objetivo se reducen en una cantidad igual al daño de ácido sufrido.",
+   "page": 332,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 10 (1d10 + 5) de daño contundente más 6 (1d12) de daño de ácido y los puntos de golpe máximos del objetivo se reducen en una cantidad igual al daño de ácido sufrido."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Prisa",
+   "md": "***Prisa (recarga 5–6).*** El gólem realiza las acciones de correr y destrabarse.",
+   "page": 332,
+   "description": "El gólem realiza las acciones de correr y destrabarse.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

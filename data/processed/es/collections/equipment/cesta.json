@@ -1,0 +1,36 @@
+{
+ "id": "gear.cesta",
+ "name": "Cesta",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Cesta",
+  "Peso": "1 kg",
+  "Precio": "4 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "4 pp",
+  "amount": 4.0,
+  "coin": "pp",
+  "gp": 0.4
+ },
+ "text": "Una cesta soporta hasta 20 kg en un volumen de 60 l.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Una cesta soporta hasta 20 kg en un volumen de 60 l.",
+   "text": "Una cesta soporta hasta 20 kg en un volumen de 60 l."
+  }
+ ],
+ "descriptionPage": 105
+}

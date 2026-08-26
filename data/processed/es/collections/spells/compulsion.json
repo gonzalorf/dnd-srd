@@ -1,0 +1,54 @@
+{
+ "id": "spell.compulsion",
+ "name": "Compulsión",
+ "level": 4,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Todas las criaturas de tu elección que puedas ver dentro del alcance deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que el conjuro termine.\n\nMientras dure, puedes usar una acción adicional para designar una dirección horizontal respecto a ti. Cada criatura hechizada deberá usar todo el movimiento que pueda para avanzar en esa dirección por la ruta más segura durante su próximo turno. Tras moverse de este modo, un objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Todas las criaturas de tu elección que puedas ver dentro del alcance deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que el conjuro termine.",
+   "text": "Todas las criaturas de tu elección que puedas ver dentro del alcance deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que el conjuro termine."
+  },
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Mientras dure, puedes usar una acción adicional para designar una dirección horizontal respecto a ti. Cada criatura hechizada deberá usar todo el movimiento que pueda para avanzar en esa dirección por la ruta más segura durante su próximo turno. Tras moverse de este modo, un objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro.",
+   "text": "Mientras dure, puedes usar una acción adicional para designar una dirección horizontal respecto a ti. Cada criatura hechizada deberá usar todo el movimiento que pueda para avanzar en esa dirección por la ruta más segura durante su próximo turno. Tras moverse de este modo, un objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 130
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-zapatero",
+ "name": "Herramientas de zapatero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)\n\nFabricar: útiles de escalada",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+   "text": "Característica: Destreza Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)",
+   "text": "Utilizar: modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** útiles de escalada",
+   "text": "Fabricar: útiles de escalada"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ }
+}

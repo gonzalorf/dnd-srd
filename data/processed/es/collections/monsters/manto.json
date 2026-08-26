@@ -1,0 +1,137 @@
+{
+ "id": "monster.manto",
+ "name": "Manto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 347,
+  "pages": [
+   347,
+   348
+  ]
+ },
+ "context": [
+  "Manto"
+ ],
+ "metaRaw": "Aberración Grande, caótica neutral",
+ "type": "Aberración",
+ "alignment": "caótica neutral",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 5,
+  "score": 15
+ },
+ "hp": {
+  "raw": "91 (14d10 + 14)",
+  "average": 91,
+  "formula": "14d10 + 14"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 12.0
+ },
+ "skills": {
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "habla de las profundidades",
+  "infracomún"
+ ],
+ "immunities": [
+  "asustado"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Sensibilidad a la luz",
+   "md": "***Sensibilidad a la luz.*** Bajo la luz brillante, el manto tiene desventaja en las tiradas de ataque.",
+   "page": 347,
+   "description": "Bajo la luz brillante, el manto tiene desventaja en las tiradas de ataque."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El manto realiza la acción de adherirse y lleva a cabo dos ataques con su cola.",
+   "page": 347,
+   "description": "El manto realiza la acción de adherirse y lleva a cabo dos ataques con su cola."
+  },
+  {
+   "name": "Adherirse",
+   "md": "***Adherirse.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (3d6 + 3) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, el manto se adhiere a ella. Mientras el manto esté adherido, el objetivo tendrá el estado de cegado y el manto",
+   "page": 347,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (3d6 + 3) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, el manto se adhiere a ella. Mientras el manto esté adherido, el objetivo tendrá el estado de cegado y el manto"
+  },
+  {
+   "name": null,
+   "md": "no podrá realizar la acción de adherirse contra otros objetivos. Asimismo, el manto reduce a la mitad el daño que reciba (redondeando hacia abajo) y el objetivo sufre la misma cantidad de daño. El manto puede usar 1,5 m de movimiento para soltarse. El objetivo o una criatura que esté a 1,5 m o menos de él puede llevar a cabo una acción para tratar de desenganchar al manto, lo que logrará si supera una prueba de Fuerza (Atletismo) con CD 14.",
+   "page": 348
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 8 (1d10 + 3) de daño cortante.",
+   "page": 348,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 8 (1d10 + 3) de daño cortante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Fantasmas",
+   "md": "***Fantasmas (se recarga tras un descanso corto o largo).*** El manto lanza el conjuro *imagen múltiple*, que no requiere componentes y utiliza la Sabiduría como aptitud mágica. El conjuro termina antes de tiempo si el manto comienza o termina su turno en una zona de luz brillante.",
+   "page": 348,
+   "description": "El manto lanza el conjuro *imagen múltiple*, que no requiere componentes y utiliza la Sabiduría como aptitud mágica. El conjuro termina antes de tiempo si el manto comienza o termina su turno en una zona de luz brillante.",
+   "uses": "se recarga tras un descanso corto o largo"
+  },
+  {
+   "name": "Gemido",
+   "md": "***Gemido.*** *Tirada de salvación de Sabiduría:* CD 13, todas las criaturas en una emanación de 18 m que se origina en el manto. *Fallo:* el objetivo tendrá el estado de asustado hasta el final del siguiente turno del manto. *Éxito:* el objetivo será inmune al gemido de este manto durante las siguientes 24 horas.",
+   "page": 348,
+   "description": "*Tirada de salvación de Sabiduría:* CD 13, todas las criaturas en una emanación de 18 m que se origina en el manto. *Fallo:* el objetivo tendrá el estado de asustado hasta el final del siguiente turno del manto. *Éxito:* el objetivo será inmune al gemido de este manto durante las siguientes 24 horas."
+  }
+ ],
+ "refs": [
+  "spell.imagen-multiple"
+ ]
+}

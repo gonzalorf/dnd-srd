@@ -1,0 +1,320 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "spells",
+ "description": "Inferido de 339 fichas de la colección «spells».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": [
+        "string",
+        "null"
+       ],
+       "enum": [
+        "Capas prismáticas",
+        "Efectos de palabra divina",
+        "Materiales",
+        "Precipitaciones",
+        "Presagios",
+        "Rayos prismáticos",
+        "Resultado del teletransporte",
+        "Temperatura Viento",
+        null
+       ]
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "md": {
+       "type": "string"
+      },
+      "name": {
+       "type": "string",
+       "enum": [
+        "Corcel sobrenatural",
+        "Espíritu dracónico",
+        "Insecto gigante",
+        "Objeto animado"
+       ]
+      },
+      "page": {
+       "type": "integer"
+      },
+      "ref": {
+       "type": "string",
+       "enum": [
+        "statblock.corcel-sobrenatural",
+        "statblock.espiritu-draconico",
+        "statblock.insecto-gigante",
+        "statblock.objeto-animado"
+       ]
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "definition",
+        "list-item",
+        "paragraph",
+        "property",
+        "statblock",
+        "table"
+       ]
+      }
+     },
+     "required": [
+      "page",
+      "type"
+     ]
+    }
+   },
+   "cantrip": {
+    "type": "boolean"
+   },
+   "castingTime": {
+    "type": "object",
+    "properties": {
+     "kind": {
+      "type": "string",
+      "enum": [
+       "action",
+       "bonus-action",
+       "reaction",
+       "time"
+      ]
+     },
+     "raw": {
+      "type": "string"
+     },
+     "ritual": {
+      "type": "boolean"
+     },
+     "trigger": {
+      "type": "string",
+      "enum": [
+       "llevas a cabo cuando te acierta una tirada de ataque o eres el objetivo del conjuro proyectil mágico",
+       "llevas a cabo cuando tú o una criatura que puedas ver a 18 m o menos de ti caigáis",
+       "llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales",
+       "llevas a cabo en respuesta a recibir daño de una criatura que puedas ver a 18 m o menos de ti"
+      ]
+     },
+     "unit": {
+      "type": "string",
+      "enum": [
+       "hora",
+       "minuto"
+      ]
+     },
+     "value": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "kind",
+     "raw",
+     "ritual"
+    ]
+   },
+   "classes": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "bardo",
+      "brujo",
+      "clérigo",
+      "druida",
+      "explorador",
+      "hechicero",
+      "mago",
+      "paladín"
+     ]
+    }
+   },
+   "components": {
+    "type": "object",
+    "properties": {
+     "consumed": {
+      "type": "boolean"
+     },
+     "m": {
+      "type": "boolean"
+     },
+     "material": {
+      "type": "string"
+     },
+     "raw": {
+      "type": "string"
+     },
+     "s": {
+      "type": "boolean"
+     },
+     "v": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "m",
+     "raw",
+     "s",
+     "v"
+    ]
+   },
+   "concentration": {
+    "type": "boolean"
+   },
+   "duration": {
+    "type": "object",
+    "properties": {
+     "concentration": {
+      "type": "boolean"
+     },
+     "kind": {
+      "type": "string",
+      "enum": [
+       "instantaneous",
+       "special",
+       "timed",
+       "until-dispelled"
+      ]
+     },
+     "raw": {
+      "type": "string"
+     },
+     "unit": {
+      "type": "string",
+      "enum": [
+       "asalto",
+       "día",
+       "hora",
+       "minuto"
+      ]
+     },
+     "value": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "concentration",
+     "kind",
+     "raw"
+    ]
+   },
+   "id": {
+    "type": "string"
+   },
+   "level": {
+    "type": "integer"
+   },
+   "name": {
+    "type": "string"
+   },
+   "range": {
+    "type": "object",
+    "properties": {
+     "kind": {
+      "type": "string",
+      "enum": [
+       "ranged",
+       "self",
+       "sight",
+       "special",
+       "touch",
+       "unlimited"
+      ]
+     },
+     "meters": {
+      "type": "number"
+     },
+     "raw": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "kind",
+     "raw"
+    ]
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "ritual": {
+    "type": "boolean"
+   },
+   "school": {
+    "type": "string",
+    "enum": [
+     "Abjuración",
+     "Adivinación",
+     "Conjuración",
+     "Encantamiento",
+     "Evocación",
+     "Ilusionismo",
+     "Nigromancia",
+     "Transmutación"
+    ]
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "text": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "blocks",
+   "cantrip",
+   "castingTime",
+   "classes",
+   "components",
+   "concentration",
+   "duration",
+   "id",
+   "level",
+   "name",
+   "range",
+   "ritual",
+   "school",
+   "source",
+   "text"
+  ]
+ }
+}

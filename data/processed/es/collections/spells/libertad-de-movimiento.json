@@ -1,0 +1,70 @@
+{
+ "id": "spell.libertad-de-movimiento",
+ "name": "Libertad de movimiento",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una tira de cuero)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una tira de cuero",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno difícil y los conjuros y otros efectos mágicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado.\n\nAdemás, el objetivo tiene una velocidad nadando igual a su velocidad.\n\nEl objetivo también puede gastar 1,5 m de movimiento para escapar automáticamente de ataduras no mágicas, como unas esposas o una criatura que le imponga el estado de agarrado.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno difícil y los conjuros y otros efectos mágicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado.",
+   "text": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno difícil y los conjuros y otros efectos mágicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado."
+  },
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Además, el objetivo tiene una velocidad nadando igual a su velocidad.",
+   "text": "Además, el objetivo tiene una velocidad nadando igual a su velocidad."
+  },
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "El objetivo también puede gastar 1,5 m de movimiento para escapar automáticamente de ataduras no mágicas, como unas esposas o una criatura que le imponga el estado de agarrado.",
+   "text": "El objetivo también puede gastar 1,5 m de movimiento para escapar automáticamente de ataduras no mágicas, como unas esposas o una criatura que le imponga el estado de agarrado."
+  },
+  {
+   "type": "definition",
+   "page": 162,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 161
+ }
+}

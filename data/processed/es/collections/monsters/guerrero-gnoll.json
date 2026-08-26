@@ -1,0 +1,97 @@
+{
+ "id": "monster.guerrero-gnoll",
+ "name": "Guerrero gnoll",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 330
+ },
+ "context": [
+  "Gnoll"
+ ],
+ "metaRaw": "Infernal Mediano, caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "27 (6d8)",
+  "average": 27,
+  "formula": "6d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "gnoll"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante.",
+   "page": 330,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante."
+  },
+  {
+   "name": "Arco óseo",
+   "md": "***Arco óseo.*** *Tirada de ataque a distancia:* +3, alcance 45/180 m. *Acierto:* 6 (1d10 + 1) de daño perforante.",
+   "page": 330,
+   "description": "*Tirada de ataque a distancia:* +3, alcance 45/180 m. *Acierto:* 6 (1d10 + 1) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Rabia",
+   "md": "***Rabia (1/día).*** Inmediatamente después de hacer daño a una criatura que ya esté maltrecha, el gnoll se moverá hasta la mitad de su velocidad y realizará un ataque de desgarro.",
+   "page": 330,
+   "description": "Inmediatamente después de hacer daño a una criatura que ya esté maltrecha, el gnoll se moverá hasta la mitad de su velocidad y realizará un ataque de desgarro.",
+   "uses": "1/día"
+  }
+ ]
+}

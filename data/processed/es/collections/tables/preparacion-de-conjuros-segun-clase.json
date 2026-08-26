@@ -1,0 +1,61 @@
+{
+ "id": "table.preparacion-de-conjuros-segun-clase",
+ "caption": "Preparación de conjuros según clase",
+ "header": [
+  "Clase",
+  "¿Cuándo cambia?",
+  "Cantidad de conjuros"
+ ],
+ "rows": [
+  [
+   "Bardo",
+   "Al subir de nivel",
+   "Uno"
+  ],
+  [
+   "Brujo",
+   "Al subir de nivel",
+   "Uno"
+  ],
+  [
+   "Clérigo",
+   "Al finalizar un descanso largo",
+   "Cualquiera"
+  ],
+  [
+   "Druida",
+   "Al finalizar un descanso largo",
+   "Cualquiera"
+  ],
+  [
+   "Explorador",
+   "Al finalizar un descanso largo",
+   "Uno"
+  ],
+  [
+   "Hechicero",
+   "Al subir de nivel",
+   "Uno"
+  ],
+  [
+   "Mago",
+   "Al finalizar un descanso largo",
+   "Cualquiera"
+  ],
+  [
+   "Paladín",
+   "Al finalizar un descanso largo",
+   "Uno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Obtener conjuros",
+  "Preparar conjuros"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 114
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "gear.olla-de-hierro",
+ "name": "Olla de hierro",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Olla de hierro",
+  "Peso": "5 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "5 kg",
+  "kg": 5.0
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "En una olla de hierro caben hasta 4 l.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "En una olla de hierro caben hasta 4 l.",
+   "text": "En una olla de hierro caben hasta 4 l."
+  }
+ ],
+ "descriptionPage": 106
+}

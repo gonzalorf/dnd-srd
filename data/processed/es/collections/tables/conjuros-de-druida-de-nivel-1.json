@@ -1,0 +1,111 @@
+{
+ "id": "table.conjuros-de-druida-de-nivel-1",
+ "caption": "Conjuros de druida de nivel 1",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Buenas bayas",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Crear o destruir agua",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Cuchillo de hielo",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Curar heridas",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Detectar magia",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Detectar venenos y enfermedades",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Encantar animal",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Enmarañar",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Fuego feérico",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Hablar con los animales",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Hechizar persona",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Nube de oscurecimiento",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Ola atronadora",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Palabra de curación",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Protección contra el bien y el mal",
+   "Abjuración",
+   "C, M"
+  ],
+  [
+   "Purificar comida y bebida",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Salto",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Zancada prodigiosa",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 55
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "item.pocion-de-vitalidad",
+ "name": "Poción de vitalidad",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, muy rara",
+ "text": "Cuando bebas esta poción, eliminará todos los niveles de cansancio que tengas y el estado de envenenado sobre ti. Durante las siguientes 24 horas, recuperas la cantidad máxima de puntos de golpe de cualquier dado de puntos de golpe que utilices.\n\nEl líquido carmesí de este brebaje palpita regularmente con una luz apagada, recordando a un corazón.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 268,
+   "md": "Cuando bebas esta poción, eliminará todos los niveles de cansancio que tengas y el estado de envenenado sobre ti. Durante las siguientes 24 horas, recuperas la cantidad máxima de puntos de golpe de cualquier dado de puntos de golpe que utilices.",
+   "text": "Cuando bebas esta poción, eliminará todos los niveles de cansancio que tengas y el estado de envenenado sobre ti. Durante las siguientes 24 horas, recuperas la cantidad máxima de puntos de golpe de cualquier dado de puntos de golpe que utilices."
+  },
+  {
+   "type": "paragraph",
+   "page": 268,
+   "md": "El líquido carmesí de este brebaje palpita regularmente con una luz apagada, recordando a un corazón.",
+   "text": "El líquido carmesí de este brebaje palpita regularmente con una luz apagada, recordando a un corazón."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 268
+ }
+}

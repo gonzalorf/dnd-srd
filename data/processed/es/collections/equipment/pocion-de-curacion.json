@@ -1,0 +1,32 @@
+{
+ "id": "gear.pocion-de-curacion",
+ "name": "Poción de curación",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Poción de curación",
+  "Peso": "250 g",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ },
+ "text": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe.",
+   "text": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe."
+  }
+ ],
+ "descriptionPage": 107
+}

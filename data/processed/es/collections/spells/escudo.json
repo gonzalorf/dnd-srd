@@ -1,0 +1,52 @@
+{
+ "id": "spell.escudo",
+ "name": "Escudo",
+ "level": 1,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Reacción, que llevas a cabo cuando te acierta una tirada de ataque o eres el objetivo del conjuro proyectil mágico",
+  "ritual": false,
+  "kind": "reaction",
+  "trigger": "llevas a cabo cuando te acierta una tirada de ataque o eres el objetivo del conjuro proyectil mágico"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 asalto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "asalto"
+ },
+ "text": "Una barrera imperceptible de fuerza mágica te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a la CA, incluido contra el ataque al que reacciona, y no recibes ningún daño del conjuro proyectil mágico.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 146,
+   "md": "Una barrera imperceptible de fuerza mágica te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a la CA, incluido contra el ataque al que reacciona, y no recibes ningún daño del conjuro *proyectil mágico*.",
+   "text": "Una barrera imperceptible de fuerza mágica te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a la CA, incluido contra el ataque al que reacciona, y no recibes ningún daño del conjuro proyectil mágico."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 146
+ },
+ "refs": [
+  "spell.proyectil-magico"
+ ]
+}

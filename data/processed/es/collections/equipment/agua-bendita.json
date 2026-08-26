@@ -1,0 +1,36 @@
+{
+ "id": "gear.agua-bendita",
+ "name": "Agua bendita",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Agua bendita",
+  "Peso": "0,5 kg",
+  "Precio": "25 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "0,5 kg",
+  "kg": 0.5
+ },
+ "price": {
+  "raw": "25 po",
+  "amount": 25.0,
+  "coin": "po",
+  "gp": 25.0
+ },
+ "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente.",
+   "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente."
+  }
+ ],
+ "descriptionPage": 104
+}

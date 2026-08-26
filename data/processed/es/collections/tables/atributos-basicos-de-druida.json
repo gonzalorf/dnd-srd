@@ -1,0 +1,48 @@
+{
+ "id": "table.atributos-basicos-de-druida",
+ "caption": "Atributos básicos de druida",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Sabiduría"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de druida"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Inteligencia y Sabiduría"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Conocimiento arcano, Medicina, Naturaleza, Percepción, Perspicacia, Religión, Supervivencia o Trato con animales"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas"
+  ],
+  [
+   "Competencias con herramientas",
+   "Útiles de herborista"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) armadura de"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 52
+ }
+}

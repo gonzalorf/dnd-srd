@@ -1,0 +1,102 @@
+{
+ "id": "monster.dretch",
+ "name": "Dretch",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 317
+ },
+ "context": [
+  "Dretch"
+ ],
+ "metaRaw": "Infernal Pequeño (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Pequeño",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "18 (4d6 + 4)",
+  "average": 18,
+  "formula": "4d6 + 4"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "abisal",
+  "telepatía 18 m (solo funciona con criaturas que entiendan abisal)"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante.",
+   "page": 317,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante."
+  },
+  {
+   "name": "Nube fétida",
+   "md": "***Nube fétida (1/día).*** *Tirada de salvación de Constitución:* CD 11, todas las criaturas en una emanación de 3 m que se origina en el dretch. *Fallo:* el objetivo tendrá el estado de envenenado hasta el final de su siguiente turno. Mientras esté envenenada, la criatura podrá realizar una acción o una acción adicional en su turno, pero no ambas, y no podrá llevar a cabo reacciones.",
+   "page": 317,
+   "description": "*Tirada de salvación de Constitución:* CD 11, todas las criaturas en una emanación de 3 m que se origina en el dretch. *Fallo:* el objetivo tendrá el estado de envenenado hasta el final de su siguiente turno. Mientras esté envenenada, la criatura podrá realizar una acción o una acción adicional en su turno, pero no ambas, y no podrá llevar a cabo reacciones.",
+   "uses": "1/día"
+  }
+ ]
+}

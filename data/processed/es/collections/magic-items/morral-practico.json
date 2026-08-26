@@ -1,0 +1,51 @@
+{
+ "id": "item.morral-practico",
+ "name": "Morral práctico",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Esta mochila posee un bolsillo central y dos laterales, cada uno de los cuales es un espacio extradimensional. Cada bolsillo lateral puede contener hasta 100 kg de materia sin exceder un volumen de 750 l. El bolsillo central puede contener hasta 250 kg de materia sin exceder un volumen de 1900 l. El morral pesa siempre 2,5 kg, independientemente del contenido.\n\nSacar un objeto del morral requiere una acción de utilizar o una acción adicional, a tu elección. Cuando metes la mano para extraer un objeto concreto, la magia hará que siempre se encuentre arriba del todo.\n\nSi se sobrecarga, perfora o rasga algún bolsillo, el morral se romperá y quedará destruido. Si se destruye, su contenido se perderá para siempre, aunque los artefactos siempre volverán a aparecer en alguna parte. Si se pone el morral del revés, su contenido se vuelca sin sufrir daño y el morral debe volver a ponerse del derecho antes de usarlo de nuevo.\n\nCada bolsillo del morral contiene aire suficiente para respirar durante 10 minutos, divididos entre el número de criaturas que necesiten respirar en su interior.\n\nMeter el morral en el espacio extradimensional creado por un agujero portátil, una bolsa de contención o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral. El portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Esta mochila posee un bolsillo central y dos laterales, cada uno de los cuales es un espacio extradimensional. Cada bolsillo lateral puede contener hasta 100 kg de materia sin exceder un volumen de 750 l. El bolsillo central puede contener hasta 250 kg de materia sin exceder un volumen de 1900 l. El morral pesa siempre 2,5 kg, independientemente del contenido.",
+   "text": "Esta mochila posee un bolsillo central y dos laterales, cada uno de los cuales es un espacio extradimensional. Cada bolsillo lateral puede contener hasta 100 kg de materia sin exceder un volumen de 750 l. El bolsillo central puede contener hasta 250 kg de materia sin exceder un volumen de 1900 l. El morral pesa siempre 2,5 kg, independientemente del contenido."
+  },
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Sacar un objeto del morral requiere una acción de utilizar o una acción adicional, a tu elección. Cuando metes la mano para extraer un objeto concreto, la magia hará que siempre se encuentre arriba del todo.",
+   "text": "Sacar un objeto del morral requiere una acción de utilizar o una acción adicional, a tu elección. Cuando metes la mano para extraer un objeto concreto, la magia hará que siempre se encuentre arriba del todo."
+  },
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Si se sobrecarga, perfora o rasga algún bolsillo, el morral se romperá y quedará destruido. Si se destruye, su contenido se perderá para siempre, aunque los artefactos siempre volverán a aparecer en alguna parte. Si se pone el morral del revés, su contenido se vuelca sin sufrir daño y el morral debe volver a ponerse del derecho antes de usarlo de nuevo.",
+   "text": "Si se sobrecarga, perfora o rasga algún bolsillo, el morral se romperá y quedará destruido. Si se destruye, su contenido se perderá para siempre, aunque los artefactos siempre volverán a aparecer en alguna parte. Si se pone el morral del revés, su contenido se vuelca sin sufrir daño y el morral debe volver a ponerse del derecho antes de usarlo de nuevo."
+  },
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Cada bolsillo del morral contiene aire suficiente para respirar durante 10 minutos, divididos entre el número de criaturas que necesiten respirar en su interior.",
+   "text": "Cada bolsillo del morral contiene aire suficiente para respirar durante 10 minutos, divididos entre el número de criaturas que necesiten respirar en su interior."
+  },
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Meter el morral en el espacio extradimensional creado por un *agujero portátil*, una *bolsa de contención* o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral. El portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse.",
+   "text": "Meter el morral en el espacio extradimensional creado por un agujero portátil, una bolsa de contención o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral. El portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 263
+ },
+ "refs": [
+  "item.agujero-portatil",
+  "item.bolsa-de-contencion"
+ ]
+}

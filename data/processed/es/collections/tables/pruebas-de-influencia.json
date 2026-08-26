@@ -1,0 +1,40 @@
+{
+ "id": "table.pruebas-de-influencia",
+ "caption": "Pruebas de influencia",
+ "header": [
+  "Prueba de característica",
+  "Interacción"
+ ],
+ "rows": [
+  [
+   "Carisma (Engaño)",
+   "Engañar a un monstruo que te entienda."
+  ],
+  [
+   "Carisma (Interpretación)",
+   "Entretener a un monstruo."
+  ],
+  [
+   "Carisma (Intimidación)",
+   "Intimidar a un monstruo."
+  ],
+  [
+   "Carisma (Persuasión)",
+   "Persuadir a un monstruo que te entienda."
+  ],
+  [
+   "Sabiduría (Trato con animales)",
+   "Convencer poco a poco a una bestia o monstruosidad."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Influir [acción]"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

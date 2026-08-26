@@ -1,0 +1,95 @@
+{
+ "id": "monster.pantera",
+ "name": "Pantera",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 391
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "13 (3d8)",
+  "average": 13,
+  "formula": "3d8"
+ },
+ "speeds": {
+  "caminando": 15.0,
+  "trepar": 12.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante.",
+   "page": 391,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Huida veloz",
+   "md": "***Huida veloz.*** La pantera realiza las acciones de destrabarse o esconderse.",
+   "page": 391,
+   "description": "La pantera realiza las acciones de destrabarse o esconderse."
+  }
+ ]
+}

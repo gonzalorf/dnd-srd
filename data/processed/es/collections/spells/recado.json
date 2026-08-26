@@ -1,0 +1,61 @@
+{
+ "id": "spell.recado",
+ "name": "Recado",
+ "level": 3,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Ilimitado",
+  "kind": "unlimited"
+ },
+ "components": {
+  "raw": "V, S, M (un alambre de cobre)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un alambre de cobre",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Envías un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe quién eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje.\n\nPuedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabrás.\n\nAl recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabrás que te ha bloqueado y el conjuro fallará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Envías un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe quién eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje.",
+   "text": "Envías un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe quién eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabrás.",
+   "text": "Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabrás."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Al recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabrás que te ha bloqueado y el conjuro fallará.",
+   "text": "Al recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabrás que te ha bloqueado y el conjuro fallará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 179
+ }
+}

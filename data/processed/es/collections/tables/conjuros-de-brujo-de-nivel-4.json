@@ -1,0 +1,46 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-4",
+ "caption": "Conjuros de brujo de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Destierro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Hechizar monstruo",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Marchitar",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Puerta dimensional",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Terreno alucinatorio",
+   "Ilusionismo",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

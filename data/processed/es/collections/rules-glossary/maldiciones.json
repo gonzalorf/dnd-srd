@@ -1,0 +1,21 @@
+{
+ "id": "rule.maldiciones",
+ "name": "Maldiciones",
+ "text": "Algunos efectos del juego maldicen a una criatura o un objeto. El efecto que impone la maldición define lo que esta hace. Las maldiciones se pueden eliminar con los conjuros levantar maldición y restablecimiento mayor u otros efectos mágicos que especifiquen esa capacidad.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Algunos efectos del juego maldicen a una criatura o un objeto. El efecto que impone la maldición define lo que esta hace. Las maldiciones se pueden eliminar con los conjuros *levantar maldición* y *restablecimiento mayor* u otros efectos mágicos que especifiquen esa capacidad.",
+   "text": "Algunos efectos del juego maldicen a una criatura o un objeto. El efecto que impone la maldición define lo que esta hace. Las maldiciones se pueden eliminar con los conjuros levantar maldición y restablecimiento mayor u otros efectos mágicos que especifiquen esa capacidad."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ },
+ "refs": [
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-mayor"
+ ]
+}

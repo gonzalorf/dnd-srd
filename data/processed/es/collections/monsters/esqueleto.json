@@ -1,0 +1,101 @@
+{
+ "id": "monster.esqueleto",
+ "name": "Esqueleto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 323
+ },
+ "context": [
+  "Esqueletos"
+ ],
+ "metaRaw": "Muerto viviente Mediano, legal malvado",
+ "type": "Muerto viviente",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "13 (2d8 + 4)",
+  "average": 13,
+  "formula": "2d8 + 4"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "entiende común y otro idioma",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "vulnerabilities": [
+  "contundente"
+ ],
+ "gear": [
+  "arco corto",
+  "espada corta"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Espada corta",
+   "md": "***Espada corta.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante.",
+   "page": 323,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante."
+  },
+  {
+   "name": "Arco corto",
+   "md": "***Arco corto.*** *Tirada de ataque a distancia:* +5, alcance 24/96 m. *Acierto:* 6 (1d6 + 3) de daño perforante.",
+   "page": 323,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 24/96 m. *Acierto:* 6 (1d6 + 3) de daño perforante."
+  }
+ ]
+}

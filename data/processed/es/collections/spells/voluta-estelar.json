@@ -1,0 +1,53 @@
+{
+ "id": "spell.voluta-estelar",
+ "name": "Voluta estelar",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "bardo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño radiante y, hasta el final de tu siguiente turno, emitirá luz tenue en un radio de 3 m y no podrá beneficiarse del estado de invisible.\n\nMejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 193,
+   "md": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño radiante y, hasta el final de tu siguiente turno, emitirá luz tenue en un radio de 3 m y no podrá beneficiarse del estado de invisible.",
+   "text": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño radiante y, hasta el final de tu siguiente turno, emitirá luz tenue en un radio de 3 m y no podrá beneficiarse del estado de invisible."
+  },
+  {
+   "type": "definition",
+   "page": 193,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+   "text": "Mejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 193
+ }
+}

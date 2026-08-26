@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-cartografo",
+ "name": "Herramientas de cartógrafo",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Sabiduría Peso: 3 kg\n\nUtilizar: dibujar un mapa de una zona pequeña (CD 15)\n\nFabricar: mapa",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Sabiduría **Peso:** 3 kg",
+   "text": "Característica: Sabiduría Peso: 3 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** dibujar un mapa de una zona pequeña (CD 15)",
+   "text": "Utilizar: dibujar un mapa de una zona pequeña (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** mapa",
+   "text": "Fabricar: mapa"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "15 po",
+  "amount": 15.0,
+  "coin": "po",
+  "gp": 15.0
+ }
+}

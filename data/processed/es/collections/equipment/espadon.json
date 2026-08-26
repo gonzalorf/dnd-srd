@@ -1,0 +1,29 @@
+{
+ "id": "weapon.espadon",
+ "name": "Espadón",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Espadón",
+  "Daño": "2d6 cortante",
+  "Propiedades": "A dos manos, pesado",
+  "Maestría": "Rozar",
+  "Peso": "3 kg",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "3 kg",
+  "kg": 3.0
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

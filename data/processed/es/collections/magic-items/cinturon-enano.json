@@ -1,0 +1,65 @@
+{
+ "id": "item.cinturon-enano",
+ "name": "Cinturón enano",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Mientras lleves puesto este cinturón, obtienes los siguientes beneficios:\n\nAguante. Tu Constitución aumenta en 2, hasta un máximo de 20.\n\nAmistad con los enanos. Tienes ventaja en las pruebas de Carisma (Persuasión) en las que interactúes con enanos y duergars.\n\nIdioma. Conoces el idioma enano.\n\nAdemás, mientras tengas sintonización con el cinturón, tendrás un 50 % de probabilidad de que cada día al amanecer te crezca una barba completa, si puedes tenerla. Si ya tienes una, se volverá más densa.\n\nSi no eres enano o duergar, obtendrás los siguientes beneficios adicionales mientras lleves puesto el cinturón:\n\nResistencia. Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Mientras lleves puesto este cinturón, obtienes los siguientes beneficios:",
+   "text": "Mientras lleves puesto este cinturón, obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 249,
+   "md": "**Aguante.** Tu Constitución aumenta en 2, hasta un máximo de 20.",
+   "text": "Aguante. Tu Constitución aumenta en 2, hasta un máximo de 20."
+  },
+  {
+   "type": "definition",
+   "page": 249,
+   "md": "**Amistad con los enanos.** Tienes ventaja en las pruebas de Carisma (Persuasión) en las que interactúes con enanos y duergars.",
+   "text": "Amistad con los enanos. Tienes ventaja en las pruebas de Carisma (Persuasión) en las que interactúes con enanos y duergars."
+  },
+  {
+   "type": "definition",
+   "page": 249,
+   "md": "**Idioma.** Conoces el idioma enano.",
+   "text": "Idioma. Conoces el idioma enano."
+  },
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Además, mientras tengas sintonización con el cinturón, tendrás un 50 % de probabilidad de que cada día al amanecer te crezca una barba completa, si puedes tenerla. Si ya tienes una, se volverá más densa.",
+   "text": "Además, mientras tengas sintonización con el cinturón, tendrás un 50 % de probabilidad de que cada día al amanecer te crezca una barba completa, si puedes tenerla. Si ya tienes una, se volverá más densa."
+  },
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Si no eres enano o duergar, obtendrás los siguientes beneficios adicionales mientras lleves puesto el cinturón:",
+   "text": "Si no eres enano o duergar, obtendrás los siguientes beneficios adicionales mientras lleves puesto el cinturón:"
+  },
+  {
+   "type": "definition",
+   "page": 249,
+   "md": "**Resistencia.** Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.",
+   "text": "Resistencia. Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado."
+  },
+  {
+   "type": "definition",
+   "page": 249,
+   "md": "**Visión en la oscuridad.** Tienes visión en la oscuridad hasta 18 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 18 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 249
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "item.tunica-del-archimago",
+ "name": "Túnica del archimago",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": "un brujo, hechicero o mago",
+ "subtitle": "Objeto maravilloso, legendario (requiere sintonización por parte de un brujo, hechicero o mago)",
+ "text": "Esta elegante prenda está hecha de una tela exquisita y adornada con runas.\n\nMientras lleves puesta la túnica, obtendrás los siguientes beneficios.\n\nArmadura. Si no llevas armadura, tu clase de armadura base será de 15 más tu modificador por Destreza.\n\nMagia de guerra. Tu CD de salvación de conjuros y tu bonificador de ataque de conjuros aumentan en 2.\n\nResistencia mágica. Tienes ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Esta elegante prenda está hecha de una tela exquisita y adornada con runas.",
+   "text": "Esta elegante prenda está hecha de una tela exquisita y adornada con runas."
+  },
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Mientras lleves puesta la túnica, obtendrás los siguientes beneficios.",
+   "text": "Mientras lleves puesta la túnica, obtendrás los siguientes beneficios."
+  },
+  {
+   "type": "definition",
+   "page": 271,
+   "md": "***Armadura.*** Si no llevas armadura, tu clase de armadura base será de 15 más tu modificador por Destreza.",
+   "text": "Armadura. Si no llevas armadura, tu clase de armadura base será de 15 más tu modificador por Destreza."
+  },
+  {
+   "type": "definition",
+   "page": 271,
+   "md": "***Magia de guerra.*** Tu CD de salvación de conjuros y tu bonificador de ataque de conjuros aumentan en 2.",
+   "text": "Magia de guerra. Tu CD de salvación de conjuros y tu bonificador de ataque de conjuros aumentan en 2."
+  },
+  {
+   "type": "definition",
+   "page": 271,
+   "md": "***Resistencia mágica.*** Tienes ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "text": "Resistencia mágica. Tienes ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 271
+ }
+}

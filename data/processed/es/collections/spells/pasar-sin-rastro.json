@@ -1,0 +1,50 @@
+{
+ "id": "spell.pasar-sin-rastro",
+ "name": "Pasar sin rastro",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (cenizas de muérdago quemado)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "cenizas de muérdago quemado",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, irradias un aura de ocultación en una emanación de 9 m. Mientras permanezcáis dentro, las criaturas que elijas y tú tendréis un bonificador de +10 a las pruebas de Destreza (Sigilo) y no dejaréis huellas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Hasta que el conjuro termine, irradias un aura de ocultación en una emanación de 9 m. Mientras permanezcáis dentro, las criaturas que elijas y tú tendréis un bonificador de +10 a las pruebas de Destreza (Sigilo) y no dejaréis huellas.",
+   "text": "Hasta que el conjuro termine, irradias un aura de ocultación en una emanación de 9 m. Mientras permanezcáis dentro, las criaturas que elijas y tú tendréis un bonificador de +10 a las pruebas de Destreza (Sigilo) y no dejaréis huellas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

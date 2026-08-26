@@ -1,0 +1,2074 @@
+{
+ "links": 632,
+ "outgoing": {
+  "spell.abrir": [
+   "spell.cerradura-arcana"
+  ],
+  "spell.alterar-los-recuerdos": [
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.atadura-planar": [
+   "spell.circulo-magico"
+  ],
+  "spell.aura-magica-de-arcanista": [
+   "spell.detectar-magia"
+  ],
+  "spell.campo-antimagia": [
+   "spell.disipar-magia"
+  ],
+  "spell.cautiverio": [
+   "spell.disipar-magia"
+  ],
+  "spell.clarividencia": [
+   "spell.ver-invisibilidad"
+  ],
+  "spell.contactar-con-otro-plano": [
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.contingencia": [
+   "spell.respirar-bajo-el-agua"
+  ],
+  "spell.de-la-carne-a-la-piedra": [
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.deseo": [
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.desintegrar": [
+   "spell.muro-de-fuerza",
+   "spell.deseo",
+   "spell.resurreccion-verdadera"
+  ],
+  "spell.detectar-el-bien-y-el-mal": [
+   "spell.consagrar"
+  ],
+  "spell.detectar-trampas": [
+   "spell.alarma",
+   "spell.glifo-custodio"
+  ],
+  "spell.dulce-descanso": [
+   "spell.alzar-a-los-muertos"
+  ],
+  "spell.escudo": [
+   "spell.proyectil-magico"
+  ],
+  "spell.esfera-elastica": [
+   "spell.desintegrar"
+  ],
+  "spell.geas": [
+   "spell.deseo",
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.guardas-y-guardias": [
+   "spell.disipar-magia",
+   "spell.telarana",
+   "spell.cerradura-arcana",
+   "spell.luces-danzantes",
+   "spell.boca-magica",
+   "spell.nube-apestosa",
+   "spell.rafaga-de-viento",
+   "spell.sugestion"
+  ],
+  "spell.jaula-de-fuerza": [
+   "spell.disipar-magia"
+  ],
+  "spell.localizar-criatura": [
+   "spell.de-la-carne-a-la-piedra",
+   "spell.polimorfar"
+  ],
+  "spell.mente-en-blanco": [
+   "spell.deseo"
+  ],
+  "spell.muro-de-fuerza": [
+   "spell.disipar-magia",
+   "spell.desintegrar"
+  ],
+  "spell.muro-prismatico": [
+   "spell.campo-antimagia",
+   "spell.disipar-magia",
+   "spell.restablecimiento-mayor",
+   "spell.luz-del-dia"
+  ],
+  "spell.nube-aniquiladora": [
+   "spell.rafaga-de-viento"
+  ],
+  "spell.nube-apestosa": [
+   "spell.rafaga-de-viento"
+  ],
+  "spell.nube-de-oscurecimiento": [
+   "spell.rafaga-de-viento"
+  ],
+  "spell.nube-incendiaria": [
+   "spell.rafaga-de-viento"
+  ],
+  "spell.ofuscacion": [
+   "spell.curar",
+   "spell.deseo",
+   "spell.restablecimiento-mayor"
+  ],
+  "spell.palabra-divina": [
+   "spell.deseo"
+  ],
+  "spell.prohibicion": [
+   "spell.portal",
+   "spell.desplazamiento-entre-planos"
+  ],
+  "spell.rayo-de-luna": [
+   "spell.polimorfar"
+  ],
+  "spell.urna-magica": [
+   "spell.circulo-magico",
+   "spell.proteccion-contra-el-bien-y-el-mal"
+  ],
+  "monster.chuul": [
+   "spell.detectar-magia"
+  ],
+  "monster.cieno-gris": [
+   "spell.reparar"
+  ],
+  "monster.couatl": [
+   "spell.cambiar-de-forma",
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.detectar-magia",
+   "spell.detectar-pensamientos",
+   "spell.crear-comida-y-agua",
+   "spell.dormir",
+   "spell.ensueno",
+   "spell.escudrinar",
+   "spell.restablecimiento-mayor",
+   "spell.bendicion",
+   "spell.restablecimiento-menor",
+   "spell.santuario"
+  ],
+  "monster.deva": [
+   "spell.cambiar-de-forma",
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.alzar-a-los-muertos",
+   "spell.comunion",
+   "spell.curar-heridas",
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-menor"
+  ],
+  "monster.diablillo": [
+   "spell.invisibilidad"
+  ],
+  "monster.diablo-de-la-sima": [
+   "spell.bola-de-fuego",
+   "spell.inmovilizar-monstruo",
+   "spell.muro-de-fuego"
+  ],
+  "monster.diablo-gelido": [
+   "spell.muro-de-hielo"
+  ],
+  "monster.djinn": [
+   "spell.deseo",
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.detectar-magia",
+   "spell.crear-comida-y-agua",
+   "spell.don-de-lenguas",
+   "spell.viajar-con-el-viento",
+   "spell.creacion",
+   "spell.desplazamiento-entre-planos",
+   "spell.forma-gaseosa",
+   "spell.imagen-mayor",
+   "spell.invisibilidad"
+  ],
+  "monster.doppelganger": [
+   "spell.detectar-pensamientos"
+  ],
+  "monster.dragon-azul-adulto": [
+   "spell.hacer-anicos",
+   "spell.detectar-magia",
+   "spell.invisibilidad",
+   "spell.mano-de-mago",
+   "spell.escudrinar",
+   "spell.recado"
+  ],
+  "monster.dragon-azul-anciano": [
+   "spell.hacer-anicos",
+   "spell.detectar-magia",
+   "spell.invisibilidad",
+   "spell.mano-de-mago",
+   "spell.escudrinar",
+   "spell.recado"
+  ],
+  "monster.dragon-blanco-adulto": [
+   "spell.terror"
+  ],
+  "monster.dragon-blanco-anciano": [
+   "spell.terror"
+  ],
+  "monster.dragon-de-bronce-adulto": [
+   "spell.saeta-guia",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.hablar-con-los-animales",
+   "spell.taumaturgia",
+   "spell.detectar-pensamientos",
+   "spell.respirar-bajo-el-agua"
+  ],
+  "monster.dragon-de-bronce-anciano": [
+   "spell.saeta-guia",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.hablar-con-los-animales",
+   "spell.taumaturgia",
+   "spell.controlar-agua",
+   "spell.detectar-pensamientos",
+   "spell.escudrinar",
+   "spell.respirar-bajo-el-agua"
+  ],
+  "monster.dragon-de-cobre-adulto": [
+   "spell.clavo-mental",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.ilusion-menor",
+   "spell.imagen-mayor",
+   "spell.restablecimiento-mayor"
+  ],
+  "monster.dragon-de-cobre-anciano": [
+   "spell.clavo-mental",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.ilusion-menor",
+   "spell.imagen-mayor",
+   "spell.proyectar-imagen",
+   "spell.restablecimiento-mayor"
+  ],
+  "monster.dragon-de-oro-adulto": [
+   "spell.saeta-guia",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.golpe-flamigero",
+   "spell.zona-de-la-verdad"
+  ],
+  "monster.dragon-de-oro-anciano": [
+   "spell.saeta-guia",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.golpe-flamigero",
+   "spell.palabra-de-regreso",
+   "spell.zona-de-la-verdad"
+  ],
+  "monster.dragon-de-oropel-adulto": [
+   "spell.rayo-abrasador",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.hablar-con-los-animales",
+   "spell.ilusion-menor",
+   "spell.controlar-el-clima",
+   "spell.detectar-pensamientos"
+  ],
+  "monster.dragon-de-oropel-anciano": [
+   "spell.rayo-abrasador",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.hablar-con-los-animales",
+   "spell.ilusion-menor",
+   "spell.controlar-el-clima",
+   "spell.detectar-pensamientos"
+  ],
+  "monster.dragon-de-plata-adulto": [
+   "spell.cuchillo-de-hielo",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.inmovilizar-monstruo",
+   "spell.tormenta-de-hielo",
+   "spell.zona-de-la-verdad"
+  ],
+  "monster.dragon-de-plata-anciano": [
+   "spell.cuchillo-de-hielo",
+   "spell.cambiar-de-forma",
+   "spell.detectar-magia",
+   "spell.inmovilizar-monstruo",
+   "spell.controlar-el-clima",
+   "spell.teletransporte",
+   "spell.tormenta-de-hielo",
+   "spell.zona-de-la-verdad"
+  ],
+  "monster.dragon-negro-adulto": [
+   "spell.flecha-acida",
+   "spell.detectar-magia",
+   "spell.terror",
+   "spell.esfera-vitriolica",
+   "spell.hablar-con-los-muertos"
+  ],
+  "monster.dragon-negro-anciano": [
+   "spell.flecha-acida",
+   "spell.detectar-magia",
+   "spell.terror",
+   "spell.crear-muerto-viviente",
+   "spell.esfera-vitriolica",
+   "spell.hablar-con-los-muertos"
+  ],
+  "monster.dragon-rojo-adulto": [
+   "spell.rayo-abrasador",
+   "spell.detectar-magia",
+   "spell.orden-imperiosa",
+   "spell.bola-de-fuego"
+  ],
+  "monster.dragon-rojo-anciano": [
+   "spell.rayo-abrasador",
+   "spell.detectar-magia",
+   "spell.orden-imperiosa",
+   "spell.bola-de-fuego",
+   "spell.escudrinar"
+  ],
+  "monster.dragon-verde-adulto": [
+   "spell.clavo-mental",
+   "spell.detectar-magia",
+   "spell.geas"
+  ],
+  "monster.dragon-verde-anciano": [
+   "spell.clavo-mental",
+   "spell.detectar-magia",
+   "spell.alterar-los-recuerdos",
+   "spell.geas"
+  ],
+  "monster.drana": [
+   "spell.fuego-feerico",
+   "spell.oscuridad",
+   "spell.telarana"
+  ],
+  "monster.driade": [
+   "spell.hechizar-monstruo",
+   "spell.encantar-animal",
+   "spell.saber-druidico",
+   "spell.enmaranar",
+   "spell.pasar-sin-rastro"
+  ],
+  "monster.druida": [
+   "spell.hablar-con-los-animales",
+   "spell.saber-druidico",
+   "spell.enmaranar",
+   "spell.ola-atronadora",
+   "spell.mensajero-animal",
+   "spell.rayo-de-luna",
+   "spell.zancada-prodigiosa"
+  ],
+  "monster.duende": [
+   "spell.invisibilidad"
+  ],
+  "monster.esfinge-del-conocimiento": [
+   "spell.detectar-magia",
+   "spell.identificar",
+   "spell.ilusion-menor",
+   "spell.mano-de-mago",
+   "spell.prestidigitacion",
+   "spell.conocer-las-leyendas",
+   "spell.desplazamiento-entre-planos",
+   "spell.disipar-magia",
+   "spell.don-de-lenguas",
+   "spell.levantar-maldicion",
+   "spell.localizar-objeto"
+  ],
+  "monster.esfinge-del-valor": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.taumaturgia",
+   "spell.detectar-magia",
+   "spell.disipar-magia",
+   "spell.festin-de-heroes",
+   "spell.restablecimiento-mayor",
+   "spell.zona-de-la-verdad"
+  ],
+  "monster.fantasma": [
+   "spell.excursion-eterea"
+  ],
+  "monster.gigante-de-las-nubes": [
+   "spell.nube-de-oscurecimiento",
+   "spell.detectar-magia",
+   "spell.luz",
+   "spell.controlar-el-clima",
+   "spell.forma-gaseosa",
+   "spell.telequinesis",
+   "spell.paso-brumoso"
+  ],
+  "monster.gigante-de-las-tormentas": [
+   "spell.detectar-magia",
+   "spell.luz",
+   "spell.controlar-el-clima"
+  ],
+  "monster.glabrezu": [
+   "spell.detectar-magia",
+   "spell.disipar-magia",
+   "spell.oscuridad",
+   "spell.confusion",
+   "spell.palabra-de-poder-aturdir",
+   "spell.volar"
+  ],
+  "monster.golem-de-piedra": [
+   "spell.ralentizar"
+  ],
+  "monster.ifrit": [
+   "spell.deseo",
+   "spell.detectar-magia",
+   "spell.elementalismo",
+   "spell.desplazamiento-entre-planos",
+   "spell.don-de-lenguas",
+   "spell.forma-gaseosa",
+   "spell.imagen-mayor",
+   "spell.invisibilidad",
+   "spell.muro-de-fuego"
+  ],
+  "monster.incubo": [
+   "spell.disfrazarse",
+   "spell.excursion-eterea",
+   "spell.ensueno",
+   "spell.patron-hipnotico"
+  ],
+  "monster.lamia": [
+   "spell.disfrazarse",
+   "spell.ilusion-menor",
+   "spell.escudrinar",
+   "spell.geas",
+   "spell.imagen-mayor"
+  ],
+  "monster.lemur": [
+   "spell.bendicion"
+  ],
+  "monster.liche": [
+   "spell.bola-de-fuego",
+   "spell.detectar-magia",
+   "spell.detectar-pensamientos",
+   "spell.disipar-magia",
+   "spell.invisibilidad",
+   "spell.mano-de-mago",
+   "spell.prestidigitacion",
+   "spell.relampago",
+   "spell.animar-a-los-muertos",
+   "spell.desplazamiento-entre-planos",
+   "spell.puerta-dimensional",
+   "spell.dedo-de-la-muerte",
+   "spell.escudrinar",
+   "spell.palabra-de-poder-matar",
+   "spell.relampago-en-cadena",
+   "spell.contrahechizo",
+   "spell.escudo",
+   "spell.terror"
+  ],
+  "monster.mago": [
+   "spell.armadura-de-mago",
+   "spell.detectar-magia",
+   "spell.luz",
+   "spell.mano-de-mago",
+   "spell.prestidigitacion",
+   "spell.bola-de-fuego",
+   "spell.invisibilidad",
+   "spell.cono-de-frio",
+   "spell.volar",
+   "spell.paso-brumoso",
+   "spell.contrahechizo",
+   "spell.escudo"
+  ],
+  "monster.archimago": [
+   "spell.armadura-de-mago",
+   "spell.detectar-magia",
+   "spell.detectar-pensamientos",
+   "spell.disfrazarse",
+   "spell.invisibilidad",
+   "spell.luz",
+   "spell.mano-de-mago",
+   "spell.prestidigitacion",
+   "spell.relampago",
+   "spell.volar",
+   "spell.cono-de-frio",
+   "spell.escudrinar",
+   "spell.mente-en-blanco",
+   "spell.teletransporte",
+   "spell.paso-brumoso",
+   "spell.contrahechizo",
+   "spell.escudo"
+  ],
+  "monster.manto": [
+   "spell.imagen-multiple"
+  ],
+  "monster.mephit-de-hielo": [
+   "spell.nube-de-oscurecimiento"
+  ],
+  "monster.mephit-de-polvo": [
+   "spell.dormir"
+  ],
+  "monster.senor-de-las-momias": [
+   "spell.disipar-magia",
+   "spell.taumaturgia",
+   "spell.animar-a-los-muertos",
+   "spell.danar",
+   "spell.plaga-de-insectos",
+   "spell.orden-imperiosa"
+  ],
+  "monster.monstruo-corrosivo": [
+   "spell.reparar"
+  ],
+  "monster.naga-espiritual": [
+   "spell.deseo",
+   "spell.detectar-magia",
+   "spell.ilusion-menor",
+   "spell.mano-de-mago",
+   "spell.respirar-bajo-el-agua",
+   "spell.detectar-pensamientos",
+   "spell.inmovilizar-persona",
+   "spell.puerta-dimensional",
+   "spell.relampago"
+  ],
+  "monster.naga-guardiana": [
+   "spell.disipar-el-bien-y-el-mal",
+   "spell.taumaturgia",
+   "spell.clarividencia",
+   "spell.curar-heridas",
+   "spell.geas",
+   "spell.golpe-flamigero",
+   "spell.vision-veraz"
+  ],
+  "monster.oni": [
+   "spell.dormir",
+   "spell.forma-gaseosa",
+   "spell.hechizar-persona",
+   "spell.oscuridad",
+   "spell.invisibilidad"
+  ],
+  "monster.planetar": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.alzar-a-los-muertos",
+   "spell.comunion",
+   "spell.controlar-el-clima",
+   "spell.disipar-el-bien-y-el-mal",
+   "spell.curar-heridas",
+   "spell.invisibilidad",
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-menor"
+  ],
+  "monster.pudin-negro": [
+   "spell.reparar"
+  ],
+  "monster.quasit": [
+   "spell.invisibilidad"
+  ],
+  "monster.rakshasa": [
+   "spell.detectar-magia",
+   "spell.detectar-pensamientos",
+   "spell.disfrazarse",
+   "spell.ilusion-menor",
+   "spell.mano-de-mago",
+   "spell.desplazamiento-entre-planos",
+   "spell.imagen-mayor",
+   "spell.invisibilidad",
+   "spell.volar"
+  ],
+  "monster.sacerdote-acolito": [
+   "spell.luz",
+   "spell.taumaturgia",
+   "spell.bendicion",
+   "spell.palabra-de-curacion",
+   "spell.santuario"
+  ],
+  "monster.sacerdote": [
+   "spell.luz",
+   "spell.taumaturgia",
+   "spell.espiritus-guardianes",
+   "spell.bendicion",
+   "spell.disipar-magia",
+   "spell.palabra-de-curacion",
+   "spell.restablecimiento-menor"
+  ],
+  "monster.saga-cetrina": [
+   "spell.augurio",
+   "spell.encontrar-familiar",
+   "spell.escudrinar",
+   "spell.identificar",
+   "spell.localizar-objeto",
+   "spell.sirviente-invisible",
+   "spell.disfrazarse",
+   "spell.ilusion-menor",
+   "spell.invisibilidad",
+   "spell.luces-danzantes",
+   "spell.rayo-nauseabundo"
+  ],
+  "monster.saga-de-la-noche": [
+   "spell.augurio",
+   "spell.encontrar-familiar",
+   "spell.escudrinar",
+   "spell.identificar",
+   "spell.localizar-objeto",
+   "spell.sirviente-invisible",
+   "spell.detectar-magia",
+   "spell.excursion-eterea",
+   "spell.proyectil-magico",
+   "spell.asesino-fantasmal",
+   "spell.desplazamiento-entre-planos",
+   "spell.ensueno",
+   "spell.proteccion-contra-el-bien-y-el-mal",
+   "spell.circulo-magico"
+  ],
+  "monster.saga-de-los-mares": [
+   "spell.augurio",
+   "spell.encontrar-familiar",
+   "spell.escudrinar",
+   "spell.identificar",
+   "spell.localizar-objeto",
+   "spell.sirviente-invisible",
+   "spell.disfrazarse"
+  ],
+  "monster.fanatico-sectario": [
+   "spell.luz",
+   "spell.taumaturgia",
+   "spell.orden-imperiosa",
+   "spell.inmovilizar-persona",
+   "spell.arma-espiritual"
+  ],
+  "monster.solar": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.comunion",
+   "spell.controlar-el-clima",
+   "spell.disipar-el-bien-y-el-mal",
+   "spell.resurreccion",
+   "spell.curar-heridas",
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-menor"
+  ],
+  "monster.sucubo": [
+   "spell.dominar-persona"
+  ],
+  "monster.tarasca": [
+   "spell.proyectil-magico"
+  ],
+  "monster.unicornio": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.saber-druidico",
+   "spell.calmar-emociones",
+   "spell.disipar-el-bien-y-el-mal",
+   "spell.enmaranar",
+   "spell.palabra-de-regreso",
+   "spell.pasar-sin-rastro",
+   "spell.curar-heridas",
+   "spell.restablecimiento-menor"
+  ],
+  "monster.vampiro": [
+   "spell.hechizar-persona",
+   "spell.orden-imperiosa"
+  ],
+  "monster.buho-gigante": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.detectar-magia",
+   "spell.clarividencia"
+  ],
+  "item.abanico-del-viento": [
+   "spell.rafaga-de-viento"
+  ],
+  "item.aceite-de-etereidad": [
+   "spell.excursion-eterea"
+  ],
+  "item.aceite-escurridizo": [
+   "spell.libertad-de-movimiento",
+   "spell.grasa"
+  ],
+  "item.agujero-portatil": [
+   "item.bolsa-de-contencion",
+   "item.morral-practico"
+  ],
+  "item.amuleto-de-los-planos": [
+   "spell.desplazamiento-entre-planos"
+  ],
+  "item.anillo-de-caminar-sobre-las-aguas": [
+   "spell.caminar-sobre-el-agua"
+  ],
+  "item.anillo-de-estrellas-fugaces": [
+   "spell.luces-danzantes",
+   "spell.luz",
+   "spell.fuego-feerico"
+  ],
+  "item.anillo-de-influencia-animal": [
+   "spell.encantar-animal",
+   "spell.hablar-con-los-animales",
+   "spell.terror"
+  ],
+  "item.anillo-de-los-tres-deseos": [
+   "spell.deseo"
+  ],
+  "item.anillo-de-salto": [
+   "spell.salto"
+  ],
+  "item.anillo-de-telequinesis": [
+   "spell.telequinesis"
+  ],
+  "item.anteojos-de-encantamiento": [
+   "spell.hechizar-persona"
+  ],
+  "item.armadura-de-placas-de-etereidad": [
+   "spell.excursion-eterea"
+  ],
+  "item.armadura-de-vulnerabilidad": [
+   "spell.identificar",
+   "spell.levantar-maldicion"
+  ],
+  "item.armadura-demoniaca": [
+   "spell.levantar-maldicion"
+  ],
+  "item.baraja-de-ilusiones": [
+   "spell.disipar-magia"
+  ],
+  "item.baraja-misteriosa": [
+   "spell.deseo"
+  ],
+  "item.baston-de-enjambre-de-insectos": [
+   "spell.rafaga-de-viento"
+  ],
+  "item.baston-de-los-bosques": [
+   "spell.detectar-magia"
+  ],
+  "item.baston-del-cautivador": [
+   "spell.entender-idiomas",
+   "spell.hechizar-persona",
+   "spell.orden-imperiosa"
+  ],
+  "item.bola-de-cristal": [
+   "spell.escudrinar"
+  ],
+  "item.bola-de-cristal-de-leer-mentes": [
+   "spell.escudrinar",
+   "spell.detectar-pensamientos"
+  ],
+  "item.bola-de-cristal-de-telepatia": [
+   "spell.escudrinar",
+   "spell.sugestion"
+  ],
+  "item.bola-de-cristal-de-vision-veraz": [
+   "spell.escudrinar"
+  ],
+  "item.bolsa-de-contencion": [
+   "item.agujero-portatil",
+   "item.morral-practico"
+  ],
+  "item.bolsa-devoradora": [
+   "item.bolsa-de-contencion"
+  ],
+  "item.botas-de-levitacion": [
+   "spell.levitar"
+  ],
+  "item.botella-siemprehumeante": [
+   "spell.rafaga-de-viento"
+  ],
+  "item.broche-escudo": [
+   "spell.proyectil-magico"
+  ],
+  "item.capa-aracnida": [
+   "spell.telarana"
+  ],
+  "item.capa-de-murcielago": [
+   "spell.polimorfar"
+  ],
+  "item.capa-del-charlatan": [
+   "spell.puerta-dimensional"
+  ],
+  "item.carillon-de-apertura": [
+   "spell.abrir"
+  ],
+  "item.collar-de-bolas-de-fuego": [
+   "spell.bola-de-fuego"
+  ],
+  "item.diadema-de-estallidos": [
+   "spell.rayo-abrasador"
+  ],
+  "item.disolvente-universal": [
+   "item.pegamento-soberano"
+  ],
+  "item.escudo-de-atraer-proyectiles": [
+   "spell.levantar-maldicion"
+  ],
+  "item.esfera-de-aniquilacion": [
+   "spell.portal",
+   "item.agujero-portatil"
+  ],
+  "item.espejo-atrapavidas": [
+   "item.agujero-portatil",
+   "item.bolsa-de-contencion"
+  ],
+  "item.estatuilla-de-poder-maravilloso": [
+   "spell.mensajero-animal"
+  ],
+  "item.filo-de-la-fortuna": [
+   "spell.deseo"
+  ],
+  "item.fortaleza-instantanea": [
+   "spell.abrir",
+   "spell.deseo"
+  ],
+  "item.frasco-de-hierro": [
+   "spell.identificar"
+  ],
+  "item.martillo-de-rayos": [
+   "item.cinturon-de-fuerza-de-gigante",
+   "item.guanteletes-de-fuerza-de-ogro"
+  ],
+  "item.medallon-de-los-pensamientos": [
+   "spell.detectar-pensamientos"
+  ],
+  "item.morral-practico": [
+   "item.agujero-portatil",
+   "item.bolsa-de-contencion"
+  ],
+  "item.orbe-dragontino": [
+   "spell.sugestion",
+   "spell.desintegrar"
+  ],
+  "item.pegamento-soberano": [
+   "item.aceite-escurridizo",
+   "item.disolvente-universal",
+   "item.aceite-de-etereidad",
+   "spell.deseo"
+  ],
+  "item.piedras-mensajeras": [
+   "spell.recado"
+  ],
+  "item.pocion-de-amistad-animal": [
+   "spell.encantar-animal"
+  ],
+  "item.pocion-de-clarividencia": [
+   "spell.clarividencia"
+  ],
+  "item.pocion-de-crecimiento": [
+   "spell.agrandar-reducir"
+  ],
+  "item.pocion-de-encoger": [
+   "spell.agrandar-reducir"
+  ],
+  "item.pocion-de-forma-gaseosa": [
+   "spell.forma-gaseosa"
+  ],
+  "item.pocion-de-heroismo": [
+   "spell.bendicion"
+  ],
+  "item.pocion-de-leer-mentes": [
+   "spell.detectar-pensamientos"
+  ],
+  "item.pocion-de-velocidad": [
+   "spell.acelerar"
+  ],
+  "item.pocion-de-veneno": [
+   "gear.pocion-de-curacion",
+   "spell.identificar"
+  ],
+  "item.polvo-de-estornudar-y-atragantarse": [
+   "item.polvo-de-desaparicion",
+   "spell.identificar",
+   "spell.restablecimiento-menor"
+  ],
+  "item.portal-cubico": [
+   "spell.desplazamiento-entre-planos",
+   "spell.portal"
+  ],
+  "item.sombrero-de-disfraz": [
+   "spell.disfrazarse"
+  ],
+  "item.talisman-de-la-esfera": [
+   "item.esfera-de-aniquilacion"
+  ],
+  "item.tridente-de-comandar-peces": [
+   "spell.dominar-bestia"
+  ],
+  "item.tunica-de-las-estrellas": [
+   "spell.proyectil-magico"
+  ],
+  "item.tunica-de-los-ojos": [
+   "spell.luz",
+   "spell.luz-del-dia"
+  ],
+  "item.vara-de-la-alerta": [
+   "spell.detectar-el-bien-y-el-mal",
+   "spell.detectar-magia",
+   "spell.detectar-venenos-y-enfermedades",
+   "spell.ver-invisibilidad"
+  ],
+  "item.vara-de-la-resurreccion": [
+   "spell.curar",
+   "spell.resurreccion"
+  ],
+  "item.varita-de-bolas-de-fuego": [
+   "spell.bola-de-fuego"
+  ],
+  "item.varita-de-deteccion-magica": [
+   "spell.detectar-magia"
+  ],
+  "item.varita-de-las-maravillas": [
+   "spell.agrandar-reducir",
+   "spell.restablecimiento-mayor"
+  ],
+  "item.varita-de-polimorfar": [
+   "spell.polimorfar"
+  ],
+  "item.varita-de-proyectiles-magicos": [
+   "spell.proyectil-magico"
+  ],
+  "item.varita-de-relampagos": [
+   "spell.relampago"
+  ],
+  "item.varita-de-telarana": [
+   "spell.telarana"
+  ],
+  "item.vela-de-invocacion": [
+   "spell.portal"
+  ],
+  "item.yelmo-de-entender-idiomas": [
+   "spell.entender-idiomas"
+  ],
+  "item.yelmo-de-fulgor": [
+   "spell.bola-de-fuego",
+   "spell.luz-del-dia",
+   "spell.muro-de-fuego",
+   "spell.rociada-prismatica"
+  ],
+  "item.yelmo-de-telepatia": [
+   "spell.detectar-pensamientos",
+   "spell.sugestion"
+  ],
+  "item.yelmo-de-teletransporte": [
+   "spell.teletransporte"
+  ],
+  "class.bardo": [
+   "spell.burla-danina",
+   "spell.luces-danzantes",
+   "spell.hechizar-persona",
+   "spell.palabra-de-curacion",
+   "spell.rociada-de-color",
+   "spell.susurros-discordantes",
+   "spell.palabra-de-poder-sanar",
+   "spell.palabra-de-poder-matar"
+  ],
+  "class.brujo": [
+   "spell.descarga-sobrenatural",
+   "spell.prestidigitacion",
+   "spell.hechizar-persona",
+   "spell.maleficio",
+   "spell.contactar-con-otro-plano"
+  ],
+  "class.clerigo": [
+   "spell.guia",
+   "spell.llama-sagrada",
+   "spell.taumaturgia",
+   "spell.bendicion",
+   "spell.curar-heridas",
+   "spell.escudo-de-fe",
+   "spell.saeta-guia",
+   "spell.deseo"
+  ],
+  "class.druida": [
+   "spell.hablar-con-los-animales",
+   "spell.crear-llama",
+   "spell.saber-druidico",
+   "spell.curar-heridas",
+   "spell.encantar-animal",
+   "spell.fuego-feerico",
+   "spell.ola-atronadora",
+   "spell.encontrar-familiar"
+  ],
+  "class.explorador": [
+   "spell.marca-del-cazador",
+   "spell.curar-heridas",
+   "spell.golpe-apresador",
+   "spell.guia",
+   "spell.voluta-estelar"
+  ],
+  "class.hechicero": [
+   "spell.invocar-dragon",
+   "spell.agarre-electrizante",
+   "spell.estallido-magico",
+   "spell.luz",
+   "spell.prestidigitacion",
+   "spell.detectar-magia",
+   "spell.manos-ardientes"
+  ],
+  "class.mago": [
+   "spell.luz",
+   "spell.mano-de-mago",
+   "spell.rayo-de-escarcha",
+   "spell.identificar",
+   "spell.armadura-de-mago",
+   "spell.caida-de-pluma",
+   "spell.detectar-magia",
+   "spell.dormir",
+   "spell.ola-atronadora",
+   "spell.proyectil-magico"
+  ],
+  "class.paladin": [
+   "spell.castigo-divino",
+   "spell.castigo-abrasador",
+   "spell.heroismo",
+   "spell.guia",
+   "spell.llama-sagrada",
+   "spell.consagrar",
+   "spell.hallar-corcel"
+  ],
+  "class.picaro": [
+   "item.pergamino-de-conjuro"
+  ],
+  "tool.suministros-de-caligrafo": [
+   "item.pergamino-de-conjuro"
+  ],
+  "tool.utiles-de-herborista": [
+   "gear.pocion-de-curacion"
+  ],
+  "rule.cambio-de-forma": [
+   "spell.polimorfar"
+  ],
+  "rule.maldiciones": [
+   "spell.levantar-maldicion",
+   "spell.restablecimiento-mayor"
+  ],
+  "rule.muerto": [
+   "spell.alzar-a-los-muertos",
+   "spell.revivir"
+  ],
+  "rule.posesion": [
+   "spell.proteccion-contra-el-bien-y-el-mal",
+   "spell.disipar-el-bien-y-el-mal"
+  ],
+  "species.gnomo": [
+   "spell.prestidigitacion",
+   "spell.reparar",
+   "spell.ilusion-menor",
+   "spell.hablar-con-los-animales"
+  ],
+  "species.tiefling": [
+   "spell.taumaturgia"
+  ],
+  "sidebar.ampliar-y-sustituir-un-libro-de-conjuros": [
+   "item.pergamino-de-conjuro"
+  ]
+ },
+ "incoming": {
+  "gear.pocion-de-curacion": [
+   "item.pocion-de-veneno",
+   "tool.utiles-de-herborista"
+  ],
+  "item.aceite-de-etereidad": [
+   "item.pegamento-soberano"
+  ],
+  "item.aceite-escurridizo": [
+   "item.pegamento-soberano"
+  ],
+  "item.agujero-portatil": [
+   "item.bolsa-de-contencion",
+   "item.esfera-de-aniquilacion",
+   "item.espejo-atrapavidas",
+   "item.morral-practico"
+  ],
+  "item.bolsa-de-contencion": [
+   "item.agujero-portatil",
+   "item.bolsa-devoradora",
+   "item.espejo-atrapavidas",
+   "item.morral-practico"
+  ],
+  "item.cinturon-de-fuerza-de-gigante": [
+   "item.martillo-de-rayos"
+  ],
+  "item.disolvente-universal": [
+   "item.pegamento-soberano"
+  ],
+  "item.esfera-de-aniquilacion": [
+   "item.talisman-de-la-esfera"
+  ],
+  "item.guanteletes-de-fuerza-de-ogro": [
+   "item.martillo-de-rayos"
+  ],
+  "item.morral-practico": [
+   "item.agujero-portatil",
+   "item.bolsa-de-contencion"
+  ],
+  "item.pegamento-soberano": [
+   "item.disolvente-universal"
+  ],
+  "item.pergamino-de-conjuro": [
+   "class.picaro",
+   "sidebar.ampliar-y-sustituir-un-libro-de-conjuros",
+   "tool.suministros-de-caligrafo"
+  ],
+  "item.polvo-de-desaparicion": [
+   "item.polvo-de-estornudar-y-atragantarse"
+  ],
+  "spell.abrir": [
+   "item.carillon-de-apertura",
+   "item.fortaleza-instantanea"
+  ],
+  "spell.acelerar": [
+   "item.pocion-de-velocidad"
+  ],
+  "spell.agarre-electrizante": [
+   "class.hechicero"
+  ],
+  "spell.agrandar-reducir": [
+   "item.pocion-de-crecimiento",
+   "item.pocion-de-encoger",
+   "item.varita-de-las-maravillas"
+  ],
+  "spell.alarma": [
+   "spell.detectar-trampas"
+  ],
+  "spell.alterar-los-recuerdos": [
+   "monster.dragon-verde-anciano"
+  ],
+  "spell.alzar-a-los-muertos": [
+   "monster.deva",
+   "monster.planetar",
+   "rule.muerto",
+   "spell.dulce-descanso"
+  ],
+  "spell.animar-a-los-muertos": [
+   "monster.liche",
+   "monster.senor-de-las-momias"
+  ],
+  "spell.arma-espiritual": [
+   "monster.fanatico-sectario"
+  ],
+  "spell.armadura-de-mago": [
+   "class.mago",
+   "monster.archimago",
+   "monster.mago"
+  ],
+  "spell.asesino-fantasmal": [
+   "monster.saga-de-la-noche"
+  ],
+  "spell.augurio": [
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.bendicion": [
+   "class.clerigo",
+   "item.pocion-de-heroismo",
+   "monster.couatl",
+   "monster.lemur",
+   "monster.sacerdote",
+   "monster.sacerdote-acolito"
+  ],
+  "spell.boca-magica": [
+   "spell.guardas-y-guardias"
+  ],
+  "spell.bola-de-fuego": [
+   "item.collar-de-bolas-de-fuego",
+   "item.varita-de-bolas-de-fuego",
+   "item.yelmo-de-fulgor",
+   "monster.diablo-de-la-sima",
+   "monster.dragon-rojo-adulto",
+   "monster.dragon-rojo-anciano",
+   "monster.liche",
+   "monster.mago"
+  ],
+  "spell.burla-danina": [
+   "class.bardo"
+  ],
+  "spell.caida-de-pluma": [
+   "class.mago"
+  ],
+  "spell.calmar-emociones": [
+   "monster.unicornio"
+  ],
+  "spell.cambiar-de-forma": [
+   "monster.couatl",
+   "monster.deva",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.dragon-de-oro-adulto",
+   "monster.dragon-de-oro-anciano",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano"
+  ],
+  "spell.caminar-sobre-el-agua": [
+   "item.anillo-de-caminar-sobre-las-aguas"
+  ],
+  "spell.campo-antimagia": [
+   "spell.muro-prismatico"
+  ],
+  "spell.castigo-abrasador": [
+   "class.paladin"
+  ],
+  "spell.castigo-divino": [
+   "class.paladin"
+  ],
+  "spell.cerradura-arcana": [
+   "spell.abrir",
+   "spell.guardas-y-guardias"
+  ],
+  "spell.circulo-magico": [
+   "monster.saga-de-la-noche",
+   "spell.atadura-planar",
+   "spell.urna-magica"
+  ],
+  "spell.clarividencia": [
+   "item.pocion-de-clarividencia",
+   "monster.buho-gigante",
+   "monster.naga-guardiana"
+  ],
+  "spell.clavo-mental": [
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.dragon-verde-adulto",
+   "monster.dragon-verde-anciano"
+  ],
+  "spell.comunion": [
+   "monster.deva",
+   "monster.planetar",
+   "monster.solar"
+  ],
+  "spell.confusion": [
+   "monster.glabrezu"
+  ],
+  "spell.cono-de-frio": [
+   "monster.archimago",
+   "monster.mago"
+  ],
+  "spell.conocer-las-leyendas": [
+   "monster.esfinge-del-conocimiento"
+  ],
+  "spell.consagrar": [
+   "class.paladin",
+   "spell.detectar-el-bien-y-el-mal"
+  ],
+  "spell.contactar-con-otro-plano": [
+   "class.brujo"
+  ],
+  "spell.contrahechizo": [
+   "monster.archimago",
+   "monster.liche",
+   "monster.mago"
+  ],
+  "spell.controlar-agua": [
+   "monster.dragon-de-bronce-anciano"
+  ],
+  "spell.controlar-el-clima": [
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.dragon-de-plata-anciano",
+   "monster.gigante-de-las-nubes",
+   "monster.gigante-de-las-tormentas",
+   "monster.planetar",
+   "monster.solar"
+  ],
+  "spell.creacion": [
+   "monster.djinn"
+  ],
+  "spell.crear-comida-y-agua": [
+   "monster.couatl",
+   "monster.djinn"
+  ],
+  "spell.crear-llama": [
+   "class.druida"
+  ],
+  "spell.crear-muerto-viviente": [
+   "monster.dragon-negro-anciano"
+  ],
+  "spell.cuchillo-de-hielo": [
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano"
+  ],
+  "spell.curar": [
+   "item.vara-de-la-resurreccion",
+   "spell.ofuscacion"
+  ],
+  "spell.curar-heridas": [
+   "class.clerigo",
+   "class.druida",
+   "class.explorador",
+   "monster.deva",
+   "monster.naga-guardiana",
+   "monster.planetar",
+   "monster.solar",
+   "monster.unicornio"
+  ],
+  "spell.danar": [
+   "monster.senor-de-las-momias"
+  ],
+  "spell.de-la-carne-a-la-piedra": [
+   "spell.localizar-criatura"
+  ],
+  "spell.dedo-de-la-muerte": [
+   "monster.liche"
+  ],
+  "spell.descarga-sobrenatural": [
+   "class.brujo"
+  ],
+  "spell.deseo": [
+   "class.clerigo",
+   "item.anillo-de-los-tres-deseos",
+   "item.baraja-misteriosa",
+   "item.filo-de-la-fortuna",
+   "item.fortaleza-instantanea",
+   "item.pegamento-soberano",
+   "monster.djinn",
+   "monster.ifrit",
+   "monster.naga-espiritual",
+   "spell.desintegrar",
+   "spell.geas",
+   "spell.mente-en-blanco",
+   "spell.ofuscacion",
+   "spell.palabra-divina"
+  ],
+  "spell.desintegrar": [
+   "item.orbe-dragontino",
+   "spell.esfera-elastica",
+   "spell.muro-de-fuerza"
+  ],
+  "spell.desplazamiento-entre-planos": [
+   "item.amuleto-de-los-planos",
+   "item.portal-cubico",
+   "monster.djinn",
+   "monster.esfinge-del-conocimiento",
+   "monster.ifrit",
+   "monster.liche",
+   "monster.rakshasa",
+   "monster.saga-de-la-noche",
+   "spell.prohibicion"
+  ],
+  "spell.detectar-el-bien-y-el-mal": [
+   "item.vara-de-la-alerta",
+   "monster.buho-gigante",
+   "monster.couatl",
+   "monster.deva",
+   "monster.djinn",
+   "monster.esfinge-del-valor",
+   "monster.planetar",
+   "monster.solar",
+   "monster.unicornio"
+  ],
+  "spell.detectar-magia": [
+   "class.hechicero",
+   "class.mago",
+   "item.baston-de-los-bosques",
+   "item.vara-de-la-alerta",
+   "item.varita-de-deteccion-magica",
+   "monster.archimago",
+   "monster.buho-gigante",
+   "monster.chuul",
+   "monster.couatl",
+   "monster.djinn",
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.dragon-de-oro-adulto",
+   "monster.dragon-de-oro-anciano",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano",
+   "monster.dragon-negro-adulto",
+   "monster.dragon-negro-anciano",
+   "monster.dragon-rojo-adulto",
+   "monster.dragon-rojo-anciano",
+   "monster.dragon-verde-adulto",
+   "monster.dragon-verde-anciano",
+   "monster.esfinge-del-conocimiento",
+   "monster.esfinge-del-valor",
+   "monster.gigante-de-las-nubes",
+   "monster.gigante-de-las-tormentas",
+   "monster.glabrezu",
+   "monster.ifrit",
+   "monster.liche",
+   "monster.mago",
+   "monster.naga-espiritual",
+   "monster.rakshasa",
+   "monster.saga-de-la-noche",
+   "spell.aura-magica-de-arcanista"
+  ],
+  "spell.detectar-pensamientos": [
+   "item.bola-de-cristal-de-leer-mentes",
+   "item.medallon-de-los-pensamientos",
+   "item.pocion-de-leer-mentes",
+   "item.yelmo-de-telepatia",
+   "monster.archimago",
+   "monster.couatl",
+   "monster.doppelganger",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.liche",
+   "monster.naga-espiritual",
+   "monster.rakshasa"
+  ],
+  "spell.detectar-venenos-y-enfermedades": [
+   "item.vara-de-la-alerta"
+  ],
+  "spell.disfrazarse": [
+   "item.sombrero-de-disfraz",
+   "monster.archimago",
+   "monster.incubo",
+   "monster.lamia",
+   "monster.rakshasa",
+   "monster.saga-cetrina",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.disipar-el-bien-y-el-mal": [
+   "monster.naga-guardiana",
+   "monster.planetar",
+   "monster.solar",
+   "monster.unicornio",
+   "rule.posesion"
+  ],
+  "spell.disipar-magia": [
+   "item.baraja-de-ilusiones",
+   "monster.esfinge-del-conocimiento",
+   "monster.esfinge-del-valor",
+   "monster.glabrezu",
+   "monster.liche",
+   "monster.sacerdote",
+   "monster.senor-de-las-momias",
+   "spell.campo-antimagia",
+   "spell.cautiverio",
+   "spell.guardas-y-guardias",
+   "spell.jaula-de-fuerza",
+   "spell.muro-de-fuerza",
+   "spell.muro-prismatico"
+  ],
+  "spell.dominar-bestia": [
+   "item.tridente-de-comandar-peces"
+  ],
+  "spell.dominar-persona": [
+   "monster.sucubo"
+  ],
+  "spell.don-de-lenguas": [
+   "monster.djinn",
+   "monster.esfinge-del-conocimiento",
+   "monster.ifrit"
+  ],
+  "spell.dormir": [
+   "class.mago",
+   "monster.couatl",
+   "monster.mephit-de-polvo",
+   "monster.oni"
+  ],
+  "spell.elementalismo": [
+   "monster.ifrit"
+  ],
+  "spell.encantar-animal": [
+   "class.druida",
+   "item.anillo-de-influencia-animal",
+   "item.pocion-de-amistad-animal",
+   "monster.driade"
+  ],
+  "spell.encontrar-familiar": [
+   "class.druida",
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.enmaranar": [
+   "monster.driade",
+   "monster.druida",
+   "monster.unicornio"
+  ],
+  "spell.ensueno": [
+   "monster.couatl",
+   "monster.incubo",
+   "monster.saga-de-la-noche"
+  ],
+  "spell.entender-idiomas": [
+   "item.baston-del-cautivador",
+   "item.yelmo-de-entender-idiomas"
+  ],
+  "spell.escudo": [
+   "monster.archimago",
+   "monster.liche",
+   "monster.mago"
+  ],
+  "spell.escudo-de-fe": [
+   "class.clerigo"
+  ],
+  "spell.escudrinar": [
+   "item.bola-de-cristal",
+   "item.bola-de-cristal-de-leer-mentes",
+   "item.bola-de-cristal-de-telepatia",
+   "item.bola-de-cristal-de-vision-veraz",
+   "monster.archimago",
+   "monster.couatl",
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-rojo-anciano",
+   "monster.lamia",
+   "monster.liche",
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.esfera-vitriolica": [
+   "monster.dragon-negro-adulto",
+   "monster.dragon-negro-anciano"
+  ],
+  "spell.espiritus-guardianes": [
+   "monster.sacerdote"
+  ],
+  "spell.estallido-magico": [
+   "class.hechicero"
+  ],
+  "spell.excursion-eterea": [
+   "item.aceite-de-etereidad",
+   "item.armadura-de-placas-de-etereidad",
+   "monster.fantasma",
+   "monster.incubo",
+   "monster.saga-de-la-noche"
+  ],
+  "spell.festin-de-heroes": [
+   "monster.esfinge-del-valor"
+  ],
+  "spell.flecha-acida": [
+   "monster.dragon-negro-adulto",
+   "monster.dragon-negro-anciano"
+  ],
+  "spell.forma-gaseosa": [
+   "item.pocion-de-forma-gaseosa",
+   "monster.djinn",
+   "monster.gigante-de-las-nubes",
+   "monster.ifrit",
+   "monster.oni"
+  ],
+  "spell.fuego-feerico": [
+   "class.druida",
+   "item.anillo-de-estrellas-fugaces",
+   "monster.drana"
+  ],
+  "spell.geas": [
+   "monster.dragon-verde-adulto",
+   "monster.dragon-verde-anciano",
+   "monster.lamia",
+   "monster.naga-guardiana"
+  ],
+  "spell.glifo-custodio": [
+   "spell.detectar-trampas"
+  ],
+  "spell.golpe-apresador": [
+   "class.explorador"
+  ],
+  "spell.golpe-flamigero": [
+   "monster.dragon-de-oro-adulto",
+   "monster.dragon-de-oro-anciano",
+   "monster.naga-guardiana"
+  ],
+  "spell.grasa": [
+   "item.aceite-escurridizo"
+  ],
+  "spell.guia": [
+   "class.clerigo",
+   "class.explorador",
+   "class.paladin"
+  ],
+  "spell.hablar-con-los-animales": [
+   "class.druida",
+   "item.anillo-de-influencia-animal",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.druida",
+   "species.gnomo"
+  ],
+  "spell.hablar-con-los-muertos": [
+   "monster.dragon-negro-adulto",
+   "monster.dragon-negro-anciano"
+  ],
+  "spell.hacer-anicos": [
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano"
+  ],
+  "spell.hallar-corcel": [
+   "class.paladin"
+  ],
+  "spell.hechizar-monstruo": [
+   "monster.driade"
+  ],
+  "spell.hechizar-persona": [
+   "class.bardo",
+   "class.brujo",
+   "item.anteojos-de-encantamiento",
+   "item.baston-del-cautivador",
+   "monster.oni",
+   "monster.vampiro"
+  ],
+  "spell.heroismo": [
+   "class.paladin"
+  ],
+  "spell.identificar": [
+   "class.mago",
+   "item.armadura-de-vulnerabilidad",
+   "item.frasco-de-hierro",
+   "item.pocion-de-veneno",
+   "item.polvo-de-estornudar-y-atragantarse",
+   "monster.esfinge-del-conocimiento",
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.ilusion-menor": [
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.esfinge-del-conocimiento",
+   "monster.lamia",
+   "monster.naga-espiritual",
+   "monster.rakshasa",
+   "monster.saga-cetrina",
+   "species.gnomo"
+  ],
+  "spell.imagen-mayor": [
+   "monster.djinn",
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.ifrit",
+   "monster.lamia",
+   "monster.rakshasa"
+  ],
+  "spell.imagen-multiple": [
+   "monster.manto"
+  ],
+  "spell.inmovilizar-monstruo": [
+   "monster.diablo-de-la-sima",
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano"
+  ],
+  "spell.inmovilizar-persona": [
+   "monster.fanatico-sectario",
+   "monster.naga-espiritual"
+  ],
+  "spell.invisibilidad": [
+   "monster.archimago",
+   "monster.diablillo",
+   "monster.djinn",
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano",
+   "monster.duende",
+   "monster.ifrit",
+   "monster.liche",
+   "monster.mago",
+   "monster.oni",
+   "monster.planetar",
+   "monster.quasit",
+   "monster.rakshasa",
+   "monster.saga-cetrina"
+  ],
+  "spell.invocar-dragon": [
+   "class.hechicero"
+  ],
+  "spell.levantar-maldicion": [
+   "item.armadura-de-vulnerabilidad",
+   "item.armadura-demoniaca",
+   "item.escudo-de-atraer-proyectiles",
+   "monster.deva",
+   "monster.esfinge-del-conocimiento",
+   "monster.planetar",
+   "monster.solar",
+   "rule.maldiciones",
+   "spell.alterar-los-recuerdos",
+   "spell.geas"
+  ],
+  "spell.levitar": [
+   "item.botas-de-levitacion"
+  ],
+  "spell.libertad-de-movimiento": [
+   "item.aceite-escurridizo"
+  ],
+  "spell.llama-sagrada": [
+   "class.clerigo",
+   "class.paladin"
+  ],
+  "spell.localizar-objeto": [
+   "monster.esfinge-del-conocimiento",
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.luces-danzantes": [
+   "class.bardo",
+   "item.anillo-de-estrellas-fugaces",
+   "monster.saga-cetrina",
+   "spell.guardas-y-guardias"
+  ],
+  "spell.luz": [
+   "class.hechicero",
+   "class.mago",
+   "item.anillo-de-estrellas-fugaces",
+   "item.tunica-de-los-ojos",
+   "monster.archimago",
+   "monster.fanatico-sectario",
+   "monster.gigante-de-las-nubes",
+   "monster.gigante-de-las-tormentas",
+   "monster.mago",
+   "monster.sacerdote",
+   "monster.sacerdote-acolito"
+  ],
+  "spell.luz-del-dia": [
+   "item.tunica-de-los-ojos",
+   "item.yelmo-de-fulgor",
+   "spell.muro-prismatico"
+  ],
+  "spell.maleficio": [
+   "class.brujo"
+  ],
+  "spell.mano-de-mago": [
+   "class.mago",
+   "monster.archimago",
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano",
+   "monster.esfinge-del-conocimiento",
+   "monster.liche",
+   "monster.mago",
+   "monster.naga-espiritual",
+   "monster.rakshasa"
+  ],
+  "spell.manos-ardientes": [
+   "class.hechicero"
+  ],
+  "spell.marca-del-cazador": [
+   "class.explorador"
+  ],
+  "spell.mensajero-animal": [
+   "item.estatuilla-de-poder-maravilloso",
+   "monster.druida"
+  ],
+  "spell.mente-en-blanco": [
+   "monster.archimago"
+  ],
+  "spell.muro-de-fuego": [
+   "item.yelmo-de-fulgor",
+   "monster.diablo-de-la-sima",
+   "monster.ifrit"
+  ],
+  "spell.muro-de-fuerza": [
+   "spell.desintegrar"
+  ],
+  "spell.muro-de-hielo": [
+   "monster.diablo-gelido"
+  ],
+  "spell.nube-apestosa": [
+   "spell.guardas-y-guardias"
+  ],
+  "spell.nube-de-oscurecimiento": [
+   "monster.gigante-de-las-nubes",
+   "monster.mephit-de-hielo"
+  ],
+  "spell.ola-atronadora": [
+   "class.druida",
+   "class.mago",
+   "monster.druida"
+  ],
+  "spell.orden-imperiosa": [
+   "item.baston-del-cautivador",
+   "monster.dragon-rojo-adulto",
+   "monster.dragon-rojo-anciano",
+   "monster.fanatico-sectario",
+   "monster.senor-de-las-momias",
+   "monster.vampiro"
+  ],
+  "spell.oscuridad": [
+   "monster.drana",
+   "monster.glabrezu",
+   "monster.oni"
+  ],
+  "spell.palabra-de-curacion": [
+   "class.bardo",
+   "monster.sacerdote",
+   "monster.sacerdote-acolito"
+  ],
+  "spell.palabra-de-poder-aturdir": [
+   "monster.glabrezu"
+  ],
+  "spell.palabra-de-poder-matar": [
+   "class.bardo",
+   "monster.liche"
+  ],
+  "spell.palabra-de-poder-sanar": [
+   "class.bardo"
+  ],
+  "spell.palabra-de-regreso": [
+   "monster.dragon-de-oro-anciano",
+   "monster.unicornio"
+  ],
+  "spell.pasar-sin-rastro": [
+   "monster.driade",
+   "monster.unicornio"
+  ],
+  "spell.paso-brumoso": [
+   "monster.archimago",
+   "monster.gigante-de-las-nubes",
+   "monster.mago"
+  ],
+  "spell.patron-hipnotico": [
+   "monster.incubo"
+  ],
+  "spell.plaga-de-insectos": [
+   "monster.senor-de-las-momias"
+  ],
+  "spell.polimorfar": [
+   "item.capa-de-murcielago",
+   "item.varita-de-polimorfar",
+   "rule.cambio-de-forma",
+   "spell.localizar-criatura",
+   "spell.rayo-de-luna"
+  ],
+  "spell.portal": [
+   "item.esfera-de-aniquilacion",
+   "item.portal-cubico",
+   "item.vela-de-invocacion",
+   "spell.prohibicion"
+  ],
+  "spell.prestidigitacion": [
+   "class.brujo",
+   "class.hechicero",
+   "monster.archimago",
+   "monster.esfinge-del-conocimiento",
+   "monster.liche",
+   "monster.mago",
+   "species.gnomo"
+  ],
+  "spell.proteccion-contra-el-bien-y-el-mal": [
+   "monster.saga-de-la-noche",
+   "rule.posesion",
+   "spell.urna-magica"
+  ],
+  "spell.proyectar-imagen": [
+   "monster.dragon-de-cobre-anciano"
+  ],
+  "spell.proyectil-magico": [
+   "class.mago",
+   "item.broche-escudo",
+   "item.tunica-de-las-estrellas",
+   "item.varita-de-proyectiles-magicos",
+   "monster.saga-de-la-noche",
+   "monster.tarasca",
+   "spell.escudo"
+  ],
+  "spell.puerta-dimensional": [
+   "item.capa-del-charlatan",
+   "monster.liche",
+   "monster.naga-espiritual"
+  ],
+  "spell.rafaga-de-viento": [
+   "item.abanico-del-viento",
+   "item.baston-de-enjambre-de-insectos",
+   "item.botella-siemprehumeante",
+   "spell.guardas-y-guardias",
+   "spell.nube-aniquiladora",
+   "spell.nube-apestosa",
+   "spell.nube-de-oscurecimiento",
+   "spell.nube-incendiaria"
+  ],
+  "spell.ralentizar": [
+   "monster.golem-de-piedra"
+  ],
+  "spell.rayo-abrasador": [
+   "item.diadema-de-estallidos",
+   "monster.dragon-de-oropel-adulto",
+   "monster.dragon-de-oropel-anciano",
+   "monster.dragon-rojo-adulto",
+   "monster.dragon-rojo-anciano"
+  ],
+  "spell.rayo-de-escarcha": [
+   "class.mago"
+  ],
+  "spell.rayo-de-luna": [
+   "monster.druida"
+  ],
+  "spell.rayo-nauseabundo": [
+   "monster.saga-cetrina"
+  ],
+  "spell.recado": [
+   "item.piedras-mensajeras",
+   "monster.dragon-azul-adulto",
+   "monster.dragon-azul-anciano"
+  ],
+  "spell.relampago": [
+   "item.varita-de-relampagos",
+   "monster.archimago",
+   "monster.liche",
+   "monster.naga-espiritual"
+  ],
+  "spell.relampago-en-cadena": [
+   "monster.liche"
+  ],
+  "spell.reparar": [
+   "monster.cieno-gris",
+   "monster.monstruo-corrosivo",
+   "monster.pudin-negro",
+   "species.gnomo"
+  ],
+  "spell.respirar-bajo-el-agua": [
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.naga-espiritual",
+   "spell.contingencia"
+  ],
+  "spell.restablecimiento-mayor": [
+   "item.varita-de-las-maravillas",
+   "monster.couatl",
+   "monster.dragon-de-cobre-adulto",
+   "monster.dragon-de-cobre-anciano",
+   "monster.esfinge-del-valor",
+   "rule.maldiciones",
+   "spell.alterar-los-recuerdos",
+   "spell.contactar-con-otro-plano",
+   "spell.de-la-carne-a-la-piedra",
+   "spell.deseo",
+   "spell.geas",
+   "spell.muro-prismatico",
+   "spell.ofuscacion"
+  ],
+  "spell.restablecimiento-menor": [
+   "item.polvo-de-estornudar-y-atragantarse",
+   "monster.couatl",
+   "monster.deva",
+   "monster.planetar",
+   "monster.sacerdote",
+   "monster.solar",
+   "monster.unicornio"
+  ],
+  "spell.resurreccion": [
+   "item.vara-de-la-resurreccion",
+   "monster.solar"
+  ],
+  "spell.resurreccion-verdadera": [
+   "spell.desintegrar"
+  ],
+  "spell.revivir": [
+   "rule.muerto"
+  ],
+  "spell.rociada-de-color": [
+   "class.bardo"
+  ],
+  "spell.rociada-prismatica": [
+   "item.yelmo-de-fulgor"
+  ],
+  "spell.saber-druidico": [
+   "class.druida",
+   "monster.driade",
+   "monster.druida",
+   "monster.unicornio"
+  ],
+  "spell.saeta-guia": [
+   "class.clerigo",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.dragon-de-oro-adulto",
+   "monster.dragon-de-oro-anciano"
+  ],
+  "spell.salto": [
+   "item.anillo-de-salto"
+  ],
+  "spell.santuario": [
+   "monster.couatl",
+   "monster.sacerdote-acolito"
+  ],
+  "spell.sirviente-invisible": [
+   "monster.saga-cetrina",
+   "monster.saga-de-la-noche",
+   "monster.saga-de-los-mares"
+  ],
+  "spell.sugestion": [
+   "item.bola-de-cristal-de-telepatia",
+   "item.orbe-dragontino",
+   "item.yelmo-de-telepatia",
+   "spell.guardas-y-guardias"
+  ],
+  "spell.susurros-discordantes": [
+   "class.bardo"
+  ],
+  "spell.taumaturgia": [
+   "class.clerigo",
+   "monster.dragon-de-bronce-adulto",
+   "monster.dragon-de-bronce-anciano",
+   "monster.esfinge-del-valor",
+   "monster.fanatico-sectario",
+   "monster.naga-guardiana",
+   "monster.sacerdote",
+   "monster.sacerdote-acolito",
+   "monster.senor-de-las-momias",
+   "species.tiefling"
+  ],
+  "spell.telarana": [
+   "item.capa-aracnida",
+   "item.varita-de-telarana",
+   "monster.drana",
+   "spell.guardas-y-guardias"
+  ],
+  "spell.telequinesis": [
+   "item.anillo-de-telequinesis",
+   "monster.gigante-de-las-nubes"
+  ],
+  "spell.teletransporte": [
+   "item.yelmo-de-teletransporte",
+   "monster.archimago",
+   "monster.dragon-de-plata-anciano"
+  ],
+  "spell.terror": [
+   "item.anillo-de-influencia-animal",
+   "monster.dragon-blanco-adulto",
+   "monster.dragon-blanco-anciano",
+   "monster.dragon-negro-adulto",
+   "monster.dragon-negro-anciano",
+   "monster.liche"
+  ],
+  "spell.tormenta-de-hielo": [
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano"
+  ],
+  "spell.ver-invisibilidad": [
+   "item.vara-de-la-alerta",
+   "spell.clarividencia"
+  ],
+  "spell.viajar-con-el-viento": [
+   "monster.djinn"
+  ],
+  "spell.vision-veraz": [
+   "monster.naga-guardiana"
+  ],
+  "spell.volar": [
+   "monster.archimago",
+   "monster.glabrezu",
+   "monster.mago",
+   "monster.rakshasa"
+  ],
+  "spell.voluta-estelar": [
+   "class.explorador"
+  ],
+  "spell.zancada-prodigiosa": [
+   "monster.druida"
+  ],
+  "spell.zona-de-la-verdad": [
+   "monster.dragon-de-oro-adulto",
+   "monster.dragon-de-oro-anciano",
+   "monster.dragon-de-plata-adulto",
+   "monster.dragon-de-plata-anciano",
+   "monster.esfinge-del-valor"
+  ]
+ },
+ "unresolved": {
+  "dote-de-don-epico-requisito-nivel-19-o-mas": 6,
+  "piedras-ioun": 4,
+  "dote-de-origen": 4,
+  "dote-de-estilo-de-combate-requisitos-rasgo-estilo-de-combate": 4,
+  "arma-3": 2,
+  "tirada-de": 1,
+  "acierto": 1,
+  "municion-3": 1,
+  "anillos-de-comandar-elementales": 1,
+  "3-cargas": 1,
+  "a-3-cargas": 1,
+  "cargas": 1,
+  "anillos-de-invocar-djinns": 1,
+  "hielo": 1,
+  "canicas-de-fuerza": 1,
+  "lanza-1": 1,
+  "espada-larga-2": 1,
+  "mayor": 1,
+  "dote-general-requisitos-nivel-4-o-mas-fuerza-o-destreza-13-o-mas": 1,
+  "dote-general-requisitos-nivel-4-o-mas": 1,
+  "dote-de-don-epico-requisito-nivel-19-o-mas-rasgo-lanzamiento-de-conjuros": 1,
+  "elige-un-tipo-de-juego": 1,
+  "guante-atrapaflechas": 1
+ }
+}

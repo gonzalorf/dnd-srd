@@ -1,0 +1,30 @@
+{
+ "id": "rule.asustado",
+ "name": "Asustado",
+ "text": "Mientras tengas el estado de asustado, experimentarás los siguientes efectos:\n\nPruebas de característica y ataques afectados. Tienes desventaja en las pruebas de característica y las tiradas de ataque mientras la fuente de tu miedo esté en tu línea de visión.\n\nNo puedes acercarte. No puedes acercarte voluntariamente a la fuente de tu miedo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Mientras tengas el estado de asustado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de asustado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Pruebas de característica y ataques afectados.*** Tienes desventaja en las pruebas de característica y las tiradas de ataque mientras la fuente de tu miedo esté en tu línea de visión.",
+   "text": "Pruebas de característica y ataques afectados. Tienes desventaja en las pruebas de característica y las tiradas de ataque mientras la fuente de tu miedo esté en tu línea de visión."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***No puedes acercarte.*** No puedes acercarte voluntariamente a la fuente de tu miedo.",
+   "text": "No puedes acercarte. No puedes acercarte voluntariamente a la fuente de tu miedo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ },
+ "kind": "estado"
+}

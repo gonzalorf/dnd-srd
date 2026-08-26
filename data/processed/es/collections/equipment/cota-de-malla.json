@@ -1,0 +1,29 @@
+{
+ "id": "armor.cota-de-malla",
+ "name": "Cota de malla",
+ "kind": "armor",
+ "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Cota de malla",
+  "Clase de armadura (CA)": "16",
+  "Fuerza": "Fue 13",
+  "Sigilo": "Desventaja",
+  "Peso": "27,5 kg",
+  "Precio": "75 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "27,5 kg",
+  "kg": 27.5
+ },
+ "price": {
+  "raw": "75 po",
+  "amount": 75.0,
+  "coin": "po",
+  "gp": 75.0
+ }
+}

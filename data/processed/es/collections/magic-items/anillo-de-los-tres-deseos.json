@@ -1,0 +1,26 @@
+{
+ "id": "item.anillo-de-los-tres-deseos",
+ "name": "Anillo de los tres deseos",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Anillo, legendario",
+ "text": "Mientras lleves puesto este anillo, puedes gastar 1 de sus 3 cargas para lanzar deseo desde él. El anillo se volverá no mágico cuando utilices la última carga.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 232,
+   "md": "Mientras lleves puesto este anillo, puedes gastar 1 de sus 3 cargas para lanzar *deseo* desde él. El anillo se volverá no mágico cuando utilices la última carga.",
+   "text": "Mientras lleves puesto este anillo, puedes gastar 1 de sus 3 cargas para lanzar deseo desde él. El anillo se volverá no mágico cuando utilices la última carga."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 232
+ },
+ "refs": [
+  "spell.deseo"
+ ]
+}

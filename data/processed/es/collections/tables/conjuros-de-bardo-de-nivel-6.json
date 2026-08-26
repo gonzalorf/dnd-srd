@@ -1,0 +1,61 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-6",
+ "caption": "Conjuros de bardo de nivel 6",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Baile irresistible",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Encontrar el camino",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Festín de héroes",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Guardas y guardias",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Ilusión programada",
+   "Ilusionismo",
+   "M"
+  ],
+  [
+   "Mal de ojo",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Sugestión en masa",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Visión veraz",
+   "Adivinación",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 39
+ }
+}

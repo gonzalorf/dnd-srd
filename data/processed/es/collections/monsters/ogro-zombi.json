@@ -1,0 +1,96 @@
+{
+ "id": "monster.ogro-zombi",
+ "name": "Ogro zombi",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 376
+ },
+ "context": [
+  "Zombis"
+ ],
+ "metaRaw": "Muerto viviente Grande, neutral malvado",
+ "type": "Muerto viviente",
+ "alignment": "neutral malvado",
+ "size": "Grande",
+ "ac": 8,
+ "acRaw": "8",
+ "initiative": {
+  "mod": -2,
+  "score": 8
+ },
+ "hp": {
+  "raw": "85 (9d10 + 36)",
+  "average": 85,
+  "formula": "9d10 + 36"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "entiende común y gigante",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 6,
+   "mod": -2,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Fortaleza de muerto viviente",
+   "md": "***Fortaleza de muerto viviente.*** Si el daño reduce a 0 los puntos de golpe del zombi, hará una tirada de salvación de Constitución (CD 5 más el daño sufrido), siempre que el daño no sea radiante o proceda de un crítico. Si la supera, el zombi se queda con 1 punto de golpe.",
+   "page": 376,
+   "description": "Si el daño reduce a 0 los puntos de golpe del zombi, hará una tirada de salvación de Constitución (CD 5 más el daño sufrido), siempre que el daño no sea radiante o proceda de un crítico. Si la supera, el zombi se queda con 1 punto de golpe."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente.",
+   "page": 376,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente."
+  }
+ ]
+}

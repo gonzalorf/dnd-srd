@@ -1,0 +1,61 @@
+{
+ "id": "spell.marchitar",
+ "name": "Marchitar",
+ "level": 4,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "brujo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una criatura a la que puedas ver dentro del alcance deberá hacer una tirada de salvación de Constitución; sufrirá 8d8 de daño necrótico si la falla o la mitad del daño si la supera. Las criaturas de tipo “planta” fallan automáticamente la tirada.\n\nComo alternativa, haz objetivo a una planta no mágica que no sea una criatura, como un árbol o un arbusto. No hará una tirada de salvación: simplemente se marchitará y morirá.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Una criatura a la que puedas ver dentro del alcance deberá hacer una tirada de salvación de Constitución; sufrirá 8d8 de daño necrótico si la falla o la mitad del daño si la supera. Las criaturas de tipo “planta” fallan automáticamente la tirada.",
+   "text": "Una criatura a la que puedas ver dentro del alcance deberá hacer una tirada de salvación de Constitución; sufrirá 8d8 de daño necrótico si la falla o la mitad del daño si la supera. Las criaturas de tipo “planta” fallan automáticamente la tirada."
+  },
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Como alternativa, haz objetivo a una planta no mágica que no sea una criatura, como un árbol o un arbusto. No hará una tirada de salvación: simplemente se marchitará y morirá.",
+   "text": "Como alternativa, haz objetivo a una planta no mágica que no sea una criatura, como un árbol o un arbusto. No hará una tirada de salvación: simplemente se marchitará y morirá."
+  },
+  {
+   "type": "definition",
+   "page": 165,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 165
+ }
+}

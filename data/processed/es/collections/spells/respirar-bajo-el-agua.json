@@ -1,0 +1,53 @@
+{
+ "id": "spell.respirar-bajo-el-agua",
+ "name": "Respirar bajo el agua",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "explorador",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un junco corto)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un junco corto",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Este conjuro concede a hasta diez criaturas voluntarias que elijas dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas también conservan su modo de respiración normal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Este conjuro concede a hasta diez criaturas voluntarias que elijas dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas también conservan su modo de respiración normal.",
+   "text": "Este conjuro concede a hasta diez criaturas voluntarias que elijas dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas también conservan su modo de respiración normal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 181
+ }
+}

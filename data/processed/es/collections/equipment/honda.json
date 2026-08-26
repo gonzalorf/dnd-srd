@@ -1,0 +1,25 @@
+{
+ "id": "weapon.honda",
+ "name": "Honda",
+ "kind": "weapon",
+ "group": "Armas a distancia sencillas",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Honda",
+  "Daño": "1d4 contundente",
+  "Propiedades": "Munición (alcance 9/36; proyectil)",
+  "Maestría": "Ralentizar",
+  "Peso": "—",
+  "Precio": "1 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "price": {
+  "raw": "1 pp",
+  "amount": 1.0,
+  "coin": "pp",
+  "gp": 0.1
+ }
+}

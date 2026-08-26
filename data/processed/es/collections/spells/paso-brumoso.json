@@ -1,0 +1,47 @@
+{
+ "id": "spell.paso-brumoso",
+ "name": "Paso brumoso",
+ "level": 2,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una niebla plateada te rodea brevemente y te teletransportas hasta 9 m a un espacio sin ocupar que puedas ver.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Una niebla plateada te rodea brevemente y te teletransportas hasta 9 m a un espacio sin ocupar que puedas ver.",
+   "text": "Una niebla plateada te rodea brevemente y te teletransportas hasta 9 m a un espacio sin ocupar que puedas ver."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 173
+ }
+}

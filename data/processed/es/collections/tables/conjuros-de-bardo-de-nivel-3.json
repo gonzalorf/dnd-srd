@@ -1,0 +1,106 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-3",
+ "caption": "Conjuros de bardo de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Clarividencia",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Crecimiento vegetal",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Don de lenguas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Glifo custodio",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Hablar con las plantas",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Hablar con los muertos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Imagen mayor",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Imponer maldición",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Indetectable",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Nube apestosa",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Palabra de curación en masa",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Patrón hipnótico",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Pequeña choza",
+   "Evocación",
+   "R"
+  ],
+  [
+   "Ralentizar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Recado",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Terror",
+   "Ilusionismo",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 38
+ }
+}

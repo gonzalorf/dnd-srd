@@ -1,0 +1,59 @@
+{
+ "id": "item.baston-de-acrobata",
+ "name": "Bastón de acróbata",
+ "category": "Arma",
+ "variant": "bastón",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (bastón), muy rara (requiere sintonización)",
+ "text": "Tienes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica.\n\nMientras la sostengas, puedes hacer que emita una luz tenue verde hasta 3 m, ya sea como acción adicional o tras tirar iniciativa, o bien extinguir esa luz como acción adicional.\n\nMientras sostengas el arma, puedes emplear una acción adicional para modificar su forma y convertirla en una vara de 15 cm (para guardarla con facilidad) o una pértiga de 3 m, o volver a transformarla en un bastón. La vara solo se desplegará si las dimensiones del entorno lo permiten.\n\nDependiendo de su forma, el arma tiene las siguientes propiedades adicionales:\n\nArma a distancia (solo en forma de bastón). Esta arma tiene la propiedad “arrojadiza”, con un alcance normal de 9 m y un alcance largo de 36 m. Inmediatamente después de que hagas un ataque a distancia con el arma, regresará volando a tu mano.\n\nAyuda acrobática (solo en forma de bastón o pértiga de 3 m). Mientras sostienes esta arma, tienes ventaja en las pruebas de Destreza (Acrobacias).\n\nDesviar ataque (solo en forma de bastón). Si te aciertan con un ataque mientras sostienes el arma, puedes emplear una reacción para girar el arma a tu alrededor, lo que te proporcionará un bonificador de +5 a la clase de armadura contra el ataque al que reaccionas, lo que podría hacer que falle. No podrás volver a usar esta propiedad hasta que finalices un descanso corto o largo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 239,
+   "md": "Tienes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica.",
+   "text": "Tienes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 239,
+   "md": "Mientras la sostengas, puedes hacer que emita una luz tenue verde hasta 3 m, ya sea como acción adicional o tras tirar iniciativa, o bien extinguir esa luz como acción adicional.",
+   "text": "Mientras la sostengas, puedes hacer que emita una luz tenue verde hasta 3 m, ya sea como acción adicional o tras tirar iniciativa, o bien extinguir esa luz como acción adicional."
+  },
+  {
+   "type": "paragraph",
+   "page": 239,
+   "md": "Mientras sostengas el arma, puedes emplear una acción adicional para modificar su forma y convertirla en una vara de 15 cm (para guardarla con facilidad) o una pértiga de 3 m, o volver a transformarla en un bastón. La vara solo se desplegará si las dimensiones del entorno lo permiten.",
+   "text": "Mientras sostengas el arma, puedes emplear una acción adicional para modificar su forma y convertirla en una vara de 15 cm (para guardarla con facilidad) o una pértiga de 3 m, o volver a transformarla en un bastón. La vara solo se desplegará si las dimensiones del entorno lo permiten."
+  },
+  {
+   "type": "paragraph",
+   "page": 239,
+   "md": "Dependiendo de su forma, el arma tiene las siguientes propiedades adicionales:",
+   "text": "Dependiendo de su forma, el arma tiene las siguientes propiedades adicionales:"
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Arma a distancia (solo en forma de bastón).*** Esta arma tiene la propiedad “arrojadiza”, con un alcance normal de 9 m y un alcance largo de 36 m. Inmediatamente después de que hagas un ataque a distancia con el arma, regresará volando a tu mano.",
+   "text": "Arma a distancia (solo en forma de bastón). Esta arma tiene la propiedad “arrojadiza”, con un alcance normal de 9 m y un alcance largo de 36 m. Inmediatamente después de que hagas un ataque a distancia con el arma, regresará volando a tu mano."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Ayuda acrobática (solo en forma de bastón o pértiga de 3 m).*** Mientras sostienes esta arma, tienes ventaja en las pruebas de Destreza (Acrobacias).",
+   "text": "Ayuda acrobática (solo en forma de bastón o pértiga de 3 m). Mientras sostienes esta arma, tienes ventaja en las pruebas de Destreza (Acrobacias)."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Desviar ataque (solo en forma de bastón).*** Si te aciertan con un ataque mientras sostienes el arma, puedes emplear una reacción para girar el arma a tu alrededor, lo que te proporcionará un bonificador de +5 a la clase de armadura contra el ataque al que reaccionas, lo que podría hacer que falle. No podrás volver a usar esta propiedad hasta que finalices un descanso corto o largo.",
+   "text": "Desviar ataque (solo en forma de bastón). Si te aciertan con un ataque mientras sostienes el arma, puedes emplear una reacción para girar el arma a tu alrededor, lo que te proporcionará un bonificador de +5 a la clase de armadura contra el ataque al que reaccionas, lo que podría hacer que falle. No podrás volver a usar esta propiedad hasta que finalices un descanso corto o largo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 239
+ }
+}

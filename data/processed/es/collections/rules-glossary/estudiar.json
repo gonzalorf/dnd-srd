@@ -1,0 +1,55 @@
+{
+ "id": "rule.estudiar",
+ "name": "Estudiar",
+ "text": "Cuando llevas a cabo la acción de estudiar, haces una prueba de Inteligencia para explorar tus recuerdos o examinar un libro, una pista u otra fuente de conocimiento y recordar algún dato importante.\n\nLa tabla “Áreas de conocimiento” sugiere qué habilidades se pueden aplicar a diversos ámbitos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Cuando llevas a cabo la acción de estudiar, haces una prueba de Inteligencia para explorar tus recuerdos o examinar un libro, una pista u otra fuente de conocimiento y recordar algún dato importante.",
+   "text": "Cuando llevas a cabo la acción de estudiar, haces una prueba de Inteligencia para explorar tus recuerdos o examinar un libro, una pista u otra fuente de conocimiento y recordar algún dato importante."
+  },
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "La tabla “Áreas de conocimiento” sugiere qué habilidades se pueden aplicar a diversos ámbitos.",
+   "text": "La tabla “Áreas de conocimiento” sugiere qué habilidades se pueden aplicar a diversos ámbitos."
+  },
+  {
+   "type": "table",
+   "page": 201,
+   "caption": "Áreas de conocimiento",
+   "header": [
+    "Habilidad",
+    "Áreas"
+   ],
+   "rows": [
+    [
+     "Conocimiento arcano",
+     "Conjuros, objetos mágicos, símbolos sobrenaturales, tradiciones mágicas, planos de existencia y determinadas criaturas (aberraciones, autómatas, elementales, feéricos y monstruosidades)"
+    ],
+    [
+     "Historia",
+     "Acontecimientos y personajes históricos, civilizaciones antiguas, guerras y determinadas criaturas (gigantes y humanoides)"
+    ],
+    [
+     "Investigación",
+     "Trampas, códigos, enigmas y artilugios"
+    ],
+    [
+     "Naturaleza",
+     "Terreno, flora, clima y determinadas criaturas (bestias, cienos, dragones y plantas)"
+    ],
+    [
+     "Religión",
+     "Deidades, jerarquías religiosas y ritos, símbolos sagrados, sectas y determinadas criaturas (celestiales, infernales y muertos vivientes)"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ },
+ "kind": "acción"
+}

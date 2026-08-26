@@ -1,0 +1,47 @@
+{
+ "id": "spell.cerradura-arcana",
+ "name": "Cerradura arcana",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (polvo de oro que valga al menos 25 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "polvo de oro que valga al menos 25 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Tocas una puerta, ventana, portón, recipiente o trampilla cerrados y se cierra mágicamente como con llave hasta que el conjuro termine. Esta cerradura no puede abrirse por medios no mágicos, pero tú y las criaturas que designes cuando lanzas el conjuro podéis abrir y cerrar el objeto a pesar de esta cerradura. También puedes elegir una contraseña que, dicha en voz alta a 1,5 m o menos del objeto, lo desbloquea durante 1 minuto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 128,
+   "md": "Tocas una puerta, ventana, portón, recipiente o trampilla cerrados y se cierra mágicamente como con llave hasta que el conjuro termine. Esta cerradura no puede abrirse por medios no mágicos, pero tú y las criaturas que designes cuando lanzas el conjuro podéis abrir y cerrar el objeto a pesar de esta cerradura. También puedes elegir una contraseña que, dicha en voz alta a 1,5 m o menos del objeto, lo desbloquea durante 1 minuto.",
+   "text": "Tocas una puerta, ventana, portón, recipiente o trampilla cerrados y se cierra mágicamente como con llave hasta que el conjuro termine. Esta cerradura no puede abrirse por medios no mágicos, pero tú y las criaturas que designes cuando lanzas el conjuro podéis abrir y cerrar el objeto a pesar de esta cerradura. También puedes elegir una contraseña que, dicha en voz alta a 1,5 m o menos del objeto, lo desbloquea durante 1 minuto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 128
+ }
+}

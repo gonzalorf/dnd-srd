@@ -1,0 +1,115 @@
+{
+ "id": "monster.mephit-de-magma",
+ "name": "Mephit de magma",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 349,
+  "pages": [
+   349,
+   350
+  ]
+ },
+ "context": [
+  "Mephits"
+ ],
+ "metaRaw": "Elemental Pequeño, neutral malvado",
+ "type": "Elemental",
+ "alignment": "neutral malvado",
+ "size": "Pequeño",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "18 (4d6 + 4)",
+  "average": 18,
+  "formula": "4d6 + 4"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "primordial (ígneo",
+  "terrano)"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "vulnerabilities": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Explotar al morir",
+   "md": "***Explotar al morir.*** El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 350,
+   "description": "El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 3 (1d6) de daño de fuego.",
+   "page": 350,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 3 (1d6) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 6).*** *Tirada de salvación de Destreza:* CD 11, todas las criaturas en un cono de 4,5 m. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 350,
+   "description": "*Tirada de salvación de Destreza:* CD 11, todas las criaturas en un cono de 4,5 m. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 6"
+  }
+ ]
+}

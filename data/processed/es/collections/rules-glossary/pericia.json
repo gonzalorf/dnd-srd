@@ -1,0 +1,29 @@
+{
+ "id": "rule.pericia",
+ "name": "Pericia",
+ "text": "La pericia es un rasgo que mejora el uso de tu competencia en una habilidad. Cuando hagas una prueba de característica con una competencia en una habilidad en la que tengas pericia, tu bonificador por competencia se duplica en esa prueba salvo que otro rasgo lo duplique.\n\nSi ganas pericia, la ganas en una habilidad en la que tengas competencia. No puedes tener pericia más de una vez en la misma habilidad.\n\nConsulta también el capítulo “Cómo jugar” (“Competencia”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "La pericia es un rasgo que mejora el uso de tu competencia en una habilidad. Cuando hagas una prueba de característica con una competencia en una habilidad en la que tengas pericia, tu bonificador por competencia se duplica en esa prueba salvo que otro rasgo lo duplique.",
+   "text": "La pericia es un rasgo que mejora el uso de tu competencia en una habilidad. Cuando hagas una prueba de característica con una competencia en una habilidad en la que tengas pericia, tu bonificador por competencia se duplica en esa prueba salvo que otro rasgo lo duplique."
+  },
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "Si ganas pericia, la ganas en una habilidad en la que tengas competencia. No puedes tener pericia más de una vez en la misma habilidad.",
+   "text": "Si ganas pericia, la ganas en una habilidad en la que tengas competencia. No puedes tener pericia más de una vez en la misma habilidad."
+  },
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "*Consulta también* el capítulo “Cómo jugar” (“Competencia”).",
+   "text": "Consulta también el capítulo “Cómo jugar” (“Competencia”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 205
+ }
+}

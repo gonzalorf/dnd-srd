@@ -1,0 +1,23 @@
+{
+ "id": "item.escudo-animado",
+ "name": "Escudo animado",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), muy rara (requiere sintonización)",
+ "text": "Mientras lleves embrazado este escudo, puedes emplear una acción adicional para darle vida. El escudo saltará de tu mano y levitará en tu espacio para protegerte como si lo embrazaras, pero dejará tus manos libres. Permanecerá animado durante 1 minuto, hasta que utilices una acción adicional para poner fin a este efecto o hasta que tengas el estado de incapacitado o mueras, momento en el que el escudo caerá al suelo o en tu mano si tienes una libre.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Mientras lleves embrazado este escudo, puedes emplear una acción adicional para darle vida. El escudo saltará de tu mano y levitará en tu espacio para protegerte como si lo embrazaras, pero dejará tus manos libres. Permanecerá animado durante 1 minuto, hasta que utilices una acción adicional para poner fin a este efecto o hasta que tengas el estado de incapacitado o mueras, momento en el que el escudo caerá al suelo o en tu mano si tienes una libre.",
+   "text": "Mientras lleves embrazado este escudo, puedes emplear una acción adicional para darle vida. El escudo saltará de tu mano y levitará en tu espacio para protegerte como si lo embrazaras, pero dejará tus manos libres. Permanecerá animado durante 1 minuto, hasta que utilices una acción adicional para poner fin a este efecto o hasta que tengas el estado de incapacitado o mueras, momento en el que el escudo caerá al suelo o en tu mano si tienes una libre."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

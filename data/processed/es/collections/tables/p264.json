@@ -1,0 +1,40 @@
+{
+ "id": "table.p264",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Curar heridas (versión de nivel 9)",
+   "4"
+  ],
+  [
+   "Detectar magia",
+   "0"
+  ],
+  [
+   "Escudriñar (CD de salvación 18)",
+   "3"
+  ],
+  [
+   "Guarda contra la muerte",
+   "2"
+  ],
+  [
+   "Luz del día",
+   "1"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Orbe Dragontino"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 264
+ }
+}

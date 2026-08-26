@@ -1,0 +1,29 @@
+{
+ "id": "weapon.martillo-de-guerra",
+ "name": "Martillo de guerra",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Martillo de guerra",
+  "Daño": "1d8 contundente",
+  "Propiedades": "Versátil (1d10)",
+  "Maestría": "Empujar",
+  "Peso": "2,5 kg",
+  "Precio": "15 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "15 po",
+  "amount": 15.0,
+  "coin": "po",
+  "gp": 15.0
+ }
+}

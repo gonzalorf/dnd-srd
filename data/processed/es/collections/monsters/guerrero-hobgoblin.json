@@ -1,0 +1,106 @@
+{
+ "id": "monster.guerrero-hobgoblin",
+ "name": "Guerrero hobgoblin",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 338
+ },
+ "context": [
+  "Hobgoblins"
+ ],
+ "metaRaw": "Feérico Mediano (trasgo), legal malvado",
+ "type": "Feérico",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "tags": [
+  "trasgo"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común",
+  "goblin"
+ ],
+ "gear": [
+  "arco largo",
+  "escudo",
+  "espada larga",
+  "media armadura"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en grupo",
+   "md": "***Atacar en grupo.*** El hobgoblin tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del hobgoblin se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.",
+   "page": 338,
+   "description": "El hobgoblin tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del hobgoblin se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Espada larga",
+   "md": "***Espada larga.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 12 (2d10 + 1) de daño cortante.",
+   "page": 338,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 12 (2d10 + 1) de daño cortante."
+  },
+  {
+   "name": "Arco largo",
+   "md": "***Arco largo.*** *Tirada de ataque a distancia:* +3, alcance 45/180 m. *Acierto:* 5 (1d8 + 1) de daño perforante más 7 (3d4) de daño de veneno.",
+   "page": 338,
+   "description": "*Tirada de ataque a distancia:* +3, alcance 45/180 m. *Acierto:* 5 (1d8 + 1) de daño perforante más 7 (3d4) de daño de veneno."
+  }
+ ]
+}

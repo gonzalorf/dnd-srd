@@ -1,0 +1,110 @@
+{
+ "id": "monster.pulpo",
+ "name": "Pulpo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 392
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Pequeña, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Pequeño",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "3 (1d6)",
+  "average": 3,
+  "formula": "1d6"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "nadar": 9.0
+ },
+ "skills": {
+  "Percepción": 2,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 9 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Compresión",
+   "md": "***Compresión.*** El pulpo puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.",
+   "page": 392,
+   "description": "El pulpo puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo."
+  },
+  {
+   "name": "Respirar en el agua",
+   "md": "***Respirar en el agua.*** El pulpo solo puede respirar bajo el agua.",
+   "page": 392,
+   "description": "El pulpo solo puede respirar bajo el agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Tentáculos",
+   "md": "***Tentáculos.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño contundente.",
+   "page": 392,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño contundente."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Nube de tinta",
+   "md": "***Nube de tinta (1/día).*** *Detonante:* una criatura termina su turno a 1,5 m o menos del pulpo mientras está bajo el agua. *Respuesta:* el pulpo suelta tinta que llena un cubo de 1,5 m de lado centrado en él y se mueve hasta su velocidad nadando. El cubo está muy oscuro durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.",
+   "page": 392,
+   "description": "*Detonante:* una criatura termina su turno a 1,5 m o menos del pulpo mientras está bajo el agua. *Respuesta:* el pulpo suelta tinta que llena un cubo de 1,5 m de lado centrado en él y se mueve hasta su velocidad nadando. El cubo está muy oscuro durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.",
+   "uses": "1/día"
+  }
+ ]
+}

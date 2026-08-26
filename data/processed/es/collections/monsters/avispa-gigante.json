@@ -1,0 +1,91 @@
+{
+ "id": "monster.avispa-gigante",
+ "name": "Avispa gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 378
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "22 (5d8)",
+  "average": 22,
+  "formula": "5d8"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 15.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Pasar volando",
+   "md": "***Pasar volando.*** La avispa no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.",
+   "page": 378,
+   "description": "La avispa no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Aguijón",
+   "md": "***Aguijón.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 5 (2d4) de daño de veneno.",
+   "page": 378,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 5 (2d4) de daño de veneno."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "vehicle.bote-de-remos",
+ "name": "Bote de remos",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Bote de remos",
+  "Velocidad": "2,4 km/h",
+  "Tripulación": "1",
+  "Pasajeros": "3",
+  "Cargamento (toneladas)": "—",
+  "CA": "11",
+  "PG": "50",
+  "Umbral de daño": "—",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

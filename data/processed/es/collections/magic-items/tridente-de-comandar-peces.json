@@ -1,0 +1,26 @@
+{
+ "id": "item.tridente-de-comandar-peces",
+ "name": "Tridente de comandar peces",
+ "category": "Arma",
+ "variant": "tridente",
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (tridente), infrecuente (requiere sintonización)",
+ "text": "Esta arma mágica tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Mientras la lleves contigo, podrás gastar 1 carga para lanzar dominar bestia (CD de salvación 15) desde ella sobre una bestia que tenga una velocidad nadando.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Esta arma mágica tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Mientras la lleves contigo, podrás gastar 1 carga para lanzar *dominar bestia* (CD de salvación 15) desde ella sobre una bestia que tenga una velocidad nadando.",
+   "text": "Esta arma mágica tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Mientras la lleves contigo, podrás gastar 1 carga para lanzar dominar bestia (CD de salvación 15) desde ella sobre una bestia que tenga una velocidad nadando."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 271
+ },
+ "refs": [
+  "spell.dominar-bestia"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "item.capa-de-la-mantarraya",
+ "name": "Capa de la mantarraya",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves esta capa, podrás respirar bajo el agua y tendrás una velocidad nadando de 18 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 247,
+   "md": "Mientras lleves esta capa, podrás respirar bajo el agua y tendrás una velocidad nadando de 18 m.",
+   "text": "Mientras lleves esta capa, podrás respirar bajo el agua y tendrás una velocidad nadando de 18 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 247
+ }
+}

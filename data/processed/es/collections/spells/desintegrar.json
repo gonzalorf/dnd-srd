@@ -1,0 +1,72 @@
+{
+ "id": "spell.desintegrar",
+ "name": "Desintegrar",
+ "level": 6,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un imán natural y polvo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un imán natural y polvo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Lanzas un rayo verde hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no mágico o una creación de fuerza mágica, como una pared creada por muro de fuerza.\n\nUna criatura que sea objetivo de este conjuro deberá hacer una tirada de salvación de Destreza. Si la falla, recibirá 10d6 + 40 de daño de fuerza. Si este daño reduce sus puntos de golpe a 0, la criatura y todos los objetos no mágicos que vista o lleve quedarán reducidos a un polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro deseo o resurrección verdadera.\n\nEste conjuro desintegra automáticamente cualquier objeto no mágico de tamaño Grande o más pequeño o cualquier creación de fuerza mágica. Si el objetivo es Enorme o mayor, el conjuro desintegrará una parte de él con forma de cubo de 3 m de lado.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Lanzas un rayo verde hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no mágico o una creación de fuerza mágica, como una pared creada por *muro de fuerza*.",
+   "text": "Lanzas un rayo verde hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no mágico o una creación de fuerza mágica, como una pared creada por muro de fuerza."
+  },
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Una criatura que sea objetivo de este conjuro deberá hacer una tirada de salvación de Destreza. Si la falla, recibirá 10d6 + 40 de daño de fuerza. Si este daño reduce sus puntos de golpe a 0, la criatura y todos los objetos no mágicos que vista o lleve quedarán reducidos a un polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro *deseo* o *resurrección verdadera*.",
+   "text": "Una criatura que sea objetivo de este conjuro deberá hacer una tirada de salvación de Destreza. Si la falla, recibirá 10d6 + 40 de daño de fuerza. Si este daño reduce sus puntos de golpe a 0, la criatura y todos los objetos no mágicos que vista o lleve quedarán reducidos a un polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro deseo o resurrección verdadera."
+  },
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Este conjuro desintegra automáticamente cualquier objeto no mágico de tamaño Grande o más pequeño o cualquier creación de fuerza mágica. Si el objetivo es Enorme o mayor, el conjuro desintegrará una parte de él con forma de cubo de 3 m de lado.",
+   "text": "Este conjuro desintegra automáticamente cualquier objeto no mágico de tamaño Grande o más pequeño o cualquier creación de fuerza mágica. Si el objetivo es Enorme o mayor, el conjuro desintegrará una parte de él con forma de cubo de 3 m de lado."
+  },
+  {
+   "type": "definition",
+   "page": 140,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 139
+ },
+ "refs": [
+  "spell.muro-de-fuerza",
+  "spell.deseo",
+  "spell.resurreccion-verdadera"
+ ]
+}

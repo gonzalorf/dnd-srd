@@ -1,0 +1,135 @@
+{
+ "id": "monster.elemental-de-fuego",
+ "name": "Elemental de fuego",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 319,
+  "pages": [
+   319,
+   320
+  ]
+ },
+ "context": [
+  "Elemental de fuego"
+ ],
+ "metaRaw": "Elemental Grande, neutral",
+ "type": "Elemental",
+ "alignment": "neutral",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "93 (11d10 + 33)",
+  "average": 93,
+  "formula": "11d10 + 33"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "primordial (ígneo)"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "agarrado",
+  "apresado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "contundente",
+  "cortante",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Aura de fuego",
+   "md": "***Aura de fuego.*** Al final de cada turno del elemental, todas las criaturas en una emanación de 3 m que se origina en él reciben 5 (1d10) de daño de fuego y las criaturas y objetos inflamables en ella empiezan a arder.",
+   "page": 319,
+   "description": "Al final de cada turno del elemental, todas las criaturas en una emanación de 3 m que se origina en él reciben 5 (1d10) de daño de fuego y las criaturas y objetos inflamables en ella empiezan a arder."
+  },
+  {
+   "name": "Forma de fuego",
+   "md": "***Forma de fuego.*** El elemental puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo y puede entrar en el espacio de una criatura y detenerse allí. La primera vez que entre en el espacio de una criatura durante un turno, la criatura recibirá 5 (1d10) de daño de fuego.",
+   "page": 319,
+   "description": "El elemental puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo y puede entrar en el espacio de una criatura y detenerse allí. La primera vez que entre en el espacio de una criatura durante un turno, la criatura recibirá 5 (1d10) de daño de fuego."
+  },
+  {
+   "name": "Iluminación",
+   "md": "***Iluminación.*** El elemental emite luz brillante en un radio de 9 m y luz tenue 9 m más allá.",
+   "page": 319,
+   "description": "El elemental emite luz brillante en un radio de 9 m y luz tenue 9 m más allá."
+  },
+  {
+   "name": "Susceptibilidad al agua",
+   "md": "***Susceptibilidad al agua.*** El elemental sufre 3 (1d6) de daño de frío por cada 1,5 m que se mueva en el agua o por cada 4 litros de agua que se viertan sobre él.",
+   "page": 320,
+   "description": "El elemental sufre 3 (1d6) de daño de frío por cada 1,5 m que se mueva en el agua o por cada 4 litros de agua que se viertan sobre él."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El elemental realiza dos ataques de quemadura.",
+   "page": 320,
+   "description": "El elemental realiza dos ataques de quemadura."
+  },
+  {
+   "name": "Quemadura",
+   "md": "***Quemadura.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño de fuego. Si el objetivo es una criatura o un objeto inflamable, empezará a arder.",
+   "page": 320,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño de fuego. Si el objetivo es una criatura o un objeto inflamable, empezará a arder."
+  }
+ ]
+}

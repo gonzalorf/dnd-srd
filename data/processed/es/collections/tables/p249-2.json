@@ -1,0 +1,51 @@
+{
+ "id": "table.p249-2",
+ "caption": null,
+ "header": [
+  "1d20",
+  "Cuenta",
+  "Conjuro"
+ ],
+ "rows": [
+  [
+   "1–2",
+   "Cuenta castigadora",
+   "Castigo brillante"
+  ],
+  [
+   "3–8",
+   "Cuenta curativa",
+   "Curar heridas (versión de nivel 2)"
+  ],
+  [
+   "9–14",
+   "Cuenta de bendición",
+   "Bendición"
+  ],
+  [
+   "15",
+   "Cuenta de caminar vientos",
+   "Viajar con el viento"
+  ],
+  [
+   "16–19",
+   "Cuenta de favor",
+   "Restablecimiento mayor"
+  ],
+  [
+   "20",
+   "Cuenta invocadora",
+   "Guardián de la fe"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Collar de plegarias"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 249
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "monster.gigante-de-escarcha",
+ "name": "Gigante de escarcha",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 327,
+  "pages": [
+   327,
+   328
+  ]
+ },
+ "context": [
+  "Gigante de escarcha"
+ ],
+ "metaRaw": "Gigante Enorme, neutral malvado",
+ "type": "Gigante",
+ "alignment": "neutral malvado",
+ "size": "Enorme",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "149 (13d12 + 65)",
+  "average": 149,
+  "formula": "13d12 + 65"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Atletismo": 9,
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "gigante"
+ ],
+ "immunities": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 8
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 3
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gigante realiza dos ataques con su hacha escarchada o su gran arco en cualquier combinación.",
+   "page": 328,
+   "description": "El gigante realiza dos ataques con su hacha escarchada o su gran arco en cualquier combinación."
+  },
+  {
+   "name": "Hacha escarchada",
+   "md": "***Hacha escarchada.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 19 (2d12 + 6) de daño cortante más 9 (2d8) de daño de frío.",
+   "page": 328,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 19 (2d12 + 6) de daño cortante más 9 (2d8) de daño de frío."
+  },
+  {
+   "name": "Gran arco",
+   "md": "***Gran arco.*** *Tirada de ataque a distancia:* +9, alcance 45/180 m. *Acierto:* 17 (2d10 + 6) de daño perforante más 7 (2d6) de daño de frío y la velocidad del objetivo se reducirá en 3 m hasta el final de su siguiente turno.",
+   "page": 328,
+   "description": "*Tirada de ataque a distancia:* +9, alcance 45/180 m. *Acierto:* 17 (2d10 + 6) de daño perforante más 7 (2d6) de daño de frío y la velocidad del objetivo se reducirá en 3 m hasta el final de su siguiente turno."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Grito de guerra",
+   "md": "***Grito de guerra (recarga 5–6).*** El gigante o una criatura de su elección que pueda verlo u oírlo obtiene 16 (2d10 + 5) puntos de golpe temporales y ventaja en las tiradas de ataque hasta el principio del siguiente turno del gigante.",
+   "page": 328,
+   "description": "El gigante o una criatura de su elección que pueda verlo u oírlo obtiene 16 (2d10 + 5) puntos de golpe temporales y ventaja en las tiradas de ataque hasta el principio del siguiente turno del gigante.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

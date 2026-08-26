@@ -1,0 +1,29 @@
+{
+ "id": "rule.estado",
+ "name": "Estado",
+ "text": "Un estado es una situación temporal que experimenta una criatura en la partida. La definición de un estado indica cómo afecta a su destinatario y diversas reglas explican cómo poner fin a un estado. El glosario define los siguientes estados:\n\nAgarrado Cegado Incapacitado Apresado Derribado Inconsciente Asustado Ensordecido Invisible Aturdido Envenenado Paralizado Cansancio Hechizado Petrificado\n\nUn estado no se acumula: el destinatario lo tiene o no lo tiene. El estado de cansancio es una excepción a esta regla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Un estado es una situación temporal que experimenta una criatura en la partida. La definición de un estado indica cómo afecta a su destinatario y diversas reglas explican cómo poner fin a un estado. El glosario define los siguientes estados:",
+   "text": "Un estado es una situación temporal que experimenta una criatura en la partida. La definición de un estado indica cómo afecta a su destinatario y diversas reglas explican cómo poner fin a un estado. El glosario define los siguientes estados:"
+  },
+  {
+   "type": "callout",
+   "page": 201,
+   "md": "Agarrado Cegado Incapacitado Apresado Derribado Inconsciente Asustado Ensordecido Invisible Aturdido Envenenado Paralizado Cansancio Hechizado Petrificado",
+   "text": "Agarrado Cegado Incapacitado Apresado Derribado Inconsciente Asustado Ensordecido Invisible Aturdido Envenenado Paralizado Cansancio Hechizado Petrificado"
+  },
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Un estado no se acumula: el destinatario lo tiene o no lo tiene. El estado de cansancio es una excepción a esta regla.",
+   "text": "Un estado no se acumula: el destinatario lo tiene o no lo tiene. El estado de cansancio es una excepción a esta regla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ }
+}

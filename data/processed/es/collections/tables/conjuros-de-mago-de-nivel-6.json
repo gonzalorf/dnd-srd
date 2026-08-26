@@ -1,0 +1,116 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-6",
+ "caption": "Conjuros de mago de nivel 6",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Baile irresistible",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Círculo de muerte",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Contingencia",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Crear muerto viviente",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "De la carne a la piedra",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Desintegrar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Esfera congelante",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Globo de invulnerabilidad",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Guardas y guardias",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Ilusión programada",
+   "Ilusionismo",
+   "M"
+  ],
+  [
+   "Invocación instantánea",
+   "Conjuración",
+   "R, M"
+  ],
+  [
+   "Mal de ojo",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Mover la tierra",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Muro de hielo",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Rayo solar",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Relámpago en cadena",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Sugestión en masa",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Urna mágica",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Visión veraz",
+   "Adivinación",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 75
+ }
+}

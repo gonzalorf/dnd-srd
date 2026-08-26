@@ -1,0 +1,50 @@
+{
+ "id": "spell.santuario",
+ "name": "Santuario",
+ "level": 1,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de vidrio de un espejo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de vidrio de un espejo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Proteges a una criatura que esté dentro del alcance. Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija daño deberá superar primero una tirada de salvación de Sabiduría; de lo contrario, elegirá un nuevo objetivo o perderá el ataque o conjuro. Este conjuro no protege a la criatura contra los efectos de área. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Proteges a una criatura que esté dentro del alcance. Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija daño deberá superar primero una tirada de salvación de Sabiduría; de lo contrario, elegirá un nuevo objetivo o perderá el ataque o conjuro. Este conjuro no protege a la criatura contra los efectos de área. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño.",
+   "text": "Proteges a una criatura que esté dentro del alcance. Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija daño deberá superar primero una tirada de salvación de Sabiduría; de lo contrario, elegirá un nuevo objetivo o perderá el ataque o conjuro. Este conjuro no protege a la criatura contra los efectos de área. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 184
+ }
+}

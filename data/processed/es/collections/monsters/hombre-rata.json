@@ -1,0 +1,119 @@
+{
+ "id": "monster.hombre-rata",
+ "name": "Hombre rata",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 340
+ },
+ "context": [
+  "Hombre rata"
+ ],
+ "metaRaw": "Monstruosidad Mediana o Pequeña (licántropo), legal malvada",
+ "type": "Monstruosidad",
+ "alignment": "legal malvada",
+ "size": "Mediano",
+ "tags": [
+  "licántropo"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "60 (11d8 + 11)",
+  "average": 60,
+  "formula": "11d8 + 11"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "común (no puede hablar en forma de rata)"
+ ],
+ "gear": [
+  "ballesta de mano"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hombre rata realiza dos ataques con su arañazo o su ballesta de mano en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco.",
+   "page": 340,
+   "description": "El hombre rata realiza dos ataques con su arañazo o su ballesta de mano en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco."
+  },
+  {
+   "name": "Arañazo",
+   "md": "***Arañazo.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño cortante."
+  },
+  {
+   "name": "Mordisco (solo en forma de rata o híbrida)",
+   "md": "***Mordisco (solo en forma de rata o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (2d4 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 11. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre rata controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre rata durante 24 horas.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (2d4 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 11. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre rata controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre rata durante 24 horas."
+  },
+  {
+   "name": "Ballesta de mano (solo en forma humanoide o híbrida)",
+   "md": "***Ballesta de mano (solo en forma humanoide o híbrida).*** *Tirada de ataque a distancia:* +5, alcance 9/36 m. *Acierto:* 6 (1d6 + 3) de daño perforante.",
+   "page": 340,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 9/36 m. *Acierto:* 6 (1d6 + 3) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El hombre rata adopta la forma de un híbrido de rata-humanoide Mediano o de una rata Pequeña, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 340,
+   "description": "El hombre rata adopta la forma de un híbrido de rata-humanoide Mediano o de una rata Pequeña, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ]
+}

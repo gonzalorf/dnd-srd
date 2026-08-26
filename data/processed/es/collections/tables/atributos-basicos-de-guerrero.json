@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-guerrero",
+ "caption": "Atributos básicos de guerrero",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Fuerza o Destreza"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d10 por nivel de guerrero"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Fuerza y Constitución"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Acrobacias, Atletismo, Historia, Intimidación, Percepción, Perspicacia, Persuasión, Supervivencia o Trato con animales"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas y marciales"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras, medias y pesadas y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A, Bo C: (A) cota de malla, espadón, mangual, 8 jabalinas, paquete de explorador de mazmorras y 4 po; (B) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, paquete de explorador de mazmorras y 11 po, o (C) 155 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Guerrero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 62
+ }
+}

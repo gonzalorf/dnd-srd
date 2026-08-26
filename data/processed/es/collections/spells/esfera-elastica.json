@@ -1,0 +1,71 @@
+{
+ "id": "spell.esfera-elastica",
+ "name": "Esfera elástica",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una esfera de cristal)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una esfera de cristal",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una esfera destellante encierra a una criatura u objeto Grande o más pequeño dentro del alcance. Una criatura no voluntaria deberá superar una tirada de salvación de Destreza o quedará encerrada hasta que el conjuro termine.\n\nNada (ni objetos físicos ni energía ni los efectos de otros conjuros) puede atravesar la barrera en ninguna de sus direcciones, aunque una criatura que esté en la esfera puede respirar en su interior. La esfera es inmune a todo el daño y una criatura o un objeto en su interior no puede sufrir daño por ataques o efectos que se originen en el exterior y tampoco puede dañar a nada que haya fuera de la esfera.\n\nLa esfera no pesa nada y tiene un tamaño justo como para contener a la criatura o el objeto de su interior. Una criatura encerrada puede utilizar una acción para empujar las paredes de la esfera y hacerla rodar a hasta la mitad de su velocidad. De forma similar, otras criaturas pueden recoger la esfera y moverla.\n\nUn conjuro desintegrar que haga objetivo a la esfera la destruirá, pero no dañará nada que haya dentro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Una esfera destellante encierra a una criatura u objeto Grande o más pequeño dentro del alcance. Una criatura no voluntaria deberá superar una tirada de salvación de Destreza o quedará encerrada hasta que el conjuro termine.",
+   "text": "Una esfera destellante encierra a una criatura u objeto Grande o más pequeño dentro del alcance. Una criatura no voluntaria deberá superar una tirada de salvación de Destreza o quedará encerrada hasta que el conjuro termine."
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Nada (ni objetos físicos ni energía ni los efectos de otros conjuros) puede atravesar la barrera en ninguna de sus direcciones, aunque una criatura que esté en la esfera puede respirar en su interior. La esfera es inmune a todo el daño y una criatura o un objeto en su interior no puede sufrir daño por ataques o efectos que se originen en el exterior y tampoco puede dañar a nada que haya fuera de la esfera.",
+   "text": "Nada (ni objetos físicos ni energía ni los efectos de otros conjuros) puede atravesar la barrera en ninguna de sus direcciones, aunque una criatura que esté en la esfera puede respirar en su interior. La esfera es inmune a todo el daño y una criatura o un objeto en su interior no puede sufrir daño por ataques o efectos que se originen en el exterior y tampoco puede dañar a nada que haya fuera de la esfera."
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "La esfera no pesa nada y tiene un tamaño justo como para contener a la criatura o el objeto de su interior. Una criatura encerrada puede utilizar una acción para empujar las paredes de la esfera y hacerla rodar a hasta la mitad de su velocidad. De forma similar, otras criaturas pueden recoger la esfera y moverla.",
+   "text": "La esfera no pesa nada y tiene un tamaño justo como para contener a la criatura o el objeto de su interior. Una criatura encerrada puede utilizar una acción para empujar las paredes de la esfera y hacerla rodar a hasta la mitad de su velocidad. De forma similar, otras criaturas pueden recoger la esfera y moverla."
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Un conjuro *desintegrar* que haga objetivo a la esfera la destruirá, pero no dañará nada que haya dentro.",
+   "text": "Un conjuro desintegrar que haga objetivo a la esfera la destruirá, pero no dañará nada que haya dentro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 148
+ },
+ "refs": [
+  "spell.desintegrar"
+ ]
+}

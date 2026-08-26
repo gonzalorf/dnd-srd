@@ -1,0 +1,60 @@
+{
+ "id": "spell.contagio",
+ "name": "Contagio",
+ "level": 5,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "7 días",
+  "concentration": false,
+  "kind": "timed",
+  "value": 7,
+  "unit": "día"
+ },
+ "text": "Tu toque causa un contagio mágico. El objetivo debe superar una tirada de salvación de Constitución o sufrirá 11d8 de daño necrótico y tendrá el estado de envenenado. Además, elige una característica cuando lances el conjuro. Mientras esté envenenado, el objetivo tendrá desventaja en las tiradas de salvación que haga con la característica elegida.\n\nEl objetivo deberá repetir la tirada de salvación al final de cada uno de sus turnos hasta que la supere o la falle tres veces. Si supera tres de estas tiradas, el conjuro terminará para el objetivo, pero si falla tres tiradas, el conjuro le durará 7 días.\n\nCuando el objetivo envenenado reciba un efecto que fuera a poner fin al estado de envenenado, deberá superar una tirada de salvación de Constitución o el estado de envenenado no terminará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "Tu toque causa un contagio mágico. El objetivo debe superar una tirada de salvación de Constitución o sufrirá 11d8 de daño necrótico y tendrá el estado de envenenado. Además, elige una característica cuando lances el conjuro. Mientras esté envenenado, el objetivo tendrá desventaja en las tiradas de salvación que haga con la característica elegida.",
+   "text": "Tu toque causa un contagio mágico. El objetivo debe superar una tirada de salvación de Constitución o sufrirá 11d8 de daño necrótico y tendrá el estado de envenenado. Además, elige una característica cuando lances el conjuro. Mientras esté envenenado, el objetivo tendrá desventaja en las tiradas de salvación que haga con la característica elegida."
+  },
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "El objetivo deberá repetir la tirada de salvación al final de cada uno de sus turnos hasta que la supere o la falle tres veces. Si supera tres de estas tiradas, el conjuro terminará para el objetivo, pero si falla tres tiradas, el conjuro le durará 7 días.",
+   "text": "El objetivo deberá repetir la tirada de salvación al final de cada uno de sus turnos hasta que la supere o la falle tres veces. Si supera tres de estas tiradas, el conjuro terminará para el objetivo, pero si falla tres tiradas, el conjuro le durará 7 días."
+  },
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "Cuando el objetivo envenenado reciba un efecto que fuera a poner fin al estado de envenenado, deberá superar una tirada de salvación de Constitución o el estado de envenenado no terminará.",
+   "text": "Cuando el objetivo envenenado reciba un efecto que fuera a poner fin al estado de envenenado, deberá superar una tirada de salvación de Constitución o el estado de envenenado no terminará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 134
+ }
+}

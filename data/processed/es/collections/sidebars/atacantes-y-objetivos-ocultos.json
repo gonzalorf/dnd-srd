@@ -1,0 +1,21 @@
+{
+ "id": "sidebar.atacantes-y-objetivos-ocultos",
+ "title": "Atacantes y objetivos ocultos",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Cuando ataques a un objetivo al que no puedas ver, tendrás desventaja en la tirada. Esta regla se aplica tanto si estás intentando adivinar la ubicación del objetivo como si haces objetivo a una criatura a la que puedes oír pero no ver. Si el objetivo no se encuentra en el lugar al que diriges tu ataque, fallarás. Cuando ataques a un objetivo que no te pueda ver, tendrás ventaja en la tirada de ataque. Si estás escondido cuando haces una tirada de ataque, revelarás tu ubicación tanto si el ataque acierta como si no.",
+   "text": "Cuando ataques a un objetivo al que no puedas ver, tendrás desventaja en la tirada. Esta regla se aplica tanto si estás intentando adivinar la ubicación del objetivo como si haces objetivo a una criatura a la que puedes oír pero no ver. Si el objetivo no se encuentra en el lugar al que diriges tu ataque, fallarás. Cuando ataques a un objetivo que no te pueda ver, tendrás ventaja en la tirada de ataque. Si estás escondido cuando haces una tirada de ataque, revelarás tu ubicación tanto si el ataque acierta como si no."
+  }
+ ],
+ "context": [
+  "Cómo jugar",
+  "Combate",
+  "Ataques a distancia",
+  "Ataques a distancia en combate cuerpo a cuerpo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 16
+ }
+}

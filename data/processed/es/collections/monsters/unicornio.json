@@ -1,0 +1,171 @@
+{
+ "id": "monster.unicornio",
+ "name": "Unicornio",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 372,
+  "pages": [
+   372,
+   373
+  ]
+ },
+ "context": [
+  "Unicornio"
+ ],
+ "metaRaw": "Celestial Grande, legal bueno",
+ "type": "Celestial",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 8,
+  "score": 18
+ },
+ "hp": {
+  "raw": "97 (13d10 + 26)",
+  "average": 97,
+  "formula": "13d10 + 26"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "celestial",
+  "elfo",
+  "silvano",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado",
+  "hechizado",
+  "paralizado"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día).*** El unicornio puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 372,
+   "description": "El unicornio puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día"
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El unicornio tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 372,
+   "description": "El unicornio tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El unicornio realiza un ataque con sus cascos y uno con su cuerno radiante.",
+   "page": 372,
+   "description": "El unicornio realiza un ataque con sus cascos y uno con su cuerno radiante."
+  },
+  {
+   "name": "Cascos",
+   "md": "***Cascos.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño contundente.",
+   "page": 373,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño contundente."
+  },
+  {
+   "name": "Cuerno radiante",
+   "md": "***Cuerno radiante.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 9 (1d10 + 4) de daño radiante.",
+   "page": 373,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 9 (1d10 + 4) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El unicornio lanza uno de los siguientes conjuros, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 14):",
+   "page": 373,
+   "description": "El unicornio lanza uno de los siguientes conjuros, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 14):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar el bien y el mal*, *saber druídico* 1/día cada uno: *calmar emociones*, *disipar el bien y el mal*, *enmarañar*, *palabra de regreso*, *pasar sin rastro*",
+   "page": 373
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Bendición de unicornio",
+   "md": "***Bendición de unicornio (3/día).*** El unicornio toca a otra criatura con su cuerno y lanza *curar heridas* o *restablecimiento menor* sobre esa criatura usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 373,
+   "description": "El unicornio toca a otra criatura con su cuerno y lanza *curar heridas* o *restablecimiento menor* sobre esa criatura usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Cuerno embestidor",
+    "md": "***Cuerno embestidor.*** El unicornio se mueve hasta la mitad de su velocidad sin provocar ataques de oportunidad y realiza un ataque con su cuerno radiante.",
+    "page": 373,
+    "description": "El unicornio se mueve hasta la mitad de su velocidad sin provocar ataques de oportunidad y realiza un ataque con su cuerno radiante."
+   },
+   {
+    "name": "Escudo resplandeciente",
+    "md": "***Escudo resplandeciente.*** El unicornio se hace objetivo a sí mismo o hace objetivo a una criatura que pueda ver a 18 m o menos de él. El objetivo obtiene 10 (3d6) puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del unicornio. El unicornio no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 373,
+    "description": "El unicornio se hace objetivo a sí mismo o hace objetivo a una criatura que pueda ver a 18 m o menos de él. El objetivo obtiene 10 (3d6) puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del unicornio. El unicornio no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3. Justo después del turno de otra criatura, el unicornio puede emplear un uso para llevar a cabo una de las siguientes acciones. El unicornio recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3
+ },
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.saber-druidico",
+  "spell.calmar-emociones",
+  "spell.disipar-el-bien-y-el-mal",
+  "spell.enmaranar",
+  "spell.palabra-de-regreso",
+  "spell.pasar-sin-rastro",
+  "spell.curar-heridas",
+  "spell.restablecimiento-menor"
+ ]
+}

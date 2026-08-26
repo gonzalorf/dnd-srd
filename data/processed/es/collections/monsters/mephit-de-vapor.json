@@ -1,0 +1,114 @@
+{
+ "id": "monster.mephit-de-vapor",
+ "name": "Mephit de vapor",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 350
+ },
+ "context": [
+  "Mephits"
+ ],
+ "metaRaw": "Elemental Pequeño, neutral malvado",
+ "type": "Elemental",
+ "alignment": "neutral malvado",
+ "size": "Pequeño",
+ "ac": 10,
+ "acRaw": "10",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "17 (5d6)",
+  "average": 17,
+  "formula": "5d6"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Sigilo": 2
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "primordial (acuano",
+  "ígneo)"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Explotar al morir",
+   "md": "***Explotar al morir.*** El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 350,
+   "description": "El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño de fuego. *Éxito:* la mitad del daño."
+  },
+  {
+   "name": "Forma borrosa",
+   "md": "***Forma borrosa.*** Las tiradas de ataque contra el mephit se harán con desventaja a menos que tenga el estado de incapacitado.",
+   "page": 350,
+   "description": "Las tiradas de ataque contra el mephit se harán con desventaja a menos que tenga el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño cortante más 2 (1d4) de daño de fuego.",
+   "page": 350,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño cortante más 2 (1d4) de daño de fuego."
+  },
+  {
+   "name": "Aliento de vapor",
+   "md": "***Aliento de vapor (recarga 6).*** *Tirada de salvación de Constitución:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* 5 (2d4) de daño de fuego y la velocidad del objetivo se reducirá en 3 m hasta el final del siguiente turno del mephit. *Éxito:* solo la mitad del daño. *Fallo o éxito:* estar bajo el agua no otorga resistencia a este daño de fuego.",
+   "page": 350,
+   "description": "*Tirada de salvación de Constitución:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* 5 (2d4) de daño de fuego y la velocidad del objetivo se reducirá en 3 m hasta el final del siguiente turno del mephit. *Éxito:* solo la mitad del daño. *Fallo o éxito:* estar bajo el agua no otorga resistencia a este daño de fuego.",
+   "uses": "recarga 6"
+  }
+ ]
+}

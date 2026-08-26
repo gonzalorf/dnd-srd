@@ -1,0 +1,53 @@
+{
+ "id": "species.humano",
+ "name": "Humano",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie\n\nVelocidad: 9 m\n\nComo humano, tienes estos atributos especiales:\n\nDiestro. Ganas competencia en una habilidad de tu elección.\n\nIngenioso. Obtienes inspiración heroica tras finalizar un descanso largo.\n\nVersátil. Obtienes una dote de origen de tu elección (consulta el capítulo “Dotes”). Se recomienda Habilidoso.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 92,
+   "md": "Tamaño: Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie",
+   "text": "Tamaño: Mediano (entre 1,2 y 2,1 m de altura) o Pequeño (entre 60 cm y 1,2 m de altura), elegido al seleccionar la especie"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Como humano, tienes estos atributos especiales:",
+   "text": "Como humano, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Diestro.*** Ganas competencia en una habilidad de tu elección.",
+   "text": "Diestro. Ganas competencia en una habilidad de tu elección."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Ingenioso.*** Obtienes inspiración heroica tras finalizar un descanso largo.",
+   "text": "Ingenioso. Obtienes inspiración heroica tras finalizar un descanso largo."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Versátil.*** Obtienes una dote de origen de tu elección (consulta el capítulo “Dotes”). Se recomienda Habilidoso.",
+   "text": "Versátil. Obtienes una dote de origen de tu elección (consulta el capítulo “Dotes”). Se recomienda Habilidoso."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 92
+ }
+}

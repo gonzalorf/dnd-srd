@@ -1,0 +1,17 @@
+{
+ "id": "rule.vision-en-la-oscuridad",
+ "name": "Visión en la oscuridad",
+ "text": "Si tienes visión en la oscuridad dentro de un alcance específico, puedes ver con luz tenue como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. En esa oscuridad, solo disciernes los colores como tonos de gris. Consulta también el capítulo “Cómo jugar” (“Exploración”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Si tienes visión en la oscuridad dentro de un alcance específico, puedes ver con luz tenue como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. En esa oscuridad, solo disciernes los colores como tonos de gris. *Consulta también* el capítulo “Cómo jugar” (“Exploración”).",
+   "text": "Si tienes visión en la oscuridad dentro de un alcance específico, puedes ver con luz tenue como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. En esa oscuridad, solo disciernes los colores como tonos de gris. Consulta también el capítulo “Cómo jugar” (“Exploración”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "item.maza-disruptiva",
+ "name": "Maza disruptiva",
+ "category": "Arma",
+ "variant": "maza",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (maza), rara (requiere sintonización)",
+ "text": "Cuando aciertes a un infernal o muerto viviente con esta arma mágica, esa criatura recibirá 2d6 de daño radiante adicional. Si al objetivo le quedan 25 puntos de golpe o menos tras sufrir este daño, deberá superar una tirada de salvación de Sabiduría con CD 15 o será destruido. Si la supera, tendrá el estado de asustado hasta el final de tu siguiente turno.\n\nLuz. Mientras empuñes esta arma, emitirá luz brillante en un radio de 6 m y luz tenue 6 m más allá.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Cuando aciertes a un infernal o muerto viviente con esta arma mágica, esa criatura recibirá 2d6 de daño radiante adicional. Si al objetivo le quedan 25 puntos de golpe o menos tras sufrir este daño, deberá superar una tirada de salvación de Sabiduría con CD 15 o será destruido. Si la supera, tendrá el estado de asustado hasta el final de tu siguiente turno.",
+   "text": "Cuando aciertes a un infernal o muerto viviente con esta arma mágica, esa criatura recibirá 2d6 de daño radiante adicional. Si al objetivo le quedan 25 puntos de golpe o menos tras sufrir este daño, deberá superar una tirada de salvación de Sabiduría con CD 15 o será destruido. Si la supera, tendrá el estado de asustado hasta el final de tu siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 263,
+   "md": "***Luz.*** Mientras empuñes esta arma, emitirá luz brillante en un radio de 6 m y luz tenue 6 m más allá.",
+   "text": "Luz. Mientras empuñes esta arma, emitirá luz brillante en un radio de 6 m y luz tenue 6 m más allá."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 263
+ }
+}

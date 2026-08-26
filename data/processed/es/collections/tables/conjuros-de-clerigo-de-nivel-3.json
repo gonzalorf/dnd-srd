@@ -1,0 +1,116 @@
+{
+ "id": "table.conjuros-de-clerigo-de-nivel-3",
+ "caption": "Conjuros de clérigo de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Animar a los muertos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Caminar sobre el agua",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Círculo mágico",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Clarividencia",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Crear comida y agua",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Don de lenguas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Espíritus guardianes",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Fundirse con la piedra",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Glifo custodio",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Hablar con los muertos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Imponer maldición",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Levantar maldición",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Luz del día",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Palabra de curación en masa",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Protección contra energía",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Recado",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Revivir",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Señal de esperanza",
+   "Abjuración",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo",
+  "Lista de conjuros de clérigo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 50
+ }
+}

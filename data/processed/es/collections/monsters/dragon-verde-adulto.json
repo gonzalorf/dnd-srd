@@ -1,0 +1,172 @@
+{
+ "id": "monster.dragon-verde-adulto",
+ "name": "Dragón verde adulto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 315,
+  "pages": [
+   315,
+   316
+  ]
+ },
+ "context": [
+  "Dragones verdes"
+ ],
+ "metaRaw": "Dragón Enorme (cromático), legal malvado",
+ "type": "Dragón",
+ "alignment": "legal malvado",
+ "size": "Enorme",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 11,
+  "score": 21
+ },
+ "hp": {
+  "raw": "207 (18d12 + 90)",
+  "average": 207,
+  "formula": "18d12 + 90"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Engaño": 9,
+  "Percepción": 12,
+  "Persuasión": 9,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 22",
+  "passivePerception": 22
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+  "cr": 15,
+  "xp": 13000,
+  "proficiencyBonus": 5,
+  "xpInLair": 15000
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 6
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 7
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 315,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 315,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 3).",
+   "page": 315,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 3)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +11, alcance 3 m. *Acierto:* 15 (2d8 + 6) de daño cortante más 7 (2d6) de daño de veneno.",
+   "page": 315,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +11, alcance 3 m. *Acierto:* 15 (2d8 + 6) de daño cortante más 7 (2d6) de daño de veneno."
+  },
+  {
+   "name": "Aliento venenoso",
+   "md": "***Aliento venenoso (recarga 5–6).*** *Tirada de salvación de Constitución:* CD 18, todas las criaturas en un cono de 18 m. *Fallo:* 56 (16d6) de daño de veneno. *Éxito:* la mitad del daño.",
+   "page": 315,
+   "description": "*Tirada de salvación de Constitución:* CD 18, todas las criaturas en un cono de 18 m. *Fallo:* 56 (16d6) de daño de veneno. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17):",
+   "page": 315,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *clavo mental* (versión de nivel 3), *detectar magia* 1/día: *geas*",
+   "page": 315
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 315,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Invasión mental",
+    "md": "***Invasión mental.*** El dragón utiliza su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 3).",
+    "page": 315,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 3)."
+   },
+   {
+    "name": "Miasma venenoso",
+    "md": "***Miasma venenoso.*** *Tirada de salvación de Constitución:* CD 17, todas las criaturas en una esfera de 6 m de radio centrada en un punto que el dragón pueda ver a 27 m o menos. *Fallo:* 7 (2d6) de daño de veneno y el objetivo tendrá un penalizador de −2 a la CA hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 316,
+    "description": "*Tirada de salvación de Constitución:* CD 17, todas las criaturas en una esfera de 6 m de radio centrada en un punto que el dragón pueda ver a 27 m o menos. *Fallo:* 7 (2d6) de daño de veneno y el objetivo tendrá un penalizador de −2 a la CA hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.clavo-mental",
+  "spell.detectar-magia",
+  "spell.geas"
+ ]
+}

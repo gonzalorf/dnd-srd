@@ -1,0 +1,36 @@
+{
+ "id": "gear.puntas-de-hierro",
+ "name": "Puntas de hierro",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Puntas de hierro",
+  "Peso": "2,5 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta.",
+   "text": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta."
+  }
+ ],
+ "descriptionPage": 107
+}

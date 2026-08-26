@@ -1,0 +1,52 @@
+{
+ "id": "table.p267-2",
+ "caption": null,
+ "header": [
+  "1d10",
+  "Tipo de daño",
+  "1d10",
+  "Tipo de daño"
+ ],
+ "rows": [
+  [
+   "1",
+   "Ácido",
+   "6",
+   "Psíquico"
+  ],
+  [
+   "2",
+   "Frío",
+   "7",
+   "Radiante"
+  ],
+  [
+   "3",
+   "Fuego",
+   "8",
+   "Relámpago"
+  ],
+  [
+   "4",
+   "Fuerza",
+   "9",
+   "Trueno"
+  ],
+  [
+   "5",
+   "Necrótico",
+   "10",
+   "Veneno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Poción de resistencia"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

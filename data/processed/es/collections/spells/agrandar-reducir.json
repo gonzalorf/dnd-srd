@@ -1,0 +1,77 @@
+{
+ "id": "spell.agrandar-reducir",
+ "name": "Agrandar/reducir",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una pizca hierro en polvo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca hierro en polvo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Hasta que el conjuro termine, aumenta o reduce el tamaño de una criatura u objeto que puedas ver dentro del alcance (consulta el efecto elegido a continuación). Si el objetivo es un objeto, no puede estar llevándolo ni vistiéndolo nadie. Si es una criatura no voluntaria, puede hacer una tirada de salvación de Constitución y, si la supera, el conjuro no tiene efecto.\n\nTodo lo que vista y lleve una criatura objetivo cambiará de tamaño con ella y cualquier objeto que suelte volverá a su tamaño normal de inmediato. Un arma arrojadiza o un proyectil recuperará su tamaño normal justo después de acertar a un objetivo o fallar.\n\nAgrandar. El tamaño del objetivo aumenta en una categoría; por ejemplo, de Mediano a Grande. El objetivo también tendrá ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza. Además, sus ataques con armas agrandadas o sin armas causan 1d4 de daño adicional al acertar.\n\nReducir. El tamaño del objetivo se reduce en una categoría; por ejemplo, de Mediano a Pequeño. El objetivo también tendrá desventaja en las pruebas de Fuerza y en las tiradas de salvación de\n\nFuerza. Los ataques que haga con armas reducidas o sin armas causan 1d4 menos de daño al acertar (esto no puede reducir el daño a menos de 1).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Hasta que el conjuro termine, aumenta o reduce el tamaño de una criatura u objeto que puedas ver dentro del alcance (consulta el efecto elegido a continuación). Si el objetivo es un objeto, no puede estar llevándolo ni vistiéndolo nadie. Si es una criatura no voluntaria, puede hacer una tirada de salvación de Constitución y, si la supera, el conjuro no tiene efecto.",
+   "text": "Hasta que el conjuro termine, aumenta o reduce el tamaño de una criatura u objeto que puedas ver dentro del alcance (consulta el efecto elegido a continuación). Si el objetivo es un objeto, no puede estar llevándolo ni vistiéndolo nadie. Si es una criatura no voluntaria, puede hacer una tirada de salvación de Constitución y, si la supera, el conjuro no tiene efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Todo lo que vista y lleve una criatura objetivo cambiará de tamaño con ella y cualquier objeto que suelte volverá a su tamaño normal de inmediato. Un arma arrojadiza o un proyectil recuperará su tamaño normal justo después de acertar a un objetivo o fallar.",
+   "text": "Todo lo que vista y lleve una criatura objetivo cambiará de tamaño con ella y cualquier objeto que suelte volverá a su tamaño normal de inmediato. Un arma arrojadiza o un proyectil recuperará su tamaño normal justo después de acertar a un objetivo o fallar."
+  },
+  {
+   "type": "definition",
+   "page": 118,
+   "md": "***Agrandar.*** El tamaño del objetivo aumenta en una categoría; por ejemplo, de Mediano a Grande. El objetivo también tendrá ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza. Además, sus ataques con armas agrandadas o sin armas causan 1d4 de daño adicional al acertar.",
+   "text": "Agrandar. El tamaño del objetivo aumenta en una categoría; por ejemplo, de Mediano a Grande. El objetivo también tendrá ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza. Además, sus ataques con armas agrandadas o sin armas causan 1d4 de daño adicional al acertar."
+  },
+  {
+   "type": "definition",
+   "page": 118,
+   "md": "***Reducir.*** El tamaño del objetivo se reduce en una categoría; por ejemplo, de Mediano a Pequeño. El objetivo también tendrá desventaja en las pruebas de Fuerza y en las tiradas de salvación de",
+   "text": "Reducir. El tamaño del objetivo se reduce en una categoría; por ejemplo, de Mediano a Pequeño. El objetivo también tendrá desventaja en las pruebas de Fuerza y en las tiradas de salvación de"
+  },
+  {
+   "type": "paragraph",
+   "page": 119,
+   "md": "Fuerza. Los ataques que haga con armas reducidas o sin armas causan 1d4 menos de daño al acertar (esto no puede reducir el daño a menos de 1).",
+   "text": "Fuerza. Los ataques que haga con armas reducidas o sin armas causan 1d4 menos de daño al acertar (esto no puede reducir el daño a menos de 1)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 118
+ }
+}

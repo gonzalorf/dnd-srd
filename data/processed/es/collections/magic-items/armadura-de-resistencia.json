@@ -1,0 +1,66 @@
+{
+ "id": "item.armadura-de-resistencia",
+ "name": "Armadura de resistencia",
+ "category": "Armadura",
+ "variant": "ligera, media o pesada",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (ligera, media o pesada), rara (requiere sintonización)",
+ "text": "Tienes resistencia a un tipo de daño mientras lleves esta armadura. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Tienes resistencia a un tipo de daño mientras lleves esta armadura. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación.",
+   "text": "Tienes resistencia a un tipo de daño mientras lleves esta armadura. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación."
+  },
+  {
+   "type": "table",
+   "page": 235,
+   "caption": null,
+   "header": [
+    "1d10",
+    "Tipo de daño",
+    "1d10",
+    "Tipo de daño"
+   ],
+   "rows": [
+    [
+     "1",
+     "Ácido",
+     "6",
+     "Psíquico"
+    ],
+    [
+     "2",
+     "Frío",
+     "7",
+     "Radiante"
+    ],
+    [
+     "3",
+     "Fuego",
+     "8",
+     "Relámpago"
+    ],
+    [
+     "4",
+     "Fuerza",
+     "9",
+     "Trueno"
+    ],
+    [
+     "5",
+     "Necrótico",
+     "10",
+     "Veneno"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

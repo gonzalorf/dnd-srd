@@ -1,0 +1,69 @@
+{
+ "id": "spell.alzar-a-los-muertos",
+ "name": "Alzar a los muertos",
+ "level": 5,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un diamante que valga al menos 500 po y que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un diamante que valga al menos 500 po y que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Con un toque, revives a una criatura que no lleve más de 10 días muerta y que no fuera un muerto viviente cuando falleció.\n\nLa criatura vuelve a la vida con 1 punto de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte.\n\nEste conjuro cierra todas las heridas mortales, pero no devuelve las partes del cuerpo que faltan. Si a la criatura le faltan partes del cuerpo u órganos fundamentales para que sobreviva (por ejemplo, la cabeza), el conjuro falla automáticamente.\n\nRegresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Con un toque, revives a una criatura que no lleve más de 10 días muerta y que no fuera un muerto viviente cuando falleció.",
+   "text": "Con un toque, revives a una criatura que no lleve más de 10 días muerta y que no fuera un muerto viviente cuando falleció."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "La criatura vuelve a la vida con 1 punto de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte.",
+   "text": "La criatura vuelve a la vida con 1 punto de golpe. El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Este conjuro cierra todas las heridas mortales, pero no devuelve las partes del cuerpo que faltan. Si a la criatura le faltan partes del cuerpo u órganos fundamentales para que sobreviva (por ejemplo, la cabeza), el conjuro falla automáticamente.",
+   "text": "Este conjuro cierra todas las heridas mortales, pero no devuelve las partes del cuerpo que faltan. Si a la criatura le faltan partes del cuerpo u órganos fundamentales para que sobreviva (por ejemplo, la cabeza), el conjuro falla automáticamente."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Regresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.",
+   "text": "Regresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de −4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 120
+ }
+}

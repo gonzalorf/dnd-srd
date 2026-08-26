@@ -1,0 +1,179 @@
+{
+ "id": "monster.dragon-de-cobre-anciano",
+ "name": "Dragón de cobre anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 304,
+  "pages": [
+   304,
+   305
+  ]
+ },
+ "context": [
+  "Dragones de cobre"
+ ],
+ "metaRaw": "Dragón Gargantuesco (metálico), caótico bueno",
+ "type": "Dragón",
+ "alignment": "caótico bueno",
+ "size": "Gargantuesco",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 21,
+ "acRaw": "21",
+ "initiative": {
+  "mod": 15,
+  "score": 25
+ },
+ "hp": {
+  "raw": "367 (21d20 + 147)",
+  "average": 367,
+  "formula": "21d20 + 147"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Engaño": 13,
+  "Percepción": 17,
+  "Sigilo": 8
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 27",
+  "passivePerception": 27
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+  "cr": 21,
+  "xp": 33000,
+  "proficiencyBonus": 7,
+  "xpInLair": 41000
+ },
+ "abilities": {
+  "fue": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 8
+  },
+  "con": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "int": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "sab": {
+   "score": 17,
+   "mod": 3,
+   "save": 10
+  },
+  "car": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 304,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento ralentizador o de (B) su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 5).",
+   "page": 304,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento ralentizador o de (B) su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 5)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +15, alcance 4,5 m. *Acierto:* 19 (2d10 + 8) de daño cortante más 9 (2d8) de daño de ácido.",
+   "page": 304,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +15, alcance 4,5 m. *Acierto:* 19 (2d10 + 8) de daño cortante más 9 (2d8) de daño de ácido."
+  },
+  {
+   "name": "Aliento ácido",
+   "md": "***Aliento ácido (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 22, todas las criaturas en una línea de 27 m de largo y 3 m de ancho. *Fallo:* 63 (14d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 304,
+   "description": ". *Tirada de salvación de Destreza:* CD 22, todas las criaturas en una línea de 27 m de largo y 3 m de ancho. *Fallo:* 63 (14d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento ralentizador",
+   "md": "***Aliento ralentizador.*** *Tirada de salvación de Constitución:* CD 22, todas las criaturas en un cono de 27 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno.",
+   "page": 304,
+   "description": "*Tirada de salvación de Constitución:* CD 22, todas las criaturas en un cono de 27 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes ma",
+   "page": 304,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes ma"
+  },
+  {
+   "name": null,
+   "md": "teriales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 21):",
+   "page": 305
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración ni puntos de golpe temporales para mantener el conjuro), *clavo mental* (versión de nivel 5), *detectar magia*, *ilusión menor* 1/día cada uno: *imagen mayor*, *proyectar imagen*, *restablecimiento mayor*",
+   "page": 305
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 305,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Magia de la risa",
+    "md": "***Magia de la risa.*** *Tirada de salvación de Carisma:* CD 21, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 31 (9d6) de daño psíquico. Hasta el final de su siguiente turno, el objetivo tirará 1d8 cada vez que haga una prueba de característica o tirada de ataque y restará el resultado a la prueba con d20. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 305,
+    "description": "*Tirada de salvación de Carisma:* CD 21, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 31 (9d6) de daño psíquico. Hasta el final de su siguiente turno, el objetivo tirará 1d8 cada vez que haga una prueba de característica o tirada de ataque y restará el resultado a la prueba con d20. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Sacudida mental",
+    "md": "***Sacudida mental.*** El dragón utiliza su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 5). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 305,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *clavo mental* (versión de nivel 5). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.clavo-mental",
+  "spell.cambiar-de-forma",
+  "spell.detectar-magia",
+  "spell.ilusion-menor",
+  "spell.imagen-mayor",
+  "spell.proyectar-imagen",
+  "spell.restablecimiento-mayor"
+ ]
+}

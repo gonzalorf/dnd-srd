@@ -1,0 +1,136 @@
+{
+ "id": "monster.sacerdote",
+ "name": "Sacerdote",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 365
+ },
+ "context": [
+  "Sacerdotes"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño (clérigo), neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "clérigo"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "38 (7d8 + 7)",
+  "average": 38,
+  "formula": "7d8 + 7"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Medicina": 7,
+  "Percepción": 5,
+  "Religión": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "gear": [
+  "camisa de malla",
+  "maza",
+  "símbolo sagrado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "car": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El sacerdote realiza dos ataques con su maza o su llama radiante en cualquier combinación.",
+   "page": 365,
+   "description": "El sacerdote realiza dos ataques con su maza o su llama radiante en cualquier combinación."
+  },
+  {
+   "name": "Maza",
+   "md": "***Maza.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente más 5 (2d4) de daño radiante.",
+   "page": 365,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente más 5 (2d4) de daño radiante."
+  },
+  {
+   "name": "Llama radiante",
+   "md": "***Llama radiante.*** *Tirada de ataque a distancia:* +5, alcance 18 m. *Acierto:* 11 (2d10) de daño radiante.",
+   "page": 365,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 18 m. *Acierto:* 11 (2d10) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El sacerdote lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 13):",
+   "page": 365,
+   "description": "El sacerdote lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 13):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *luz*, *taumaturgia* 1/día: *espíritus guardianes*",
+   "page": 365
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Auxilio divino",
+   "md": "***Auxilio divino (3/día).*** El sacerdote lanza *bendición*, *disipar magia*, *palabra de curación* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 365,
+   "description": "El sacerdote lanza *bendición*, *disipar magia*, *palabra de curación* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "refs": [
+  "spell.luz",
+  "spell.taumaturgia",
+  "spell.espiritus-guardianes",
+  "spell.bendicion",
+  "spell.disipar-magia",
+  "spell.palabra-de-curacion",
+  "spell.restablecimiento-menor"
+ ]
+}

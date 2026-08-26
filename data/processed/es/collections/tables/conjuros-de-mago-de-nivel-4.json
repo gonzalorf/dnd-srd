@@ -1,0 +1,151 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-4",
+ "caption": "Conjuros de mago de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Adivinación",
+   "Adivinación",
+   "R, M"
+  ],
+  [
+   "Asesino fantasmal",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Cofre oculto",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Confusión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Conjurar elementales menores",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Controlar agua",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Destierro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Escudo de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Esfera elástica",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Esfera vitriólica",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Fabricar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Hechizar monstruo",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Invisibilidad mejorada",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Localizar criatura",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Marchitar",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Mastín fiel",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Moldear la piedra",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Muro de fuego",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Ojo arcano",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Piel pétrea",
+   "Transmutación",
+   "C, M"
+  ],
+  [
+   "Polimorfar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Puerta dimensional",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Sanctasanctórum privado",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Tentáculos negros",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Terreno alucinatorio",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Tormenta de hielo",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 75
+ }
+}

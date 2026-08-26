@@ -1,0 +1,23 @@
+{
+ "id": "item.abalorio-de-nutricion",
+ "name": "Abalorio de nutrición",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "común",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, común",
+ "text": "Esta canica insípida y gelatinosa se disuelve en la lengua y proporciona tanto alimento como las raciones de 1 día.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Esta canica insípida y gelatinosa se disuelve en la lengua y proporciona tanto alimento como las raciones de 1 día.",
+   "text": "Esta canica insípida y gelatinosa se disuelve en la lengua y proporciona tanto alimento como las raciones de 1 día."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ }
+}

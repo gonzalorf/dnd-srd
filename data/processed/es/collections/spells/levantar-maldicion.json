@@ -1,0 +1,48 @@
+{
+ "id": "spell.levantar-maldicion",
+ "name": "Levantar maldición",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Con tan solo tocar a una criatura o un objeto, eliminarás todas las maldiciones que le afecten. Si el objetivo es un objeto mágico maldito, la maldición permanecerá, pero este conjuro romperá la sintonización del objeto con el dueño, lo que le permitirá quitárselo o deshacerse de él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Con tan solo tocar a una criatura o un objeto, eliminarás todas las maldiciones que le afecten. Si el objetivo es un objeto mágico maldito, la maldición permanecerá, pero este conjuro romperá la sintonización del objeto con el dueño, lo que le permitirá quitárselo o deshacerse de él.",
+   "text": "Con tan solo tocar a una criatura o un objeto, eliminarás todas las maldiciones que le afecten. Si el objetivo es un objeto mágico maldito, la maldición permanecerá, pero este conjuro romperá la sintonización del objeto con el dueño, lo que le permitirá quitárselo o deshacerse de él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 161
+ }
+}

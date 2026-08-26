@@ -1,0 +1,46 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-9",
+ "caption": "Conjuros de bardo de nivel 9",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Muro prismático",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Palabra de poder: matar",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Palabra de poder: sanar",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Polimorfar verdadero",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Presciencia",
+   "Adivinación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 39
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "id": "monster.cieno-gris",
+ "name": "Cieno gris",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 290,
+  "pages": [
+   290,
+   291
+  ]
+ },
+ "context": [
+  "Cieno gris"
+ ],
+ "metaRaw": "Cieno Mediano, sin alineamiento",
+ "type": "Cieno",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 9,
+ "acRaw": "9",
+ "initiative": {
+  "mod": -2,
+  "score": 13
+ },
+ "hp": {
+  "raw": "22 (3d8 + 9)",
+  "average": 22,
+  "formula": "3d8 + 9"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "trepar": 3.0
+ },
+ "skills": {
+  "Sigilo": 2
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "agarrado",
+  "apresado",
+  "asustado",
+  "cansancio",
+  "cegado",
+  "derribado",
+  "ensordecido",
+  "hechizado"
+ ],
+ "resistances": [
+  "ácido",
+  "frío",
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Amorfo",
+   "md": "***Amorfo.*** El cieno puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.",
+   "page": 291,
+   "description": "El cieno puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo."
+  },
+  {
+   "name": "Forma corrosiva",
+   "md": "***Forma corrosiva.*** La munición no mágica se destruirá de inmediato tras impactar en el cieno y causarle daño. Cualquier arma no mágica recibirá un penalizador acumulativo de −1 a las tiradas de ataque inmediatamente después de causar daño al cieno y entrar en contacto con él. Si el penalizador llega a −5, el arma se destruirá. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre el arma. El cieno es capaz de devorar 5 cm de madera o metal no mágicos en 1 asalto.",
+   "page": 291,
+   "description": "La munición no mágica se destruirá de inmediato tras impactar en el cieno y causarle daño. Cualquier arma no mágica recibirá un penalizador acumulativo de −1 a las tiradas de ataque inmediatamente después de causar daño al cieno y entrar en contacto con él. Si el penalizador llega a −5, el arma se destruirá. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre el arma. El cieno es capaz de devorar 5 cm de madera o metal no mágicos en 1 asalto."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Pseudópodo",
+   "md": "***Pseudópodo.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 10 (2d8 + 1) de daño de ácido. La armadura no mágica que lleve el objetivo recibirá un penalizador de −1 a la CA que ofrece. La armadura se destruirá si el penalizador reduce su CA hasta 10. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre la armadura.",
+   "page": 291,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 10 (2d8 + 1) de daño de ácido. La armadura no mágica que lleve el objetivo recibirá un penalizador de −1 a la CA que ofrece. La armadura se destruirá si el penalizador reduce su CA hasta 10. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre la armadura."
+  }
+ ],
+ "refs": [
+  "spell.reparar"
+ ]
+}

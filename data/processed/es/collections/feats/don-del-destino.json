@@ -1,0 +1,36 @@
+{
+ "id": "feat.don-del-destino",
+ "name": "Don del destino",
+ "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nMejorar el destino. Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 95,
+   "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+   "text": "Dote de don épico (requisito: nivel 19 o más)"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+   "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Mejorar el destino.*** Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo.",
+   "text": "Mejorar el destino. Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 95
+ },
+ "category": "Dotes de don épico"
+}

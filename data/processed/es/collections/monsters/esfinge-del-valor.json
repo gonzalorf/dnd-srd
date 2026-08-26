@@ -1,0 +1,180 @@
+{
+ "id": "monster.esfinge-del-valor",
+ "name": "Esfinge del valor",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 322,
+  "pages": [
+   322,
+   323
+  ]
+ },
+ "context": [
+  "Esfinges"
+ ],
+ "metaRaw": "Celestial Grande, legal neutral",
+ "type": "Celestial",
+ "alignment": "legal neutral",
+ "size": "Grande",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 12,
+  "score": 22
+ },
+ "hp": {
+  "raw": "199 (19d10 + 95)",
+  "average": 199,
+  "formula": "19d10 + 95"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Conocimiento arcano": 9,
+  "Percepción": 12,
+  "Religión": 15
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 22",
+  "passivePerception": 22
+ },
+ "languages": [
+  "celestial",
+  "común"
+ ],
+ "immunities": [
+  "psíquico",
+  "asustado",
+  "hechizado"
+ ],
+ "resistances": [
+  "necrótico",
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "17 (18 000 PX o 20 000 en la guarida; BC +6)",
+  "cr": 17,
+  "xp": 18000,
+  "proficiencyBonus": 6,
+  "xpInLair": 20000
+ },
+ "abilities": {
+  "fue": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 6
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 11
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 9
+  },
+  "sab": {
+   "score": 23,
+   "mod": 6,
+   "save": 12
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "traits": [
+  {
+   "name": "Inescrutable",
+   "md": "***Inescrutable.*** La magia no puede observar desde lejos a la esfinge ni detectar sus pensamientos sin su permiso. Las pruebas de Sabiduría (Perspicacia) realizadas para determinar sus intenciones tienen desventaja.",
+   "page": 322,
+   "description": "La magia no puede observar desde lejos a la esfinge ni detectar sus pensamientos sin su permiso. Las pruebas de Sabiduría (Perspicacia) realizadas para determinar sus intenciones tienen desventaja."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** La esfinge puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 322,
+   "description": "La esfinge puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La esfinge realiza dos ataques con sus garras y emplea su rugido.",
+   "page": 322,
+   "description": "La esfinge realiza dos ataques con sus garras y emplea su rugido."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +12, alcance 1,5 m. *Acierto:* 20 (4d6 + 6) de daño cortante.",
+   "page": 322,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +12, alcance 1,5 m. *Acierto:* 20 (4d6 + 6) de daño cortante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La esfinge lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 20):",
+   "page": 322,
+   "description": "La esfinge lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 20):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar el bien y el mal*, *taumaturgia* 1/día cada uno: *detectar magia*, *disipar magia*, *festín de héroes*, *restablecimiento mayor*, *zona de la verdad*",
+   "page": 322
+  },
+  {
+   "name": "Rugido",
+   "md": "***Rugido (3/día).*** La esfinge emite un rugido mágico. Cada vez que ruja, el rugido tendrá un efecto distinto, como se detalla a continuación (la secuencia se reinicia cada vez que haga un descanso largo):",
+   "page": 322,
+   "description": "La esfinge emite un rugido mágico. Cada vez que ruja, el rugido tendrá un efecto distinto, como se detalla a continuación (la secuencia se reinicia cada vez que haga un descanso largo):",
+   "uses": "3/día"
+  },
+  {
+   "name": null,
+   "md": "Primer rugido. *Tirada de salvación de Sabiduría:* CD 20, todos los enemigos en una emanación de 150 m que se origina en la esfinge. *Fallo:* el objetivo tendrá el estado de asustado durante 1 minuto. Segundo rugido. *Tirada de salvación de Sabiduría:* CD 20, todos los enemigos en una emanación de 150 m que se origina en la esfinge. *Fallo:* el objetivo tendrá el estado de paralizado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente. Tercer rugido. *Tirada de salvación de Constitución:* CD 20, todos los enemigos en una emanación de 150 m que se origina en la esfinge. *Fallo:* 44 (8d10) de daño de trueno y el objetivo tendrá el estado de derribado. *Éxito:* solo la mitad del daño.",
+   "page": 322
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Merodeo arcano",
+    "md": "***Merodeo arcano.*** La esfinge puede teletransportarse hasta 9 m a un espacio sin ocupar que pueda ver y realiza un ataque con sus garras.",
+    "page": 322,
+    "description": "La esfinge puede teletransportarse hasta 9 m a un espacio sin ocupar que pueda ver y realiza un ataque con sus garras."
+   },
+   {
+    "name": "Peso de los años",
+    "md": "***Peso de los años.*** *Tirada de salvación de Constitución:* CD 16, una criatura que la esfinge pueda ver a 36 m o menos. *Fallo:* el objetivo suma 1 nivel de cansancio. Mientras el objetivo tenga al menos 1 nivel de cansan",
+    "page": 322,
+    "description": "*Tirada de salvación de Constitución:* CD 16, una criatura que la esfinge pueda ver a 36 m o menos. *Fallo:* el objetivo suma 1 nivel de cansancio. Mientras el objetivo tenga al menos 1 nivel de cansan"
+   },
+   {
+    "name": null,
+    "md": "cio, parecerá 3d10 años más viejo. *Fallo o éxito:* la esfinge no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 323
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, la esfinge puede emplear un uso para llevar a cabo una de las siguientes acciones. La esfinge recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.taumaturgia",
+  "spell.detectar-magia",
+  "spell.disipar-magia",
+  "spell.festin-de-heroes",
+  "spell.restablecimiento-mayor",
+  "spell.zona-de-la-verdad"
+ ]
+}

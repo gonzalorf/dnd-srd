@@ -1,0 +1,68 @@
+{
+ "id": "spell.tsunami",
+ "name": "Tsunami",
+ "level": 8,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "1,5 km",
+  "kind": "ranged",
+  "meters": 1500.0
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 6 asaltos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 6,
+  "unit": "asalto"
+ },
+ "text": "Un muro de agua surge de la nada en un punto de tu elección dentro del alcance. Puedes hacerlo de hasta 90 m de longitud, 90 m de alto y 15 m de grosor y durará hasta que termine el conjuro.\n\nCuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 6d10 de daño contundente si la fallan o la mitad de daño si la superan.\n\nAl principio de cada uno de tus turnos tras la aparición del muro, se alejará 15 m de ti junto con todas las criaturas que haya en su interior. Cualquier criatura Enorme o más pequeña dentro del muro, o a cuyo espacio entre el muro cuando este se mueva, deberá superar una tirada de salvación de Fuerza o sufrirá 5d10 de daño contundente. Una criatura solo puede sufrir este daño una vez por asalto. Al final del turno, la altura del muro se reduce en 15 m y el daño que causa el muro en asaltos subsiguientes se reduce en 1d10. Cuando el muro llegue a 0 m de altura, el conjuro termina.\n\nUna criatura atrapada en el muro puede moverse nadando. Sin embargo, debido a la fuerza de la ola, la criatura deberá superar una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros para moverse. Si no la supera, no podrá hacerlo. Una criatura que salga del muro caerá al suelo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Un muro de agua surge de la nada en un punto de tu elección dentro del alcance. Puedes hacerlo de hasta 90 m de longitud, 90 m de alto y 15 m de grosor y durará hasta que termine el conjuro.",
+   "text": "Un muro de agua surge de la nada en un punto de tu elección dentro del alcance. Puedes hacerlo de hasta 90 m de longitud, 90 m de alto y 15 m de grosor y durará hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 6d10 de daño contundente si la fallan o la mitad de daño si la superan.",
+   "text": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 6d10 de daño contundente si la fallan o la mitad de daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Al principio de cada uno de tus turnos tras la aparición del muro, se alejará 15 m de ti junto con todas las criaturas que haya en su interior. Cualquier criatura Enorme o más pequeña dentro del muro, o a cuyo espacio entre el muro cuando este se mueva, deberá superar una tirada de salvación de Fuerza o sufrirá 5d10 de daño contundente. Una criatura solo puede sufrir este daño una vez por asalto. Al final del turno, la altura del muro se reduce en 15 m y el daño que causa el muro en asaltos subsiguientes se reduce en 1d10. Cuando el muro llegue a 0 m de altura, el conjuro termina.",
+   "text": "Al principio de cada uno de tus turnos tras la aparición del muro, se alejará 15 m de ti junto con todas las criaturas que haya en su interior. Cualquier criatura Enorme o más pequeña dentro del muro, o a cuyo espacio entre el muro cuando este se mueva, deberá superar una tirada de salvación de Fuerza o sufrirá 5d10 de daño contundente. Una criatura solo puede sufrir este daño una vez por asalto. Al final del turno, la altura del muro se reduce en 15 m y el daño que causa el muro en asaltos subsiguientes se reduce en 1d10. Cuando el muro llegue a 0 m de altura, el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Una criatura atrapada en el muro puede moverse nadando. Sin embargo, debido a la fuerza de la ola, la criatura deberá superar una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros para moverse. Si no la supera, no podrá hacerlo. Una criatura que salga del muro caerá al suelo.",
+   "text": "Una criatura atrapada en el muro puede moverse nadando. Sin embargo, debido a la fuerza de la ola, la criatura deberá superar una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros para moverse. Si no la supera, no podrá hacerlo. Una criatura que salga del muro caerá al suelo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 191
+ }
+}

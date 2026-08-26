@@ -1,0 +1,17 @@
+{
+ "id": "rule.sorpresa",
+ "name": "Sorpresa",
+ "text": "Si el comienzo de un combate pilla desprevenida a una criatura, estará sorprendida, lo que le hará tener desventaja en su tirada de iniciativa. Consulta también el capítulo “Cómo jugar” (“Combate”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Si el comienzo de un combate pilla desprevenida a una criatura, estará sorprendida, lo que le hará tener desventaja en su tirada de iniciativa. *Consulta también* el capítulo “Cómo jugar” (“Combate”).",
+   "text": "Si el comienzo de un combate pilla desprevenida a una criatura, estará sorprendida, lo que le hará tener desventaja en su tirada de iniciativa. Consulta también el capítulo “Cómo jugar” (“Combate”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

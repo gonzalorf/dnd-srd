@@ -1,0 +1,52 @@
+{
+ "id": "table.p244",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Efecto"
+ ],
+ "rows": [
+  [
+   "31–40",
+   "Surge una hoguera de llamas verdes que arderá durante 24 horas o hasta que la apaguen."
+  ],
+  [
+   "41–50",
+   "Del suelo brotan tres hongos chillones."
+  ],
+  [
+   "51–60",
+   "De entre la tierra surgen 1d4 + 4 sapos de color rosa intenso. Cuando se toque a uno, este se transforma en un monstruo Grande o más pequeño a elección de tu GM que actúa según su alineamiento y naturaleza. El monstruo permanece durante 1 minuto y luego desaparece en una nube de humo rosa intenso."
+  ],
+  [
+   "61–70",
+   "Un bulette hambriento sale excavando de la tierra y ataca."
+  ],
+  [
+   "71–80",
+   "Crece un árbol frutal. Tiene 1d10 + 20 frutas, de las cuales 1d8 se comportan como pociones determinadas al azar. El árbol se desvanece tras 1 hora. La fruta recogida permanece y conserva la magia durante 30 días."
+  ],
+  [
+   "81–90",
+   "Aparece un nido con 1d4 + 3 huevos de los colores del arcoíris. Cualquier criatura que se coma uno de estos huevos hace una tirada de salvación de Constitución con CD 20. Si la supera, aumentará su puntuación de característica más baja en 1 de forma permanente (se elegirá al azar la puntuación si hay varias puntuaciones que empatan como la más baja). Si la falla, la criatura recibirá 10d6 de daño de fuerza debido a una explosión interna."
+  ],
+  [
+   "91–95",
+   "Una pirámide con una base cuadrada de 18 m de lado emerge del suelo. Dentro hay un mausoleo con una momia, un señor de las momias u otro muerto viviente a elección de tu GM. El sarcófago contiene tesoros a elección de tu GM."
+  ],
+  [
+   "96–00",
+   "Brota un tallo de judías gigante que crece"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bolsa de judías"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 244
+ }
+}

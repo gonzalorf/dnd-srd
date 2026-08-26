@@ -1,0 +1,57 @@
+{
+ "id": "spell.volar",
+ "name": "Volar",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una pluma)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pluma",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, el objetivo consigue una velocidad volando de 18 m y puede levitar. Cuando el conjuro termine, el objetivo caerá si aún está en el aire, excepto si puede detener la caída.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 193,
+   "md": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, el objetivo consigue una velocidad volando de 18 m y puede levitar. Cuando el conjuro termine, el objetivo caerá si aún está en el aire, excepto si puede detener la caída.",
+   "text": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, el objetivo consigue una velocidad volando de 18 m y puede levitar. Cuando el conjuro termine, el objetivo caerá si aún está en el aire, excepto si puede detener la caída."
+  },
+  {
+   "type": "definition",
+   "page": 193,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 193
+ }
+}

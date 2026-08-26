@@ -1,0 +1,23 @@
+{
+ "id": "item.cimitarra-de-velocidad",
+ "name": "Cimitarra de velocidad",
+ "category": "Arma",
+ "variant": "cimitarra",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cimitarra), muy rara (requiere sintonización)",
+ "text": "Recibes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, puedes realizar un ataque con ella como acción adicional en cada uno de tus turnos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 248,
+   "md": "Recibes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, puedes realizar un ataque con ella como acción adicional en cada uno de tus turnos.",
+   "text": "Recibes un bonificador de +2 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, puedes realizar un ataque con ella como acción adicional en cada uno de tus turnos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 248
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "spell.localizar-criatura",
+ "name": "Localizar criatura",
+ "level": 4,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "explorador",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (pelaje de un sabueso)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "pelaje de un sabueso",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Describe o nombra una criatura que conozcas. Presientes la dirección en la que se encuentra dicha criatura si está a 300 m o menos de ti. Si la criatura se está moviendo, conoces la dirección de su movimiento.\n\nEl conjuro puede localizar a una criatura específica que conozcas o a la criatura más cercana de un tipo específico (como un humano o un unicornio) si has visto a una criatura así de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres está adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro de la carne a la piedra o polimorfar, este conjuro no la localiza.\n\nEl conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y tú.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Describe o nombra una criatura que conozcas. Presientes la dirección en la que se encuentra dicha criatura si está a 300 m o menos de ti. Si la criatura se está moviendo, conoces la dirección de su movimiento.",
+   "text": "Describe o nombra una criatura que conozcas. Presientes la dirección en la que se encuentra dicha criatura si está a 300 m o menos de ti. Si la criatura se está moviendo, conoces la dirección de su movimiento."
+  },
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "El conjuro puede localizar a una criatura específica que conozcas o a la criatura más cercana de un tipo específico (como un humano o un unicornio) si has visto a una criatura así de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres está adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro *de la carne a la piedra* o *polimorfar*, este conjuro no la localiza.",
+   "text": "El conjuro puede localizar a una criatura específica que conozcas o a la criatura más cercana de un tipo específico (como un humano o un unicornio) si has visto a una criatura así de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres está adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro de la carne a la piedra o polimorfar, este conjuro no la localiza."
+  },
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "El conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y tú.",
+   "text": "El conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y tú."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 162
+ },
+ "refs": [
+  "spell.de-la-carne-a-la-piedra",
+  "spell.polimorfar"
+ ]
+}

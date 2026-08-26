@@ -1,0 +1,17 @@
+{
+ "id": "rule.criatura",
+ "name": "Criatura",
+ "text": "Cualquier ser que aparece en el juego, incluidos los personajes de los jugadores, se considera una criatura. Consulta también “Tipo de criatura”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Cualquier ser que aparece en el juego, incluidos los personajes de los jugadores, se considera una criatura. *Consulta también* “Tipo de criatura”.",
+   "text": "Cualquier ser que aparece en el juego, incluidos los personajes de los jugadores, se considera una criatura. Consulta también “Tipo de criatura”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ }
+}

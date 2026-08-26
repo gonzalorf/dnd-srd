@@ -1,0 +1,56 @@
+{
+ "id": "spell.clavo-mental",
+ "name": "Clavo mental",
+ "level": 2,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "S",
+  "v": false,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Introduces una púa de energía psiónica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Sabiduría; sufrirá 3d8 de daño psíquico si la falla o la mitad del daño si la supera. Además, si falla la tirada, conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no podrá ocultarse de ti y, si tiene el estado de invisible, no se beneficiará de dicho estado contra ti.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Introduces una púa de energía psiónica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Sabiduría; sufrirá 3d8 de daño psíquico si la falla o la mitad del daño si la supera. Además, si falla la tirada, conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no podrá ocultarse de ti y, si tiene el estado de invisible, no se beneficiará de dicho estado contra ti.",
+   "text": "Introduces una púa de energía psiónica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Sabiduría; sufrirá 3d8 de daño psíquico si la falla o la mitad del daño si la supera. Además, si falla la tirada, conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no podrá ocultarse de ti y, si tiene el estado de invisible, no se beneficiará de dicho estado contra ti."
+  },
+  {
+   "type": "definition",
+   "page": 130,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 129
+ }
+}

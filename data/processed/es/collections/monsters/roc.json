@@ -1,0 +1,107 @@
+{
+ "id": "monster.roc",
+ "name": "Roc",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 364
+ },
+ "context": [
+  "Roc"
+ ],
+ "metaRaw": "Monstruosidad Gargantuesca, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Gargantuesco",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 8,
+  "score": 18
+ },
+ "hp": {
+  "raw": "248 (16d20 + 80)",
+  "average": 248,
+  "formula": "16d20 + 80"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "volar": 36.0
+ },
+ "skills": {
+  "Percepción": 8
+ },
+ "senses": {
+  "raw": "Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "11 (7200 PX; BC +4)",
+  "cr": 11,
+  "xp": 7200,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 28,
+   "mod": 9,
+   "save": 9
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 4
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 4
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El roc hace dos ataques con su pico. Puede sustituir uno de ellos por un ataque con sus garras.",
+   "page": 364,
+   "description": "El roc hace dos ataques con su pico. Puede sustituir uno de ellos por un ataque con sus garras."
+  },
+  {
+   "name": "Garras",
+   "md": "***Garras.*** *Tirada de ataque cuerpo a cuerpo:* +13, alcance 1,5 m. *Acierto*: 23 (4d6 + 9) de daño cortante. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de agarrada (CD 19 para escapar) por las dos garras y el de apresada hasta que el agarre termine.",
+   "page": 364,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +13, alcance 1,5 m. *Acierto*: 23 (4d6 + 9) de daño cortante. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de agarrada (CD 19 para escapar) por las dos garras y el de apresada hasta que el agarre termine."
+  },
+  {
+   "name": "Pico",
+   "md": "***Pico.*** *Tirada de ataque cuerpo a cuerpo:* +13, alcance 3 m. *Acierto:* 28 (3d12 + 9) de daño perforante.",
+   "page": 364,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +13, alcance 3 m. *Acierto:* 28 (3d12 + 9) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Caída en picado",
+   "md": "***Caída en picado (recarga 5–6).*** Si el roc tiene a una criatura agarrada, vuela hasta la mitad de su velocidad volando sin provocar ataques de oportunidad y suelta a la criatura.",
+   "page": 364,
+   "description": "Si el roc tiene a una criatura agarrada, vuela hasta la mitad de su velocidad volando sin provocar ataques de oportunidad y suelta a la criatura.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

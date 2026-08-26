@@ -1,0 +1,31 @@
+{
+ "id": "tool.juego-variable",
+ "name": "Juego (variable)",
+ "kind": "tool",
+ "group": "Otras herramientas",
+ "text": "Característica: Sabiduría Peso: —\n\nUtilizar: distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)\n\nVariantes: ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Sabiduría **Peso:** —",
+   "text": "Característica: Sabiduría Peso: —"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)",
+   "text": "Utilizar: distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Variantes:** ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)",
+   "text": "Variantes: ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ }
+}

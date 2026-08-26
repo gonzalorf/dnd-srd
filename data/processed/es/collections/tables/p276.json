@@ -1,0 +1,28 @@
+{
+ "id": "table.p276",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Orden imperiosa (solo “huye” o “póstrate”)",
+   "1"
+  ],
+  [
+   "Terror (cono de 18 m)",
+   "3"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Varita del terror"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 276
+ }
+}

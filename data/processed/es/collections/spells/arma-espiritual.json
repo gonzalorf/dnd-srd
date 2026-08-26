@@ -1,0 +1,60 @@
+{
+ "id": "spell.arma-espiritual",
+ "name": "Arma espiritual",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por aptitud mágica.\n\nComo acción adicional en tus siguientes turnos, podrás mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "Creas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por aptitud mágica.",
+   "text": "Creas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por aptitud mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "Como acción adicional en tus siguientes turnos, podrás mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.",
+   "text": "Como acción adicional en tus siguientes turnos, podrás mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella."
+  },
+  {
+   "type": "definition",
+   "page": 122,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 122
+ }
+}

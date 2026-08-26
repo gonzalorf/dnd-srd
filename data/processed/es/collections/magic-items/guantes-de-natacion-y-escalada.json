@@ -1,0 +1,23 @@
+{
+ "id": "item.guantes-de-natacion-y-escalada",
+ "name": "Guantes de natación y escalada",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves estos guantes, tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad. Además, obtienes un bonificador de +5 a las pruebas de Fuerza (Atletismo) para nadar o trepar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 260,
+   "md": "Mientras lleves estos guantes, tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad. Además, obtienes un bonificador de +5 a las pruebas de Fuerza (Atletismo) para nadar o trepar.",
+   "text": "Mientras lleves estos guantes, tienes una velocidad nadando y una velocidad trepando iguales a tu velocidad. Además, obtienes un bonificador de +5 a las pruebas de Fuerza (Atletismo) para nadar o trepar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 260
+ }
+}

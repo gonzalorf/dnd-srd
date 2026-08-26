@@ -1,0 +1,23 @@
+{
+ "id": "rule.noquear-a-una-criatura",
+ "name": "Noquear a una criatura",
+ "text": "Si fueses a reducir a 0 los puntos de golpe de una criatura con un ataque cuerpo a cuerpo, puedes optar por dejarla con 1 punto de golpe. En tal caso, la criatura tendrá el estado de inconsciente y comenzará un descanso corto.\n\nLa criatura permanecerá inconsciente hasta que recupere algún punto de golpe o hasta que alguien utilice una acción para administrarle primeros auxilios, para lo que deberá superar una prueba de Sabiduría (Medicina) con CD 10.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Si fueses a reducir a 0 los puntos de golpe de una criatura con un ataque cuerpo a cuerpo, puedes optar por dejarla con 1 punto de golpe. En tal caso, la criatura tendrá el estado de inconsciente y comenzará un descanso corto.",
+   "text": "Si fueses a reducir a 0 los puntos de golpe de una criatura con un ataque cuerpo a cuerpo, puedes optar por dejarla con 1 punto de golpe. En tal caso, la criatura tendrá el estado de inconsciente y comenzará un descanso corto."
+  },
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "La criatura permanecerá inconsciente hasta que recupere algún punto de golpe o hasta que alguien utilice una acción para administrarle primeros auxilios, para lo que deberá superar una prueba de Sabiduría (Medicina) con CD 10.",
+   "text": "La criatura permanecerá inconsciente hasta que recupere algún punto de golpe o hasta que alguien utilice una acción para administrarle primeros auxilios, para lo que deberá superar una prueba de Sabiduría (Medicina) con CD 10."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

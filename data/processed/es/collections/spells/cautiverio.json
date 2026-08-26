@@ -1,0 +1,96 @@
+{
+ "id": "spell.cautiverio",
+ "name": "Cautiverio",
+ "level": 9,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "brujo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una estatuilla del objetivo que valga al menos 5000 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una estatuilla del objetivo que valga al menos 5000 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Creas una restricción mágica para apresar a una criatura que puedas ver dentro del alcance. El objetivo deberá hacer una tirada de salvación de Sabiduría. Si la supera, el conjuro no le afectará y será inmune a él durante las próximas 24 horas. Si la falla, quedará aprisionado. Mientras esté aprisionado, el objetivo no necesitará respirar, comer ni beber y tampoco envejecerá. Los conjuros de adivinación no podrán localizar ni percibir al objetivo, que tampoco podrá teletransportarse.\n\nHasta que el conjuro termine, el objetivo también se verá afectado por uno de los siguientes efectos, a tu elección:\n\nContención mínima. El objetivo queda reducido a una altura de 2,5 cm y atrapado dentro de una gema u otro objeto similar, que es indestructible. La luz puede atravesar la piedra preciosa (permitiendo que el objetivo vea lo que hay fuera y las demás criaturas vean lo que hay dentro), pero nada más puede atravesarla de ninguna forma.\n\nEncadenamiento. Unas cadenas firmemente ancladas al suelo retienen al objetivo. El objetivo tiene el estado de apresado y no hay ninguna forma de moverlo.\n\nEntierro. El objetivo queda sepultado bajo tierra en un globo hueco de fuerza mágica con un tamaño justo como para contenerlo. Nada puede entrar ni salir del globo.\n\nPresidio cercado. El objetivo está atrapado en un semiplano protegido contra la teletransportación y el viaje interplanar. El semiplano puede ser un laberinto, una jaula, una torre o una estructura similar.\n\nSueño. El objetivo tiene el estado de inconsciente y no se le puede despertar.\n\nPoner fin al conjuro. Cuando lances el conjuro, especifica una condición que le ponga fin. Puede ser tan sencilla o complicada como quieras, aunque tu GM debe estar de acuerdo en que tenga una alta probabilidad de llegar a ocurrir en la próxima década. La condición debe ser una acción observable, como que alguien haga una ofrenda concreta en el templo de tu dios, salve a tu amor verdadero o derrote a un monstruo concreto. Un conjuro disipar magia puede poner fin al conjuro solamente si se lanza con un espacio de conjuro de nivel 9 y hace objetivo a la prisión o al componente usado para crearla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 128,
+   "md": "Creas una restricción mágica para apresar a una criatura que puedas ver dentro del alcance. El objetivo deberá hacer una tirada de salvación de Sabiduría. Si la supera, el conjuro no le afectará y será inmune a él durante las próximas 24 horas. Si la falla, quedará aprisionado. Mientras esté aprisionado, el objetivo no necesitará respirar, comer ni beber y tampoco envejecerá. Los conjuros de adivinación no podrán localizar ni percibir al objetivo, que tampoco podrá teletransportarse.",
+   "text": "Creas una restricción mágica para apresar a una criatura que puedas ver dentro del alcance. El objetivo deberá hacer una tirada de salvación de Sabiduría. Si la supera, el conjuro no le afectará y será inmune a él durante las próximas 24 horas. Si la falla, quedará aprisionado. Mientras esté aprisionado, el objetivo no necesitará respirar, comer ni beber y tampoco envejecerá. Los conjuros de adivinación no podrán localizar ni percibir al objetivo, que tampoco podrá teletransportarse."
+  },
+  {
+   "type": "paragraph",
+   "page": 128,
+   "md": "Hasta que el conjuro termine, el objetivo también se verá afectado por uno de los siguientes efectos, a tu elección:",
+   "text": "Hasta que el conjuro termine, el objetivo también se verá afectado por uno de los siguientes efectos, a tu elección:"
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "**Contención mínima.** El objetivo queda reducido a una altura de 2,5 cm y atrapado dentro de una gema u otro objeto similar, que es indestructible. La luz puede atravesar la piedra preciosa (permitiendo que el objetivo vea lo que hay fuera y las demás criaturas vean lo que hay dentro), pero nada más puede atravesarla de ninguna forma.",
+   "text": "Contención mínima. El objetivo queda reducido a una altura de 2,5 cm y atrapado dentro de una gema u otro objeto similar, que es indestructible. La luz puede atravesar la piedra preciosa (permitiendo que el objetivo vea lo que hay fuera y las demás criaturas vean lo que hay dentro), pero nada más puede atravesarla de ninguna forma."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "**Encadenamiento.** Unas cadenas firmemente ancladas al suelo retienen al objetivo. El objetivo tiene el estado de apresado y no hay ninguna forma de moverlo.",
+   "text": "Encadenamiento. Unas cadenas firmemente ancladas al suelo retienen al objetivo. El objetivo tiene el estado de apresado y no hay ninguna forma de moverlo."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "**Entierro.** El objetivo queda sepultado bajo tierra en un globo hueco de fuerza mágica con un tamaño justo como para contenerlo. Nada puede entrar ni salir del globo.",
+   "text": "Entierro. El objetivo queda sepultado bajo tierra en un globo hueco de fuerza mágica con un tamaño justo como para contenerlo. Nada puede entrar ni salir del globo."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "**Presidio cercado.** El objetivo está atrapado en un semiplano protegido contra la teletransportación y el viaje interplanar. El semiplano puede ser un laberinto, una jaula, una torre o una estructura similar.",
+   "text": "Presidio cercado. El objetivo está atrapado en un semiplano protegido contra la teletransportación y el viaje interplanar. El semiplano puede ser un laberinto, una jaula, una torre o una estructura similar."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "**Sueño.** El objetivo tiene el estado de inconsciente y no se le puede despertar.",
+   "text": "Sueño. El objetivo tiene el estado de inconsciente y no se le puede despertar."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "***Poner fin al conjuro.*** Cuando lances el conjuro, especifica una condición que le ponga fin. Puede ser tan sencilla o complicada como quieras, aunque tu GM debe estar de acuerdo en que tenga una alta probabilidad de llegar a ocurrir en la próxima década. La condición debe ser una acción observable, como que alguien haga una ofrenda concreta en el templo de tu dios, salve a tu amor verdadero o derrote a un monstruo concreto. Un conjuro *disipar magia* puede poner fin al conjuro solamente si se lanza con un espacio de conjuro de nivel 9 y hace objetivo a la prisión o al componente usado para crearla.",
+   "text": "Poner fin al conjuro. Cuando lances el conjuro, especifica una condición que le ponga fin. Puede ser tan sencilla o complicada como quieras, aunque tu GM debe estar de acuerdo en que tenga una alta probabilidad de llegar a ocurrir en la próxima década. La condición debe ser una acción observable, como que alguien haga una ofrenda concreta en el templo de tu dios, salve a tu amor verdadero o derrote a un monstruo concreto. Un conjuro disipar magia puede poner fin al conjuro solamente si se lanza con un espacio de conjuro de nivel 9 y hace objetivo a la prisión o al componente usado para crearla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 128
+ },
+ "refs": [
+  "spell.disipar-magia"
+ ]
+}

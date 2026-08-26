@@ -1,0 +1,22 @@
+{
+ "id": "mount.elefante",
+ "name": "Elefante",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Elefante",
+  "Capacidad de carga": "660 kg",
+  "Precio": "200 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "200 po",
+  "amount": 200.0,
+  "coin": "po",
+  "gp": 200.0
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "sidebar.armas-improvisadas",
+ "title": "Armas improvisadas",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Si utilizas un objeto como una pata de una mesa, una sartén o una botella como arma provisional, consulta “Armas improvisadas” en el capítulo “Glosario de reglas”. Consulta esas reglas también si usas un arma de una forma atípica, como utilizar un arma a distancia para hacer un ataque cuerpo a cuerpo.",
+   "text": "Si utilizas un objeto como una pata de una mesa, una sartén o una botella como arma provisional, consulta “Armas improvisadas” en el capítulo “Glosario de reglas”. Consulta esas reglas también si usas un arma de una forma atípica, como utilizar un arma a distancia para hacer un ataque cuerpo a cuerpo."
+  }
+ ],
+ "context": [
+  "Equipo",
+  "Armas",
+  "Propiedades de maestría"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 98
+ }
+}

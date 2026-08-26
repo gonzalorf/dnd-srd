@@ -1,0 +1,143 @@
+{
+ "id": "monster.fuego-fatuo",
+ "name": "Fuego fatuo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 326
+ },
+ "context": [
+  "Fuego fatuo"
+ ],
+ "metaRaw": "Muerto viviente Diminuto, caótico malvado",
+ "type": "Muerto viviente",
+ "alignment": "caótico malvado",
+ "size": "Diminuto",
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 9,
+  "score": 19
+ },
+ "hp": {
+  "raw": "27 (11d4)",
+  "average": 27,
+  "formula": "11d4"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "volar": 15.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "immunities": [
+  "relámpago",
+  "veneno",
+  "agarrado",
+  "apresado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "ácido",
+  "contundente",
+  "cortante",
+  "frío",
+  "fuego",
+  "necrótico",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "des": {
+   "score": 28,
+   "mod": 9,
+   "save": 9
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Efímero",
+   "md": "***Efímero.*** El fuego fatuo no puede llevar puesto ni transportar nada.",
+   "page": 326,
+   "description": "El fuego fatuo no puede llevar puesto ni transportar nada."
+  },
+  {
+   "name": "Iluminación",
+   "md": "***Iluminación.*** El fuego fatuo emite luz brillante en un radio de 6 m y luz tenue 6 m más allá.",
+   "page": 326,
+   "description": "El fuego fatuo emite luz brillante en un radio de 6 m y luz tenue 6 m más allá."
+  },
+  {
+   "name": "Movimiento incorpóreo",
+   "md": "***Movimiento incorpóreo.*** El fuego fatuo puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto.",
+   "page": 326,
+   "description": "El fuego fatuo puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Descarga",
+   "md": "***Descarga.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 11 (2d8 + 2) de daño de relámpago.",
+   "page": 326,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 11 (2d8 + 2) de daño de relámpago."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Desvanecerse",
+   "md": "***Desvanecerse.*** El fuego fatuo y su luz tienen el estado de invisibles hasta que el fuego fatuo deje de concentrarse en este efecto, que terminará antes de tiempo inmediatamente después de que el fuego fatuo haga una tirada de ataque o use su acción de devorar vida.",
+   "page": 326,
+   "description": "El fuego fatuo y su luz tienen el estado de invisibles hasta que el fuego fatuo deje de concentrarse en este efecto, que terminará antes de tiempo inmediatamente después de que el fuego fatuo haga una tirada de ataque o use su acción de devorar vida."
+  },
+  {
+   "name": "Devorar vida",
+   "md": "***Devorar vida.*** *Tirada de salvación de Constitución:* CD 10, una criatura viva que el fuego fatuo pueda ver a 1,5 m o menos y tenga 0 puntos de golpe. *Fallo:*",
+   "page": 326,
+   "description": "*Tirada de salvación de Constitución:* CD 10, una criatura viva que el fuego fatuo pueda ver a 1,5 m o menos y tenga 0 puntos de golpe. *Fallo:*"
+  },
+  {
+   "name": null,
+   "md": "el objetivo muere y el fuego fatuo recupera 10 (3d6) puntos de golpe.",
+   "page": 326
+  }
+ ]
+}

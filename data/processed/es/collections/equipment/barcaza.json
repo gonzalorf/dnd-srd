@@ -1,0 +1,28 @@
+{
+ "id": "vehicle.barcaza",
+ "name": "Barcaza",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Barcaza",
+  "Velocidad": "1,5 km/h",
+  "Tripulación": "1",
+  "Pasajeros": "6",
+  "Cargamento (toneladas)": "1/2",
+  "CA": "15",
+  "PG": "100",
+  "Umbral de daño": "10",
+  "Precio": "3000 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ },
+ "price": {
+  "raw": "3000 po",
+  "amount": 3000.0,
+  "coin": "po",
+  "gp": 3000.0
+ }
+}

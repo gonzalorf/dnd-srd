@@ -1,0 +1,106 @@
+{
+ "id": "spell.simbolo",
+ "name": "Símbolo",
+ "level": 7,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado o se active",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Inscribes un glifo dañino bien en una superficie (como un trozo de un suelo o una pared) o bien en un objeto que se pueda cerrar (como un libro o un cofre). Este puede abarcar una zona de hasta 3 m de diámetro. Si eliges un objeto, este debe permanecer en su sitio; si se mueve más de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romperá y el conjuro terminará sin activarse.\n\nEl glifo es casi imperceptible y es necesario superar una prueba de Sabiduría (Percepción) contra tu CD de salvación de conjuros para detectarlo.\n\nCuando inscribas el glifo, decides qué condición lo activa y eliges qué efecto tiene el símbolo: aturdimiento, discordia, dolor, muerte, miedo o sueño (se explican a continuación).\n\nEstablecer el activador. Cuando lances el conjuro, decide qué activará el glifo. En el caso de los glifos inscritos en una superficie, las condiciones que suelen activarlos incluyen tocarlos o situarse sobre ellos, quitar otro objeto que los cubra o acercarse a cierta distancia de ellos. En el caso de los glifos inscritos en un objeto, suelen activarse al abrir el objeto o mirar el glifo. Puedes especificar aún más la condición, de modo que solo las criaturas de ciertos tipos puedan activarlo (por ejemplo, que solo afecte a las aberraciones). También puedes establecer excepciones sobre qué criaturas no activarán el glifo; por ejemplo, las que pronuncien una contraseña. Una vez activado, el glifo brilla y llena una esfera de 18 m de radio con luz tenue durante 10 minutos, tras lo cual el conjuro termina. Todas las criaturas que haya en la esfera cuando el glifo se active serán objetivo de su efecto, al igual que una criatura que entre en ella por primera vez en un turno o termine su turno allí. Una criatura solo puede ser objetivo una vez por turno.\n\nAturdimiento. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de aturdido durante 1 minuto.\n\nDiscordia. Cada objetivo hace una tirada de salvación de Sabiduría. Si la falla, el objetivo discutirá verbalmente con otras criaturas durante 1 minuto. Durante este tiempo, no podrá comunicarse de forma razonable y tendrá desventaja en las tiradas de ataque y las pruebas de característica.\n\nDolor. Cada objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de incapacitado durante 1 minuto.\n\nMuerte. Cada objetivo hace una tirada de salvación de Constitución; sufrirá 10d10 de daño necrótico si la falla o la mitad del daño si la supera.\n\nSueño. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de inconsciente durante 10 minutos. Una criatura se despierta si recibe daño o si alguien utiliza una acción para sacudirla.\n\nTerror. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado durante 1 minuto. Mientras esté asustado, el objetivo deberá alejarse al menos 9 m del glifo en cada uno de sus turnos si puede.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Inscribes un glifo dañino bien en una superficie (como un trozo de un suelo o una pared) o bien en un objeto que se pueda cerrar (como un libro o un cofre). Este puede abarcar una zona de hasta 3 m de diámetro. Si eliges un objeto, este debe permanecer en su sitio; si se mueve más de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romperá y el conjuro terminará sin activarse.",
+   "text": "Inscribes un glifo dañino bien en una superficie (como un trozo de un suelo o una pared) o bien en un objeto que se pueda cerrar (como un libro o un cofre). Este puede abarcar una zona de hasta 3 m de diámetro. Si eliges un objeto, este debe permanecer en su sitio; si se mueve más de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romperá y el conjuro terminará sin activarse."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "El glifo es casi imperceptible y es necesario superar una prueba de Sabiduría (Percepción) contra tu CD de salvación de conjuros para detectarlo.",
+   "text": "El glifo es casi imperceptible y es necesario superar una prueba de Sabiduría (Percepción) contra tu CD de salvación de conjuros para detectarlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "Cuando inscribas el glifo, decides qué condición lo activa y eliges qué efecto tiene el símbolo: aturdimiento, discordia, dolor, muerte, miedo o sueño (se explican a continuación).",
+   "text": "Cuando inscribas el glifo, decides qué condición lo activa y eliges qué efecto tiene el símbolo: aturdimiento, discordia, dolor, muerte, miedo o sueño (se explican a continuación)."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Establecer el activador.*** Cuando lances el conjuro, decide qué activará el glifo. En el caso de los glifos inscritos en una superficie, las condiciones que suelen activarlos incluyen tocarlos o situarse sobre ellos, quitar otro objeto que los cubra o acercarse a cierta distancia de ellos. En el caso de los glifos inscritos en un objeto, suelen activarse al abrir el objeto o mirar el glifo. Puedes especificar aún más la condición, de modo que solo las criaturas de ciertos tipos puedan activarlo (por ejemplo, que solo afecte a las aberraciones). También puedes establecer excepciones sobre qué criaturas no activarán el glifo; por ejemplo, las que pronuncien una contraseña. Una vez activado, el glifo brilla y llena una esfera de 18 m de radio con luz tenue durante 10 minutos, tras lo cual el conjuro termina. Todas las criaturas que haya en la esfera cuando el glifo se active serán objetivo de su efecto, al igual que una criatura que entre en ella por primera vez en un turno o termine su turno allí. Una criatura solo puede ser objetivo una vez por turno.",
+   "text": "Establecer el activador. Cuando lances el conjuro, decide qué activará el glifo. En el caso de los glifos inscritos en una superficie, las condiciones que suelen activarlos incluyen tocarlos o situarse sobre ellos, quitar otro objeto que los cubra o acercarse a cierta distancia de ellos. En el caso de los glifos inscritos en un objeto, suelen activarse al abrir el objeto o mirar el glifo. Puedes especificar aún más la condición, de modo que solo las criaturas de ciertos tipos puedan activarlo (por ejemplo, que solo afecte a las aberraciones). También puedes establecer excepciones sobre qué criaturas no activarán el glifo; por ejemplo, las que pronuncien una contraseña. Una vez activado, el glifo brilla y llena una esfera de 18 m de radio con luz tenue durante 10 minutos, tras lo cual el conjuro termina. Todas las criaturas que haya en la esfera cuando el glifo se active serán objetivo de su efecto, al igual que una criatura que entre en ella por primera vez en un turno o termine su turno allí. Una criatura solo puede ser objetivo una vez por turno."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Aturdimiento.*** Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de aturdido durante 1 minuto.",
+   "text": "Aturdimiento. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de aturdido durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Discordia.*** Cada objetivo hace una tirada de salvación de Sabiduría. Si la falla, el objetivo discutirá verbalmente con otras criaturas durante 1 minuto. Durante este tiempo, no podrá comunicarse de forma razonable y tendrá desventaja en las tiradas de ataque y las pruebas de característica.",
+   "text": "Discordia. Cada objetivo hace una tirada de salvación de Sabiduría. Si la falla, el objetivo discutirá verbalmente con otras criaturas durante 1 minuto. Durante este tiempo, no podrá comunicarse de forma razonable y tendrá desventaja en las tiradas de ataque y las pruebas de característica."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Dolor.*** Cada objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de incapacitado durante 1 minuto.",
+   "text": "Dolor. Cada objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de incapacitado durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Muerte.*** Cada objetivo hace una tirada de salvación de Constitución; sufrirá 10d10 de daño necrótico si la falla o la mitad del daño si la supera.",
+   "text": "Muerte. Cada objetivo hace una tirada de salvación de Constitución; sufrirá 10d10 de daño necrótico si la falla o la mitad del daño si la supera."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Sueño.*** Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de inconsciente durante 10 minutos. Una criatura se despierta si recibe daño o si alguien utiliza una acción para sacudirla.",
+   "text": "Sueño. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de inconsciente durante 10 minutos. Una criatura se despierta si recibe daño o si alguien utiliza una acción para sacudirla."
+  },
+  {
+   "type": "definition",
+   "page": 185,
+   "md": "***Terror.*** Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado durante 1 minuto. Mientras esté asustado, el objetivo deberá alejarse al menos 9 m del glifo en cada uno de sus turnos si puede.",
+   "text": "Terror. Cada objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado durante 1 minuto. Mientras esté asustado, el objetivo deberá alejarse al menos 9 m del glifo en cada uno de sus turnos si puede."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 184
+ }
+}

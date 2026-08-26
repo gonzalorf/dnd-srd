@@ -1,0 +1,128 @@
+{
+ "id": "monster.quasit",
+ "name": "Quasit",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 362
+ },
+ "context": [
+  "Quasit"
+ ],
+ "metaRaw": "Infernal Diminuto (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Diminuto",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "25 (10d4)",
+  "average": 25,
+  "formula": "10d4"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "abisal",
+  "común"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El quasit tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 362,
+   "description": "El quasit tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del quasit.",
+   "page": 362,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del quasit."
+  },
+  {
+   "name": "Asustar",
+   "md": "***Asustar (1/día).*** *Tirada de salvación de Sabiduría:* CD 10, una criatura a 6 m o menos. *Fallo:* el objetivo tendrá el estado de asustado. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 362,
+   "description": "*Tirada de salvación de Sabiduría:* CD 10, una criatura a 6 m o menos. *Fallo:* el objetivo tendrá el estado de asustado. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "uses": "1/día"
+  },
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El quasit cambia de forma para parecerse a un ciempiés (velocidad 12 m, trepar 12 m), un murciélago (3 m, volar 12 m) o un sapo (12 m, nadar 12 m), o recupera su auténtica forma. Su perfil es el mismo en todas las formas, excepto por su velocidad. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 362,
+   "description": "El quasit cambia de forma para parecerse a un ciempiés (velocidad 12 m, trepar 12 m), un murciélago (3 m, volar 12 m) o un sapo (12 m, nadar 12 m), o recupera su auténtica forma. Su perfil es el mismo en todas las formas, excepto por su velocidad. Cualquier equipo que vista o lleve no se transformará."
+  },
+  {
+   "name": "Invisibilidad",
+   "md": "***Invisibilidad.*** El quasit lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica.",
+   "page": 362,
+   "description": "El quasit lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica."
+  }
+ ],
+ "refs": [
+  "spell.invisibilidad"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "table.puntuaciones-de-caracteristica-y-trasfondos",
+ "caption": "Puntuaciones de característica y trasfondos",
+ "header": [
+  "Característica",
+  "Trasfondo"
+ ],
+ "rows": [
+  [
+   "Fuerza",
+   "Soldado"
+  ],
+  [
+   "Destreza",
+   "Soldado"
+  ],
+  [
+   "Constitución",
+   "Soldado"
+  ],
+  [
+   "Inteligencia",
+   "Acólito"
+  ],
+  [
+   "Sabiduría",
+   "Acólito"
+  ],
+  [
+   "Carisma",
+   "Acólito"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 2: origen del personaje",
+  "Elige un trasfondo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 22
+ }
+}

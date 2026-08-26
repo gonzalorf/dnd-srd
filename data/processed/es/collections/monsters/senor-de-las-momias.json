@@ -1,0 +1,203 @@
+{
+ "id": "monster.senor-de-las-momias",
+ "name": "Señor de las momias",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 352,
+  "pages": [
+   352,
+   353
+  ]
+ },
+ "context": [
+  "Momias"
+ ],
+ "metaRaw": "Muerto viviente Mediano o Pequeño (clérigo), legal malvado",
+ "type": "Muerto viviente",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "tags": [
+  "clérigo"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 10,
+  "score": 20
+ },
+ "hp": {
+  "raw": "187 (25d8 + 75)",
+  "average": 187,
+  "formula": "25d8 + 75"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Historia": 5,
+  "Percepción": 9,
+  "Religión": 5
+ },
+ "senses": {
+  "raw": "visión verdadera 18 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "común y otros tres idiomas"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "paralizado"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+  "cr": 15,
+  "xp": 13000,
+  "proficiencyBonus": 5,
+  "xpInLair": 15000
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 5
+  },
+  "sab": {
+   "score": 19,
+   "mod": 4,
+   "save": 9
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación de muerto viviente",
+   "md": "***Recuperación de muerto viviente.*** Si la destruyen, la momia obtendrá un cuerpo nuevo al cabo de 24 horas si su corazón permanece intacto y revivirá con todos sus puntos de golpe. El nuevo cuerpo aparecerá en un espacio sin ocupar en la guarida de la momia. El corazón es un objeto Diminuto con una CA de 17, 10 pg e inmunidad a todo el daño excepto al de fuego.",
+   "page": 352,
+   "description": "Si la destruyen, la momia obtendrá un cuerpo nuevo al cabo de 24 horas si su corazón permanece intacto y revivirá con todos sus puntos de golpe. El nuevo cuerpo aparecerá en un espacio sin ocupar en la guarida de la momia. El corazón es un objeto Diminuto con una CA de 17, 10 pg e inmunidad a todo el daño excepto al de fuego."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** La momia puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 352,
+   "description": "La momia puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** La momia tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 352,
+   "description": "La momia tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La momia realiza un ataque con su puño putrefacto o de canalizar energía negativa y utiliza su mirada espantosa.",
+   "page": 352,
+   "description": "La momia realiza un ataque con su puño putrefacto o de canalizar energía negativa y utiliza su mirada espantosa."
+  },
+  {
+   "name": "Puño putrefacto",
+   "md": "***Puño putrefacto.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 15 (2d10 + 4) de daño contundente más 10 (3d6) de daño necrótico. Si el objetivo es una criatura, quedará maldita. Mientras el objetivo esté maldito, no podrá recuperar puntos de golpe, no obtendrá beneficio alguno por finalizar un descanso largo y sus puntos de golpe máximos se reducirán en 10 (3d6) cada 24 horas. Una criatura morirá y se convertirá en polvo si este ataque reduce sus puntos de golpe a 0.",
+   "page": 352,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 15 (2d10 + 4) de daño contundente más 10 (3d6) de daño necrótico. Si el objetivo es una criatura, quedará maldita. Mientras el objetivo esté maldito, no podrá recuperar puntos de golpe, no obtendrá beneficio alguno por finalizar un descanso largo y sus puntos de golpe máximos se reducirán en 10 (3d6) cada 24 horas. Una criatura morirá y se convertirá en polvo si este ataque reduce sus puntos de golpe a 0."
+  },
+  {
+   "name": "Canalizar energía negativa",
+   "md": "***Canalizar energía negativa.*** *Tirada de ataque a distancia:* +9, alcance 18 m. *Acierto:* 25 (6d6 + 4) de daño necrótico.",
+   "page": 352,
+   "description": "*Tirada de ataque a distancia:* +9, alcance 18 m. *Acierto:* 25 (6d6 + 4) de daño necrótico."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La momia lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 17, +9 a acertar con ataques de conjuro):",
+   "page": 352,
+   "description": "La momia lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 17, +9 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *disipar magia*, *taumaturgia* 1/día cada uno: *animar a los muertos*, *dañar*, *plaga de insectos* (versión de nivel 7)",
+   "page": 352
+  },
+  {
+   "name": "Mirada espantosa",
+   "md": "***Mirada espantosa.*** *Tirada de salvación de Sabiduría:* CD 17, una criatura que la momia pueda ver a 18 m o menos. *Fallo:* 25 (6d6 + 4) de daño psíquico y el objetivo tendrá el estado de paralizado hasta el final del siguiente turno de la momia.",
+   "page": 352,
+   "description": "*Tirada de salvación de Sabiduría:* CD 17, una criatura que la momia pueda ver a 18 m o menos. *Fallo:* 25 (6d6 + 4) de daño psíquico y el objetivo tendrá el estado de paralizado hasta el final del siguiente turno de la momia."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Torbellino de arena",
+   "md": "***Torbellino de arena.*** *Detonante:* una tirada de ataque acierta a la momia. *Respuesta:* la momia suma 2 a su CA contra ese ataque, lo que puede hacer que falle. Además, la momia se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver. Todas las criaturas de su elección que pueda ver a 1,5 m o menos de su espacio de destino tendrán el estado de cegadas hasta el final del siguiente turno de la momia.",
+   "page": 352,
+   "description": "*Detonante:* una tirada de ataque acierta a la momia. *Respuesta:* la momia suma 2 a su CA contra ese ataque, lo que puede hacer que falle. Además, la momia se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver. Todas las criaturas de su elección que pueda ver a 1,5 m o menos de su espacio de destino tendrán el estado de cegadas hasta el final del siguiente turno de la momia."
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Golpe necrótico",
+    "md": "***Golpe necrótico.*** La momia realiza un ataque con su puño putrefacto o de canalizar energía negativa.",
+    "page": 352,
+    "description": "La momia realiza un ataque con su puño putrefacto o de canalizar energía negativa."
+   },
+   {
+    "name": "Mirar con furia",
+    "md": "***Mirar con furia.*** La momia utiliza su mirada espantosa. La momia no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 352,
+    "description": "La momia utiliza su mirada espantosa. La momia no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Orden terrorífica",
+    "md": "***Orden terrorífica.*** La momia lanza *orden imperiosa* (versión de nivel 2) usando la misma aptitud mágica que para su lanzamiento de conjuros. La momia no",
+    "page": 352,
+    "description": "La momia lanza *orden imperiosa* (versión de nivel 2) usando la misma aptitud mágica que para su lanzamiento de conjuros. La momia no"
+   },
+   {
+    "name": null,
+    "md": "puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 353
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, la momia puede emplear un uso para llevar a cabo una de las siguientes acciones. La momia recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.disipar-magia",
+  "spell.taumaturgia",
+  "spell.animar-a-los-muertos",
+  "spell.danar",
+  "spell.plaga-de-insectos",
+  "spell.orden-imperiosa"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "spell.agarre-electrizante",
+ "name": "Agarre electrizante",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.\n\nMejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.",
+   "text": "Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 118,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+   "text": "Mejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 118
+ }
+}

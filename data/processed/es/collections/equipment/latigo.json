@@ -1,0 +1,29 @@
+{
+ "id": "weapon.latigo",
+ "name": "Látigo",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Látigo",
+  "Daño": "1d4 cortante",
+  "Propiedades": "Gran alcance, sutil",
+  "Maestría": "Ralentizar",
+  "Peso": "1,5 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "1,5 kg",
+  "kg": 1.5
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "spell.rayo-solar",
+ "name": "Rayo solar",
+ "level": 6,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una lupa)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una lupa",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Lanzas un rayo solar en una línea de 1,5 m de ancho y 18 m de largo. Todas las criaturas situadas en esa línea harán una tirada de salvación de Constitución. Si la fallan, recibirán 6d8 de daño radiante y tendrán el estado de cegadas hasta el principio de tu siguiente turno. Si la superan, recibirán solo la mitad de daño.\n\nHasta que el conjuro termine, puedes emplear una acción de magia para crear una nueva línea de luz radiante.\n\nHasta que termine el conjuro, por encima de ti brillará una mota radiante que emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Esta luz es luz solar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Lanzas un rayo solar en una línea de 1,5 m de ancho y 18 m de largo. Todas las criaturas situadas en esa línea harán una tirada de salvación de Constitución. Si la fallan, recibirán 6d8 de daño radiante y tendrán el estado de cegadas hasta el principio de tu siguiente turno. Si la superan, recibirán solo la mitad de daño.",
+   "text": "Lanzas un rayo solar en una línea de 1,5 m de ancho y 18 m de largo. Todas las criaturas situadas en esa línea harán una tirada de salvación de Constitución. Si la fallan, recibirán 6d8 de daño radiante y tendrán el estado de cegadas hasta el principio de tu siguiente turno. Si la superan, recibirán solo la mitad de daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Hasta que el conjuro termine, puedes emplear una acción de magia para crear una nueva línea de luz radiante.",
+   "text": "Hasta que el conjuro termine, puedes emplear una acción de magia para crear una nueva línea de luz radiante."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Hasta que termine el conjuro, por encima de ti brillará una mota radiante que emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Esta luz es luz solar.",
+   "text": "Hasta que termine el conjuro, por encima de ti brillará una mota radiante que emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Esta luz es luz solar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 179
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "id": "vehicle.aeronave",
+ "name": "Aeronave",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Aeronave",
+  "Velocidad": "12 km/h",
+  "Tripulación": "10",
+  "Pasajeros": "20",
+  "Cargamento (toneladas)": "1",
+  "CA": "13",
+  "PG": "300",
+  "Umbral de daño": "—",
+  "Precio": "40 000 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

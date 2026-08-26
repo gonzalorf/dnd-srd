@@ -1,0 +1,57 @@
+{
+ "id": "item.amuleto-de-los-planos",
+ "name": "Amuleto de los planos",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización)",
+ "text": "Mientras lleves puesto este amuleto, podrás usar una acción de magia para nombrar un lugar que conozcas de otro plano de existencia. Después, haz una prueba de Inteligencia (Conocimiento arcano) con CD 15. Si la superas, lanzarás desplazamiento entre planos. Si la fallas, tú y cualquier criatura u objeto que se encuentre a 4,5 m o menos de ti os desplazáis a un lugar al azar. Para ello, tira 1d100 y consulta el destino en la tabla a continuación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Mientras lleves puesto este amuleto, podrás usar una acción de magia para nombrar un lugar que conozcas de otro plano de existencia. Después, haz una prueba de Inteligencia (Conocimiento arcano) con CD 15. Si la superas, lanzarás *desplazamiento entre planos*. Si la fallas, tú y cualquier criatura u objeto que se encuentre a 4,5 m o menos de ti os desplazáis a un lugar al azar. Para ello, tira 1d100 y consulta el destino en la tabla a continuación.",
+   "text": "Mientras lleves puesto este amuleto, podrás usar una acción de magia para nombrar un lugar que conozcas de otro plano de existencia. Después, haz una prueba de Inteligencia (Conocimiento arcano) con CD 15. Si la superas, lanzarás desplazamiento entre planos. Si la fallas, tú y cualquier criatura u objeto que se encuentre a 4,5 m o menos de ti os desplazáis a un lugar al azar. Para ello, tira 1d100 y consulta el destino en la tabla a continuación."
+  },
+  {
+   "type": "table",
+   "page": 230,
+   "caption": null,
+   "header": [
+    "1d100",
+    "Destino"
+   ],
+   "rows": [
+    [
+     "01–60",
+     "Un sitio al azar en el plano de existencia nombrado."
+    ],
+    [
+     "61–70",
+     "Un sitio al azar en un Plano Interior, que se determina tirando 1d6: si sale un 1, el Plano de la Tierra; si sale un 2, el Plano del Agua; si sale un 3, el Plano del Aire; si sale un 4, el Plano del Fuego; si sale un 5, los Parajes Feéricos; si sale un 6, el Páramo Sombrío."
+    ],
+    [
+     "71–80",
+     "Un sitio al azar en un Plano Exterior, que se determina tirando 1d8: si sale un 1, Arbórea; si sale un 2, Arcadia; si sale un 3, Bitopía; si sale un 4, Elíseo; si sale un 5, Mechanus; si sale un 6, el Monte Celestia; si sale un 7, las Tierras de las Bestias; si sale un 8, Ysgard."
+    ],
+    [
+     "81–90",
+     "Un sitio al azar en un Plano Exterior, que se determina tirando 1d8: si sale un 1, el Abismo; si sale un 2, Aqueronte; si sale un 3, Carceri; si sale un 4; Gehenna; si sale un 5, Hades; si sale un 6, Limbo; si sale un 7, los Nueve Infiernos; si sale un 8, Pandemónium."
+    ],
+    [
+     "91–00",
+     "Un sitio al azar en el Plano Astral."
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ },
+ "refs": [
+  "spell.desplazamiento-entre-planos"
+ ]
+}

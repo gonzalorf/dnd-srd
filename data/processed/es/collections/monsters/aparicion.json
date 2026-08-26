@@ -1,0 +1,124 @@
+{
+ "id": "monster.aparicion",
+ "name": "Aparición",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 284
+ },
+ "context": [
+  "Aparición"
+ ],
+ "metaRaw": "Muerto viviente Mediano o Pequeño, neutral malvado",
+ "type": "Muerto viviente",
+ "alignment": "neutral malvado",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "67 (9d8 + 27)",
+  "average": 67,
+  "formula": "9d8 + 27"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común y otros dos idiomas"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "agarrado",
+  "apresado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "hechizado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "ácido",
+  "contundente",
+  "cortante",
+  "frío",
+  "fuego",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Movimiento incorpóreo",
+   "md": "***Movimiento incorpóreo.*** La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto.",
+   "page": 284,
+   "description": "La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto."
+  },
+  {
+   "name": "Sensibilidad a la luz solar",
+   "md": "***Sensibilidad a la luz solar.*** Bajo la luz del sol, la aparición tiene desventaja en las pruebas de característica y las tiradas de ataque.",
+   "page": 284,
+   "description": "Bajo la luz del sol, la aparición tiene desventaja en las pruebas de característica y las tiradas de ataque."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Consumir vida",
+   "md": "***Consumir vida.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 21 (4d8 + 3) de daño necrótico. Si el objetivo es una criatura, sus puntos de golpe máximos se reducen en una cantidad igual al daño sufrido.",
+   "page": 284,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 21 (4d8 + 3) de daño necrótico. Si el objetivo es una criatura, sus puntos de golpe máximos se reducen en una cantidad igual al daño sufrido."
+  },
+  {
+   "name": "Crear espectro",
+   "md": "***Crear espectro.*** La aparición hace objetivo a un cadáver de humanoide que esté a 3 m o menos de ella y haya muerto hace 1 minuto como máximo. El espíritu del objetivo se alza como un espectro en el espacio de su cadáver o en el espacio sin ocupar más cercano. El espectro estará bajo el control de la aparición. Esta última no puede tener más de siete espectros bajo su control a la vez.",
+   "page": 284,
+   "description": "La aparición hace objetivo a un cadáver de humanoide que esté a 3 m o menos de ella y haya muerto hace 1 minuto como máximo. El espíritu del objetivo se alza como un espectro en el espacio de su cadáver o en el espacio sin ocupar más cercano. El espectro estará bajo el control de la aparición. Esta última no puede tener más de siete espectros bajo su control a la vez."
+  }
+ ]
+}

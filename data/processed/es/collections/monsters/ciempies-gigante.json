@@ -1,0 +1,83 @@
+{
+ "id": "monster.ciempies-gigante",
+ "name": "Ciempiés gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 382
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Pequeña, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Pequeño",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "9 (2d6 + 2)",
+  "average": 9,
+  "formula": "2d6 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del ciempiés.",
+   "page": 382,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño perforante y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del ciempiés."
+  }
+ ]
+}

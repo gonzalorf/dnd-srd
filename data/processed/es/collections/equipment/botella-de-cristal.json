@@ -1,0 +1,36 @@
+{
+ "id": "gear.botella-de-cristal",
+ "name": "Botella de cristal",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Botella de cristal",
+  "Peso": "1 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "En una botella de cristal caben hasta 0,75 l de líquido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "En una botella de cristal caben hasta 0,75 l de líquido.",
+   "text": "En una botella de cristal caben hasta 0,75 l de líquido."
+  }
+ ],
+ "descriptionPage": 104
+}

@@ -1,0 +1,58 @@
+{
+ "id": "spell.hechizar-monstruo",
+ "name": "Hechizar monstruo",
+ "level": 4,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. La hace con ventaja si está luchando contra ti o tus aliados. Si la falla, tendrá el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o tú le hagáis daño. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabrá que la hechizaste.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 155,
+   "md": "Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. La hace con ventaja si está luchando contra ti o tus aliados. Si la falla, tendrá el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o tú le hagáis daño. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabrá que la hechizaste.",
+   "text": "Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. La hace con ventaja si está luchando contra ti o tus aliados. Si la falla, tendrá el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o tú le hagáis daño. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabrá que la hechizaste."
+  },
+  {
+   "type": "definition",
+   "page": 155,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 155
+ }
+}

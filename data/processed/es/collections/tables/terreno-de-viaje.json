@@ -1,0 +1,111 @@
+{
+ "id": "table.terreno-de-viaje",
+ "caption": "Terreno de viaje",
+ "header": [
+  "Terreno",
+  "Ritmo máximo",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "rows": [
+  [
+   "Acuático",
+   "Especial†",
+   "6d6 × 3 m",
+   "15",
+   "10",
+   "15"
+  ],
+  [
+   "Bosque",
+   "Normal",
+   "2d8 × 3 m",
+   "10",
+   "15",
+   "15"
+  ],
+  [
+   "Colina",
+   "Normal",
+   "2d10 × 3 m",
+   "15",
+   "10",
+   "15"
+  ],
+  [
+   "Costa",
+   "Normal",
+   "2d10 × 3 m",
+   "10",
+   "5",
+   "15"
+  ],
+  [
+   "Desierto",
+   "Normal",
+   "6d6 × 3 m",
+   "20",
+   "10",
+   "10"
+  ],
+  [
+   "Glacial",
+   "Rápido*",
+   "6d6 × 3 m",
+   "20",
+   "10",
+   "10"
+  ],
+  [
+   "Infraoscuridad",
+   "Normal",
+   "2d6 × 3 m",
+   "20",
+   "10",
+   "20"
+  ],
+  [
+   "Localidad",
+   "Normal",
+   "2d6 × 3 m",
+   "20",
+   "15",
+   "15"
+  ],
+  [
+   "Montaña",
+   "Lento",
+   "4d10 × 3 m",
+   "20",
+   "15",
+   "20"
+  ],
+  [
+   "Pantano",
+   "Lento",
+   "2d8 × 3 m",
+   "10",
+   "15",
+   "20"
+  ],
+  [
+   "Pradera",
+   "Rápido",
+   "6d6 × 3 m",
+   "15",
+   "5",
+   "15"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Herramientas del juego",
+  "Crear un trasfondo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 211
+ }
+}

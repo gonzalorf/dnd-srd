@@ -1,0 +1,52 @@
+{
+ "id": "table.tamano-y-espacio-de-las-criaturas",
+ "caption": "Tamaño y espacio de las criaturas",
+ "header": [
+  "Tamaño",
+  "Espacio (metros)",
+  "Espacio (casillas)"
+ ],
+ "rows": [
+  [
+   "Diminuto",
+   "0,75 por 0,75 m",
+   "4 por casilla"
+  ],
+  [
+   "Pequeño",
+   "1,5 por 1,5 m",
+   "1 casilla"
+  ],
+  [
+   "Mediano",
+   "1,5 por 1,5 m",
+   "1 casilla"
+  ],
+  [
+   "Grande",
+   "3 por 3 m",
+   "4 casillas (2 por 2)"
+  ],
+  [
+   "Enorme",
+   "4,5 por 4,5 m",
+   "9 casillas (3 por 3)"
+  ],
+  [
+   "Gargantuesco",
+   "6 por 6 m",
+   "16 casillas (4 por 4)"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Combate",
+  "Movimiento y posición",
+  "Tamaño de una criatura"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 15
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "table.p31",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Bagatela"
+ ],
+ "rows": [
+  [
+   "95",
+   "Un ratón petrificado"
+  ],
+  [
+   "96",
+   "Una bandera pirata negra y adornada con un cráneo de dragón y dos tibias"
+  ],
+  [
+   "97",
+   "Un diminuto cangrejo o araña mecánico que se mueve cuando nadie lo mira"
+  ],
+  [
+   "98",
+   "Un tarro de cristal lleno de manteca cuya etiqueta reza: “Grasa de grifo”"
+  ],
+  [
+   "99",
+   "Una caja de madera con base de cerámica y que contiene un gusano vivo con una cabeza en cada extremo de su cuerpo"
+  ],
+  [
+   "00",
+   "Una urna de metal que contiene las cenizas"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Bagatelas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 31
+ }
+}

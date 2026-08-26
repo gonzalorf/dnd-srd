@@ -1,0 +1,17 @@
+{
+ "id": "rule.ventaja",
+ "name": "Ventaja",
+ "text": "Si tienes ventaja en una prueba con d20, tira 2d20 y utiliza el resultado más alto. Una tirada no puede verse afectada por más de una ventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Si tienes ventaja en una prueba con d20, tira 2d20 y utiliza el resultado más alto. Una tirada no puede verse afectada por más de una ventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. *Consulta también* el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+   "text": "Si tienes ventaja en una prueba con d20, tira 2d20 y utiliza el resultado más alto. Una tirada no puede verse afectada por más de una ventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

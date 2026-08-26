@@ -1,0 +1,84 @@
+{
+ "id": "spell.orden-imperiosa",
+ "name": "Orden imperiosa",
+ "level": 1,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o verse obligado a obedecer la orden en su próximo turno. Elige una de las siguientes órdenes:\n\nAcércate. El objetivo se acerca a ti por la ruta más corta y directa posible, y su turno acaba si se sitúa a 1,5 m o menos de ti.\n\nDetente. En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.\n\nHuye. El objetivo emplea su turno en alejarse de ti de la manera más rápida posible.\n\nPóstrate. El objetivo adopta el estado de derribado y termina su turno.\n\nSuelta. El objetivo suelta lo que sea que esté sujetando y acaba su turno.\n\nCon un espacio de conjuro de nivel superior. Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 171,
+   "md": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o verse obligado a obedecer la orden en su próximo turno. Elige una de las siguientes órdenes:",
+   "text": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o verse obligado a obedecer la orden en su próximo turno. Elige una de las siguientes órdenes:"
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "**Acércate.** El objetivo se acerca a ti por la ruta más corta y directa posible, y su turno acaba si se sitúa a 1,5 m o menos de ti.",
+   "text": "Acércate. El objetivo se acerca a ti por la ruta más corta y directa posible, y su turno acaba si se sitúa a 1,5 m o menos de ti."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "**Detente.** En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.",
+   "text": "Detente. En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "**Huye.** El objetivo emplea su turno en alejarse de ti de la manera más rápida posible.",
+   "text": "Huye. El objetivo emplea su turno en alejarse de ti de la manera más rápida posible."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "**Póstrate.** El objetivo adopta el estado de derribado y termina su turno.",
+   "text": "Póstrate. El objetivo adopta el estado de derribado y termina su turno."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "**Suelta.** El objetivo suelta lo que sea que esté sujetando y acaba su turno.",
+   "text": "Suelta. El objetivo suelta lo que sea que esté sujetando y acaba su turno."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 171
+ }
+}

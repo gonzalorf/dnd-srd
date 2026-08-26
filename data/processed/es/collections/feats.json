@@ -1,0 +1,578 @@
+[
+ {
+  "id": "feat.alerta",
+  "name": "Alerta",
+  "text": "Dote de origen\n\nObtienes los siguientes beneficios:\n\nCompetencia en iniciativa. Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada.\n\nIntercambio de iniciativa. Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote de origen*",
+    "text": "Dote de origen"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Competencia en iniciativa.*** Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada.",
+    "text": "Competencia en iniciativa. Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Intercambio de iniciativa.*** Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado.",
+    "text": "Intercambio de iniciativa. Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes de origen"
+ },
+ {
+  "id": "feat.atacante-salvaje",
+  "name": "Atacante salvaje",
+  "text": "Dote de origen\n\nTe has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote de origen*",
+    "text": "Dote de origen"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Te has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo.",
+    "text": "Te has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes de origen"
+ },
+ {
+  "id": "feat.habilidoso",
+  "name": "Habilidoso",
+  "text": "Dote de origen\n\nGanas competencia en cualquier combinación de tres habilidades o herramientas que elijas.\n\nRepetible. Puedes elegir esta dote más de una vez.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote de origen*",
+    "text": "Dote de origen"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Ganas competencia en cualquier combinación de tres habilidades o herramientas que elijas.",
+    "text": "Ganas competencia en cualquier combinación de tres habilidades o herramientas que elijas."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Repetible.*** Puedes elegir esta dote más de una vez.",
+    "text": "Repetible. Puedes elegir esta dote más de una vez."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes de origen"
+ },
+ {
+  "id": "feat.iniciado-en-la-magia",
+  "name": "Iniciado en la magia",
+  "text": "Dote de origen\n\nObtienes los siguientes beneficios:\n\nDos trucos. Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote).\n\nConjuro de nivel 1. Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.\n\nCambiar conjuro. Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada.\n\nRepetible. Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote de origen*",
+    "text": "Dote de origen"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Dos trucos.*** Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote).",
+    "text": "Dos trucos. Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote)."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Conjuro de nivel 1.*** Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.",
+    "text": "Conjuro de nivel 1. Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Cambiar conjuro.*** Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada.",
+    "text": "Cambiar conjuro. Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Repetible.*** Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez.",
+    "text": "Repetible. Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes de origen"
+ },
+ {
+  "id": "feat.apresador",
+  "name": "Apresador",
+  "text": "Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.\n\nGolpear y agarrar. Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno.\n\nVentaja al atacar. Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando.\n\nLuchador rápido. No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)*",
+    "text": "Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Mejora de característica.*** Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.",
+    "text": "Mejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Golpear y agarrar.*** Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno.",
+    "text": "Golpear y agarrar. Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Ventaja al atacar.*** Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando.",
+    "text": "Ventaja al atacar. Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Luchador rápido.*** No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña.",
+    "text": "Luchador rápido. No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes generales"
+ },
+ {
+  "id": "feat.mejora-de-caracteristica",
+  "name": "Mejora de característica",
+  "text": "Dote general (requisitos: nivel 4 o más)\n\nAumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20.\n\nRepetible. Puedes elegir esta dote más de una vez.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 94,
+    "md": "*Dote general (requisitos: nivel 4 o más)*",
+    "text": "Dote general (requisitos: nivel 4 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 94,
+    "md": "Aumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20.",
+    "text": "Aumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20."
+   },
+   {
+    "type": "definition",
+    "page": 94,
+    "md": "***Repetible.*** Puedes elegir esta dote más de una vez.",
+    "text": "Repetible. Puedes elegir esta dote más de una vez."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 94
+  },
+  "category": "Dotes generales"
+ },
+ {
+  "id": "feat.combate-con-armas-a-dos-manos",
+  "name": "Combate con armas a dos manos",
+  "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)\n\nCuando tires el daño para un ataque hecho con un arma cuerpo a cuerpo que empuñas con ambas manos, puedes tratar cualquier 1 o 2 en los dados de daño como un 3. Para obtener este beneficio, el arma debe poseer la propiedad “a dos manos” o “versátil”.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de estilo de combate (requisitos: rasgo Estilo de combate)*",
+    "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Cuando tires el daño para un ataque hecho con un arma cuerpo a cuerpo que empuñas con ambas manos, puedes tratar cualquier 1 o 2 en los dados de daño como un 3. Para obtener este beneficio, el arma debe poseer la propiedad “a dos manos” o “versátil”.",
+    "text": "Cuando tires el daño para un ataque hecho con un arma cuerpo a cuerpo que empuñas con ambas manos, puedes tratar cualquier 1 o 2 en los dados de daño como un 3. Para obtener este beneficio, el arma debe poseer la propiedad “a dos manos” o “versátil”."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de estilo de combate"
+ },
+ {
+  "id": "feat.combate-con-dos-armas",
+  "name": "Combate con dos armas",
+  "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)\n\nCuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de estilo de combate (requisitos: rasgo Estilo de combate)*",
+    "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Cuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño.",
+    "text": "Cuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de estilo de combate"
+ },
+ {
+  "id": "feat.defensa",
+  "name": "Defensa",
+  "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)\n\nMientras lleves puesta una armadura ligera, media o pesada, recibes un bonificador de +1 a la clase de armadura.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de estilo de combate (requisitos: rasgo Estilo de combate)*",
+    "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Mientras lleves puesta una armadura ligera, media o pesada, recibes un bonificador de +1 a la clase de armadura.",
+    "text": "Mientras lleves puesta una armadura ligera, media o pesada, recibes un bonificador de +1 a la clase de armadura."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de estilo de combate"
+ },
+ {
+  "id": "feat.tiro-con-arco",
+  "name": "Tiro con arco",
+  "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)\n\nRecibes un bonificador de +2 a las tiradas de ataque con armas a distancia.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de estilo de combate (requisitos: rasgo Estilo de combate)*",
+    "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Recibes un bonificador de +2 a las tiradas de ataque con armas a distancia.",
+    "text": "Recibes un bonificador de +2 a las tiradas de ataque con armas a distancia."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de estilo de combate"
+ },
+ {
+  "id": "feat.don-de-la-pericia-en-combate",
+  "name": "Don de la pericia en combate",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nPrecisión sin igual. Cuando falles con una tirada de ataque, puedes acertarla. Cuando uses este beneficio, no podrás volver a hacerlo hasta el principio de tu siguiente turno.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Precisión sin igual.*** Cuando falles con una tirada de ataque, puedes acertarla. Cuando uses este beneficio, no podrás volver a hacerlo hasta el principio de tu siguiente turno.",
+    "text": "Precisión sin igual. Cuando falles con una tirada de ataque, puedes acertarla. Cuando uses este beneficio, no podrás volver a hacerlo hasta el principio de tu siguiente turno."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-de-la-vision-verdadera",
+  "name": "Don de la visión verdadera",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nVisión verdadera. Tienes visión verdadera hasta 18 m.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Visión verdadera.*** Tienes visión verdadera hasta 18 m.",
+    "text": "Visión verdadera. Tienes visión verdadera hasta 18 m."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-del-ataque-imparable",
+  "name": "Don del ataque imparable",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30.\n\nSuperar las defensas. El daño contundente, cortante y perforante que causas siempre ignora la resistencia.\n\nGolpe arrollador. Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Superar las defensas.*** El daño contundente, cortante y perforante que causas siempre ignora la resistencia.",
+    "text": "Superar las defensas. El daño contundente, cortante y perforante que causas siempre ignora la resistencia."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Golpe arrollador.*** Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque.",
+    "text": "Golpe arrollador. Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-del-destino",
+  "name": "Don del destino",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nMejorar el destino. Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejorar el destino.*** Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo.",
+    "text": "Mejorar el destino. Cuando tú u otra criatura que esté a 18 m o menos de ti superéis o falléis una prueba con d20, puedes tirar 2d4 y aplicar el resultado total como bonificador o penalizador a la tirada del d20. Cuando uses este beneficio, no podrás volver a hacerlo hasta que tires iniciativa o finalices un descanso corto o largo."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-del-espiritu-de-la-noche",
+  "name": "Don del espíritu de la noche",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nFusionarse con las sombras. Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción.\n\nForma sombría. Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Fusionarse con las sombras.*** Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción.",
+    "text": "Fusionarse con las sombras. Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Forma sombría.*** Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante.",
+    "text": "Forma sombría. Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-del-recuerdo-de-conjuros",
+  "name": "Don del recuerdo de conjuros",
+  "text": "Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30.\n\nLanzamiento gratuito. Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 95,
+    "md": "*Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)"
+   },
+   {
+    "type": "paragraph",
+    "page": 95,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Mejora de característica.*** Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 95,
+    "md": "***Lanzamiento gratuito.*** Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta.",
+    "text": "Lanzamiento gratuito. Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 95
+  },
+  "category": "Dotes de don épico"
+ },
+ {
+  "id": "feat.don-del-viaje-dimensional",
+  "name": "Don del viaje dimensional",
+  "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nPasos desplazadores. Inmediatamente después de que realices la acción de atacar o la de magia, puedes teletransportarte hasta 9 m a un espacio sin ocupar que puedas ver.",
+  "blocks": [
+   {
+    "type": "subtitle",
+    "page": 96,
+    "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+    "text": "Dote de don épico (requisito: nivel 19 o más)"
+   },
+   {
+    "type": "paragraph",
+    "page": 96,
+    "md": "Obtienes los siguientes beneficios:",
+    "text": "Obtienes los siguientes beneficios:"
+   },
+   {
+    "type": "definition",
+    "page": 96,
+    "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+    "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+   },
+   {
+    "type": "definition",
+    "page": 96,
+    "md": "***Pasos desplazadores.*** Inmediatamente después de que realices la acción de atacar o la de magia, puedes teletransportarte hasta 9 m a un espacio sin ocupar que puedas ver.",
+    "text": "Pasos desplazadores. Inmediatamente después de que realices la acción de atacar o la de magia, puedes teletransportarte hasta 9 m a un espacio sin ocupar que puedas ver."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 96
+  },
+  "category": "Dotes de don épico"
+ }
+]

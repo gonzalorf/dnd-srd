@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-6",
+ "caption": "Conjuros de brujo de nivel 6",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Círculo de muerte",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Crear muerto viviente",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Mal de ojo",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Visión veraz",
+   "Adivinación",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

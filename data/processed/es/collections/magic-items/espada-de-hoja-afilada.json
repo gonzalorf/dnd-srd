@@ -1,0 +1,29 @@
+{
+ "id": "item.espada-de-hoja-afilada",
+ "name": "Espada de hoja afilada",
+ "category": "Arma",
+ "variant": "cimitarra, espada larga, espadón o guja",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cimitarra, espada larga, espadón o guja), muy rara (requiere sintonización)",
+ "text": "Cuando ataques a un objeto con esta arma mágica y aciertes, toma el resultado máximo de los dados de daño del arma contra el objetivo.\n\nCuando ataques a una criatura con esta arma y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 14 de daño cortante adicional y sumará 1 nivel de cansancio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Cuando ataques a un objeto con esta arma mágica y aciertes, toma el resultado máximo de los dados de daño del arma contra el objetivo.",
+   "text": "Cuando ataques a un objeto con esta arma mágica y aciertes, toma el resultado máximo de los dados de daño del arma contra el objetivo."
+  },
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Cuando ataques a una criatura con esta arma y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 14 de daño cortante adicional y sumará 1 nivel de cansancio.",
+   "text": "Cuando ataques a una criatura con esta arma y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 14 de daño cortante adicional y sumará 1 nivel de cansancio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 254
+ }
+}

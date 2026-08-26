@@ -1,0 +1,61 @@
+{
+ "id": "spell.nube-apestosa",
+ "name": "Nube apestosa",
+ "level": 3,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V, S, M (un huevo podrido)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un huevo podrido",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas una esfera de gas nauseabundo y amarillento de 6 m de radio centrada en un punto dentro del alcance. La nube está muy oscura y permanece en el aire hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento).\n\nTodas las criaturas que comiencen su turno en la esfera deberán superar una tirada de salvación de Constitución o tendrán el estado de envenenadas hasta el final del turno actual. Mientras estén envenenadas de esta forma, no podrán realizar acciones ni acciones adicionales.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 169,
+   "md": "Creas una esfera de gas nauseabundo y amarillento de 6 m de radio centrada en un punto dentro del alcance. La nube está muy oscura y permanece en el aire hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea *ráfaga de viento*).",
+   "text": "Creas una esfera de gas nauseabundo y amarillento de 6 m de radio centrada en un punto dentro del alcance. La nube está muy oscura y permanece en el aire hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento)."
+  },
+  {
+   "type": "paragraph",
+   "page": 169,
+   "md": "Todas las criaturas que comiencen su turno en la esfera deberán superar una tirada de salvación de Constitución o tendrán el estado de envenenadas hasta el final del turno actual. Mientras estén envenenadas de esta forma, no podrán realizar acciones ni acciones adicionales.",
+   "text": "Todas las criaturas que comiencen su turno en la esfera deberán superar una tirada de salvación de Constitución o tendrán el estado de envenenadas hasta el final del turno actual. Mientras estén envenenadas de esta forma, no podrán realizar acciones ni acciones adicionales."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 169
+ },
+ "refs": [
+  "spell.rafaga-de-viento"
+ ]
+}

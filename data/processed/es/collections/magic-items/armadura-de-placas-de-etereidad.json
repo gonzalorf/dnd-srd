@@ -1,0 +1,26 @@
+{
+ "id": "item.armadura-de-placas-de-etereidad",
+ "name": "Armadura de placas de etereidad",
+ "category": "Armadura",
+ "variant": "armadura de placas o media armadura",
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (armadura de placas o media armadura), legendaria (requiere sintonización)",
+ "text": "Mientras lleves esta armadura, puedes emplear una acción de magia y usar una palabra de activación para obtener los efectos del conjuro excursión etérea. El conjuro termina inmediatamente si te quitas la armadura o si empleas una acción de magia para repetir la palabra de activación. Esta propiedad de la armadura no puede volver a usarse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Mientras lleves esta armadura, puedes emplear una acción de magia y usar una palabra de activación para obtener los efectos del conjuro *excursión etérea*. El conjuro termina inmediatamente si te quitas la armadura o si empleas una acción de magia para repetir la palabra de activación. Esta propiedad de la armadura no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "Mientras lleves esta armadura, puedes emplear una acción de magia y usar una palabra de activación para obtener los efectos del conjuro excursión etérea. El conjuro termina inmediatamente si te quitas la armadura o si empleas una acción de magia para repetir la palabra de activación. Esta propiedad de la armadura no puede volver a usarse hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ },
+ "refs": [
+  "spell.excursion-eterea"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "spell.urna-magica",
+ "name": "Urna mágica",
+ "level": 6,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una gema, un cristal o un relicario que valga al menos 500 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gema, un cristal o un relicario que valga al menos 500 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Tu cuerpo entra en estado catatónico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma esté dentro del recipiente, serás consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podrás moverte ni llevar a cabo reacciones. La única acción que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide.\n\nPuedes intentar poseer a cualquier humanoide que esté a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro círculo mágico o protección contra el bien y el mal no pueden ser poseídas). El objetivo hace una tirada de salvación de Carisma. Si la falla, tu alma se introducirá en el cuerpo del objetivo y la suya quedará atrapada en el recipiente. Si la supera, resistirá tus esfuerzos por poseerlo y no podrás volver a intentarlo durante 24 horas.\n\nEn cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constitución, velocidad y sentidos se sustituyen por los de la criatura. Por lo demás, conservas tu perfil.\n\nPor su parte, el alma de la criatura poseída puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada.\n\nMientras posees un cuerpo, puedes usar una acción de magia para volver del cuerpo anfitrión al recipiente si está a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitrión muere mientras estás en él, la criatura muere y tú debes hacer una tirada de salvación de Carisma contra tu propia CD de salvación de conjuros. Si la superas, volverás al recipiente si está a 30 m o menos de ti. De lo contrario, morirás.\n\nSi el recipiente es destruido o el conjuro termina, tu alma volverá a tu cuerpo. Si tu cuerpo está a más de 30 m de ti o está muerto, morirás. Si el alma de otra criatura está en el recipiente cuando es destruido, esa alma volverá a su cuerpo, siempre y cuando esté vivo y a 30 m o menos de ella. De lo contrario, esa criatura morirá.\n\nCuando el conjuro termine, el recipiente se destruirá.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Tu cuerpo entra en estado catatónico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma esté dentro del recipiente, serás consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podrás moverte ni llevar a cabo reacciones. La única acción que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide.",
+   "text": "Tu cuerpo entra en estado catatónico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma esté dentro del recipiente, serás consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podrás moverte ni llevar a cabo reacciones. La única acción que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Puedes intentar poseer a cualquier humanoide que esté a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro *círculo mágico* o *protección contra el bien y el mal* no pueden ser poseídas). El objetivo hace una tirada de salvación de Carisma. Si la falla, tu alma se introducirá en el cuerpo del objetivo y la suya quedará atrapada en el recipiente. Si la supera, resistirá tus esfuerzos por poseerlo y no podrás volver a intentarlo durante 24 horas.",
+   "text": "Puedes intentar poseer a cualquier humanoide que esté a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro círculo mágico o protección contra el bien y el mal no pueden ser poseídas). El objetivo hace una tirada de salvación de Carisma. Si la falla, tu alma se introducirá en el cuerpo del objetivo y la suya quedará atrapada en el recipiente. Si la supera, resistirá tus esfuerzos por poseerlo y no podrás volver a intentarlo durante 24 horas."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "En cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constitución, velocidad y sentidos se sustituyen por los de la criatura. Por lo demás, conservas tu perfil.",
+   "text": "En cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constitución, velocidad y sentidos se sustituyen por los de la criatura. Por lo demás, conservas tu perfil."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Por su parte, el alma de la criatura poseída puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada.",
+   "text": "Por su parte, el alma de la criatura poseída puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Mientras posees un cuerpo, puedes usar una acción de magia para volver del cuerpo anfitrión al recipiente si está a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitrión muere mientras estás en él, la criatura muere y tú debes hacer una tirada de salvación de Carisma contra tu propia CD de salvación de conjuros. Si la superas, volverás al recipiente si está a 30 m o menos de ti. De lo contrario, morirás.",
+   "text": "Mientras posees un cuerpo, puedes usar una acción de magia para volver del cuerpo anfitrión al recipiente si está a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitrión muere mientras estás en él, la criatura muere y tú debes hacer una tirada de salvación de Carisma contra tu propia CD de salvación de conjuros. Si la superas, volverás al recipiente si está a 30 m o menos de ti. De lo contrario, morirás."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Si el recipiente es destruido o el conjuro termina, tu alma volverá a tu cuerpo. Si tu cuerpo está a más de 30 m de ti o está muerto, morirás. Si el alma de otra criatura está en el recipiente cuando es destruido, esa alma volverá a su cuerpo, siempre y cuando esté vivo y a 30 m o menos de ella. De lo contrario, esa criatura morirá.",
+   "text": "Si el recipiente es destruido o el conjuro termina, tu alma volverá a tu cuerpo. Si tu cuerpo está a más de 30 m de ti o está muerto, morirás. Si el alma de otra criatura está en el recipiente cuando es destruido, esa alma volverá a su cuerpo, siempre y cuando esté vivo y a 30 m o menos de ella. De lo contrario, esa criatura morirá."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Cuando el conjuro termine, el recipiente se destruirá.",
+   "text": "Cuando el conjuro termine, el recipiente se destruirá."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 191
+ },
+ "refs": [
+  "spell.circulo-magico",
+  "spell.proteccion-contra-el-bien-y-el-mal"
+ ]
+}

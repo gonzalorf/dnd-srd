@@ -1,0 +1,36 @@
+{
+ "id": "gear.libro",
+ "name": "Libro",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Libro",
+  "Peso": "2,5 kg",
+  "Precio": "25 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "25 po",
+  "amount": 25.0,
+  "coin": "po",
+  "gp": 25.0
+ },
+ "text": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia.",
+   "text": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia."
+  }
+ ],
+ "descriptionPage": 106
+}

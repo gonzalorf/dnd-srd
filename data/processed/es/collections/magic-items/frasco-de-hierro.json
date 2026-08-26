@@ -1,0 +1,38 @@
+{
+ "id": "item.frasco-de-hierro",
+ "name": "Frasco de hierro",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario",
+ "text": "Mientras sostengas este recipiente de hierro con tapón de latón, puedes emplear una acción de magia para hacer objetivo a una criatura que puedas ver a 18 m o menos de ti. Si el frasco está vacío y el objetivo pertenece a un plano de existencia distinto al actual, deberá superar una tirada de salvación de Sabiduría con CD 17 o quedará atrapado en el frasco. Si el objetivo ya ha estado encerrado antes en el frasco, tendrá ventaja en la tirada. Una vez atrapada, la criatura permanecerá en el frasco hasta que sea liberada. El frasco solo puede contener a una criatura a la vez. Una criatura atrapada en el frasco no necesita respirar ni comer ni beber, y no envejece.\n\nPuedes emplear una acción de magia para quitar el tapón del frasco y liberar a la criatura contenida. Esta obedecerá tus órdenes durante 1 hora y las comprenderá aunque se las des en un idioma que no entienda. Si no le das ninguna orden o le das una orden que probablemente desemboque en su muerte o cautiverio, se defenderá, pero no realizará ninguna otra acción. Al final de la duración, la criatura actuará conforme a su carácter y alineamiento normales.\n\nUn conjuro identificar revela si el frasco contiene una criatura, pero la única forma de saber de qué criatura se trata es abrirlo. Un frasco de hierro recién descubierto podría contener una criatura a elección de tu GM.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "Mientras sostengas este recipiente de hierro con tapón de latón, puedes emplear una acción de magia para hacer objetivo a una criatura que puedas ver a 18 m o menos de ti. Si el frasco está vacío y el objetivo pertenece a un plano de existencia distinto al actual, deberá superar una tirada de salvación de Sabiduría con CD 17 o quedará atrapado en el frasco. Si el objetivo ya ha estado encerrado antes en el frasco, tendrá ventaja en la tirada. Una vez atrapada, la criatura permanecerá en el frasco hasta que sea liberada. El frasco solo puede contener a una criatura a la vez. Una criatura atrapada en el frasco no necesita respirar ni comer ni beber, y no envejece.",
+   "text": "Mientras sostengas este recipiente de hierro con tapón de latón, puedes emplear una acción de magia para hacer objetivo a una criatura que puedas ver a 18 m o menos de ti. Si el frasco está vacío y el objetivo pertenece a un plano de existencia distinto al actual, deberá superar una tirada de salvación de Sabiduría con CD 17 o quedará atrapado en el frasco. Si el objetivo ya ha estado encerrado antes en el frasco, tendrá ventaja en la tirada. Una vez atrapada, la criatura permanecerá en el frasco hasta que sea liberada. El frasco solo puede contener a una criatura a la vez. Una criatura atrapada en el frasco no necesita respirar ni comer ni beber, y no envejece."
+  },
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "Puedes emplear una acción de magia para quitar el tapón del frasco y liberar a la criatura contenida. Esta obedecerá tus órdenes durante 1 hora y las comprenderá aunque se las des en un idioma que no entienda. Si no le das ninguna orden o le das una orden que probablemente desemboque en su muerte o cautiverio, se defenderá, pero no realizará ninguna otra acción. Al final de la duración, la criatura actuará conforme a su carácter y alineamiento normales.",
+   "text": "Puedes emplear una acción de magia para quitar el tapón del frasco y liberar a la criatura contenida. Esta obedecerá tus órdenes durante 1 hora y las comprenderá aunque se las des en un idioma que no entienda. Si no le das ninguna orden o le das una orden que probablemente desemboque en su muerte o cautiverio, se defenderá, pero no realizará ninguna otra acción. Al final de la duración, la criatura actuará conforme a su carácter y alineamiento normales."
+  },
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "Un conjuro *identificar* revela si el frasco contiene una criatura, pero la única forma de saber de qué criatura se trata es abrirlo. Un *frasco de hierro* recién descubierto podría contener una criatura a elección de tu GM.",
+   "text": "Un conjuro identificar revela si el frasco contiene una criatura, pero la única forma de saber de qué criatura se trata es abrirlo. Un frasco de hierro recién descubierto podría contener una criatura a elección de tu GM."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 258
+ },
+ "refs": [
+  "spell.identificar"
+ ]
+}

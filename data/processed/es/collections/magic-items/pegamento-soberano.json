@@ -1,0 +1,41 @@
+{
+ "id": "item.pegamento-soberano",
+ "name": "Pegamento soberano",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario",
+ "text": "Esta sustancia viscosa y blanca como la leche puede crear un vínculo adhesivo permanente entre dos objetos cualesquiera. Debe almacenarse en un bote o frasco que se haya untado con aceite escurridizo.\n\nEn el momento de encontrar el recipiente, contendrá 30 g + 1d6 × 30 g.\n\n30 g de pegamento pueden cubrir una superficie cuadrada de 30 cm de lado. Para aplicar 30 g de pegamento soberano es necesaria una acción de utilizar, y tarda 1 minuto en asentarse. En cuanto lo haga, el vínculo que crea solo se puede romper si se aplica un disolvente universal o un aceite de etereidad o con un conjuro deseo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "Esta sustancia viscosa y blanca como la leche puede crear un vínculo adhesivo permanente entre dos objetos cualesquiera. Debe almacenarse en un bote o frasco que se haya untado con *aceite escurridizo*.",
+   "text": "Esta sustancia viscosa y blanca como la leche puede crear un vínculo adhesivo permanente entre dos objetos cualesquiera. Debe almacenarse en un bote o frasco que se haya untado con aceite escurridizo."
+  },
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "En el momento de encontrar el recipiente, contendrá 30 g + 1d6 × 30 g.",
+   "text": "En el momento de encontrar el recipiente, contendrá 30 g + 1d6 × 30 g."
+  },
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "30 g de pegamento pueden cubrir una superficie cuadrada de 30 cm de lado. Para aplicar 30 g de *pegamento soberano* es necesaria una acción de utilizar, y tarda 1 minuto en asentarse. En cuanto lo haga, el vínculo que crea solo se puede romper si se aplica un *disolvente universal* o un *aceite de etereidad* o con un conjuro *deseo*.",
+   "text": "30 g de pegamento pueden cubrir una superficie cuadrada de 30 cm de lado. Para aplicar 30 g de pegamento soberano es necesaria una acción de utilizar, y tarda 1 minuto en asentarse. En cuanto lo haga, el vínculo que crea solo se puede romper si se aplica un disolvente universal o un aceite de etereidad o con un conjuro deseo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 264
+ },
+ "refs": [
+  "item.aceite-escurridizo",
+  "item.disolvente-universal",
+  "item.aceite-de-etereidad",
+  "spell.deseo"
+ ]
+}

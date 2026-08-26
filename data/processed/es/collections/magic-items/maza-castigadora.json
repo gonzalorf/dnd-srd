@@ -1,0 +1,29 @@
+{
+ "id": "item.maza-castigadora",
+ "name": "Maza castigadora",
+ "category": "Arma",
+ "variant": "maza",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (maza), rara",
+ "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. El bonificador aumenta a +3 cuando usas el arma para atacar a un autómata.\n\nSi sacas un 20 en una tirada de ataque con esta arma, el objetivo sufrirá 7 de daño contundente adicional o 14 si es un autómata. Si a un autómata le quedan 25 puntos de golpe o menos tras sufrir este daño, será destruido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. El bonificador aumenta a +3 cuando usas el arma para atacar a un autómata.",
+   "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. El bonificador aumenta a +3 cuando usas el arma para atacar a un autómata."
+  },
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Si sacas un 20 en una tirada de ataque con esta arma, el objetivo sufrirá 7 de daño contundente adicional o 14 si es un autómata. Si a un autómata le quedan 25 puntos de golpe o menos tras sufrir este daño, será destruido.",
+   "text": "Si sacas un 20 en una tirada de ataque con esta arma, el objetivo sufrirá 7 de daño contundente adicional o 14 si es un autómata. Si a un autómata le quedan 25 puntos de golpe o menos tras sufrir este daño, será destruido."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 262
+ }
+}

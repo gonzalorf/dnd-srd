@@ -1,0 +1,63 @@
+{
+ "id": "spell.conocer-las-leyendas",
+ "name": "Conocer las leyendas",
+ "level": 5,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (incienso que valga al menos 250 po, que se consume como parte del conjuro, y cuatro tiras de marfil que valgan al menos 50 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso que valga al menos 250 po, que se consume como parte del conjuro, y cuatro tiras de marfil que valgan al menos 50 po",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Nombra o describe a una persona, un lugar o un objeto famosos. El conjuro traerá a tu mente un breve resumen de la información relevante sobre lo nombrado, que describe tu GM.\n\nEsta información pueden ser detalles importantes, revelaciones simpáticas o incluso conocimiento secreto que no es de dominio público. Cuanta más información tengas ya sobre esa cosa, más precisa y detallada será la que consigas. La información será cierta, pero puede estar disimulada bajo un lenguaje metafórico o poético, a discreción de tu GM.\n\nSi lo que has nombrado no es famoso, en su lugar escucharás una musiquilla triste tocada con un trombón y el conjuro fallará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 133,
+   "md": "Nombra o describe a una persona, un lugar o un objeto famosos. El conjuro traerá a tu mente un breve resumen de la información relevante sobre lo nombrado, que describe tu GM.",
+   "text": "Nombra o describe a una persona, un lugar o un objeto famosos. El conjuro traerá a tu mente un breve resumen de la información relevante sobre lo nombrado, que describe tu GM."
+  },
+  {
+   "type": "paragraph",
+   "page": 133,
+   "md": "Esta información pueden ser detalles importantes, revelaciones simpáticas o incluso conocimiento secreto que no es de dominio público. Cuanta más información tengas ya sobre esa cosa, más precisa y detallada será la que consigas. La información será cierta, pero puede estar disimulada bajo un lenguaje metafórico o poético, a discreción de tu GM.",
+   "text": "Esta información pueden ser detalles importantes, revelaciones simpáticas o incluso conocimiento secreto que no es de dominio público. Cuanta más información tengas ya sobre esa cosa, más precisa y detallada será la que consigas. La información será cierta, pero puede estar disimulada bajo un lenguaje metafórico o poético, a discreción de tu GM."
+  },
+  {
+   "type": "paragraph",
+   "page": 133,
+   "md": "Si lo que has nombrado no es famoso, en su lugar escucharás una musiquilla triste tocada con un trombón y el conjuro fallará.",
+   "text": "Si lo que has nombrado no es famoso, en su lugar escucharás una musiquilla triste tocada con un trombón y el conjuro fallará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 133
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "table.p240-2",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Despertar",
+   "5"
+  ],
+  [
+   "Encantar animal",
+   "1"
+  ],
+  [
+   "Hablar con las plantas",
+   "3"
+  ],
+  [
+   "Hablar con los animales",
+   "1"
+  ],
+  [
+   "Localizar animales o plantas",
+   "2"
+  ],
+  [
+   "Muro de espinas",
+   "6"
+  ],
+  [
+   "Pasar sin rastro",
+   "2"
+  ],
+  [
+   "Piel robliza",
+   "2"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bastón de los bosques"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 240
+ }
+}

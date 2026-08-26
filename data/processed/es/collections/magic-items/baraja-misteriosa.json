@@ -1,0 +1,310 @@
+{
+ "id": "item.baraja-misteriosa",
+ "name": "Baraja misteriosa",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario",
+ "text": "Esta baraja, que normalmente se encuentra dentro de una caja o bolsa, contiene cartas hechas de marfil o vitela. La mayoría (el 75 %) de estas barajas tienen trece cartas, aunque algunas tienen veintidós. Utiliza la columna correspondiente de la tabla “Baraja misteriosa” para determinar al azar las cartas que se roban de la baraja.\n\nAntes de robar una carta, debes declarar cuántas pretendes robar y, a continuación, robarlas al azar. Cualquier carta robada por encima de la cantidad declarada no tiene efecto. Por lo demás, en cuanto robes una carta de la baraja, su magia producirá el efecto que corresponda. Debes robar cada carta antes de que pase 1 hora desde el robo anterior. Si no robas la cantidad de cartas declaradas, las cartas restantes saldrán volando de la baraja por su cuenta y tendrán efecto a la vez.\n\nCuando robas una carta, desaparece. A menos que sea el Loco o el Bufón, la carta volverá a la baraja, por lo que será posible robarla dos veces (cuando el Loco o el Bufón hayan dejado la baraja, tira de nuevo en la tabla si vuelve a salir una de ellas).\n\nLos efectos de cada carta se describen a continuación.\n\nBufón. Tienes ventaja en las pruebas con d20 durante las próximas 72 horas, o puedes robar dos cartas más de las que declaraste.\n\nCaballero. Consigues los servicios de un caballero, que aparece mágicamente en un espacio sin ocupar de tu elección a 9 m o menos de ti. El\n\ncaballero tiene tu mismo alineamiento y te servirá con lealtad hasta la muerte, creyendo que el destino le ha llevado hasta ti. Habla con tu GM para darle un nombre y un trasfondo a este PNJ. Tu GM puede emplear un perfil distinto para el caballero, según considere.\n\nCalabozo. Desapareces y quedas sepultado en un estado de animación suspendida en una esfera extradimensional. Todo lo que llevaras y vistieras desaparece contigo salvo los artefactos, que se quedan en el espacio que ocupabas cuando desapareciste. Permanecerás encarcelado hasta que te encuentren y te saquen de la esfera. No se te puede localizar mediante magia de adivinación, pero sí mediante un conjuro deseo. No robas más cartas.\n\nCalavera. Un avatar de la muerte (consulta el perfil en esta página) aparece en un espacio sin ocupar lo más cerca posible de ti. El avatar se muestra como un esqueleto fantasmal vestido con una raída túnica negra, porta una guadaña espectral y solo te atacará a ti. El avatar desaparecerá cuando sus puntos de golpe se reduzcan a 0 o cuando mueras. Si uno de tus aliados intenta hacerle daño, ese aliado invocará otro avatar de la muerte. El nuevo avatar aparecerá en un espacio sin ocupar lo más cerca posible de ese aliado y solo le atacará a él. Tus aliados y tú solo podéis invocar un avatar cada uno como consecuencia de este robo. Cualquier criatura que sucumba ante un avatar no puede revivir.\n\nCanalla. Un PNJ a elección de tu GM se vuelve hostil hacia ti. No conoces la identidad de este personaje hasta que el PNJ u otra persona la revelen. Salvo un conjuro deseo o la intercesión divina, nada puede hacer que esta hostilidad cese.\n\nCometa. La próxima vez que entables combate contra una o más criaturas hostiles, puedes elegir a una como tu adversario cuando tires iniciativa. Si reduces a 0 los puntos de golpe de tu adversario durante el combate, tendrás ventaja en las tiradas de salvación contra muerte durante 1 año. Si alguien reduce a 0 los puntos de golpe de tu adversario elegido o si no eliges uno, esta carta no tendrá ningún efecto.\n\nEl Vacío. Tu alma se extrae de tu cuerpo y va a parar al interior de un objeto situado en un lugar a elección de tu GM. Uno o más seres poderosos custodian ese sitio. Mientras tu alma esté atrapada de esta manera, tu cuerpo permanece inerte, deja de envejecer y no necesita comida, agua ni aire. Un conjuro deseo no puede devolver tu alma a tu cuerpo, pero revelará el paradero del objeto que la alberga. No robas más cartas.\n\nEquilibrio. Puedes aumentar una de tus puntuaciones de característica en 2 hasta un máximo de 22, siempre y cuando reduzcas otra puntuación de característica en 2. No puedes reducir una característica con una puntuación de 5 o menos. Como alternativa, puedes decidir no ajustar tus puntuaciones de característica. En ese caso, esta carta no tendrá ningún efecto.\n\nErudito. En cualquier momento que quieras hasta un año después de robar esta carta, podrás hacer una pregunta mientras meditas y recibirás mentalmente una respuesta veraz a dicha cuestión.\n\nEstrella. Aumenta en 2 una de tus puntuaciones de característica, hasta un máximo de 24.\n\nEuríale. La cara de medusa de la carta te lanza una maldición. Recibes un penalizador de −2 a las tiradas de salvación mientras estés bajo su influjo. Solo un dios o la magia de la carta de los Hados pueden acabar con esta maldición.\n\nGarras. Todos los objetos mágicos que vistas o lleves contigo se desintegran. Los artefactos que poseas se desvanecerán.\n\nGema. Aparecen a tus pies veinticinco joyas con un valor de 2000 po cada una o cincuenta gemas con un valor de 1000 po cada una.\n\nHados. El tejido del universo se desteje y se teje de nuevo, lo que te permite evitar o borrar un suceso, como si nunca hubiera ocurrido. Puedes usar esta magia tan pronto como robes la carta o en cualquier momento antes de morir.\n\nLlamas. Un poderoso diablo se convierte en tu enemigo. Buscará tu ruina y te atormentará, además de regodearse con tu sufrimiento antes de intentar matarte. Esta enemistad dura hasta que el diablo o tú muráis.\n\nLlave. Aparece en tus manos un arma mágica rara o de mayor rareza con la que eres competente. Tu GM elige el arma.\n\nLoco. Tienes desventaja en las pruebas con d20 durante las próximas 72 horas. Roba otra carta, que no contará como uno de los robos declarados.\n\nLuna. Obtienes la capacidad de lanzar el conjuro deseo 1d3 veces.\n\nRompecabezas. Tu Inteligencia o Sabiduría se reducen permanentemente en 1d4 + 1 (hasta un mínimo de 1). Puedes robar una carta más de las que declaraste.\n\nRuina. Pierdes todas las riquezas que lleves o poseas, excepto los objetos mágicos. Las propiedades que puedas llevar encima desaparecen. Pierdes todos los negocios, edificios y tierras que poseas de la manera que menos altere la realidad. Cualquier documento que pruebe que deberías poseer las riquezas perdidas por esta carta también desaparece.\n\nSol. Un objeto mágico (a elección de tu GM) aparece en tus manos. Además, hasta que mueras, obtienes 10 puntos de golpe temporales cada día, al amanecer.\n\nTrono. Obtienes competencia y pericia en Historia, Intimidación, Perspicacia o Persuasión, a tu elección. Además, obtienes de pleno derecho la propiedad de una pequeña fortaleza en alguna parte del mundo. Sin embargo, la fortaleza es hogar de uno o más monstruos, que deberás expulsar antes de reclamarla como tuya.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 237,
+   "md": "Esta baraja, que normalmente se encuentra dentro de una caja o bolsa, contiene cartas hechas de marfil o vitela. La mayoría (el 75 %) de estas barajas tienen trece cartas, aunque algunas tienen veintidós. Utiliza la columna correspondiente de la tabla “Baraja misteriosa” para determinar al azar las cartas que se roban de la baraja.",
+   "text": "Esta baraja, que normalmente se encuentra dentro de una caja o bolsa, contiene cartas hechas de marfil o vitela. La mayoría (el 75 %) de estas barajas tienen trece cartas, aunque algunas tienen veintidós. Utiliza la columna correspondiente de la tabla “Baraja misteriosa” para determinar al azar las cartas que se roban de la baraja."
+  },
+  {
+   "type": "paragraph",
+   "page": 237,
+   "md": "Antes de robar una carta, debes declarar cuántas pretendes robar y, a continuación, robarlas al azar. Cualquier carta robada por encima de la cantidad declarada no tiene efecto. Por lo demás, en cuanto robes una carta de la baraja, su magia producirá el efecto que corresponda. Debes robar cada carta antes de que pase 1 hora desde el robo anterior. Si no robas la cantidad de cartas declaradas, las cartas restantes saldrán volando de la baraja por su cuenta y tendrán efecto a la vez.",
+   "text": "Antes de robar una carta, debes declarar cuántas pretendes robar y, a continuación, robarlas al azar. Cualquier carta robada por encima de la cantidad declarada no tiene efecto. Por lo demás, en cuanto robes una carta de la baraja, su magia producirá el efecto que corresponda. Debes robar cada carta antes de que pase 1 hora desde el robo anterior. Si no robas la cantidad de cartas declaradas, las cartas restantes saldrán volando de la baraja por su cuenta y tendrán efecto a la vez."
+  },
+  {
+   "type": "paragraph",
+   "page": 237,
+   "md": "Cuando robas una carta, desaparece. A menos que sea el Loco o el Bufón, la carta volverá a la baraja, por lo que será posible robarla dos veces (cuando el Loco o el Bufón hayan dejado la baraja, tira de nuevo en la tabla si vuelve a salir una de ellas).",
+   "text": "Cuando robas una carta, desaparece. A menos que sea el Loco o el Bufón, la carta volverá a la baraja, por lo que será posible robarla dos veces (cuando el Loco o el Bufón hayan dejado la baraja, tira de nuevo en la tabla si vuelve a salir una de ellas)."
+  },
+  {
+   "type": "table",
+   "page": 237,
+   "caption": "Baraja misteriosa",
+   "header": [
+    "1d100 (baraja de 13 cartas)",
+    "1d100 (baraja de 22 cartas)",
+    "Carta"
+   ],
+   "rows": [
+    [
+     "01–08",
+     "01–05",
+     "Bufón"
+    ],
+    [
+     "09–16",
+     "06–10",
+     "Caballero"
+    ],
+    [
+     "—",
+     "11–14",
+     "Calabozo"
+    ],
+    [
+     "17–24",
+     "15–18",
+     "Calavera"
+    ],
+    [
+     "25–32",
+     "19–22",
+     "Canalla"
+    ],
+    [
+     "—",
+     "23–27",
+     "Cometa"
+    ],
+    [
+     "33–36",
+     "28–31",
+     "El Vacío"
+    ],
+    [
+     "—",
+     "32–36",
+     "Equilibrio"
+    ],
+    [
+     "—",
+     "37–41",
+     "Erudito"
+    ],
+    [
+     "37–44",
+     "42–46",
+     "Estrella"
+    ],
+    [
+     "45–52",
+     "47–50",
+     "Euríale"
+    ],
+    [
+     "—",
+     "51–54",
+     "Garras"
+    ],
+    [
+     "—",
+     "55–59",
+     "Gema"
+    ],
+    [
+     "—",
+     "60–64",
+     "Hados"
+    ],
+    [
+     "53–60",
+     "65–68",
+     "Llamas"
+    ],
+    [
+     "61–68",
+     "69–73",
+     "Llave"
+    ],
+    [
+     "—",
+     "74–77",
+     "Loco"
+    ],
+    [
+     "69–76",
+     "78–82",
+     "Luna"
+    ],
+    [
+     "—",
+     "83–86",
+     "Rompecabezas"
+    ],
+    [
+     "77–84",
+     "87–90",
+     "Ruina"
+    ],
+    [
+     "85–92",
+     "91–95",
+     "Sol"
+    ],
+    [
+     "93–00",
+     "96–00",
+     "Trono"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 237,
+   "md": "Los efectos de cada carta se describen a continuación.",
+   "text": "Los efectos de cada carta se describen a continuación."
+  },
+  {
+   "type": "definition",
+   "page": 237,
+   "md": "***Bufón.*** Tienes ventaja en las pruebas con d20 durante las próximas 72 horas, o puedes robar dos cartas más de las que declaraste.",
+   "text": "Bufón. Tienes ventaja en las pruebas con d20 durante las próximas 72 horas, o puedes robar dos cartas más de las que declaraste."
+  },
+  {
+   "type": "definition",
+   "page": 237,
+   "md": "***Caballero.*** Consigues los servicios de un **caballero**, que aparece mágicamente en un espacio sin ocupar de tu elección a 9 m o menos de ti. El",
+   "text": "Caballero. Consigues los servicios de un caballero, que aparece mágicamente en un espacio sin ocupar de tu elección a 9 m o menos de ti. El"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "md": "caballero tiene tu mismo alineamiento y te servirá con lealtad hasta la muerte, creyendo que el destino le ha llevado hasta ti. Habla con tu GM para darle un nombre y un trasfondo a este PNJ. Tu GM puede emplear un perfil distinto para el caballero, según considere.",
+   "text": "caballero tiene tu mismo alineamiento y te servirá con lealtad hasta la muerte, creyendo que el destino le ha llevado hasta ti. Habla con tu GM para darle un nombre y un trasfondo a este PNJ. Tu GM puede emplear un perfil distinto para el caballero, según considere."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Calabozo.*** Desapareces y quedas sepultado en un estado de animación suspendida en una esfera extradimensional. Todo lo que llevaras y vistieras desaparece contigo salvo los artefactos, que se quedan en el espacio que ocupabas cuando desapareciste. Permanecerás encarcelado hasta que te encuentren y te saquen de la esfera. No se te puede localizar mediante magia de adivinación, pero sí mediante un conjuro *deseo*. No robas más cartas.",
+   "text": "Calabozo. Desapareces y quedas sepultado en un estado de animación suspendida en una esfera extradimensional. Todo lo que llevaras y vistieras desaparece contigo salvo los artefactos, que se quedan en el espacio que ocupabas cuando desapareciste. Permanecerás encarcelado hasta que te encuentren y te saquen de la esfera. No se te puede localizar mediante magia de adivinación, pero sí mediante un conjuro deseo. No robas más cartas."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Calavera.*** Un **avatar de la muerte** (consulta el perfil en esta página) aparece en un espacio sin ocupar lo más cerca posible de ti. El avatar se muestra como un esqueleto fantasmal vestido con una raída túnica negra, porta una guadaña espectral y solo te atacará a ti. El avatar desaparecerá cuando sus puntos de golpe se reduzcan a 0 o cuando mueras. Si uno de tus aliados intenta hacerle daño, ese aliado invocará otro **avatar de la muerte**. El nuevo avatar aparecerá en un espacio sin ocupar lo más cerca posible de ese aliado y solo le atacará a él. Tus aliados y tú solo podéis invocar un avatar cada uno como consecuencia de este robo. Cualquier criatura que sucumba ante un avatar no puede revivir.",
+   "text": "Calavera. Un avatar de la muerte (consulta el perfil en esta página) aparece en un espacio sin ocupar lo más cerca posible de ti. El avatar se muestra como un esqueleto fantasmal vestido con una raída túnica negra, porta una guadaña espectral y solo te atacará a ti. El avatar desaparecerá cuando sus puntos de golpe se reduzcan a 0 o cuando mueras. Si uno de tus aliados intenta hacerle daño, ese aliado invocará otro avatar de la muerte. El nuevo avatar aparecerá en un espacio sin ocupar lo más cerca posible de ese aliado y solo le atacará a él. Tus aliados y tú solo podéis invocar un avatar cada uno como consecuencia de este robo. Cualquier criatura que sucumba ante un avatar no puede revivir."
+  },
+  {
+   "type": "statblock",
+   "page": 238,
+   "name": "Avatar de la muerte",
+   "ref": "statblock.avatar-de-la-muerte"
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Canalla.*** Un PNJ a elección de tu GM se vuelve hostil hacia ti. No conoces la identidad de este personaje hasta que el PNJ u otra persona la revelen. Salvo un conjuro *deseo* o la intercesión divina, nada puede hacer que esta hostilidad cese.",
+   "text": "Canalla. Un PNJ a elección de tu GM se vuelve hostil hacia ti. No conoces la identidad de este personaje hasta que el PNJ u otra persona la revelen. Salvo un conjuro deseo o la intercesión divina, nada puede hacer que esta hostilidad cese."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Cometa.*** La próxima vez que entables combate contra una o más criaturas hostiles, puedes elegir a una como tu adversario cuando tires iniciativa. Si reduces a 0 los puntos de golpe de tu adversario durante el combate, tendrás ventaja en las tiradas de salvación contra muerte durante 1 año. Si alguien reduce a 0 los puntos de golpe de tu adversario elegido o si no eliges uno, esta carta no tendrá ningún efecto.",
+   "text": "Cometa. La próxima vez que entables combate contra una o más criaturas hostiles, puedes elegir a una como tu adversario cuando tires iniciativa. Si reduces a 0 los puntos de golpe de tu adversario durante el combate, tendrás ventaja en las tiradas de salvación contra muerte durante 1 año. Si alguien reduce a 0 los puntos de golpe de tu adversario elegido o si no eliges uno, esta carta no tendrá ningún efecto."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***El Vacío.*** Tu alma se extrae de tu cuerpo y va a parar al interior de un objeto situado en un lugar a elección de tu GM. Uno o más seres poderosos custodian ese sitio. Mientras tu alma esté atrapada de esta manera, tu cuerpo permanece inerte, deja de envejecer y no necesita comida, agua ni aire. Un conjuro *deseo* no puede devolver tu alma a tu cuerpo, pero revelará el paradero del objeto que la alberga. No robas más cartas.",
+   "text": "El Vacío. Tu alma se extrae de tu cuerpo y va a parar al interior de un objeto situado en un lugar a elección de tu GM. Uno o más seres poderosos custodian ese sitio. Mientras tu alma esté atrapada de esta manera, tu cuerpo permanece inerte, deja de envejecer y no necesita comida, agua ni aire. Un conjuro deseo no puede devolver tu alma a tu cuerpo, pero revelará el paradero del objeto que la alberga. No robas más cartas."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Equilibrio.*** Puedes aumentar una de tus puntuaciones de característica en 2 hasta un máximo de 22, siempre y cuando reduzcas otra puntuación de característica en 2. No puedes reducir una característica con una puntuación de 5 o menos. Como alternativa, puedes decidir no ajustar tus puntuaciones de característica. En ese caso, esta carta no tendrá ningún efecto.",
+   "text": "Equilibrio. Puedes aumentar una de tus puntuaciones de característica en 2 hasta un máximo de 22, siempre y cuando reduzcas otra puntuación de característica en 2. No puedes reducir una característica con una puntuación de 5 o menos. Como alternativa, puedes decidir no ajustar tus puntuaciones de característica. En ese caso, esta carta no tendrá ningún efecto."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Erudito.*** En cualquier momento que quieras hasta un año después de robar esta carta, podrás hacer una pregunta mientras meditas y recibirás mentalmente una respuesta veraz a dicha cuestión.",
+   "text": "Erudito. En cualquier momento que quieras hasta un año después de robar esta carta, podrás hacer una pregunta mientras meditas y recibirás mentalmente una respuesta veraz a dicha cuestión."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Estrella.*** Aumenta en 2 una de tus puntuaciones de característica, hasta un máximo de 24.",
+   "text": "Estrella. Aumenta en 2 una de tus puntuaciones de característica, hasta un máximo de 24."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Euríale.*** La cara de medusa de la carta te lanza una maldición. Recibes un penalizador de −2 a las tiradas de salvación mientras estés bajo su influjo. Solo un dios o la magia de la carta de los Hados pueden acabar con esta maldición.",
+   "text": "Euríale. La cara de medusa de la carta te lanza una maldición. Recibes un penalizador de −2 a las tiradas de salvación mientras estés bajo su influjo. Solo un dios o la magia de la carta de los Hados pueden acabar con esta maldición."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Garras.*** Todos los objetos mágicos que vistas o lleves contigo se desintegran. Los artefactos que poseas se desvanecerán.",
+   "text": "Garras. Todos los objetos mágicos que vistas o lleves contigo se desintegran. Los artefactos que poseas se desvanecerán."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Gema.*** Aparecen a tus pies veinticinco joyas con un valor de 2000 po cada una o cincuenta gemas con un valor de 1000 po cada una.",
+   "text": "Gema. Aparecen a tus pies veinticinco joyas con un valor de 2000 po cada una o cincuenta gemas con un valor de 1000 po cada una."
+  },
+  {
+   "type": "definition",
+   "page": 238,
+   "md": "***Hados.*** El tejido del universo se desteje y se teje de nuevo, lo que te permite evitar o borrar un suceso, como si nunca hubiera ocurrido. Puedes usar esta magia tan pronto como robes la carta o en cualquier momento antes de morir.",
+   "text": "Hados. El tejido del universo se desteje y se teje de nuevo, lo que te permite evitar o borrar un suceso, como si nunca hubiera ocurrido. Puedes usar esta magia tan pronto como robes la carta o en cualquier momento antes de morir."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Llamas.*** Un poderoso diablo se convierte en tu enemigo. Buscará tu ruina y te atormentará, además de regodearse con tu sufrimiento antes de intentar matarte. Esta enemistad dura hasta que el diablo o tú muráis.",
+   "text": "Llamas. Un poderoso diablo se convierte en tu enemigo. Buscará tu ruina y te atormentará, además de regodearse con tu sufrimiento antes de intentar matarte. Esta enemistad dura hasta que el diablo o tú muráis."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Llave.*** Aparece en tus manos un arma mágica rara o de mayor rareza con la que eres competente. Tu GM elige el arma.",
+   "text": "Llave. Aparece en tus manos un arma mágica rara o de mayor rareza con la que eres competente. Tu GM elige el arma."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Loco.*** Tienes desventaja en las pruebas con d20 durante las próximas 72 horas. Roba otra carta, que no contará como uno de los robos declarados.",
+   "text": "Loco. Tienes desventaja en las pruebas con d20 durante las próximas 72 horas. Roba otra carta, que no contará como uno de los robos declarados."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Luna.*** Obtienes la capacidad de lanzar el conjuro *deseo* 1d3 veces.",
+   "text": "Luna. Obtienes la capacidad de lanzar el conjuro deseo 1d3 veces."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Rompecabezas.*** Tu Inteligencia o Sabiduría se reducen permanentemente en 1d4 + 1 (hasta un mínimo de 1). Puedes robar una carta más de las que declaraste.",
+   "text": "Rompecabezas. Tu Inteligencia o Sabiduría se reducen permanentemente en 1d4 + 1 (hasta un mínimo de 1). Puedes robar una carta más de las que declaraste."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Ruina.*** Pierdes todas las riquezas que lleves o poseas, excepto los objetos mágicos. Las propiedades que puedas llevar encima desaparecen. Pierdes todos los negocios, edificios y tierras que poseas de la manera que menos altere la realidad. Cualquier documento que pruebe que deberías poseer las riquezas perdidas por esta carta también desaparece.",
+   "text": "Ruina. Pierdes todas las riquezas que lleves o poseas, excepto los objetos mágicos. Las propiedades que puedas llevar encima desaparecen. Pierdes todos los negocios, edificios y tierras que poseas de la manera que menos altere la realidad. Cualquier documento que pruebe que deberías poseer las riquezas perdidas por esta carta también desaparece."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Sol.*** Un objeto mágico (a elección de tu GM) aparece en tus manos. Además, hasta que mueras, obtienes 10 puntos de golpe temporales cada día, al amanecer.",
+   "text": "Sol. Un objeto mágico (a elección de tu GM) aparece en tus manos. Además, hasta que mueras, obtienes 10 puntos de golpe temporales cada día, al amanecer."
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Trono.*** Obtienes competencia y pericia en Historia, Intimidación, Perspicacia o Persuasión, a tu elección. Además, obtienes de pleno derecho la propiedad de una pequeña fortaleza en alguna parte del mundo. Sin embargo, la fortaleza es hogar de uno o más monstruos, que deberás expulsar antes de reclamarla como tuya.",
+   "text": "Trono. Obtienes competencia y pericia en Historia, Intimidación, Perspicacia o Persuasión, a tu elección. Además, obtienes de pleno derecho la propiedad de una pequeña fortaleza en alguna parte del mundo. Sin embargo, la fortaleza es hogar de uno o más monstruos, que deberás expulsar antes de reclamarla como tuya."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 237
+ },
+ "refs": [
+  "spell.deseo"
+ ]
+}

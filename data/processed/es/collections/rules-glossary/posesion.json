@@ -1,0 +1,21 @@
+{
+ "id": "rule.posesion",
+ "name": "Posesión",
+ "text": "Algunos efectos hacen que una criatura sea poseída por otra criatura o entidad. Un efecto de posesión define cómo funciona la misma. Una posesión se puede prevenir con el conjuro protección contra el bien y el mal y deshacer con el conjuro disipar el bien y el mal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "Algunos efectos hacen que una criatura sea poseída por otra criatura o entidad. Un efecto de posesión define cómo funciona la misma. Una posesión se puede prevenir con el conjuro *protección contra el bien y el mal* y deshacer con el conjuro *disipar el bien y el mal*.",
+   "text": "Algunos efectos hacen que una criatura sea poseída por otra criatura o entidad. Un efecto de posesión define cómo funciona la misma. Una posesión se puede prevenir con el conjuro protección contra el bien y el mal y deshacer con el conjuro disipar el bien y el mal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 206
+ },
+ "refs": [
+  "spell.proteccion-contra-el-bien-y-el-mal",
+  "spell.disipar-el-bien-y-el-mal"
+ ]
+}

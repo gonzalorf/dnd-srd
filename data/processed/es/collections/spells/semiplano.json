@@ -1,0 +1,62 @@
+{
+ "id": "spell.semiplano",
+ "name": "Semiplano",
+ "level": 8,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "S",
+  "v": false,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Creas una puerta de sombras Mediana en una superficie sólida plana que puedas ver dentro del alcance. Esta puerta puede abrirse y cerrarse y lleva a un semiplano que parece una habitación vacía de 9 m de lado en cada dimensión, hecha de madera o de piedra (a tu elección).\n\nCuando el conjuro termina, la puerta se desvanecerá y todos los objetos dentro del semiplano permanecerán en él. Las criaturas que haya también se quedarán dentro salvo que prefieran que la puerta las expulse cuando se desvanece, lo que hará que aterricen con el estado de derribadas en los espacios sin ocupar más cercanos a donde estaba la puerta.\n\nCada vez que lances este conjuro, puedes crear un nuevo semiplano o hacer que la puerta de sombras conecte con un semiplano que hayas creado previamente con el conjuro. Además, si conoces la naturaleza y el contenido de un semiplano creado cuando otra criatura lanzó este conjuro, en su lugar puedes hacer que la puerta de sombras conecte con dicho semiplano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Creas una puerta de sombras Mediana en una superficie sólida plana que puedas ver dentro del alcance. Esta puerta puede abrirse y cerrarse y lleva a un semiplano que parece una habitación vacía de 9 m de lado en cada dimensión, hecha de madera o de piedra (a tu elección).",
+   "text": "Creas una puerta de sombras Mediana en una superficie sólida plana que puedas ver dentro del alcance. Esta puerta puede abrirse y cerrarse y lleva a un semiplano que parece una habitación vacía de 9 m de lado en cada dimensión, hecha de madera o de piedra (a tu elección)."
+  },
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Cuando el conjuro termina, la puerta se desvanecerá y todos los objetos dentro del semiplano permanecerán en él. Las criaturas que haya también se quedarán dentro salvo que prefieran que la puerta las expulse cuando se desvanece, lo que hará que aterricen con el estado de derribadas en los espacios sin ocupar más cercanos a donde estaba la puerta.",
+   "text": "Cuando el conjuro termina, la puerta se desvanecerá y todos los objetos dentro del semiplano permanecerán en él. Las criaturas que haya también se quedarán dentro salvo que prefieran que la puerta las expulse cuando se desvanece, lo que hará que aterricen con el estado de derribadas en los espacios sin ocupar más cercanos a donde estaba la puerta."
+  },
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Cada vez que lances este conjuro, puedes crear un nuevo semiplano o hacer que la puerta de sombras conecte con un semiplano que hayas creado previamente con el conjuro. Además, si conoces la naturaleza y el contenido de un semiplano creado cuando otra criatura lanzó este conjuro, en su lugar puedes hacer que la puerta de sombras conecte con dicho semiplano.",
+   "text": "Cada vez que lances este conjuro, puedes crear un nuevo semiplano o hacer que la puerta de sombras conecte con un semiplano que hayas creado previamente con el conjuro. Además, si conoces la naturaleza y el contenido de un semiplano creado cuando otra criatura lanzó este conjuro, en su lugar puedes hacer que la puerta de sombras conecte con dicho semiplano."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 184
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "table.temperatura-viento",
+ "caption": "Temperatura Viento",
+ "header": [
+  "Nivel",
+  "Estado"
+ ],
+ "rows": [
+  [
+   "1",
+   "Ola de calor"
+  ],
+  [
+   "2",
+   "Caliente"
+  ],
+  [
+   "3",
+   "Templado"
+  ],
+  [
+   "4",
+   "Fresco"
+  ],
+  [
+   "5",
+   "Frío"
+  ],
+  [
+   "6",
+   "Frío extremo"
+  ],
+  [
+   "1",
+   "Calmo"
+  ],
+  [
+   "2",
+   "Viento moderado"
+  ],
+  [
+   "3",
+   "Viento fuerte"
+  ],
+  [
+   "4",
+   "Galerna"
+  ],
+  [
+   "5",
+   "Tempestad"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Controlar el clima"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 135
+ }
+}

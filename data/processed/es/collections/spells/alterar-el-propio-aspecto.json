@@ -1,0 +1,66 @@
+{
+ "id": "spell.alterar-el-propio-aspecto",
+ "name": "Alterar el propio aspecto",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.\n\nAdaptación acuática. Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.\n\nArmas naturales. Te crecen cascos (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por aptitud mágica para las tiradas de ataque y de daño en vez de tu Fuerza.\n\nCambiar de aspecto. Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 119,
+   "md": "Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.",
+   "text": "Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta."
+  },
+  {
+   "type": "definition",
+   "page": 119,
+   "md": "***Adaptación acuática.*** Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.",
+   "text": "Adaptación acuática. Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad."
+  },
+  {
+   "type": "definition",
+   "page": 120,
+   "md": "***Armas naturales.*** Te crecen cascos (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por aptitud mágica para las tiradas de ataque y de daño en vez de tu Fuerza.",
+   "text": "Armas naturales. Te crecen cascos (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por aptitud mágica para las tiradas de ataque y de daño en vez de tu Fuerza."
+  },
+  {
+   "type": "definition",
+   "page": 120,
+   "md": "***Cambiar de aspecto.*** Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.",
+   "text": "Cambiar de aspecto. Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 119
+ }
+}

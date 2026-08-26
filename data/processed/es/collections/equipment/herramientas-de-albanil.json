@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-albanil",
+ "name": "Herramientas de albañil",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Fuerza Peso: 4 kg\n\nUtilizar: esculpir un símbolo o un agujero en la piedra (CD 10)\n\nFabricar: polipasto",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Fuerza **Peso:** 4 kg",
+   "text": "Característica: Fuerza Peso: 4 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** esculpir un símbolo o un agujero en la piedra (CD 10)",
+   "text": "Utilizar: esculpir un símbolo o un agujero en la piedra (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** polipasto",
+   "text": "Fabricar: polipasto"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

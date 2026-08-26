@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-de-paladin-de-nivel-4",
+ "caption": "Conjuros de paladín de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Aura de vida",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Destierro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Guarda contra la muerte",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Localizar criatura",
+   "Adivinación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Paladín",
+  "Lista de conjuros de paladín"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 84
+ }
+}

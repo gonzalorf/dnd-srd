@@ -1,0 +1,29 @@
+{
+ "id": "item.matadragones",
+ "name": "Matadragones",
+ "category": "Arma",
+ "variant": "cualquiera sencilla o marcial",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquiera sencilla o marcial), rara",
+ "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica.\n\nSi el objetivo es un dragón, el arma causa 3d6 de daño adicional del tipo del arma.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica.",
+   "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Si el objetivo es un dragón, el arma causa 3d6 de daño adicional del tipo del arma.",
+   "text": "Si el objetivo es un dragón, el arma causa 3d6 de daño adicional del tipo del arma."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 262
+ }
+}

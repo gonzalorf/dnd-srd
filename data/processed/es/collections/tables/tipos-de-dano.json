@@ -1,0 +1,72 @@
+{
+ "id": "table.tipos-de-dano",
+ "caption": "Tipos de daño",
+ "header": [
+  "Tipo",
+  "Ejemplos"
+ ],
+ "rows": [
+  [
+   "Ácido",
+   "Enzimas digestivas, líquidos corrosivos"
+  ],
+  [
+   "Contundente",
+   "Aplastamientos, caídas, objetos romos"
+  ],
+  [
+   "Cortante",
+   "Garras, objetos cortantes"
+  ],
+  [
+   "Frío",
+   "Agua gélida, ráfagas heladas"
+  ],
+  [
+   "Fuego",
+   "Calor insoportable, llamas"
+  ],
+  [
+   "Fuerza",
+   "Energía mágica pura"
+  ],
+  [
+   "Necrótico",
+   "Energía que absorbe la vida"
+  ],
+  [
+   "Perforante",
+   "Colmillos, objetos punzantes"
+  ],
+  [
+   "Psíquico",
+   "Energía que desgarra la mente"
+  ],
+  [
+   "Radiante",
+   "Energía sagrada, radiación abrasadora"
+  ],
+  [
+   "Relámpago",
+   "Electricidad"
+  ],
+  [
+   "Trueno",
+   "Sonido conmocionador"
+  ],
+  [
+   "Veneno",
+   "Gas tóxico, veneno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Tipos de daño"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 209
+ }
+}

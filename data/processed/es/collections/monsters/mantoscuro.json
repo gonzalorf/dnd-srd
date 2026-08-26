@@ -1,0 +1,98 @@
+{
+ "id": "monster.mantoscuro",
+ "name": "Mantoscuro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 348
+ },
+ "context": [
+  "Mantoscuro"
+ ],
+ "metaRaw": "Aberración Pequeña, sin alineamiento",
+ "type": "Aberración",
+ "alignment": "sin alineamiento",
+ "size": "Pequeño",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "22 (5d6 + 5)",
+  "average": 22,
+  "formula": "5d6 + 5"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Aplastar",
+   "md": "***Aplastar.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente y el mantoscuro se engancha al objetivo. Si el objetivo es una criatura Mediana o más pequeña y el mantoscuro tenía ventaja en la tirada de ataque, cubrirá al objetivo, que tendrá el estado de cegado y se asfixiará mientras el mantoscuro esté enganchado de esta forma. Mientras esté enganchado a un objetivo, el mantoscuro solo podrá atacarlo a él, pero tendrá ventaja en las tiradas de ataque. Su velocidad pasará a ser 0, no podrá beneficiarse de ningún bonificador a su velocidad y se moverá con el objetivo.",
+   "page": 348,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño contundente y el mantoscuro se engancha al objetivo. Si el objetivo es una criatura Mediana o más pequeña y el mantoscuro tenía ventaja en la tirada de ataque, cubrirá al objetivo, que tendrá el estado de cegado y se asfixiará mientras el mantoscuro esté enganchado de esta forma. Mientras esté enganchado a un objetivo, el mantoscuro solo podrá atacarlo a él, pero tendrá ventaja en las tiradas de ataque. Su velocidad pasará a ser 0, no podrá beneficiarse de ningún bonificador a su velocidad y se moverá con el objetivo."
+  },
+  {
+   "name": null,
+   "md": "Una criatura puede emplear una acción para intentar quitarse de encima al mantoscuro superando una prueba de Fuerza (Atletismo) con CD 13. En su turno, el mantoscuro puede separarse gastando 1,5 m de movimiento.",
+   "page": 348
+  },
+  {
+   "name": "Aura de oscuridad",
+   "md": "***Aura de oscuridad (1/día).*** Una oscuridad mágica llena una emanación de 4,5 m que se origina en el mantoscuro. Este efecto dura mientras el mantoscuro mantenga la concentración en él, hasta 10 minutos. La visión en la oscuridad no puede penetrar en esta zona y ninguna luz puede alumbrarla.",
+   "page": 348,
+   "description": "Una oscuridad mágica llena una emanación de 4,5 m que se origina en el mantoscuro. Este efecto dura mientras el mantoscuro mantenga la concentración en él, hasta 10 minutos. La visión en la oscuridad no puede penetrar en esta zona y ninguna luz puede alumbrarla.",
+   "uses": "1/día"
+  }
+ ]
+}

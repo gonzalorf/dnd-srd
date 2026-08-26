@@ -1,0 +1,17 @@
+{
+ "id": "rule.velocidad-nadando",
+ "name": "Velocidad nadando",
+ "text": "Una velocidad nadando sirve para nadar sin gastar el movimiento adicional que normalmente se asocia a nadar. Consulta también “Nadar” y “Velocidad”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Una velocidad nadando sirve para nadar sin gastar el movimiento adicional que normalmente se asocia a nadar. *Consulta también* “Nadar” y “Velocidad”.",
+   "text": "Una velocidad nadando sirve para nadar sin gastar el movimiento adicional que normalmente se asocia a nadar. Consulta también “Nadar” y “Velocidad”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

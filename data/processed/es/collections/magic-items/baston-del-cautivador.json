@@ -1,0 +1,52 @@
+{
+ "id": "item.baston-del-cautivador",
+ "name": "Bastón del cautivador",
+ "category": "Bastón",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": "un bardo, brujo, clérigo, druida, hechicero o mago",
+ "subtitle": "Bastón, raro (requiere sintonización por parte de un bardo, brujo, clérigo, druida, hechicero o mago)",
+ "text": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes usar cualquiera de sus propiedades:\n\nLanzar conjuro. Puedes gastar 1 carga del bastón para lanzar entender idiomas, hechizar persona u orden imperiosa desde él usando tu CD de salvación de conjuros.\n\nReflejar encantamiento. Si superas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás utilizar una reacción y gastar 1 carga del bastón para volver el conjuro en contra de su lanzador como si tú lo hubieras lanzado.\n\nResistir encantamiento. Si fallas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás superar la tirada fallida en su lugar. No podrás volver a usar esta propiedad hasta el siguiente amanecer.\n\nRecuperar cargas. El bastón recupera 1d8 + 2 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en polvo y se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 242,
+   "md": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes usar cualquiera de sus propiedades:",
+   "text": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes usar cualquiera de sus propiedades:"
+  },
+  {
+   "type": "definition",
+   "page": 242,
+   "md": "**Lanzar conjuro.** Puedes gastar 1 carga del bastón para lanzar *entender idiomas*, *hechizar persona* u *orden imperiosa* desde él usando tu CD de salvación de conjuros.",
+   "text": "Lanzar conjuro. Puedes gastar 1 carga del bastón para lanzar entender idiomas, hechizar persona u orden imperiosa desde él usando tu CD de salvación de conjuros."
+  },
+  {
+   "type": "definition",
+   "page": 242,
+   "md": "**Reflejar encantamiento.** Si superas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás utilizar una reacción y gastar 1 carga del bastón para volver el conjuro en contra de su lanzador como si tú lo hubieras lanzado.",
+   "text": "Reflejar encantamiento. Si superas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás utilizar una reacción y gastar 1 carga del bastón para volver el conjuro en contra de su lanzador como si tú lo hubieras lanzado."
+  },
+  {
+   "type": "definition",
+   "page": 242,
+   "md": "**Resistir encantamiento.** Si fallas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás superar la tirada fallida en su lugar. No podrás volver a usar esta propiedad hasta el siguiente amanecer.",
+   "text": "Resistir encantamiento. Si fallas una tirada de salvación contra un conjuro de encantamiento que solo te haga objetivo a ti, podrás superar la tirada fallida en su lugar. No podrás volver a usar esta propiedad hasta el siguiente amanecer."
+  },
+  {
+   "type": "definition",
+   "page": 242,
+   "md": "***Recuperar cargas.*** El bastón recupera 1d8 + 2 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en polvo y se destruye.",
+   "text": "Recuperar cargas. El bastón recupera 1d8 + 2 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en polvo y se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 242
+ },
+ "refs": [
+  "spell.entender-idiomas",
+  "spell.hechizar-persona",
+  "spell.orden-imperiosa"
+ ]
+}

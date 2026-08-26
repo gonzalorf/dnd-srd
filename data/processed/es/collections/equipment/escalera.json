@@ -1,0 +1,36 @@
+{
+ "id": "gear.escalera",
+ "name": "Escalera",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Escalera",
+  "Peso": "12,5 kg",
+  "Precio": "1 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "12,5 kg",
+  "kg": 12.5
+ },
+ "price": {
+  "raw": "1 pp",
+  "amount": 1.0,
+  "coin": "pp",
+  "gp": 0.1
+ },
+ "text": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella.",
+   "text": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella."
+  }
+ ],
+ "descriptionPage": 105
+}

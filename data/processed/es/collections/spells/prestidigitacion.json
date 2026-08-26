@@ -1,0 +1,87 @@
+{
+ "id": "spell.prestidigitacion",
+ "name": "Prestidigitación",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Hasta 1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Creas un efecto mágico dentro del alcance, elegido de entre las opciones a continuación. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instantáneos.\n\nCreación menor. Creas un abalorio no mágico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige daño y no tiene valor monetario.\n\nEfecto sensorial. Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ligera ráfaga de viento, tenues notas musicales o un olor extraño.\n\nJugar con fuego. Enciendes o apagas al instante una vela, una antorcha o una hoguera pequeña.\n\nLimpiar o ensuciar. Limpias o ensucias al instante un objeto de hasta 0,03 m3.\n\nMarca mágica. Haces que aparezca una mancha de color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.\n\nSensación menor. Enfrías, calientas o das sabor a un material inerte de hasta 0,03 m3 durante 1 hora.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 176,
+   "md": "Creas un efecto mágico dentro del alcance, elegido de entre las opciones a continuación. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instantáneos.",
+   "text": "Creas un efecto mágico dentro del alcance, elegido de entre las opciones a continuación. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instantáneos."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Creación menor.*** Creas un abalorio no mágico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige daño y no tiene valor monetario.",
+   "text": "Creación menor. Creas un abalorio no mágico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige daño y no tiene valor monetario."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Efecto sensorial.*** Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ligera ráfaga de viento, tenues notas musicales o un olor extraño.",
+   "text": "Efecto sensorial. Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ligera ráfaga de viento, tenues notas musicales o un olor extraño."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Jugar con fuego.*** Enciendes o apagas al instante una vela, una antorcha o una hoguera pequeña.",
+   "text": "Jugar con fuego. Enciendes o apagas al instante una vela, una antorcha o una hoguera pequeña."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Limpiar o ensuciar.*** Limpias o ensucias al instante un objeto de hasta 0,03 m3.",
+   "text": "Limpiar o ensuciar. Limpias o ensucias al instante un objeto de hasta 0,03 m3."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Marca mágica.*** Haces que aparezca una mancha de color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.",
+   "text": "Marca mágica. Haces que aparezca una mancha de color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora."
+  },
+  {
+   "type": "definition",
+   "page": 176,
+   "md": "***Sensación menor.*** Enfrías, calientas o das sabor a un material inerte de hasta 0,03 m3 durante 1 hora.",
+   "text": "Sensación menor. Enfrías, calientas o das sabor a un material inerte de hasta 0,03 m3 durante 1 hora."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 176
+ }
+}

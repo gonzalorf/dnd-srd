@@ -1,0 +1,86 @@
+{
+ "id": "monster.cabra",
+ "name": "Cabra",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 381
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 10,
+ "acRaw": "10",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "4 (1d8)",
+  "average": 4,
+  "formula": "1d8"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Embestir",
+   "md": "***Embestir.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente o 2 (1d4) de daño contundente si la cabra recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle.",
+   "page": 381,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente o 2 (1d4) de daño contundente si la cabra recorre al menos 6 m en línea recta hacia el objetivo justo antes de acertarle."
+  }
+ ]
+}

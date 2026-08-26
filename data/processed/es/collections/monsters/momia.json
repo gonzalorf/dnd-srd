@@ -1,0 +1,110 @@
+{
+ "id": "monster.momia",
+ "name": "Momia",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 351,
+  "pages": [
+   351,
+   352
+  ]
+ },
+ "context": [
+  "Momias"
+ ],
+ "metaRaw": "Muerto viviente Mediano o Pequeño, legal malvado",
+ "type": "Muerto viviente",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "58 (9d8 + 18)",
+  "average": 58,
+  "formula": "9d8 + 18"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "común y otros dos idiomas"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "paralizado"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 3
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La momia realiza dos ataques con su puño putrefacto y utiliza su mirada espantosa.",
+   "page": 352,
+   "description": "La momia realiza dos ataques con su puño putrefacto y utiliza su mirada espantosa."
+  },
+  {
+   "name": "Puño putrefacto",
+   "md": "***Puño putrefacto.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño contundente más 10 (3d6) de daño necrótico. Si el objetivo es una criatura, quedará maldita. Mientras el objetivo esté maldito, no podrá recuperar puntos de golpe, sus puntos de golpe máximos no volverán a la normalidad cuando termine un descanso largo y estos se reducirán en 10 (3d6) cada 24 horas. Una criatura morirá y se convertirá en polvo si este ataque reduce sus puntos de golpe a 0.",
+   "page": 352,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño contundente más 10 (3d6) de daño necrótico. Si el objetivo es una criatura, quedará maldita. Mientras el objetivo esté maldito, no podrá recuperar puntos de golpe, sus puntos de golpe máximos no volverán a la normalidad cuando termine un descanso largo y estos se reducirán en 10 (3d6) cada 24 horas. Una criatura morirá y se convertirá en polvo si este ataque reduce sus puntos de golpe a 0."
+  },
+  {
+   "name": "Mirada espantosa",
+   "md": "***Mirada espantosa.*** *Tirada de salvación de Sabiduría:* CD 11, una criatura que la momia pueda ver a 18 m o menos. *Fallo:* el objetivo tendrá el estado de asustado hasta el final del siguiente turno de la momia. *Éxito:* el objetivo será inmune a la mirada espantosa de esta momia durante 24 horas.",
+   "page": 352,
+   "description": "*Tirada de salvación de Sabiduría:* CD 11, una criatura que la momia pueda ver a 18 m o menos. *Fallo:* el objetivo tendrá el estado de asustado hasta el final del siguiente turno de la momia. *Éxito:* el objetivo será inmune a la mirada espantosa de esta momia durante 24 horas."
+  }
+ ]
+}

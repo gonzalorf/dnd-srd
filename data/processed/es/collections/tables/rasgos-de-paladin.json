@@ -1,0 +1,164 @@
+{
+ "id": "table.rasgos-de-paladin",
+ "caption": "Rasgos de paladín",
+ "header": [
+  "Nivel",
+  "Bonificador por competencia",
+  "Rasgos de clase",
+  "Canalizar Conjuros divinidadpreparados",
+  "Espacios de conjuro por cada nivel de conjuro 12345"
+ ],
+ "rows": [
+  [
+   "1",
+   "+2",
+   "Imponer las manos, Lanzamiento de conjuros, Maestría con armas",
+   "—2",
+   "2————"
+  ],
+  [
+   "2",
+   "+2",
+   "Castigo de paladín, Estilo de combate",
+   "—3",
+   "2————"
+  ],
+  [
+   "3",
+   "+2",
+   "Canalizar divinidad, subclase de paladín",
+   "24",
+   "3————"
+  ],
+  [
+   "4",
+   "+2",
+   "Mejora de característica",
+   "25",
+   "3————"
+  ],
+  [
+   "5",
+   "+3",
+   "Ataque adicional, Corcel fiel",
+   "26",
+   "42———"
+  ],
+  [
+   "6",
+   "+3",
+   "Aura de protección",
+   "26",
+   "42———"
+  ],
+  [
+   "7",
+   "+3",
+   "Rasgo de subclase",
+   "27",
+   "43———"
+  ],
+  [
+   "8",
+   "+3",
+   "Mejora de característica",
+   "27",
+   "43———"
+  ],
+  [
+   "9",
+   "+4",
+   "Abjurar de los enemigos",
+   "29",
+   "432——"
+  ],
+  [
+   "10",
+   "+4",
+   "Aura de coraje",
+   "29",
+   "432——"
+  ],
+  [
+   "11",
+   "+4",
+   "Golpes radiantes",
+   "310",
+   "433——"
+  ],
+  [
+   "12",
+   "+4",
+   "Mejora de característica",
+   "310",
+   "433——"
+  ],
+  [
+   "13",
+   "+5",
+   "—",
+   "311",
+   "4331—"
+  ],
+  [
+   "14",
+   "+5",
+   "Toque reparador",
+   "311",
+   "4331—"
+  ],
+  [
+   "15",
+   "+5",
+   "Rasgo de subclase",
+   "312",
+   "4332—"
+  ],
+  [
+   "16",
+   "+5",
+   "Mejora de característica",
+   "312",
+   "4332—"
+  ],
+  [
+   "17",
+   "+6",
+   "—",
+   "314",
+   "43331"
+  ],
+  [
+   "18",
+   "+6",
+   "Expansión de aura",
+   "314",
+   "43331"
+  ],
+  [
+   "19",
+   "+6",
+   "Don épico",
+   "315",
+   "43332"
+  ],
+  [
+   "20",
+   "+6",
+   "Rasgo de subclase",
+   "315",
+   "43332"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Clases",
+  "Paladín",
+  "Convertirse en paladín",
+  "Como personaje multiclase"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 81
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "focus.baston",
+ "name": "Bastón",
+ "kind": "focus",
+ "group": null,
+ "table": "Canalizadores arcanos",
+ "fields": {
+  "Canalizador": "Bastón",
+  "Peso": "2 kg",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 105
+ },
+ "weight": {
+  "raw": "2 kg",
+  "kg": 2.0
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ }
+}

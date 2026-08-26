@@ -1,0 +1,29 @@
+{
+ "id": "item.escoba-voladora",
+ "name": "Escoba voladora",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Esta escoba de madera funcionará como una escoba normal hasta que te montes en ella y emplees una acción de magia para hacerla levitar. En ese momento, podrás utilizarla para viajar por el aire. Tiene una velocidad volando de 15 m. Puede transportar hasta 200 kg, pero su velocidad volando se reduce a 9 m si transporta más de 100 kg. La escoba deja de levitar cuando aterrizas o cuando dejes de montar en ella.\n\nComo acción de magia, puedes ordenarle que viaje por sí misma a un lugar que esté a 1,5 km o menos de ti si nombras el lugar y conoces el sitio en cuestión. Si sigue estando a 1,5 km o menos de ti, la escoba volverá si empleas otra acción de magia y pronuncias una palabra de activación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Esta escoba de madera funcionará como una escoba normal hasta que te montes en ella y emplees una acción de magia para hacerla levitar. En ese momento, podrás utilizarla para viajar por el aire. Tiene una velocidad volando de 15 m. Puede transportar hasta 200 kg, pero su velocidad volando se reduce a 9 m si transporta más de 100 kg. La escoba deja de levitar cuando aterrizas o cuando dejes de montar en ella.",
+   "text": "Esta escoba de madera funcionará como una escoba normal hasta que te montes en ella y emplees una acción de magia para hacerla levitar. En ese momento, podrás utilizarla para viajar por el aire. Tiene una velocidad volando de 15 m. Puede transportar hasta 200 kg, pero su velocidad volando se reduce a 9 m si transporta más de 100 kg. La escoba deja de levitar cuando aterrizas o cuando dejes de montar en ella."
+  },
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Como acción de magia, puedes ordenarle que viaje por sí misma a un lugar que esté a 1,5 km o menos de ti si nombras el lugar y conoces el sitio en cuestión. Si sigue estando a 1,5 km o menos de ti, la escoba volverá si empleas otra acción de magia y pronuncias una palabra de activación.",
+   "text": "Como acción de magia, puedes ordenarle que viaje por sí misma a un lugar que esté a 1,5 km o menos de ti si nombras el lugar y conoces el sitio en cuestión. Si sigue estando a 1,5 km o menos de ti, la escoba volverá si empleas otra acción de magia y pronuncias una palabra de activación."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

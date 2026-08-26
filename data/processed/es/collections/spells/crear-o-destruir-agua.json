@@ -1,0 +1,67 @@
+{
+ "id": "spell.crear-o-destruir-agua",
+ "name": "Crear o destruir agua",
+ "level": 1,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una mezcla de agua y arena)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una mezcla de agua y arena",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Produces uno de estos efectos:\n\nCrear agua. Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas desprotegidas de la zona.\n\nDestruir agua. Destruyes hasta 40 l de agua dentro del alcance en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.\n\nCon un espacio de conjuro de nivel superior. Creas o destruyes 40 l más de agua o el tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "Produces uno de estos efectos:",
+   "text": "Produces uno de estos efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "**Crear agua.** Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas desprotegidas de la zona.",
+   "text": "Crear agua. Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas desprotegidas de la zona."
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "**Destruir agua.** Destruyes hasta 40 l de agua dentro del alcance en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.",
+   "text": "Destruir agua. Destruyes hasta 40 l de agua dentro del alcance en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance."
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Creas o destruyes 40 l más de agua o el tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Creas o destruyes 40 l más de agua o el tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 137
+ }
+}

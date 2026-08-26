@@ -1,0 +1,46 @@
+{
+ "id": "table.p267",
+ "caption": null,
+ "header": [
+  "Poción",
+  "Fue",
+  "Rareza"
+ ],
+ "rows": [
+  [
+   "Poción de fuerza de gigante (colinas)",
+   "21",
+   "Infrecuente"
+  ],
+  [
+   "Poción de fuerza de gigante (escarcha o piedra)",
+   "23",
+   "Rara"
+  ],
+  [
+   "Poción de fuerza de gigante (fuego)",
+   "25",
+   "Rara"
+  ],
+  [
+   "Poción de fuerza de gigante (nubes)",
+   "27",
+   "Muy rara"
+  ],
+  [
+   "Poción de fuerza de gigante (tormentas)",
+   "29",
+   "Legendaria"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Poción de fuerza de gigante"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

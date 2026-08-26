@@ -1,0 +1,126 @@
+{
+ "id": "monster.lamia",
+ "name": "Lamia",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 344
+ },
+ "context": [
+  "Lamia"
+ ],
+ "metaRaw": "Infernal Grande, caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "97 (13d10 + 26)",
+  "average": 97,
+  "formula": "13d10 + 26"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Engaño": 7,
+  "Perspicacia": 4,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "abisal",
+  "común"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La lamia realiza dos ataques con sus garras. Puede sustituir un ataque por un uso de su toque corruptor.",
+   "page": 344,
+   "description": "La lamia realiza dos ataques con sus garras. Puede sustituir un ataque por un uso de su toque corruptor."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante más 7 (2d6) de daño psíquico.",
+   "page": 344,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante más 7 (2d6) de daño psíquico."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La lamia lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 13):",
+   "page": 344,
+   "description": "La lamia lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 13):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *disfrazarse* (puede presentarse como un bípedo Grande o Mediano), *ilusión menor* 1/día cada uno: *escudriñar*, *geas*, *imagen mayor*",
+   "page": 344
+  },
+  {
+   "name": "Toque corruptor",
+   "md": "***Toque corruptor.*** *Tirada de salvación de Sabiduría:* CD 13, una criatura que la lamia pueda ver a 1,5 m o menos. *Fallo:* 13 (3d8) de daño psíquico y el objetivo estará maldito durante 1 hora. Hasta que se levante la maldición, el objetivo tendrá los estados de envenenado y hechizado.",
+   "page": 344,
+   "description": "*Tirada de salvación de Sabiduría:* CD 13, una criatura que la lamia pueda ver a 1,5 m o menos. *Fallo:* 13 (3d8) de daño psíquico y el objetivo estará maldito durante 1 hora. Hasta que se levante la maldición, el objetivo tendrá los estados de envenenado y hechizado."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto",
+   "md": "***Salto.*** La lamia gasta 3 m de movimiento para saltar hasta 9 m.",
+   "page": 344,
+   "description": "La lamia gasta 3 m de movimiento para saltar hasta 9 m."
+  }
+ ],
+ "refs": [
+  "spell.disfrazarse",
+  "spell.ilusion-menor",
+  "spell.escudrinar",
+  "spell.geas",
+  "spell.imagen-mayor"
+ ]
+}

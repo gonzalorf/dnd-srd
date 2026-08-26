@@ -1,0 +1,23 @@
+{
+ "id": "item.arma-feroz",
+ "name": "Arma feroz",
+ "category": "Arma",
+ "variant": "cualquiera sencilla o marcial",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquiera sencilla o marcial), rara",
+ "text": "Esta arma mágica causa 2d6 de daño adicional a cualquier criatura a la que acierte. El daño adicional será del mismo tipo que el daño normal del arma.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Esta arma mágica causa 2d6 de daño adicional a cualquier criatura a la que acierte. El daño adicional será del mismo tipo que el daño normal del arma.",
+   "text": "Esta arma mágica causa 2d6 de daño adicional a cualquier criatura a la que acierte. El daño adicional será del mismo tipo que el daño normal del arma."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

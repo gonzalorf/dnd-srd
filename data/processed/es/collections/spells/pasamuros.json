@@ -1,0 +1,56 @@
+{
+ "id": "spell.pasamuros",
+ "name": "Pasamuros",
+ "level": 5,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de semillas de sésamo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de semillas de sésamo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Aparece un pasaje en un punto que puedas ver en una superficie de madera, yeso o piedra (como una pared, un techo o un suelo) dentro del alcance y se mantiene hasta que termine el conjuro. Tú eliges las dimensiones de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de largo. El pasaje no crea ninguna inestabilidad en la estructura que lo rodea.\n\nCuando la abertura desaparece, las criaturas o los objetos que sigan en el pasaje creado por el conjuro serán expulsados sin daño alguno al espacio sin ocupar más cercano a la superficie sobre la que lanzaste el conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Aparece un pasaje en un punto que puedas ver en una superficie de madera, yeso o piedra (como una pared, un techo o un suelo) dentro del alcance y se mantiene hasta que termine el conjuro. Tú eliges las dimensiones de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de largo. El pasaje no crea ninguna inestabilidad en la estructura que lo rodea.",
+   "text": "Aparece un pasaje en un punto que puedas ver en una superficie de madera, yeso o piedra (como una pared, un techo o un suelo) dentro del alcance y se mantiene hasta que termine el conjuro. Tú eliges las dimensiones de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de largo. El pasaje no crea ninguna inestabilidad en la estructura que lo rodea."
+  },
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Cuando la abertura desaparece, las criaturas o los objetos que sigan en el pasaje creado por el conjuro serán expulsados sin daño alguno al espacio sin ocupar más cercano a la superficie sobre la que lanzaste el conjuro.",
+   "text": "Cuando la abertura desaparece, las criaturas o los objetos que sigan en el pasaje creado por el conjuro serán expulsados sin daño alguno al espacio sin ocupar más cercano a la superficie sobre la que lanzaste el conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

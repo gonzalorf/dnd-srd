@@ -1,0 +1,76 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-7",
+ "caption": "Conjuros de bardo de nivel 7",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Espada arcana",
+   "Evocación",
+   "C, M"
+  ],
+  [
+   "Espejismo arcano",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Excursión etérea",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Jaula de fuerza",
+   "Evocación",
+   "C, M"
+  ],
+  [
+   "Mansión magnífica",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Proyectar imagen",
+   "Ilusionismo",
+   "C, M"
+  ],
+  [
+   "Regenerar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Resurrección",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Rociada prismática",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Símbolo",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Teletransporte",
+   "Conjuración",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 39
+ }
+}

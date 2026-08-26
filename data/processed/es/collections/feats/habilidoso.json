@@ -1,0 +1,30 @@
+{
+ "id": "feat.habilidoso",
+ "name": "Habilidoso",
+ "text": "Dote de origen\n\nGanas competencia en cualquier combinación de tres habilidades o herramientas que elijas.\n\nRepetible. Puedes elegir esta dote más de una vez.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote de origen*",
+   "text": "Dote de origen"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Ganas competencia en cualquier combinación de tres habilidades o herramientas que elijas.",
+   "text": "Ganas competencia en cualquier combinación de tres habilidades o herramientas que elijas."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Repetible.*** Puedes elegir esta dote más de una vez.",
+   "text": "Repetible. Puedes elegir esta dote más de una vez."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes de origen"
+}

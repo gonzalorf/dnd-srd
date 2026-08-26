@@ -1,0 +1,52 @@
+{
+ "id": "spell.entender-idiomas",
+ "name": "Entender idiomas",
+ "level": 1,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de hollín y sal)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de hollín y sal",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. También comprendes todas las palabras escritas que ves, independientemente del idioma en el que estén, pero debes tocar la superficie en la que estén inscritas. Tardas aproximadamente 1 minuto en leer una página. Este conjuro no descifra mensajes secretos ni símbolos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 146,
+   "md": "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. También comprendes todas las palabras escritas que ves, independientemente del idioma en el que estén, pero debes tocar la superficie en la que estén inscritas. Tardas aproximadamente 1 minuto en leer una página. Este conjuro no descifra mensajes secretos ni símbolos.",
+   "text": "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. También comprendes todas las palabras escritas que ves, independientemente del idioma en el que estén, pero debes tocar la superficie en la que estén inscritas. Tardas aproximadamente 1 minuto en leer una página. Este conjuro no descifra mensajes secretos ni símbolos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 146
+ }
+}

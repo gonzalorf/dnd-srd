@@ -1,0 +1,30 @@
+{
+ "id": "rule.esconderse",
+ "name": "Esconderse",
+ "text": "Con la acción de esconderse, tratas de ocultarte. Para ello, debes superar una prueba de Destreza (Sigilo) con CD 15 mientras estás en una zona muy oscura o detrás de una cobertura tres cuartos o completa, y deberás estar fuera de la línea de visión de cualquier enemigo; si puedes ver a una criatura, sabrás si te puede ver o no.\n\nSi la superas, tendrás el estado de invisible mientras permanezcas oculto. Anota el resultado de tu prueba, que es la CD para que una criatura te detecte con una prueba de Sabiduría (Percepción).\n\nDejas de estar oculto inmediatamente después de que ocurra algo de lo siguiente: haces un ruido más alto que un susurro, un enemigo te detecta, haces una tirada de ataque o lanzas un conjuro con un componente verbal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Con la acción de esconderse, tratas de ocultarte. Para ello, debes superar una prueba de Destreza (Sigilo) con CD 15 mientras estás en una zona muy oscura o detrás de una cobertura tres cuartos o completa, y deberás estar fuera de la línea de visión de cualquier enemigo; si puedes ver a una criatura, sabrás si te puede ver o no.",
+   "text": "Con la acción de esconderse, tratas de ocultarte. Para ello, debes superar una prueba de Destreza (Sigilo) con CD 15 mientras estás en una zona muy oscura o detrás de una cobertura tres cuartos o completa, y deberás estar fuera de la línea de visión de cualquier enemigo; si puedes ver a una criatura, sabrás si te puede ver o no."
+  },
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Si la superas, tendrás el estado de invisible mientras permanezcas oculto. Anota el resultado de tu prueba, que es la CD para que una criatura te detecte con una prueba de Sabiduría (Percepción).",
+   "text": "Si la superas, tendrás el estado de invisible mientras permanezcas oculto. Anota el resultado de tu prueba, que es la CD para que una criatura te detecte con una prueba de Sabiduría (Percepción)."
+  },
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Dejas de estar oculto inmediatamente después de que ocurra algo de lo siguiente: haces un ruido más alto que un susurro, un enemigo te detecta, haces una tirada de ataque o lanzas un conjuro con un componente verbal.",
+   "text": "Dejas de estar oculto inmediatamente después de que ocurra algo de lo siguiente: haces un ruido más alto que un susurro, un enemigo te detecta, haces una tirada de ataque o lanzas un conjuro con un componente verbal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ },
+ "kind": "acción"
+}

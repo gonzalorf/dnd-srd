@@ -1,0 +1,29 @@
+{
+ "id": "item.pocion-de-longevidad",
+ "name": "Poción de longevidad",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, muy rara",
+ "text": "Cuando bebas esta poción, tu edad física se reduce en 1d6 + 6 años, hasta un mínimo de 13 años. Cada vez que tomes una poción de longevidad después de la primera, existe una probabilidad acumulativa del 10 % de que envejezcas 1d6 + 6 años.\n\nSuspendido en el líquido ámbar hay un corazón diminuto que, contra todo pronóstico, todavía late. Este ingrediente desaparece cuando se abre la poción.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, tu edad física se reduce en 1d6 + 6 años, hasta un mínimo de 13 años. Cada vez que tomes una *poción de longevidad* después de la primera, existe una probabilidad acumulativa del 10 % de que envejezcas 1d6 + 6 años.",
+   "text": "Cuando bebas esta poción, tu edad física se reduce en 1d6 + 6 años, hasta un mínimo de 13 años. Cada vez que tomes una poción de longevidad después de la primera, existe una probabilidad acumulativa del 10 % de que envejezcas 1d6 + 6 años."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Suspendido en el líquido ámbar hay un corazón diminuto que, contra todo pronóstico, todavía late. Este ingrediente desaparece cuando se abre la poción.",
+   "text": "Suspendido en el líquido ámbar hay un corazón diminuto que, contra todo pronóstico, todavía late. Este ingrediente desaparece cuando se abre la poción."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

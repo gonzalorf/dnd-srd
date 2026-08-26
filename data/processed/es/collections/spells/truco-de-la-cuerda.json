@@ -1,0 +1,55 @@
+{
+ "id": "spell.truco-de-la-cuerda",
+ "name": "Truco de la cuerda",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de cuerda)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de cuerda",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior.\n\nEn el espacio caben hasta ocho criaturas Medianas o más pequeñas. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ningún sentido, pero las criaturas que están dentro pueden ver a través del portal. Todo lo que esté dentro del espacio caerá fuera cuando el conjuro termine.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior.",
+   "text": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "En el espacio caben hasta ocho criaturas Medianas o más pequeñas. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ningún sentido, pero las criaturas que están dentro pueden ver a través del portal. Todo lo que esté dentro del espacio caerá fuera cuando el conjuro termine.",
+   "text": "En el espacio caben hasta ocho criaturas Medianas o más pequeñas. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ningún sentido, pero las criaturas que están dentro pueden ver a través del portal. Todo lo que esté dentro del espacio caerá fuera cuando el conjuro termine."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 191
+ }
+}

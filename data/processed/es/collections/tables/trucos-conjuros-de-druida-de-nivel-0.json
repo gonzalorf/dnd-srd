@@ -1,0 +1,76 @@
+{
+ "id": "table.trucos-conjuros-de-druida-de-nivel-0",
+ "caption": "Trucos (conjuros de druida de nivel 0)",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Crear llama",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Elementalismo",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Guía",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Mensaje",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Piedad con los moribundos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Reparar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Resistencia",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Rociada venenosa",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Saber druídico",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Shillelagh",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Voluta estelar",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 55
+ }
+}

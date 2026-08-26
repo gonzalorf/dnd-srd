@@ -1,0 +1,24 @@
+{
+ "id": "rule.linea",
+ "name": "Línea",
+ "text": "Una línea es un área de efecto que se extiende desde un punto de origen en una trayectoria recta a lo largo de su extensión y cubre un área delimitada por su ancho. El efecto que crea una línea especifica su longitud y anchura.\n\nEl punto de origen de una línea no está incluido en el área de efecto, salvo que su creador decida lo contrario.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Una línea es un área de efecto que se extiende desde un punto de origen en una trayectoria recta a lo largo de su extensión y cubre un área delimitada por su ancho. El efecto que crea una línea especifica su longitud y anchura.",
+   "text": "Una línea es un área de efecto que se extiende desde un punto de origen en una trayectoria recta a lo largo de su extensión y cubre un área delimitada por su ancho. El efecto que crea una línea especifica su longitud y anchura."
+  },
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "El punto de origen de una línea no está incluido en el área de efecto, salvo que su creador decida lo contrario.",
+   "text": "El punto de origen de una línea no está incluido en el área de efecto, salvo que su creador decida lo contrario."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ },
+ "kind": "área de efecto"
+}

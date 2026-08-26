@@ -1,0 +1,48 @@
+{
+ "id": "table.atributos-basicos-de-bardo",
+ "caption": "Atributos básicos de bardo",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Carisma"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de bardo"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Destreza y Carisma"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige tres cualesquiera (consulta el capítulo “Cómo jugar”)"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas"
+  ],
+  [
+   "Competencias con herramientas",
+   "Elige tres instrumentos musicales (consulta el capítulo “Equipo”)"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) armadura de"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 35
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "weapon.garrote-grande",
+ "name": "Garrote grande",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo sencillas",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Garrote grande",
+  "Daño": "1d8 contundente",
+  "Propiedades": "A dos manos",
+  "Maestría": "Empujar",
+  "Peso": "5 kg",
+  "Precio": "2 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "5 kg",
+  "kg": 5.0
+ },
+ "price": {
+  "raw": "2 pp",
+  "amount": 2.0,
+  "coin": "pp",
+  "gp": 0.2
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.efecto-magico",
+ "name": "Efecto mágico",
+ "text": "Un efecto es mágico si lo crea un conjuro, un objeto mágico o un fenómeno que una regla etiquete como mágico.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Un efecto es mágico si lo crea un conjuro, un objeto mágico o un fenómeno que una regla etiquete como mágico.",
+   "text": "Un efecto es mágico si lo crea un conjuro, un objeto mágico o un fenómeno que una regla etiquete como mágico."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

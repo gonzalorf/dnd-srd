@@ -1,0 +1,23 @@
+{
+ "id": "item.flauta-de-la-aparicion",
+ "name": "Flauta de la aparición",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Esta flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Puedes utilizar una acción de magia para tocarla y gastar 1 carga para crear una melodía inquietante a la vez que fascinante. Todas las criaturas de tu elección a 9 m o menos de ti deberán superar una tirada de salvación de Sabiduría con CD 15 o tendrán el estado de asustadas durante 1 minuto. Las criaturas que fallen la tirada de salvación la repetirán al final de cada uno de sus turnos y, si la superan, se librarán del efecto. Las criaturas que superen la tirada serán inmunes al efecto de esta flauta durante 24 horas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 257,
+   "md": "Esta flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Puedes utilizar una acción de magia para tocarla y gastar 1 carga para crear una melodía inquietante a la vez que fascinante. Todas las criaturas de tu elección a 9 m o menos de ti deberán superar una tirada de salvación de Sabiduría con CD 15 o tendrán el estado de asustadas durante 1 minuto. Las criaturas que fallen la tirada de salvación la repetirán al final de cada uno de sus turnos y, si la superan, se librarán del efecto. Las criaturas que superen la tirada serán inmunes al efecto de esta flauta durante 24 horas.",
+   "text": "Esta flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Puedes utilizar una acción de magia para tocarla y gastar 1 carga para crear una melodía inquietante a la vez que fascinante. Todas las criaturas de tu elección a 9 m o menos de ti deberán superar una tirada de salvación de Sabiduría con CD 15 o tendrán el estado de asustadas durante 1 minuto. Las criaturas que fallen la tirada de salvación la repetirán al final de cada uno de sus turnos y, si la superan, se librarán del efecto. Las criaturas que superen la tirada serán inmunes al efecto de esta flauta durante 24 horas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 257
+ }
+}

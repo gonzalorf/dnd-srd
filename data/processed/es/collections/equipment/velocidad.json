@@ -1,0 +1,19 @@
+{
+ "id": "vehicle.velocidad",
+ "name": "Velocidad",
+ "kind": "vehicle",
+ "group": "Vehículos grandes",
+ "text": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 109,
+   "md": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg.",
+   "text": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "spell.presciencia",
+ "name": "Presciencia",
+ "level": 9,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una pluma de colibrí)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pluma de colibrí",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura voluntaria y la dotas de una capacidad limitada de ver el futuro inmediato. Hasta que el conjuro termine, el objetivo tendrá ventaja en las pruebas con d20 y las demás criaturas tendrán desventaja en las tiradas de ataque contra él. El conjuro termina antes si lo vuelves a lanzar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "Tocas a una criatura voluntaria y la dotas de una capacidad limitada de ver el futuro inmediato. Hasta que el conjuro termine, el objetivo tendrá ventaja en las pruebas con d20 y las demás criaturas tendrán desventaja en las tiradas de ataque contra él. El conjuro termina antes si lo vuelves a lanzar.",
+   "text": "Tocas a una criatura voluntaria y la dotas de una capacidad limitada de ver el futuro inmediato. Hasta que el conjuro termine, el objetivo tendrá ventaja en las pruebas con d20 y las demás criaturas tendrán desventaja en las tiradas de ataque contra él. El conjuro termina antes si lo vuelves a lanzar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 175
+ }
+}

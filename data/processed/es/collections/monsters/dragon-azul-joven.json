@@ -1,0 +1,113 @@
+{
+ "id": "monster.dragon-azul-joven",
+ "name": "Dragón azul joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 298
+ },
+ "context": [
+  "Dragones azules"
+ ],
+ "metaRaw": "Dragón Grande (cromático), legal malvado",
+ "type": "Dragón",
+ "alignment": "legal malvado",
+ "size": "Grande",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "152 (16d10 + 64)",
+  "average": 152,
+  "formula": "16d10 + 64"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "excavar": 6.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 9,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "9 (5000 PX; BC +4)",
+  "cr": 9,
+  "xp": 5000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 4
+  },
+  "con": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 5
+  },
+  "car": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro.",
+   "page": 298,
+   "description": "El dragón realiza tres ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 12 (2d6 + 5) de daño cortante más 5 (1d10) de daño de relámpago.",
+   "page": 298,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 12 (2d6 + 5) de daño cortante más 5 (1d10) de daño de relámpago."
+  },
+  {
+   "name": "Aliento de relámpago",
+   "md": "***Aliento de relámpago (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 16, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:*",
+   "page": 298,
+   "description": "*Tirada de salvación de Destreza:* CD 16, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:*",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": null,
+   "md": "55 (10d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 298
+  }
+ ]
+}

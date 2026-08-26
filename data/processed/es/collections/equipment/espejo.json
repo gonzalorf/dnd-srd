@@ -1,0 +1,32 @@
+{
+ "id": "gear.espejo",
+ "name": "Espejo",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Espejo",
+  "Peso": "250 g",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "text": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal.",
+   "text": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal."
+  }
+ ],
+ "descriptionPage": 105
+}

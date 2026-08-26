@@ -1,0 +1,59 @@
+{
+ "id": "spell.patron-hipnotico",
+ "name": "Patrón hipnótico",
+ "level": 3,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de confeti)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de confeti",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas un patrón de colores que se retuercen en un cubo de 9 m de lado dentro del alcance. El patrón aparece un instante y se desvanece. Todas las criaturas de la zona que puedan ver el patrón deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que termine el conjuro. Mientras estén hechizadas, las criaturas tendrán una velocidad de 0 y el estado de incapacitadas.\n\nEl conjuro finaliza para una criatura afectada si esta recibe daño o si alguien más emplea una acción para sacudir a dicha criatura y sacarla de su estupor.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Creas un patrón de colores que se retuercen en un cubo de 9 m de lado dentro del alcance. El patrón aparece un instante y se desvanece. Todas las criaturas de la zona que puedan ver el patrón deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que termine el conjuro. Mientras estén hechizadas, las criaturas tendrán una velocidad de 0 y el estado de incapacitadas.",
+   "text": "Creas un patrón de colores que se retuercen en un cubo de 9 m de lado dentro del alcance. El patrón aparece un instante y se desvanece. Todas las criaturas de la zona que puedan ver el patrón deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que termine el conjuro. Mientras estén hechizadas, las criaturas tendrán una velocidad de 0 y el estado de incapacitadas."
+  },
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "El conjuro finaliza para una criatura afectada si esta recibe daño o si alguien más emplea una acción para sacudir a dicha criatura y sacarla de su estupor.",
+   "text": "El conjuro finaliza para una criatura afectada si esta recibe daño o si alguien más emplea una acción para sacudir a dicha criatura y sacarla de su estupor."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 173
+ }
+}

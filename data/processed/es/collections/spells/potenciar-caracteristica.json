@@ -1,0 +1,60 @@
+{
+ "id": "spell.potenciar-caracteristica",
+ "name": "Potenciar característica",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "explorador",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (pelo de animal o una pluma)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "pelo de animal o una pluma",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura y eliges Fuerza, Destreza, Inteligencia, Sabiduría o Carisma. Hasta que termine el conjuro, el objetivo tiene ventaja en las pruebas con la característica elegida.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio. Puedes elegir una característica distinta para cada objetivo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "Tocas a una criatura y eliges Fuerza, Destreza, Inteligencia, Sabiduría o Carisma. Hasta que termine el conjuro, el objetivo tiene ventaja en las pruebas con la característica elegida.",
+   "text": "Tocas a una criatura y eliges Fuerza, Destreza, Inteligencia, Sabiduría o Carisma. Hasta que termine el conjuro, el objetivo tiene ventaja en las pruebas con la característica elegida."
+  },
+  {
+   "type": "definition",
+   "page": 175,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio. Puedes elegir una característica distinta para cada objetivo.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio. Puedes elegir una característica distinta para cada objetivo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 175
+ }
+}

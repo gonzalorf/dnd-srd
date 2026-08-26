@@ -1,0 +1,57 @@
+{
+ "id": "spell.grasa",
+ "name": "Grasa",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un poco de piel de cerdo o de mantequilla)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de piel de cerdo o de mantequilla",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno difícil hasta que termina el conjuro.\n\nCuando aparezca la grasa, las criaturas que haya en esa zona deberán superar una tirada de salvación de Destreza o tendrán el estado de derribadas. Una criatura que entre en la zona o termine su turno ahí deberá superar esa tirada de salvación o caerá derribada.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno difícil hasta que termina el conjuro.",
+   "text": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno difícil hasta que termina el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Cuando aparezca la grasa, las criaturas que haya en esa zona deberán superar una tirada de salvación de Destreza o tendrán el estado de derribadas. Una criatura que entre en la zona o termine su turno ahí deberá superar esa tirada de salvación o caerá derribada.",
+   "text": "Cuando aparezca la grasa, las criaturas que haya en esa zona deberán superar una tirada de salvación de Destreza o tendrán el estado de derribadas. Una criatura que entre en la zona o termine su turno ahí deberá superar esa tirada de salvación o caerá derribada."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 153
+ }
+}

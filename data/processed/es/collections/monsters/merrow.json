@@ -1,0 +1,114 @@
+{
+ "id": "monster.merrow",
+ "name": "Merrow",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 350,
+  "pages": [
+   350,
+   351
+  ]
+ },
+ "context": [
+  "Merrow"
+ ],
+ "metaRaw": "Monstruosidad Grande, caótica malvada",
+ "type": "Monstruosidad",
+ "alignment": "caótica malvada",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "45 (6d10 + 12)",
+  "average": 45,
+  "formula": "6d10 + 12"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "nadar": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "abisal",
+  "primordial (acuano)"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El merrow puede respirar tanto dentro como fuera del agua.",
+   "page": 351,
+   "description": "El merrow puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El merrow realiza dos ataques con su arpón, sus garras o su mordisco en cualquier combinación.",
+   "page": 351,
+   "description": "El merrow realiza dos ataques con su arpón, sus garras o su mordisco en cualquier combinación."
+  },
+  {
+   "name": "Arpón",
+   "md": "***Arpón.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 11 (2d6 + 4) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, el merrow la atrae hasta 4,5 m en línea recta hacia él.",
+   "page": 351,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 11 (2d6 + 4) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, el merrow la atrae hasta 4,5 m en línea recta hacia él."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (2d4 + 4) de daño cortante.",
+   "page": 351,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (2d4 + 4) de daño cortante."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño perforante y el objetivo tendrá el estado de envenenado hasta el final del siguiente turno del merrow.",
+   "page": 351,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño perforante y el objetivo tendrá el estado de envenenado hasta el final del siguiente turno del merrow."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "spell.palabra-de-curacion-en-masa",
+ "name": "Palabra de curación en masa",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan una cantidad de puntos de golpe igual a 2d4 más tu modificador por aptitud mágica.\n\nCon un espacio de conjuro de nivel superior. La curación aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 171,
+   "md": "Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan una cantidad de puntos de golpe igual a 2d4 más tu modificador por aptitud mágica.",
+   "text": "Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan una cantidad de puntos de golpe igual a 2d4 más tu modificador por aptitud mágica."
+  },
+  {
+   "type": "definition",
+   "page": 171,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La curación aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. La curación aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 171
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "spell.golpe-apresador",
+ "name": "Golpe apresador",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Al acertar al objetivo, unas enredaderas aparecerán sobre él y deberá hacer una tirada de salvación de Fuerza. Las criaturas Grandes o de mayor tamaño tienen ventaja en esta tirada. Si la falla, tendrá el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.\n\nMientras esté apresado, el objetivo sufrirá 1d6 de daño perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros. Si la supera, el conjuro termina.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 152,
+   "md": "Al acertar al objetivo, unas enredaderas aparecerán sobre él y deberá hacer una tirada de salvación de Fuerza. Las criaturas Grandes o de mayor tamaño tienen ventaja en esta tirada. Si la falla, tendrá el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.",
+   "text": "Al acertar al objetivo, unas enredaderas aparecerán sobre él y deberá hacer una tirada de salvación de Fuerza. Las criaturas Grandes o de mayor tamaño tienen ventaja en esta tirada. Si la falla, tendrá el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 152,
+   "md": "Mientras esté apresado, el objetivo sufrirá 1d6 de daño perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros. Si la supera, el conjuro termina.",
+   "text": "Mientras esté apresado, el objetivo sufrirá 1d6 de daño perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros. Si la supera, el conjuro termina."
+  },
+  {
+   "type": "definition",
+   "page": 153,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 152
+ }
+}

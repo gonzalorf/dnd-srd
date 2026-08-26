@@ -1,0 +1,84 @@
+{
+ "id": "spell.taumaturgia",
+ "name": "Taumaturgia",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Hasta 1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.\n\nJugar con fuego. Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.\n\nMano invisible. Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.\n\nOjos alterados. Cambias el aspecto de tus ojos durante 1 minuto.\n\nSonido fantasmal. Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agüero.\n\nTemblores. Provocas que la tierra tiemble sin causar daños durante 1 minuto.\n\nVoz atronadora. Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.",
+   "text": "Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Jugar con fuego.*** Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.",
+   "text": "Jugar con fuego. Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Mano invisible.*** Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.",
+   "text": "Mano invisible. Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Ojos alterados.*** Cambias el aspecto de tus ojos durante 1 minuto.",
+   "text": "Ojos alterados. Cambias el aspecto de tus ojos durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 187,
+   "md": "***Sonido fantasmal.*** Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agüero.",
+   "text": "Sonido fantasmal. Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agüero."
+  },
+  {
+   "type": "definition",
+   "page": 187,
+   "md": "***Temblores.*** Provocas que la tierra tiemble sin causar daños durante 1 minuto.",
+   "text": "Temblores. Provocas que la tierra tiemble sin causar daños durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 187,
+   "md": "***Voz atronadora.*** Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación).",
+   "text": "Voz atronadora. Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 186
+ }
+}

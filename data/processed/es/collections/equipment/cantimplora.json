@@ -1,0 +1,32 @@
+{
+ "id": "gear.cantimplora",
+ "name": "Cantimplora",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Cantimplora",
+  "Peso": "2,5 kg (llena)",
+  "Precio": "2 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "2 pp",
+  "amount": 2.0,
+  "coin": "pp",
+  "gp": 0.2
+ },
+ "text": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”).",
+   "text": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”)."
+  }
+ ],
+ "descriptionPage": 105
+}

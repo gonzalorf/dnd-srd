@@ -1,0 +1,118 @@
+{
+ "id": "monster.buho-gigante",
+ "name": "Búho gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 379
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Celestial Grande, neutral",
+ "type": "Celestial",
+ "alignment": "neutral",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "19 (3d10 + 3)",
+  "average": 19,
+  "formula": "3d10 + 3"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 6,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "celestial",
+  "entiende común",
+  "elfo y silvano",
+  "pero no puede hablarlos"
+ ],
+ "resistances": [
+  "necrótico",
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 4
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Pasar volando",
+   "md": "***Pasar volando.*** El búho no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.",
+   "page": 379,
+   "description": "El búho no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garras",
+   "md": "***Garras.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (1d10 + 2) de daño cortante.",
+   "page": 379,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (1d10 + 2) de daño cortante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El búho lanza uno de los siguientes conjuros, que no requiere componentes y utiliza la Sabiduría como aptitud mágica:",
+   "page": 379,
+   "description": "El búho lanza uno de los siguientes conjuros, que no requiere componentes y utiliza la Sabiduría como aptitud mágica:"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar el bien y el mal*, *detectar magia* 1/día: *clarividencia*",
+   "page": 379
+  }
+ ],
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.detectar-magia",
+  "spell.clarividencia"
+ ]
+}

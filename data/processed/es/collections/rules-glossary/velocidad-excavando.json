@@ -1,0 +1,17 @@
+{
+ "id": "rule.velocidad-excavando",
+ "name": "Velocidad excavando",
+ "text": "Si una criatura tiene una velocidad excavando, puede usar esa velocidad para desplazarse a través de arena, tierra, lodo o hielo. No puede excavar a través de roca sólida a menos que tenga un atributo que se lo permita. Consulta también “Velocidad”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Si una criatura tiene una velocidad excavando, puede usar esa velocidad para desplazarse a través de arena, tierra, lodo o hielo. No puede excavar a través de roca sólida a menos que tenga un atributo que se lo permita. *Consulta también* “Velocidad”.",
+   "text": "Si una criatura tiene una velocidad excavando, puede usar esa velocidad para desplazarse a través de arena, tierra, lodo o hielo. No puede excavar a través de roca sólida a menos que tenga un atributo que se lo permita. Consulta también “Velocidad”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

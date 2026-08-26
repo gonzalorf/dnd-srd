@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-explorador",
+ "caption": "Atributos básicos de explorador",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Destreza y Sabiduría"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d10 por nivel de explorador"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Fuerza y Destreza"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige tres: Atletismo, Investigación, Naturaleza, Percepción, Perspicacia, Sigilo, Supervivencia o Trato con animales"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas y marciales"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras y medias y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, canalizador druídico (rama de muérdago), paquete de explorador y 7 po, o (B) 150 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Explorador"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 58
+ }
+}

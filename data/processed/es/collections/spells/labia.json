@@ -1,0 +1,48 @@
+{
+ "id": "spell.labia",
+ "name": "Labia",
+ "level": 8,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, cuando hagas una prueba de Carisma, puedes sustituir el resultado de la tirada por un 15. Además, digas lo que digas, cualquier magia usada para detectar si dices la verdad indicará que la estás diciendo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Hasta que el conjuro termine, cuando hagas una prueba de Carisma, puedes sustituir el resultado de la tirada por un 15. Además, digas lo que digas, cualquier magia usada para detectar si dices la verdad indicará que la estás diciendo.",
+   "text": "Hasta que el conjuro termine, cuando hagas una prueba de Carisma, puedes sustituir el resultado de la tirada por un 15. Además, digas lo que digas, cualquier magia usada para detectar si dices la verdad indicará que la estás diciendo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 161
+ }
+}

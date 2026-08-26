@@ -1,0 +1,86 @@
+{
+ "id": "table.conjuros-de-clerigo-de-nivel-5",
+ "caption": "Conjuros de clérigo de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Alzar a los muertos",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Atadura planar",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Comunión",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Conocer las leyendas",
+   "Adivinación",
+   "M"
+  ],
+  [
+   "Consagrar",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Contagio",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Curar heridas en masa",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Disipar el bien y el mal",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Escudriñar",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Geas",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Golpe flamígero",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Plaga de insectos",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Restablecimiento mayor",
+   "Abjuración",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo",
+  "Lista de conjuros de clérigo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 50
+ }
+}

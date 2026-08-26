@@ -1,0 +1,136 @@
+{
+ "id": "monster.sucubo",
+ "name": "Súcubo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 370
+ },
+ "context": [
+  "Súcubo"
+ ],
+ "metaRaw": "Infernal Mediano, neutral malvado",
+ "type": "Infernal",
+ "alignment": "neutral malvado",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "71 (13d8 + 13)",
+  "average": 71,
+  "formula": "13d8 + 13"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Engaño": 9,
+  "Percepción": 5,
+  "Perspicacia": 5,
+  "Persuasión": 9,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "abisal",
+  "común",
+  "infernal",
+  "telepatía 18 m"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "psíquico",
+  "veneno"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Forma de íncubo",
+   "md": "***Forma de íncubo.*** Cuando el súcubo finaliza un descanso largo, puede adoptar la forma de un íncubo y pasar a utilizar ese perfil en lugar de este.",
+   "page": 370,
+   "description": "Cuando el súcubo finaliza un descanso largo, puede adoptar la forma de un íncubo y pasar a utilizar ese perfil en lugar de este."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El súcubo realiza un ataque con su toque infernal y emplea su beso debilitador o su acción de hechizar.",
+   "page": 370,
+   "description": "El súcubo realiza un ataque con su toque infernal y emplea su beso debilitador o su acción de hechizar."
+  },
+  {
+   "name": "Toque infernal",
+   "md": "***Toque infernal.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 16 (2d10 + 5) de daño psíquico.",
+   "page": 370,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 16 (2d10 + 5) de daño psíquico."
+  },
+  {
+   "name": "Beso debilitador",
+   "md": "***Beso debilitador.*** *Tirada de salvación de Constitución:* CD 15, una criatura hechizada por el súcubo a 1,5 m o menos. *Fallo:* 13 (3d8) de daño psíquico. *Éxito:* la mitad del daño. *Fallo o éxito:* los puntos de golpe máximos del objetivo se reducirán en una cantidad igual al daño sufrido.",
+   "page": 370,
+   "description": "*Tirada de salvación de Constitución:* CD 15, una criatura hechizada por el súcubo a 1,5 m o menos. *Fallo:* 13 (3d8) de daño psíquico. *Éxito:* la mitad del daño. *Fallo o éxito:* los puntos de golpe máximos del objetivo se reducirán en una cantidad igual al daño sufrido."
+  },
+  {
+   "name": "Hechizar",
+   "md": "***Hechizar.*** El súcubo lanza *dominar persona* (versión de nivel 8), que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 15).",
+   "page": 370,
+   "description": "El súcubo lanza *dominar persona* (versión de nivel 8), que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 15)."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El súcubo adopta la forma de un humanoide Mediano o Pequeño, o recupera su verdadera forma. Su perfil es el mismo en todas las formas, excepto porque su velocidad volando solo está disponible en su forma verdadera. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 370,
+   "description": "El súcubo adopta la forma de un humanoide Mediano o Pequeño, o recupera su verdadera forma. Su perfil es el mismo en todas las formas, excepto porque su velocidad volando solo está disponible en su forma verdadera. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ],
+ "refs": [
+  "spell.dominar-persona"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "spell.luz-del-dia",
+ "name": "Luz del día",
+ "level": 3,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "explorador",
+  "hechicero",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, una luz solar se extiende desde un punto dentro del alcance y llena una esfera de 18 m de radio. La zona que cubre es de luz brillante y emite una luz tenue 18 m más allá.\n\nComo alternativa, lanzas el conjuro sobre un objeto que no lleve o vista nadie, lo que hará que la luz solar llene una emanación de 18 m metros que se origina en él. Cubrir el objeto con algo opaco, como un cuenco o un casco, bloqueará la luz solar.\n\nSi cualquier zona del conjuro se superpone con una zona de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó esa oscuridad se disipa.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Hasta que el conjuro termine, una luz solar se extiende desde un punto dentro del alcance y llena una esfera de 18 m de radio. La zona que cubre es de luz brillante y emite una luz tenue 18 m más allá.",
+   "text": "Hasta que el conjuro termine, una luz solar se extiende desde un punto dentro del alcance y llena una esfera de 18 m de radio. La zona que cubre es de luz brillante y emite una luz tenue 18 m más allá."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Como alternativa, lanzas el conjuro sobre un objeto que no lleve o vista nadie, lo que hará que la luz solar llene una emanación de 18 m metros que se origina en él. Cubrir el objeto con algo opaco, como un cuenco o un casco, bloqueará la luz solar.",
+   "text": "Como alternativa, lanzas el conjuro sobre un objeto que no lleve o vista nadie, lo que hará que la luz solar llene una emanación de 18 m metros que se origina en él. Cubrir el objeto con algo opaco, como un cuenco o un casco, bloqueará la luz solar."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Si cualquier zona del conjuro se superpone con una zona de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó esa oscuridad se disipa.",
+   "text": "Si cualquier zona del conjuro se superpone con una zona de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó esa oscuridad se disipa."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 163
+ }
+}

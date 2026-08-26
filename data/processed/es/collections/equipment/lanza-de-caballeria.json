@@ -1,0 +1,29 @@
+{
+ "id": "weapon.lanza-de-caballeria",
+ "name": "Lanza de caballería",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Lanza de caballería",
+  "Daño": "1d10 perforante",
+  "Propiedades": "A dos manos (salvo montado), gran alcance, pesada",
+  "Maestría": "Derribar",
+  "Peso": "3 kg",
+  "Precio": "10 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "3 kg",
+  "kg": 3.0
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "gear.cuerda",
+ "name": "Cuerda",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Cuerda",
+  "Peso": "2,5 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20.\n\nPuedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20.",
+   "text": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20."
+  },
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Puedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción.",
+   "text": "Puedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción."
+  }
+ ],
+ "descriptionPage": 105
+}

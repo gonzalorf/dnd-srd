@@ -1,0 +1,61 @@
+{
+ "id": "spell.calmar-emociones",
+ "name": "Calmar emociones",
+ "level": 2,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deberá superar una tirada de salvación de Carisma o se verá afectado por uno de los siguientes efectos (elige uno por cada criatura):\n\n• La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine.\n\n• La criatura se vuelve indiferente hacia las criaturas de tu elección hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe daño o si observa cómo alguno de sus aliados resulta dañado. Cuando el conjuro termine, la actitud de la criatura volverá a la normalidad.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 126,
+   "md": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deberá superar una tirada de salvación de Carisma o se verá afectado por uno de los siguientes efectos (elige uno por cada criatura):",
+   "text": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deberá superar una tirada de salvación de Carisma o se verá afectado por uno de los siguientes efectos (elige uno por cada criatura):"
+  },
+  {
+   "type": "list-item",
+   "page": 126,
+   "md": "• La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine.",
+   "text": "• La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine."
+  },
+  {
+   "type": "list-item",
+   "page": 126,
+   "md": "• La criatura se vuelve indiferente hacia las criaturas de tu elección hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe daño o si observa cómo alguno de sus aliados resulta dañado. Cuando el conjuro termine, la actitud de la criatura volverá a la normalidad.",
+   "text": "• La criatura se vuelve indiferente hacia las criaturas de tu elección hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe daño o si observa cómo alguno de sus aliados resulta dañado. Cuando el conjuro termine, la actitud de la criatura volverá a la normalidad."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 126
+ }
+}

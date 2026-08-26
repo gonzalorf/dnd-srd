@@ -1,0 +1,82 @@
+{
+ "id": "table.p264-2",
+ "caption": null,
+ "header": [
+  "Nivel del conjuro",
+  "Rareza",
+  "CD de salvación",
+  "Bonificador de ataque"
+ ],
+ "rows": [
+  [
+   "Truco",
+   "Común",
+   "13",
+   "+5"
+  ],
+  [
+   "1",
+   "Común",
+   "13",
+   "+5"
+  ],
+  [
+   "2",
+   "Infrecuente",
+   "13",
+   "+5"
+  ],
+  [
+   "3",
+   "Infrecuente",
+   "15",
+   "+7"
+  ],
+  [
+   "4",
+   "Raro",
+   "15",
+   "+7"
+  ],
+  [
+   "5",
+   "Raro",
+   "17",
+   "+9"
+  ],
+  [
+   "6",
+   "Muy raro",
+   "17",
+   "+9"
+  ],
+  [
+   "7",
+   "Muy raro",
+   "18",
+   "+10"
+  ],
+  [
+   "8",
+   "Muy raro",
+   "18",
+   "+10"
+  ],
+  [
+   "9",
+   "Legendario",
+   "19",
+   "+11"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Pergamino de conjuro"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 264
+ }
+}

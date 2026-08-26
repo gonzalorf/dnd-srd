@@ -1,0 +1,61 @@
+{
+ "id": "spell.bola-de-fuego",
+ "name": "Bola de fuego",
+ "level": 3,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (una pelota de guano de murciélago y azufre)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pelota de guano de murciélago y azufre",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una ráfaga brillante surge de ti hacia un punto de tu elección dentro del alcance y luego estalla con un rugido sordo en una explosión ardiente. Todas las criaturas situadas en una esfera de 6 m de radio centrada en ese punto harán una tirada de salvación de Destreza; sufrirán 8d6 de daño de fuego si la fallan o la mitad del daño si la superan.\n\nLos objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 125,
+   "md": "Una ráfaga brillante surge de ti hacia un punto de tu elección dentro del alcance y luego estalla con un rugido sordo en una explosión ardiente. Todas las criaturas situadas en una esfera de 6 m de radio centrada en ese punto harán una tirada de salvación de Destreza; sufrirán 8d6 de daño de fuego si la fallan o la mitad del daño si la superan.",
+   "text": "Una ráfaga brillante surge de ti hacia un punto de tu elección dentro del alcance y luego estalla con un rugido sordo en una explosión ardiente. Todas las criaturas situadas en una esfera de 6 m de radio centrada en ese punto harán una tirada de salvación de Destreza; sufrirán 8d6 de daño de fuego si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 125,
+   "md": "Los objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder.",
+   "text": "Los objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder."
+  },
+  {
+   "type": "definition",
+   "page": 125,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 125
+ }
+}

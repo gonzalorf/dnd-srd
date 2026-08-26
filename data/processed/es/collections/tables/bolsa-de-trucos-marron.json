@@ -1,0 +1,46 @@
+{
+ "id": "table.bolsa-de-trucos-marron",
+ "caption": "Bolsa de trucos marrón",
+ "header": [
+  "1d8",
+  "Criatura",
+  "1d8",
+  "Criatura"
+ ],
+ "rows": [
+  [
+   "1",
+   "Chacal",
+   "5",
+   "Oso negro"
+  ],
+  [
+   "2",
+   "Simio",
+   "6",
+   "Comadreja gigante"
+  ],
+  [
+   "3",
+   "Babuino",
+   "7",
+   "Hiena gigante"
+  ],
+  [
+   "4",
+   "Pico de hacha",
+   "8",
+   "Tigre"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bolsa de trucos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 244
+ }
+}

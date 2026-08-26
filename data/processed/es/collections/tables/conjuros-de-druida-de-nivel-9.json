@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-de-druida-de-nivel-9",
+ "caption": "Conjuros de druida de nivel 9",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Cambiar de forma",
+   "Transmutación",
+   "C, M"
+  ],
+  [
+   "Presciencia",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Resurrección verdadera",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Tormenta de la venganza",
+   "Conjuración",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 57
+ }
+}

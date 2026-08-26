@@ -1,0 +1,40 @@
+{
+ "id": "table.consumo-de-alimentos-al-dia",
+ "caption": "Consumo de alimentos al día",
+ "header": [
+  "Tamaño",
+  "Alimentos",
+  "Tamaño",
+  "Alimentos"
+ ],
+ "rows": [
+  [
+   "Diminuto",
+   "125 g",
+   "Grande",
+   "2 kg"
+  ],
+  [
+   "Pequeño",
+   "0,5 kg",
+   "Enorme",
+   "8 kg"
+  ],
+  [
+   "Mediano",
+   "0,5 kg",
+   "Gargantuesco",
+   "32 kg"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Desnutrición [peligro]"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

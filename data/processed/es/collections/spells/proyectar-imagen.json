@@ -1,0 +1,63 @@
+{
+ "id": "spell.proyectar-imagen",
+ "name": "Proyectar imagen",
+ "level": 7,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "750 km",
+  "kind": "ranged",
+  "meters": 750000
+ },
+ "components": {
+  "raw": "V, S, M (una estatuilla de ti que valga al menos 5 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una estatuilla de ti que valga al menos 5 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 día",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "día"
+ },
+ "text": "Creas una copia ilusoria de ti que dura hasta que termine el conjuro. La copia puede aparecer en cualquier lugar dentro del alcance que hayas visto antes, sin importar que haya obstáculos que se interpongan. La ilusión tiene tu aspecto y suena como tú, pero es intangible. Si recibe cualquier daño, desaparecerá y el conjuro terminará.\n\nPuedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su espacio. Como acción de magia, puedes hacer que se mueva hasta 18 m y que realice gestos, hable y se comporte del modo que quieras. Imita tu gestualidad a la perfección.\n\nLa interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y los sonidos que emita le sonarán huecos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Creas una copia ilusoria de ti que dura hasta que termine el conjuro. La copia puede aparecer en cualquier lugar dentro del alcance que hayas visto antes, sin importar que haya obstáculos que se interpongan. La ilusión tiene tu aspecto y suena como tú, pero es intangible. Si recibe cualquier daño, desaparecerá y el conjuro terminará.",
+   "text": "Creas una copia ilusoria de ti que dura hasta que termine el conjuro. La copia puede aparecer en cualquier lugar dentro del alcance que hayas visto antes, sin importar que haya obstáculos que se interpongan. La ilusión tiene tu aspecto y suena como tú, pero es intangible. Si recibe cualquier daño, desaparecerá y el conjuro terminará."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Puedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su espacio. Como acción de magia, puedes hacer que se mueva hasta 18 m y que realice gestos, hable y se comporte del modo que quieras. Imita tu gestualidad a la perfección.",
+   "text": "Puedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su espacio. Como acción de magia, puedes hacer que se mueva hasta 18 m y que realice gestos, hable y se comporte del modo que quieras. Imita tu gestualidad a la perfección."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y los sonidos que emita le sonarán huecos.",
+   "text": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y los sonidos que emita le sonarán huecos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 177
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "weapon.garrote",
+ "name": "Garrote",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo sencillas",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Garrote",
+  "Daño": "1d4 contundente",
+  "Propiedades": "Ligero",
+  "Maestría": "Ralentizar",
+  "Peso": "1 kg",
+  "Precio": "1 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "1 pp",
+  "amount": 1.0,
+  "coin": "pp",
+  "gp": 0.1
+ }
+}

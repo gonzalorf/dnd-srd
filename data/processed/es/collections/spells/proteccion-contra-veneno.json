@@ -1,0 +1,50 @@
+{
+ "id": "spell.proteccion-contra-veneno",
+ "name": "Protección contra veneno",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "druida",
+  "explorador",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura y pones fin al estado de envenenada si lo sufre. Hasta que termine el conjuro, el objetivo tiene ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado y resistencia al daño de veneno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 176,
+   "md": "Tocas a una criatura y pones fin al estado de envenenada si lo sufre. Hasta que termine el conjuro, el objetivo tiene ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado y resistencia al daño de veneno.",
+   "text": "Tocas a una criatura y pones fin al estado de envenenada si lo sufre. Hasta que termine el conjuro, el objetivo tiene ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado y resistencia al daño de veneno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 176
+ }
+}

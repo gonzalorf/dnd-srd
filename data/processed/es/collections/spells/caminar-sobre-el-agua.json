@@ -1,0 +1,59 @@
+{
+ "id": "spell.caminar-sobre-el-agua",
+ "name": "Caminar sobre el agua",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "explorador",
+  "hechicero"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de corcho)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de corcho",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Este conjuro concede la capacidad de moverse por encima de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si se tratara de un suelo sólido inofensivo (aunque las criaturas que crucen lava derretida pueden seguir sufriendo daño por el calor). Hasta diez criaturas voluntarias que elijas dentro del alcance obtienen esta capacidad hasta que termine el conjuro.\n\nLos objetivos afectados deben emplear una acción adicional para pasar de la superficie del líquido al propio líquido y viceversa, pero si caen en él, pasarán a través de la superficie al líquido que hay debajo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Este conjuro concede la capacidad de moverse por encima de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si se tratara de un suelo sólido inofensivo (aunque las criaturas que crucen lava derretida pueden seguir sufriendo daño por el calor). Hasta diez criaturas voluntarias que elijas dentro del alcance obtienen esta capacidad hasta que termine el conjuro.",
+   "text": "Este conjuro concede la capacidad de moverse por encima de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si se tratara de un suelo sólido inofensivo (aunque las criaturas que crucen lava derretida pueden seguir sufriendo daño por el calor). Hasta diez criaturas voluntarias que elijas dentro del alcance obtienen esta capacidad hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Los objetivos afectados deben emplear una acción adicional para pasar de la superficie del líquido al propio líquido y viceversa, pero si caen en él, pasarán a través de la superficie al líquido que hay debajo.",
+   "text": "Los objetivos afectados deben emplear una acción adicional para pasar de la superficie del líquido al propio líquido y viceversa, pero si caen en él, pasarán a través de la superficie al líquido que hay debajo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 127
+ }
+}

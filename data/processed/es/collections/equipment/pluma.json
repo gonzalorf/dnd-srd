@@ -1,0 +1,32 @@
+{
+ "id": "gear.pluma",
+ "name": "Pluma",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Pluma",
+  "Peso": "—",
+  "Precio": "2 pc"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "2 pc",
+  "amount": 2.0,
+  "coin": "pc",
+  "gp": 0.02
+ },
+ "text": "Una pluma sirve para escribir o dibujar con tinta.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Una pluma sirve para escribir o dibujar con tinta.",
+   "text": "Una pluma sirve para escribir o dibujar con tinta."
+  }
+ ],
+ "descriptionPage": 107
+}

@@ -1,0 +1,61 @@
+{
+ "id": "table.idiomas-estandar",
+ "caption": "Idiomas estándar",
+ "header": [
+  "1d12",
+  "Idioma"
+ ],
+ "rows": [
+  [
+   "—",
+   "Común"
+  ],
+  [
+   "1",
+   "Dracónico"
+  ],
+  [
+   "2–3",
+   "Elfo"
+  ],
+  [
+   "4–5",
+   "Enano"
+  ],
+  [
+   "6",
+   "Gigante"
+  ],
+  [
+   "7",
+   "Gnomo"
+  ],
+  [
+   "8",
+   "Goblin"
+  ],
+  [
+   "9",
+   "Lengua de signos común"
+  ],
+  [
+   "10–11",
+   "Mediano"
+  ],
+  [
+   "12",
+   "Orco"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 2: origen del personaje",
+  "Elige tus idiomas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 22
+ }
+}

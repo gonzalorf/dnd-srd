@@ -1,0 +1,63 @@
+{
+ "id": "spell.explosion-solar",
+ "name": "Explosión solar",
+ "level": 8,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de heliolita)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de heliolita",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una esfera de 18 m de radio centrada en un punto de tu elección dentro del alcance resplandece con una brillante luz solar. Todas las criaturas situadas en la esfera hacen una tirada de salvación de Constitución. Si la fallan, recibirán 12d6 daño radiante y tendrán el estado de cegadas durante 1 minuto. Si la superan, recibirán solo la mitad de daño.\n\nUna criatura cegada por este conjuro realiza una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.\n\nEste conjuro dispersa la oscuridad que haya en la zona y que fuera creada por un conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Una esfera de 18 m de radio centrada en un punto de tu elección dentro del alcance resplandece con una brillante luz solar. Todas las criaturas situadas en la esfera hacen una tirada de salvación de Constitución. Si la fallan, recibirán 12d6 daño radiante y tendrán el estado de cegadas durante 1 minuto. Si la superan, recibirán solo la mitad de daño.",
+   "text": "Una esfera de 18 m de radio centrada en un punto de tu elección dentro del alcance resplandece con una brillante luz solar. Todas las criaturas situadas en la esfera hacen una tirada de salvación de Constitución. Si la fallan, recibirán 12d6 daño radiante y tendrán el estado de cegadas durante 1 minuto. Si la superan, recibirán solo la mitad de daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Una criatura cegada por este conjuro realiza una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+   "text": "Una criatura cegada por este conjuro realiza una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Este conjuro dispersa la oscuridad que haya en la zona y que fuera creada por un conjuro.",
+   "text": "Este conjuro dispersa la oscuridad que haya en la zona y que fuera creada por un conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 149
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "table.valores-de-monedas",
+ "caption": "Valores de monedas",
+ "header": [
+  "Moneda",
+  "Valor en po"
+ ],
+ "rows": [
+  [
+   "Pieza de cobre (pc)",
+   "1/100"
+  ],
+  [
+   "Pieza de plaza (pp)",
+   "1/10"
+  ],
+  [
+   "Pieza de electro (pe)",
+   "1/2"
+  ],
+  [
+   "Pieza de oro (po)",
+   "1"
+  ],
+  [
+   "Pieza de platino (ppt)",
+   "10"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Monedas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 97
+ }
+}

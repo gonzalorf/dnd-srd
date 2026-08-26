@@ -1,0 +1,72 @@
+{
+ "id": "item.manual-de-golems",
+ "name": "Manual de gólems",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro",
+ "text": "Este tomo contiene la información y los ensalmos necesarios para crear un tipo concreto de gólem. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación. Para descifrar y usar el manual, debes ser un lanzador de conjuros con al menos dos espacios de conjuro de nivel 5. Si una criatura no puede usar un manual de gólems y trata de leerlo, sufrirá 6d6 de daño psíquico.\n\nPara crear un gólem, debes dedicar el tiempo mostrado en la tabla, trabajar sin interrupciones con el manual a mano y no descansar durante más de 8 horas al día. También debes pagar el precio especificado para comprar los suministros.\n\nEn cuanto hayas acabado de crear al gólem, el libro arderá en llamas sobrenaturales. El gólem cobrará vida cuando se esparzan sobre él las cenizas del manual. Consulta el capítulo “Monstruos” para conocer el perfil del gólem. Estará bajo tu control, entenderá tus órdenes y las obedecerá.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "Este tomo contiene la información y los ensalmos necesarios para crear un tipo concreto de gólem. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación. Para descifrar y usar el manual, debes ser un lanzador de conjuros con al menos dos espacios de conjuro de nivel 5. Si una criatura no puede usar un *manual de gólems* y trata de leerlo, sufrirá 6d6 de daño psíquico.",
+   "text": "Este tomo contiene la información y los ensalmos necesarios para crear un tipo concreto de gólem. Tu GM elige el tipo o lo determina al azar tirando en la tabla a continuación. Para descifrar y usar el manual, debes ser un lanzador de conjuros con al menos dos espacios de conjuro de nivel 5. Si una criatura no puede usar un manual de gólems y trata de leerlo, sufrirá 6d6 de daño psíquico."
+  },
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "Para crear un gólem, debes dedicar el tiempo mostrado en la tabla, trabajar sin interrupciones con el manual a mano y no descansar durante más de 8 horas al día. También debes pagar el precio especificado para comprar los suministros.",
+   "text": "Para crear un gólem, debes dedicar el tiempo mostrado en la tabla, trabajar sin interrupciones con el manual a mano y no descansar durante más de 8 horas al día. También debes pagar el precio especificado para comprar los suministros."
+  },
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "En cuanto hayas acabado de crear al gólem, el libro arderá en llamas sobrenaturales. El gólem cobrará vida cuando se esparzan sobre él las cenizas del manual. Consulta el capítulo “Monstruos” para conocer el perfil del gólem. Estará bajo tu control, entenderá tus órdenes y las obedecerá.",
+   "text": "En cuanto hayas acabado de crear al gólem, el libro arderá en llamas sobrenaturales. El gólem cobrará vida cuando se esparzan sobre él las cenizas del manual. Consulta el capítulo “Monstruos” para conocer el perfil del gólem. Estará bajo tu control, entenderá tus órdenes y las obedecerá."
+  },
+  {
+   "type": "table",
+   "page": 261,
+   "caption": null,
+   "header": [
+    "1d20",
+    "Gólem",
+    "Tiempo",
+    "Precio"
+   ],
+   "rows": [
+    [
+     "1–5",
+     "Gólem de arcilla",
+     "30 días",
+     "65 000 po"
+    ],
+    [
+     "6–17",
+     "Gólem de carne",
+     "60 días",
+     "50 000 po"
+    ],
+    [
+     "18",
+     "Gólem de hierro",
+     "120 días",
+     "100 000 po"
+    ],
+    [
+     "19–20",
+     "Gólem de piedra",
+     "90 días",
+     "80 000 po"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 261
+ }
+}

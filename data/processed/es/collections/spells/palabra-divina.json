@@ -1,0 +1,77 @@
+{
+ "id": "spell.palabra-divina",
+ "name": "Palabra divina",
+ "level": 7,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Susurras una palabra imbuida con el poder de los Planos Superiores. Todas las criaturas de tu elección dentro del alcance realizan una tirada de salvación de Carisma. Si la fallan, los objetivos que tengan 50 puntos de golpe o menos sufrirán un efecto en función de sus puntos de golpe actuales, como se muestra en la tabla “Efectos de palabra divina”. Con independencia de sus puntos de golpe, cualquier objetivo celestial, elemental, feérico o infernal que falle su tirada de salvación se verá forzado a regresar a su plano de origen (si no está en él ya) y no podrá regresar al plano actual durante 24 horas por cualquier medio que no sea un conjuro deseo.\n\ndurante 1 minuto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Susurras una palabra imbuida con el poder de los Planos Superiores. Todas las criaturas de tu elección dentro del alcance realizan una tirada de salvación de Carisma. Si la fallan, los objetivos que tengan 50 puntos de golpe o menos sufrirán un efecto en función de sus puntos de golpe actuales, como se muestra en la tabla “Efectos de palabra divina”. Con independencia de sus puntos de golpe, cualquier objetivo celestial, elemental, feérico o infernal que falle su tirada de salvación se verá forzado a regresar a su plano de origen (si no está en él ya) y no podrá regresar al plano actual durante 24 horas por cualquier medio que no sea un conjuro *deseo*.",
+   "text": "Susurras una palabra imbuida con el poder de los Planos Superiores. Todas las criaturas de tu elección dentro del alcance realizan una tirada de salvación de Carisma. Si la fallan, los objetivos que tengan 50 puntos de golpe o menos sufrirán un efecto en función de sus puntos de golpe actuales, como se muestra en la tabla “Efectos de palabra divina”. Con independencia de sus puntos de golpe, cualquier objetivo celestial, elemental, feérico o infernal que falle su tirada de salvación se verá forzado a regresar a su plano de origen (si no está en él ya) y no podrá regresar al plano actual durante 24 horas por cualquier medio que no sea un conjuro deseo."
+  },
+  {
+   "type": "table",
+   "page": 172,
+   "caption": "Efectos de palabra divina",
+   "header": [
+    "Puntos de golpeEfecto"
+   ],
+   "rows": [
+    [
+     "0–20El objetivo muere."
+    ],
+    [
+     "21–30El objetivo tiene los estados de aturdido, cegado y ensordecido durante 1 hora."
+    ],
+    [
+     "31–40El objetivo tiene los estados de cegado y ensordecido durante 10 minutos."
+    ],
+    [
+     "41–50El objetivo tiene el estado de ensordecido"
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 172,
+   "md": "durante 1 minuto.",
+   "text": "durante 1 minuto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ },
+ "refs": [
+  "spell.deseo"
+ ]
+}

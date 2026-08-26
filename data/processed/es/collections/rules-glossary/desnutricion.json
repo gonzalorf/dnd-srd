@@ -1,0 +1,55 @@
+{
+ "id": "rule.desnutricion",
+ "name": "Desnutrición",
+ "text": "Las criaturas necesitan cierta cantidad de alimentos al día en función de su tamaño, como se muestra en la tabla “Consumo de alimentos al día”. Si una criatura come, pero ingiere menos de la mitad de los alimentos que necesita al día, deberá superar una tirada de salvación de Constitución con CD 10 o sumará 1 nivel de cansancio al final del día. Si una criatura no come nada durante 5 días, sumará automáticamente 1 nivel de cansancio al final del quinto día y un nivel adicional al final de cada día posterior sin comer.\n\nEl cansancio causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de alimentos necesarios al día. Consulta también “Cansancio”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Las criaturas necesitan cierta cantidad de alimentos al día en función de su tamaño, como se muestra en la tabla “Consumo de alimentos al día”. Si una criatura come, pero ingiere menos de la mitad de los alimentos que necesita al día, deberá superar una tirada de salvación de Constitución con CD 10 o sumará 1 nivel de cansancio al final del día. Si una criatura no come nada durante 5 días, sumará automáticamente 1 nivel de cansancio al final del quinto día y un nivel adicional al final de cada día posterior sin comer.",
+   "text": "Las criaturas necesitan cierta cantidad de alimentos al día en función de su tamaño, como se muestra en la tabla “Consumo de alimentos al día”. Si una criatura come, pero ingiere menos de la mitad de los alimentos que necesita al día, deberá superar una tirada de salvación de Constitución con CD 10 o sumará 1 nivel de cansancio al final del día. Si una criatura no come nada durante 5 días, sumará automáticamente 1 nivel de cansancio al final del quinto día y un nivel adicional al final de cada día posterior sin comer."
+  },
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "El cansancio causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de alimentos necesarios al día. *Consulta también* “Cansancio”.",
+   "text": "El cansancio causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de alimentos necesarios al día. Consulta también “Cansancio”."
+  },
+  {
+   "type": "table",
+   "page": 200,
+   "caption": "Consumo de alimentos al día",
+   "header": [
+    "Tamaño",
+    "Alimentos",
+    "Tamaño",
+    "Alimentos"
+   ],
+   "rows": [
+    [
+     "Diminuto",
+     "125 g",
+     "Grande",
+     "2 kg"
+    ],
+    [
+     "Pequeño",
+     "0,5 kg",
+     "Enorme",
+     "8 kg"
+    ],
+    [
+     "Mediano",
+     "0,5 kg",
+     "Gargantuesco",
+     "32 kg"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ },
+ "kind": "peligro"
+}

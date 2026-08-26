@@ -1,0 +1,73 @@
+{
+ "id": "spell.circulo-de-teletransportacion",
+ "name": "Círculo de teletransportación",
+ "level": 5,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, M (tintas inusuales que valgan al menos 50 po, que se consumen como parte del conjuro)",
+  "v": true,
+  "s": false,
+  "m": true,
+  "material": "tintas inusuales que valgan al menos 50 po, que se consumen como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "1 asalto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "asalto"
+ },
+ "text": "Mientras lanzas el conjuro, trazas en el suelo un círculo de 1,5 m de radio en el cual inscribes sellos que vinculan tu ubicación con un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en el mismo plano de existencia que tú. En el círculo dibujado aparecerá un portal brillante que permanecerá abierto hasta el final de tu siguiente turno. Cualquier criatura que entre en el portal aparecerá instantáneamente a 1,5 m o menos del círculo de destino o en el espacio sin ocupar más cercano si ese está ocupado.\n\nMuchos grandes templos y casas gremiales, así como otros lugares importantes, cuentan con círculos de teletransportación permanentes. Cada uno incluye una secuencia de sellos única, una serie de runas dispuestas con un patrón concreto.\n\nLa primera vez que obtienes la capacidad de lanzar este conjuro, aprendes las secuencias de sellos de dos destinos en el Plano Material a elección de tu GM. Durante tus aventuras, es posible que aprendas más secuencias de sellos. Puedes memorizar una nueva secuencia de sellos si la estudias durante 1 minuto.\n\nSi lanzas este conjuro a diario en el mismo lugar durante 365 días, puedes crear un círculo de teletransportación permanente.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Mientras lanzas el conjuro, trazas en el suelo un círculo de 1,5 m de radio en el cual inscribes sellos que vinculan tu ubicación con un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en el mismo plano de existencia que tú. En el círculo dibujado aparecerá un portal brillante que permanecerá abierto hasta el final de tu siguiente turno. Cualquier criatura que entre en el portal aparecerá instantáneamente a 1,5 m o menos del círculo de destino o en el espacio sin ocupar más cercano si ese está ocupado.",
+   "text": "Mientras lanzas el conjuro, trazas en el suelo un círculo de 1,5 m de radio en el cual inscribes sellos que vinculan tu ubicación con un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en el mismo plano de existencia que tú. En el círculo dibujado aparecerá un portal brillante que permanecerá abierto hasta el final de tu siguiente turno. Cualquier criatura que entre en el portal aparecerá instantáneamente a 1,5 m o menos del círculo de destino o en el espacio sin ocupar más cercano si ese está ocupado."
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Muchos grandes templos y casas gremiales, así como otros lugares importantes, cuentan con círculos de teletransportación permanentes. Cada uno incluye una secuencia de sellos única, una serie de runas dispuestas con un patrón concreto.",
+   "text": "Muchos grandes templos y casas gremiales, así como otros lugares importantes, cuentan con círculos de teletransportación permanentes. Cada uno incluye una secuencia de sellos única, una serie de runas dispuestas con un patrón concreto."
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "La primera vez que obtienes la capacidad de lanzar este conjuro, aprendes las secuencias de sellos de dos destinos en el Plano Material a elección de tu GM. Durante tus aventuras, es posible que aprendas más secuencias de sellos. Puedes memorizar una nueva secuencia de sellos si la estudias durante 1 minuto.",
+   "text": "La primera vez que obtienes la capacidad de lanzar este conjuro, aprendes las secuencias de sellos de dos destinos en el Plano Material a elección de tu GM. Durante tus aventuras, es posible que aprendas más secuencias de sellos. Puedes memorizar una nueva secuencia de sellos si la estudias durante 1 minuto."
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Si lanzas este conjuro a diario en el mismo lugar durante 365 días, puedes crear un círculo de teletransportación permanente.",
+   "text": "Si lanzas este conjuro a diario en el mismo lugar durante 365 días, puedes crear un círculo de teletransportación permanente."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 129
+ }
+}

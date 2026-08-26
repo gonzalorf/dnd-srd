@@ -1,0 +1,60 @@
+{
+ "id": "spell.marca-del-cazador",
+ "name": "Marca del cazador",
+ "level": 1,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Marcas mágicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de daño de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. También tendrás ventaja en cualquier prueba de Sabiduría (Percepción o Supervivencia) que realices para buscarlo.\n\nSi los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acción adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance.\n\nCon un espacio de conjuro de nivel superior. Tu concentración puede durar más si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o más (hasta 24 horas).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Marcas mágicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de daño de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. También tendrás ventaja en cualquier prueba de Sabiduría (Percepción o Supervivencia) que realices para buscarlo.",
+   "text": "Marcas mágicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de daño de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. También tendrás ventaja en cualquier prueba de Sabiduría (Percepción o Supervivencia) que realices para buscarlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acción adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance.",
+   "text": "Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acción adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance."
+  },
+  {
+   "type": "definition",
+   "page": 165,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Tu concentración puede durar más si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o más (hasta 24 horas).",
+   "text": "Con un espacio de conjuro de nivel superior. Tu concentración puede durar más si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o más (hasta 24 horas)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 165
+ }
+}

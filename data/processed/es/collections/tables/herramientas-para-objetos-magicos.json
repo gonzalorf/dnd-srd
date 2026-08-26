@@ -1,0 +1,56 @@
+{
+ "id": "table.herramientas-para-objetos-magicos",
+ "caption": "Herramientas para objetos mágicos",
+ "header": [
+  "Categoría de objetos",
+  "Herramienta necesaria"
+ ],
+ "rows": [
+  [
+   "Anillo",
+   "Herramientas de joyero"
+  ],
+  [
+   "Armadura",
+   "Herramientas de curtidor, herramientas de herrero o herramientas de tejedor, en función del tipo de armadura, según se indique en la descripción de las herramientas"
+  ],
+  [
+   "Arma",
+   "Herramientas de curtidor, herramientas de ebanista o herramientas de herrero, en función del tipo de arma, según se indique en la descripción de las herramientas"
+  ],
+  [
+   "Bastón",
+   "Herramientas de ebanista"
+  ],
+  [
+   "Objeto maravilloso",
+   "Herramientas de manitas o la herramienta necesaria para crear el objeto no mágico en el que se basa el objeto mágico"
+  ],
+  [
+   "Pergamino",
+   "Suministros de calígrafo"
+  ],
+  [
+   "Poción",
+   "Suministros de alquimista o útiles de herborista"
+  ],
+  [
+   "Vara",
+   "Herramientas de ebanista"
+  ],
+  [
+   "Varita",
+   "Herramientas de ebanista"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Fabricar objetos mágicos",
+  "Herramientas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 226
+ }
+}

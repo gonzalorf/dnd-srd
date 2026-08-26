@@ -1,0 +1,26 @@
+{
+ "id": "item.sombrero-de-disfraz",
+ "name": "Sombrero de disfraz",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves este sombrero, puedes lanzar el conjuro disfrazarse. El conjuro termina si te quitas el sombrero.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 269,
+   "md": "Mientras lleves este sombrero, puedes lanzar el conjuro *disfrazarse*. El conjuro termina si te quitas el sombrero.",
+   "text": "Mientras lleves este sombrero, puedes lanzar el conjuro disfrazarse. El conjuro termina si te quitas el sombrero."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 269
+ },
+ "refs": [
+  "spell.disfrazarse"
+ ]
+}

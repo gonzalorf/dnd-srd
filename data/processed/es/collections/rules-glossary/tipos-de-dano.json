@@ -1,0 +1,80 @@
+{
+ "id": "rule.tipos-de-dano",
+ "name": "Tipos de daño",
+ "text": "Los ataques y otros efectos dañinos causan diferentes tipos de daño. Los tipos de daño no tienen reglas propias, pero otras reglas, como la resistencia, dependen de ellos. La tabla “Tipos de daño” plantea ejemplos para que cada GM sepa qué tipo puede asignar a los efectos nuevos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 209,
+   "md": "Los ataques y otros efectos dañinos causan diferentes tipos de daño. Los tipos de daño no tienen reglas propias, pero otras reglas, como la resistencia, dependen de ellos. La tabla “Tipos de daño” plantea ejemplos para que cada GM sepa qué tipo puede asignar a los efectos nuevos.",
+   "text": "Los ataques y otros efectos dañinos causan diferentes tipos de daño. Los tipos de daño no tienen reglas propias, pero otras reglas, como la resistencia, dependen de ellos. La tabla “Tipos de daño” plantea ejemplos para que cada GM sepa qué tipo puede asignar a los efectos nuevos."
+  },
+  {
+   "type": "table",
+   "page": 209,
+   "caption": "Tipos de daño",
+   "header": [
+    "Tipo",
+    "Ejemplos"
+   ],
+   "rows": [
+    [
+     "Ácido",
+     "Enzimas digestivas, líquidos corrosivos"
+    ],
+    [
+     "Contundente",
+     "Aplastamientos, caídas, objetos romos"
+    ],
+    [
+     "Cortante",
+     "Garras, objetos cortantes"
+    ],
+    [
+     "Frío",
+     "Agua gélida, ráfagas heladas"
+    ],
+    [
+     "Fuego",
+     "Calor insoportable, llamas"
+    ],
+    [
+     "Fuerza",
+     "Energía mágica pura"
+    ],
+    [
+     "Necrótico",
+     "Energía que absorbe la vida"
+    ],
+    [
+     "Perforante",
+     "Colmillos, objetos punzantes"
+    ],
+    [
+     "Psíquico",
+     "Energía que desgarra la mente"
+    ],
+    [
+     "Radiante",
+     "Energía sagrada, radiación abrasadora"
+    ],
+    [
+     "Relámpago",
+     "Electricidad"
+    ],
+    [
+     "Trueno",
+     "Sonido conmocionador"
+    ],
+    [
+     "Veneno",
+     "Gas tóxico, veneno"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 209
+ }
+}

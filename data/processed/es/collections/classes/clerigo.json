@@ -1,0 +1,1222 @@
+{
+ "id": "class.clerigo",
+ "name": "Clérigo",
+ "coreTraits": {
+  "Característica principal": "Sabiduría",
+  "Dado de puntos de golpe": "1d8 por nivel de clérigo",
+  "Competencias en tiradas de salvación": "Sabiduría y Carisma",
+  "Competencias en habilidades": "Elige dos: Historia, Medicina, Perspicacia, Persuasión o Religión",
+  "Competencias con armas": "Amas sencillas",
+  "Entrenamiento con armaduras": "Armaduras ligeras y medias y escudos",
+  "Equipo inicial": "Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po, o (B) 110 po"
+ },
+ "progression": {
+  "caption": "Rasgos de clérigo",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Canalizar divinidadTrucos",
+   "Conjuros preparados",
+   "Espacios de conjuro por cada nivel de conjuro 123456789"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Lanzamiento de conjuros, Orden divina",
+    "—3",
+    "4",
+    "2————————"
+   ],
+   [
+    "2",
+    "+2",
+    "Canalizar divinidad",
+    "23",
+    "5",
+    "3————————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de clérigo",
+    "23",
+    "6",
+    "42———————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "24",
+    "7",
+    "43———————"
+   ],
+   [
+    "5",
+    "+3",
+    "Abrasar muertos vivientes",
+    "24",
+    "9",
+    "432——————"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "34",
+    "10",
+    "433——————"
+   ],
+   [
+    "7",
+    "+3",
+    "Golpes benditos",
+    "34",
+    "11",
+    "4331—————"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "34",
+    "12",
+    "4332—————"
+   ],
+   [
+    "9",
+    "+4",
+    "—",
+    "34",
+    "14",
+    "43331————"
+   ],
+   [
+    "10",
+    "+4",
+    "Intercesión divina",
+    "35",
+    "15",
+    "43332————"
+   ],
+   [
+    "11",
+    "+4",
+    "—",
+    "35",
+    "16",
+    "433321———"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "35",
+    "16",
+    "433321———"
+   ],
+   [
+    "13",
+    "+5",
+    "—",
+    "35",
+    "17",
+    "4333211——"
+   ],
+   [
+    "14",
+    "+5",
+    "Golpes benditos mejorados",
+    "35",
+    "17",
+    "4333211——"
+   ],
+   [
+    "15",
+    "+5",
+    "—",
+    "35",
+    "18",
+    "43332111—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "35",
+    "18",
+    "43332111—"
+   ],
+   [
+    "17",
+    "+6",
+    "Rasgo de subclase",
+    "35",
+    "19",
+    "433321111"
+   ],
+   [
+    "18",
+    "+6",
+    "—",
+    "45",
+    "20",
+    "433331111"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "45",
+    "21",
+    "433332111"
+   ],
+   [
+    "20",
+    "+6",
+    "Intercesión divina mayor",
+    "45",
+    "22",
+    "433332211"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Has aprendido a lanzar conjuros gracias a la oración y la meditación. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de clérigo, que encontrarás más adelante en la lista de conjuros de clérigo de la descripción de la clase.\n\nTrucos. Conoces tres trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo. Se recomiendan guía, llama sagrada y taumaturgia. Cada vez que subas un nivel de clérigo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de clérigo. Cuando alcances los niveles 4 y 10 de clérigo, aprenderás otro truco de tu elección de la lista de conjuros de clérigo, como se muestra en la columna “Trucos” de la tabla “Rasgos de clérigo”.\n\nEspacios de conjuro. La tabla “Rasgos de clérigo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de clérigo. Se recomiendan bendición, curar heridas, escudo de fe y saeta guía. El número de conjuros de tu lista aumenta conforme subes de nivel de clérigo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de clérigo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de clérigo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres una clériga de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de clérigo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de clérigo para ti.\n\nCambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de clérigo para los que tengas espacios de conjuro.\n\nAptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de clérigo.\n\nCanalizador mágico. Puedes utilizar un símbolo sagrado como canalizador mágico para tus conjuros de clérigo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 48,
+     "md": "Has aprendido a lanzar conjuros gracias a la oración y la meditación. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de clérigo, que encontrarás más adelante en la lista de conjuros de clérigo de la descripción de la clase.",
+     "text": "Has aprendido a lanzar conjuros gracias a la oración y la meditación. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de clérigo, que encontrarás más adelante en la lista de conjuros de clérigo de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Trucos.*** Conoces tres trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo. Se recomiendan *guía*, *llama sagrada* y *taumaturgia*. Cada vez que subas un nivel de clérigo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de clérigo. Cuando alcances los niveles 4 y 10 de clérigo, aprenderás otro truco de tu elección de la lista de conjuros de clérigo, como se muestra en la columna “Trucos” de la tabla “Rasgos de clérigo”.",
+     "text": "Trucos. Conoces tres trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo. Se recomiendan guía, llama sagrada y taumaturgia. Cada vez que subas un nivel de clérigo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de clérigo. Cuando alcances los niveles 4 y 10 de clérigo, aprenderás otro truco de tu elección de la lista de conjuros de clérigo, como se muestra en la columna “Trucos” de la tabla “Rasgos de clérigo”."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de clérigo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de clérigo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de clérigo. Se recomiendan *bendición*, *curar heridas*, *escudo de fe* y *saeta guía*. El número de conjuros de tu lista aumenta conforme subes de nivel de clérigo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de clérigo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de clérigo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres una clériga de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de clérigo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de clérigo para ti.",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de clérigo. Se recomiendan bendición, curar heridas, escudo de fe y saeta guía. El número de conjuros de tu lista aumenta conforme subes de nivel de clérigo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de clérigo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de clérigo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres una clériga de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de clérigo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de clérigo para ti."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Cambiar los conjuros preparados.*** Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de clérigo para los que tengas espacios de conjuro.",
+     "text": "Cambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de clérigo para los que tengas espacios de conjuro."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Aptitud mágica.*** La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de clérigo.",
+     "text": "Aptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de clérigo."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Canalizador mágico.*** Puedes utilizar un símbolo sagrado como canalizador mágico para tus conjuros de clérigo.",
+     "text": "Canalizador mágico. Puedes utilizar un símbolo sagrado como canalizador mágico para tus conjuros de clérigo."
+    }
+   ],
+   "page": 48
+  },
+  {
+   "level": 1,
+   "name": "Orden divina",
+   "title": "Nivel 1: Orden divina",
+   "subclass": null,
+   "text": "Te has consagrado a una de las siguientes funciones sacras, a tu elección.\n\nProtector. Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras pesadas.\n\nTaumaturgo. Conoces un truco adicional de la lista de conjuros de clérigo. Además, tu conexión mística con lo divino te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Religión). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1).",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 48,
+     "md": "Te has consagrado a una de las siguientes funciones sacras, a tu elección.",
+     "text": "Te has consagrado a una de las siguientes funciones sacras, a tu elección."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Protector.*** Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras pesadas.",
+     "text": "Protector. Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras pesadas."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Taumaturgo.*** Conoces un truco adicional de la lista de conjuros de clérigo. Además, tu conexión mística con lo divino te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Religión). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1).",
+     "text": "Taumaturgo. Conoces un truco adicional de la lista de conjuros de clérigo. Además, tu conexión mística con lo divino te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Religión). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1)."
+    }
+   ],
+   "page": 48
+  },
+  {
+   "level": 2,
+   "name": "Canalizar divinidad",
+   "title": "Nivel 2: Canalizar divinidad",
+   "subclass": null,
+   "text": "Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos. Empiezas con dos de estos efectos: Chispa divina y Expulsar muertos vivientes, que se describen a continuación. Cada vez que utilices el rasgo Canalizar divinidad de esta clase, elige qué efecto de esta clase creas. En niveles superiores de clérigo recibes opciones adicionales.\n\nPuedes usar el rasgo Canalizar divinidad dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de clérigo, como se muestra en la columna “Canalizar divinidad” de la tabla “Rasgos de clérigo”.\n\nSi un efecto de Canalizar divinidad requiere una tirada de salvación, la CD será igual a la CD de salvación de conjuros del rasgo Lanzamiento de conjuros de esta clase.\n\nChispa divina. Como acción de magia, diriges tu símbolo sagrado hacia otra criatura que puedas ver a 9 m o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador por Sabiduría. Puedes hacer que la criatura recupere una cantidad de puntos de golpe igual al resultado u obligar a la criatura a hacer una tirada de salvación de Constitución. Si la falla, sufrirá una cantidad de daño necrótico o radiante (a tu elección) igual a ese resultado. Si la supera, sufrirá la mitad de daño (redondeando hacia abajo). Tira 1d8 adicional cuando alcances los niveles 7 (2d8), 13 (3d8) y 18 (4d8) de clérigo.\n\nExpulsar muertos vivientes. Como acción de magia, muestras tu símbolo sagrado y rechazas a los muertos vivientes. Cada muerto viviente de tu elección a 9 m o menos de ti deberá hacer una tirada de salvación de Sabiduría. Si la falla, tendrá los estados de asustado e incapacitado durante 1 minuto.\n\nDurante ese tiempo, tratará de alejarse de ti todo lo que pueda en sus turnos. Este efecto termina antes de tiempo si la criatura sufre daño, si tienes el estado de incapacitado o si mueres.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 48,
+     "md": "Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos. Empiezas con dos de estos efectos: Chispa divina y Expulsar muertos vivientes, que se describen a continuación. Cada vez que utilices el rasgo Canalizar divinidad de esta clase, elige qué efecto de esta clase creas. En niveles superiores de clérigo recibes opciones adicionales.",
+     "text": "Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos. Empiezas con dos de estos efectos: Chispa divina y Expulsar muertos vivientes, que se describen a continuación. Cada vez que utilices el rasgo Canalizar divinidad de esta clase, elige qué efecto de esta clase creas. En niveles superiores de clérigo recibes opciones adicionales."
+    },
+    {
+     "type": "paragraph",
+     "page": 48,
+     "md": "Puedes usar el rasgo Canalizar divinidad dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de clérigo, como se muestra en la columna “Canalizar divinidad” de la tabla “Rasgos de clérigo”.",
+     "text": "Puedes usar el rasgo Canalizar divinidad dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de clérigo, como se muestra en la columna “Canalizar divinidad” de la tabla “Rasgos de clérigo”."
+    },
+    {
+     "type": "paragraph",
+     "page": 48,
+     "md": "Si un efecto de Canalizar divinidad requiere una tirada de salvación, la CD será igual a la CD de salvación de conjuros del rasgo Lanzamiento de conjuros de esta clase.",
+     "text": "Si un efecto de Canalizar divinidad requiere una tirada de salvación, la CD será igual a la CD de salvación de conjuros del rasgo Lanzamiento de conjuros de esta clase."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Chispa divina.*** Como acción de magia, diriges tu símbolo sagrado hacia otra criatura que puedas ver a 9 m o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador por Sabiduría. Puedes hacer que la criatura recupere una cantidad de puntos de golpe igual al resultado u obligar a la criatura a hacer una tirada de salvación de Constitución. Si la falla, sufrirá una cantidad de daño necrótico o radiante (a tu elección) igual a ese resultado. Si la supera, sufrirá la mitad de daño (redondeando hacia abajo). Tira 1d8 adicional cuando alcances los niveles 7 (2d8), 13 (3d8) y 18 (4d8) de clérigo.",
+     "text": "Chispa divina. Como acción de magia, diriges tu símbolo sagrado hacia otra criatura que puedas ver a 9 m o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador por Sabiduría. Puedes hacer que la criatura recupere una cantidad de puntos de golpe igual al resultado u obligar a la criatura a hacer una tirada de salvación de Constitución. Si la falla, sufrirá una cantidad de daño necrótico o radiante (a tu elección) igual a ese resultado. Si la supera, sufrirá la mitad de daño (redondeando hacia abajo). Tira 1d8 adicional cuando alcances los niveles 7 (2d8), 13 (3d8) y 18 (4d8) de clérigo."
+    },
+    {
+     "type": "definition",
+     "page": 48,
+     "md": "***Expulsar muertos vivientes.*** Como acción de magia, muestras tu símbolo sagrado y rechazas a los muertos vivientes. Cada muerto viviente de tu elección a 9 m o menos de ti deberá hacer una tirada de salvación de Sabiduría. Si la falla, tendrá los estados de asustado e incapacitado durante 1 minuto.",
+     "text": "Expulsar muertos vivientes. Como acción de magia, muestras tu símbolo sagrado y rechazas a los muertos vivientes. Cada muerto viviente de tu elección a 9 m o menos de ti deberá hacer una tirada de salvación de Sabiduría. Si la falla, tendrá los estados de asustado e incapacitado durante 1 minuto."
+    },
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Durante ese tiempo, tratará de alejarse de ti todo lo que pueda en sus turnos. Este efecto termina antes de tiempo si la criatura sufre daño, si tienes el estado de incapacitado o si mueres.",
+     "text": "Durante ese tiempo, tratará de alejarse de ti todo lo que pueda en sus turnos. Este efecto termina antes de tiempo si la criatura sufre daño, si tienes el estado de incapacitado o si mueres."
+    }
+   ],
+   "page": 48
+  },
+  {
+   "level": 3,
+   "name": "Subclase de clérigo",
+   "title": "Nivel 3: Subclase de clérigo",
+   "subclass": null,
+   "text": "Consigues una subclase de clérigo de tu elección. La subclase del dominio de la vida se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de clérigo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de clérigo e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Consigues una subclase de clérigo de tu elección. La subclase del dominio de la vida se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de clérigo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de clérigo e inferiores.",
+     "text": "Consigues una subclase de clérigo de tu elección. La subclase del dominio de la vida se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de clérigo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de clérigo e inferiores."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de clérigo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de clérigo.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de clérigo."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 5,
+   "name": "Abrasar muertos vivientes",
+   "title": "Nivel 5: Abrasar muertos vivientes",
+   "subclass": null,
+   "text": "Cuando utilices Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Todos los muertos vivientes que fallen su tirada de salvación contra ese uso de Expulsar muertos vivientes sufrirán una cantidad de daño radiante igual al resultado total de las tiradas. Este daño no pone fin al efecto de expulsión.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Cuando utilices Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Todos los muertos vivientes que fallen su tirada de salvación contra ese uso de Expulsar muertos vivientes sufrirán una cantidad de daño radiante igual al resultado total de las tiradas. Este daño no pone fin al efecto de expulsión.",
+     "text": "Cuando utilices Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Todos los muertos vivientes que fallen su tirada de salvación contra ese uso de Expulsar muertos vivientes sufrirán una cantidad de daño radiante igual al resultado total de las tiradas. Este daño no pone fin al efecto de expulsión."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 7,
+   "name": "Golpes benditos",
+   "title": "Nivel 7: Golpes benditos",
+   "subclass": null,
+   "text": "Te imbuyes de poder divino en la batalla. Obtienes una de las siguientes opciones, a tu elección (si obtienes cualquiera de ellas por una subclase de clérigo de un libro antiguo, utiliza solo la opción que escojas para este rasgo).\n\nGolpe divino. Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma, podrás hacer que el objetivo sufra 1d8 de daño necrótico o radiante adicional (a tu elección).\n\nLanzamiento potente. Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de clérigo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Te imbuyes de poder divino en la batalla. Obtienes una de las siguientes opciones, a tu elección (si obtienes cualquiera de ellas por una subclase de clérigo de un libro antiguo, utiliza solo la opción que escojas para este rasgo).",
+     "text": "Te imbuyes de poder divino en la batalla. Obtienes una de las siguientes opciones, a tu elección (si obtienes cualquiera de ellas por una subclase de clérigo de un libro antiguo, utiliza solo la opción que escojas para este rasgo)."
+    },
+    {
+     "type": "definition",
+     "page": 49,
+     "md": "***Golpe divino.*** Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma, podrás hacer que el objetivo sufra 1d8 de daño necrótico o radiante adicional (a tu elección).",
+     "text": "Golpe divino. Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma, podrás hacer que el objetivo sufra 1d8 de daño necrótico o radiante adicional (a tu elección)."
+    },
+    {
+     "type": "definition",
+     "page": 49,
+     "md": "***Lanzamiento potente.*** Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de clérigo.",
+     "text": "Lanzamiento potente. Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de clérigo."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 10,
+   "name": "Intercesión divina",
+   "title": "Nivel 10: Intercesión divina",
+   "subclass": null,
+   "text": "Puedes recurrir a tu deidad o panteón para que intervenga en tu nombre. Como acción de magia, elige cualquier conjuro de clérigo de nivel 5 o inferior que no requiera una reacción para lanzarlo. Como parte de la misma acción, lanzas ese conjuro sin gastar un espacio de conjuro o sin necesidad de componentes materiales. No podrás volver a utilizar este rasgo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Puedes recurrir a tu deidad o panteón para que intervenga en tu nombre. Como acción de magia, elige cualquier conjuro de clérigo de nivel 5 o inferior que no requiera una reacción para lanzarlo. Como parte de la misma acción, lanzas ese conjuro sin gastar un espacio de conjuro o sin necesidad de componentes materiales. No podrás volver a utilizar este rasgo hasta que finalices un descanso largo.",
+     "text": "Puedes recurrir a tu deidad o panteón para que intervenga en tu nombre. Como acción de magia, elige cualquier conjuro de clérigo de nivel 5 o inferior que no requiera una reacción para lanzarlo. Como parte de la misma acción, lanzas ese conjuro sin gastar un espacio de conjuro o sin necesidad de componentes materiales. No podrás volver a utilizar este rasgo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 14,
+   "name": "Golpes benditos mejorados",
+   "title": "Nivel 14: Golpes benditos mejorados",
+   "subclass": null,
+   "text": "La opción elegida para Golpes benditos se vuelve más poderosa.\n\nGolpe divino. El daño adicional de tu Golpe divino aumenta a 2d8.\n\nLanzamiento potente. Cuando lances un truco de clérigo y causes daño a una criatura con él, podrás transmitir vitalidad a ti o a otra criatura que esté a 18 m o menos de ti; se concederá una cantidad de puntos de golpe temporales igual al doble de tu modificador por Sabiduría.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "La opción elegida para Golpes benditos se vuelve más poderosa.",
+     "text": "La opción elegida para Golpes benditos se vuelve más poderosa."
+    },
+    {
+     "type": "definition",
+     "page": 49,
+     "md": "***Golpe divino.*** El daño adicional de tu Golpe divino aumenta a 2d8.",
+     "text": "Golpe divino. El daño adicional de tu Golpe divino aumenta a 2d8."
+    },
+    {
+     "type": "definition",
+     "page": 49,
+     "md": "***Lanzamiento potente.*** Cuando lances un truco de clérigo y causes daño a una criatura con él, podrás transmitir vitalidad a ti o a otra criatura que esté a 18 m o menos de ti; se concederá una cantidad de puntos de golpe temporales igual al doble de tu modificador por Sabiduría.",
+     "text": "Lanzamiento potente. Cuando lances un truco de clérigo y causes daño a una criatura con él, podrás transmitir vitalidad a ti o a otra criatura que esté a 18 m o menos de ti; se concederá una cantidad de puntos de golpe temporales igual al doble de tu modificador por Sabiduría."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino."
+    }
+   ],
+   "page": 49
+  },
+  {
+   "level": 20,
+   "name": "Intercesión divina mayor",
+   "title": "Nivel 20: Intercesión divina mayor",
+   "subclass": null,
+   "text": "Puedes solicitar una intercesión divina todavía más poderosa. Cuando uses tu rasgo Intercesión divina, puedes elegir deseo al seleccionar un conjuro. Si lo haces, no podrás volver a usar Intercesión divina hasta que finalices 2d4 descansos largos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 49,
+     "md": "Puedes solicitar una intercesión divina todavía más poderosa. Cuando uses tu rasgo Intercesión divina, puedes elegir *deseo* al seleccionar un conjuro. Si lo haces, no podrás volver a usar Intercesión divina hasta que finalices 2d4 descansos largos.",
+     "text": "Puedes solicitar una intercesión divina todavía más poderosa. Cuando uses tu rasgo Intercesión divina, puedes elegir deseo al seleccionar un conjuro. Si lo haces, no podrás volver a usar Intercesión divina hasta que finalices 2d4 descansos largos."
+    }
+   ],
+   "page": 49
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de clérigo: Dominio de la vida",
+   "features": [
+    {
+     "level": 3,
+     "name": "Conjuros del dominio de la vida",
+     "title": "Nivel 3: Conjuros del dominio de la vida",
+     "subclass": "Subclase de clérigo: Dominio de la vida",
+     "text": "Tu conexión con este dominio divino garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de clérigo especificado en la tabla “Conjuros del dominio de la vida”, a partir de entonces siempre tendrás preparados los conjuros que se indican.\n\nmayor",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 51,
+       "md": "Tu conexión con este dominio divino garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de clérigo especificado en la tabla “Conjuros del dominio de la vida”, a partir de entonces siempre tendrás preparados los conjuros que se indican.",
+       "text": "Tu conexión con este dominio divino garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de clérigo especificado en la tabla “Conjuros del dominio de la vida”, a partir de entonces siempre tendrás preparados los conjuros que se indican."
+      },
+      {
+       "type": "table",
+       "page": 51,
+       "caption": "Conjuros del dominio de la vida",
+       "header": [
+        "Nivel de clérigo",
+        "Conjuros preparados"
+       ],
+       "rows": [
+        [
+         "3",
+         "Auxilio, bendición, curar heridas, restablecimiento menor"
+        ],
+        [
+         "5",
+         "Palabra de curación en masa, revivir"
+        ],
+        [
+         "7",
+         "Aura de vida, guarda contra la muerte"
+        ],
+        [
+         "9",
+         "Curar heridas en masa, restablecimiento"
+        ]
+       ]
+      },
+      {
+       "type": "property",
+       "page": 51,
+       "md": "*mayor*",
+       "text": "mayor"
+      }
+     ],
+     "page": 51
+    },
+    {
+     "level": 3,
+     "name": "Discípulo de la vida",
+     "title": "Nivel 3: Discípulo de la vida",
+     "subclass": "Subclase de clérigo: Dominio de la vida",
+     "text": "Cuando uses un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una criatura, esa criatura recuperará puntos de golpe adicionales en el turno en que lances el conjuro. La cantidad de puntos de golpe adicionales es igual a 2 más el nivel del espacio de conjuro.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 51,
+       "md": "Cuando uses un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una criatura, esa criatura recuperará puntos de golpe adicionales en el turno en que lances el conjuro. La cantidad de puntos de golpe adicionales es igual a 2 más el nivel del espacio de conjuro.",
+       "text": "Cuando uses un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una criatura, esa criatura recuperará puntos de golpe adicionales en el turno en que lances el conjuro. La cantidad de puntos de golpe adicionales es igual a 2 más el nivel del espacio de conjuro."
+      }
+     ],
+     "page": 51
+    },
+    {
+     "level": 3,
+     "name": "Preservar vida",
+     "title": "Nivel 3: Preservar vida",
+     "subclass": "Subclase de clérigo: Dominio de la vida",
+     "text": "Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para generar una energía curativa capaz de restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de clérigo. Elige criaturas maltrechas a 9 m o menos de ti (lo que puede incluirte a ti) y divide estos puntos de golpe entre ellas. Este rasgo no puede hacer que una criatura pase a tener más de la mitad de sus puntos de golpe máximos.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 51,
+       "md": "Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para generar una energía curativa capaz de restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de clérigo. Elige criaturas maltrechas a 9 m o menos de ti (lo que puede incluirte a ti) y divide estos puntos de golpe entre ellas. Este rasgo no puede hacer que una criatura pase a tener más de la mitad de sus puntos de golpe máximos.",
+       "text": "Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para generar una energía curativa capaz de restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de clérigo. Elige criaturas maltrechas a 9 m o menos de ti (lo que puede incluirte a ti) y divide estos puntos de golpe entre ellas. Este rasgo no puede hacer que una criatura pase a tener más de la mitad de sus puntos de golpe máximos."
+      }
+     ],
+     "page": 51
+    },
+    {
+     "level": 6,
+     "name": "Sanador bendito",
+     "title": "Nivel 6: Sanador bendito",
+     "subclass": "Subclase de clérigo: Dominio de la vida",
+     "text": "Los conjuros de curación que lances sobre otros también te sanan a ti. Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperarás una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 51,
+       "md": "Los conjuros de curación que lances sobre otros también te sanan a ti. Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperarás una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro.",
+       "text": "Los conjuros de curación que lances sobre otros también te sanan a ti. Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperarás una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro."
+      }
+     ],
+     "page": 51
+    },
+    {
+     "level": 17,
+     "name": "Sanación suprema",
+     "title": "Nivel 17: Sanación suprema",
+     "subclass": "Subclase de clérigo: Dominio de la vida",
+     "text": "En vez de tirar uno o más dados para hacer que una criatura recupere puntos de golpe con un conjuro o con Canalizar divinidad, no tirarás estos dados para la curación, sino que utilizarás el número más alto de cada dado. Por ejemplo, en lugar de hacer que una criatura recupere 2d6 puntos de golpe, harás que recupere 12.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 51,
+       "md": "En vez de tirar uno o más dados para hacer que una criatura recupere puntos de golpe con un conjuro o con Canalizar divinidad, no tirarás estos dados para la curación, sino que utilizarás el número más alto de cada dado. Por ejemplo, en lugar de hacer que una criatura recupere 2d6 puntos de golpe, harás que recupere 12.",
+       "text": "En vez de tirar uno o más dados para hacer que una criatura recupere puntos de golpe con un conjuro o con Canalizar divinidad, no tirarás estos dados para la curación, sino que utilizarás el número más alto de cada dado. Por ejemplo, en lugar de hacer que una criatura recupere 2d6 puntos de golpe, harás que recupere 12."
+      }
+     ],
+     "page": 51
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de clérigo de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Guía",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Llama sagrada",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Luz",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Piedad con los moribundos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Reparar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Resistencia",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Taumaturgia",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 49
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de clérigo de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Bendición",
+     "Encantamiento",
+     "C, M"
+    ],
+    [
+     "Crear o destruir agua",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Curar heridas",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Detectar el bien y el mal",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Detectar venenos y enfermedades",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Escudo de fe",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Infligir heridas",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Orden imperiosa",
+     "Encantamiento",
+     "—"
+    ]
+   ],
+   "page": 49
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de clérigo de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Arma espiritual",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Augurio",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Auxilio",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Calmar emociones",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Detectar trampas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Dulce descanso",
+     "Nigromancia",
+     "R, M"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Llama permanente",
+     "Evocación",
+     "M"
+    ],
+    [
+     "Localizar objeto",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Plegaria de curación",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Protección contra veneno",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Restablecimiento menor",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Silencio",
+     "Ilusionismo",
+     "C, R"
+    ],
+    [
+     "Sordera/ceguera",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Vínculo protector",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Zona de la verdad",
+     "Encantamiento",
+     "—"
+    ]
+   ],
+   "page": 50
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de clérigo de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Animar a los muertos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Caminar sobre el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Círculo mágico",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Clarividencia",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Crear comida y agua",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Don de lenguas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Espíritus guardianes",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Fundirse con la piedra",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Glifo custodio",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Hablar con los muertos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Imponer maldición",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Levantar maldición",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Luz del día",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Palabra de curación en masa",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Protección contra energía",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Recado",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Revivir",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Señal de esperanza",
+     "Abjuración",
+     "C"
+    ]
+   ],
+   "page": 50
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de clérigo de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Adivinación",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Aura de vida",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Controlar agua",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Destierro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Guarda contra la muerte",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Guardián de la fe",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Libertad de movimiento",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Localizar criatura",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Moldear la piedra",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 50
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de clérigo de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Alzar a los muertos",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Atadura planar",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Comunión",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Conocer las leyendas",
+     "Adivinación",
+     "M"
+    ],
+    [
+     "Consagrar",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Contagio",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Curar heridas en masa",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Disipar el bien y el mal",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Escudriñar",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Geas",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Golpe flamígero",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Plaga de insectos",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Restablecimiento mayor",
+     "Abjuración",
+     "M"
+    ]
+   ],
+   "page": 50
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de clérigo de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Aliado planar",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Barrera de cuchillas",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Crear muerto viviente",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Curar",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Dañar",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Encontrar el camino",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Festín de héroes",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Palabra de regreso",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 50
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de clérigo de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Conjurar celestial",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Desplazamiento entre planos",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Excursión etérea",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Palabra divina",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Regenerar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Resurrección",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Símbolo",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Tormenta de fuego",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 51
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de clérigo de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Aura sagrada",
+     "Abjuración",
+     "C, M"
+    ],
+    [
+     "Campo antimagia",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Controlar el clima",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Explosión solar",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Terremoto",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 51
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de clérigo de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Curar en masa",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Palabra de poder: sanar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Portal",
+     "Conjuración",
+     "C, M"
+    ],
+    [
+     "Proyección astral",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Resurrección verdadera",
+     "Nigromancia",
+     "M"
+    ]
+   ],
+   "page": 51
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 47
+ },
+ "refs": [
+  "spell.guia",
+  "spell.llama-sagrada",
+  "spell.taumaturgia",
+  "spell.bendicion",
+  "spell.curar-heridas",
+  "spell.escudo-de-fe",
+  "spell.saeta-guia",
+  "spell.deseo"
+ ]
+}

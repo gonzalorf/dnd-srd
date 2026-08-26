@@ -1,0 +1,71 @@
+{
+ "id": "spell.imagen-mayor",
+ "name": "Imagen mayor",
+ "level": 3,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (un poco de vellón)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de vellón",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer daño ni provocar estados.\n\nSi estás dentro del alcance de la ilusión, puedes utilizar una acción de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusión produzca distintos sonidos en diferentes momentos e incluso mantener una conversación, por ejemplo.\n\nLa interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y sus otras cualidades sensoriales se irán desvaneciendo para esa criatura.\n\nCon un espacio de conjuro de nivel superior. El conjuro durará hasta que sea disipado y no requerirá concentración si se lanza con un espacio de conjuro de nivel 4 o superior.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer daño ni provocar estados.",
+   "text": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer daño ni provocar estados."
+  },
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Si estás dentro del alcance de la ilusión, puedes utilizar una acción de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusión produzca distintos sonidos en diferentes momentos e incluso mantener una conversación, por ejemplo.",
+   "text": "Si estás dentro del alcance de la ilusión, puedes utilizar una acción de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusión produzca distintos sonidos en diferentes momentos e incluso mantener una conversación, por ejemplo."
+  },
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y sus otras cualidades sensoriales se irán desvaneciendo para esa criatura.",
+   "text": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella y sus otras cualidades sensoriales se irán desvaneciendo para esa criatura."
+  },
+  {
+   "type": "definition",
+   "page": 157,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El conjuro durará hasta que sea disipado y no requerirá concentración si se lanza con un espacio de conjuro de nivel 4 o superior.",
+   "text": "Con un espacio de conjuro de nivel superior. El conjuro durará hasta que sea disipado y no requerirá concentración si se lanza con un espacio de conjuro de nivel 4 o superior."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 157
+ }
+}

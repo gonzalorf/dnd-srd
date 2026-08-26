@@ -1,0 +1,53 @@
+{
+ "id": "spell.tormenta-de-meteoritos",
+ "name": "Tormenta de meteoritos",
+ "level": 9,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "1,5 km",
+  "kind": "ranged",
+  "meters": 1500.0
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Unos orbes de fuego abrasador caen en picado en cuatro puntos del suelo distintos que puedas ver dentro del alcance. Todas las criaturas situadas en una esfera de 12 m de radio centrada en cada uno de esos puntos hacen una tirada de salvación de Destreza. Sufrirán 20d6 de daño de fuego y 20d6 de daño contundente si la fallan o la mitad del daño si la superan. Las criaturas que estén situadas en el área de efecto de más de una de las esferas ardientes solo se verán afectadas por una.\n\nLos objetos no mágicos que se encuentren dentro del área del conjuro también recibirán el daño, salvo si los lleva o viste una criatura, y empezarán a arder si son inflamables.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Unos orbes de fuego abrasador caen en picado en cuatro puntos del suelo distintos que puedas ver dentro del alcance. Todas las criaturas situadas en una esfera de 12 m de radio centrada en cada uno de esos puntos hacen una tirada de salvación de Destreza. Sufrirán 20d6 de daño de fuego y 20d6 de daño contundente si la fallan o la mitad del daño si la superan. Las criaturas que estén situadas en el área de efecto de más de una de las esferas ardientes solo se verán afectadas por una.",
+   "text": "Unos orbes de fuego abrasador caen en picado en cuatro puntos del suelo distintos que puedas ver dentro del alcance. Todas las criaturas situadas en una esfera de 12 m de radio centrada en cada uno de esos puntos hacen una tirada de salvación de Destreza. Sufrirán 20d6 de daño de fuego y 20d6 de daño contundente si la fallan o la mitad del daño si la superan. Las criaturas que estén situadas en el área de efecto de más de una de las esferas ardientes solo se verán afectadas por una."
+  },
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Los objetos no mágicos que se encuentren dentro del área del conjuro también recibirán el daño, salvo si los lleva o viste una criatura, y empezarán a arder si son inflamables.",
+   "text": "Los objetos no mágicos que se encuentren dentro del área del conjuro también recibirán el daño, salvo si los lleva o viste una criatura, y empezarán a arder si son inflamables."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 190
+ }
+}

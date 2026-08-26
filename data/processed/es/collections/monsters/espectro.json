@@ -1,0 +1,121 @@
+{
+ "id": "monster.espectro",
+ "name": "Espectro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 323
+ },
+ "context": [
+  "Espectro"
+ ],
+ "metaRaw": "Muerto viviente Mediano, caótico malvado",
+ "type": "Muerto viviente",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "22 (5d8)",
+  "average": 22,
+  "formula": "5d8"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 15.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "entiende común y otro idioma",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "agarrado",
+  "apresado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "hechizado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "ácido",
+  "contundente",
+  "cortante",
+  "frío",
+  "fuego",
+  "perforante",
+  "relámpago",
+  "trueno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Movimiento incorpóreo",
+   "md": "***Movimiento incorpóreo.*** El espectro puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto.",
+   "page": 323,
+   "description": "El espectro puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto."
+  },
+  {
+   "name": "Sensibilidad a la luz solar",
+   "md": "***Sensibilidad a la luz solar.*** Bajo la luz del sol, el espectro tiene desventaja en las pruebas de característica y las tiradas de ataque.",
+   "page": 323,
+   "description": "Bajo la luz del sol, el espectro tiene desventaja en las pruebas de característica y las tiradas de ataque."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Consumir vida",
+   "md": "***Consumir vida.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d6) de daño necrótico. Si el objetivo es una criatura, sus puntos de golpe máximos se reducen en una cantidad igual al daño sufrido.",
+   "page": 323,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d6) de daño necrótico. Si el objetivo es una criatura, sus puntos de golpe máximos se reducen en una cantidad igual al daño sufrido."
+  }
+ ]
+}

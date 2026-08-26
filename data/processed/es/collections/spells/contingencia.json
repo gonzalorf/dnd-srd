@@ -1,0 +1,66 @@
+{
+ "id": "spell.contingencia",
+ "name": "Contingencia",
+ "level": 6,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una estatuilla de ti tallada y decorada con gemas que valga al menos 1500 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una estatuilla de ti tallada y decorada con gemas que valga al menos 1500 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "10 días",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "día"
+ },
+ "text": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acción y que te permita elegirte como objetivo. Lanzas el conjuro (llamado “conjuro contingente”) como parte del lanzamiento de contingencia y gastas los espacios de conjuro de ambos, pero el conjuro contingente no tiene efecto en ese momento, sino que se activa cuando se produce una condición determinada. Describes esa condición cuando lanzas los dos conjuros. Por ejemplo, si lanzas contingencia junto a respirar bajo el agua, podrías decir que respirar bajo el agua tenga efecto cuando te sumerjas en agua o en un líquido similar.\n\nEl conjuro contingente tiene efecto inmediatamente después de que se produzca la condición por primera vez, tanto si quieres como si no, y después termina el conjuro contingencia.\n\nEl conjuro contingente solo tiene efecto sobre ti, aunque normalmente pudieras elegir como objetivo a otros. Solo puedes tener un conjuro contingencia activo al mismo tiempo. Si vuelves a lanzarlo, terminará el efecto de cualquier otro conjuro contingencia que tengas. Asimismo, contingencia termina si dejas de tener contigo su componente material.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acción y que te permita elegirte como objetivo. Lanzas el conjuro (llamado “conjuro contingente”) como parte del lanzamiento de *contingencia* y gastas los espacios de conjuro de ambos, pero el conjuro contingente no tiene efecto en ese momento, sino que se activa cuando se produce una condición determinada. Describes esa condición cuando lanzas los dos conjuros. Por ejemplo, si lanzas *contingencia* junto a *respirar bajo el agua*, podrías decir que *respirar bajo el agua* tenga efecto cuando te sumerjas en agua o en un líquido similar.",
+   "text": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acción y que te permita elegirte como objetivo. Lanzas el conjuro (llamado “conjuro contingente”) como parte del lanzamiento de contingencia y gastas los espacios de conjuro de ambos, pero el conjuro contingente no tiene efecto en ese momento, sino que se activa cuando se produce una condición determinada. Describes esa condición cuando lanzas los dos conjuros. Por ejemplo, si lanzas contingencia junto a respirar bajo el agua, podrías decir que respirar bajo el agua tenga efecto cuando te sumerjas en agua o en un líquido similar."
+  },
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "El conjuro contingente tiene efecto inmediatamente después de que se produzca la condición por primera vez, tanto si quieres como si no, y después termina el conjuro *contingencia*.",
+   "text": "El conjuro contingente tiene efecto inmediatamente después de que se produzca la condición por primera vez, tanto si quieres como si no, y después termina el conjuro contingencia."
+  },
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "El conjuro contingente solo tiene efecto sobre ti, aunque normalmente pudieras elegir como objetivo a otros. Solo puedes tener un conjuro *contingencia* activo al mismo tiempo. Si vuelves a lanzarlo, terminará el efecto de cualquier otro conjuro *contingencia* que tengas. Asimismo, *contingencia* termina si dejas de tener contigo su componente material.",
+   "text": "El conjuro contingente solo tiene efecto sobre ti, aunque normalmente pudieras elegir como objetivo a otros. Solo puedes tener un conjuro contingencia activo al mismo tiempo. Si vuelves a lanzarlo, terminará el efecto de cualquier otro conjuro contingencia que tengas. Asimismo, contingencia termina si dejas de tener contigo su componente material."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 134
+ },
+ "refs": [
+  "spell.respirar-bajo-el-agua"
+ ]
+}

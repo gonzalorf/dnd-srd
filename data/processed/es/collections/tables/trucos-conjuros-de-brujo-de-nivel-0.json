@@ -1,0 +1,56 @@
+{
+ "id": "table.trucos-conjuros-de-brujo-de-nivel-0",
+ "caption": "Trucos (conjuros de brujo de nivel 0)",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Descarga sobrenatural",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Ilusión menor",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Impacto certero",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Mano de mago",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Prestidigitación",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Rociada venenosa",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Toque helado",
+   "Nigromancia",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

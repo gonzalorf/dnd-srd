@@ -1,0 +1,60 @@
+{
+ "id": "spell.conjurar-elementales-menores",
+ "name": "Conjurar elementales menores",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Conjuras espíritus de los Planos Elementales que revolotean a tu alrededor en una emanación de 4,5 m mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas causará 2d8 de daño adicional cuando aciertes a una criatura dentro de la emanación. Ese daño será de ácido, frío, fuego o relámpago (a tu elección cuando ataques).\n\nAdemás, el suelo incluido en la emanación se considerará terreno difícil para tus enemigos.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Conjuras espíritus de los Planos Elementales que revolotean a tu alrededor en una emanación de 4,5 m mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas causará 2d8 de daño adicional cuando aciertes a una criatura dentro de la emanación. Ese daño será de ácido, frío, fuego o relámpago (a tu elección cuando ataques).",
+   "text": "Conjuras espíritus de los Planos Elementales que revolotean a tu alrededor en una emanación de 4,5 m mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas causará 2d8 de daño adicional cuando aciertes a una criatura dentro de la emanación. Ese daño será de ácido, frío, fuego o relámpago (a tu elección cuando ataques)."
+  },
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Además, el suelo incluido en la emanación se considerará terreno difícil para tus enemigos.",
+   "text": "Además, el suelo incluido en la emanación se considerará terreno difícil para tus enemigos."
+  },
+  {
+   "type": "definition",
+   "page": 132,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 132
+ }
+}

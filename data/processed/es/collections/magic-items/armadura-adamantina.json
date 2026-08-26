@@ -1,0 +1,23 @@
+{
+ "id": "item.armadura-adamantina",
+ "name": "Armadura adamantina",
+ "category": "Armadura",
+ "variant": "cualquier armadura media o pesada, salvo armadura de pieles",
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (cualquier armadura media o pesada, salvo armadura de pieles), infrecuente",
+ "text": "Esta armadura viene reforzada con adamantina, una de las sustancias más duras que existen. Mientras la lleves puesta, cualquier crítico contra ti se convierte en un impacto normal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Esta armadura viene reforzada con adamantina, una de las sustancias más duras que existen. Mientras la lleves puesta, cualquier crítico contra ti se convierte en un impacto normal.",
+   "text": "Esta armadura viene reforzada con adamantina, una de las sustancias más duras que existen. Mientras la lleves puesta, cualquier crítico contra ti se convierte en un impacto normal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

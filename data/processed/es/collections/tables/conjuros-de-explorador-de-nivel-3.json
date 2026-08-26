@@ -1,0 +1,81 @@
+{
+ "id": "table.conjuros-de-explorador-de-nivel-3",
+ "caption": "Conjuros de explorador de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Caminar sobre el agua",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Conjurar animales",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Crecimiento vegetal",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Fundirse con la piedra",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Hablar con las plantas",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Indetectable",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Luz del día",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Muro de viento",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Protección contra energía",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Respirar bajo el agua",
+   "Transmutación",
+   "R"
+  ],
+  [
+   "Revivir",
+   "Nigromancia",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Explorador",
+  "Lista de conjuros de explorador"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 61
+ }
+}

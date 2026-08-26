@@ -1,0 +1,48 @@
+{
+ "id": "spell.aura-de-vida",
+ "name": "Aura de vida",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Un aura surge de ti en una emanación de 9 m hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tenéis resistencia al daño necrótico y no se podrán reducir vuestros puntos de golpe máximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 124,
+   "md": "Un aura surge de ti en una emanación de 9 m hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tenéis resistencia al daño necrótico y no se podrán reducir vuestros puntos de golpe máximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
+   "text": "Un aura surge de ti en una emanación de 9 m hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tenéis resistencia al daño necrótico y no se podrán reducir vuestros puntos de golpe máximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 123
+ }
+}

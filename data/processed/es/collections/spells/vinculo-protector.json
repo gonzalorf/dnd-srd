@@ -1,0 +1,56 @@
+{
+ "id": "spell.vinculo-protector",
+ "name": "Vínculo protector",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un par de anillos de platino que valgan al menos 50 po cada uno y que debéis llevar puestos tanto tú como el objetivo hasta que termine el conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un par de anillos de platino que valgan al menos 50 po cada uno y que debéis llevar puestos tanto tú como el objetivo hasta que termine el conjuro",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas a otra criatura voluntaria y creas una conexión mística entre ella y tú hasta que el conjuro termine. Mientras el objetivo esté a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, así como resistencia a todo el daño. Sin embargo, cada vez que reciba daño, tú sufrirás la misma cantidad de daño.\n\nEl conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y tú os separáis más de 18 m. También termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Tocas a otra criatura voluntaria y creas una conexión mística entre ella y tú hasta que el conjuro termine. Mientras el objetivo esté a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, así como resistencia a todo el daño. Sin embargo, cada vez que reciba daño, tú sufrirás la misma cantidad de daño.",
+   "text": "Tocas a otra criatura voluntaria y creas una conexión mística entre ella y tú hasta que el conjuro termine. Mientras el objetivo esté a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvación, así como resistencia a todo el daño. Sin embargo, cada vez que reciba daño, tú sufrirás la misma cantidad de daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "El conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y tú os separáis más de 18 m. También termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas.",
+   "text": "El conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y tú os separáis más de 18 m. También termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 192
+ }
+}

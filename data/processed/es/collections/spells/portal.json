@@ -1,0 +1,71 @@
+{
+ "id": "spell.portal",
+ "name": "Portal",
+ "level": 9,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un diamante que valga al menos 5000 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un diamante que valga al menos 5000 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Conjuras un portal que enlaza un espacio sin ocupar que puedas ver dentro del alcance con una ubicación precisa situada en otro plano de existencia. El portal es una abertura circular a la que puedes dar un diámetro de entre 1,5 y 6 m, que puedes orientar en la dirección que elijas. El portal permanece hasta que el conjuro termine y puede verse su destino a través de él.\n\nEl portal tiene una parte delantera y otra trasera en cada plano en el que aparece y solo es posible desplazarse a través de él si se atraviesa por la parte delantera. Cualquier cosa que lo haga es transportada al instante al otro plano y aparecerá en el espacio sin ocupar más cercano al portal.\n\nLas deidades y otros gobernantes de planos pueden impedir que los portales creados mediante este conjuro se abran en su presencia o en cualquier lugar dentro de sus dominios.\n\nCuando lances el conjuro, puedes decir el nombre de una criatura específica (no sirven un pseudónimo, un título o un apodo). Si esa criatura está en un plano distinto al tuyo, el portal se abrirá junto a la criatura mencionada y la transportará al espacio sin ocupar más cercano en tu lado del portal. No obtienes ningún poder especial sobre la criatura y será libre de actuar según tu GM considere apropiado: puede irse, atacarte o ayudarte.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "Conjuras un portal que enlaza un espacio sin ocupar que puedas ver dentro del alcance con una ubicación precisa situada en otro plano de existencia. El portal es una abertura circular a la que puedes dar un diámetro de entre 1,5 y 6 m, que puedes orientar en la dirección que elijas. El portal permanece hasta que el conjuro termine y puede verse su destino a través de él.",
+   "text": "Conjuras un portal que enlaza un espacio sin ocupar que puedas ver dentro del alcance con una ubicación precisa situada en otro plano de existencia. El portal es una abertura circular a la que puedes dar un diámetro de entre 1,5 y 6 m, que puedes orientar en la dirección que elijas. El portal permanece hasta que el conjuro termine y puede verse su destino a través de él."
+  },
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "El portal tiene una parte delantera y otra trasera en cada plano en el que aparece y solo es posible desplazarse a través de él si se atraviesa por la parte delantera. Cualquier cosa que lo haga es transportada al instante al otro plano y aparecerá en el espacio sin ocupar más cercano al portal.",
+   "text": "El portal tiene una parte delantera y otra trasera en cada plano en el que aparece y solo es posible desplazarse a través de él si se atraviesa por la parte delantera. Cualquier cosa que lo haga es transportada al instante al otro plano y aparecerá en el espacio sin ocupar más cercano al portal."
+  },
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "Las deidades y otros gobernantes de planos pueden impedir que los portales creados mediante este conjuro se abran en su presencia o en cualquier lugar dentro de sus dominios.",
+   "text": "Las deidades y otros gobernantes de planos pueden impedir que los portales creados mediante este conjuro se abran en su presencia o en cualquier lugar dentro de sus dominios."
+  },
+  {
+   "type": "paragraph",
+   "page": 175,
+   "md": "Cuando lances el conjuro, puedes decir el nombre de una criatura específica (no sirven un pseudónimo, un título o un apodo). Si esa criatura está en un plano distinto al tuyo, el portal se abrirá junto a la criatura mencionada y la transportará al espacio sin ocupar más cercano en tu lado del portal. No obtienes ningún poder especial sobre la criatura y será libre de actuar según tu GM considere apropiado: puede irse, atacarte o ayudarte.",
+   "text": "Cuando lances el conjuro, puedes decir el nombre de una criatura específica (no sirven un pseudónimo, un título o un apodo). Si esa criatura está en un plano distinto al tuyo, el portal se abrirá junto a la criatura mencionada y la transportará al espacio sin ocupar más cercano en tu lado del portal. No obtienes ningún poder especial sobre la criatura y será libre de actuar según tu GM considere apropiado: puede irse, atacarte o ayudarte."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 175
+ }
+}

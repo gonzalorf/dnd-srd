@@ -1,0 +1,52 @@
+{
+ "id": "spell.llama-sagrada",
+ "name": "Llama sagrada",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Destreza o sufrirá 1d8 de daño radiante. No podrá beneficiarse de la cobertura media o tres cuartos en esta tirada.\n\nMejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Destreza o sufrirá 1d8 de daño radiante. No podrá beneficiarse de la cobertura media o tres cuartos en esta tirada.",
+   "text": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Destreza o sufrirá 1d8 de daño radiante. No podrá beneficiarse de la cobertura media o tres cuartos en esta tirada."
+  },
+  {
+   "type": "definition",
+   "page": 162,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+   "text": "Mejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 162
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "table.p220",
+ "caption": null,
+ "header": [
+  "Niveles",
+  "Profundidad del pozo",
+  "Daño contundente"
+ ],
+ "rows": [
+  [
+   "5–10",
+   "9 m",
+   "10 (3d6)"
+  ],
+  [
+   "11–16",
+   "18 m",
+   "21 (6d6)"
+  ],
+  [
+   "17–20",
+   "36 m",
+   "42 (12d6)"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Herramientas del juego",
+  "Trampas",
+  "Trampas de ejemplo",
+  "Pozo escondido"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 220
+ }
+}

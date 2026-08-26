@@ -1,0 +1,36 @@
+{
+ "id": "gear.barril",
+ "name": "Barril",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Barril",
+  "Peso": "35 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "35 kg",
+  "kg": 35.0
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas.",
+   "text": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas."
+  }
+ ],
+ "descriptionPage": 104
+}

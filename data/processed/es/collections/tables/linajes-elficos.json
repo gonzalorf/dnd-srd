@@ -1,0 +1,41 @@
+{
+ "id": "table.linajes-elficos",
+ "caption": "Linajes élficos",
+ "header": [
+  "Linaje",
+  "Nivel 1",
+  "Nivel 3",
+  "Nivel 5"
+ ],
+ "rows": [
+  [
+   "Alto elfo",
+   "Conoces el truco prestidigitación. Tras finalizar un descanso largo, puedes sustituirese truco por otro truco diferente de la lista de conjuros de mago.",
+   "Detectar magia",
+   "Paso brumoso"
+  ],
+  [
+   "Drow",
+   "El alcance de tu visión en la oscuridad aumenta a 36 m. También conoces el truco luces danzantes.",
+   "Fuego feérico",
+   "Oscuridad"
+  ],
+  [
+   "Elfo de los bosques",
+   "Tu velocidad aumenta a 10,5 m. También conoces el truco saber druídico.",
+   "Zancada prodigiosa",
+   "Pasar sin rastro"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Orígenes de personaje",
+  "Especies de personaje",
+  "Descripciones de las especies",
+  "Elfo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 91
+ }
+}

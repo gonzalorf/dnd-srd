@@ -1,0 +1,55 @@
+{
+ "id": "spell.plegaria-de-curacion",
+ "name": "Plegaria de curación",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Hasta cinco criaturas de tu elección que permanezcan dentro del alcance del conjuro durante todo su lanzamiento obtienen los beneficios de un descanso corto y también recuperan 2d8 puntos de golpe. Las criaturas no pueden volver a beneficiarse de este conjuro hasta que finalicen un descanso largo.\n\nCon un espacio de conjuro de nivel superior. La curación aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 174,
+   "md": "Hasta cinco criaturas de tu elección que permanezcan dentro del alcance del conjuro durante todo su lanzamiento obtienen los beneficios de un descanso corto y también recuperan 2d8 puntos de golpe. Las criaturas no pueden volver a beneficiarse de este conjuro hasta que finalicen un descanso largo.",
+   "text": "Hasta cinco criaturas de tu elección que permanezcan dentro del alcance del conjuro durante todo su lanzamiento obtienen los beneficios de un descanso corto y también recuperan 2d8 puntos de golpe. Las criaturas no pueden volver a beneficiarse de este conjuro hasta que finalicen un descanso largo."
+  },
+  {
+   "type": "definition",
+   "page": 174,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La curación aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. La curación aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 174
+ }
+}

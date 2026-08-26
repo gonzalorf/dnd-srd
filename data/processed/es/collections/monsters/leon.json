@@ -1,0 +1,112 @@
+{
+ "id": "monster.leon",
+ "name": "León",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 388
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "22 (4d10)",
+  "average": 22,
+  "formula": "4d10"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "skills": {
+  "Percepción": 3,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en manada",
+   "md": "***Atacar en manada.*** El león tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del león se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.",
+   "page": 388,
+   "description": "El león tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del león se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado."
+  },
+  {
+   "name": "Saltar con carrera",
+   "md": "***Saltar con carrera.*** Si se ha movido al menos 3 m justo antes, el león puede realizar un salto de longitud de hasta 7,5 m.",
+   "page": 388,
+   "description": "Si se ha movido al menos 3 m justo antes, el león puede realizar un salto de longitud de hasta 7,5 m."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El león realiza dos ataques de desgarro. Puede sustituir un ataque por un rugido.",
+   "page": 388,
+   "description": "El león realiza dos ataques de desgarro. Puede sustituir un ataque por un rugido."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante.",
+   "page": 388,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante."
+  },
+  {
+   "name": "Rugido",
+   "md": "***Rugido.*** *Tirada de salvación de Sabiduría:* CD 11, una criatura a 4,5 m o menos. *Fallo:* el objetivo tendrá el estado de asustado hasta el principio del siguiente turno del león.",
+   "page": 388,
+   "description": "*Tirada de salvación de Sabiduría:* CD 11, una criatura a 4,5 m o menos. *Fallo:* el objetivo tendrá el estado de asustado hasta el principio del siguiente turno del león."
+  }
+ ]
+}

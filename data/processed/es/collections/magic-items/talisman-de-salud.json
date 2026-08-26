@@ -1,0 +1,29 @@
+{
+ "id": "item.talisman-de-salud",
+ "name": "Talismán de salud",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves este colgante, puedes emplear una acción de magia para recuperar 2d4 + 2 puntos de golpe. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.\n\nAdemás, tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado mientras lleves puesto el colgante.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 270,
+   "md": "Mientras lleves este colgante, puedes emplear una acción de magia para recuperar 2d4 + 2 puntos de golpe. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "Mientras lleves este colgante, puedes emplear una acción de magia para recuperar 2d4 + 2 puntos de golpe. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer."
+  },
+  {
+   "type": "paragraph",
+   "page": 270,
+   "md": "Además, tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado mientras lleves puesto el colgante.",
+   "text": "Además, tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado mientras lleves puesto el colgante."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 270
+ }
+}

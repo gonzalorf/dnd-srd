@@ -1,0 +1,18 @@
+{
+ "id": "rule.amistosa",
+ "name": "Amistosa",
+ "text": "Una criatura amistosa te verá con buenos ojos. Tienes ventaja en las pruebas de característica para influir en una criatura amistosa. Consulta también “Influir”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Una criatura amistosa te verá con buenos ojos. Tienes ventaja en las pruebas de característica para influir en una criatura amistosa. *Consulta también* “Influir”.",
+   "text": "Una criatura amistosa te verá con buenos ojos. Tienes ventaja en las pruebas de característica para influir en una criatura amistosa. Consulta también “Influir”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ },
+ "kind": "actitud"
+}

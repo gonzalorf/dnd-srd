@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-clerigo",
+ "caption": "Atributos básicos de clérigo",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Sabiduría"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de clérigo"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Sabiduría y Carisma"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Historia, Medicina, Perspicacia, Persuasión o Religión"
+  ],
+  [
+   "Competencias con armas",
+   "Amas sencillas"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras y medias y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po, o (B) 110 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 47
+ }
+}

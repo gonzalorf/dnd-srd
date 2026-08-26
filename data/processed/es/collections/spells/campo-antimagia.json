@@ -1,0 +1,71 @@
+{
+ "id": "spell.campo-antimagia",
+ "name": "Campo antimagia",
+ "level": 8,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (virutas de hierro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "virutas de hierro",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Un aura de antimagia te envuelve en una emanación de 3 m. Dentro de ella nadie puede lanzar conjuros, emplear acciones de magia o crear otros efectos mágicos, y estos efectos no pueden hacer objetivo o afectar a nada de su interior. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni afectan a nada que esté en su interior.\n\nLas áreas de efecto que crean los conjuros u otro tipo de magia no pueden penetrar en el aura y nadie puede teletransportarse ni usar el viaje interplanar para entrar o salir de ella. Los portales se cierran de forma temporal mientras estén dentro del aura.\n\nLos conjuros activos se suprimen en la zona, salvo los que lancen un artefacto o deidad. Mientras un efecto está suprimido, no funciona, pero el tiempo que pasa suprimido cuenta para su duración.\n\nDisipar magia no tiene efecto en el aura, y las auras que creadas por distintos conjuros campo antimagia no se anulan entre sí.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Un aura de antimagia te envuelve en una emanación de 3 m. Dentro de ella nadie puede lanzar conjuros, emplear acciones de magia o crear otros efectos mágicos, y estos efectos no pueden hacer objetivo o afectar a nada de su interior. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni afectan a nada que esté en su interior.",
+   "text": "Un aura de antimagia te envuelve en una emanación de 3 m. Dentro de ella nadie puede lanzar conjuros, emplear acciones de magia o crear otros efectos mágicos, y estos efectos no pueden hacer objetivo o afectar a nada de su interior. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni afectan a nada que esté en su interior."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Las áreas de efecto que crean los conjuros u otro tipo de magia no pueden penetrar en el aura y nadie puede teletransportarse ni usar el viaje interplanar para entrar o salir de ella. Los portales se cierran de forma temporal mientras estén dentro del aura.",
+   "text": "Las áreas de efecto que crean los conjuros u otro tipo de magia no pueden penetrar en el aura y nadie puede teletransportarse ni usar el viaje interplanar para entrar o salir de ella. Los portales se cierran de forma temporal mientras estén dentro del aura."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Los conjuros activos se suprimen en la zona, salvo los que lancen un artefacto o deidad. Mientras un efecto está suprimido, no funciona, pero el tiempo que pasa suprimido cuenta para su duración.",
+   "text": "Los conjuros activos se suprimen en la zona, salvo los que lancen un artefacto o deidad. Mientras un efecto está suprimido, no funciona, pero el tiempo que pasa suprimido cuenta para su duración."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "*Disipar magia* no tiene efecto en el aura, y las auras que creadas por distintos conjuros *campo antimagia* no se anulan entre sí.",
+   "text": "Disipar magia no tiene efecto en el aura, y las auras que creadas por distintos conjuros campo antimagia no se anulan entre sí."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 127
+ },
+ "refs": [
+  "spell.disipar-magia"
+ ]
+}

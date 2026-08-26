@@ -1,0 +1,23 @@
+{
+ "id": "item.babuchas-de-trepar-cual-aracnido",
+ "name": "Babuchas de trepar cual arácnido",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves puesto este calzado ligero, podrás moverte hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Tienes una velocidad trepando igual a tu velocidad. No obstante, las babuchas no te permiten desplazarte de esta forma por una superficie resbaladiza, como una zona cubierta por hielo o aceite.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 236,
+   "md": "Mientras lleves puesto este calzado ligero, podrás moverte hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Tienes una velocidad trepando igual a tu velocidad. No obstante, las babuchas no te permiten desplazarte de esta forma por una superficie resbaladiza, como una zona cubierta por hielo o aceite.",
+   "text": "Mientras lleves puesto este calzado ligero, podrás moverte hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Tienes una velocidad trepando igual a tu velocidad. No obstante, las babuchas no te permiten desplazarte de esta forma por una superficie resbaladiza, como una zona cubierta por hielo o aceite."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 236
+ }
+}

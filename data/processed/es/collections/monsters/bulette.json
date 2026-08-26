@@ -1,0 +1,106 @@
+{
+ "id": "monster.bulette",
+ "name": "Bulette",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 289
+ },
+ "context": [
+  "Bulette"
+ ],
+ "metaRaw": "Monstruosidad Grande, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "94 (9d10 + 45)",
+  "average": 94,
+  "formula": "9d10 + 45"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "excavar": 12.0
+ },
+ "skills": {
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "sentir vibraciones 36 m, visión en la oscuridad 18 m; Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El bulette realiza dos ataques de mordisco.",
+   "page": 289,
+   "description": "El bulette realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 17 (2d12 + 4) de daño perforante.",
+   "page": 289,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 17 (2d12 + 4) de daño perforante."
+  },
+  {
+   "name": "Salto mortífero",
+   "md": "***Salto mortífero.*** El bulette gasta 1,5 m de movimiento para saltar a un espacio a 4,5 m o menos que contenga una o varias criaturas Grandes o más pequeñas. *Tirada de salvación de Destreza:* CD 15, todas las criaturas situadas en el espacio de destino del bulette. *Fallo:* 19 (3d12) de daño contundente y el objetivo tiene el estado de derribado. *Éxito:* la mitad del daño y el objetivo es empujado 1,5 m respecto al bulette en línea recta.",
+   "page": 289,
+   "description": "El bulette gasta 1,5 m de movimiento para saltar a un espacio a 4,5 m o menos que contenga una o varias criaturas Grandes o más pequeñas. *Tirada de salvación de Destreza:* CD 15, todas las criaturas situadas en el espacio de destino del bulette. *Fallo:* 19 (3d12) de daño contundente y el objetivo tiene el estado de derribado. *Éxito:* la mitad del daño y el objetivo es empujado 1,5 m respecto al bulette en línea recta."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto",
+   "md": "***Salto.*** El bulette gasta 3 m de movimiento para saltar hasta 9 m.",
+   "page": 289,
+   "description": "El bulette gasta 3 m de movimiento para saltar hasta 9 m."
+  }
+ ]
+}

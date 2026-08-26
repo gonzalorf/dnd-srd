@@ -1,0 +1,41 @@
+{
+ "id": "table.equipo-inicial-a-niveles-superiores",
+ "caption": "Equipo inicial a niveles superiores",
+ "header": [
+  "Nivel inicial",
+  "Equipo y dinero",
+  "Objetos mágicos"
+ ],
+ "rows": [
+  [
+   "2–4",
+   "Equipo inicial normal",
+   "1 común"
+  ],
+  [
+   "5–10",
+   "500 po más 1d10 × 25 po más equipo inicial normal",
+   "1 común y 1 infrecuente"
+  ],
+  [
+   "11–16",
+   "5000 po más 1d10 × 250 po más equipo inicial normal",
+   "2 comunes, 3 infrecuentes y 1 raro"
+  ],
+  [
+   "17–20",
+   "20 000 po más 1d10 × 250 po más",
+   "2 comunes, 4 infrecuentes, 3 raros y 1 muy raro"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Creación de personajes",
+  "Multiclase",
+  "Puntos de golpe y dados de golpe"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 27
+ }
+}

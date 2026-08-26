@@ -1,0 +1,32 @@
+{
+ "id": "gear.campana",
+ "name": "Campana",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Campana",
+  "Peso": "—",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia.",
+   "text": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia."
+  }
+ ],
+ "descriptionPage": 104
+}

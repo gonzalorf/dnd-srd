@@ -1,0 +1,91 @@
+{
+ "id": "monster.babuino",
+ "name": "Babuino",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 378
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Pequeña, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Pequeño",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "3 (1d6)",
+  "average": 3,
+  "formula": "1d6"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en manada",
+   "md": "***Atacar en manada.*** El babuino tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del babuino se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.",
+   "page": 378,
+   "description": "El babuino tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del babuino se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +1, alcance 1,5 m. *Acierto:* 1 (1d4 − 1) de daño perforante.",
+   "page": 378,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +1, alcance 1,5 m. *Acierto:* 1 (1d4 − 1) de daño perforante."
+  }
+ ]
+}

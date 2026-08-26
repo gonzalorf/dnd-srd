@@ -1,0 +1,133 @@
+{
+ "id": "monster.hombre-tigre",
+ "name": "Hombre tigre",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 340,
+  "pages": [
+   340,
+   341
+  ]
+ },
+ "context": [
+  "Hombre tigre"
+ ],
+ "metaRaw": "Monstruosidad Mediana o Pequeña (licántropo), neutral",
+ "type": "Monstruosidad",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "licántropo"
+ ],
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "120 (16d8 + 48)",
+  "average": 120,
+  "formula": "16d8 + 48"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 5,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "común (no puede hablar en forma de tigre)"
+ ],
+ "gear": [
+  "arco largo"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hombre tigre realiza dos ataques con su arañazo o su arco largo en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco.",
+   "page": 340,
+   "description": "El hombre tigre realiza dos ataques con su arañazo o su arco largo en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco."
+  },
+  {
+   "name": "Arañazo",
+   "md": "***Arañazo.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante."
+  },
+  {
+   "name": "Mordisco (solo en forma de tigre o híbrida)",
+   "md": "***Mordisco (solo en forma de tigre o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 12 (2d8 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 13. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 12 (2d8 + 3) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 13. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se"
+  },
+  {
+   "name": null,
+   "md": "reducen a 0, en vez de ello, se convertirá en un hombre tigre controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre tigre durante 24 horas.",
+   "page": 341
+  },
+  {
+   "name": "Arco largo (solo en forma humanoide o híbrida)",
+   "md": "***Arco largo (solo en forma humanoide o híbrida).*** *Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 11 (2d8 + 2) de daño perforante.",
+   "page": 341,
+   "description": "*Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 11 (2d8 + 2) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El hombre tigre adopta la forma de un híbrido de tigre-humanoide Grande o de un tigre Grande, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 341,
+   "description": "El hombre tigre adopta la forma de un híbrido de tigre-humanoide Grande o de un tigre Grande, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  },
+  {
+   "name": "Merodear (solo en forma de tigre o híbrida)",
+   "md": "***Merodear (solo en forma de tigre o híbrida).*** El hombre tigre se mueve hasta su velocidad sin provocar ataques de oportunidad. Al final de este movimiento, puede usar la acción de esconderse.",
+   "page": 341,
+   "description": "El hombre tigre se mueve hasta su velocidad sin provocar ataques de oportunidad. Al final de este movimiento, puede usar la acción de esconderse."
+  }
+ ]
+}

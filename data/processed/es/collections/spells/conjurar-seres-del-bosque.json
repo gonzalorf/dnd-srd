@@ -1,0 +1,60 @@
+{
+ "id": "spell.conjurar-seres-del-bosque",
+ "name": "Conjurar seres del bosque",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Conjuras espíritus de la naturaleza que revolotean a tu alrededor en una emanación de 3 m hasta que el conjuro termine. Siempre que la emanación entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en la emanación o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Sabiduría. Sufrirá 5d8 de daño de fuerza si la falla o la mitad del daño si la supera. Una criatura solo hace esta tirada una vez por turno.\n\nAdemás, hasta que termine el conjuro, puedes llevar a cabo la acción de destrabarse como acción adicional.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Conjuras espíritus de la naturaleza que revolotean a tu alrededor en una emanación de 3 m hasta que el conjuro termine. Siempre que la emanación entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en la emanación o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Sabiduría. Sufrirá 5d8 de daño de fuerza si la falla o la mitad del daño si la supera. Una criatura solo hace esta tirada una vez por turno.",
+   "text": "Conjuras espíritus de la naturaleza que revolotean a tu alrededor en una emanación de 3 m hasta que el conjuro termine. Siempre que la emanación entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en la emanación o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Sabiduría. Sufrirá 5d8 de daño de fuerza si la falla o la mitad del daño si la supera. Una criatura solo hace esta tirada una vez por turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Además, hasta que termine el conjuro, puedes llevar a cabo la acción de destrabarse como acción adicional.",
+   "text": "Además, hasta que termine el conjuro, puedes llevar a cabo la acción de destrabarse como acción adicional."
+  },
+  {
+   "type": "definition",
+   "page": 132,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 132
+ }
+}

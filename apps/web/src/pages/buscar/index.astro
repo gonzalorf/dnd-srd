@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+---
+
+<Base title="Buscar" subtitle="Búsqueda de texto completo en todo el SRD, sin servidor.">
+  <p class="entradilla">
+    Busca en el texto completo del SRD. El índice se descarga por partes según
+    escribes, así que la primera carga son unas decenas de KB, no el libro entero.
+  </p>
+
+  <div id="buscador"></div>
+  <noscript>
+    <p class="aviso">
+      La búsqueda necesita JavaScript. Sin él, el libro sigue siendo navegable
+      desde <a href="/libro/">el índice</a>.
+    </p>
+  </noscript>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      new PagefindUI({
+        element: "#buscador",
+        showSubResults: true,
+        showImages: false,
+        translations: {
+          placeholder: "Buscar en el SRD",
+          clear_search: "Limpiar",
+          load_more: "Ver más resultados",
+          search_label: "Buscar en el SRD",
+          zero_results: "No hay resultados para [SEARCH_TERM]",
+          many_results: "[COUNT] resultados para [SEARCH_TERM]",
+          one_result: "1 resultado para [SEARCH_TERM]",
+          searching: "Buscando [SEARCH_TERM]…",
+        },
+      });
+    });
+  </script>
+</Base>

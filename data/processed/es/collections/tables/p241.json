@@ -1,0 +1,96 @@
+{
+ "id": "table.p241",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Abrir",
+   "2"
+  ],
+  [
+   "Agrandar/reducir",
+   "0"
+  ],
+  [
+   "Bola de fuego (versión de nivel 7)",
+   "7"
+  ],
+  [
+   "Cerradura arcana",
+   "0"
+  ],
+  [
+   "Conjurar elemental",
+   "7"
+  ],
+  [
+   "Desplazamiento entre planos",
+   "7"
+  ],
+  [
+   "Detectar magia",
+   "0"
+  ],
+  [
+   "Disipar magia",
+   "3"
+  ],
+  [
+   "Esfera de llamas",
+   "2"
+  ],
+  [
+   "Invisibilidad",
+   "2"
+  ],
+  [
+   "Luz",
+   "0"
+  ],
+  [
+   "Mano de mago",
+   "0"
+  ],
+  [
+   "Muro de fuego",
+   "4"
+  ],
+  [
+   "Pasamuros",
+   "5"
+  ],
+  [
+   "Protección contra el bien y el mal",
+   "0"
+  ],
+  [
+   "Relámpago (versión de nivel 7)",
+   "7"
+  ],
+  [
+   "Telaraña",
+   "2"
+  ],
+  [
+   "Telequinesis",
+   "5"
+  ],
+  [
+   "Tormenta de hielo",
+   "4"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bastón de los magos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 241
+ }
+}

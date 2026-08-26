@@ -1,0 +1,98 @@
+{
+ "id": "monster.serpiente-constrictora-gigante",
+ "name": "Serpiente constrictora gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 394
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "60 (8d12 + 8)",
+  "average": 60,
+  "formula": "8d12 + 8"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "visión ciega 3 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La serpiente realiza un ataque de mordisco y emplea su acción de constreñir.",
+   "page": 394,
+   "description": "La serpiente realiza un ataque de mordisco y emplea su acción de constreñir."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño perforante.",
+   "page": 394,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño perforante."
+  },
+  {
+   "name": "Constreñir",
+   "md": "***Constreñir.*** *Tirada de salvación de Fuerza:* CD 14, una criatura Grande o más pequeña que la serpiente pueda ver a 3 m o menos. *Fallo:* 13 (2d8 + 4) de daño contundente y el objetivo tendrá el estado de agarrado (CD 14 para escapar).",
+   "page": 394,
+   "description": "*Tirada de salvación de Fuerza:* CD 14, una criatura Grande o más pequeña que la serpiente pueda ver a 3 m o menos. *Fallo:* 13 (2d8 + 4) de daño contundente y el objetivo tendrá el estado de agarrado (CD 14 para escapar)."
+  }
+ ]
+}

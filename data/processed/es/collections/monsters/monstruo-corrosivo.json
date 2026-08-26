@@ -1,0 +1,119 @@
+{
+ "id": "monster.monstruo-corrosivo",
+ "name": "Monstruo corrosivo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 353
+ },
+ "context": [
+  "Monstruo corrosivo"
+ ],
+ "metaRaw": "Monstruosidad Mediana, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "33 (6d8 + 6)",
+  "average": 33,
+  "formula": "6d8 + 6"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Olfatear hierro",
+   "md": "***Olfatear hierro.*** El monstruo corrosivo puede identificar con exactitud la ubicación de los metales férricos situados a 9 m o menos de él.",
+   "page": 353,
+   "description": "El monstruo corrosivo puede identificar con exactitud la ubicación de los metales férricos situados a 9 m o menos de él."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El monstruo corrosivo realiza un ataque de mordisco y utiliza sus antenas dos veces.",
+   "page": 353,
+   "description": "El monstruo corrosivo realiza un ataque de mordisco y utiliza sus antenas dos veces."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 5 (1d8 + 1) de daño perforante.",
+   "page": 353,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 5 (1d8 + 1) de daño perforante."
+  },
+  {
+   "name": "Antenas",
+   "md": "***Antenas.*** El monstruo corrosivo hace objetivo a un objeto no mágico de metal (un arma o una armadura) que lleve o vista una criatura a 1,5 m o menos de él. *Tirada de salvación de Destreza:* CD 11, la criatura con el objeto. *Fallo:* el objeto tendrá un penalizador de −1 a las tiradas de ataque (arma) o a la CA que ofrece (armadura). Un arma se destruirá si el penalizador llega a −5; una armadura, si el penalizador reduce su CA hasta 10. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre el arma o la armadura.",
+   "page": 353,
+   "description": "El monstruo corrosivo hace objetivo a un objeto no mágico de metal (un arma o una armadura) que lleve o vista una criatura a 1,5 m o menos de él. *Tirada de salvación de Destreza:* CD 11, la criatura con el objeto. *Fallo:* el objeto tendrá un penalizador de −1 a las tiradas de ataque (arma) o a la CA que ofrece (armadura). Un arma se destruirá si el penalizador llega a −5; una armadura, si el penalizador reduce su CA hasta 10. El penalizador se puede eliminar lanzando el conjuro *reparar* sobre el arma o la armadura."
+  },
+  {
+   "name": "Destruir metal",
+   "md": "***Destruir metal.*** El monstruo corrosivo toca un objeto no mágico de metal a 1,5 m o menos de él que no vista o lleve nadie. El contacto destruye un cubo de 30 cm de lado del objeto.",
+   "page": 353,
+   "description": "El monstruo corrosivo toca un objeto no mágico de metal a 1,5 m o menos de él que no vista o lleve nadie. El contacto destruye un cubo de 30 cm de lado del objeto."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Antenas reflexivas",
+   "md": "***Antenas reflexivas.*** *Detonante:* una tirada de ataque acierta al monstruo corrosivo. *Respuesta:* el monstruo corrosivo utiliza sus antenas.",
+   "page": 353,
+   "description": "*Detonante:* una tirada de ataque acierta al monstruo corrosivo. *Respuesta:* el monstruo corrosivo utiliza sus antenas."
+  }
+ ],
+ "refs": [
+  "spell.reparar"
+ ]
+}

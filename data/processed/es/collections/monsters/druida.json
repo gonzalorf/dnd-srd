@@ -1,0 +1,127 @@
+{
+ "id": "monster.druida",
+ "name": "Druida",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 318
+ },
+ "context": [
+  "Druida"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño (druida), neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "druida"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "44 (8d8 + 8)",
+  "average": 44,
+  "formula": "8d8 + 8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Medicina": 5,
+  "Naturaleza": 3,
+  "Percepción": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "común",
+  "druídico",
+  "silvano"
+ ],
+ "gear": [
+  "armadura de cuero tachonado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El druida realiza dos ataques con su bastón de enredaderas o con su voluta verdeante en cualquier combinación.",
+   "page": 318,
+   "description": "El druida realiza dos ataques con su bastón de enredaderas o con su voluta verdeante en cualquier combinación."
+  },
+  {
+   "name": "Bastón de enredaderas",
+   "md": "***Bastón de enredaderas.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente más 2 (1d4) de daño de veneno.",
+   "page": 318,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente más 2 (1d4) de daño de veneno."
+  },
+  {
+   "name": "Voluta verdeante",
+   "md": "***Voluta verdeante.*** *Tirada de ataque a distancia:* +5, alcance 27 m. *Acierto:* 10 (3d6) de daño radiante.",
+   "page": 318,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 27 m. *Acierto:* 10 (3d6) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El druida lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 13):",
+   "page": 318,
+   "description": "El druida lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 13):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *hablar con los animales*, *saber druídico* 2/día cada uno: *enmarañar*, *ola atronadora* 1/día cada uno: *mensajero animal*, *rayo de luna*, *zancada prodigiosa*",
+   "page": 318
+  }
+ ],
+ "refs": [
+  "spell.hablar-con-los-animales",
+  "spell.saber-druidico",
+  "spell.enmaranar",
+  "spell.ola-atronadora",
+  "spell.mensajero-animal",
+  "spell.rayo-de-luna",
+  "spell.zancada-prodigiosa"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "rule.paralizado",
+ "name": "Paralizado",
+ "text": "Mientras tengas el estado de paralizado, experimentarás los siguientes efectos:\n\nIncapacitado. Tienes el estado de incapacitado.\n\nVelocidad 0. Tu velocidad es 0 y no puede aumentar.\n\nTiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen ventaja.\n\nCríticos automáticos. Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Mientras tengas el estado de paralizado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de paralizado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Incapacitado.*** Tienes el estado de incapacitado.",
+   "text": "Incapacitado. Tienes el estado de incapacitado."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Velocidad 0.*** Tu velocidad es 0 y no puede aumentar.",
+   "text": "Velocidad 0. Tu velocidad es 0 y no puede aumentar."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Tiradas de salvación afectadas.*** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.",
+   "text": "Tiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen ventaja.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen ventaja."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Críticos automáticos.*** Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.",
+   "text": "Críticos automáticos. Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ },
+ "kind": "estado"
+}

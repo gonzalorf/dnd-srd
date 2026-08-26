@@ -1,0 +1,110 @@
+{
+ "id": "monster.duende",
+ "name": "Duende",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 318
+ },
+ "context": [
+  "Duende"
+ ],
+ "metaRaw": "Feérico Diminuto, neutral bueno",
+ "type": "Feérico",
+ "alignment": "neutral bueno",
+ "size": "Diminuto",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "10 (4d4)",
+  "average": 10,
+  "formula": "4d4"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 12.0
+ },
+ "skills": {
+  "Percepción": 3,
+  "Sigilo": 8
+ },
+ "senses": {
+  "raw": "Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "común",
+  "elfo",
+  "silvano"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Espada aguja",
+   "md": "***Espada aguja.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño perforante.",
+   "page": 318,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño perforante."
+  },
+  {
+   "name": "Arco encantador",
+   "md": "***Arco encantador.*** *Tirada de ataque a distancia:* +6, alcance 12/48 m. *Acierto:* 1 de daño perforante y el objetivo tendrá el estado de hechizado hasta el principio del siguiente turno del duende.",
+   "page": 318,
+   "description": "*Tirada de ataque a distancia:* +6, alcance 12/48 m. *Acierto:* 1 de daño perforante y el objetivo tendrá el estado de hechizado hasta el principio del siguiente turno del duende."
+  },
+  {
+   "name": "Invisibilidad",
+   "md": "***Invisibilidad.*** El duende lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica.",
+   "page": 318,
+   "description": "El duende lanza *invisibilidad* sobre sí mismo sin necesidad de componentes y utiliza el Carisma como aptitud mágica."
+  },
+  {
+   "name": "Visión del corazón",
+   "md": "***Visión del corazón.*** *Tirada de salvación de Carisma:* CD 10, una criatura que el duende pueda ver a 1,5 m o menos (los celestiales, infernales y muertos vivientes fallan automáticamente la tirada). *Fallo:* el duende descubre las emociones y el alineamiento del objetivo.",
+   "page": 318,
+   "description": "*Tirada de salvación de Carisma:* CD 10, una criatura que el duende pueda ver a 1,5 m o menos (los celestiales, infernales y muertos vivientes fallan automáticamente la tirada). *Fallo:* el duende descubre las emociones y el alineamiento del objetivo."
+  }
+ ],
+ "refs": [
+  "spell.invisibilidad"
+ ]
+}

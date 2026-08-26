@@ -1,0 +1,49 @@
+{
+ "id": "spell.embelesar",
+ "name": "Embelesar",
+ "level": 2,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas una serie de palabras encantadoras que provocan que una o más criaturas de tu elección a las que puedas ver dentro del alcance deban hacer una tirada de salvación de Sabiduría. Cualquier criatura contra la que luchéis tus aliados o tú superará automáticamente esta tirada. Si la falla, el objetivo sufrirá un penalizador de −10 a las pruebas de Sabiduría (Percepción) y a la Percepción pasiva hasta que el conjuro termine.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "Creas una serie de palabras encantadoras que provocan que una o más criaturas de tu elección a las que puedas ver dentro del alcance deban hacer una tirada de salvación de Sabiduría. Cualquier criatura contra la que luchéis tus aliados o tú superará automáticamente esta tirada. Si la falla, el objetivo sufrirá un penalizador de −10 a las pruebas de Sabiduría (Percepción) y a la Percepción pasiva hasta que el conjuro termine.",
+   "text": "Creas una serie de palabras encantadoras que provocan que una o más criaturas de tu elección a las que puedas ver dentro del alcance deban hacer una tirada de salvación de Sabiduría. Cualquier criatura contra la que luchéis tus aliados o tú superará automáticamente esta tirada. Si la falla, el objetivo sufrirá un penalizador de −10 a las pruebas de Sabiduría (Percepción) y a la Percepción pasiva hasta que el conjuro termine."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 144
+ }
+}

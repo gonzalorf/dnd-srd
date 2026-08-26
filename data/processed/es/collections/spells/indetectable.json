@@ -1,0 +1,51 @@
+{
+ "id": "spell.indetectable",
+ "name": "Indetectable",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "explorador",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Hasta que termine el conjuro, escondes a un objetivo que toques ante los conjuros de adivinación. Este puede ser una criatura voluntaria, o un lugar o un objeto que no midan más de 3 m en ninguna de sus dimensiones. El objetivo no podrá ser el objetivo de conjuros de adivinación ni podrá ser percibido mediante sensores mágicos de escudriñamiento.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 158,
+   "md": "Hasta que termine el conjuro, escondes a un objetivo que toques ante los conjuros de adivinación. Este puede ser una criatura voluntaria, o un lugar o un objeto que no midan más de 3 m en ninguna de sus dimensiones. El objetivo no podrá ser el objetivo de conjuros de adivinación ni podrá ser percibido mediante sensores mágicos de escudriñamiento.",
+   "text": "Hasta que termine el conjuro, escondes a un objetivo que toques ante los conjuros de adivinación. Este puede ser una criatura voluntaria, o un lugar o un objeto que no midan más de 3 m en ninguna de sus dimensiones. El objetivo no podrá ser el objetivo de conjuros de adivinación ni podrá ser percibido mediante sensores mágicos de escudriñamiento."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 158
+ }
+}

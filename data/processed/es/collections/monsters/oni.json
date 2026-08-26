@@ -1,0 +1,148 @@
+{
+ "id": "monster.oni",
+ "name": "Oni",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 355,
+  "pages": [
+   355,
+   356
+  ]
+ },
+ "context": [
+  "Oni"
+ ],
+ "metaRaw": "Infernal Grande, legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Grande",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "119 (14d10 + 42)",
+  "average": 119,
+  "formula": "14d10 + 42"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Conocimiento arcano": 5,
+  "Engaño": 8,
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "común",
+  "gigante"
+ ],
+ "resistances": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "7 (2900 PX; BC +3)",
+  "cr": 7,
+  "xp": 2900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 3
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 6
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Regeneración",
+   "md": "***Regeneración.*** El oni recupera 10 puntos de golpe al principio de cada uno de sus turnos si tiene al menos 1 punto de golpe.",
+   "page": 356,
+   "description": "El oni recupera 10 puntos de golpe al principio de cada uno de sus turnos si tiene al menos 1 punto de golpe."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El oni realiza dos ataques con sus garras o su rayo de pesadilla. Puede sustituir un ataque por un uso de su lanzamiento de conjuros.",
+   "page": 356,
+   "description": "El oni realiza dos ataques con sus garras o su rayo de pesadilla. Puede sustituir un ataque por un uso de su lanzamiento de conjuros."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 10 (1d12 + 4) de daño cortante más 9 (2d8) de daño necrótico.",
+   "page": 356,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 10 (1d12 + 4) de daño cortante más 9 (2d8) de daño necrótico."
+  },
+  {
+   "name": "Rayo de pesadilla",
+   "md": "***Rayo de pesadilla.*** *Tirada de ataque a distancia:* +5, alcance 18 m. *Acierto:* 9 (2d6 + 2) de daño psíquico y el objetivo tendrá el estado de asustado hasta el principio del siguiente turno del oni.",
+   "page": 356,
+   "description": "*Tirada de ataque a distancia:* +5, alcance 18 m. *Acierto:* 9 (2d6 + 2) de daño psíquico y el objetivo tendrá el estado de asustado hasta el principio del siguiente turno del oni."
+  },
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El oni se convierte en un humanoide Pequeño o Mediano, un gigante Grande o recupera su auténtica forma. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 356,
+   "description": "El oni se convierte en un humanoide Pequeño o Mediano, un gigante Grande o recupera su auténtica forma. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El oni lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 13):",
+   "page": 356,
+   "description": "El oni lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 13):"
+  },
+  {
+   "name": null,
+   "md": "1/día cada uno: *dormir*, *forma gaseosa*, *hechizar persona* (versión de nivel 2), *oscuridad*",
+   "page": 356
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Invisibilidad",
+   "md": "***Invisibilidad.*** El oni lanza *invisibilidad* sobre sí mismo, que no requiere componentes y utiliza la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 356,
+   "description": "El oni lanza *invisibilidad* sobre sí mismo, que no requiere componentes y utiliza la misma aptitud mágica que para su lanzamiento de conjuros."
+  }
+ ],
+ "refs": [
+  "spell.dormir",
+  "spell.forma-gaseosa",
+  "spell.hechizar-persona",
+  "spell.oscuridad",
+  "spell.invisibilidad"
+ ]
+}

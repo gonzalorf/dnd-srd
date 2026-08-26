@@ -1,0 +1,94 @@
+{
+ "id": "monster.hongo-violeta",
+ "name": "Hongo violeta",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 341
+ },
+ "context": [
+  "Hongos"
+ ],
+ "metaRaw": "Planta Mediana, sin alineamiento",
+ "type": "Planta",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 5,
+ "acRaw": "5",
+ "initiative": {
+  "mod": -5,
+  "score": 5
+ },
+ "hp": {
+  "raw": "18 (4d8)",
+  "average": 18,
+  "formula": "4d8"
+ },
+ "speeds": {
+  "caminando": 1.5
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 6",
+  "passivePerception": 6
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "asustado",
+  "cegado",
+  "ensordecido",
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hongo realiza dos ataques con su toque putrefacto.",
+   "page": 341,
+   "description": "El hongo realiza dos ataques con su toque putrefacto."
+  },
+  {
+   "name": "Toque putrefacto",
+   "md": "***Toque putrefacto.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 3 m. *Acierto:* 4 (1d8) de daño necrótico.",
+   "page": 341,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 3 m. *Acierto:* 4 (1d8) de daño necrótico."
+  }
+ ]
+}

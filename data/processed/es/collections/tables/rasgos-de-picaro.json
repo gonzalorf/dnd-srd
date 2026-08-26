@@ -1,0 +1,142 @@
+{
+ "id": "table.rasgos-de-picaro",
+ "caption": "Rasgos de pícaro",
+ "header": [
+  "Nivel",
+  "Bonificador por competencia",
+  "Rasgos de clase",
+  "Ataque furtivo"
+ ],
+ "rows": [
+  [
+   "1",
+   "+2",
+   "Ataque furtivo, Jerga de ladrones, Maestría con armas, Pericia",
+   "1d6"
+  ],
+  [
+   "2",
+   "+2",
+   "Acción astuta",
+   "1d6"
+  ],
+  [
+   "3",
+   "+2",
+   "Puntería certera, subclase de pícaro",
+   "2d6"
+  ],
+  [
+   "4",
+   "+2",
+   "Mejora de característica",
+   "2d6"
+  ],
+  [
+   "5",
+   "+3",
+   "Esquiva asombrosa, Golpe astuto",
+   "3d6"
+  ],
+  [
+   "6",
+   "+3",
+   "Pericia",
+   "3d6"
+  ],
+  [
+   "7",
+   "+3",
+   "Evasión, Talentos fiables",
+   "4d6"
+  ],
+  [
+   "8",
+   "+3",
+   "Mejora de característica",
+   "4d6"
+  ],
+  [
+   "9",
+   "+4",
+   "Rasgo de subclase",
+   "5d6"
+  ],
+  [
+   "10",
+   "+4",
+   "Mejora de característica",
+   "5d6"
+  ],
+  [
+   "11",
+   "+4",
+   "Golpe astuto mejorado",
+   "6d6"
+  ],
+  [
+   "12",
+   "+4",
+   "Mejora de característica",
+   "6d6"
+  ],
+  [
+   "13",
+   "+5",
+   "Rasgo de subclase",
+   "7d6"
+  ],
+  [
+   "14",
+   "+5",
+   "Golpes taimados",
+   "7d6"
+  ],
+  [
+   "15",
+   "+5",
+   "Mente escurridiza",
+   "8d6"
+  ],
+  [
+   "16",
+   "+5",
+   "Mejora de característica",
+   "8d6"
+  ],
+  [
+   "17",
+   "+6",
+   "Rasgo de subclase",
+   "9d6"
+  ],
+  [
+   "18",
+   "+6",
+   "Elusivo",
+   "9d6"
+  ],
+  [
+   "19",
+   "+6",
+   "Don épico",
+   "10d6"
+  ],
+  [
+   "20",
+   "+6",
+   "Golpe de suerte",
+   "10d6"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Clases",
+  "Pícaro",
+  "Rasgos de clase de pícaro"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 86
+ }
+}

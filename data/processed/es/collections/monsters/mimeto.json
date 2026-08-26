@@ -1,0 +1,116 @@
+{
+ "id": "monster.mimeto",
+ "name": "Mimeto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 351
+ },
+ "context": [
+  "Mimeto"
+ ],
+ "metaRaw": "Monstruosidad Mediana, neutral",
+ "type": "Monstruosidad",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "58 (9d8 + 18)",
+  "average": 58,
+  "formula": "9d8 + 18"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "skills": {
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "ácido",
+  "derribado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Adhesivo (solo con forma de objeto)",
+   "md": "***Adhesivo (solo con forma de objeto).*** El mimeto se adhiere a cualquiera que lo toque. Las criaturas Enormes o más pequeñas a las que se adhiera el mimeto tendrán el estado de agarradas (CD 13 para escapar). Las pruebas de característica para escapar de este agarre tienen desventaja.",
+   "page": 351,
+   "description": "El mimeto se adhiere a cualquiera que lo toque. Las criaturas Enormes o más pequeñas a las que se adhiera el mimeto tendrán el estado de agarradas (CD 13 para escapar). Las pruebas de característica para escapar de este agarre tienen desventaja."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el mimeto tiene agarrado al objetivo), alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante o 12 (2d8 + 3) de daño perforante si el mimeto tiene agarrado al objetivo, más 4 (1d8) de daño de ácido.",
+   "page": 351,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el mimeto tiene agarrado al objetivo), alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante o 12 (2d8 + 3) de daño perforante si el mimeto tiene agarrado al objetivo, más 4 (1d8) de daño de ácido."
+  },
+  {
+   "name": "Pseudópodo",
+   "md": "***Pseudópodo.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente más 4 (1d8) de daño de ácido. Si el objetivo es una",
+   "page": 351,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente más 4 (1d8) de daño de ácido. Si el objetivo es una"
+  },
+  {
+   "name": null,
+   "md": "criatura Grande o más pequeña, tendrá el estado de agarrada (CD 13 para escapar). Las pruebas de característica para escapar de este agarre tienen desventaja.",
+   "page": 351
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El mimeto cambia de forma para parecer un objeto Mediano o Pequeño, pero conservando su perfil, o recupera su auténtica forma de amasijo. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 351,
+   "description": "El mimeto cambia de forma para parecer un objeto Mediano o Pequeño, pero conservando su perfil, o recupera su auténtica forma de amasijo. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ]
+}

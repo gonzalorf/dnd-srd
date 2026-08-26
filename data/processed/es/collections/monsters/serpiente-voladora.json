@@ -1,0 +1,92 @@
+{
+ "id": "monster.serpiente-voladora",
+ "name": "Serpiente voladora",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 395
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Monstruosidad Diminuta, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "5 (2d4)",
+  "average": 5,
+  "formula": "2d4"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión ciega 3 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Pasar volando",
+   "md": "***Pasar volando.*** La serpiente no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.",
+   "page": 395,
+   "description": "La serpiente no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante más 5 (2d4) de daño de veneno.",
+   "page": 395,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante más 5 (2d4) de daño de veneno."
+  }
+ ]
+}

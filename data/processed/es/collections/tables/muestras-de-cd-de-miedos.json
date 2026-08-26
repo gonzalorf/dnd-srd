@@ -1,0 +1,32 @@
+{
+ "id": "table.muestras-de-cd-de-miedos",
+ "caption": "Muestras de CD de miedos",
+ "header": [
+  "Ejemplo",
+  "CD de salvación"
+ ],
+ "rows": [
+  [
+   "Cuando un personaje abra un sarcófago, de él surge una aparición inofensiva pero aterradora.",
+   "10"
+  ],
+  [
+   "Un personaje activa una trampa mágica que crea una manifestación ilusoria de sus miedos más profundos que solo él puede ver.",
+   "15"
+  ],
+  [
+   "Se abre un portal al Abismo y muestra un reino de tormento, matanzas y pesadillas.",
+   "20"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Herramientas del juego",
+  "Miedo y estrés psicológico",
+  "Efectos de miedo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 215
+ }
+}

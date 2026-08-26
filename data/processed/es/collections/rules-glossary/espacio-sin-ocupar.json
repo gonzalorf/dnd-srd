@@ -1,0 +1,17 @@
+{
+ "id": "rule.espacio-sin-ocupar",
+ "name": "Espacio sin ocupar",
+ "text": "Un espacio está sin ocupar si no hay criaturas en él y si no está completamente lleno de objetos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Un espacio está sin ocupar si no hay criaturas en él y si no está completamente lleno de objetos.",
+   "text": "Un espacio está sin ocupar si no hay criaturas en él y si no está completamente lleno de objetos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ }
+}

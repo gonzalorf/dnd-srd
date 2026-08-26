@@ -1,0 +1,174 @@
+{
+ "id": "monster.esfinge-del-conocimiento",
+ "name": "Esfinge del conocimiento",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 321,
+  "pages": [
+   321,
+   322
+  ]
+ },
+ "context": [
+  "Esfinges"
+ ],
+ "metaRaw": "Celestial Grande, legal neutral",
+ "type": "Celestial",
+ "alignment": "legal neutral",
+ "size": "Grande",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 10,
+  "score": 20
+ },
+ "hp": {
+  "raw": "170 (20d10 + 60)",
+  "average": 170,
+  "formula": "20d10 + 60"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Conocimiento arcano": 12,
+  "Historia": 12,
+  "Percepción": 8,
+  "Religión": 12
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "celestial",
+  "común"
+ ],
+ "immunities": [
+  "psíquico",
+  "asustado",
+  "hechizado"
+ ],
+ "resistances": [
+  "necrótico",
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "11 (7200 PX u 8400 en la guarida; BC +4)",
+  "cr": 11,
+  "xp": 7200,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "traits": [
+  {
+   "name": "Inescrutable",
+   "md": "***Inescrutable.*** La magia no puede observar desde lejos a la esfinge ni detectar sus pensamientos sin su permiso. Las pruebas de Sabiduría (Perspicacia) realizadas para determinar sus intenciones tienen desventaja.",
+   "page": 321,
+   "description": "La magia no puede observar desde lejos a la esfinge ni detectar sus pensamientos sin su permiso. Las pruebas de Sabiduría (Perspicacia) realizadas para determinar sus intenciones tienen desventaja."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** La esfinge puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 321,
+   "description": "La esfinge puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La esfinge realiza tres ataques con sus garras.",
+   "page": 321,
+   "description": "La esfinge realiza tres ataques con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño cortante.",
+   "page": 322,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño cortante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La esfinge lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 16):",
+   "page": 322,
+   "description": "La esfinge lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 16):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *identificar*, *ilusión menor*, *mano de mago*, *prestidigitación* 1/día cada uno: *conocer las leyendas*, *desplazamiento entre planos*, *disipar magia*, *don de lenguas*, *levantar maldición*, *localizar objeto*",
+   "page": 322
+  },
+  {
+   "name": "Rugido desgarramentes",
+   "md": "***Rugido desgarramentes (recarga 5–6).*** *Tirada de salvación de Sabiduría:* CD 16, todos los enemigos en una emanación de 90 m que se origina en la esfinge. *Fallo:* 35 (10d6) de daño psíquico y el objetivo tendrá el estado de incapacitado hasta el principio del siguiente turno de la esfinge.",
+   "page": 322,
+   "description": "*Tirada de salvación de Sabiduría:* CD 16, todos los enemigos en una emanación de 90 m que se origina en la esfinge. *Fallo:* 35 (10d6) de daño psíquico y el objetivo tendrá el estado de incapacitado hasta el principio del siguiente turno de la esfinge.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Merodeo arcano",
+    "md": "***Merodeo arcano.*** La esfinge puede teletransportarse hasta 9 m a un espacio sin ocupar que pueda ver y realiza un ataque con sus garras.",
+    "page": 322,
+    "description": "La esfinge puede teletransportarse hasta 9 m a un espacio sin ocupar que pueda ver y realiza un ataque con sus garras."
+   },
+   {
+    "name": "Peso de los años",
+    "md": "***Peso de los años.*** *Tirada de salvación de Constitución:* CD 16, una criatura que la esfinge pueda ver a 36 m o menos. *Fallo:* el objetivo suma 1 nivel de cansancio. Mientras el objetivo tenga al menos 1 nivel de cansancio, parecerá 3d10 años más viejo. *Fallo o éxito:* la esfinge no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 322,
+    "description": "*Tirada de salvación de Constitución:* CD 16, una criatura que la esfinge pueda ver a 36 m o menos. *Fallo:* el objetivo suma 1 nivel de cansancio. Mientras el objetivo tenga al menos 1 nivel de cansancio, parecerá 3d10 años más viejo. *Fallo o éxito:* la esfinge no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, la esfinge puede emplear un uso para llevar a cabo una de las siguientes acciones. La esfinge recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.detectar-magia",
+  "spell.identificar",
+  "spell.ilusion-menor",
+  "spell.mano-de-mago",
+  "spell.prestidigitacion",
+  "spell.conocer-las-leyendas",
+  "spell.desplazamiento-entre-planos",
+  "spell.disipar-magia",
+  "spell.don-de-lenguas",
+  "spell.levantar-maldicion",
+  "spell.localizar-objeto"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "table.proteccion-de-la-naturaleza",
+ "caption": "Protección de la naturaleza",
+ "header": [
+  "Tipo de terreno",
+  "Resistencia"
+ ],
+ "rows": [
+  [
+   "Árido",
+   "Fuego"
+  ],
+  [
+   "Polar",
+   "Frío"
+  ],
+  [
+   "Templado",
+   "Relámpago"
+  ],
+  [
+   "Tropical",
+   "Veneno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Subclase de druida: Círculo de la tierra",
+  "Nivel 10: Protección de la naturaleza"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 57
+ }
+}

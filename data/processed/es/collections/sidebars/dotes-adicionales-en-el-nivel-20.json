@@ -1,0 +1,20 @@
+{
+ "id": "sidebar.dotes-adicionales-en-el-nivel-20",
+ "title": "Dotes adicionales en el nivel 20",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Los GM pueden utilizar las dotes como herramienta de progreso una vez que los personajes han alcanzado el nivel 20 para proporcionar más poder a quienes ya no pueden subir más de nivel. De esta forma, cada personaje obtiene una dote de su elección por cada 30 000 PX que consiga por encima de los 355 000. Las dotes de don épico son especialmente apropiadas como dotes adicionales, pero un jugador puede escoger cualquier dote a la que pueda optar su personaje de nivel 20.",
+   "text": "Los GM pueden utilizar las dotes como herramienta de progreso una vez que los personajes han alcanzado el nivel 20 para proporcionar más poder a quienes ya no pueden subir más de nivel. De esta forma, cada personaje obtiene una dote de su elección por cada 30 000 PX que consiga por encima de los 355 000. Las dotes de don épico son especialmente apropiadas como dotes adicionales, pero un jugador puede escoger cualquier dote a la que pueda optar su personaje de nivel 20."
+  }
+ ],
+ "context": [
+  "Creación de personajes",
+  "Progresión de niveles",
+  "Subir de nivel"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 26
+ }
+}

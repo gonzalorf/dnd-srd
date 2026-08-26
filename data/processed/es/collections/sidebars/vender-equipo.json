@@ -1,0 +1,19 @@
+{
+ "id": "sidebar.vender-equipo",
+ "title": "Vender equipo",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "El equipo se vende a la mitad de su precio de compra. Sin embargo, las mercancías y los objetos valiosos, como las gemas y las obras de arte, mantienen su valor completo en el mercado. El capítulo “Objetos mágicos” contiene precios para los objetos mágicos.",
+   "text": "El equipo se vende a la mitad de su precio de compra. Sin embargo, las mercancías y los objetos valiosos, como las gemas y las obras de arte, mantienen su valor completo en el mercado. El capítulo “Objetos mágicos” contiene precios para los objetos mágicos."
+  }
+ ],
+ "context": [
+  "Equipo",
+  "Armas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 97
+ }
+}

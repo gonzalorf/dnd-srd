@@ -1,0 +1,61 @@
+{
+ "id": "table.monturas-y-otros-animales",
+ "caption": "Monturas y otros animales",
+ "header": [
+  "Animal",
+  "Capacidad de carga",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Caballo de guerra",
+   "270 kg",
+   "400 po"
+  ],
+  [
+   "Caballo de monta",
+   "240 kg",
+   "75 po"
+  ],
+  [
+   "Caballo de tiro",
+   "270 kg",
+   "50 po"
+  ],
+  [
+   "Camello",
+   "225 kg",
+   "50 po"
+  ],
+  [
+   "Elefante",
+   "660 kg",
+   "200 po"
+  ],
+  [
+   "Mastín",
+   "97,5 kg",
+   "25 po"
+  ],
+  [
+   "Mula",
+   "210 kg",
+   "8 po"
+  ],
+  [
+   "Poni",
+   "112,5 kg",
+   "30 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Monturas y vehículos",
+  "Sillas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ }
+}

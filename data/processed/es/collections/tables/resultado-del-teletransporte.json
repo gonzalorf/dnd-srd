@@ -1,0 +1,65 @@
+{
+ "id": "table.resultado-del-teletransporte",
+ "caption": "Resultado del teletransporte",
+ "header": [
+  "Familiaridad",
+  "Percance",
+  "Área similar",
+  "Lejos del objetivo",
+  "En el objetivo"
+ ],
+ "rows": [
+  [
+   "Círculo permanente",
+   "—",
+   "—",
+   "—",
+   "01–00"
+  ],
+  [
+   "Objeto vinculado",
+   "—",
+   "—",
+   "—",
+   "01–00"
+  ],
+  [
+   "Muy familiar",
+   "01–05",
+   "06–13",
+   "14–24",
+   "25–00"
+  ],
+  [
+   "Visto esporádicamente",
+   "01–33",
+   "34–43",
+   "44–53",
+   "54–00"
+  ],
+  [
+   "Visto una vez o descrito",
+   "01–43",
+   "44–53",
+   "54–73",
+   "74–00"
+  ],
+  [
+   "Destino falso",
+   "01–50",
+   "51–00",
+   "—",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Teletransporte"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 187
+ }
+}

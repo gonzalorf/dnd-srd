@@ -1,0 +1,29 @@
+{
+ "id": "table.p228",
+ "caption": null,
+ "header": [
+  "1d10",
+  "Propósito especial"
+ ],
+ "rows": [
+  [
+   "9",
+   "Protector. El objeto quiere defender a un tipo de criatura en particular, como elfos u hombres lobo."
+  ],
+  [
+   "10",
+   "Templario. El objeto quiere defender a los"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos conscientes",
+  "Atributos de objetos mágicos conscientes",
+  "Propósito especial"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ }
+}

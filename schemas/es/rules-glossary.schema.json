@@ -1,0 +1,131 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "rules-glossary",
+ "description": "Inferido de 155 fichas de la colección «rules-glossary».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": "string",
+       "enum": [
+        "Búsqueda",
+        "Capacidad de carga",
+        "Clase de armadura de objetos",
+        "Consumo de agua al día",
+        "Consumo de alimentos al día",
+        "Pruebas de influencia",
+        "Puntos de golpe de objetos",
+        "Tipos de daño",
+        "Áreas de conocimiento"
+       ]
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "md": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "callout",
+        "definition",
+        "list-item",
+        "paragraph",
+        "property",
+        "table"
+       ]
+      }
+     },
+     "required": [
+      "page",
+      "type"
+     ]
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "kind": {
+    "type": "string",
+    "enum": [
+     "acción",
+     "actitud",
+     "estado",
+     "peligro",
+     "área de efecto"
+    ]
+   },
+   "name": {
+    "type": "string"
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "spell.alzar-a-los-muertos",
+      "spell.disipar-el-bien-y-el-mal",
+      "spell.levantar-maldicion",
+      "spell.polimorfar",
+      "spell.proteccion-contra-el-bien-y-el-mal",
+      "spell.restablecimiento-mayor",
+      "spell.revivir"
+     ]
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "text": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "blocks",
+   "id",
+   "name",
+   "source",
+   "text"
+  ]
+ }
+}

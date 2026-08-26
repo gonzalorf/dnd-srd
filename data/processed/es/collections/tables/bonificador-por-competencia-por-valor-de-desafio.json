@@ -1,0 +1,47 @@
+{
+ "id": "table.bonificador-por-competencia-por-valor-de-desafio",
+ "caption": "Bonificador por competencia por valor de desafío",
+ "header": [
+  "VD",
+  "BC",
+  "VD",
+  "BC"
+ ],
+ "rows": [
+  [
+   "0–4",
+   "+2",
+   "17–20",
+   "+6"
+  ],
+  [
+   "5–8",
+   "+3",
+   "21–24",
+   "+7"
+  ],
+  [
+   "9–12",
+   "+4",
+   "25–28",
+   "+8"
+  ],
+  [
+   "13–16",
+   "+5",
+   "29–30",
+   "+9"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Monstruos",
+  "Partes de un perfil",
+  "Valor de desafío",
+  "Bonificador por competencia"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 281
+ }
+}

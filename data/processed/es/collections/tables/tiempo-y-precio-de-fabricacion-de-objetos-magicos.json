@@ -1,0 +1,46 @@
+{
+ "id": "table.tiempo-y-precio-de-fabricacion-de-objetos-magicos",
+ "caption": "Tiempo y precio de fabricación de objetos mágicos",
+ "header": [
+  "Rareza del objeto",
+  "Tiempo*",
+  "Precio*"
+ ],
+ "rows": [
+  [
+   "Común",
+   "5 días",
+   "50 po"
+  ],
+  [
+   "Infrecuente",
+   "10 días",
+   "200 po"
+  ],
+  [
+   "Raro",
+   "50 días",
+   "2000 po"
+  ],
+  [
+   "Muy raro",
+   "125 días",
+   "20 000 po"
+  ],
+  [
+   "Legendario",
+   "250 días",
+   "100 000 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Fabricar objetos mágicos",
+  "Tiempo y precio"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 226
+ }
+}

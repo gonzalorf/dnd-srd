@@ -1,0 +1,42 @@
+{
+ "id": "feat.don-del-espiritu-de-la-noche",
+ "name": "Don del espíritu de la noche",
+ "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.\n\nFusionarse con las sombras. Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción.\n\nForma sombría. Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 95,
+   "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+   "text": "Dote de don épico (requisito: nivel 19 o más)"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Mejora de característica.*** Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30.",
+   "text": "Mejora de característica. Aumenta una puntuación de característica de tu elección en 1, hasta un máximo de 30."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Fusionarse con las sombras.*** Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción.",
+   "text": "Fusionarse con las sombras. Cuando estés en una zona de luz tenue u oscuridad, puedes otorgarte el estado de invisible como acción adicional. El estado finaliza inmediatamente después de que realices una acción, una acción adicional o una reacción."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Forma sombría.*** Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante.",
+   "text": "Forma sombría. Cuando estés en una zona de luz tenue u oscuridad, tienes resistencia a todo el daño excepto al psíquico y al radiante."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 95
+ },
+ "category": "Dotes de don épico"
+}

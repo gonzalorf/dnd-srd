@@ -1,0 +1,54 @@
+{
+ "id": "rule.inconsciente",
+ "name": "Inconsciente",
+ "text": "Mientras tengas el estado de inconsciente, experimentarás los siguientes efectos:\n\nInerte. Tienes los estados de derribado e incapacitado y sueltas lo que estés sujetando. Cuando concluya este estado, permanecerás derribado.\n\nVelocidad 0. Tu velocidad es 0 y no puede aumentar.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen ventaja.\n\nTiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\nCríticos automáticos. Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.\n\nIgnorante. No eres consciente de tu entorno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Mientras tengas el estado de inconsciente, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de inconsciente, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Inerte.*** Tienes los estados de derribado e incapacitado y sueltas lo que estés sujetando. Cuando concluya este estado, permanecerás derribado.",
+   "text": "Inerte. Tienes los estados de derribado e incapacitado y sueltas lo que estés sujetando. Cuando concluya este estado, permanecerás derribado."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Velocidad 0.*** Tu velocidad es 0 y no puede aumentar.",
+   "text": "Velocidad 0. Tu velocidad es 0 y no puede aumentar."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen ventaja.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen ventaja."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Tiradas de salvación afectadas.*** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.",
+   "text": "Tiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Críticos automáticos.*** Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti.",
+   "text": "Críticos automáticos. Cualquier tirada de ataque que te acierte es un crítico si el atacante está a 1,5 m o menos de ti."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Ignorante.*** No eres consciente de tu entorno.",
+   "text": "Ignorante. No eres consciente de tu entorno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ },
+ "kind": "estado"
+}

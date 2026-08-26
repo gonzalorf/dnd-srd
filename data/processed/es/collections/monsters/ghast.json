@@ -1,0 +1,105 @@
+{
+ "id": "monster.ghast",
+ "name": "Ghast",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 327
+ },
+ "context": [
+  "Ghast"
+ ],
+ "metaRaw": "Muerto viviente Mediano, caótico malvado",
+ "type": "Muerto viviente",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "36 (8d8)",
+  "average": 36,
+  "formula": "8d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado",
+  "hechizado"
+ ],
+ "resistances": [
+  "necrótico"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Hedor",
+   "md": "***Hedor.*** *Tirada de salvación de Constitución:* CD 10, cualquier criatura que empiece su turno en una emanación de 1,5 m que se origina en el ghast. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio de su siguiente turno. *Éxito:* el objetivo será inmune al hedor de este ghast durante 24 horas.",
+   "page": 327,
+   "description": "*Tirada de salvación de Constitución:* CD 10, cualquier criatura que empiece su turno en una emanación de 1,5 m que se origina en el ghast. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio de su siguiente turno. *Éxito:* el objetivo será inmune al hedor de este ghast durante 24 horas."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante. Si el objetivo es una criatura que no sea un muerto viviente, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 10. *Fallo:* el objetivo tendrá el estado de paralizado hasta el final de su siguiente turno.",
+   "page": 327,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante. Si el objetivo es una criatura que no sea un muerto viviente, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 10. *Fallo:* el objetivo tendrá el estado de paralizado hasta el final de su siguiente turno."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 9 (2d8) de daño necrótico.",
+   "page": 327,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 9 (2d8) de daño necrótico."
+  }
+ ]
+}

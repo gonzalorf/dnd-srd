@@ -1,0 +1,46 @@
+{
+ "id": "table.bolsa-de-trucos-gris",
+ "caption": "Bolsa de trucos gris",
+ "header": [
+  "1d8",
+  "Criatura",
+  "1d8",
+  "Criatura"
+ ],
+ "rows": [
+  [
+   "1",
+   "Comadreja",
+   "5",
+   "Pantera"
+  ],
+  [
+   "2",
+   "Rata gigante",
+   "6",
+   "Tejón gigante"
+  ],
+  [
+   "3",
+   "Tejón",
+   "7",
+   "Lobo terrible"
+  ],
+  [
+   "4",
+   "Jabalí",
+   "8",
+   "Alce gigante"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bolsa de trucos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 244
+ }
+}

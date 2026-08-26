@@ -1,0 +1,18 @@
+{
+ "id": "rule.asfixia",
+ "name": "Asfixia",
+ "text": "Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 más su modificador por Constitución (mínimo de 30 segundos) antes de que empiece a asfixiarse. Cuando una criatura se quede sin aire o se esté ahogando, sumará 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, perderá todos los niveles de cansancio sumados por la asfixia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 más su modificador por Constitución (mínimo de 30 segundos) antes de que empiece a asfixiarse. Cuando una criatura se quede sin aire o se esté ahogando, sumará 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, perderá todos los niveles de cansancio sumados por la asfixia.",
+   "text": "Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 más su modificador por Constitución (mínimo de 30 segundos) antes de que empiece a asfixiarse. Cuando una criatura se quede sin aire o se esté ahogando, sumará 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, perderá todos los niveles de cansancio sumados por la asfixia."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ },
+ "kind": "peligro"
+}

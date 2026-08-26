@@ -1,0 +1,46 @@
+{
+ "id": "table.p251",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Tipo de cuerno",
+  "Espíritus",
+  "Requisito"
+ ],
+ "rows": [
+  [
+   "01–40",
+   "Plata",
+   "2",
+   "Ninguno"
+  ],
+  [
+   "41–75",
+   "Latón",
+   "3",
+   "Competencia con todas las armas sencillas"
+  ],
+  [
+   "76–90",
+   "Bronce",
+   "4",
+   "Entrenamiento con todas las armaduras medias"
+  ],
+  [
+   "91–00",
+   "Hierro",
+   "5",
+   "Competencia"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Cuerno del Valhalla"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 251
+ }
+}

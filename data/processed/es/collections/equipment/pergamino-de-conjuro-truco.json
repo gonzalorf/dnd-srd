@@ -1,0 +1,22 @@
+{
+ "id": "gear.pergamino-de-conjuro-truco",
+ "name": "Pergamino de conjuro (truco)",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Pergamino de conjuro (truco)",
+  "Peso": "—",
+  "Precio": "30 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "30 po",
+  "amount": 30.0,
+  "coin": "po",
+  "gp": 30.0
+ }
+}

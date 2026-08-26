@@ -1,0 +1,74 @@
+{
+ "id": "spell.mal-de-ojo",
+ "name": "Mal de ojo",
+ "level": 6,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Hasta que el conjuro termine, tus ojos se convierten en un vacío oscuro. Una criatura de tu elección que puedas ver a 18 m o menos de ti deberá superar una tirada de salvación de Sabiduría o se verá afectada por uno de los efectos descritos debajo, a tu elección, hasta que termine el conjuro.\n\nEn cada uno de tus turnos hasta que el conjuro termine, puedes usar una acción de magia para hacer objetivo a otra criatura, pero no puedes volver a elegir a una que haya superado una tirada de salvación contra este lanzamiento del conjuro.\n\nNáuseas. El objetivo tiene el estado de envenenado.\n\nPánico. El objetivo tiene el estado de asustado. En cada uno de sus turnos, el objetivo asustado deberá realizar la acción de correr para alejarse de ti por la ruta más corta y segura disponible. Si se mueve a un espacio que esté al menos a 18 m de ti donde no pueda verte, el efecto termina.\n\nSueño. El objetivo tiene el estado de inconsciente. Se despertará si recibe algún daño o si otra criatura utiliza una acción para despertarlo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Hasta que el conjuro termine, tus ojos se convierten en un vacío oscuro. Una criatura de tu elección que puedas ver a 18 m o menos de ti deberá superar una tirada de salvación de Sabiduría o se verá afectada por uno de los efectos descritos debajo, a tu elección, hasta que termine el conjuro.",
+   "text": "Hasta que el conjuro termine, tus ojos se convierten en un vacío oscuro. Una criatura de tu elección que puedas ver a 18 m o menos de ti deberá superar una tirada de salvación de Sabiduría o se verá afectada por uno de los efectos descritos debajo, a tu elección, hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "En cada uno de tus turnos hasta que el conjuro termine, puedes usar una acción de magia para hacer objetivo a otra criatura, pero no puedes volver a elegir a una que haya superado una tirada de salvación contra este lanzamiento del conjuro.",
+   "text": "En cada uno de tus turnos hasta que el conjuro termine, puedes usar una acción de magia para hacer objetivo a otra criatura, pero no puedes volver a elegir a una que haya superado una tirada de salvación contra este lanzamiento del conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 163,
+   "md": "***Náuseas.*** El objetivo tiene el estado de envenenado.",
+   "text": "Náuseas. El objetivo tiene el estado de envenenado."
+  },
+  {
+   "type": "definition",
+   "page": 163,
+   "md": "***Pánico.*** El objetivo tiene el estado de asustado. En cada uno de sus turnos, el objetivo asustado deberá realizar la acción de correr para alejarse de ti por la ruta más corta y segura disponible. Si se mueve a un espacio que esté al menos a 18 m de ti donde no pueda verte, el efecto termina.",
+   "text": "Pánico. El objetivo tiene el estado de asustado. En cada uno de sus turnos, el objetivo asustado deberá realizar la acción de correr para alejarse de ti por la ruta más corta y segura disponible. Si se mueve a un espacio que esté al menos a 18 m de ti donde no pueda verte, el efecto termina."
+  },
+  {
+   "type": "definition",
+   "page": 163,
+   "md": "***Sueño.*** El objetivo tiene el estado de inconsciente. Se despertará si recibe algún daño o si otra criatura utiliza una acción para despertarlo.",
+   "text": "Sueño. El objetivo tiene el estado de inconsciente. Se despertará si recibe algún daño o si otra criatura utiliza una acción para despertarlo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 163
+ }
+}

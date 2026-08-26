@@ -1,0 +1,26 @@
+{
+ "id": "item.yelmo-de-entender-idiomas",
+ "name": "Yelmo de entender idiomas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Mientras lleves este yelmo, puedes lanzar entender idiomas desde él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 276,
+   "md": "Mientras lleves este yelmo, puedes lanzar *entender idiomas* desde él.",
+   "text": "Mientras lleves este yelmo, puedes lanzar entender idiomas desde él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 276
+ },
+ "refs": [
+  "spell.entender-idiomas"
+ ]
+}

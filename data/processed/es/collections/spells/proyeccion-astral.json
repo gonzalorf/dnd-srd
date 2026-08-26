@@ -1,0 +1,76 @@
+{
+ "id": "spell.proyeccion-astral",
+ "name": "Proyección astral",
+ "level": 9,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S, M (por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Tú y hasta ocho criaturas voluntarias dentro del alcance proyectáis vuestros cuerpos astrales al Plano Astral (si ya estáis allí, el conjuro termina al instante). El cuerpo material que deja atrás un objetivo queda en animación suspendida; tiene el estado de inconsciente, no necesita aire ni comida y no envejece.\n\nEl cuerpo astral de un objetivo es semejante a su cuerpo en casi todo y replica su perfil y sus posesiones. La diferencia principal es un cordón plateado que sale de entre los omóplatos de la forma astral y se desvanece a los 30 cm. Si el cordón se corta (algo que solo puede ocurrir si un efecto así lo indica), el cuerpo y la forma astral del objetivo mueren.\n\nUna forma astral puede viajar a través del Plano Astral. Si abandona el plano, el cuerpo y las posesiones del objetivo viajan a través del cordón de plata, permitiéndole volver a entrar en su cuerpo en el nuevo plano.\n\nEl daño y otros efectos que se le apliquen a una forma astral no afectan al cuerpo del objetivo y viceversa. Si los puntos de golpe del cuerpo del objetivo o de su forma astral se reducen a 0, el conjuro terminará para él. El conjuro termina para todos los objetivos si empleas una acción de magia para ponerle fin.\n\nCuando el conjuro termine para un objetivo que no esté muerto, reaparecerá en su cuerpo y concluirá su animación suspendida.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Tú y hasta ocho criaturas voluntarias dentro del alcance proyectáis vuestros cuerpos astrales al Plano Astral (si ya estáis allí, el conjuro termina al instante). El cuerpo material que deja atrás un objetivo queda en animación suspendida; tiene el estado de inconsciente, no necesita aire ni comida y no envejece.",
+   "text": "Tú y hasta ocho criaturas voluntarias dentro del alcance proyectáis vuestros cuerpos astrales al Plano Astral (si ya estáis allí, el conjuro termina al instante). El cuerpo material que deja atrás un objetivo queda en animación suspendida; tiene el estado de inconsciente, no necesita aire ni comida y no envejece."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "El cuerpo astral de un objetivo es semejante a su cuerpo en casi todo y replica su perfil y sus posesiones. La diferencia principal es un cordón plateado que sale de entre los omóplatos de la forma astral y se desvanece a los 30 cm. Si el cordón se corta (algo que solo puede ocurrir si un efecto así lo indica), el cuerpo y la forma astral del objetivo mueren.",
+   "text": "El cuerpo astral de un objetivo es semejante a su cuerpo en casi todo y replica su perfil y sus posesiones. La diferencia principal es un cordón plateado que sale de entre los omóplatos de la forma astral y se desvanece a los 30 cm. Si el cordón se corta (algo que solo puede ocurrir si un efecto así lo indica), el cuerpo y la forma astral del objetivo mueren."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Una forma astral puede viajar a través del Plano Astral. Si abandona el plano, el cuerpo y las posesiones del objetivo viajan a través del cordón de plata, permitiéndole volver a entrar en su cuerpo en el nuevo plano.",
+   "text": "Una forma astral puede viajar a través del Plano Astral. Si abandona el plano, el cuerpo y las posesiones del objetivo viajan a través del cordón de plata, permitiéndole volver a entrar en su cuerpo en el nuevo plano."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "El daño y otros efectos que se le apliquen a una forma astral no afectan al cuerpo del objetivo y viceversa. Si los puntos de golpe del cuerpo del objetivo o de su forma astral se reducen a 0, el conjuro terminará para él. El conjuro termina para todos los objetivos si empleas una acción de magia para ponerle fin.",
+   "text": "El daño y otros efectos que se le apliquen a una forma astral no afectan al cuerpo del objetivo y viceversa. Si los puntos de golpe del cuerpo del objetivo o de su forma astral se reducen a 0, el conjuro terminará para él. El conjuro termina para todos los objetivos si empleas una acción de magia para ponerle fin."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Cuando el conjuro termine para un objetivo que no esté muerto, reaparecerá en su cuerpo y concluirá su animación suspendida.",
+   "text": "Cuando el conjuro termine para un objetivo que no esté muerto, reaparecerá en su cuerpo y concluirá su animación suspendida."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 177
+ }
+}

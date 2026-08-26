@@ -1,0 +1,18 @@
+{
+ "id": "rule.hostil",
+ "name": "Hostil",
+ "text": "Una criatura hostil te ve con malos ojos. Tienes desventaja en las pruebas de característica para influir en una criatura hostil. Consulta también “Influir”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Una criatura hostil te ve con malos ojos. Tienes desventaja en las pruebas de característica para influir en una criatura hostil. *Consulta también* “Influir”.",
+   "text": "Una criatura hostil te ve con malos ojos. Tienes desventaja en las pruebas de característica para influir en una criatura hostil. Consulta también “Influir”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ },
+ "kind": "actitud"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-paladin",
+ "caption": "Atributos básicos de paladín",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Fuerza y Carisma"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d10 por nivel de Paladín"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Sabiduría y Carisma"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Atletismo, Intimidación, Medicina, Perspicacia, Persuasión o Religión"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas y marciales"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras, medias y pesadas y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) cota de malla, escudo, espada larga, 6 jabalinas, símbolo sagrado, paquete de sacerdote y 9 po, o (B) 150 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Paladín"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 81
+ }
+}

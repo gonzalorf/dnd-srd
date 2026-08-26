@@ -1,0 +1,37 @@
+{
+ "id": "table.sentidos-del-objeto-consciente",
+ "caption": "Sentidos del objeto consciente",
+ "header": [
+  "1d4",
+  "Sentidos"
+ ],
+ "rows": [
+  [
+   "1",
+   "Oído y visión estándar hasta 9 m."
+  ],
+  [
+   "2",
+   "Oído y visión estándar hasta 18 m."
+  ],
+  [
+   "3",
+   "Oído y visión estándar hasta 36 m."
+  ],
+  [
+   "4",
+   "Oído y visión en la oscuridad hasta 36 m."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos conscientes",
+  "Atributos de objetos mágicos conscientes",
+  "Propósito especial"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 227
+ }
+}

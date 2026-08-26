@@ -1,0 +1,112 @@
+{
+ "id": "monster.cria-de-dragon-de-cobre",
+ "name": "Cría de dragón de cobre",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 303
+ },
+ "context": [
+  "Dragones de cobre"
+ ],
+ "metaRaw": "Dragón Mediano (metálico), caótico bueno",
+ "type": "Dragón",
+ "alignment": "caótico bueno",
+ "size": "Mediano",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "22 (4d8 + 4)",
+  "average": 22,
+  "formula": "4d8 + 4"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión ciega 3 m, visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "dracónico"
+ ],
+ "immunities": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 3
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (1d10 + 2) de daño cortante.",
+   "page": 303,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (1d10 + 2) de daño cortante."
+  },
+  {
+   "name": "Aliento ácido",
+   "md": "***Aliento ácido (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una línea",
+   "page": 303,
+   "description": ". *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una línea",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": null,
+   "md": "de 6 m de largo y 1,5 m de ancho. *Fallo:* 18 (4d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 303
+  },
+  {
+   "name": "Aliento ralentizador",
+   "md": "***Aliento ralentizador.*** *Tirada de salvación de Constitución:* CD 11, todas las criaturas en un cono de 4,5 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno.",
+   "page": 303,
+   "description": "*Tirada de salvación de Constitución:* CD 11, todas las criaturas en un cono de 4,5 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno."
+  }
+ ]
+}

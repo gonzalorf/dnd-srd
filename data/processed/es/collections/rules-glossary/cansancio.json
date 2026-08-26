@@ -1,0 +1,42 @@
+{
+ "id": "rule.cansancio",
+ "name": "Cansancio",
+ "text": "Mientras tengas el estado de cansancio, experimentarás los siguientes efectos:\n\nNiveles de cansancio. Este estado es acumulativo. Cada vez que lo recibas, sumas 1 nivel de cansancio. Morirás si tu nivel de cansancio es 6.\n\nPruebas con d20 afectadas. Cuando hagas una prueba con d20, el resultado se reduce en 2 × tu nivel de cansancio.\n\nVelocidad reducida. Tu velocidad se reduce en 1,5 m × tu nivel de cansancio.\n\nEliminar niveles de cansancio. Tras finalizar un descanso largo, resta 1 nivel de cansancio. Cuando tus niveles de cansancio se reduzcan a 0, el estado terminará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 197,
+   "md": "Mientras tengas el estado de cansancio, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de cansancio, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 197,
+   "md": "***Niveles de cansancio.*** Este estado es acumulativo. Cada vez que lo recibas, sumas 1 nivel de cansancio. Morirás si tu nivel de cansancio es 6.",
+   "text": "Niveles de cansancio. Este estado es acumulativo. Cada vez que lo recibas, sumas 1 nivel de cansancio. Morirás si tu nivel de cansancio es 6."
+  },
+  {
+   "type": "definition",
+   "page": 197,
+   "md": "***Pruebas con d20 afectadas.*** Cuando hagas una prueba con d20, el resultado se reduce en 2 × tu nivel de cansancio.",
+   "text": "Pruebas con d20 afectadas. Cuando hagas una prueba con d20, el resultado se reduce en 2 × tu nivel de cansancio."
+  },
+  {
+   "type": "definition",
+   "page": 197,
+   "md": "***Velocidad reducida.*** Tu velocidad se reduce en 1,5 m × tu nivel de cansancio.",
+   "text": "Velocidad reducida. Tu velocidad se reduce en 1,5 m × tu nivel de cansancio."
+  },
+  {
+   "type": "definition",
+   "page": 197,
+   "md": "***Eliminar niveles de cansancio.*** Tras finalizar un descanso largo, resta 1 nivel de cansancio. Cuando tus niveles de cansancio se reduzcan a 0, el estado terminará.",
+   "text": "Eliminar niveles de cansancio. Tras finalizar un descanso largo, resta 1 nivel de cansancio. Cuando tus niveles de cansancio se reduzcan a 0, el estado terminará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ },
+ "kind": "estado"
+}

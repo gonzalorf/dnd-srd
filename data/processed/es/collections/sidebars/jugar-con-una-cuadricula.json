@@ -1,0 +1,46 @@
+{
+ "id": "sidebar.jugar-con-una-cuadricula",
+ "title": "Jugar con una cuadrícula",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Si juegas con una cuadrícula y miniaturas u otras fichas, sigue estas reglas.",
+   "text": "Si juegas con una cuadrícula y miniaturas u otras fichas, sigue estas reglas."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Casillas.** Cada casilla representa 1,5 m.",
+   "text": "Casillas. Cada casilla representa 1,5 m."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Velocidad.** Te desplazas casilla a casilla por la cuadrícula, por lo que utilizas tu velocidad en incrementos de 1,5 m. Puedes traducir tu velocidad en casillas dividiéndola entre 1,5. Por ejemplo, una velocidad de 9 m se traduce en 6 casillas. Si sueles emplear una cuadrícula, plantéate anotar tu velocidad en casillas en tu hoja de personaje.",
+   "text": "Velocidad. Te desplazas casilla a casilla por la cuadrícula, por lo que utilizas tu velocidad en incrementos de 1,5 m. Puedes traducir tu velocidad en casillas dividiéndola entre 1,5. Por ejemplo, una velocidad de 9 m se traduce en 6 casillas. Si sueles emplear una cuadrícula, plantéate anotar tu velocidad en casillas en tu hoja de personaje."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Entrar en una casilla.** Para entrar en una casilla, te debe quedar movimiento suficiente que tendrás que invertir. Cuesta 1 casilla de movimiento entrar en una casilla sin ocupar que esté adyacente a la casilla en la que te encuentras (en perpendicular o diagonal). Entrar en una casilla de terreno difícil cuesta 2 casillas de movimiento. Otros efectos podrían aumentar el coste en casillas.",
+   "text": "Entrar en una casilla. Para entrar en una casilla, te debe quedar movimiento suficiente que tendrás que invertir. Cuesta 1 casilla de movimiento entrar en una casilla sin ocupar que esté adyacente a la casilla en la que te encuentras (en perpendicular o diagonal). Entrar en una casilla de terreno difícil cuesta 2 casillas de movimiento. Otros efectos podrían aumentar el coste en casillas."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Esquinas.** Los movimientos en diagonal no pueden atravesar la esquina de un muro, un árbol grande u otro elemento del terreno que ocupe su espacio.",
+   "text": "Esquinas. Los movimientos en diagonal no pueden atravesar la esquina de un muro, un árbol grande u otro elemento del terreno que ocupe su espacio."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Alcances.** Para determinar el alcance entre dos elementos (criaturas u objetos) en una cuadrícula, cuenta las casillas que los separan comenzando por la casilla adyacente a uno de ellos y terminando en la casilla del otro. Sigue el camino más corto.",
+   "text": "Alcances. Para determinar el alcance entre dos elementos (criaturas u objetos) en una cuadrícula, cuenta las casillas que los separan comenzando por la casilla adyacente a uno de ellos y terminando en la casilla del otro. Sigue el camino más corto."
+  }
+ ],
+ "context": [
+  "Cómo jugar",
+  "Combate",
+  "Estructura de un combate",
+  "Tu turno"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 14
+ }
+}

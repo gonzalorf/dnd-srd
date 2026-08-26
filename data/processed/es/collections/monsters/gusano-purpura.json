@@ -1,0 +1,115 @@
+{
+ "id": "monster.gusano-purpura",
+ "name": "Gusano púrpura",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 336,
+  "pages": [
+   336,
+   337
+  ]
+ },
+ "context": [
+  "Gusano púrpura"
+ ],
+ "metaRaw": "Monstruosidad Gargantuesca, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Gargantuesco",
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "247 (15d20 + 90)",
+  "average": 247,
+  "formula": "15d20 + 90"
+ },
+ "speeds": {
+  "caminando": 15.0,
+  "excavar": 15.0
+ },
+ "senses": {
+  "raw": "sentir vibraciones 18 m, visión ciega 9 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "15 (13 000 PX; BC +5)",
+  "cr": 15,
+  "xp": 13000,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 28,
+   "mod": 9,
+   "save": 9
+  },
+  "des": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "con": {
+   "score": 22,
+   "mod": 6,
+   "save": 11
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": 4
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Excavador",
+   "md": "***Excavador.*** El gusano puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 3 m de diámetro.",
+   "page": 336,
+   "description": "El gusano puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 3 m de diámetro."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gusano realiza un ataque de mordisco y uno con su aguijón de la cola.",
+   "page": 336,
+   "description": "El gusano realiza un ataque de mordisco y uno con su aguijón de la cola."
+  },
+  {
+   "name": "Aguijón de la cola",
+   "md": "***Aguijón de la cola.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 16 (2d6 + 9) de daño perforante más 35 (10d6) de daño de veneno.",
+   "page": 337,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 16 (2d6 + 9) de daño perforante más 35 (10d6) de daño de veneno."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 22 (3d8 + 9) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 19 para escapar) y el de apresada hasta que el agarre termine.",
+   "page": 337,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 22 (3d8 + 9) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 19 para escapar) y el de apresada hasta que el agarre termine."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Engullir",
+   "md": "***Engullir.*** *Tirada de salvación de Fuerza:* CD 19, una criatura Grande o más pequeña agarrada por el gusano (puede tener hasta tres criaturas engullidas a la vez). *Fallo:* el objetivo será engullido por el gusano y se pondrá fin al estado de agarrado. Una criatura engullida tendrá los estados de apresada y cegada, tendrá cobertura completa contra los ataques y otros efectos fuera del gusano y recibirá 17 (5d6) de daño de ácido al principio de cada turno del gusano. Si el gusano sufre 30 o más de daño en un solo turno por parte de una criatura que esté dentro de él, deberá superar una tirada de salvación de Constitución con CD 21 al final de ese turno o regurgitará a todas las criaturas engullidas, que caerán en espacios a 1,5 m o menos del gusano y tendrán el estado de derribadas. Si el gusano muere, cualquier criatura engullida dejará de tener el estado de apresada y podrá gastar 6 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada.",
+   "page": 337,
+   "description": "*Tirada de salvación de Fuerza:* CD 19, una criatura Grande o más pequeña agarrada por el gusano (puede tener hasta tres criaturas engullidas a la vez). *Fallo:* el objetivo será engullido por el gusano y se pondrá fin al estado de agarrado. Una criatura engullida tendrá los estados de apresada y cegada, tendrá cobertura completa contra los ataques y otros efectos fuera del gusano y recibirá 17 (5d6) de daño de ácido al principio de cada turno del gusano. Si el gusano sufre 30 o más de daño en un solo turno por parte de una criatura que esté dentro de él, deberá superar una tirada de salvación de Constitución con CD 21 al final de ese turno o regurgitará a todas las criaturas engullidas, que caerán en espacios a 1,5 m o menos del gusano y tendrán el estado de derribadas. Si el gusano muere, cualquier criatura engullida dejará de tener el estado de apresada y podrá gastar 6 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada."
+  }
+ ]
+}

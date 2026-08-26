@@ -1,0 +1,133 @@
+{
+ "id": "monster.diablo-gelido",
+ "name": "Diablo gélido",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 295
+ },
+ "context": [
+  "Diablo gélido"
+ ],
+ "metaRaw": "Infernal Grande (diablo), legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Grande",
+ "tags": [
+  "diablo"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 7,
+  "score": 17
+ },
+ "hp": {
+  "raw": "228 (24d10 + 96)",
+  "average": 228,
+  "formula": "24d10 + 96"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 7,
+  "Perspicacia": 7,
+  "Persuasión": 9
+ },
+ "senses": {
+  "raw": "visión ciega 36 m; Percepción pasiva 17",
+  "passivePerception": 17
+ },
+ "languages": [
+  "infernal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "frío",
+  "fuego",
+  "veneno",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "14 (11 500 PX; BC +5)",
+  "cr": 14,
+  "xp": 11500,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 7
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 9
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 7
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 9
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación diabólica",
+   "md": "***Recuperación diabólica.*** Si el diablo muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos.",
+   "page": 295,
+   "description": "Si el diablo muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El diablo tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 295,
+   "description": "El diablo tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El diablo realiza tres ataques con su lanza de hielo. Puede sustituir uno de ellos por un ataque con su cola.",
+   "page": 295,
+   "description": "El diablo realiza tres ataques con su lanza de hielo. Puede sustituir uno de ellos por un ataque con su cola."
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 15 (3d6 + 5) de daño contundente más 18 (4d8) de daño de frío.",
+   "page": 295,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 15 (3d6 + 5) de daño contundente más 18 (4d8) de daño de frío."
+  },
+  {
+   "name": "Lanza de hielo",
+   "md": "***Lanza de hielo.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +10, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 14 (2d8 + 5) de daño perforante más 10 (3d6) de daño de frío. Hasta el final de su siguiente turno, el objetivo no podrá usar una acción adicional ni llevar a cabo una reacción, su velocidad se reducirá en 3 m y en su turno podrá moverse o realizar una acción, pero no ambas cosas. *Acierto o fallo:* la lanza regresa mágicamente a la mano del diablo inmediatamente después de un ataque a distancia.",
+   "page": 295,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +10, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 14 (2d8 + 5) de daño perforante más 10 (3d6) de daño de frío. Hasta el final de su siguiente turno, el objetivo no podrá usar una acción adicional ni llevar a cabo una reacción, su velocidad se reducirá en 3 m y en su turno podrá moverse o realizar una acción, pero no ambas cosas. *Acierto o fallo:* la lanza regresa mágicamente a la mano del diablo inmediatamente después de un ataque a distancia."
+  },
+  {
+   "name": "Muro gélido",
+   "md": "***Muro gélido (recarga 6).*** El diablo lanza *muro de hielo* (versión de nivel 8), que no requiere componentes y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 17).",
+   "page": 295,
+   "description": "El diablo lanza *muro de hielo* (versión de nivel 8), que no requiere componentes y utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 17).",
+   "uses": "recarga 6"
+  }
+ ],
+ "refs": [
+  "spell.muro-de-hielo"
+ ]
+}

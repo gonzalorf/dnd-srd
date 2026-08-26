@@ -1,0 +1,24 @@
+{
+ "id": "rule.correr",
+ "name": "Correr",
+ "text": "Cuando llevas a cabo la acción de correr, consigues movimiento adicional para ese turno. Este aumento es igual a tu velocidad tras aplicar cualquier modificador pertinente. Así, si tu velocidad fuera de 9 m, podrías moverte hasta 18 m en un turno en el que corras. Si tu velocidad de 9 m se redujera a 4,5 m, podrías moverte hasta 9 m en un turno en el que realizaras la acción de correr.\n\nSi tienes una velocidad especial, como una velocidad nadando o una velocidad volando, puedes emplearla en lugar de tu velocidad normal cuando llevas a cabo esta acción. Eliges la velocidad que vas a emplear cada vez que realizas la acción. Consulta también “Velocidad”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Cuando llevas a cabo la acción de correr, consigues movimiento adicional para ese turno. Este aumento es igual a tu velocidad tras aplicar cualquier modificador pertinente. Así, si tu velocidad fuera de 9 m, podrías moverte hasta 18 m en un turno en el que corras. Si tu velocidad de 9 m se redujera a 4,5 m, podrías moverte hasta 9 m en un turno en el que realizaras la acción de correr.",
+   "text": "Cuando llevas a cabo la acción de correr, consigues movimiento adicional para ese turno. Este aumento es igual a tu velocidad tras aplicar cualquier modificador pertinente. Así, si tu velocidad fuera de 9 m, podrías moverte hasta 18 m en un turno en el que corras. Si tu velocidad de 9 m se redujera a 4,5 m, podrías moverte hasta 9 m en un turno en el que realizaras la acción de correr."
+  },
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Si tienes una velocidad especial, como una velocidad nadando o una velocidad volando, puedes emplearla en lugar de tu velocidad normal cuando llevas a cabo esta acción. Eliges la velocidad que vas a emplear cada vez que realizas la acción. *Consulta también* “Velocidad”.",
+   "text": "Si tienes una velocidad especial, como una velocidad nadando o una velocidad volando, puedes emplearla en lugar de tu velocidad normal cuando llevas a cabo esta acción. Eliges la velocidad que vas a emplear cada vez que realizas la acción. Consulta también “Velocidad”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ },
+ "kind": "acción"
+}

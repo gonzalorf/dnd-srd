@@ -1,0 +1,96 @@
+{
+ "id": "monster.elefante",
+ "name": "Elefante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 383
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "76 (8d12 + 24)",
+  "average": 76,
+  "formula": "8d12 + 24"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El elefante realiza dos ataques con sus colmillos.",
+   "page": 383,
+   "description": "El elefante realiza dos ataques con sus colmillos."
+  },
+  {
+   "name": "Colmillos",
+   "md": "***Colmillos***. *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 15 (2d8 + 6) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el elefante recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada.",
+   "page": 383,
+   "description": ". *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 15 (2d8 + 6) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el elefante recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Arrollar",
+   "md": "***Arrollar.*** *Tirada de salvación de Destreza:* CD 16, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 17 (2d10 + 6) de daño contundente. *Éxito:* la mitad del daño.",
+   "page": 383,
+   "description": "*Tirada de salvación de Destreza:* CD 16, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 17 (2d10 + 6) de daño contundente. *Éxito:* la mitad del daño."
+  }
+ ]
+}

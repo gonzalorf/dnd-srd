@@ -1,0 +1,17 @@
+{
+ "id": "rule.curacion",
+ "name": "Curación",
+ "text": "La curación es el medio para recuperar puntos de golpe. Consulta también el capítulo “Cómo jugar” (“Daño y curación”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "La curación es el medio para recuperar puntos de golpe. *Consulta también* el capítulo “Cómo jugar” (“Daño y curación”).",
+   "text": "La curación es el medio para recuperar puntos de golpe. Consulta también el capítulo “Cómo jugar” (“Daño y curación”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 199
+ }
+}

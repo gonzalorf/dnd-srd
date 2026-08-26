@@ -1,0 +1,151 @@
+{
+ "id": "spell.controlar-el-clima",
+ "name": "Controlar el clima",
+ "level": 8,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (incienso para quemar)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso para quemar",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 8 horas",
+  "concentration": true,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminará antes de tiempo si entras en una zona cubierta.\n\nCuando lanzas el conjuro, cambias las condiciones climatológicas actuales, que determinará tu GM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volverá poco a poco a su estado normal.\n\nCuando cambies las condiciones meteorológicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, también puedes alterar su dirección.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 135,
+   "md": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminará antes de tiempo si entras en una zona cubierta.",
+   "text": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminará antes de tiempo si entras en una zona cubierta."
+  },
+  {
+   "type": "paragraph",
+   "page": 135,
+   "md": "Cuando lanzas el conjuro, cambias las condiciones climatológicas actuales, que determinará tu GM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volverá poco a poco a su estado normal.",
+   "text": "Cuando lanzas el conjuro, cambias las condiciones climatológicas actuales, que determinará tu GM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volverá poco a poco a su estado normal."
+  },
+  {
+   "type": "paragraph",
+   "page": 135,
+   "md": "Cuando cambies las condiciones meteorológicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, también puedes alterar su dirección.",
+   "text": "Cuando cambies las condiciones meteorológicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, también puedes alterar su dirección."
+  },
+  {
+   "type": "table",
+   "page": 135,
+   "caption": "Precipitaciones",
+   "header": [
+    "Nivel",
+    "Estado"
+   ],
+   "rows": [
+    [
+     "1",
+     "Despejado"
+    ],
+    [
+     "2",
+     "Nubes escasas"
+    ],
+    [
+     "3",
+     "Cielo cubierto o niebla de superficie"
+    ],
+    [
+     "4",
+     "Lluvia, granizo o nieve"
+    ],
+    [
+     "5",
+     "Lluvia torrencial, tormenta de granizo o ventisca"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 135,
+   "caption": "Temperatura Viento",
+   "header": [
+    "Nivel",
+    "Estado"
+   ],
+   "rows": [
+    [
+     "1",
+     "Ola de calor"
+    ],
+    [
+     "2",
+     "Caliente"
+    ],
+    [
+     "3",
+     "Templado"
+    ],
+    [
+     "4",
+     "Fresco"
+    ],
+    [
+     "5",
+     "Frío"
+    ],
+    [
+     "6",
+     "Frío extremo"
+    ],
+    [
+     "1",
+     "Calmo"
+    ],
+    [
+     "2",
+     "Viento moderado"
+    ],
+    [
+     "3",
+     "Viento fuerte"
+    ],
+    [
+     "4",
+     "Galerna"
+    ],
+    [
+     "5",
+     "Tempestad"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 135
+ }
+}

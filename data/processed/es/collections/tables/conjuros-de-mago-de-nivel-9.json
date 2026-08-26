@@ -1,0 +1,81 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-9",
+ "caption": "Conjuros de mago de nivel 9",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Cambiar de forma",
+   "Transmutación",
+   "C, M"
+  ],
+  [
+   "Cautiverio",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Deseo",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Muro prismático",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Palabra de poder: matar",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Parar el tiempo",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Polimorfar verdadero",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Portal",
+   "Conjuración",
+   "C, M"
+  ],
+  [
+   "Presciencia",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Proyección astral",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Terror abyecto",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Tormenta de meteoritos",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 76
+ }
+}

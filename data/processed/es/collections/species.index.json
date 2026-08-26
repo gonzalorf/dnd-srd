@@ -1,0 +1,47 @@
+[
+ {
+  "id": "species.draconido",
+  "name": "Dracónido",
+  "page": 90
+ },
+ {
+  "id": "species.elfo",
+  "name": "Elfo",
+  "page": 90
+ },
+ {
+  "id": "species.enano",
+  "name": "Enano",
+  "page": 91
+ },
+ {
+  "id": "species.gnomo",
+  "name": "Gnomo",
+  "page": 91
+ },
+ {
+  "id": "species.goliat",
+  "name": "Goliat",
+  "page": 92
+ },
+ {
+  "id": "species.humano",
+  "name": "Humano",
+  "page": 92
+ },
+ {
+  "id": "species.mediano",
+  "name": "Mediano",
+  "page": 92
+ },
+ {
+  "id": "species.orco",
+  "name": "Orco",
+  "page": 92
+ },
+ {
+  "id": "species.tiefling",
+  "name": "Tiefling",
+  "page": 93
+ }
+]

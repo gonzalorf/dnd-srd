@@ -1,0 +1,48 @@
+{
+ "id": "spell.guia",
+ "name": "Guía",
+ "level": 0,
+ "cantrip": true,
+ "school": "Adivinación",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tocas a una criatura voluntaria y eliges una habilidad. Hasta que el conjuro termine, la criatura añade 1d4 a una prueba de característica con la habilidad elegida.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "Tocas a una criatura voluntaria y eliges una habilidad. Hasta que el conjuro termine, la criatura añade 1d4 a una prueba de característica con la habilidad elegida.",
+   "text": "Tocas a una criatura voluntaria y eliges una habilidad. Hasta que el conjuro termine, la criatura añade 1d4 a una prueba de característica con la habilidad elegida."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 154
+ }
+}

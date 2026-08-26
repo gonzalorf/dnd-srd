@@ -1,0 +1,61 @@
+{
+ "id": "spell.asesino-fantasmal",
+ "name": "Asesino fantasmal",
+ "level": 4,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Accedes a las pesadillas de una criatura a la que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos que solo ella puede ver. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, sufrirá 4d10 de daño psíquico y tendrá desventaja en las pruebas de característica y en las tiradas de ataque hasta que termine el conjuro. Si la supera, sufrirá la mitad de ese daño y el conjuro terminará.\n\nAdemás, hasta que termine el conjuro, el objetivo hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, volverá a sufrir el daño psíquico. Si la supera, el conjuro terminará.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 122,
+   "md": "Accedes a las pesadillas de una criatura a la que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos que solo ella puede ver. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, sufrirá 4d10 de daño psíquico y tendrá desventaja en las pruebas de característica y en las tiradas de ataque hasta que termine el conjuro. Si la supera, sufrirá la mitad de ese daño y el conjuro terminará.",
+   "text": "Accedes a las pesadillas de una criatura a la que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos que solo ella puede ver. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, sufrirá 4d10 de daño psíquico y tendrá desventaja en las pruebas de característica y en las tiradas de ataque hasta que termine el conjuro. Si la supera, sufrirá la mitad de ese daño y el conjuro terminará."
+  },
+  {
+   "type": "paragraph",
+   "page": 123,
+   "md": "Además, hasta que termine el conjuro, el objetivo hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, volverá a sufrir el daño psíquico. Si la supera, el conjuro terminará.",
+   "text": "Además, hasta que termine el conjuro, el objetivo hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, volverá a sufrir el daño psíquico. Si la supera, el conjuro terminará."
+  },
+  {
+   "type": "definition",
+   "page": 123,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 122
+ }
+}

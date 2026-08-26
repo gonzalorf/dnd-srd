@@ -1,0 +1,143 @@
+{
+ "id": "monster.ifrit",
+ "name": "Ifrit",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 342
+ },
+ "context": [
+  "Ifrit"
+ ],
+ "metaRaw": "Elemental Grande (genio), neutral",
+ "type": "Elemental",
+ "alignment": "neutral",
+ "size": "Grande",
+ "tags": [
+  "genio"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "212 (17d10 + 119)",
+  "average": 212,
+  "formula": "17d10 + 119"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "primordial (ígneo)"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "11 (7200 PX; BC +4)",
+  "cr": 11,
+  "xp": 7200,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 24,
+   "mod": 7,
+   "save": 7
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 6
+  },
+  "car": {
+   "score": 19,
+   "mod": 4,
+   "save": 8
+  }
+ },
+ "traits": [
+  {
+   "name": "Deseos",
+   "md": "***Deseos.*** El ifrit tiene un 30 % de probabilidad de conocer el conjuro *deseo*. Si es así, puede lanzarlo en nombre de una criatura que no sea un genio y que pida un deseo de tal modo que el ifrit pueda entenderlo. Si el ifrit lanza el conjuro para esa criatura, no sufrirá los efectos de la tensión del conjuro. Cuando lo haya lanzado tres veces, el ifrit no podrá volver a hacerlo hasta pasados 365 días.",
+   "page": 342,
+   "description": "El ifrit tiene un 30 % de probabilidad de conocer el conjuro *deseo*. Si es así, puede lanzarlo en nombre de una criatura que no sea un genio y que pida un deseo de tal modo que el ifrit pueda entenderlo. Si el ifrit lanza el conjuro para esa criatura, no sufrirá los efectos de la tensión del conjuro. Cuando lo haya lanzado tres veces, el ifrit no podrá volver a hacerlo hasta pasados 365 días."
+  },
+  {
+   "name": "Recuperación elemental",
+   "md": "***Recuperación elemental.*** Si el ifrit muere fuera del Plano Elemental del Fuego, su cuerpo se convierte en ceniza, obtiene un cuerpo nuevo tras 1d4 días y revive con todos sus puntos de golpe en algún lugar del Plano del Fuego.",
+   "page": 342,
+   "description": "Si el ifrit muere fuera del Plano Elemental del Fuego, su cuerpo se convierte en ceniza, obtiene un cuerpo nuevo tras 1d4 días y revive con todos sus puntos de golpe en algún lugar del Plano del Fuego."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El ifrit tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 342,
+   "description": "El ifrit tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El ifrit realiza tres ataques con su hoja candente o su acción de arrojar llama en cualquier combinación.",
+   "page": 342,
+   "description": "El ifrit realiza tres ataques con su hoja candente o su acción de arrojar llama en cualquier combinación."
+  },
+  {
+   "name": "Hoja candente",
+   "md": "***Hoja candente.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 13 (2d12) de daño de fuego.",
+   "page": 342,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 13 (2d12) de daño de fuego."
+  },
+  {
+   "name": "Arrojar llama",
+   "md": "***Arrojar llama.*** *Tirada de ataque a distancia:* +8, alcance 36 m. *Acierto:* 24 (7d6) de daño de fuego.",
+   "page": 342,
+   "description": "*Tirada de ataque a distancia:* +8, alcance 36 m. *Acierto:* 24 (7d6) de daño de fuego."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El ifrit lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 16):",
+   "page": 342,
+   "description": "El ifrit lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 16):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *elementalismo* 1/día cada uno: *desplazamiento entre planos*, *don de lenguas*, *forma gaseosa*, *imagen mayor*, *invisibilidad*, *muro de fuego* (versión de nivel 7)",
+   "page": 342
+  }
+ ],
+ "refs": [
+  "spell.deseo",
+  "spell.detectar-magia",
+  "spell.elementalismo",
+  "spell.desplazamiento-entre-planos",
+  "spell.don-de-lenguas",
+  "spell.forma-gaseosa",
+  "spell.imagen-mayor",
+  "spell.invisibilidad",
+  "spell.muro-de-fuego"
+ ]
+}

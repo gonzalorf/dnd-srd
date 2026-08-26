@@ -1,0 +1,17 @@
+{
+ "id": "rule.oscuridad",
+ "name": "Oscuridad",
+ "text": "Una zona de oscuridad está muy oscura. Consulta también “Muy oscuro” y el capítulo “Cómo jugar” (“Exploración”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Una zona de oscuridad está muy oscura. *Consulta también* “Muy oscuro” y el capítulo “Cómo jugar” (“Exploración”).",
+   "text": "Una zona de oscuridad está muy oscura. Consulta también “Muy oscuro” y el capítulo “Cómo jugar” (“Exploración”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

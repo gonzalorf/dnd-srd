@@ -1,0 +1,70 @@
+{
+ "id": "table.p276-2",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Plano Exterior",
+  "1d100",
+  "Plano Exterior"
+ ],
+ "rows": [
+  [
+   "01–05",
+   "Abismo",
+   "52–56",
+   "Hades"
+  ],
+  [
+   "06–10",
+   "Aqueronte",
+   "57–61",
+   "Limbo"
+  ],
+  [
+   "11–17",
+   "Arbórea",
+   "62–69",
+   "Mechanus"
+  ],
+  [
+   "18–25",
+   "Arcadia",
+   "70–77",
+   "Monte Celestia"
+  ],
+  [
+   "26–33",
+   "Bitopía",
+   "78–82",
+   "Nueve Infiernos"
+  ],
+  [
+   "34–38",
+   "Carceri",
+   "83–87",
+   "Pandemónium"
+  ],
+  [
+   "39–46",
+   "Elíseo",
+   "88–95",
+   "Tierras de las Bestias"
+  ],
+  [
+   "47–51",
+   "Gehenna",
+   "96–00",
+   "Ysgard"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Vela de invocación"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 276
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "spell.cofre-oculto",
+ "name": "Cofre oculto",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un cofre con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de materiales raros que valgan al menos 5000 po, así como una réplica Diminuta hecha de los mismos materiales y que valga al menos 50 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un cofre con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de materiales raros que valgan al menos 5000 po, así como una réplica Diminuta hecha de los mismos materiales y que valga al menos 50 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Ocultas un cofre y todo su contenido en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 0,34 m3 de material inerte (90 cm por 60 cm por 60 cm).\n\nMientras el cofre permanezca en el Plano Etéreo, puedes usar una acción de magia y tocar la réplica para recuperar dicho cofre, que aparecerá en un espacio sin ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de regreso al Plano Etéreo usando una acción de magia para tocar el cofre y la réplica.\n\nDespués de 60 días, hay una posibilidad acumulativa del 5 % al final de cada día de que el efecto del conjuro termine. El conjuro también termina si vuelves a lanzarlo o si se destruye la réplica Diminuta del cofre. Si el conjuro termina y el cofre grande está en el Plano Etéreo, permanecerá allí hasta que otra persona o tú lo encontréis.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Ocultas un cofre y todo su contenido en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 0,34 m3 de material inerte (90 cm por 60 cm por 60 cm).",
+   "text": "Ocultas un cofre y todo su contenido en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 0,34 m3 de material inerte (90 cm por 60 cm por 60 cm)."
+  },
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Mientras el cofre permanezca en el Plano Etéreo, puedes usar una acción de magia y tocar la réplica para recuperar dicho cofre, que aparecerá en un espacio sin ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de regreso al Plano Etéreo usando una acción de magia para tocar el cofre y la réplica.",
+   "text": "Mientras el cofre permanezca en el Plano Etéreo, puedes usar una acción de magia y tocar la réplica para recuperar dicho cofre, que aparecerá en un espacio sin ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de regreso al Plano Etéreo usando una acción de magia para tocar el cofre y la réplica."
+  },
+  {
+   "type": "paragraph",
+   "page": 130,
+   "md": "Después de 60 días, hay una posibilidad acumulativa del 5 % al final de cada día de que el efecto del conjuro termine. El conjuro también termina si vuelves a lanzarlo o si se destruye la réplica Diminuta del cofre. Si el conjuro termina y el cofre grande está en el Plano Etéreo, permanecerá allí hasta que otra persona o tú lo encontréis.",
+   "text": "Después de 60 días, hay una posibilidad acumulativa del 5 % al final de cada día de que el efecto del conjuro termine. El conjuro también termina si vuelves a lanzarlo o si se destruye la réplica Diminuta del cofre. Si el conjuro termina y el cofre grande está en el Plano Etéreo, permanecerá allí hasta que otra persona o tú lo encontréis."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 130
+ }
+}

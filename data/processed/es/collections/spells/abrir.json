@@ -1,0 +1,69 @@
+{
+ "id": "spell.abrir",
+ "name": "Abrir",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Elige un objeto que puedas ver dentro del alcance. Puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera mágica o mundana de impedir el acceso.\n\nUn objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tiene varios cerrojos, solo se desbloquea uno de ellos.\n\nSi el objetivo está cerrado mediante cerradura arcana, ese conjuro quedará anulado durante 10 minutos y, durante ese tiempo, el objeto se podrá abrir y cerrar.\n\nCuando lanzas el conjuro, se escucha un fuerte golpe surgir del objetivo, que es audible a una distancia de 90 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Elige un objeto que puedas ver dentro del alcance. Puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera mágica o mundana de impedir el acceso.",
+   "text": "Elige un objeto que puedas ver dentro del alcance. Puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera mágica o mundana de impedir el acceso."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tiene varios cerrojos, solo se desbloquea uno de ellos.",
+   "text": "Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tiene varios cerrojos, solo se desbloquea uno de ellos."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Si el objetivo está cerrado mediante *cerradura arcana*, ese conjuro quedará anulado durante 10 minutos y, durante ese tiempo, el objeto se podrá abrir y cerrar.",
+   "text": "Si el objetivo está cerrado mediante cerradura arcana, ese conjuro quedará anulado durante 10 minutos y, durante ese tiempo, el objeto se podrá abrir y cerrar."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Cuando lanzas el conjuro, se escucha un fuerte golpe surgir del objetivo, que es audible a una distancia de 90 m.",
+   "text": "Cuando lanzas el conjuro, se escucha un fuerte golpe surgir del objetivo, que es audible a una distancia de 90 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 118
+ },
+ "refs": [
+  "spell.cerradura-arcana"
+ ]
+}

@@ -1,0 +1,1044 @@
+{
+ "id": "class.brujo",
+ "name": "Brujo",
+ "coreTraits": {
+  "Característica principal": "Carisma",
+  "Dado de puntos de golpe": "1d8 por nivel de brujo",
+  "Competencias en tiradas de salvación": "Sabiduría y Carisma",
+  "Competencias en habilidades": "Elige dos: Conocimiento arcano, Engaño, Historia, Intimidación, Investigación, Naturaleza o Religión",
+  "Competencias con armas": "Amas sencillas",
+  "Entrenamiento con armaduras": "Armaduras ligeras",
+  "Equipo inicial": "Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), libro (de conocimiento oculto), paquete de erudito y 15 po, o (B) 100 po"
+ },
+ "progression": {
+  "caption": "Rasgos de brujo",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Invocaciones sobrenaturales",
+   "Trucos",
+   "Conjuros preparados",
+   "Espacios Nivel de de los conjuroespacios"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Invocaciones sobrenaturales, Magia del pacto",
+    "1",
+    "2",
+    "2",
+    "11"
+   ],
+   [
+    "2",
+    "+2",
+    "Astucia mágica",
+    "3",
+    "2",
+    "3",
+    "21"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de brujo",
+    "3",
+    "2",
+    "4",
+    "22"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "3",
+    "3",
+    "5",
+    "22"
+   ],
+   [
+    "5",
+    "+3",
+    "—",
+    "5",
+    "3",
+    "6",
+    "23"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "5",
+    "3",
+    "7",
+    "23"
+   ],
+   [
+    "7",
+    "+3",
+    "—",
+    "6",
+    "3",
+    "8",
+    "24"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "6",
+    "3",
+    "9",
+    "24"
+   ],
+   [
+    "9",
+    "+4",
+    "Contactar patrón",
+    "7",
+    "3",
+    "10",
+    "25"
+   ],
+   [
+    "10",
+    "+4",
+    "Rasgo de subclase",
+    "7",
+    "4",
+    "10",
+    "25"
+   ],
+   [
+    "11",
+    "+4",
+    "Arcanum místico (conjuro de nivel 6)",
+    "7",
+    "4",
+    "11",
+    "35"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "8",
+    "4",
+    "11",
+    "35"
+   ],
+   [
+    "13",
+    "+5",
+    "Arcanum místico (conjuro de nivel 7)",
+    "8",
+    "4",
+    "12",
+    "35"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "8",
+    "4",
+    "12",
+    "35"
+   ],
+   [
+    "15",
+    "+5",
+    "Arcanum místico (conjuro de nivel 8)",
+    "9",
+    "4",
+    "13",
+    "35"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "9",
+    "4",
+    "13",
+    "35"
+   ],
+   [
+    "17",
+    "+6",
+    "Arcanum místico (conjuro de nivel 9)",
+    "9",
+    "4",
+    "14",
+    "45"
+   ],
+   [
+    "18",
+    "+6",
+    "—",
+    "10",
+    "4",
+    "14",
+    "45"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "10",
+    "4",
+    "15",
+    "45"
+   ],
+   [
+    "20",
+    "+6",
+    "Maestro sobrenatural",
+    "10",
+    "4",
+    "15",
+    "45"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Invocaciones sobrenaturales",
+   "title": "Nivel 1: Invocaciones sobrenaturales",
+   "subclass": null,
+   "text": "Has desenterrado invocaciones sobrenaturales, fragmentos de conocimiento prohibido que te imbuyen de una capacidad mágica perpetua o de otros saberes. Obtienes una invocación de tu elección, como Pacto del grimorio. Las invocaciones se detallan más adelante en la descripción de esta clase, en el apartado “Opciones de invocación sobrenatural”.\n\nRequisitos. Si una invocación tiene un requisito, debes cumplirlo para poder aprenderla. Por ejemplo, si una invocación te pide un nivel 5 o superior de brujo, podrás seleccionar esa invocación cuando alcances ese nivel de brujo.\n\nSustituir y conseguir invocaciones. Cada vez que subas un nivel de brujo, puedes sustituir una de tus invocaciones por otra para la que cumplas las condiciones. No puedes sustituir una invocación si es un requisito de otra invocación que tengas. Obtienes más invocaciones de tu elección cuando alcanzas ciertos niveles de brujo, como se muestra en la columna “Invocaciones” de la tabla “Rasgos de brujo”. No puedes elegir la misma invocación más de una vez salvo que la descripción indique algo diferente.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 41,
+     "md": "Has desenterrado invocaciones sobrenaturales, fragmentos de conocimiento prohibido que te imbuyen de una capacidad mágica perpetua o de otros saberes. Obtienes una invocación de tu elección, como Pacto del grimorio. Las invocaciones se detallan más adelante en la descripción de esta clase, en el apartado “Opciones de invocación sobrenatural”.",
+     "text": "Has desenterrado invocaciones sobrenaturales, fragmentos de conocimiento prohibido que te imbuyen de una capacidad mágica perpetua o de otros saberes. Obtienes una invocación de tu elección, como Pacto del grimorio. Las invocaciones se detallan más adelante en la descripción de esta clase, en el apartado “Opciones de invocación sobrenatural”."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Requisitos.*** Si una invocación tiene un requisito, debes cumplirlo para poder aprenderla. Por ejemplo, si una invocación te pide un nivel 5 o superior de brujo, podrás seleccionar esa invocación cuando alcances ese nivel de brujo.",
+     "text": "Requisitos. Si una invocación tiene un requisito, debes cumplirlo para poder aprenderla. Por ejemplo, si una invocación te pide un nivel 5 o superior de brujo, podrás seleccionar esa invocación cuando alcances ese nivel de brujo."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Sustituir y conseguir invocaciones.*** Cada vez que subas un nivel de brujo, puedes sustituir una de tus invocaciones por otra para la que cumplas las condiciones. No puedes sustituir una invocación si es un requisito de otra invocación que tengas. Obtienes más invocaciones de tu elección cuando alcanzas ciertos niveles de brujo, como se muestra en la columna “Invocaciones” de la tabla “Rasgos de brujo”. No puedes elegir la misma invocación más de una vez salvo que la descripción indique algo diferente.",
+     "text": "Sustituir y conseguir invocaciones. Cada vez que subas un nivel de brujo, puedes sustituir una de tus invocaciones por otra para la que cumplas las condiciones. No puedes sustituir una invocación si es un requisito de otra invocación que tengas. Obtienes más invocaciones de tu elección cuando alcanzas ciertos niveles de brujo, como se muestra en la columna “Invocaciones” de la tabla “Rasgos de brujo”. No puedes elegir la misma invocación más de una vez salvo que la descripción indique algo diferente."
+    }
+   ],
+   "page": 41
+  },
+  {
+   "level": 1,
+   "name": "Magia del pacto",
+   "title": "Nivel 1: Magia del pacto",
+   "subclass": null,
+   "text": "Has sellado un pacto con una entidad misteriosa mediante una ceremonia ocultista para obtener poderes mágicos. Ese ente es una voz en las sombras y no tienes clara su identidad, pero el don que te ofrece sí que lo conoces: te ha dado la capacidad de lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de brujo, que encontrarás más adelante en la lista de conjuros de brujo de la descripción de la clase.\n\nTrucos. Conoces dos trucos de brujo de tu elección. Se recomiendan descarga sobrenatural y prestidigitación. Cada vez que subas un nivel de brujo, puedes sustituir uno de tus trucos de este rasgo por otro truco de brujo de tu elección. Cuando alcanzas los niveles 4 y 10 de brujo, aprendes otro truco de brujo de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de brujo”.\n\nEspacios de conjuro. La tabla “Rasgos de brujo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de brujo de los niveles 1 a 5. La tabla también te indica de qué nivel son dichos espacios, todos los cuales son del mismo nivel. Recuperas todos los espacios utilizados de Magia del pacto tras finalizar un descanso corto o largo. Por ejemplo, en el nivel 5 de brujo tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 hechizar persona, deberás gastar uno de esos espacios y lo lanzarás como un conjuro de nivel 3.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de brujo de nivel 1. Se recomiendan hechizar persona y maleficio. El número de conjuros de tu lista aumenta conforme subes de nivel de brujo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de brujo”. Cuando ese número aumente, elige conjuros de brujo adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros que elijas deben ser de un nivel igual o inferior al que aparece en la columna “Nivel de los espacios” para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de brujo que puede ser de los niveles 1 a 3. Si otro rasgo de brujo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de brujo para ti.\n\nCambiar los conjuros preparados. Cada vez que subas un nivel de brujo, puedes sustituir un conjuro de tu lista por otro conjuro de brujo de un nivel adecuado.\n\nAptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de brujo.\n\nCanalizador mágico. Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de brujo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 41,
+     "md": "Has sellado un pacto con una entidad misteriosa mediante una ceremonia ocultista para obtener poderes mágicos. Ese ente es una voz en las sombras y no tienes clara su identidad, pero el don que te ofrece sí que lo conoces: te ha dado la capacidad de lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de brujo, que encontrarás más adelante en la lista de conjuros de brujo de la descripción de la clase.",
+     "text": "Has sellado un pacto con una entidad misteriosa mediante una ceremonia ocultista para obtener poderes mágicos. Ese ente es una voz en las sombras y no tienes clara su identidad, pero el don que te ofrece sí que lo conoces: te ha dado la capacidad de lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de brujo, que encontrarás más adelante en la lista de conjuros de brujo de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Trucos.*** Conoces dos trucos de brujo de tu elección. Se recomiendan *descarga sobrenatural* y *prestidigitación*. Cada vez que subas un nivel de brujo, puedes sustituir uno de tus trucos de este rasgo por otro truco de brujo de tu elección. Cuando alcanzas los niveles 4 y 10 de brujo, aprendes otro truco de brujo de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de brujo”.",
+     "text": "Trucos. Conoces dos trucos de brujo de tu elección. Se recomiendan descarga sobrenatural y prestidigitación. Cada vez que subas un nivel de brujo, puedes sustituir uno de tus trucos de este rasgo por otro truco de brujo de tu elección. Cuando alcanzas los niveles 4 y 10 de brujo, aprendes otro truco de brujo de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de brujo”."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de brujo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de brujo de los niveles 1 a 5. La tabla también te indica de qué nivel son dichos espacios, todos los cuales son del mismo nivel. Recuperas todos los espacios utilizados de Magia del pacto tras finalizar un descanso corto o largo. Por ejemplo, en el nivel 5 de brujo tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 *hechizar persona*, deberás gastar uno de esos espacios y lo lanzarás como un conjuro de nivel 3.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de brujo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de brujo de los niveles 1 a 5. La tabla también te indica de qué nivel son dichos espacios, todos los cuales son del mismo nivel. Recuperas todos los espacios utilizados de Magia del pacto tras finalizar un descanso corto o largo. Por ejemplo, en el nivel 5 de brujo tienes dos espacios de conjuro de nivel 3. Para lanzar el conjuro de nivel 1 hechizar persona, deberás gastar uno de esos espacios y lo lanzarás como un conjuro de nivel 3."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de brujo de nivel 1. Se recomiendan *hechizar persona* y *maleficio*. El número de conjuros de tu lista aumenta conforme subes de nivel de brujo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de brujo”. Cuando ese número aumente, elige conjuros de brujo adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros que elijas deben ser de un nivel igual o inferior al que aparece en la columna “Nivel de los espacios” para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de brujo que puede ser de los niveles 1 a 3. Si otro rasgo de brujo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de brujo para ti.",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige dos conjuros de brujo de nivel 1. Se recomiendan hechizar persona y maleficio. El número de conjuros de tu lista aumenta conforme subes de nivel de brujo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de brujo”. Cuando ese número aumente, elige conjuros de brujo adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Los conjuros que elijas deben ser de un nivel igual o inferior al que aparece en la columna “Nivel de los espacios” para tu nivel. Cuando alcanzas el nivel 6, por ejemplo, aprendes un nuevo conjuro de brujo que puede ser de los niveles 1 a 3. Si otro rasgo de brujo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de brujo para ti."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Cambiar los conjuros preparados.*** Cada vez que subas un nivel de brujo, puedes sustituir un conjuro de tu lista por otro conjuro de brujo de un nivel adecuado.",
+     "text": "Cambiar los conjuros preparados. Cada vez que subas un nivel de brujo, puedes sustituir un conjuro de tu lista por otro conjuro de brujo de un nivel adecuado."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Aptitud mágica.*** El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de brujo.",
+     "text": "Aptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de brujo."
+    },
+    {
+     "type": "definition",
+     "page": 41,
+     "md": "***Canalizador mágico.*** Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de brujo.",
+     "text": "Canalizador mágico. Puedes utilizar un canalizador arcano como canalizador mágico para tus conjuros de brujo."
+    }
+   ],
+   "page": 41
+  },
+  {
+   "level": 2,
+   "name": "Astucia mágica",
+   "title": "Nivel 2: Astucia mágica",
+   "subclass": null,
+   "text": "Puedes llevar a cabo un rito esotérico durante 1 minuto. Al terminarlo, recuperas una cantidad de espacios de conjuro utilizados de Magia del pacto igual o inferior a la mitad de tu máximo (redondeando hacia arriba). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Puedes llevar a cabo un rito esotérico durante 1 minuto. Al terminarlo, recuperas una cantidad de espacios de conjuro utilizados de Magia del pacto igual o inferior a la mitad de tu máximo (redondeando hacia arriba). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Puedes llevar a cabo un rito esotérico durante 1 minuto. Al terminarlo, recuperas una cantidad de espacios de conjuro utilizados de Magia del pacto igual o inferior a la mitad de tu máximo (redondeando hacia arriba). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 3,
+   "name": "Subclase de brujo",
+   "title": "Nivel 3: Subclase de brujo",
+   "subclass": null,
+   "text": "Consigues una subclase de brujo de tu elección. La subclase de patrón infernal se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de brujo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de brujo e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Consigues una subclase de brujo de tu elección. La subclase de patrón infernal se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de brujo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de brujo e inferiores.",
+     "text": "Consigues una subclase de brujo de tu elección. La subclase de patrón infernal se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de brujo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de brujo e inferiores."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de brujo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de brujo.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de brujo."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 9,
+   "name": "Contactar patrón",
+   "title": "Nivel 9: Contactar patrón",
+   "subclass": null,
+   "text": "Antes solías ponerte en contacto con tu patrón a través de intermediarios. Ahora puedes comunicarte directamente, ya que siempre tienes el conjuro contactar con otro plano preparado. Con este rasgo, puedes lanzar el conjuro sin gastar un espacio de conjuro para contactar con tu patrón y superas automáticamente la tirada de salvación del conjuro.\n\nCuando lances el conjuro con este rasgo, no podrás volver a hacerlo de esta forma hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Antes solías ponerte en contacto con tu patrón a través de intermediarios. Ahora puedes comunicarte directamente, ya que siempre tienes el conjuro *contactar con otro plano* preparado. Con este rasgo, puedes lanzar el conjuro sin gastar un espacio de conjuro para contactar con tu patrón y superas automáticamente la tirada de salvación del conjuro.",
+     "text": "Antes solías ponerte en contacto con tu patrón a través de intermediarios. Ahora puedes comunicarte directamente, ya que siempre tienes el conjuro contactar con otro plano preparado. Con este rasgo, puedes lanzar el conjuro sin gastar un espacio de conjuro para contactar con tu patrón y superas automáticamente la tirada de salvación del conjuro."
+    },
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Cuando lances el conjuro con este rasgo, no podrás volver a hacerlo de esta forma hasta que finalices un descanso largo.",
+     "text": "Cuando lances el conjuro con este rasgo, no podrás volver a hacerlo de esta forma hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 11,
+   "name": "Arcanum místico",
+   "title": "Nivel 11: Arcanum místico",
+   "subclass": null,
+   "text": "Tu patrón te recompensa con un secreto mágico denominado arcanum. Escoge uno de los conjuros de brujo de nivel 6 como este arcanum.\n\nPuedes lanzar tu conjuro de arcanum una vez sin gastar un espacio de conjuro y debes finalizar un descanso largo antes de poder volver a lanzarlo de este modo.\n\nObtendrás más conjuros de brujo de tu elección que podrás lanzar de esta forma cuando alcances los niveles 13 (conjuro de nivel 7), 15 (conjuro de nivel 8) y 17 (conjuro de nivel 9) de brujo, como se muestra en la tabla “Rasgos de brujo”. Recuperas todos los usos de tu Arcanum místico tras finalizar un descanso largo.\n\nSiempre que subas un nivel de brujo, puedes sustituir uno de tus conjuros de arcanum por otro conjuro de brujo del mismo nivel.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Tu patrón te recompensa con un secreto mágico denominado arcanum. Escoge uno de los conjuros de brujo de nivel 6 como este arcanum.",
+     "text": "Tu patrón te recompensa con un secreto mágico denominado arcanum. Escoge uno de los conjuros de brujo de nivel 6 como este arcanum."
+    },
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Puedes lanzar tu conjuro de arcanum una vez sin gastar un espacio de conjuro y debes finalizar un descanso largo antes de poder volver a lanzarlo de este modo.",
+     "text": "Puedes lanzar tu conjuro de arcanum una vez sin gastar un espacio de conjuro y debes finalizar un descanso largo antes de poder volver a lanzarlo de este modo."
+    },
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Obtendrás más conjuros de brujo de tu elección que podrás lanzar de esta forma cuando alcances los niveles 13 (conjuro de nivel 7), 15 (conjuro de nivel 8) y 17 (conjuro de nivel 9) de brujo, como se muestra en la tabla “Rasgos de brujo”. Recuperas todos los usos de tu Arcanum místico tras finalizar un descanso largo.",
+     "text": "Obtendrás más conjuros de brujo de tu elección que podrás lanzar de esta forma cuando alcances los niveles 13 (conjuro de nivel 7), 15 (conjuro de nivel 8) y 17 (conjuro de nivel 9) de brujo, como se muestra en la tabla “Rasgos de brujo”. Recuperas todos los usos de tu Arcanum místico tras finalizar un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Siempre que subas un nivel de brujo, puedes sustituir uno de tus conjuros de arcanum por otro conjuro de brujo del mismo nivel.",
+     "text": "Siempre que subas un nivel de brujo, puedes sustituir uno de tus conjuros de arcanum por otro conjuro de brujo del mismo nivel."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del destino."
+    }
+   ],
+   "page": 42
+  },
+  {
+   "level": 20,
+   "name": "Maestro sobrenatural",
+   "title": "Nivel 20: Maestro sobrenatural",
+   "subclass": null,
+   "text": "Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 42,
+     "md": "Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto.",
+     "text": "Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto."
+    }
+   ],
+   "page": 42
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de brujo: Patrón infernal",
+   "features": [
+    {
+     "level": 3,
+     "name": "Bendición del oscuro",
+     "title": "Nivel 3: Bendición del oscuro",
+     "subclass": "Subclase de brujo: Patrón infernal",
+     "text": "Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti.",
+       "text": "Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti."
+      }
+     ],
+     "page": 46
+    },
+    {
+     "level": 3,
+     "name": "Conjuros del infernal",
+     "title": "Nivel 3: Conjuros del infernal",
+     "subclass": "Subclase de brujo: Patrón infernal",
+     "text": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla “Conjuros del infernal”, a partir de entonces siempre tendrás preparados los conjuros que se indican.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla “Conjuros del infernal”, a partir de entonces siempre tendrás preparados los conjuros que se indican.",
+       "text": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla “Conjuros del infernal”, a partir de entonces siempre tendrás preparados los conjuros que se indican."
+      },
+      {
+       "type": "table",
+       "page": 46,
+       "caption": "Conjuros del infernal",
+       "header": [
+        "Nivel de brujo",
+        "Conjuros"
+       ],
+       "rows": [
+        [
+         "3",
+         "Manos ardientes, orden imperiosa, rayo abrasador, sugestión"
+        ],
+        [
+         "5",
+         "Bola de fuego, nube apestosa"
+        ],
+        [
+         "7",
+         "Escudo de fuego, muro de fuego"
+        ],
+        [
+         "9",
+         "Geas, plaga de insectos"
+        ]
+       ]
+      }
+     ],
+     "page": 46
+    },
+    {
+     "level": 6,
+     "name": "La suerte del oscuro",
+     "title": "Nivel 6: La suerte del oscuro",
+     "subclass": "Subclase de brujo: Patrón infernal",
+     "text": "Puedes invocar a tu patrón infernal para alterar el destino a tu favor. Cuando hagas una prueba de característica o una tirada de salvación, puedes utilizar este rasgo para sumar 1d10 a tu tirada. Puedes hacerlo después de ver el resultado de la tirada, pero antes de que ocurran sus efectos.\n\nPuedes usar este rasgo una cantidad de veces igual a tu modificador por Carisma (mínimo una vez), pero no más de una vez por tirada. Recuperas todos los usos tras finalizar un descanso largo.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Puedes invocar a tu patrón infernal para alterar el destino a tu favor. Cuando hagas una prueba de característica o una tirada de salvación, puedes utilizar este rasgo para sumar 1d10 a tu tirada. Puedes hacerlo después de ver el resultado de la tirada, pero antes de que ocurran sus efectos.",
+       "text": "Puedes invocar a tu patrón infernal para alterar el destino a tu favor. Cuando hagas una prueba de característica o una tirada de salvación, puedes utilizar este rasgo para sumar 1d10 a tu tirada. Puedes hacerlo después de ver el resultado de la tirada, pero antes de que ocurran sus efectos."
+      },
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Carisma (mínimo una vez), pero no más de una vez por tirada. Recuperas todos los usos tras finalizar un descanso largo.",
+       "text": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Carisma (mínimo una vez), pero no más de una vez por tirada. Recuperas todos los usos tras finalizar un descanso largo."
+      }
+     ],
+     "page": 46
+    },
+    {
+     "level": 10,
+     "name": "Resistencia infernal",
+     "title": "Nivel 10: Resistencia infernal",
+     "subclass": "Subclase de brujo: Patrón infernal",
+     "text": "Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo.",
+       "text": "Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo."
+      }
+     ],
+     "page": 46
+    },
+    {
+     "level": 14,
+     "name": "Arrastrar por el infierno",
+     "title": "Nivel 14: Arrastrar por el infierno",
+     "subclass": "Subclase de brujo: Patrón infernal",
+     "text": "Una vez por turno, cuando aciertas a una criatura con una tirada de ataque, puedes intentar teletransportar instantáneamente al objetivo a los Planos Inferiores. El objetivo deberá superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros o desaparecerá y se precipitará a través de un paisaje de pesadilla. Si el objetivo no es un infernal, sufrirá 8d10 de daño psíquico y tendrá el estado de incapacitado hasta el final de tu siguiente turno, momento en el que volverá al espacio que ocupaba anteriormente o al espacio sin ocupar más cercano.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Una vez por turno, cuando aciertas a una criatura con una tirada de ataque, puedes intentar teletransportar instantáneamente al objetivo a los Planos Inferiores. El objetivo deberá superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros o desaparecerá y se precipitará a través de un paisaje de pesadilla. Si el objetivo no es un infernal, sufrirá 8d10 de daño psíquico y tendrá el estado de incapacitado hasta el final de tu siguiente turno, momento en el que volverá al espacio que ocupaba anteriormente o al espacio sin ocupar más cercano.",
+       "text": "Una vez por turno, cuando aciertas a una criatura con una tirada de ataque, puedes intentar teletransportar instantáneamente al objetivo a los Planos Inferiores. El objetivo deberá superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros o desaparecerá y se precipitará a través de un paisaje de pesadilla. Si el objetivo no es un infernal, sufrirá 8d10 de daño psíquico y tendrá el estado de incapacitado hasta el final de tu siguiente turno, momento en el que volverá al espacio que ocupaba anteriormente o al espacio sin ocupar más cercano."
+      },
+      {
+       "type": "paragraph",
+       "page": 46,
+       "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso.",
+       "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecer su uso."
+      }
+     ],
+     "page": 46
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de brujo de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Descarga sobrenatural",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Ilusión menor",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Impacto certero",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Mano de mago",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Prestidigitación",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Rociada venenosa",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Toque helado",
+     "Nigromancia",
+     "—"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de brujo de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Entender idiomas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Hablar con los animales",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Hechizar persona",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Maleficio",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Perdición",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Protección contra el bien y el mal",
+     "Abjuración",
+     "C, M"
+    ],
+    [
+     "Reprensión infernal",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Retirada expeditiva",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Risa horrible",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Sirviente invisible",
+     "Conjuración",
+     "R"
+    ],
+    [
+     "Texto ilusorio",
+     "Ilusionismo",
+     "R, M"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de brujo de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Clavo mental",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Embelesar",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Imagen múltiple",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Invisibilidad",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Oscuridad",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Paso brumoso",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Rayo debilitador",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Sugestión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Trepar cual arácnido",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de brujo de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Círculo mágico",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Contrahechizo",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Don de lenguas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Forma gaseosa",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Imagen mayor",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Levantar maldición",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Patrón hipnótico",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Terror",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Toque vampírico",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Volar",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de brujo de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Destierro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Hechizar monstruo",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Marchitar",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Puerta dimensional",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Terreno alucinatorio",
+     "Ilusionismo",
+     "—"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de brujo de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Atadura planar",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Círculo de teletransportación",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Contactar con otro plano",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Engañar",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Ensueño",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Escudriñar",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Inmovilizar monstruo",
+     "Encantamiento",
+     "C"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de brujo de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Círculo de muerte",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Crear muerto viviente",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Mal de ojo",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Visión veraz",
+     "Adivinación",
+     "M"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de brujo de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Dedo de la muerte",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Desplazamiento entre planos",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Excursión etérea",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Jaula de fuerza",
+     "Evocación",
+     "C, M"
+    ]
+   ],
+   "page": 45
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de brujo de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Dominar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Labia",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Ofuscación",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Palabra de poder: aturdir",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Semiplano",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 46
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de brujo de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Cautiverio",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Palabra de poder: matar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Polimorfar verdadero",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Portal",
+     "Conjuración",
+     "C, M"
+    ],
+    [
+     "Presciencia",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Proyección astral",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Terror abyecto",
+     "Ilusionismo",
+     "C"
+    ]
+   ],
+   "page": 46
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 40
+ },
+ "refs": [
+  "spell.descarga-sobrenatural",
+  "spell.prestidigitacion",
+  "spell.hechizar-persona",
+  "spell.maleficio",
+  "spell.contactar-con-otro-plano"
+ ]
+}

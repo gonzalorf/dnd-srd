@@ -1,0 +1,35 @@
+{
+ "id": "item.flauta-de-las-cloacas",
+ "name": "Flauta de las cloacas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves la flauta contigo, las ratas normales y las gigantes se mostrarán indiferentes hacia ti y no te atacarán a menos que las dañes o las amenaces.\n\nLa flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Si empleas una acción de magia para tocarla, podrás utilizar una acción adicional y gastar entre 1 y 3 cargas para convocar un enjambre de ratas con cada carga empleada, siempre que haya suficientes ratas a 750 m o menos de ti para que las convoques de esta manera (según decida tu GM). Si no hay ratas suficientes para formar un enjambre, la carga se desperdiciará. Los enjambres convocados irán hacia la música por el camino más corto disponible, pero, por lo demás, no estarán bajo tu control.\n\nCuando un enjambre de ratas que no esté bajo el control de otra criatura se acerque a 9 m o menos de ti mientras estés tocando la flauta, el enjambre hará una tirada de salvación de Sabiduría con CD 15. Si la supera, el enjambre se comportará de forma normal y no caerá bajo el influjo de la música de la flauta durante las siguientes 24 horas. Si la falla, el enjambre caerá bajo el influjo de la música de la flauta y se volverá amistoso hacia tus aliados y tú mientras sigas tocando la flauta cada asalto como acción de magia. Un enjambre amistoso obedece tus órdenes. Si no le das ninguna orden a un enjambre amistoso, se defenderá, pero no realizará ninguna otra acción. Si un enjambre amistoso comienza su turno a más de 9 m de ti, se acabará tu control sobre el enjambre, este se comportará de forma normal y no podrá caer bajo el influjo de la música de la flauta durante las siguientes 24 horas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 257,
+   "md": "Mientras lleves la flauta contigo, las ratas normales y las gigantes se mostrarán indiferentes hacia ti y no te atacarán a menos que las dañes o las amenaces.",
+   "text": "Mientras lleves la flauta contigo, las ratas normales y las gigantes se mostrarán indiferentes hacia ti y no te atacarán a menos que las dañes o las amenaces."
+  },
+  {
+   "type": "paragraph",
+   "page": 257,
+   "md": "La flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Si empleas una acción de magia para tocarla, podrás utilizar una acción adicional y gastar entre 1 y 3 cargas para convocar un **enjambre de ratas** con cada carga empleada, siempre que haya suficientes ratas a 750 m o menos de ti para que las convoques de esta manera (según decida tu GM). Si no hay ratas suficientes para formar un enjambre, la carga se desperdiciará. Los enjambres convocados irán hacia la música por el camino más corto disponible, pero, por lo demás, no estarán bajo tu control.",
+   "text": "La flauta tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer. Si empleas una acción de magia para tocarla, podrás utilizar una acción adicional y gastar entre 1 y 3 cargas para convocar un enjambre de ratas con cada carga empleada, siempre que haya suficientes ratas a 750 m o menos de ti para que las convoques de esta manera (según decida tu GM). Si no hay ratas suficientes para formar un enjambre, la carga se desperdiciará. Los enjambres convocados irán hacia la música por el camino más corto disponible, pero, por lo demás, no estarán bajo tu control."
+  },
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "Cuando un **enjambre de ratas** que no esté bajo el control de otra criatura se acerque a 9 m o menos de ti mientras estés tocando la flauta, el enjambre hará una tirada de salvación de Sabiduría con CD 15. Si la supera, el enjambre se comportará de forma normal y no caerá bajo el influjo de la música de la flauta durante las siguientes 24 horas. Si la falla, el enjambre caerá bajo el influjo de la música de la flauta y se volverá amistoso hacia tus aliados y tú mientras sigas tocando la flauta cada asalto como acción de magia. Un enjambre amistoso obedece tus órdenes. Si no le das ninguna orden a un enjambre amistoso, se defenderá, pero no realizará ninguna otra acción. Si un enjambre amistoso comienza su turno a más de 9 m de ti, se acabará tu control sobre el enjambre, este se comportará de forma normal y no podrá caer bajo el influjo de la música de la flauta durante las siguientes 24 horas.",
+   "text": "Cuando un enjambre de ratas que no esté bajo el control de otra criatura se acerque a 9 m o menos de ti mientras estés tocando la flauta, el enjambre hará una tirada de salvación de Sabiduría con CD 15. Si la supera, el enjambre se comportará de forma normal y no caerá bajo el influjo de la música de la flauta durante las siguientes 24 horas. Si la falla, el enjambre caerá bajo el influjo de la música de la flauta y se volverá amistoso hacia tus aliados y tú mientras sigas tocando la flauta cada asalto como acción de magia. Un enjambre amistoso obedece tus órdenes. Si no le das ninguna orden a un enjambre amistoso, se defenderá, pero no realizará ninguna otra acción. Si un enjambre amistoso comienza su turno a más de 9 m de ti, se acabará tu control sobre el enjambre, este se comportará de forma normal y no podrá caer bajo el influjo de la música de la flauta durante las siguientes 24 horas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 257
+ }
+}

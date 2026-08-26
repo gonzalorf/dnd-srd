@@ -1,0 +1,23 @@
+{
+ "id": "item.manual-del-ejercicio-beneficioso",
+ "name": "Manual del ejercicio beneficioso",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro",
+ "text": "Este libro describe diferentes ejercicios para mantenerse en forma y sus palabras están impregnadas de magia. Si dedicas 48 horas durante un periodo de 6 días, como mucho, a estudiar el contenido del libro y poner en práctica sus indicaciones, tu Fuerza aumentará en 2, hasta un máximo de 30. Después, el manual perderá su magia, pero la recuperará cuando pase un siglo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Este libro describe diferentes ejercicios para mantenerse en forma y sus palabras están impregnadas de magia. Si dedicas 48 horas durante un periodo de 6 días, como mucho, a estudiar el contenido del libro y poner en práctica sus indicaciones, tu Fuerza aumentará en 2, hasta un máximo de 30. Después, el manual perderá su magia, pero la recuperará cuando pase un siglo.",
+   "text": "Este libro describe diferentes ejercicios para mantenerse en forma y sus palabras están impregnadas de magia. Si dedicas 48 horas durante un periodo de 6 días, como mucho, a estudiar el contenido del libro y poner en práctica sus indicaciones, tu Fuerza aumentará en 2, hasta un máximo de 30. Después, el manual perderá su magia, pero la recuperará cuando pase un siglo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 262
+ }
+}

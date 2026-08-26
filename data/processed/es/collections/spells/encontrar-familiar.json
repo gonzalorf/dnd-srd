@@ -1,0 +1,80 @@
+{
+ "id": "spell.encontrar-familiar",
+ "name": "Encontrar familiar",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora o un ritual",
+  "ritual": true,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S, M (incienso para quemar que valga al menos 10 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso para quemar que valga al menos 10 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Obtienes los servicios de un familiar, un espíritu que adopta una forma animal de tu elección: araña, búho, comadreja, cuervo, gato, halcón, lagarto, murciélago, pulpo, rana, rata u otra bestia con un valor de desafío de 0. El familiar, que aparecerá en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el capítulo “Monstruos”), aunque es un celestial, un feérico o un infernal (a tu elección) en vez de una bestia. Tu familiar actúa con independencia de ti, pero obedece tus órdenes.\n\nConexión telepática. Mientras tu familiar esté a 30 m o menos de ti, puedes comunicarte con él telepáticamente. Además, como acción adicional, puedes ver a través de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y también obtienes los beneficios de cualquier sentido especial que tenga. Por último, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacción para tocar al objetivo cuando lances el conjuro.\n\nCombate. El familiar se considera un aliado para tus aliados y para ti, tira su propia iniciativa y actúa en su propio turno. Un familiar no puede atacar,\n\npero puede realizar otras acciones de manera normal.\n\nDesaparición del familiar. Si los puntos de golpe del familiar se reducen a 0, desaparecerá y reaparecerá después de que vuelvas a lanzar este conjuro. Como acción de magia, puedes hacer que el familiar se retire temporalmente a una dimensión de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acción de magia mientras esté desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensión de bolsillo, dejará en el espacio que ocupaba cualquier cosa que vistiera o llevase.\n\nUn solo familiar. No puedes tener más de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, harás que adopte una nueva forma que cumpla los requisitos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Obtienes los servicios de un familiar, un espíritu que adopta una forma animal de tu elección: **araña, búho, comadreja, cuervo, gato, halcón, lagarto, murciélago, pulpo, rana, rata** u otra bestia con un valor de desafío de 0. El familiar, que aparecerá en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el capítulo “Monstruos”), aunque es un celestial, un feérico o un infernal (a tu elección) en vez de una bestia. Tu familiar actúa con independencia de ti, pero obedece tus órdenes.",
+   "text": "Obtienes los servicios de un familiar, un espíritu que adopta una forma animal de tu elección: araña, búho, comadreja, cuervo, gato, halcón, lagarto, murciélago, pulpo, rana, rata u otra bestia con un valor de desafío de 0. El familiar, que aparecerá en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el capítulo “Monstruos”), aunque es un celestial, un feérico o un infernal (a tu elección) en vez de una bestia. Tu familiar actúa con independencia de ti, pero obedece tus órdenes."
+  },
+  {
+   "type": "definition",
+   "page": 145,
+   "md": "***Conexión telepática.*** Mientras tu familiar esté a 30 m o menos de ti, puedes comunicarte con él telepáticamente. Además, como acción adicional, puedes ver a través de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y también obtienes los beneficios de cualquier sentido especial que tenga. Por último, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacción para tocar al objetivo cuando lances el conjuro.",
+   "text": "Conexión telepática. Mientras tu familiar esté a 30 m o menos de ti, puedes comunicarte con él telepáticamente. Además, como acción adicional, puedes ver a través de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y también obtienes los beneficios de cualquier sentido especial que tenga. Por último, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacción para tocar al objetivo cuando lances el conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 145,
+   "md": "***Combate.*** El familiar se considera un aliado para tus aliados y para ti, tira su propia iniciativa y actúa en su propio turno. Un familiar no puede atacar,",
+   "text": "Combate. El familiar se considera un aliado para tus aliados y para ti, tira su propia iniciativa y actúa en su propio turno. Un familiar no puede atacar,"
+  },
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "pero puede realizar otras acciones de manera normal.",
+   "text": "pero puede realizar otras acciones de manera normal."
+  },
+  {
+   "type": "definition",
+   "page": 145,
+   "md": "***Desaparición del familiar.*** Si los puntos de golpe del familiar se reducen a 0, desaparecerá y reaparecerá después de que vuelvas a lanzar este conjuro. Como acción de magia, puedes hacer que el familiar se retire temporalmente a una dimensión de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acción de magia mientras esté desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensión de bolsillo, dejará en el espacio que ocupaba cualquier cosa que vistiera o llevase.",
+   "text": "Desaparición del familiar. Si los puntos de golpe del familiar se reducen a 0, desaparecerá y reaparecerá después de que vuelvas a lanzar este conjuro. Como acción de magia, puedes hacer que el familiar se retire temporalmente a una dimensión de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acción de magia mientras esté desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensión de bolsillo, dejará en el espacio que ocupaba cualquier cosa que vistiera o llevase."
+  },
+  {
+   "type": "definition",
+   "page": 145,
+   "md": "***Un solo familiar.*** No puedes tener más de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, harás que adopte una nueva forma que cumpla los requisitos.",
+   "text": "Un solo familiar. No puedes tener más de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, harás que adopte una nueva forma que cumpla los requisitos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 145
+ }
+}

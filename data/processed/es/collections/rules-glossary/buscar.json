@@ -1,0 +1,45 @@
+{
+ "id": "rule.buscar",
+ "name": "Buscar",
+ "text": "Cuando llevas a cabo la acción de buscar, realizas una prueba de Sabiduría para distinguir algo que no resulta evidente. La tabla “Búsqueda” indica las habilidades que se pueden aplicar al usar esta acción, en función de lo que trates de detectar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 197,
+   "md": "Cuando llevas a cabo la acción de buscar, realizas una prueba de Sabiduría para distinguir algo que no resulta evidente. La tabla “Búsqueda” indica las habilidades que se pueden aplicar al usar esta acción, en función de lo que trates de detectar.",
+   "text": "Cuando llevas a cabo la acción de buscar, realizas una prueba de Sabiduría para distinguir algo que no resulta evidente. La tabla “Búsqueda” indica las habilidades que se pueden aplicar al usar esta acción, en función de lo que trates de detectar."
+  },
+  {
+   "type": "table",
+   "page": 197,
+   "caption": "Búsqueda",
+   "header": [
+    "Habilidad",
+    "Objeto de detección"
+   ],
+   "rows": [
+    [
+     "Medicina",
+     "Dolencia o causa de la muerte de una criatura"
+    ],
+    [
+     "Percepción",
+     "Criatura u objeto ocultos"
+    ],
+    [
+     "Perspicacia",
+     "Estado mental de una criatura"
+    ],
+    [
+     "Supervivencia",
+     "Huellas o alimentos"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ },
+ "kind": "acción"
+}

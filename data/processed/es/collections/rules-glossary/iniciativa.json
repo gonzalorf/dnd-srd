@@ -1,0 +1,23 @@
+{
+ "id": "rule.iniciativa",
+ "name": "Iniciativa",
+ "text": "La iniciativa determina el orden de los turnos durante el combate. Las reglas del combate del capítulo “Cómo jugar” explican cómo tirar iniciativa.\n\nA veces, los GM pueden hacer que los combatientes utilicen sus puntuaciones de iniciativa en vez de tirar iniciativa. Tu puntuación de iniciativa es igual a 10 más tu modificador por Destreza. Si tienes ventaja en las tiradas de iniciativa, aumenta tu puntuación de iniciativa en 5. Si, por el contrario, tienes desventaja en estas tiradas, reduce esa puntuación en 5. Consulta también el capítulo “Cómo jugar” (“Combate”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "La iniciativa determina el orden de los turnos durante el combate. Las reglas del combate del capítulo “Cómo jugar” explican cómo tirar iniciativa.",
+   "text": "La iniciativa determina el orden de los turnos durante el combate. Las reglas del combate del capítulo “Cómo jugar” explican cómo tirar iniciativa."
+  },
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "A veces, los GM pueden hacer que los combatientes utilicen sus puntuaciones de iniciativa en vez de tirar iniciativa. Tu puntuación de iniciativa es igual a 10 más tu modificador por Destreza. Si tienes ventaja en las tiradas de iniciativa, aumenta tu puntuación de iniciativa en 5. Si, por el contrario, tienes desventaja en estas tiradas, reduce esa puntuación en 5. *Consulta también* el capítulo “Cómo jugar” (“Combate”).",
+   "text": "A veces, los GM pueden hacer que los combatientes utilicen sus puntuaciones de iniciativa en vez de tirar iniciativa. Tu puntuación de iniciativa es igual a 10 más tu modificador por Destreza. Si tienes ventaja en las tiradas de iniciativa, aumenta tu puntuación de iniciativa en 5. Si, por el contrario, tienes desventaja en estas tiradas, reduce esa puntuación en 5. Consulta también el capítulo “Cómo jugar” (“Combate”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

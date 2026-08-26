@@ -1,0 +1,63 @@
+{
+ "id": "gear.canalizador-arcano",
+ "name": "Canalizador arcano",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Canalizador arcano",
+  "Peso": "Variable",
+  "Precio": "Variable"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "text": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos.",
+   "text": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos."
+  },
+  {
+   "type": "table",
+   "page": 105,
+   "caption": "Canalizadores arcanos",
+   "header": [
+    "Canalizador",
+    "Peso",
+    "Precio"
+   ],
+   "rows": [
+    [
+     "Bastón",
+     "2 kg",
+     "5 po"
+    ],
+    [
+     "Cristal",
+     "0,5 kg",
+     "10 po"
+    ],
+    [
+     "Orbe",
+     "1,5 kg",
+     "20 po"
+    ],
+    [
+     "Vara",
+     "1 kg",
+     "10 po"
+    ],
+    [
+     "Varita",
+     "0,5 kg",
+     "10 po"
+    ]
+   ]
+  }
+ ],
+ "descriptionPage": 104
+}

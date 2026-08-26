@@ -1,0 +1,52 @@
+{
+ "id": "table.miscibilidad-de-pociones",
+ "caption": "Miscibilidad de pociones",
+ "header": [
+  "1d100",
+  "Resultado"
+ ],
+ "rows": [
+  [
+   "01",
+   "Ambas pociones pierden sus efectos y la mezcla provoca una explosión mágica en una esfera de 1,5 m de radio centrada en sí misma. Todas las criaturas situadas en esa zona sufren 4d10 de daño de fuerza."
+  ],
+  [
+   "02–08",
+   "Ambas pociones pierden sus efectos y la mezcla se convierte en un veneno ingerido de tu elección (consulta “Veneno” en “Herramientas del juego”)."
+  ],
+  [
+   "09–15",
+   "Ambas pociones pierden sus efectos."
+  ],
+  [
+   "16–25",
+   "Una poción pierde sus efectos."
+  ],
+  [
+   "26–35",
+   "Ambas pociones funcionan, pero sus efectos numéricos y duraciones se reducen a la mitad. Una poción que no tenga efecto numérico ni duración perderá sus efectos."
+  ],
+  [
+   "36–90",
+   "Ambas pociones funcionan con normalidad."
+  ],
+  [
+   "91–99",
+   "Ambas pociones funcionan, pero se duplican los efectos y la duración de una de ellas. Si ninguna poción tiene nada que se pueda duplicar, funcionan de forma normal."
+  ],
+  [
+   "00",
+   "Solo funciona una de las pociones, pero su"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Categorías de objetos mágicos",
+  "Pociones"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 224
+ }
+}

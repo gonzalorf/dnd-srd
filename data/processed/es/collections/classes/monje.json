@@ -1,0 +1,767 @@
+{
+ "id": "class.monje",
+ "name": "Monje",
+ "coreTraits": {
+  "Característica principal": "Destreza y Sabiduría",
+  "Dado de puntos de golpe": "1d8 por nivel de monje",
+  "Competencias en tiradas de salvación": "Fuerza y Destreza",
+  "Competencias en habilidades": "Elige dos: Acrobacias, Atletismo, Historia, Perspicacia, Religión o Sigilo",
+  "Competencias con armas": "Armas sencillas, además de marciales que tengan la propiedad “ligera”",
+  "Competencias con herramientas": "Elige un tipo de herramientas de artesano o instrumento musical (consulta el capítulo “Equipo”)",
+  "Entrenamiento con armaduras": "Ninguna",
+  "Equipo inicial": "Elige A o B: (A) lanza, 5 dagas,"
+ },
+ "progression": {
+  "caption": "Rasgos de monje",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Artes marciales",
+   "Puntos de concentración",
+   "Movimiento sin armadura"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Artes marciales, Defensa sin armadura",
+    "1d6",
+    "—",
+    "—"
+   ],
+   [
+    "2",
+    "+2",
+    "Concentración de monje, Metabolismo asombroso, Movimiento sin armadura",
+    "1d6",
+    "2",
+    "+3 m"
+   ],
+   [
+    "3",
+    "+2",
+    "Desviar ataques, subclase de monje",
+    "1d6",
+    "3",
+    "+3 m"
+   ],
+   [
+    "4",
+    "+2",
+    "Caída lenta, Mejora de característica",
+    "1d6",
+    "4",
+    "+3 m"
+   ],
+   [
+    "5",
+    "+3",
+    "Ataque adicional, Golpe aturdidor",
+    "1d8",
+    "5",
+    "+3 m"
+   ],
+   [
+    "6",
+    "+3",
+    "Golpes potenciados, rasgo de subclase",
+    "1d8",
+    "6",
+    "+4,5 m"
+   ],
+   [
+    "7",
+    "+3",
+    "Evasión",
+    "1d8",
+    "7",
+    "+4,5 m"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "1d8",
+    "8",
+    "+4,5 m"
+   ],
+   [
+    "9",
+    "+4",
+    "Movimiento acrobático",
+    "1d8",
+    "9",
+    "+4,5 m"
+   ],
+   [
+    "10",
+    "+4",
+    "Autorrestablecimiento, Concentración agudizada",
+    "1d8",
+    "10",
+    "+6 m"
+   ],
+   [
+    "11",
+    "+4",
+    "Rasgo de subclase",
+    "1d10",
+    "11",
+    "+6 m"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "1d10",
+    "12",
+    "+6 m"
+   ],
+   [
+    "13",
+    "+5",
+    "Desviar energía",
+    "1d10",
+    "13",
+    "+6 m"
+   ],
+   [
+    "14",
+    "+5",
+    "Superviviente disciplinado",
+    "1d10",
+    "14",
+    "+7,5 m"
+   ],
+   [
+    "15",
+    "+5",
+    "Concentración perfecta",
+    "1d10",
+    "15",
+    "+7,5 m"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "1d10",
+    "16",
+    "+7,5 m"
+   ],
+   [
+    "17",
+    "+6",
+    "Rasgo de subclase",
+    "1d12",
+    "17",
+    "+7,5 m"
+   ],
+   [
+    "18",
+    "+6",
+    "Defensa superior",
+    "1d12",
+    "18",
+    "+9 m"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "1d12",
+    "19",
+    "+9 m"
+   ],
+   [
+    "20",
+    "+6",
+    "Cuerpo y mente",
+    "1d12",
+    "20",
+    "+9 m"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Artes marciales",
+   "title": "Nivel 1: Artes marciales",
+   "subclass": null,
+   "text": "La práctica de las artes marciales te ha otorgado un dominio de los estilos de combate que emplean ataques sin armas y armas de monje, que son las siguientes:\n\n• armas cuerpo a cuerpo sencillas;\n\n• armas cuerpo a cuerpo marciales que tengan la propiedad “ligera”.\n\nObtienes los siguientes beneficios mientras no lleves armadura ni portes un escudo y estés desarmado o empuñes únicamente armas de monje:\n\nAtaque sin armas adicional. Puedes hacer un ataque sin armas como acción adicional.\n\nDado de Artes marciales. Puedes tirar 1d6 en lugar del daño normal de tus ataques sin armas o tus armas de monje. Este dado cambia según subes niveles como monje, como se muestra en la columna “Artes marciales” de la tabla “Rasgos de monje”.\n\nAtaques diestros. Puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para las tiradas de ataque y de daño de tus ataques sin armas y tus armas de monje. Además, cuando uses las opciones de agarre o empujón de tu ataque sin armas, puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para determinar la CD de salvación.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "La práctica de las artes marciales te ha otorgado un dominio de los estilos de combate que emplean ataques sin armas y armas de monje, que son las siguientes:",
+     "text": "La práctica de las artes marciales te ha otorgado un dominio de los estilos de combate que emplean ataques sin armas y armas de monje, que son las siguientes:"
+    },
+    {
+     "type": "list-item",
+     "page": 78,
+     "md": "• armas cuerpo a cuerpo sencillas;",
+     "text": "• armas cuerpo a cuerpo sencillas;"
+    },
+    {
+     "type": "list-item",
+     "page": 78,
+     "md": "• armas cuerpo a cuerpo marciales que tengan la propiedad “ligera”.",
+     "text": "• armas cuerpo a cuerpo marciales que tengan la propiedad “ligera”."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Obtienes los siguientes beneficios mientras no lleves armadura ni portes un escudo y estés desarmado o empuñes únicamente armas de monje:",
+     "text": "Obtienes los siguientes beneficios mientras no lleves armadura ni portes un escudo y estés desarmado o empuñes únicamente armas de monje:"
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Ataque sin armas adicional.*** Puedes hacer un ataque sin armas como acción adicional.",
+     "text": "Ataque sin armas adicional. Puedes hacer un ataque sin armas como acción adicional."
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Dado de Artes marciales.*** Puedes tirar 1d6 en lugar del daño normal de tus ataques sin armas o tus armas de monje. Este dado cambia según subes niveles como monje, como se muestra en la columna “Artes marciales” de la tabla “Rasgos de monje”.",
+     "text": "Dado de Artes marciales. Puedes tirar 1d6 en lugar del daño normal de tus ataques sin armas o tus armas de monje. Este dado cambia según subes niveles como monje, como se muestra en la columna “Artes marciales” de la tabla “Rasgos de monje”."
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Ataques diestros.*** Puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para las tiradas de ataque y de daño de tus ataques sin armas y tus armas de monje. Además, cuando uses las opciones de agarre o empujón de tu ataque sin armas, puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para determinar la CD de salvación.",
+     "text": "Ataques diestros. Puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para las tiradas de ataque y de daño de tus ataques sin armas y tus armas de monje. Además, cuando uses las opciones de agarre o empujón de tu ataque sin armas, puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para determinar la CD de salvación."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 1,
+   "name": "Defensa sin armadura",
+   "title": "Nivel 1: Defensa sin armadura",
+   "subclass": null,
+   "text": "Mientras no lleves armadura ni portes un escudo, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Sabiduría.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Mientras no lleves armadura ni portes un escudo, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Sabiduría.",
+     "text": "Mientras no lleves armadura ni portes un escudo, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Sabiduría."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 2,
+   "name": "Concentración de monje",
+   "title": "Nivel 2: Concentración de monje",
+   "subclass": null,
+   "text": "Tu concentración y tu entrenamiento marcial te permiten utilizar una reserva interna de energía extraordinaria. Esta energía se representa mediante los puntos de concentración. Tu nivel de monje determina cuántos de estos puntos posees, como se muestra en la columna “Puntos de concentración” de la tabla “Rasgos de monje”.\n\nPuedes gastar estos puntos para mejorar o alimentar determinados rasgos de monje. Empiezas con tres de estos rasgos: Defensa paciente, Paso del viento y Ráfaga de golpes, que se detallan a continuación.\n\nCuando gastes un punto de concentración, no estará disponible hasta que finalices un descanso corto o largo, tras el cual recuperarás todos los puntos gastados.\n\nAlgunos rasgos que usan puntos de concentración requieren que tu objetivo haga una tirada de salvación. La CD de salvación es igual a 8 más tu modificador por Sabiduría y tu bonificador por competencia.\n\nDefensa paciente. Puedes llevar a cabo la acción de destrabarse como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de esquivar como acción adicional.\n\nPaso del viento. Puedes llevar a cabo la acción de correr como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de correr como acción adicional, y tu distancia de salto se duplicará durante el turno.\n\nRáfaga de golpes. Puedes gastar 1 punto de concentración para hacer dos ataques sin armas como acción adicional.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Tu concentración y tu entrenamiento marcial te permiten utilizar una reserva interna de energía extraordinaria. Esta energía se representa mediante los puntos de concentración. Tu nivel de monje determina cuántos de estos puntos posees, como se muestra en la columna “Puntos de concentración” de la tabla “Rasgos de monje”.",
+     "text": "Tu concentración y tu entrenamiento marcial te permiten utilizar una reserva interna de energía extraordinaria. Esta energía se representa mediante los puntos de concentración. Tu nivel de monje determina cuántos de estos puntos posees, como se muestra en la columna “Puntos de concentración” de la tabla “Rasgos de monje”."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Puedes gastar estos puntos para mejorar o alimentar determinados rasgos de monje. Empiezas con tres de estos rasgos: Defensa paciente, Paso del viento y Ráfaga de golpes, que se detallan a continuación.",
+     "text": "Puedes gastar estos puntos para mejorar o alimentar determinados rasgos de monje. Empiezas con tres de estos rasgos: Defensa paciente, Paso del viento y Ráfaga de golpes, que se detallan a continuación."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Cuando gastes un punto de concentración, no estará disponible hasta que finalices un descanso corto o largo, tras el cual recuperarás todos los puntos gastados.",
+     "text": "Cuando gastes un punto de concentración, no estará disponible hasta que finalices un descanso corto o largo, tras el cual recuperarás todos los puntos gastados."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Algunos rasgos que usan puntos de concentración requieren que tu objetivo haga una tirada de salvación. La CD de salvación es igual a 8 más tu modificador por Sabiduría y tu bonificador por competencia.",
+     "text": "Algunos rasgos que usan puntos de concentración requieren que tu objetivo haga una tirada de salvación. La CD de salvación es igual a 8 más tu modificador por Sabiduría y tu bonificador por competencia."
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Defensa paciente.*** Puedes llevar a cabo la acción de destrabarse como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de esquivar como acción adicional.",
+     "text": "Defensa paciente. Puedes llevar a cabo la acción de destrabarse como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de esquivar como acción adicional."
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Paso del viento.*** Puedes llevar a cabo la acción de correr como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de correr como acción adicional, y tu distancia de salto se duplicará durante el turno.",
+     "text": "Paso del viento. Puedes llevar a cabo la acción de correr como acción adicional. De manera alternativa, puedes gastar 1 punto de concentración para llevar a cabo tanto la acción de destrabarse como la de correr como acción adicional, y tu distancia de salto se duplicará durante el turno."
+    },
+    {
+     "type": "definition",
+     "page": 78,
+     "md": "***Ráfaga de golpes.*** Puedes gastar 1 punto de concentración para hacer dos ataques sin armas como acción adicional.",
+     "text": "Ráfaga de golpes. Puedes gastar 1 punto de concentración para hacer dos ataques sin armas como acción adicional."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 2,
+   "name": "Metabolismo asombroso",
+   "title": "Nivel 2: Metabolismo asombroso",
+   "subclass": null,
+   "text": "Cuando tires iniciativa, puedes recuperar todos los puntos de concentración gastados. Cuando lo hagas, tira tu dado de Artes marciales y recupera una cantidad de puntos de golpe igual a tu nivel de monje más el resultado obtenido.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Cuando tires iniciativa, puedes recuperar todos los puntos de concentración gastados. Cuando lo hagas, tira tu dado de Artes marciales y recupera una cantidad de puntos de golpe igual a tu nivel de monje más el resultado obtenido.",
+     "text": "Cuando tires iniciativa, puedes recuperar todos los puntos de concentración gastados. Cuando lo hagas, tira tu dado de Artes marciales y recupera una cantidad de puntos de golpe igual a tu nivel de monje más el resultado obtenido."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 2,
+   "name": "Movimiento sin armadura",
+   "title": "Nivel 2: Movimiento sin armadura",
+   "subclass": null,
+   "text": "Tu velocidad aumenta en 3 m si no llevas armadura ni portas un escudo. Esta bonificación aumenta cuando alcanzas ciertos niveles de monje, como se muestra en la tabla “Rasgos de monje”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Tu velocidad aumenta en 3 m si no llevas armadura ni portas un escudo. Esta bonificación aumenta cuando alcanzas ciertos niveles de monje, como se muestra en la tabla “Rasgos de monje”.",
+     "text": "Tu velocidad aumenta en 3 m si no llevas armadura ni portas un escudo. Esta bonificación aumenta cuando alcanzas ciertos niveles de monje, como se muestra en la tabla “Rasgos de monje”."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 3,
+   "name": "Desviar ataques",
+   "title": "Nivel 3: Desviar ataques",
+   "subclass": null,
+   "text": "Cuando una tirada de ataque te acierte y su daño incluya los tipos contundente, cortante o perforante, puedes llevar a cabo una reacción para reducir el daño total que sufras del ataque. Se reducirá en 1d10 más tu modificador por Destreza y nivel de monje.\n\nSi reduces el daño a 0, puedes gastar 1 punto de concentración para redirigir una parte de la fuerza del ataque. Si lo haces, elige una criatura que puedas ver a 1,5 m o menos de ti si el ataque fue cuerpo a cuerpo o una criatura que puedas ver a 18 m o menos de ti que no esté tras cobertura completa si el ataque fue a distancia. La criatura deberá superar una tirada de salvación de Destreza o sufrirá una cantidad de daño igual al resultado de dos tiradas de tu dado de Artes marciales más tu modificador por Destreza. El daño será del mismo tipo que inflija el ataque.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Cuando una tirada de ataque te acierte y su daño incluya los tipos contundente, cortante o perforante, puedes llevar a cabo una reacción para reducir el daño total que sufras del ataque. Se reducirá en 1d10 más tu modificador por Destreza y nivel de monje.",
+     "text": "Cuando una tirada de ataque te acierte y su daño incluya los tipos contundente, cortante o perforante, puedes llevar a cabo una reacción para reducir el daño total que sufras del ataque. Se reducirá en 1d10 más tu modificador por Destreza y nivel de monje."
+    },
+    {
+     "type": "paragraph",
+     "page": 78,
+     "md": "Si reduces el daño a 0, puedes gastar 1 punto de concentración para redirigir una parte de la fuerza del ataque. Si lo haces, elige una criatura que puedas ver a 1,5 m o menos de ti si el ataque fue cuerpo a cuerpo o una criatura que puedas ver a 18 m o menos de ti que no esté tras cobertura completa si el ataque fue a distancia. La criatura deberá superar una tirada de salvación de Destreza o sufrirá una cantidad de daño igual al resultado de dos tiradas de tu dado de Artes marciales más tu modificador por Destreza. El daño será del mismo tipo que inflija el ataque.",
+     "text": "Si reduces el daño a 0, puedes gastar 1 punto de concentración para redirigir una parte de la fuerza del ataque. Si lo haces, elige una criatura que puedas ver a 1,5 m o menos de ti si el ataque fue cuerpo a cuerpo o una criatura que puedas ver a 18 m o menos de ti que no esté tras cobertura completa si el ataque fue a distancia. La criatura deberá superar una tirada de salvación de Destreza o sufrirá una cantidad de daño igual al resultado de dos tiradas de tu dado de Artes marciales más tu modificador por Destreza. El daño será del mismo tipo que inflija el ataque."
+    }
+   ],
+   "page": 78
+  },
+  {
+   "level": 3,
+   "name": "Subclase de monje",
+   "title": "Nivel 3: Subclase de monje",
+   "subclass": null,
+   "text": "Consigues una subclase de monje de tu elección. La subclase del guerrero de la mano abierta se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de monje. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de monje e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Consigues una subclase de monje de tu elección. La subclase del guerrero de la mano abierta se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de monje. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de monje e inferiores.",
+     "text": "Consigues una subclase de monje de tu elección. La subclase del guerrero de la mano abierta se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de monje. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de monje e inferiores."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 4,
+   "name": "Caída lenta",
+   "title": "Nivel 4: Caída lenta",
+   "subclass": null,
+   "text": "Puedes llevar a cabo una reacción cuando caigas para reducir cualquier daño que sufras de la caída en una cantidad igual a cinco veces tu nivel de monje.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Puedes llevar a cabo una reacción cuando caigas para reducir cualquier daño que sufras de la caída en una cantidad igual a cinco veces tu nivel de monje.",
+     "text": "Puedes llevar a cabo una reacción cuando caigas para reducir cualquier daño que sufras de la caída en una cantidad igual a cinco veces tu nivel de monje."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de monje.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de monje.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de monje."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 5,
+   "name": "Ataque adicional",
+   "title": "Nivel 5: Ataque adicional",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 5,
+   "name": "Golpe aturdidor",
+   "title": "Nivel 5: Golpe aturdidor",
+   "subclass": null,
+   "text": "Una vez por turno cuando aciertes a una criatura con un arma de monje o un ataque sin armas, puedes gastar 1 punto de concentración para intentar propinar un golpe aturdidor. El objetivo deberá hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de aturdido hasta el principio de tu siguiente turno. Si la supera, su velocidad se reducirá a la mitad hasta el principio de tu siguiente turno y la siguiente tirada de ataque realizada contra él antes de ese momento tendrá ventaja.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Una vez por turno cuando aciertes a una criatura con un arma de monje o un ataque sin armas, puedes gastar 1 punto de concentración para intentar propinar un golpe aturdidor. El objetivo deberá hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de aturdido hasta el principio de tu siguiente turno. Si la supera, su velocidad se reducirá a la mitad hasta el principio de tu siguiente turno y la siguiente tirada de ataque realizada contra él antes de ese momento tendrá ventaja.",
+     "text": "Una vez por turno cuando aciertes a una criatura con un arma de monje o un ataque sin armas, puedes gastar 1 punto de concentración para intentar propinar un golpe aturdidor. El objetivo deberá hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de aturdido hasta el principio de tu siguiente turno. Si la supera, su velocidad se reducirá a la mitad hasta el principio de tu siguiente turno y la siguiente tirada de ataque realizada contra él antes de ese momento tendrá ventaja."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 6,
+   "name": "Golpes potenciados",
+   "title": "Nivel 6: Golpes potenciados",
+   "subclass": null,
+   "text": "Siempre que inflijas daño con tu ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Siempre que inflijas daño con tu ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal.",
+     "text": "Siempre que inflijas daño con tu ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 7,
+   "name": "Evasión",
+   "title": "Nivel 7: Evasión",
+   "subclass": null,
+   "text": "Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas.\n\nNo te beneficias de este rasgo si tienes el estado de incapacitado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas.",
+     "text": "Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas."
+    },
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "No te beneficias de este rasgo si tienes el estado de incapacitado.",
+     "text": "No te beneficias de este rasgo si tienes el estado de incapacitado."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 9,
+   "name": "Movimiento acrobático",
+   "title": "Nivel 9: Movimiento acrobático",
+   "subclass": null,
+   "text": "Mientras no lleves armadura ni portes un escudo, obtienes la capacidad de moverte por superficies verticales y sobre líquidos sin caer durante el movimiento.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Mientras no lleves armadura ni portes un escudo, obtienes la capacidad de moverte por superficies verticales y sobre líquidos sin caer durante el movimiento.",
+     "text": "Mientras no lleves armadura ni portes un escudo, obtienes la capacidad de moverte por superficies verticales y sobre líquidos sin caer durante el movimiento."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 10,
+   "name": "Autorrestablecimiento",
+   "title": "Nivel 10: Autorrestablecimiento",
+   "subclass": null,
+   "text": "Por pura fuerza de voluntad, puedes eliminar uno de los siguientes estados que te afecten al final de cada uno de tus turnos: asustado, envenenado o hechizado.\n\nAdemás, privarte de comida y bebida no te aplica niveles de cansancio.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Por pura fuerza de voluntad, puedes eliminar uno de los siguientes estados que te afecten al final de cada uno de tus turnos: asustado, envenenado o hechizado.",
+     "text": "Por pura fuerza de voluntad, puedes eliminar uno de los siguientes estados que te afecten al final de cada uno de tus turnos: asustado, envenenado o hechizado."
+    },
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Además, privarte de comida y bebida no te aplica niveles de cansancio.",
+     "text": "Además, privarte de comida y bebida no te aplica niveles de cansancio."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 10,
+   "name": "Concentración agudizada",
+   "title": "Nivel 10: Concentración agudizada",
+   "subclass": null,
+   "text": "Tus rasgos Defensa paciente, Paso del viento y Ráfaga de golpes obtienen los siguientes beneficios:\n\nDefensa paciente. Cuando gastes un punto de concentración para usar Defensa paciente, obtienes una cantidad de puntos de golpe temporales igual al resultado de dos tiradas de tu dado de Artes marciales.\n\nPaso del viento. Cuando gastes un punto de concentración para usar Paso del viento, puedes elegir una criatura voluntaria Grande o más pequeña que esté a 1,5 m o menos de ti. Moverás a la criatura contigo hasta el final de tu turno. El movimiento de la criatura no provoca ataques de oportunidad.\n\nRáfaga de golpes. Puedes gastar 1 punto de concentración para usar Ráfaga de golpes y hacer tres ataques sin armas en lugar de dos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Tus rasgos Defensa paciente, Paso del viento y Ráfaga de golpes obtienen los siguientes beneficios:",
+     "text": "Tus rasgos Defensa paciente, Paso del viento y Ráfaga de golpes obtienen los siguientes beneficios:"
+    },
+    {
+     "type": "definition",
+     "page": 79,
+     "md": "***Defensa paciente.*** Cuando gastes un punto de concentración para usar Defensa paciente, obtienes una cantidad de puntos de golpe temporales igual al resultado de dos tiradas de tu dado de Artes marciales.",
+     "text": "Defensa paciente. Cuando gastes un punto de concentración para usar Defensa paciente, obtienes una cantidad de puntos de golpe temporales igual al resultado de dos tiradas de tu dado de Artes marciales."
+    },
+    {
+     "type": "definition",
+     "page": 79,
+     "md": "***Paso del viento.*** Cuando gastes un punto de concentración para usar Paso del viento, puedes elegir una criatura voluntaria Grande o más pequeña que esté a 1,5 m o menos de ti. Moverás a la criatura contigo hasta el final de tu turno. El movimiento de la criatura no provoca ataques de oportunidad.",
+     "text": "Paso del viento. Cuando gastes un punto de concentración para usar Paso del viento, puedes elegir una criatura voluntaria Grande o más pequeña que esté a 1,5 m o menos de ti. Moverás a la criatura contigo hasta el final de tu turno. El movimiento de la criatura no provoca ataques de oportunidad."
+    },
+    {
+     "type": "definition",
+     "page": 79,
+     "md": "***Ráfaga de golpes.*** Puedes gastar 1 punto de concentración para usar Ráfaga de golpes y hacer tres ataques sin armas en lugar de dos.",
+     "text": "Ráfaga de golpes. Puedes gastar 1 punto de concentración para usar Ráfaga de golpes y hacer tres ataques sin armas en lugar de dos."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 13,
+   "name": "Desviar energía",
+   "title": "Nivel 13: Desviar energía",
+   "subclass": null,
+   "text": "Ahora puedes usar tu rasgo Desviar ataques contra ataques que causen cualquier tipo de daño, no solo contundente, cortante o perforante.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Ahora puedes usar tu rasgo Desviar ataques contra ataques que causen cualquier tipo de daño, no solo contundente, cortante o perforante.",
+     "text": "Ahora puedes usar tu rasgo Desviar ataques contra ataques que causen cualquier tipo de daño, no solo contundente, cortante o perforante."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 14,
+   "name": "Superviviente disciplinado",
+   "title": "Nivel 14: Superviviente disciplinado",
+   "subclass": null,
+   "text": "Tu disciplina física y mental te otorga competencia en todas las tiradas de salvación.\n\nAdemás, cuando hagas una tirada de salvación y falles, puedes gastar 1 punto de concentración para repetirla, pero deberás utilizar el nuevo resultado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Tu disciplina física y mental te otorga competencia en todas las tiradas de salvación.",
+     "text": "Tu disciplina física y mental te otorga competencia en todas las tiradas de salvación."
+    },
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Además, cuando hagas una tirada de salvación y falles, puedes gastar 1 punto de concentración para repetirla, pero deberás utilizar el nuevo resultado.",
+     "text": "Además, cuando hagas una tirada de salvación y falles, puedes gastar 1 punto de concentración para repetirla, pero deberás utilizar el nuevo resultado."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 15,
+   "name": "Concentración perfecta",
+   "title": "Nivel 15: Concentración perfecta",
+   "subclass": null,
+   "text": "Cuando tires iniciativa y no utilices Metabolismo asombroso, recuperas los puntos de concentración gastados hasta que tengas 4 si te quedan 3 o menos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Cuando tires iniciativa y no utilices Metabolismo asombroso, recuperas los puntos de concentración gastados hasta que tengas 4 si te quedan 3 o menos.",
+     "text": "Cuando tires iniciativa y no utilices Metabolismo asombroso, recuperas los puntos de concentración gastados hasta que tengas 4 si te quedan 3 o menos."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 18,
+   "name": "Defensa superior",
+   "title": "Nivel 18: Defensa superior",
+   "subclass": null,
+   "text": "Al principio de tu turno, puedes gastar 3 puntos de concentración para protegerte del daño durante 1 minuto o hasta que tengas el estado de incapacitado. Durante ese tiempo, tendrás resistencia a todo el daño excepto al de fuerza.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 79,
+     "md": "Al principio de tu turno, puedes gastar 3 puntos de concentración para protegerte del daño durante 1 minuto o hasta que tengas el estado de incapacitado. Durante ese tiempo, tendrás resistencia a todo el daño excepto al de fuerza.",
+     "text": "Al principio de tu turno, puedes gastar 3 puntos de concentración para protegerte del daño durante 1 minuto o hasta que tengas el estado de incapacitado. Durante ese tiempo, tendrás resistencia a todo el daño excepto al de fuerza."
+    }
+   ],
+   "page": 79
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 80,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable."
+    }
+   ],
+   "page": 80
+  },
+  {
+   "level": 20,
+   "name": "Cuerpo y mente",
+   "title": "Nivel 20: Cuerpo y mente",
+   "subclass": null,
+   "text": "Has llevado tu cuerpo y mente a otro nivel. Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 80,
+     "md": "Has llevado tu cuerpo y mente a otro nivel. Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25.",
+     "text": "Has llevado tu cuerpo y mente a otro nivel. Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25."
+    }
+   ],
+   "page": 80
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de monje: Guerrero de la mano abierta",
+   "features": [
+    {
+     "level": 3,
+     "name": "Técnica de la mano abierta",
+     "title": "Nivel 3: Técnica de la mano abierta",
+     "subclass": "Subclase de monje: Guerrero de la mano abierta",
+     "text": "Siempre que aciertes a una criatura con un ataque proporcionado por Ráfaga de golpes, puedes imponerle uno de los siguientes efectos:\n\nDerribar. El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado.\n\nDesconcertar. El objetivo no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.\n\nEmpujar. El objetivo deberá superar una tirada de salvación de Fuerza o será empujado hasta 4,5 m respecto a ti.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Siempre que aciertes a una criatura con un ataque proporcionado por Ráfaga de golpes, puedes imponerle uno de los siguientes efectos:",
+       "text": "Siempre que aciertes a una criatura con un ataque proporcionado por Ráfaga de golpes, puedes imponerle uno de los siguientes efectos:"
+      },
+      {
+       "type": "definition",
+       "page": 80,
+       "md": "***Derribar.*** El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado.",
+       "text": "Derribar. El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado."
+      },
+      {
+       "type": "definition",
+       "page": 80,
+       "md": "***Desconcertar.*** El objetivo no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.",
+       "text": "Desconcertar. El objetivo no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno."
+      },
+      {
+       "type": "definition",
+       "page": 80,
+       "md": "***Empujar.*** El objetivo deberá superar una tirada de salvación de Fuerza o será empujado hasta 4,5 m respecto a ti.",
+       "text": "Empujar. El objetivo deberá superar una tirada de salvación de Fuerza o será empujado hasta 4,5 m respecto a ti."
+      }
+     ],
+     "page": 80
+    },
+    {
+     "level": 6,
+     "name": "Plenitud de cuerpo",
+     "title": "Nivel 6: Plenitud de cuerpo",
+     "subclass": "Subclase de monje: Guerrero de la mano abierta",
+     "text": "Obtienes la capacidad de sanar tu propio cuerpo. Como acción adicional, puedes tirar tu dado de Artes marciales. Recuperas una cantidad de puntos de golpe igual al resultado más tu modificador por Sabiduría (recuperas 1 punto de golpe como mínimo).\n\nPuedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Obtienes la capacidad de sanar tu propio cuerpo. Como acción adicional, puedes tirar tu dado de Artes marciales. Recuperas una cantidad de puntos de golpe igual al resultado más tu modificador por Sabiduría (recuperas 1 punto de golpe como mínimo).",
+       "text": "Obtienes la capacidad de sanar tu propio cuerpo. Como acción adicional, puedes tirar tu dado de Artes marciales. Recuperas una cantidad de puntos de golpe igual al resultado más tu modificador por Sabiduría (recuperas 1 punto de golpe como mínimo)."
+      },
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo.",
+       "text": "Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo una vez) y recuperas todos los usos tras finalizar un descanso largo."
+      }
+     ],
+     "page": 80
+    },
+    {
+     "level": 11,
+     "name": "Paso veloz",
+     "title": "Nivel 11: Paso veloz",
+     "subclass": "Subclase de monje: Guerrero de la mano abierta",
+     "text": "Cuando utilices una acción adicional que no sea Paso del viento, podrás usar también Paso del viento inmediatamente después de esa acción adicional.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Cuando utilices una acción adicional que no sea Paso del viento, podrás usar también Paso del viento inmediatamente después de esa acción adicional.",
+       "text": "Cuando utilices una acción adicional que no sea Paso del viento, podrás usar también Paso del viento inmediatamente después de esa acción adicional."
+      }
+     ],
+     "page": 80
+    },
+    {
+     "level": 17,
+     "name": "Palma estremecedora",
+     "title": "Nivel 17: Palma estremecedora",
+     "subclass": "Subclase de monje: Guerrero de la mano abierta",
+     "text": "Consigues la capacidad de transmitir vibraciones letales al cuerpo de un oponente. Cuando aciertes a una criatura con un ataque sin armas, puedes gastar 4 puntos de concentración para iniciar estas vibraciones imperceptibles, que durarán tantos días como tu nivel de monje. Las vibraciones son inofensivas, salvo si usas tu acción para hacer que terminen. Como alternativa, cuando lleves a cabo la acción de atacar en tu turno, puedes renunciar a uno de los ataques para poner fin a las vibraciones. Para ello, el objetivo y tú debéis estar en el mismo plano de existencia. Cuando les pongas fin, el objetivo deberá realizar una tirada de salvación de Constitución; sufrirá 10d12 de daño de fuerza si la falla o la mitad del daño si la supera.\n\nSolo puedes tener a una criatura bajo el efecto de este rasgo al mismo tiempo. Puedes poner fin a las vibraciones de forma inocua (no requiere acción).",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Consigues la capacidad de transmitir vibraciones letales al cuerpo de un oponente. Cuando aciertes a una criatura con un ataque sin armas, puedes gastar 4 puntos de concentración para iniciar estas vibraciones imperceptibles, que durarán tantos días como tu nivel de monje. Las vibraciones son inofensivas, salvo si usas tu acción para hacer que terminen. Como alternativa, cuando lleves a cabo la acción de atacar en tu turno, puedes renunciar a uno de los ataques para poner fin a las vibraciones. Para ello, el objetivo y tú debéis estar en el mismo plano de existencia. Cuando les pongas fin, el objetivo deberá realizar una tirada de salvación de Constitución; sufrirá 10d12 de daño de fuerza si la falla o la mitad del daño si la supera.",
+       "text": "Consigues la capacidad de transmitir vibraciones letales al cuerpo de un oponente. Cuando aciertes a una criatura con un ataque sin armas, puedes gastar 4 puntos de concentración para iniciar estas vibraciones imperceptibles, que durarán tantos días como tu nivel de monje. Las vibraciones son inofensivas, salvo si usas tu acción para hacer que terminen. Como alternativa, cuando lleves a cabo la acción de atacar en tu turno, puedes renunciar a uno de los ataques para poner fin a las vibraciones. Para ello, el objetivo y tú debéis estar en el mismo plano de existencia. Cuando les pongas fin, el objetivo deberá realizar una tirada de salvación de Constitución; sufrirá 10d12 de daño de fuerza si la falla o la mitad del daño si la supera."
+      },
+      {
+       "type": "paragraph",
+       "page": 80,
+       "md": "Solo puedes tener a una criatura bajo el efecto de este rasgo al mismo tiempo. Puedes poner fin a las vibraciones de forma inocua (no requiere acción).",
+       "text": "Solo puedes tener a una criatura bajo el efecto de este rasgo al mismo tiempo. Puedes poner fin a las vibraciones de forma inocua (no requiere acción)."
+      }
+     ],
+     "page": 80
+    }
+   ]
+  }
+ ],
+ "spellLists": [],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 77
+ }
+}

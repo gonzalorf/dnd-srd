@@ -1,0 +1,175 @@
+{
+ "id": "monster.dragon-de-oropel-anciano",
+ "name": "Dragón de oropel anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 308,
+  "pages": [
+   308,
+   309
+  ]
+ },
+ "context": [
+  "Dragones de oropel"
+ ],
+ "metaRaw": "Dragón Gargantuesco (metálico), caótico bueno",
+ "type": "Dragón",
+ "alignment": "caótico bueno",
+ "size": "Gargantuesco",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 20,
+ "acRaw": "20",
+ "initiative": {
+  "mod": 12,
+  "score": 22
+ },
+ "hp": {
+  "raw": "332 (19d20 + 133)",
+  "average": 332,
+  "formula": "19d20 + 133"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "excavar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Historia": 9,
+  "Percepción": 14,
+  "Persuasión": 12,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 24",
+  "passivePerception": 24
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "20 (25 000 PX o 33 000 en la guarida; BC +6)",
+  "cr": 20,
+  "xp": 25000,
+  "proficiencyBonus": 6,
+  "xpInLair": 33000
+ },
+ "abilities": {
+  "fue": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 6
+  },
+  "con": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 8
+  },
+  "car": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 308,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento somnífero o de (B) su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3).",
+   "page": 308,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento somnífero o de (B) su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 4,5 m. *Acierto:* 19 (2d10 + 8) de daño cortante más 7 (2d6) de daño de fuego.",
+   "page": 309,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 4,5 m. *Acierto:* 19 (2d10 + 8) de daño cortante más 7 (2d6) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 21, todas las criaturas en una línea de 27 m de largo y 1,5 m de ancho. *Fallo:* 58 (13d8) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 309,
+   "description": ". *Tirada de salvación de Destreza:* CD 21, todas las criaturas en una línea de 27 m de largo y 1,5 m de ancho. *Fallo:* 58 (13d8) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento somnífero",
+   "md": "***Aliento somnífero.*** *Tirada de salvación de Constitución:* CD 21, todas las criaturas en un cono de 27 m. *Fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de inconsciente durante 10 minutos. Este efecto acabará si el objetivo sufre daño o si una criatura que se encuentre a 1,5 m o menos de él lleva a cabo una acción para despertarlo.",
+   "page": 309,
+   "description": "*Tirada de salvación de Constitución:* CD 21, todas las criaturas en un cono de 27 m. *Fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de inconsciente durante 10 minutos. Este efecto acabará si el objetivo sufre daño o si una criatura que se encuentre a 1,5 m o menos de él lleva a cabo una acción para despertarlo."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 20):",
+   "page": 309,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 20):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración ni puntos de golpe temporales para mantener el conjuro), *detectar magia*, *hablar con los animales*, *ilusión menor*, *rayo abrasador* (versión de nivel 3) 1/día cada uno: *controlar el clima*, *detectar pensamientos*",
+   "page": 309
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 309,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Arena abrasante",
+    "md": "***Arena abrasante.*** *Tirada de salvación de Destreza:* CD 20, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 36 (8d8) de daño de fuego y la velocidad del objetivo se reducirá a la mitad hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 309,
+    "description": "*Tirada de salvación de Destreza:* CD 20, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 36 (8d8) de daño de fuego y la velocidad del objetivo se reducirá a la mitad hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Luz calcinadora",
+    "md": "***Luz calcinadora.*** El dragón utiliza su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3).",
+    "page": 309,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3)."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.rayo-abrasador",
+  "spell.cambiar-de-forma",
+  "spell.detectar-magia",
+  "spell.hablar-con-los-animales",
+  "spell.ilusion-menor",
+  "spell.controlar-el-clima",
+  "spell.detectar-pensamientos"
+ ]
+}

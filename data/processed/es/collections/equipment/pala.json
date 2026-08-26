@@ -1,0 +1,36 @@
+{
+ "id": "gear.pala",
+ "name": "Pala",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Pala",
+  "Peso": "2,5 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar.",
+   "text": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar."
+  }
+ ],
+ "descriptionPage": 106
+}

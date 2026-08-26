@@ -1,0 +1,85 @@
+{
+ "id": "monster.halcon",
+ "name": "Halcón",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 386
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "1 (1d4 − 1)",
+  "average": 1
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Garras",
+   "md": "***Garras.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 1 de daño cortante.",
+   "page": 386,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 1 de daño cortante."
+  }
+ ]
+}

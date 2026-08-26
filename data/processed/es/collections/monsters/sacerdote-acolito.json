@@ -1,0 +1,127 @@
+{
+ "id": "monster.sacerdote-acolito",
+ "name": "Sacerdote acólito",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 364
+ },
+ "context": [
+  "Sacerdotes"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño (clérigo), neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "clérigo"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Medicina": 4,
+  "Religión": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "camisa de malla",
+  "maza",
+  "símbolo sagrado"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Maza",
+   "md": "***Maza.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño contundente más 2 (1d4) de daño radiante.",
+   "page": 364,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño contundente más 2 (1d4) de daño radiante."
+  },
+  {
+   "name": "Llama radiante",
+   "md": "***Llama radiante.*** *Tirada de ataque a distancia:* +4, alcance 18 m. *Acierto:* 7 (2d6) de daño radiante.",
+   "page": 364,
+   "description": "*Tirada de ataque a distancia:* +4, alcance 18 m. *Acierto:* 7 (2d6) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El sacerdote lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica:",
+   "page": 364,
+   "description": "El sacerdote lanza uno de los siguientes conjuros, que utiliza la Sabiduría como aptitud mágica:"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *luz*, *taumaturgia*",
+   "page": 364
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Auxilio divino",
+   "md": "***Auxilio divino (1/día).*** El sacerdote lanza *bendición*, *palabra de curación* o *santuario* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 364,
+   "description": "El sacerdote lanza *bendición*, *palabra de curación* o *santuario* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "1/día"
+  }
+ ],
+ "refs": [
+  "spell.luz",
+  "spell.taumaturgia",
+  "spell.bendicion",
+  "spell.palabra-de-curacion",
+  "spell.santuario"
+ ]
+}

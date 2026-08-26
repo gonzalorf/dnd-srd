@@ -1,0 +1,48 @@
+{
+ "id": "table.puntuaciones-de-caracteristica",
+ "caption": "Puntuaciones de característica",
+ "header": [
+  "Puntuación",
+  "Significado"
+ ],
+ "rows": [
+  [
+   "1",
+   "Este es, por lo general, el mínimo que puede tener una puntuación. Si un efecto la reduce a 0, explica lo que ocurre."
+  ],
+  [
+   "2–9",
+   "Representa una capacidad débil."
+  ],
+  [
+   "10–11",
+   "Representa la media humana."
+  ],
+  [
+   "12–19",
+   "Representa una capacidad fuerte."
+  ],
+  [
+   "20",
+   "Este es el máximo que pueden tener las puntuaciones de los aventureros salvo que un rasgo indique lo contrario."
+  ],
+  [
+   "21–29",
+   "Representa una capacidad extraordinaria."
+  ],
+  [
+   "30",
+   "Este es el máximo que pueden tener las puntuaciones."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las seis características",
+  "Puntuaciones de característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 5
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "table.p254",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Resultado"
+ ],
+ "rows": [
+  [
+   "01–50",
+   "La esfera se destruye."
+  ],
+  [
+   "51–85",
+   "La esfera atraviesa el portal o entra en el espacio extradimensional."
+  ],
+  [
+   "86–00",
+   "Una grieta en el espacio envía la esfera y a todas las criaturas y objetos que se encuentren a 54 m o menos de ella a un plano de existencia aleatorio."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Esfera de aniquilación"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 254
+ }
+}

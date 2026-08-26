@@ -1,0 +1,67 @@
+{
+ "id": "table.acciones",
+ "caption": "Acciones",
+ "header": [
+  "Acción",
+  "Resumen"
+ ],
+ "rows": [
+  [
+   "Atacar",
+   "Atacas con un arma o un ataque sin armas."
+  ],
+  [
+   "Ayudar",
+   "Ayudas a otra criatura en una prueba de característica o tirada de ataque, o administras primeros auxilios."
+  ],
+  [
+   "Buscar",
+   "Haces una prueba de Sabiduría (Medicina, Percepción, Perspicacia o Supervivencia)."
+  ],
+  [
+   "Correr",
+   "Durante el resto del turno, te concedes movimiento adicional equivalente a tu velocidad."
+  ],
+  [
+   "Destrabarse",
+   "Tu movimiento no provocará ataques de oportunidad durante el resto del turno."
+  ],
+  [
+   "Esconderse",
+   "Haces una prueba de Destreza (Sigilo)."
+  ],
+  [
+   "Esquivar",
+   "Hasta el principio de tu siguiente turno, las tiradas de ataque contra ti tendrán desventaja y realizarás las tiradas de salvación de Destreza con ventaja. Perderás este beneficio si tienes el estado de incapacitado o si tu velocidad es 0."
+  ],
+  [
+   "Estudiar",
+   "Haces una prueba de Inteligencia (Conocimiento arcano, Historia, Investigación, Naturaleza o Religión)."
+  ],
+  [
+   "Influir",
+   "Haces una prueba de Carisma (Engaño, Interpretación, Intimidación o Persuasión) o Sabiduría (Trato con animales) para cambiar la actitud de una criatura."
+  ],
+  [
+   "Magia",
+   "Lanzas un conjuro, utilizas un objeto mágico o empleas un rasgo mágico."
+  ],
+  [
+   "Preparar una acción",
+   "Te preparas para llevar a cabo una acción en respuesta a un suceso que tú definas."
+  ],
+  [
+   "Utilizar",
+   "Usas un objeto no mágico."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Acciones"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 10
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "monster.sombra",
+ "name": "Sombra",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 369,
+  "pages": [
+   369,
+   370
+  ]
+ },
+ "context": [
+  "Sombra"
+ ],
+ "metaRaw": "Muerto viviente Mediano, caótico malvado",
+ "type": "Muerto viviente",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "27 (5d8 + 5)",
+  "average": 27,
+  "formula": "5d8 + 5"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "agarrado",
+  "apresado",
+  "asustado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "ácido",
+  "frío",
+  "fuego",
+  "relámpago",
+  "trueno"
+ ],
+ "vulnerabilities": [
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Amorfa",
+   "md": "***Amorfa.*** La sombra puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.",
+   "page": 370,
+   "description": "La sombra puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo."
+  },
+  {
+   "name": "Debilidad a la luz solar",
+   "md": "***Debilidad a la luz solar.*** Bajo la luz del sol, la sombra tiene desventaja en las pruebas con d20.",
+   "page": 370,
+   "description": "Bajo la luz del sol, la sombra tiene desventaja en las pruebas con d20."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Zarpazo debilitador",
+   "md": "***Zarpazo debilitador.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño necrótico y la puntuación de Fuerza del objetivo se reduce en 1d4. Si su Fuerza se reduce a 0, morirá. Si un humanoide muere a causa de este ataque, una sombra surgirá de su cadáver tras 1d4 horas.",
+   "page": 370,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño necrótico y la puntuación de Fuerza del objetivo se reduce en 1d4. Si su Fuerza se reduce a 0, morirá. Si un humanoide muere a causa de este ataque, una sombra surgirá de su cadáver tras 1d4 horas."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Esconderse en las sombras",
+   "md": "***Esconderse en las sombras.*** Con luz tenue o en la oscuridad, la sombra realiza la acción de esconderse.",
+   "page": 370,
+   "description": "Con luz tenue o en la oscuridad, la sombra realiza la acción de esconderse."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "monster.deva",
+ "name": "Deva",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 292,
+  "pages": [
+   292,
+   293
+  ]
+ },
+ "context": [
+  "Deva"
+ ],
+ "metaRaw": "Celestial Mediano (ángel), legal bueno",
+ "type": "Celestial",
+ "alignment": "legal bueno",
+ "size": "Mediano",
+ "tags": [
+  "ángel"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "229 (27d8 + 108)",
+  "average": 229,
+  "formula": "27d8 + 108"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 27.0
+ },
+ "skills": {
+  "Percepción": 9,
+  "Perspicacia": 9
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "todos",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "asustado",
+  "cansancio",
+  "hechizado"
+ ],
+ "resistances": [
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "10 (5900 PX; BC +4)",
+  "cr": 10,
+  "xp": 5900,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 20,
+   "mod": 5,
+   "save": 9
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 9
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación exaltada",
+   "md": "***Recuperación exaltada.*** Si el deva muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia.",
+   "page": 292,
+   "description": "Si el deva muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El deva tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 292,
+   "description": "El deva tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El deva realiza dos ataques con su maza sagrada.",
+   "page": 292,
+   "description": "El deva realiza dos ataques con su maza sagrada."
+  },
+  {
+   "name": "Maza sagrada",
+   "md": "***Maza sagrada.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente más 18 (4d8) de daño radiante.",
+   "page": 292,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente más 18 (4d8) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El deva lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17):",
+   "page": 292,
+   "description": "El deva lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración",
+   "page": 292
+  },
+  {
+   "name": null,
+   "md": "ni puntos de golpe temporales para mantener el conjuro), *detectar el bien y el mal* 1/día cada uno: *alzar a los muertos*, *comunión*",
+   "page": 293
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Auxilio divino",
+   "md": "***Auxilio divino (2/día).*** El deva lanza *curar heridas*, *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 293,
+   "description": "El deva lanza *curar heridas*, *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "2/día"
+  }
+ ],
+ "refs": [
+  "spell.cambiar-de-forma",
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.alzar-a-los-muertos",
+  "spell.comunion",
+  "spell.curar-heridas",
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-menor"
+ ]
+}

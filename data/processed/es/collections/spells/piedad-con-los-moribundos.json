@@ -1,0 +1,53 @@
+{
+ "id": "spell.piedad-con-los-moribundos",
+ "name": "Piedad con los moribundos",
+ "level": 0,
+ "cantrip": true,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "4,5 m",
+  "kind": "ranged",
+  "meters": 4.5
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no esté muerta. La criatura pasa a estar estable.\n\nMejora de truco. El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 174,
+   "md": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no esté muerta. La criatura pasa a estar estable.",
+   "text": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no esté muerta. La criatura pasa a estar estable."
+  },
+  {
+   "type": "definition",
+   "page": 174,
+   "md": "***Mejora de truco.*** El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m).",
+   "text": "Mejora de truco. El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 173
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "monster.caballo-de-guerra-esqueleto",
+ "name": "Caballo de guerra esqueleto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 323,
+  "pages": [
+   323,
+   324
+  ]
+ },
+ "context": [
+  "Esqueletos"
+ ],
+ "metaRaw": "Muerto viviente Grande, legal malvado",
+ "type": "Muerto viviente",
+ "alignment": "legal malvado",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "22 (3d10 + 6)",
+  "average": 22,
+  "formula": "3d10 + 6"
+ },
+ "speeds": {
+  "caminando": 18.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "vulnerabilities": [
+  "contundente"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Cascos",
+   "md": "***Cascos.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente. Si el objetivo es una criatura Grande o más pequeña y el esqueleto recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada.",
+   "page": 324,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente. Si el objetivo es una criatura Grande o más pequeña y el esqueleto recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada."
+  }
+ ]
+}

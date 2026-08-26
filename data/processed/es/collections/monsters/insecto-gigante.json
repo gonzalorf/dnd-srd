@@ -1,0 +1,104 @@
+{
+ "id": "monster.insecto-gigante",
+ "name": "Insecto gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 159
+ },
+ "context": [
+  "Insecto gigante"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11 + el nivel del conjuro",
+ "hp": {
+  "raw": "30 + 10 por cada nivel del conjuro superior al 4",
+  "average": 30
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0,
+  "volar": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "entiende los idiomas que conozcas"
+ ],
+ "challenge": {
+  "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** El insecto puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 159,
+   "description": "El insecto puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).",
+   "page": 159,
+   "description": "El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo)."
+  },
+  {
+   "name": "Punzada venenosa",
+   "md": "***Punzada venenosa.*** *Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 3 m. *Acierto:* 1d6 + 3 más el nivel del conjuro de daño perforante más 1d4 de daño de veneno.",
+   "page": 159,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 3 m. *Acierto:* 1d6 + 3 más el nivel del conjuro de daño perforante más 1d4 de daño de veneno."
+  },
+  {
+   "name": "Proyectil de telarañas (solo araña)",
+   "md": "***Proyectil de telarañas (solo araña).*** *Tirada de ataque a distancia:* bonificador igual a tu modificador de ataque de conjuros, alcance 18 m. *Acierto:* 1d10 + 3 más el nivel del conjuro de daño contundente y la velocidad del objetivo se reduce a 0 hasta el principio del siguiente turno del insecto.",
+   "page": 159,
+   "description": "*Tirada de ataque a distancia:* bonificador igual a tu modificador de ataque de conjuros, alcance 18 m. *Acierto:* 1d10 + 3 más el nivel del conjuro de daño contundente y la velocidad del objetivo se reduce a 0 hasta el principio del siguiente turno del insecto."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Escupitajo venenoso (solo ciempiés)",
+   "md": "***Escupitajo venenoso (solo ciempiés).*** *Tirada de salvación de Constitución:* tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 3 m o menos. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del insecto.",
+   "page": 159,
+   "description": "*Tirada de salvación de Constitución:* tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 3 m o menos. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del insecto."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "item.diadema-de-estallidos",
+ "name": "Diadema de estallidos",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Mientras lleves puesta esta diadema, puedes lanzar rayo abrasador desde ella (+5 a acertar). La diadema no podrá volver a lanzar este conjuro hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Mientras lleves puesta esta diadema, puedes lanzar *rayo abrasador* desde ella (+5 a acertar). La diadema no podrá volver a lanzar este conjuro hasta el siguiente amanecer.",
+   "text": "Mientras lleves puesta esta diadema, puedes lanzar rayo abrasador desde ella (+5 a acertar). La diadema no podrá volver a lanzar este conjuro hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ },
+ "refs": [
+  "spell.rayo-abrasador"
+ ]
+}

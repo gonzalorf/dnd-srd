@@ -1,0 +1,46 @@
+{
+ "id": "table.capacidad-de-carga",
+ "caption": "Capacidad de carga",
+ "header": [
+  "Tamaño de la criatura",
+  "Máximo",
+  "Arrastrar, levantar o empujar"
+ ],
+ "rows": [
+  [
+   "Diminuto",
+   "Fue × 3,75 kg",
+   "Fue × 7,5 kg"
+  ],
+  [
+   "Pequeño/Mediano",
+   "Fue × 7,5 kg",
+   "Fue × 15 kg"
+  ],
+  [
+   "Grande",
+   "Fue × 15 kg",
+   "Fue × 30 kg"
+  ],
+  [
+   "Enorme",
+   "Fue × 30 kg",
+   "Fue × 60 kg"
+  ],
+  [
+   "Gargantuesco",
+   "Fue × 60 kg",
+   "Fue × 120 kg"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Capacidad de carga"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ }
+}

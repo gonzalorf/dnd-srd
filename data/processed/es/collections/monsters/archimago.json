@@ -1,0 +1,159 @@
+{
+ "id": "monster.archimago",
+ "name": "Archimago",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 347
+ },
+ "context": [
+  "Magos"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño (mago), neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "mago"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 7,
+  "score": 17
+ },
+ "hp": {
+  "raw": "170 (31d8 + 31)",
+  "average": 170,
+  "formula": "31d8 + 31"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Conocimiento arcano": 13,
+  "Historia": 9,
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "común y otros cinco idiomas"
+ ],
+ "immunities": [
+  "psíquico",
+  "hechizado (con mente en blanco)"
+ ],
+ "gear": [
+  "varita"
+ ],
+ "challenge": {
+  "raw": "12 (8000 PX; BC +4)",
+  "cr": 12,
+  "xp": 8000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 20,
+   "mod": 5,
+   "save": 9
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 6
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El archimago tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 347,
+   "description": "El archimago tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El archimago realiza cuatro ataques con su estallido arcano.",
+   "page": 347,
+   "description": "El archimago realiza cuatro ataques con su estallido arcano."
+  },
+  {
+   "name": "Estallido arcano",
+   "md": "***Estallido arcano.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +9, alcance 1,5 m o 45 m a distancia. *Acierto:* 27 (4d10 + 5) de daño de fuerza.",
+   "page": 347,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +9, alcance 1,5 m o 45 m a distancia. *Acierto:* 27 (4d10 + 5) de daño de fuerza."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El archimago lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 17):",
+   "page": 347,
+   "description": "El archimago lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 17):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *armadura de mago* (incluido en la CA), *detectar magia*, *detectar pensamientos*, *disfrazarse*, *invisibilidad*, *luz*, *mano de mago*, *prestidigitación* 2/día cada uno: *relámpago* (versión de nivel 7), *volar* 1/día cada uno: *cono de frío* (versión de nivel 9), *escudriñar*, *mente en blanco* (lanzado antes del combate), *teletransporte*",
+   "page": 347
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Paso brumoso",
+   "md": "***Paso brumoso (3/día).*** El mago lanza *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 347,
+   "description": "El mago lanza *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Magia protectora",
+   "md": "***Magia protectora (3/día).*** El archimago lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 347,
+   "description": "El archimago lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "refs": [
+  "spell.armadura-de-mago",
+  "spell.detectar-magia",
+  "spell.detectar-pensamientos",
+  "spell.disfrazarse",
+  "spell.invisibilidad",
+  "spell.luz",
+  "spell.mano-de-mago",
+  "spell.prestidigitacion",
+  "spell.relampago",
+  "spell.volar",
+  "spell.cono-de-frio",
+  "spell.escudrinar",
+  "spell.mente-en-blanco",
+  "spell.teletransporte",
+  "spell.paso-brumoso",
+  "spell.contrahechizo",
+  "spell.escudo"
+ ]
+}

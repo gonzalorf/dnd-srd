@@ -1,0 +1,58 @@
+{
+ "id": "spell.perdicion",
+ "name": "Perdición",
+ "level": 1,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo",
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una gota de sangre)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gota de sangre",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Hasta tres criaturas de tu elección a las que puedas ver dentro del alcance deberán hacer una tirada de salvación de Carisma cada una. Siempre que un objetivo que haya fallado esta tirada de salvación haga una tirada de ataque o de salvación antes de que termine el conjuro, deberá restar 1d4 al resultado de dicha tirada.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Hasta tres criaturas de tu elección a las que puedas ver dentro del alcance deberán hacer una tirada de salvación de Carisma cada una. Siempre que un objetivo que haya fallado esta tirada de salvación haga una tirada de ataque o de salvación antes de que termine el conjuro, deberá restar 1d4 al resultado de dicha tirada.",
+   "text": "Hasta tres criaturas de tu elección a las que puedas ver dentro del alcance deberán hacer una tirada de salvación de Carisma cada una. Siempre que un objetivo que haya fallado esta tirada de salvación haga una tirada de ataque o de salvación antes de que termine el conjuro, deberá restar 1d4 al resultado de dicha tirada."
+  },
+  {
+   "type": "definition",
+   "page": 173,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 173
+ }
+}

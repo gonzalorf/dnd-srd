@@ -1,0 +1,66 @@
+{
+ "id": "spell.destierro",
+ "name": "Destierro",
+ "level": 4,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "hechicero",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un pentáculo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un pentáculo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o se teletransportará a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca allí, tendrá el estado de incapacitada. Cuando el conjuro termine, el objetivo reaparecerá en el espacio que abandonó o en el espacio sin ocupar más cercano si dicho espacio está ocupado.\n\nSi el conjuro dura 1 minuto y el objetivo es una aberración, un celestial, un elemental, un feérico o un infernal, no regresará. En vez de ello, se teletransportará a un lugar aleatorio de un plano (a elección de tu GM) relacionado con su tipo de criatura.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o se teletransportará a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca allí, tendrá el estado de incapacitada. Cuando el conjuro termine, el objetivo reaparecerá en el espacio que abandonó o en el espacio sin ocupar más cercano si dicho espacio está ocupado.",
+   "text": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o se teletransportará a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca allí, tendrá el estado de incapacitada. Cuando el conjuro termine, el objetivo reaparecerá en el espacio que abandonó o en el espacio sin ocupar más cercano si dicho espacio está ocupado."
+  },
+  {
+   "type": "paragraph",
+   "page": 141,
+   "md": "Si el conjuro dura 1 minuto y el objetivo es una aberración, un celestial, un elemental, un feérico o un infernal, no regresará. En vez de ello, se teletransportará a un lugar aleatorio de un plano (a elección de tu GM) relacionado con su tipo de criatura.",
+   "text": "Si el conjuro dura 1 minuto y el objetivo es una aberración, un celestial, un elemental, un feérico o un infernal, no regresará. En vez de ello, se teletransportará a un lugar aleatorio de un plano (a elección de tu GM) relacionado con su tipo de criatura."
+  },
+  {
+   "type": "definition",
+   "page": 141,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 140
+ }
+}

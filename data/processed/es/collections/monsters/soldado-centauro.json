@@ -1,0 +1,113 @@
+{
+ "id": "monster.soldado-centauro",
+ "name": "Soldado centauro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 290
+ },
+ "context": [
+  "Centauro"
+ ],
+ "metaRaw": "Feérico Grande, neutral bueno",
+ "type": "Feérico",
+ "alignment": "neutral bueno",
+ "size": "Grande",
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "45 (6d10 + 12)",
+  "average": 45,
+  "formula": "6d10 + 12"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "skills": {
+  "Atletismo": 6,
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "elfo",
+  "silvano"
+ ],
+ "gear": [
+  "arco largo",
+  "coraza",
+  "pica"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El centauro realiza dos ataques con su pica o su arco largo en cualquier combinación.",
+   "page": 290,
+   "description": "El centauro realiza dos ataques con su pica o su arco largo en cualquier combinación."
+  },
+  {
+   "name": "Pica",
+   "md": "***Pica.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 9 (1d10 + 4) de daño perforante.",
+   "page": 290,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 9 (1d10 + 4) de daño perforante."
+  },
+  {
+   "name": "Arco largo",
+   "md": "***Arco largo.*** *Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 6 (1d8 + 2) de daño perforante.",
+   "page": 290,
+   "description": "*Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 6 (1d8 + 2) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Carga pisoteadora",
+   "md": "***Carga pisoteadora (recarga 5–6).*** El centauro se mueve hasta su velocidad sin provocar ataques de oportunidad y puede atravesar los espacios de criaturas Medianas o más pequeñas. Todas las criaturas en cuyo espacio entre el centauro se convertirán una vez en objetivos del siguiente efecto. *Tirada de salvación de Fuerza:* CD 14. *Fallo:* 7 (1d6 + 4) de daño contundente y el objetivo tiene el estado de derribado.",
+   "page": 290,
+   "description": "El centauro se mueve hasta su velocidad sin provocar ataques de oportunidad y puede atravesar los espacios de criaturas Medianas o más pequeñas. Todas las criaturas en cuyo espacio entre el centauro se convertirán una vez en objetivos del siguiente efecto. *Tirada de salvación de Fuerza:* CD 14. *Fallo:* 7 (1d6 + 4) de daño contundente y el objetivo tiene el estado de derribado.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

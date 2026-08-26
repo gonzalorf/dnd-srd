@@ -1,0 +1,36 @@
+{
+ "id": "gear.bolas-de-metal",
+ "name": "Bolas de metal",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Bolas de metal",
+  "Peso": "1 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal.",
+   "text": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal."
+  }
+ ],
+ "descriptionPage": 104
+}

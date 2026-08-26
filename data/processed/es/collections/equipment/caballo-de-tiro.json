@@ -1,0 +1,22 @@
+{
+ "id": "mount.caballo-de-tiro",
+ "name": "Caballo de tiro",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Caballo de tiro",
+  "Capacidad de carga": "270 kg",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

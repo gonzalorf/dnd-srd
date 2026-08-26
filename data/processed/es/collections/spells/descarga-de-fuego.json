@@ -1,0 +1,53 @@
+{
+ "id": "spell.descarga-de-fuego",
+ "name": "Descarga de fuego",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño de fuego. Los objetos inflamables a los que acierte el conjuro empezarán a arder si nadie los lleva o viste.\n\nMejora de truco. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 138,
+   "md": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño de fuego. Los objetos inflamables a los que acierte el conjuro empezarán a arder si nadie los lleva o viste.",
+   "text": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño de fuego. Los objetos inflamables a los que acierte el conjuro empezarán a arder si nadie los lleva o viste."
+  },
+  {
+   "type": "definition",
+   "page": 138,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+   "text": "Mejora de truco. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 138
+ }
+}

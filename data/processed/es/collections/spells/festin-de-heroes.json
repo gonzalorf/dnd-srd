@@ -1,0 +1,57 @@
+{
+ "id": "spell.festin-de-heroes",
+ "name": "Festín de héroes",
+ "level": 6,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un cuenco incrustado de gemas que valga al menos 1000 po y que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un cuenco incrustado de gemas que valga al menos 1000 po y que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Conjuras un festín que aparece sobre una superficie en un cubo de 3 m de lado sin ocupar junto a ti. Se tarda 1 hora en consumirlo, desaparece al final de ese tiempo y sus efectos beneficiosos no se aplican hasta que concluye dicha hora. En el festín pueden participar hasta doce criaturas.\n\nUna criatura que participe obtiene varios beneficios que durarán 24 horas. Esa criatura tendrá resistencia al daño de veneno e inmunidad a los estados de asustada y envenenada. Además, sus puntos de golpe máximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "Conjuras un festín que aparece sobre una superficie en un cubo de 3 m de lado sin ocupar junto a ti. Se tarda 1 hora en consumirlo, desaparece al final de ese tiempo y sus efectos beneficiosos no se aplican hasta que concluye dicha hora. En el festín pueden participar hasta doce criaturas.",
+   "text": "Conjuras un festín que aparece sobre una superficie en un cubo de 3 m de lado sin ocupar junto a ti. Se tarda 1 hora en consumirlo, desaparece al final de ese tiempo y sus efectos beneficiosos no se aplican hasta que concluye dicha hora. En el festín pueden participar hasta doce criaturas."
+  },
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "Una criatura que participe obtiene varios beneficios que durarán 24 horas. Esa criatura tendrá resistencia al daño de veneno e inmunidad a los estados de asustada y envenenada. Además, sus puntos de golpe máximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe.",
+   "text": "Una criatura que participe obtiene varios beneficios que durarán 24 horas. Esa criatura tendrá resistencia al daño de veneno e inmunidad a los estados de asustada y envenenada. Además, sus puntos de golpe máximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 150
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "rule.cubo",
+ "name": "Cubo",
+ "text": "Un cubo es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en cualquier parte de una cara del cubo. El efecto que crea un cubo especifica su tamaño, que es la longitud de cada lado.\n\nEl punto de origen de un cubo no está incluido en el área de efecto, salvo que su creador decida lo contrario.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Un cubo es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en cualquier parte de una cara del cubo. El efecto que crea un cubo especifica su tamaño, que es la longitud de cada lado.",
+   "text": "Un cubo es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en cualquier parte de una cara del cubo. El efecto que crea un cubo especifica su tamaño, que es la longitud de cada lado."
+  },
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "El punto de origen de un cubo no está incluido en el área de efecto, salvo que su creador decida lo contrario.",
+   "text": "El punto de origen de un cubo no está incluido en el área de efecto, salvo que su creador decida lo contrario."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 199
+ },
+ "kind": "área de efecto"
+}

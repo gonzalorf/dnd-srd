@@ -1,0 +1,37 @@
+{
+ "id": "tool.suministros-de-alquimista",
+ "name": "Suministros de alquimista",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Inteligencia Peso: 4 kg\n\nUtilizar: identificar una sustancia (CD 15) o encender un fuego (CD 15)\n\nFabricar: aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Inteligencia **Peso:** 4 kg",
+   "text": "Característica: Inteligencia Peso: 4 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** identificar una sustancia (CD 15) o encender un fuego (CD 15)",
+   "text": "Utilizar: identificar una sustancia (CD 15) o encender un fuego (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes",
+   "text": "Fabricar: aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

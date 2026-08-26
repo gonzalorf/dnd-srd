@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-del-juramento-de-entrega",
+ "caption": "Conjuros del juramento de entrega",
+ "header": [
+  "Nivel de paladín",
+  "Conjuros"
+ ],
+ "rows": [
+  [
+   "3",
+   "Escudo de fe, protección contra el bien y el mal"
+  ],
+  [
+   "5",
+   "Auxilio, zona de la verdad"
+  ],
+  [
+   "9",
+   "Disipar magia, señal de esperanza"
+  ],
+  [
+   "13",
+   "Guardián de la fe, libertad de movimiento"
+  ],
+  [
+   "17",
+   "Comunión, golpe flamígero"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Paladín",
+  "Subclase de paladín: Juramento de entrega",
+  "Nivel 3: Conjuros del juramento de entrega"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 85
+ }
+}

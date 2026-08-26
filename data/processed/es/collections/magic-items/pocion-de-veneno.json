@@ -1,0 +1,33 @@
+{
+ "id": "item.pocion-de-veneno",
+ "name": "Poción de veneno",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "Este mejunje parece, huele y sabe como una poción de curación u otra poción beneficiosa. Sin embargo, en realidad es un veneno enmascarado con magia de ilusionismo. Un conjuro identificar revelará su verdadera naturaleza.\n\nSi la bebes, sufrirás 4d6 de daño de veneno y deberás superar una tirada de salvación de Constitución con CD 13 o tendrás el estado de envenenado durante 1 hora.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Este mejunje parece, huele y sabe como una *poción de curación* u otra poción beneficiosa. Sin embargo, en realidad es un veneno enmascarado con magia de ilusionismo. Un conjuro *identificar* revelará su verdadera naturaleza.",
+   "text": "Este mejunje parece, huele y sabe como una poción de curación u otra poción beneficiosa. Sin embargo, en realidad es un veneno enmascarado con magia de ilusionismo. Un conjuro identificar revelará su verdadera naturaleza."
+  },
+  {
+   "type": "paragraph",
+   "page": 268,
+   "md": "Si la bebes, sufrirás 4d6 de daño de veneno y deberás superar una tirada de salvación de Constitución con CD 13 o tendrás el estado de envenenado durante 1 hora.",
+   "text": "Si la bebes, sufrirás 4d6 de daño de veneno y deberás superar una tirada de salvación de Constitución con CD 13 o tendrás el estado de envenenado durante 1 hora."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ },
+ "refs": [
+  "gear.pocion-de-curacion",
+  "spell.identificar"
+ ]
+}

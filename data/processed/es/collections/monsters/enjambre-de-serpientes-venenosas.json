@@ -1,0 +1,106 @@
+{
+ "id": "monster.enjambre-de-serpientes-venenosas",
+ "name": "Enjambre de serpientes venenosas",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 385
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Enjambre Mediano de bestias Diminutas, sin alineamiento",
+ "type": "Enjambre de bestias Diminutas",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "36 (8d8)",
+  "average": 36,
+  "formula": "8d8"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "senses": {
+  "raw": "visión ciega 3 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "agarrado",
+  "apresado",
+  "asustado",
+  "aturdido",
+  "derribado",
+  "hechizado",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "contundente",
+  "cortante",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Enjambre",
+   "md": "***Enjambre.*** El enjambre puede ocupar el espacio de otra criatura y viceversa, y es capaz de atravesar cualquier abertura por la que quepa una serpiente Diminuta. El enjambre no puede recuperar puntos de golpe ni obtener puntos de golpe temporales.",
+   "page": 385,
+   "description": "El enjambre puede ocupar el espacio de otra criatura y viceversa, y es capaz de atravesar cualquier abertura por la que quepa una serpiente Diminuta. El enjambre no puede recuperar puntos de golpe ni obtener puntos de golpe temporales."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordiscos",
+   "md": "***Mordiscos.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 8 (1d8 + 4) de daño perforante o 6 (1d4 + 4) de daño perforante si el enjambre está maltrecho, más 10 (3d6) de daño de veneno.",
+   "page": 385,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 8 (1d8 + 4) de daño perforante o 6 (1d4 + 4) de daño perforante si el enjambre está maltrecho, más 10 (3d6) de daño de veneno."
+  }
+ ]
+}

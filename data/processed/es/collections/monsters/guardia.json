@@ -1,0 +1,90 @@
+{
+ "id": "monster.guardia",
+ "name": "Guardia",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 335
+ },
+ "context": [
+  "Guardias"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "camisa de malla",
+  "escudo",
+  "lanza"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Lanza",
+   "md": "***Lanza.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +3, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d6 + 1) de daño perforante.",
+   "page": 335,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +3, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d6 + 1) de daño perforante."
+  }
+ ]
+}

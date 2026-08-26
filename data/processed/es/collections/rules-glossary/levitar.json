@@ -1,0 +1,17 @@
+{
+ "id": "rule.levitar",
+ "name": "Levitar",
+ "text": "Algunas criaturas pueden levitar, como se indica en sus perfiles, y algunos conjuros y otros efectos otorgan la capacidad de levitar. Si levitas al volar, evitarás caerte en determinadas circunstancias. Consulta también “Volar”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Algunas criaturas pueden levitar, como se indica en sus perfiles, y algunos conjuros y otros efectos otorgan la capacidad de levitar. Si levitas al volar, evitarás caerte en determinadas circunstancias. *Consulta también* “Volar”.",
+   "text": "Algunas criaturas pueden levitar, como se indica en sus perfiles, y algunos conjuros y otros efectos otorgan la capacidad de levitar. Si levitas al volar, evitarás caerte en determinadas circunstancias. Consulta también “Volar”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

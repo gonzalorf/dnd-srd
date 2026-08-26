@@ -1,0 +1,59 @@
+{
+ "id": "spell.mensaje",
+ "name": "Mensaje",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "S, M (un alambre de cobre)",
+  "v": false,
+  "s": true,
+  "m": true,
+  "material": "un alambre de cobre",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 asalto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "asalto"
+ },
+ "text": "Señalas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y únicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente tú puedes oír.\n\nPuedes lanzar este conjuro a través de objetos físicos si conoces al objetivo y sabes que está detrás de la barrera. El silencio mágico, 30 cm de piedra, metal o madera o una lámina fina de plomo bloquean el conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Señalas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y únicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente tú puedes oír.",
+   "text": "Señalas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y únicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente tú puedes oír."
+  },
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Puedes lanzar este conjuro a través de objetos físicos si conoces al objetivo y sabes que está detrás de la barrera. El silencio mágico, 30 cm de piedra, metal o madera o una lámina fina de plomo bloquean el conjuro.",
+   "text": "Puedes lanzar este conjuro a través de objetos físicos si conoces al objetivo y sabes que está detrás de la barrera. El silencio mágico, 30 cm de piedra, metal o madera o una lámina fina de plomo bloquean el conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 165
+ }
+}

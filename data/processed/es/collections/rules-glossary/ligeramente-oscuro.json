@@ -1,0 +1,17 @@
+{
+ "id": "rule.ligeramente-oscuro",
+ "name": "Ligeramente oscuro",
+ "text": "Tienes desventaja en las pruebas de Sabiduría (Percepción) para ver algo en un espacio ligeramente oscuro. Consulta también “Luz tenue” y el capítulo “Cómo jugar” (“Exploración”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Tienes desventaja en las pruebas de Sabiduría (Percepción) para ver algo en un espacio ligeramente oscuro. *Consulta también* “Luz tenue” y el capítulo “Cómo jugar” (“Exploración”).",
+   "text": "Tienes desventaja en las pruebas de Sabiduría (Percepción) para ver algo en un espacio ligeramente oscuro. Consulta también “Luz tenue” y el capítulo “Cómo jugar” (“Exploración”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

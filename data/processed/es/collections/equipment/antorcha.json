@@ -1,0 +1,36 @@
+{
+ "id": "gear.antorcha",
+ "name": "Antorcha",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Antorcha",
+  "Peso": "0,5 kg",
+  "Precio": "1 pc"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "0,5 kg",
+  "kg": 0.5
+ },
+ "price": {
+  "raw": "1 pc",
+  "amount": 1.0,
+  "coin": "pc",
+  "gp": 0.01
+ },
+ "text": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego.",
+   "text": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego."
+  }
+ ],
+ "descriptionPage": 104
+}

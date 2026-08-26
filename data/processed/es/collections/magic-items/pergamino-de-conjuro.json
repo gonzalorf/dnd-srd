@@ -1,0 +1,114 @@
+{
+ "id": "item.pergamino-de-conjuro",
+ "name": "Pergamino de conjuro",
+ "category": "Pergamino",
+ "variant": null,
+ "rarity": "varía",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Pergamino, rareza variable",
+ "text": "Un pergamino de conjuro contiene las palabras de un solo conjuro, escritas en un código místico. Si el conjuro está en tu lista de conjuros, puedes leer el pergamino y lanzar el conjuro sin componentes materiales. De lo contrario, el pergamino es ininteligible. Si lanzas el conjuro leyendo el pergamino, el tiempo de lanzamiento del conjuro será el habitual. Una vez lanzado, el pergamino se convierte en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.\n\nSi el conjuro está en tu lista de conjuros pero es de un nivel superior que no puedes lanzar de manera normal, harás una prueba de característica usando tu aptitud mágica para determinar si consigues lanzarlo. La CD es de 10 más el nivel del conjuro. Si la fallas, el conjuro desaparecerá del pergamino y no surtirá efecto.\n\nEl nivel del conjuro del pergamino determina la CD de las tiradas de salvación y el bonificador de ataque del conjuro, además de la rareza del pergamino, como se indica en la siguiente tabla.\n\nCopiar un pergamino en un libro de conjuros. Un conjuro de mago en un pergamino de conjuro puede copiarse en un libro de conjuros. Cuando un conjuro se copie de esta forma, el copista deberá superar una prueba de Inteligencia (Conocimiento arcano) con CD igual a 10 más el nivel del conjuro. Si la supera, copiará el conjuro. Supere o no la prueba, el pergamino de conjuro se destruirá.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "Un *pergamino de conjuro* contiene las palabras de un solo conjuro, escritas en un código místico. Si el conjuro está en tu lista de conjuros, puedes leer el pergamino y lanzar el conjuro sin componentes materiales. De lo contrario, el pergamino es ininteligible. Si lanzas el conjuro leyendo el pergamino, el tiempo de lanzamiento del conjuro será el habitual. Una vez lanzado, el pergamino se convierte en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.",
+   "text": "Un pergamino de conjuro contiene las palabras de un solo conjuro, escritas en un código místico. Si el conjuro está en tu lista de conjuros, puedes leer el pergamino y lanzar el conjuro sin componentes materiales. De lo contrario, el pergamino es ininteligible. Si lanzas el conjuro leyendo el pergamino, el tiempo de lanzamiento del conjuro será el habitual. Una vez lanzado, el pergamino se convierte en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde."
+  },
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "Si el conjuro está en tu lista de conjuros pero es de un nivel superior que no puedes lanzar de manera normal, harás una prueba de característica usando tu aptitud mágica para determinar si consigues lanzarlo. La CD es de 10 más el nivel del conjuro. Si la fallas, el conjuro desaparecerá del pergamino y no surtirá efecto.",
+   "text": "Si el conjuro está en tu lista de conjuros pero es de un nivel superior que no puedes lanzar de manera normal, harás una prueba de característica usando tu aptitud mágica para determinar si consigues lanzarlo. La CD es de 10 más el nivel del conjuro. Si la fallas, el conjuro desaparecerá del pergamino y no surtirá efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 264,
+   "md": "El nivel del conjuro del pergamino determina la CD de las tiradas de salvación y el bonificador de ataque del conjuro, además de la rareza del pergamino, como se indica en la siguiente tabla.",
+   "text": "El nivel del conjuro del pergamino determina la CD de las tiradas de salvación y el bonificador de ataque del conjuro, además de la rareza del pergamino, como se indica en la siguiente tabla."
+  },
+  {
+   "type": "table",
+   "page": 264,
+   "caption": null,
+   "header": [
+    "Nivel del conjuro",
+    "Rareza",
+    "CD de salvación",
+    "Bonificador de ataque"
+   ],
+   "rows": [
+    [
+     "Truco",
+     "Común",
+     "13",
+     "+5"
+    ],
+    [
+     "1",
+     "Común",
+     "13",
+     "+5"
+    ],
+    [
+     "2",
+     "Infrecuente",
+     "13",
+     "+5"
+    ],
+    [
+     "3",
+     "Infrecuente",
+     "15",
+     "+7"
+    ],
+    [
+     "4",
+     "Raro",
+     "15",
+     "+7"
+    ],
+    [
+     "5",
+     "Raro",
+     "17",
+     "+9"
+    ],
+    [
+     "6",
+     "Muy raro",
+     "17",
+     "+9"
+    ],
+    [
+     "7",
+     "Muy raro",
+     "18",
+     "+10"
+    ],
+    [
+     "8",
+     "Muy raro",
+     "18",
+     "+10"
+    ],
+    [
+     "9",
+     "Legendario",
+     "19",
+     "+11"
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 264,
+   "md": "***Copiar un pergamino en un libro de conjuros.*** Un conjuro de mago en un *pergamino de conjuro* puede copiarse en un libro de conjuros. Cuando un conjuro se copie de esta forma, el copista deberá superar una prueba de Inteligencia (Conocimiento arcano) con CD igual a 10 más el nivel del conjuro. Si la supera, copiará el conjuro. Supere o no la prueba, el *pergamino de conjuro* se destruirá.",
+   "text": "Copiar un pergamino en un libro de conjuros. Un conjuro de mago en un pergamino de conjuro puede copiarse en un libro de conjuros. Cuando un conjuro se copie de esta forma, el copista deberá superar una prueba de Inteligencia (Conocimiento arcano) con CD igual a 10 más el nivel del conjuro. Si la supera, copiará el conjuro. Supere o no la prueba, el pergamino de conjuro se destruirá."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 264
+ }
+}

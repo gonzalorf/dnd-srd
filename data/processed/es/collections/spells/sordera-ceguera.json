@@ -1,0 +1,57 @@
+{
+ "id": "spell.sordera-ceguera",
+ "name": "Sordera/ceguera",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Constitución o tendrá el estado de cegada o ensordecida (a tu elección) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Constitución o tendrá el estado de cegada o ensordecida (a tu elección) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro.",
+   "text": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Constitución o tendrá el estado de cegada o ensordecida (a tu elección) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 186
+ }
+}

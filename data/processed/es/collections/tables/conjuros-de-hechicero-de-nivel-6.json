@@ -1,0 +1,76 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-6",
+ "caption": "Conjuros de hechicero de nivel 6",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Círculo de muerte",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "De la carne a la piedra",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Desintegrar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Esfera congelante",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Globo de invulnerabilidad",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Mal de ojo",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Mover la tierra",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Rayo solar",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Relámpago en cadena",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Sugestión en masa",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Visión veraz",
+   "Adivinación",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 69
+ }
+}

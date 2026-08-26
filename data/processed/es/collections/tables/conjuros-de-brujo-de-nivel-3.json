@@ -1,0 +1,76 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-3",
+ "caption": "Conjuros de brujo de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Círculo mágico",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Contrahechizo",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Don de lenguas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Forma gaseosa",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Imagen mayor",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Levantar maldición",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Patrón hipnótico",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Terror",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Toque vampírico",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Volar",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

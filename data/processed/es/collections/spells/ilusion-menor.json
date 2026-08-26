@@ -1,0 +1,71 @@
+{
+ "id": "spell.ilusion-menor",
+ "name": "Ilusión menor",
+ "level": 0,
+ "cantrip": true,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "S, M (un poco de vellón)",
+  "v": false,
+  "s": true,
+  "m": true,
+  "material": "un poco de vellón",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecerá hasta que termine el conjuro. Consulta las descripciones a continuación para conocer sus efectos. La ilusión termina si lanzas el conjuro de nuevo.\n\nSi una criatura emplea su acción de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que se trata de una ilusión, esta se irá desvaneciendo para esa criatura.\n\nSonido. Si creas un sonido, su volumen se situará entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un león, un redoblar de tambores o cualquier otro sonido que elijas. El sonido continúa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.\n\nImagen. Si creas la imagen de un objeto (como una silla, pisadas embarradas o un pequeño cofre), no podrá ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 156,
+   "md": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecerá hasta que termine el conjuro. Consulta las descripciones a continuación para conocer sus efectos. La ilusión termina si lanzas el conjuro de nuevo.",
+   "text": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecerá hasta que termine el conjuro. Consulta las descripciones a continuación para conocer sus efectos. La ilusión termina si lanzas el conjuro de nuevo."
+  },
+  {
+   "type": "paragraph",
+   "page": 156,
+   "md": "Si una criatura emplea su acción de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que se trata de una ilusión, esta se irá desvaneciendo para esa criatura.",
+   "text": "Si una criatura emplea su acción de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que se trata de una ilusión, esta se irá desvaneciendo para esa criatura."
+  },
+  {
+   "type": "definition",
+   "page": 156,
+   "md": "***Sonido.*** Si creas un sonido, su volumen se situará entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un león, un redoblar de tambores o cualquier otro sonido que elijas. El sonido continúa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.",
+   "text": "Sonido. Si creas un sonido, su volumen se situará entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un león, un redoblar de tambores o cualquier otro sonido que elijas. El sonido continúa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 156,
+   "md": "***Imagen.*** Si creas la imagen de un objeto (como una silla, pisadas embarradas o un pequeño cofre), no podrá ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla.",
+   "text": "Imagen. Si creas la imagen de un objeto (como una silla, pisadas embarradas o un pequeño cofre), no podrá ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 156
+ }
+}

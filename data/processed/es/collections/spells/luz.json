@@ -1,0 +1,58 @@
+{
+ "id": "spell.luz",
+ "name": "Luz",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, M (una luciérnaga o musgo fosforescente)",
+  "v": true,
+  "s": false,
+  "m": true,
+  "material": "una luciérnaga o musgo fosforescente",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas un objeto Grande o más pequeño que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitirá luz brillante en un radio de 6 m y luz tenue otros 6 m más allá. La luz puede tener el color que desees.\n\nTapar completamente el objeto con un material opaco bloqueará la luz. El conjuro termina si lo vuelves a lanzar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Tocas un objeto Grande o más pequeño que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitirá luz brillante en un radio de 6 m y luz tenue otros 6 m más allá. La luz puede tener el color que desees.",
+   "text": "Tocas un objeto Grande o más pequeño que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitirá luz brillante en un radio de 6 m y luz tenue otros 6 m más allá. La luz puede tener el color que desees."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Tapar completamente el objeto con un material opaco bloqueará la luz. El conjuro termina si lo vuelves a lanzar.",
+   "text": "Tapar completamente el objeto con un material opaco bloqueará la luz. El conjuro termina si lo vuelves a lanzar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 163
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "monster.arana",
+ "name": "Araña",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 377,
+  "pages": [
+   377,
+   378
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "1 (1d4 − 1)",
+  "average": 1
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "trepar": 6.0
+ },
+ "skills": {
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 9 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Caminar por telarañas",
+   "md": "***Caminar por telarañas.*** La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña.",
+   "page": 377,
+   "description": "La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña."
+  },
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 377,
+   "description": "La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante más 2 (1d4) de daño de veneno.",
+   "page": 378,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante más 2 (1d4) de daño de veneno."
+  }
+ ]
+}

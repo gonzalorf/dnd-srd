@@ -1,0 +1,36 @@
+{
+ "id": "rule.invisible",
+ "name": "Invisible",
+ "text": "Mientras tengas el estado de invisible, experimentarás los siguientes efectos:\n\nSorpresa. Si tienes el estado de invisible cuando tiras iniciativa, tendrás ventaja en la tirada.\n\nOculto. No te afecta ningún efecto que requiera ver a su objetivo, salvo que el creador del efecto pueda verte de alguna forma. Cualquier equipo que vistas o lleves contigo también se oculta.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte de alguna forma, no obtienes este beneficio contra esa criatura.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Mientras tengas el estado de invisible, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de invisible, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 203,
+   "md": "***Sorpresa.*** Si tienes el estado de invisible cuando tiras iniciativa, tendrás ventaja en la tirada.",
+   "text": "Sorpresa. Si tienes el estado de invisible cuando tiras iniciativa, tendrás ventaja en la tirada."
+  },
+  {
+   "type": "definition",
+   "page": 203,
+   "md": "***Oculto.*** No te afecta ningún efecto que requiera ver a su objetivo, salvo que el creador del efecto pueda verte de alguna forma. Cualquier equipo que vistas o lleves contigo también se oculta.",
+   "text": "Oculto. No te afecta ningún efecto que requiera ver a su objetivo, salvo que el creador del efecto pueda verte de alguna forma. Cualquier equipo que vistas o lleves contigo también se oculta."
+  },
+  {
+   "type": "definition",
+   "page": 203,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte de alguna forma, no obtienes este beneficio contra esa criatura.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte de alguna forma, no obtienes este beneficio contra esa criatura."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ },
+ "kind": "estado"
+}

@@ -1,0 +1,100 @@
+{
+ "id": "monster.rana",
+ "name": "Rana",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 392
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "1 (1d4 − 1)",
+  "average": 1
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "nadar": 6.0
+ },
+ "skills": {
+  "Percepción": 1,
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 9 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibia",
+   "md": "***Anfibia.*** La rana puede respirar tanto dentro como fuera del agua.",
+   "page": 392,
+   "description": "La rana puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Saltar sin carrera",
+   "md": "***Saltar sin carrera.*** La rana puede hacer un salto de longitud de hasta 3 m o un salto de altura de hasta 1,5 m, tanto si ha cogido carrerilla como si no.",
+   "page": 392,
+   "description": "La rana puede hacer un salto de longitud de hasta 3 m o un salto de altura de hasta 1,5 m, tanto si ha cogido carrerilla como si no."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 1 de daño perforante.",
+   "page": 392,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 1 de daño perforante."
+  }
+ ]
+}

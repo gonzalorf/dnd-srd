@@ -1,0 +1,35 @@
+{
+ "id": "rule.teletransporte",
+ "name": "Teletransporte",
+ "text": "El teletransporte es un tipo especial de transporte mágico. Si te teletransportas, desapareces y reapareces en otra parte al instante, sin atravesar el espacio entre medias. Este transporte no gasta movimiento, salvo que una regla diga lo contrario, y nunca provoca ataques de oportunidad.\n\nCuando te teletransportas, todo el equipo que vistas o lleves se teletransporta contigo. Si estás tocando a otra criatura en el momento en el que te teletransportes, la criatura no se teletransportará contigo salvo que el efecto de teletransporte diga lo contrario.\n\nSi el lugar de destino del teletransporte está ocupado por otra criatura o bloqueado por un obstáculo sólido, aparecerás en el espacio sin ocupar más cercano que elijas.\n\nLa descripción de un efecto de teletransporte indica si debes ver el destino del teletransporte.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "El teletransporte es un tipo especial de transporte mágico. Si te teletransportas, desapareces y reapareces en otra parte al instante, sin atravesar el espacio entre medias. Este transporte no gasta movimiento, salvo que una regla diga lo contrario, y nunca provoca ataques de oportunidad.",
+   "text": "El teletransporte es un tipo especial de transporte mágico. Si te teletransportas, desapareces y reapareces en otra parte al instante, sin atravesar el espacio entre medias. Este transporte no gasta movimiento, salvo que una regla diga lo contrario, y nunca provoca ataques de oportunidad."
+  },
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Cuando te teletransportas, todo el equipo que vistas o lleves se teletransporta contigo. Si estás tocando a otra criatura en el momento en el que te teletransportes, la criatura no se teletransportará contigo salvo que el efecto de teletransporte diga lo contrario.",
+   "text": "Cuando te teletransportas, todo el equipo que vistas o lleves se teletransporta contigo. Si estás tocando a otra criatura en el momento en el que te teletransportes, la criatura no se teletransportará contigo salvo que el efecto de teletransporte diga lo contrario."
+  },
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Si el lugar de destino del teletransporte está ocupado por otra criatura o bloqueado por un obstáculo sólido, aparecerás en el espacio sin ocupar más cercano que elijas.",
+   "text": "Si el lugar de destino del teletransporte está ocupado por otra criatura o bloqueado por un obstáculo sólido, aparecerás en el espacio sin ocupar más cercano que elijas."
+  },
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "La descripción de un efecto de teletransporte indica si debes ver el destino del teletransporte.",
+   "text": "La descripción de un efecto de teletransporte indica si debes ver el destino del teletransporte."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

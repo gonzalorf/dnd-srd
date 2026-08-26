@@ -1,0 +1,31 @@
+{
+ "id": "table.p249",
+ "caption": null,
+ "header": [
+  "Cinturón",
+  "Fue",
+  "Rareza"
+ ],
+ "rows": [
+  [
+   "Cinturón de fuerza de gigante",
+   "29",
+   "Legendario"
+  ],
+  [
+   "(tormentas)",
+   "",
+   ""
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Cinturón de fuerza de gigante"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 249
+ }
+}

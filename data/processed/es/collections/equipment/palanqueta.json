@@ -1,0 +1,36 @@
+{
+ "id": "gear.palanqueta",
+ "name": "Palanqueta",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Palanqueta",
+  "Peso": "2,5 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2,5 kg",
+  "kg": 2.5
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.",
+   "text": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca."
+  }
+ ],
+ "descriptionPage": 106
+}

@@ -1,0 +1,55 @@
+{
+ "id": "table.servicios-de-lanzamiento-de-conjuros",
+ "caption": "Servicios de lanzamiento de conjuros",
+ "header": [
+  "Nivel del conjuro",
+  "Disponibilidad",
+  "Remuneración"
+ ],
+ "rows": [
+  [
+   "Truco",
+   "Aldea, pueblo o ciudad",
+   "30 po"
+  ],
+  [
+   "1",
+   "Aldea, pueblo o ciudad",
+   "50 po"
+  ],
+  [
+   "2",
+   "Aldea, pueblo o ciudad",
+   "200 po"
+  ],
+  [
+   "3",
+   "Solo pueblo o ciudad",
+   "300 po"
+  ],
+  [
+   "4–5",
+   "Solo pueblo o ciudad",
+   "2000 po"
+  ],
+  [
+   "6–8",
+   "Solo ciudad",
+   "20 000 po"
+  ],
+  [
+   "9",
+   "Solo ciudad",
+   "100 000 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Lanzamiento de conjuros"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 111
+ }
+}

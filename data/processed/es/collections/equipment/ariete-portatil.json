@@ -1,0 +1,36 @@
+{
+ "id": "gear.ariete-portatil",
+ "name": "Ariete portátil",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Ariete portátil",
+  "Peso": "17,5 kg",
+  "Precio": "4 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "17,5 kg",
+  "kg": 17.5
+ },
+ "price": {
+  "raw": "4 po",
+  "amount": 4.0,
+  "coin": "po",
+  "gp": 4.0
+ },
+ "text": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 104,
+   "md": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba.",
+   "text": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba."
+  }
+ ],
+ "descriptionPage": 104
+}

@@ -1,0 +1,35 @@
+{
+ "id": "background.acolito",
+ "name": "Acólito",
+ "text": "Puntuaciones de característica: Inteligencia, Sabidu\n\nría, Carisma Dote: Iniciado en la magia (clérigo) (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Perspicacia y Religión Competencia con herramientas: suministros de\n\ncalígrafo Equipo: elige A o B: (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Puntuaciones de característica: Inteligencia, Sabidu",
+   "text": "Puntuaciones de característica: Inteligencia, Sabidu"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "ría, Carisma Dote: Iniciado en la magia (clérigo) (consulta el capítulo “Dotes”)",
+   "text": "ría, Carisma Dote: Iniciado en la magia (clérigo) (consulta el capítulo “Dotes”)"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencias en habilidades: Perspicacia y Religión Competencia con herramientas: suministros de",
+   "text": "Competencias en habilidades: Perspicacia y Religión Competencia con herramientas: suministros de"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "calígrafo Equipo: *elige A o B:* (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po",
+   "text": "calígrafo Equipo: elige A o B: (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 89
+ }
+}

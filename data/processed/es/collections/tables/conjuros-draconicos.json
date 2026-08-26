@@ -1,0 +1,37 @@
+{
+ "id": "table.conjuros-draconicos",
+ "caption": "Conjuros dracónicos",
+ "header": [
+  "Nivel de hechicero",
+  "Conjuros"
+ ],
+ "rows": [
+  [
+   "3",
+   "Aliento de dragón, alterar el propio aspecto, orbe cromático, orden imperiosa"
+  ],
+  [
+   "5",
+   "Terror, volar"
+  ],
+  [
+   "7",
+   "Hechizar monstruo, ojo arcano"
+  ],
+  [
+   "9",
+   "Conocer las leyendas, invocar dragón"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Subclase de hechicero: Hechicería dracónica",
+  "Nivel 3: Conjuros dracónicos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 70
+ }
+}

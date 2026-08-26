@@ -1,0 +1,35 @@
+{
+ "id": "item.talisman-de-cerrar-heridas",
+ "name": "Talismán de cerrar heridas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves puesto este colgante, obtienes los siguientes beneficios:\n\nCuración natural mejorada. Cuando tires un dado de puntos de golpe para recuperar puntos de golpe, se duplicará la cantidad de puntos de golpe que recuperas.\n\nPreservar la vida. Cuando hagas una tirada de salvación contra muerte, puedes cambiar un resultado fallido de 9 o menos por 10, lo que te permite superar la tirada.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 270,
+   "md": "Mientras lleves puesto este colgante, obtienes los siguientes beneficios:",
+   "text": "Mientras lleves puesto este colgante, obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 270,
+   "md": "***Curación natural mejorada.*** Cuando tires un dado de puntos de golpe para recuperar puntos de golpe, se duplicará la cantidad de puntos de golpe que recuperas.",
+   "text": "Curación natural mejorada. Cuando tires un dado de puntos de golpe para recuperar puntos de golpe, se duplicará la cantidad de puntos de golpe que recuperas."
+  },
+  {
+   "type": "definition",
+   "page": 270,
+   "md": "***Preservar la vida.*** Cuando hagas una tirada de salvación contra muerte, puedes cambiar un resultado fallido de 9 o menos por 10, lo que te permite superar la tirada.",
+   "text": "Preservar la vida. Cuando hagas una tirada de salvación contra muerte, puedes cambiar un resultado fallido de 9 o menos por 10, lo que te permite superar la tirada."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 270
+ }
+}

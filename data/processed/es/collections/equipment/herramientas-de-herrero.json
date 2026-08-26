@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-herrero",
+ "name": "Herramientas de herrero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Fuerza Peso: 4 kg\n\nUtilizar: forzar una puerta o un recipiente (CD 20)\n\nFabricar: cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Fuerza **Peso:** 4 kg",
+   "text": "Característica: Fuerza Peso: 4 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** forzar una puerta o un recipiente (CD 20)",
+   "text": "Utilizar: forzar una puerta o un recipiente (CD 20)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro",
+   "text": "Fabricar: cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "20 po",
+  "amount": 20.0,
+  "coin": "po",
+  "gp": 20.0
+ }
+}

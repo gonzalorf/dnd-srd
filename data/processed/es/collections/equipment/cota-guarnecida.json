@@ -1,0 +1,29 @@
+{
+ "id": "armor.cota-guarnecida",
+ "name": "Cota guarnecida",
+ "kind": "armor",
+ "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Cota guarnecida",
+  "Clase de armadura (CA)": "14",
+  "Fuerza": "—",
+  "Sigilo": "Desventaja",
+  "Peso": "20 kg",
+  "Precio": "30 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "20 kg",
+  "kg": 20.0
+ },
+ "price": {
+  "raw": "30 po",
+  "amount": 30.0,
+  "coin": "po",
+  "gp": 30.0
+ }
+}

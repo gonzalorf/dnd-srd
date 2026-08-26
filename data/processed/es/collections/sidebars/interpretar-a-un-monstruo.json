@@ -1,0 +1,35 @@
+{
+ "id": "sidebar.interpretar-a-un-monstruo",
+ "title": "Interpretar a un monstruo",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Para asegurarte de que un monstruo actúa de acuerdo con su valor de desafío, sigue estas reglas durante el combate:",
+   "text": "Para asegurarte de que un monstruo actúa de acuerdo con su valor de desafío, sigue estas reglas durante el combate:"
+  },
+  {
+   "type": "paragraph",
+   "md": "**Capacidades especiales.** Si el monstruo posee una capacidad especial que causa mucho daño, pero con un número de usos limitado, como un ataque de aliento que debe recargar o un conjuro que solo puede lanzar una vez al día, haz que utilice esa capacidad especial tan pronto y con tanta frecuencia como sea posible.",
+   "text": "Capacidades especiales. Si el monstruo posee una capacidad especial que causa mucho daño, pero con un número de usos limitado, como un ataque de aliento que debe recargar o un conjuro que solo puede lanzar una vez al día, haz que utilice esa capacidad especial tan pronto y con tanta frecuencia como sea posible."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Ataque múltiple.** Si el monstruo posee la acción de ataque múltiple, haz que lo use en todos sus turnos en los que no emplee una de sus capacidades más poderosas.",
+   "text": "Ataque múltiple. Si el monstruo posee la acción de ataque múltiple, haz que lo use en todos sus turnos en los que no emplee una de sus capacidades más poderosas."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Acciones adicionales, reacciones y acciones legendarias.** Si el monstruo posee acciones adicionales, reacciones o acciones legendarias en su perfil, procura que las use con tanta frecuencia como pueda.",
+   "text": "Acciones adicionales, reacciones y acciones legendarias. Si el monstruo posee acciones adicionales, reacciones o acciones legendarias en su perfil, procura que las use con tanta frecuencia como pueda."
+  }
+ ],
+ "context": [
+  "Monstruos",
+  "Partes de un perfil",
+  "Puntos de golpe"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 279
+ }
+}

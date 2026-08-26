@@ -1,0 +1,71 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-2",
+ "caption": "Conjuros de brujo de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Clavo mental",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Embelesar",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Imagen múltiple",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Inmovilizar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Invisibilidad",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Oscuridad",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Paso brumoso",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Rayo debilitador",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Sugestión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Trepar cual arácnido",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

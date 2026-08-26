@@ -1,0 +1,48 @@
+{
+ "id": "table.atributos-basicos-de-monje",
+ "caption": "Atributos básicos de monje",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Destreza y Sabiduría"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de monje"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Fuerza y Destreza"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Acrobacias, Atletismo, Historia, Perspicacia, Religión o Sigilo"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas, además de marciales que tengan la propiedad “ligera”"
+  ],
+  [
+   "Competencias con herramientas",
+   "Elige un tipo de herramientas de artesano o instrumento musical (consulta el capítulo “Equipo”)"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Ninguna"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) lanza, 5 dagas,"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Monje"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 77
+ }
+}

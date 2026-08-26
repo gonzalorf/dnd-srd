@@ -1,0 +1,47 @@
+{
+ "id": "rule.vision-verdadera",
+ "name": "Visión verdadera",
+ "text": "Si tienes visión verdadera, tu visión mejora dentro de un alcance especificado. En él, tu visión es capaz de atravesar lo siguiente:\n\nOscuridad. Puedes ver en la oscuridad normal y mágica.\n\nInvisibilidad. Puedes ver criaturas y objetos que tengan el estado de invisibles.\n\nIlusiones visuales. Las ilusiones visuales te parecen transparentes y superas automáticamente las tiradas de salvación contra ellas.\n\nTransformaciones. Distingues la forma verdadera de cualquier criatura u objeto que veas y que esté transformado por un efecto mágico.\n\nPlano Etéreo. Puedes ver en el Plano Etéreo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Si tienes visión verdadera, tu visión mejora dentro de un alcance especificado. En él, tu visión es capaz de atravesar lo siguiente:",
+   "text": "Si tienes visión verdadera, tu visión mejora dentro de un alcance especificado. En él, tu visión es capaz de atravesar lo siguiente:"
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "**Oscuridad.** Puedes ver en la oscuridad normal y mágica.",
+   "text": "Oscuridad. Puedes ver en la oscuridad normal y mágica."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "**Invisibilidad.** Puedes ver criaturas y objetos que tengan el estado de invisibles.",
+   "text": "Invisibilidad. Puedes ver criaturas y objetos que tengan el estado de invisibles."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "**Ilusiones visuales.** Las ilusiones visuales te parecen transparentes y superas automáticamente las tiradas de salvación contra ellas.",
+   "text": "Ilusiones visuales. Las ilusiones visuales te parecen transparentes y superas automáticamente las tiradas de salvación contra ellas."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "**Transformaciones.** Distingues la forma verdadera de cualquier criatura u objeto que veas y que esté transformado por un efecto mágico.",
+   "text": "Transformaciones. Distingues la forma verdadera de cualquier criatura u objeto que veas y que esté transformado por un efecto mágico."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "**Plano Etéreo.** Puedes ver en el Plano Etéreo.",
+   "text": "Plano Etéreo. Puedes ver en el Plano Etéreo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

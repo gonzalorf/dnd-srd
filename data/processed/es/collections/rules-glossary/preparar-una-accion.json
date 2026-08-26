@@ -1,0 +1,36 @@
+{
+ "id": "rule.preparar-una-accion",
+ "name": "Preparar una acción",
+ "text": "Preparas una acción para esperar a que ocurra algo concreto antes de actuar. Para ello, llevas a cabo esta acción en tu turno, lo que te permitirá actuar usando tu reacción antes del principio de tu siguiente turno.\n\nEn primer lugar, decide qué circunstancia (que puedas percibir) activará tu reacción. A continuación, elige la acción que realizarás en respuesta a dicha circunstancia. Como alternativa, en vez de una acción puedes decidir moverte hasta tu velocidad. Por ejemplo: “Si los sectarios pisan la trampilla, tiraré de la palanca que la abre” o “si el zombi se acerca, me alejaré de él”.\n\nCuando se produzca la circunstancia de activación, podrás elegir entre usar tu reacción cuando dicha circunstancia termine o ignorarla.\n\nCuando te preparas para lanzar un conjuro, lo lanzas con normalidad (gastando cualquier recurso empleado para lanzarlo), pero retienes su energía y la liberas usando tu reacción cuando se produzca la circunstancia que la desencadene. Solo los conjuros cuyo tiempo de lanzamiento sea de una acción pueden formar parte de una acción preparada. Además, el esfuerzo que implica contener las energías mágicas exige concentración, que podrás mantener hasta el principio de tu siguiente turno. Si pierdes la concentración, el conjuro se disipará sin causar efecto alguno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "Preparas una acción para esperar a que ocurra algo concreto antes de actuar. Para ello, llevas a cabo esta acción en tu turno, lo que te permitirá actuar usando tu reacción antes del principio de tu siguiente turno.",
+   "text": "Preparas una acción para esperar a que ocurra algo concreto antes de actuar. Para ello, llevas a cabo esta acción en tu turno, lo que te permitirá actuar usando tu reacción antes del principio de tu siguiente turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "En primer lugar, decide qué circunstancia (que puedas percibir) activará tu reacción. A continuación, elige la acción que realizarás en respuesta a dicha circunstancia. Como alternativa, en vez de una acción puedes decidir moverte hasta tu velocidad. Por ejemplo: “Si los sectarios pisan la trampilla, tiraré de la palanca que la abre” o “si el zombi se acerca, me alejaré de él”.",
+   "text": "En primer lugar, decide qué circunstancia (que puedas percibir) activará tu reacción. A continuación, elige la acción que realizarás en respuesta a dicha circunstancia. Como alternativa, en vez de una acción puedes decidir moverte hasta tu velocidad. Por ejemplo: “Si los sectarios pisan la trampilla, tiraré de la palanca que la abre” o “si el zombi se acerca, me alejaré de él”."
+  },
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "Cuando se produzca la circunstancia de activación, podrás elegir entre usar tu reacción cuando dicha circunstancia termine o ignorarla.",
+   "text": "Cuando se produzca la circunstancia de activación, podrás elegir entre usar tu reacción cuando dicha circunstancia termine o ignorarla."
+  },
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "Cuando te preparas para lanzar un conjuro, lo lanzas con normalidad (gastando cualquier recurso empleado para lanzarlo), pero retienes su energía y la liberas usando tu reacción cuando se produzca la circunstancia que la desencadene. Solo los conjuros cuyo tiempo de lanzamiento sea de una acción pueden formar parte de una acción preparada. Además, el esfuerzo que implica contener las energías mágicas exige concentración, que podrás mantener hasta el principio de tu siguiente turno. Si pierdes la concentración, el conjuro se disipará sin causar efecto alguno.",
+   "text": "Cuando te preparas para lanzar un conjuro, lo lanzas con normalidad (gastando cualquier recurso empleado para lanzarlo), pero retienes su energía y la liberas usando tu reacción cuando se produzca la circunstancia que la desencadene. Solo los conjuros cuyo tiempo de lanzamiento sea de una acción pueden formar parte de una acción preparada. Además, el esfuerzo que implica contener las energías mágicas exige concentración, que podrás mantener hasta el principio de tu siguiente turno. Si pierdes la concentración, el conjuro se disipará sin causar efecto alguno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 206
+ },
+ "kind": "acción"
+}

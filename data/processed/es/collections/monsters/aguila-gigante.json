@@ -1,0 +1,98 @@
+{
+ "id": "monster.aguila-gigante",
+ "name": "Águila gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 376
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Celestial Grande, neutral bueno",
+ "type": "Celestial",
+ "alignment": "neutral bueno",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "26 (4d10 + 4)",
+  "average": 26,
+  "formula": "4d10 + 4"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "celestial",
+  "entiende común y primordial (aurano)",
+  "pero no puede hablarlos"
+ ],
+ "resistances": [
+  "necrótico",
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El águila realiza dos ataques de desgarro.",
+   "page": 376,
+   "description": "El águila realiza dos ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante más 3 (1d6) de daño radiante.",
+   "page": 376,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante más 3 (1d6) de daño radiante."
+  }
+ ]
+}

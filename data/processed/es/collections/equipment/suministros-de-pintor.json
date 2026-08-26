@@ -1,0 +1,37 @@
+{
+ "id": "tool.suministros-de-pintor",
+ "name": "Suministros de pintor",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Sabiduría Peso: 2,5 kg\n\nUtilizar: pintar una imagen reconocible de algo que hayas visto (CD 10)\n\nFabricar: canalizador druídico, símbolo sagrado",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Sabiduría **Peso:** 2,5 kg",
+   "text": "Característica: Sabiduría Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** pintar una imagen reconocible de algo que hayas visto (CD 10)",
+   "text": "Utilizar: pintar una imagen reconocible de algo que hayas visto (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** canalizador druídico, símbolo sagrado",
+   "text": "Fabricar: canalizador druídico, símbolo sagrado"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

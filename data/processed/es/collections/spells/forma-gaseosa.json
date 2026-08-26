@@ -1,0 +1,69 @@
+{
+ "id": "spell.forma-gaseosa",
+ "name": "Forma gaseosa",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un poco de gasa)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de gasa",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una criatura voluntaria a la que toques cambia de forma, junto con todo lo que lleve o vista, y se convierte en una niebla fina hasta que termine el conjuro. El conjuro termina para el objetivo si sus puntos de golpe se reducen a 0 o si emplea una acción de magia para ponerle fin.\n\nMientras está en esta forma, el único método de movimiento del objetivo es una velocidad volando de 3 m, y podrá levitar y entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al daño contundente, cortante y perforante, inmunidad al estado de derribado y ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. El objetivo puede atravesar aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas.\n\nEl objetivo no puede hablar ni manipular objetos y no puede soltar, usar ni interactuar de ninguna otra forma con cualquier objeto que llevara o sostuviera. Por último, el objetivo no puede atacar ni lanzar conjuros.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "Una criatura voluntaria a la que toques cambia de forma, junto con todo lo que lleve o vista, y se convierte en una niebla fina hasta que termine el conjuro. El conjuro termina para el objetivo si sus puntos de golpe se reducen a 0 o si emplea una acción de magia para ponerle fin.",
+   "text": "Una criatura voluntaria a la que toques cambia de forma, junto con todo lo que lleve o vista, y se convierte en una niebla fina hasta que termine el conjuro. El conjuro termina para el objetivo si sus puntos de golpe se reducen a 0 o si emplea una acción de magia para ponerle fin."
+  },
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "Mientras está en esta forma, el único método de movimiento del objetivo es una velocidad volando de 3 m, y podrá levitar y entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al daño contundente, cortante y perforante, inmunidad al estado de derribado y ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. El objetivo puede atravesar aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas.",
+   "text": "Mientras está en esta forma, el único método de movimiento del objetivo es una velocidad volando de 3 m, y podrá levitar y entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al daño contundente, cortante y perforante, inmunidad al estado de derribado y ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. El objetivo puede atravesar aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas."
+  },
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "El objetivo no puede hablar ni manipular objetos y no puede soltar, usar ni interactuar de ninguna otra forma con cualquier objeto que llevara o sostuviera. Por último, el objetivo no puede atacar ni lanzar conjuros.",
+   "text": "El objetivo no puede hablar ni manipular objetos y no puede soltar, usar ni interactuar de ninguna otra forma con cualquier objeto que llevara o sostuviera. Por último, el objetivo no puede atacar ni lanzar conjuros."
+  },
+  {
+   "type": "definition",
+   "page": 151,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 150
+ }
+}

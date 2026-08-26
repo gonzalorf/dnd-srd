@@ -1,0 +1,120 @@
+{
+ "id": "monster.chuul",
+ "name": "Chuul",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 290
+ },
+ "context": [
+  "Chuul"
+ ],
+ "metaRaw": "Aberración Grande, caótica malvada",
+ "type": "Aberración",
+ "alignment": "caótica malvada",
+ "size": "Grande",
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "76 (9d10 + 27)",
+  "average": 76,
+  "formula": "9d10 + 27"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "entiende habla de las profundidades",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El chuul puede respirar tanto dentro como fuera del agua.",
+   "page": 290,
+   "description": "El chuul puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Sentir magia",
+   "md": "***Sentir magia.*** El chuul percibe la magia en un radio de 36 m. Este atributo funciona, en todos los demás aspectos, igual que el conjuro *detectar magia*, pero no es mágico en sí mismo.",
+   "page": 290,
+   "description": "El chuul percibe la magia en un radio de 36 m. Este atributo funciona, en todos los demás aspectos, igual que el conjuro *detectar magia*, pero no es mágico en sí mismo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El chuul realiza dos ataques con sus tenazas y utiliza sus tentáculos paralizadores.",
+   "page": 290,
+   "description": "El chuul realiza dos ataques con sus tenazas y utiliza sus tentáculos paralizadores."
+  },
+  {
+   "name": "Tenaza",
+   "md": "***Tenaza.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 9 (1d10 + 4) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 14 para escapar) por una de las dos tenazas.",
+   "page": 290,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 9 (1d10 + 4) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 14 para escapar) por una de las dos tenazas."
+  },
+  {
+   "name": "Tentáculos paralizadores",
+   "md": "***Tentáculos paralizadores.*** *Tirada de salvación de Constitución:* CD 13, una criatura agarrada por el chuul. *Fallo:* el objetivo tendrá el estado de envenenado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente. Mientras esté envenenado, tendrá el estado de paralizado.",
+   "page": 290,
+   "description": "*Tirada de salvación de Constitución:* CD 13, una criatura agarrada por el chuul. *Fallo:* el objetivo tendrá el estado de envenenado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente. Mientras esté envenenado, tendrá el estado de paralizado."
+  }
+ ],
+ "refs": [
+  "spell.detectar-magia"
+ ]
+}

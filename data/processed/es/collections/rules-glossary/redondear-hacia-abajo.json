@@ -1,0 +1,17 @@
+{
+ "id": "rule.redondear-hacia-abajo",
+ "name": "Redondear hacia abajo",
+ "text": "Siempre que tengas que dividir o multiplicar un número en la partida, redondéalo hacia abajo si no es entero, incluso cuando la parte decimal sea 5 o más. Algunas reglas plantean excepciones e indican que redondees hacia arriba.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Siempre que tengas que dividir o multiplicar un número en la partida, redondéalo hacia abajo si no es entero, incluso cuando la parte decimal sea 5 o más. Algunas reglas plantean excepciones e indican que redondees hacia arriba.",
+   "text": "Siempre que tengas que dividir o multiplicar un número en la partida, redondéalo hacia abajo si no es entero, incluso cuando la parte decimal sea 5 o más. Algunas reglas plantean excepciones e indican que redondees hacia arriba."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

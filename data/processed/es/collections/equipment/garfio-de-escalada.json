@@ -1,0 +1,36 @@
+{
+ "id": "gear.garfio-de-escalada",
+ "name": "Garfio de escalada",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Garfio de escalada",
+  "Peso": "2 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2 kg",
+  "kg": 2.0
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar.",
+   "text": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar."
+  }
+ ],
+ "descriptionPage": 106
+}

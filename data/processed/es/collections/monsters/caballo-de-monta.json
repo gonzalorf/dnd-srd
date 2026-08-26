@@ -1,0 +1,82 @@
+{
+ "id": "monster.caballo-de-monta",
+ "name": "Caballo de monta",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 380
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "13 (2d10 + 2)",
+  "average": 13,
+  "formula": "2d10 + 2"
+ },
+ "speeds": {
+  "caminando": 18.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Cascos",
+   "md": "***Cascos.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente.",
+   "page": 380,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño contundente."
+  }
+ ]
+}

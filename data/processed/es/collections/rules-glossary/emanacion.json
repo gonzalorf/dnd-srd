@@ -1,0 +1,30 @@
+{
+ "id": "rule.emanacion",
+ "name": "Emanación",
+ "text": "Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas las direcciones. El efecto que crea una emanación especifica la distancia que abarca.\n\nUna emanación se mueve con la criatura o el objeto que sea su origen, salvo que se trate de un efecto instantáneo o estático.\n\nEl origen de una emanación (criatura u objeto) no se incluye en el área de efecto, salvo que su creador decida lo contrario.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas las direcciones. El efecto que crea una emanación especifica la distancia que abarca.",
+   "text": "Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas las direcciones. El efecto que crea una emanación especifica la distancia que abarca."
+  },
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Una emanación se mueve con la criatura o el objeto que sea su origen, salvo que se trate de un efecto instantáneo o estático.",
+   "text": "Una emanación se mueve con la criatura o el objeto que sea su origen, salvo que se trate de un efecto instantáneo o estático."
+  },
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "El origen de una emanación (criatura u objeto) no se incluye en el área de efecto, salvo que su creador decida lo contrario.",
+   "text": "El origen de una emanación (criatura u objeto) no se incluye en el área de efecto, salvo que su creador decida lo contrario."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ },
+ "kind": "área de efecto"
+}

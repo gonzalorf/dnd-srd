@@ -1,0 +1,43 @@
+{
+ "id": "table.descripciones-de-las-caracteristicas",
+ "caption": "Descripciones de las características",
+ "header": [
+  "Característica",
+  "La puntuación mide..."
+ ],
+ "rows": [
+  [
+   "Fuerza",
+   "Poderío físico"
+  ],
+  [
+   "Destreza",
+   "Agilidad, reflejos y equilibrio"
+  ],
+  [
+   "Constitución",
+   "Salud y aguante"
+  ],
+  [
+   "Inteligencia",
+   "Raciocinio y memoria"
+  ],
+  [
+   "Sabiduría",
+   "Perspicacia y fortaleza mental"
+  ],
+  [
+   "Carisma",
+   "Confianza, aplomo y encanto"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las seis características"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 5
+ }
+}

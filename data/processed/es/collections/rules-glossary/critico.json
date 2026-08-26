@@ -1,0 +1,17 @@
+{
+ "id": "rule.critico",
+ "name": "Crítico",
+ "text": "Si sacas un 20 en el d20 al hacer una tirada de ataque, causarás un crítico y el ataque acertará sin tener en cuenta los modificadores ni la CA del objetivo. Un crítico te permite tirar dados de daño adicionales contra el objetivo: tira todos los dados de daño del ataque dos veces, suma los resultados y luego añade los modificadores pertinentes. Consulta también el capítulo “Cómo jugar” (“Daño y curación”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Si sacas un 20 en el d20 al hacer una tirada de ataque, causarás un crítico y el ataque acertará sin tener en cuenta los modificadores ni la CA del objetivo. Un crítico te permite tirar dados de daño adicionales contra el objetivo: tira todos los dados de daño del ataque dos veces, suma los resultados y luego añade los modificadores pertinentes. *Consulta también* el capítulo “Cómo jugar” (“Daño y curación”).",
+   "text": "Si sacas un 20 en el d20 al hacer una tirada de ataque, causarás un crítico y el ataque acertará sin tener en cuenta los modificadores ni la CA del objetivo. Un crítico te permite tirar dados de daño adicionales contra el objetivo: tira todos los dados de daño del ataque dos veces, suma los resultados y luego añade los modificadores pertinentes. Consulta también el capítulo “Cómo jugar” (“Daño y curación”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ }
+}

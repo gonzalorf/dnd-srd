@@ -1,0 +1,101 @@
+{
+ "id": "monster.pteranodon",
+ "name": "Pteranodon",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 391,
+  "pages": [
+   391,
+   392
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana (dinosaurio), sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "tags": [
+  "dinosaurio"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "13 (3d8)",
+  "average": 13,
+  "formula": "3d8"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 1
+ },
+ "senses": {
+  "raw": "Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Pasar volando",
+   "md": "***Pasar volando.*** El pteranodon no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.",
+   "page": 392,
+   "description": "El pteranodon no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante.",
+   "page": 392,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante."
+  }
+ ]
+}

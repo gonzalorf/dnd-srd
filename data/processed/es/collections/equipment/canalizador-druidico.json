@@ -1,0 +1,53 @@
+{
+ "id": "gear.canalizador-druidico",
+ "name": "Canalizador druídico",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Canalizador druídico",
+  "Peso": "Variable",
+  "Precio": "Variable"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "text": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos.",
+   "text": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos."
+  },
+  {
+   "type": "table",
+   "page": 105,
+   "caption": "Canalizadores druídicos",
+   "header": [
+    "Canalizador",
+    "Peso",
+    "Precio"
+   ],
+   "rows": [
+    [
+     "Bastón de madera (también bastón)",
+     "2 kg",
+     "5 po"
+    ],
+    [
+     "Rama de muérdago",
+     "—",
+     "1 po"
+    ],
+    [
+     "Varita de tejo",
+     "0,5 kg",
+     "10 po"
+    ]
+   ]
+  }
+ ],
+ "descriptionPage": 105
+}

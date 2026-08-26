@@ -1,0 +1,52 @@
+{
+ "id": "table.p269",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Efecto"
+ ],
+ "rows": [
+  [
+   "01–50",
+   "Lanzas un conjuro aleatorio que determinas tirando 1d10: si el resultado es 1, agrandar/reducir (efecto de agrandar); si es 2, agrandar/reducir (efecto de reducir); si es 3, bola de fuego; si es 4, fuego feérico; si es 5, fuerza fantasmal; si es 6, invisibilidad (sobre ti); si es 7, nube apestosa; si es 8, polimorfar; si es 9, ráfaga de viento; si es 10, relámpago."
+  ],
+  [
+   "51–55",
+   "Creerás que ha sucedido algo asombroso y tendrás el estado de aturdido hasta el final de tu siguiente turno."
+  ],
+  [
+   "56–60",
+   "Un enjambre inofensivo de mariposas llena un cubo de 3 m de lado a 9 m o menos de ti. El enjambre se dispersa pasado 1 minuto."
+  ],
+  [
+   "61–65",
+   "Sacas un objeto no mágico del sombrero. Tira 1d4 para determinar el objeto: si el resultado es 1, un vial de ácido; si es 2, una antorcha encendida; si es 3, un frasco de fuego de alquimista; si es 4, una palanqueta."
+  ],
+  [
+   "66–70",
+   "Sufres unas “náuseas mágicas” y tienes el estado de envenenado durante 1 hora."
+  ],
+  [
+   "71–75",
+   "Tienes el estado de petrificado hasta el final de tu siguiente turno."
+  ],
+  [
+   "76–80",
+   "Sacas un objeto no mágico del sombrero. Tira 1d4 para determinar el objeto: si el resultado es 1, una bolsa de abrojos; si es 2, una cuerda con un garfio de escalada atado en un extremo; si es 3, una daga; si es 4, una gema valorada en 50 po."
+  ],
+  [
+   "81–85",
+   "Una criatura aparece en un espacio sin ocu"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Sombrero de múltiples conjuros"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 269
+ }
+}

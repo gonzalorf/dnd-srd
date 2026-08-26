@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-joyero",
+ "name": "Herramientas de joyero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Inteligencia Peso: 1 kg\n\nUtilizar: discernir el valor de una gema (CD 15)\n\nFabricar: canalizador arcano, símbolo sagrado",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Inteligencia **Peso:** 1 kg",
+   "text": "Característica: Inteligencia Peso: 1 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** discernir el valor de una gema (CD 15)",
+   "text": "Utilizar: discernir el valor de una gema (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** canalizador arcano, símbolo sagrado",
+   "text": "Fabricar: canalizador arcano, símbolo sagrado"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "25 po",
+  "amount": 25.0,
+  "coin": "po",
+  "gp": 25.0
+ }
+}

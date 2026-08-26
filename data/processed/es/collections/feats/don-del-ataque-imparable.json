@@ -1,0 +1,42 @@
+{
+ "id": "feat.don-del-ataque-imparable",
+ "name": "Don del ataque imparable",
+ "text": "Dote de don épico (requisito: nivel 19 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30.\n\nSuperar las defensas. El daño contundente, cortante y perforante que causas siempre ignora la resistencia.\n\nGolpe arrollador. Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 95,
+   "md": "*Dote de don épico (requisito: nivel 19 o más)*",
+   "text": "Dote de don épico (requisito: nivel 19 o más)"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Mejora de característica.*** Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30.",
+   "text": "Mejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 30."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Superar las defensas.*** El daño contundente, cortante y perforante que causas siempre ignora la resistencia.",
+   "text": "Superar las defensas. El daño contundente, cortante y perforante que causas siempre ignora la resistencia."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Golpe arrollador.*** Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque.",
+   "text": "Golpe arrollador. Cuando saques un 20 en el d20 en una tirada de ataque, puedes infligir una cantidad de daño adicional al objetivo igual a la puntuación de característica aumentada con esta dote. El daño adicional es del mismo tipo que el del ataque."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 95
+ },
+ "category": "Dotes de don épico"
+}

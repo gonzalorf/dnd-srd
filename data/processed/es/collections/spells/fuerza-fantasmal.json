@@ -1,0 +1,70 @@
+{
+ "id": "spell.fuerza-fantasmal",
+ "name": "Fuerza fantasmal",
+ "level": 2,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un poco de vellón)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de vellón",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia. Si la falla, creas un objeto o una criatura fantasmal u otro fenómeno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros estímulos.\n\nEl objetivo puede usar una acción de estudiar para examinar la imagen con una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusión y el conjuro termina.\n\nMientras esté afectado por este conjuro, el objetivo tratará al fantasma como si fuera real y racionalizará cualquier resultado ilógico derivado de interactuar con él. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la caída, creerá que el puente existe y que otra cosa ha provocado su caída.\n\nUn objetivo afectado incluso puede recibir daño de la ilusión si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de daño psíquico al objetivo si está en el área que ocupa el fantasma o a 1,5 m de él. El objetivo percibe el daño como de un tipo apropiado para la ilusión.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia. Si la falla, creas un objeto o una criatura fantasmal u otro fenómeno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros estímulos.",
+   "text": "Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia. Si la falla, creas un objeto o una criatura fantasmal u otro fenómeno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros estímulos."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "El objetivo puede usar una acción de estudiar para examinar la imagen con una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusión y el conjuro termina.",
+   "text": "El objetivo puede usar una acción de estudiar para examinar la imagen con una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusión y el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Mientras esté afectado por este conjuro, el objetivo tratará al fantasma como si fuera real y racionalizará cualquier resultado ilógico derivado de interactuar con él. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la caída, creerá que el puente existe y que otra cosa ha provocado su caída.",
+   "text": "Mientras esté afectado por este conjuro, el objetivo tratará al fantasma como si fuera real y racionalizará cualquier resultado ilógico derivado de interactuar con él. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la caída, creerá que el puente existe y que otra cosa ha provocado su caída."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Un objetivo afectado incluso puede recibir daño de la ilusión si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de daño psíquico al objetivo si está en el área que ocupa el fantasma o a 1,5 m de él. El objetivo percibe el daño como de un tipo apropiado para la ilusión.",
+   "text": "Un objetivo afectado incluso puede recibir daño de la ilusión si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de daño psíquico al objetivo si está en el área que ocupa el fantasma o a 1,5 m de él. El objetivo percibe el daño como de un tipo apropiado para la ilusión."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 151
+ }
+}

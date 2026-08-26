@@ -1,0 +1,53 @@
+{
+ "id": "spell.castigo-brillante",
+ "name": "Castigo brillante",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "El objetivo del golpe recibe 2d6 de daño radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitirá luz brillante en un radio de 1,5 m, las tiradas de ataque contra él tendrán ventaja y no podrá beneficiarse del estado de invisible.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "El objetivo del golpe recibe 2d6 de daño radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitirá luz brillante en un radio de 1,5 m, las tiradas de ataque contra él tendrán ventaja y no podrá beneficiarse del estado de invisible.",
+   "text": "El objetivo del golpe recibe 2d6 de daño radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitirá luz brillante en un radio de 1,5 m, las tiradas de ataque contra él tendrán ventaja y no podrá beneficiarse del estado de invisible."
+  },
+  {
+   "type": "definition",
+   "page": 128,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 127
+ }
+}

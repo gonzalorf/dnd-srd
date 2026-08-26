@@ -1,0 +1,17 @@
+{
+ "id": "rule.actitud",
+ "name": "Actitud",
+ "text": "Los monstruos tienen una actitud inicial hacia un personaje de un jugador, la cual puede ser amistosa, hostil o indiferente. Consulta también “Amistosa”, “Hostil”, “Indiferente” e “Influir”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 194,
+   "md": "Los monstruos tienen una actitud inicial hacia un personaje de un jugador, la cual puede ser amistosa, hostil o indiferente. *Consulta también* “Amistosa”, “Hostil”, “Indiferente” e “Influir”.",
+   "text": "Los monstruos tienen una actitud inicial hacia un personaje de un jugador, la cual puede ser amistosa, hostil o indiferente. Consulta también “Amistosa”, “Hostil”, “Indiferente” e “Influir”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 194
+ }
+}

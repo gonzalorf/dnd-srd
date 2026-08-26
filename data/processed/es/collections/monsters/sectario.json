@@ -1,0 +1,90 @@
+{
+ "id": "monster.sectario",
+ "name": "Sectario",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 368
+ },
+ "context": [
+  "Sectarios"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "9 (2d8)",
+  "average": 9,
+  "formula": "2d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Engaño": 2,
+  "Religión": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "armadura de cuero",
+  "hoz"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Hoz ritual",
+   "md": "***Hoz ritual.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 1 de daño necrótico.",
+   "page": 368,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 1 de daño necrótico."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "item.pocion-de-velocidad",
+ "name": "Poción de velocidad",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, muy rara",
+ "text": "Cuando bebas esta poción, obtendrás el efecto del conjuro acelerar durante 1 minuto (no requiere concentración) sin sufrir la ola de somnolencia que suele ocurrir cuando termina el efecto.\n\nEl líquido amarillo de este brebaje tiene vetas negras y forma remolinos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, obtendrás el efecto del conjuro *acelerar* durante 1 minuto (no requiere concentración) sin sufrir la ola de somnolencia que suele ocurrir cuando termina el efecto.",
+   "text": "Cuando bebas esta poción, obtendrás el efecto del conjuro acelerar durante 1 minuto (no requiere concentración) sin sufrir la ola de somnolencia que suele ocurrir cuando termina el efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "El líquido amarillo de este brebaje tiene vetas negras y forma remolinos.",
+   "text": "El líquido amarillo de este brebaje tiene vetas negras y forma remolinos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ },
+ "refs": [
+  "spell.acelerar"
+ ]
+}

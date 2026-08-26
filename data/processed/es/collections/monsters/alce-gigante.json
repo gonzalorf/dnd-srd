@@ -1,0 +1,92 @@
+{
+ "id": "monster.alce-gigante",
+ "name": "Alce gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 377
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Celestial Enorme, neutral bueno",
+ "type": "Celestial",
+ "alignment": "neutral bueno",
+ "size": "Enorme",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 6,
+  "score": 16
+ },
+ "hp": {
+  "raw": "42 (5d12 + 10)",
+  "average": 42,
+  "formula": "5d12 + 10"
+ },
+ "speeds": {
+  "caminando": 18.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 27 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "celestial",
+  "entiende común",
+  "elfo y silvano",
+  "pero no puede hablarlos"
+ ],
+ "resistances": [
+  "necrótico",
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 6
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 6
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Embestir",
+   "md": "***Embestir.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño contundente más 5 (2d4) de daño radiante. Si el objetivo es una criatura Enorme o más pequeña y el alce recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 5 (2d4) de daño contundente adicional y tendrá el estado de derribada.",
+   "page": 377,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño contundente más 5 (2d4) de daño radiante. Si el objetivo es una criatura Enorme o más pequeña y el alce recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 5 (2d4) de daño contundente adicional y tendrá el estado de derribada."
+  }
+ ]
+}

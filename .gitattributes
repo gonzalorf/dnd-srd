@@ -1,0 +1,17 @@
+# Saltos de línea LF en el repositorio, siempre.
+#
+# Importa más de lo habitual en este proyecto: `data/processed/es/markdown/`
+# existe precisamente para comparar dos versiones del SRD con `git diff`, y un
+# CRLF de Windows ensuciaría el diff entero.
+* text=auto eol=lf
+
+# Binarios: que git no intente normalizarlos ni mostrarlos como texto.
+*.pdf   binary
+*.sqlite binary
+*.png   binary
+*.jpg   binary
+*.woff  binary
+*.woff2 binary
+
+# Los JSON generados son enormes y su diff no aporta nada legible.
+data/processed/**/*.json -diff

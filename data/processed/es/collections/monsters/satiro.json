@@ -1,0 +1,107 @@
+{
+ "id": "monster.satiro",
+ "name": "Sátiro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 367,
+  "pages": [
+   367,
+   368
+  ]
+ },
+ "context": [
+  "Sátiro"
+ ],
+ "metaRaw": "Feérico Mediano, caótico neutral",
+ "type": "Feérico",
+ "alignment": "caótico neutral",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "31 (7d8)",
+  "average": 31,
+  "formula": "7d8"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Interpretación": 6,
+  "Percepción": 2,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común",
+  "elfo",
+  "silvano"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El sátiro tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 367,
+   "description": "El sátiro tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Cascos",
+   "md": "***Cascos.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, el sátiro la empujará hasta 3 m respecto a él en línea recta.",
+   "page": 368,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, el sátiro la empujará hasta 3 m respecto a él en línea recta."
+  },
+  {
+   "name": "Burla",
+   "md": "***Burla.*** *Tirada de salvación de Sabiduría:* CD 12, una criatura que el sátiro pueda ver a 27 m o menos. *Fallo:* 5 (1d6 + 2) de daño psíquico.",
+   "page": 368,
+   "description": "*Tirada de salvación de Sabiduría:* CD 12, una criatura que el sátiro pueda ver a 27 m o menos. *Fallo:* 5 (1d6 + 2) de daño psíquico."
+  }
+ ]
+}

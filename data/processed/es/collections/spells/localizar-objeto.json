@@ -1,0 +1,66 @@
+{
+ "id": "spell.localizar-objeto",
+ "name": "Localizar objeto",
+ "level": 2,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "explorador",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una ramita con forma de horquilla)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una ramita con forma de horquilla",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Describe o nombra un objeto que conozcas. Presientes la dirección en la que se encuentra dicho objeto si está a 300 m o menos de ti. Si el objeto se está moviendo, conoces la dirección de su movimiento.\n\nEl conjuro puede localizar un objeto específico que conozcas si lo has visto de cerca (a 9 m o menos) al menos una vez. Como alternativa, el conjuro puede localizar el objeto más cercano de un tipo particular, como un cierto tipo de ropa, joyas, muebles, herramientas o armas.\n\nEl conjuro no puede localizar un objeto si hay cualquier grosor de plomo que bloquee una ruta directa entre dicho objeto y tú.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Describe o nombra un objeto que conozcas. Presientes la dirección en la que se encuentra dicho objeto si está a 300 m o menos de ti. Si el objeto se está moviendo, conoces la dirección de su movimiento.",
+   "text": "Describe o nombra un objeto que conozcas. Presientes la dirección en la que se encuentra dicho objeto si está a 300 m o menos de ti. Si el objeto se está moviendo, conoces la dirección de su movimiento."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "El conjuro puede localizar un objeto específico que conozcas si lo has visto de cerca (a 9 m o menos) al menos una vez. Como alternativa, el conjuro puede localizar el objeto más cercano de un tipo particular, como un cierto tipo de ropa, joyas, muebles, herramientas o armas.",
+   "text": "El conjuro puede localizar un objeto específico que conozcas si lo has visto de cerca (a 9 m o menos) al menos una vez. Como alternativa, el conjuro puede localizar el objeto más cercano de un tipo particular, como un cierto tipo de ropa, joyas, muebles, herramientas o armas."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "El conjuro no puede localizar un objeto si hay cualquier grosor de plomo que bloquee una ruta directa entre dicho objeto y tú.",
+   "text": "El conjuro no puede localizar un objeto si hay cualquier grosor de plomo que bloquee una ruta directa entre dicho objeto y tú."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 162
+ }
+}

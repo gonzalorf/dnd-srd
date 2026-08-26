@@ -1,0 +1,29 @@
+{
+ "id": "item.pocion-de-vuelo",
+ "name": "Poción de vuelo",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, muy rara",
+ "text": "Cuando bebas esta poción, obtendrás una velocidad volando igual a tu velocidad durante 1 hora y podrás levitar. Si te encuentras en pleno vuelo cuando el efecto de la poción termine, te caerás salvo que cuentes con otros medios que te mantengan en el aire.\n\nEl líquido transparente de esta poción flota en la parte superior del frasco y tiene impurezas blancas con forma de nube.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 268,
+   "md": "Cuando bebas esta poción, obtendrás una velocidad volando igual a tu velocidad durante 1 hora y podrás levitar. Si te encuentras en pleno vuelo cuando el efecto de la poción termine, te caerás salvo que cuentes con otros medios que te mantengan en el aire.",
+   "text": "Cuando bebas esta poción, obtendrás una velocidad volando igual a tu velocidad durante 1 hora y podrás levitar. Si te encuentras en pleno vuelo cuando el efecto de la poción termine, te caerás salvo que cuentes con otros medios que te mantengan en el aire."
+  },
+  {
+   "type": "paragraph",
+   "page": 268,
+   "md": "El líquido transparente de esta poción flota en la parte superior del frasco y tiene impurezas blancas con forma de nube.",
+   "text": "El líquido transparente de esta poción flota en la parte superior del frasco y tiene impurezas blancas con forma de nube."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 268
+ }
+}

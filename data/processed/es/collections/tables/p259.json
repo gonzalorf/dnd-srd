@@ -1,0 +1,36 @@
+{
+ "id": "table.p259",
+ "caption": null,
+ "header": [
+  "Gema",
+  "Elemental invocado"
+ ],
+ "rows": [
+  [
+   "Corindón rojo",
+   "Elemental de fuego"
+  ],
+  [
+   "Diamante amarillo",
+   "Elemental de tierra"
+  ],
+  [
+   "Esmeralda",
+   "Elemental de agua"
+  ],
+  [
+   "Zafiro azul",
+   "Elemental de aire"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Gema elemental"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 259
+ }
+}

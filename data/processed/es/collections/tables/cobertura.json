@@ -1,0 +1,36 @@
+{
+ "id": "table.cobertura",
+ "caption": "Cobertura",
+ "header": [
+  "Nivel",
+  "Beneficio para el objetivo",
+  "Qué lo ofrece"
+ ],
+ "rows": [
+  [
+   "Media",
+   "Bonificador de +2 a la CA y a las tiradas de salvación de Destreza",
+   "Otra criatura o un objeto que cubra al menos la mitad del objetivo"
+  ],
+  [
+   "Tres cuartos",
+   "Bonificador de +5 a la CA y a las tiradas de salvación de Destreza",
+   "Un objeto que cubra al menos tres cuartos del objetivo"
+  ],
+  [
+   "Completa",
+   "No puede ser objetivo directo de ataques ni conjuros",
+   "Un objeto que cubre todo el objetivo"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Combate",
+  "Cobertura"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 16
+ }
+}

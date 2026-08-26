@@ -1,0 +1,93 @@
+{
+ "id": "monster.plebeyo",
+ "name": "Plebeyo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 361
+ },
+ "context": [
+  "Plebeyo"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 10,
+ "acRaw": "10",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "4 (1d8)",
+  "average": 4,
+  "formula": "1d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "garrote"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Entrenamiento",
+   "md": "***Entrenamiento.*** El plebeyo es competente en una habilidad a elección de cada GM y tiene ventaja siempre que realice una prueba de característica con esa habilidad.",
+   "page": 361,
+   "description": "El plebeyo es competente en una habilidad a elección de cada GM y tiene ventaja siempre que realice una prueba de característica con esa habilidad."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garrote",
+   "md": "***Garrote.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño contundente.",
+   "page": 361,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño contundente."
+  }
+ ]
+}

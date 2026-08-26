@@ -1,0 +1,23 @@
+{
+ "id": "item.escudo-1-2-o-3",
+ "name": "Escudo +1, +2 o +3",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), infrecuente (+1), rara (+2) o muy rara (+3)",
+ "text": "Mientras lleves embrazado este escudo, tienes un bonificador a la clase de armadura determinado por su rareza, además del bonificador a la CA normal del escudo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Mientras lleves embrazado este escudo, tienes un bonificador a la clase de armadura determinado por su rareza, además del bonificador a la CA normal del escudo.",
+   "text": "Mientras lleves embrazado este escudo, tienes un bonificador a la clase de armadura determinado por su rareza, además del bonificador a la CA normal del escudo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

@@ -1,0 +1,78 @@
+# Configuración específica del idioma español.
+#
+# Todo lo que depende del idioma vive aquí. Añadir otro idioma del SRD consiste
+# en crear config/lang/<code>.yaml con estas mismas claves: el mapa de estilos
+# (config/styles.yaml) es compartido porque la maquetación es idéntica.
+
+code: es
+name: Español
+source: source-docs/SP_SRD_CC_v5.2.1.pdf
+srd_version: "5.2.1"
+book_title: Documento de referencia del sistema 5.2.1
+
+# Geometría de la página. Verificada: 594x783 pt, dos columnas.
+layout:
+  column_split_x: 302.0 # frontera entre columna A y columna B
+  column_a_x: 63.0
+  column_b_x: 313.0
+  indent_tolerance: 5.0 # margen para detectar sangrías
+  paragraph_indent: 8.0 # sangría de primera línea de párrafo (63 -> 71)
+  full_width_min: 300.0 # un bloque más ancho que esto rompe las columnas
+  leading: 12.0 # interlineado del texto corrido
+  block_gap: 16.0 # salto vertical que separa dos bloques distintos
+
+# Texto que identifica el encabezado corrido, para descartarlo.
+chrome:
+  running_header: Documento de referencia del sistema 5.2.1
+
+# Etiquetas de la cabecera de un perfil de criatura, en orden de aparición.
+statblock_labels:
+  ac: "CA"
+  initiative: "Iniciativa"
+  hp: "PG"
+  speed: "Velocidad"
+  skills: "Habilidades"
+  senses: "Sentidos"
+  languages: "Idiomas"
+  cr: "VD"
+  immunities: "Inmunidades"
+  resistances: "Resistencias"
+  vulnerabilities: "Vulnerabilidades"
+  gear: "Equipo"
+
+# Abreviaturas de característica tal y como aparecen en la tabla del perfil.
+abilities: [Fue, Des, Con, Int, Sab, Car]
+
+# Encabezados de sección dentro de un perfil.
+statblock_sections:
+  traits: "Atributos"
+  actions: "Acciones"
+  bonus_actions: "Acciones adicionales"
+  reactions: "Reacciones"
+  legendary: "Acciones legendarias"
+
+# Etiquetas de las propiedades de un conjuro.
+spell_props:
+  casting_time: "Tiempo de lanzamiento"
+  range: "Alcance"
+  components: "Componentes"
+  duration: "Duración"
+
+# Títulos de sección que delimitan cada colección de dominio.
+# Se usan para saber qué parser aplicar a cada parte del árbol.
+sections:
+  spells: Descripciones de conjuros
+  magic_items: Objetos mágicos de la A a la Z
+  monsters: Monstruos de la A a la Z
+  animals: Animales
+  glossary: Definiciones de las reglas
+  feats: Descripciones de dotes
+  equipment: Equipo
+  classes: Clases
+  backgrounds: Descripciones de trasfondos
+  species: Descripciones de las especies
+
+# Marcadores de lista en el texto.
+list_markers:
+  bullet: "•"
+  step: '^\d+:' # "1:", "2:", "3:"

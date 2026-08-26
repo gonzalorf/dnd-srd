@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-carpintero",
+ "name": "Herramientas de carpintero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Fuerza Peso: 3 kg\n\nUtilizar: sellar o forzar una puerta o un recipiente (CD 20)\n\nFabricar: bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Fuerza **Peso:** 3 kg",
+   "text": "Característica: Fuerza Peso: 3 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** sellar o forzar una puerta o un recipiente (CD 20)",
+   "text": "Utilizar: sellar o forzar una puerta o un recipiente (CD 20)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara",
+   "text": "Fabricar: bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "8 po",
+  "amount": 8.0,
+  "coin": "po",
+  "gp": 8.0
+ }
+}

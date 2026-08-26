@@ -1,0 +1,17 @@
+{
+ "id": "rule.volar",
+ "name": "Volar",
+ "text": "Diversos efectos permiten que las criaturas vuelen. Cuando vueles, te caerás si tienes los estados de derribado o incapacitado o si tu velocidad volando se reduce a 0. Puedes permanecer en el aire en esas circunstancias si tienes la capacidad de levitar. Consulta también “Caídas” y “Velocidad volando”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Diversos efectos permiten que las criaturas vuelen. Cuando vueles, te caerás si tienes los estados de derribado o incapacitado o si tu velocidad volando se reduce a 0. Puedes permanecer en el aire en esas circunstancias si tienes la capacidad de levitar. *Consulta también* “Caídas” y “Velocidad volando”.",
+   "text": "Diversos efectos permiten que las criaturas vuelen. Cuando vueles, te caerás si tienes los estados de derribado o incapacitado o si tu velocidad volando se reduce a 0. Puedes permanecer en el aire en esas circunstancias si tienes la capacidad de levitar. Consulta también “Caídas” y “Velocidad volando”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.salvacion",
+ "name": "Salvación",
+ "text": "Salvación es otro nombre para referirse a una tirada de salvación. Consulta también “Tirada de salvación”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Salvación es otro nombre para referirse a una tirada de salvación. *Consulta también* “Tirada de salvación”.",
+   "text": "Salvación es otro nombre para referirse a una tirada de salvación. Consulta también “Tirada de salvación”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

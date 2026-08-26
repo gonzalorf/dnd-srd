@@ -1,0 +1,161 @@
+{
+ "id": "monster.dragon-rojo-anciano",
+ "name": "Dragón rojo anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 314
+ },
+ "context": [
+  "Dragones rojos"
+ ],
+ "metaRaw": "Dragón Gargantuesco (cromático), caótico malvado",
+ "type": "Dragón",
+ "alignment": "caótico malvado",
+ "size": "Gargantuesco",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 22,
+ "acRaw": "22",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "507 (26d20 + 234)",
+  "average": 507,
+  "formula": "26d20 + 234"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 16,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 26",
+  "passivePerception": 26
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "24 (62 000 PX o 75 000 en la guarida; BC +7)",
+  "cr": 24,
+  "xp": 62000,
+  "proficiencyBonus": 7,
+  "xpInLair": 75000
+ },
+ "abilities": {
+  "fue": {
+   "score": 30,
+   "mod": 10,
+   "save": 10
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 7
+  },
+  "con": {
+   "score": 29,
+   "mod": 9,
+   "save": 9
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 9
+  },
+  "car": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 314,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3).",
+   "page": 314,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +17, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 10 (3d6) de daño de fuego.",
+   "page": 314,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +17, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 10 (3d6) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 91 (26d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 314,
+   "description": "*Tirada de salvación de Destreza:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 91 (26d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 23, +15 a acertar con ataques de conjuro):",
+   "page": 314,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 23, +15 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *orden imperiosa* (versión de nivel 2), *rayo abrasador* (versión de nivel 3) 1/día cada uno: *bola de fuego* (versión de nivel 6), *escudriñar*",
+   "page": 314
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 314,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Presencia imponente",
+    "md": "***Presencia imponente.*** El dragón utiliza su lanzamiento de conjuros para lanzar *orden imperiosa* (versión de nivel 2). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 314,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *orden imperiosa* (versión de nivel 2). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Rayos ardientes",
+    "md": "***Rayos ardientes.*** El dragón utiliza su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 314,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *rayo abrasador* (versión de nivel 3). El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.rayo-abrasador",
+  "spell.detectar-magia",
+  "spell.orden-imperiosa",
+  "spell.bola-de-fuego",
+  "spell.escudrinar"
+ ]
+}

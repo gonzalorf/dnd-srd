@@ -1,0 +1,522 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "classes",
+ "description": "Inferido de 12 fichas de la colección «classes».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "coreTraits": {
+    "type": "object",
+    "properties": {
+     "Característica principal": {
+      "type": "string",
+      "enum": [
+       "Carisma",
+       "Destreza",
+       "Destreza y Sabiduría",
+       "Fuerza",
+       "Fuerza o Destreza",
+       "Fuerza y Carisma",
+       "Inteligencia",
+       "Sabiduría"
+      ]
+     },
+     "Competencias con armas": {
+      "type": "string",
+      "enum": [
+       "Amas sencillas",
+       "Armas sencillas",
+       "Armas sencillas y marciales",
+       "Armas sencillas, además de marciales que tengan la propiedad “ligera”",
+       "Armas sencillas, además de marciales que tengan las propiedades “ligera” o “sutil”"
+      ]
+     },
+     "Competencias con herramientas": {
+      "type": "string",
+      "enum": [
+       "Elige tres instrumentos musicales (consulta el capítulo “Equipo”)",
+       "Elige un tipo de herramientas de artesano o instrumento musical (consulta el capítulo “Equipo”)",
+       "Herramientas de ladrón",
+       "Útiles de herborista"
+      ]
+     },
+     "Competencias en habilidades": {
+      "type": "string",
+      "enum": [
+       "Elige cuatro: Acrobacias, Atletismo, Engaño, Intimidación, Investigación, Juego de manos, Percepción, Perspicacia, Persuasión o Sigilo",
+       "Elige dos: Acrobacias, Atletismo, Historia, Intimidación, Percepción, Perspicacia, Persuasión, Supervivencia o Trato con animales",
+       "Elige dos: Acrobacias, Atletismo, Historia, Perspicacia, Religión o Sigilo",
+       "Elige dos: Atletismo, Intimidación, Medicina, Perspicacia, Persuasión o Religión",
+       "Elige dos: Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales",
+       "Elige dos: Conocimiento arcano, Engaño, Historia, Intimidación, Investigación, Naturaleza o Religión",
+       "Elige dos: Conocimiento arcano, Engaño, Intimidación, Perspicacia, Persuasión o Religión",
+       "Elige dos: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza, Perspicacia o Religión",
+       "Elige dos: Conocimiento arcano, Medicina, Naturaleza, Percepción, Perspicacia, Religión, Supervivencia o Trato con animales",
+       "Elige dos: Historia, Medicina, Perspicacia, Persuasión o Religión",
+       "Elige tres cualesquiera (consulta el capítulo “Cómo jugar”)",
+       "Elige tres: Atletismo, Investigación, Naturaleza, Percepción, Perspicacia, Sigilo, Supervivencia o Trato con animales"
+      ]
+     },
+     "Competencias en tiradas de salvación": {
+      "type": "string",
+      "enum": [
+       "Constitución y Carisma",
+       "Destreza e Inteligencia",
+       "Destreza y Carisma",
+       "Fuerza y Constitución",
+       "Fuerza y Destreza",
+       "Inteligencia y Sabiduría",
+       "Sabiduría y Carisma"
+      ]
+     },
+     "Dado de puntos de golpe": {
+      "type": "string",
+      "enum": [
+       "1d10 por nivel de Paladín",
+       "1d10 por nivel de explorador",
+       "1d10 por nivel de guerrero",
+       "1d12 por nivel de bárbaro",
+       "1d6 por nivel de hechicero",
+       "1d6 por nivel de mago",
+       "1d8 por nivel de bardo",
+       "1d8 por nivel de brujo",
+       "1d8 por nivel de clérigo",
+       "1d8 por nivel de druida",
+       "1d8 por nivel de monje",
+       "1d8 por nivel de pícaro"
+      ]
+     },
+     "Entrenamiento con armaduras": {
+      "type": "string",
+      "enum": [
+       "Armaduras ligeras",
+       "Armaduras ligeras y escudos",
+       "Armaduras ligeras y medias y escudos",
+       "Armaduras ligeras, medias y pesadas y escudos",
+       "Ninguna"
+      ]
+     },
+     "Equipo inicial": {
+      "type": "string",
+      "enum": [
+       "Elige A o B: (A) 2 dagas, canalizador arcano (bastón), libro de conjuros, paquete de erudito, túnica y 5 po, o (B) 55 po",
+       "Elige A o B: (A) armadura de",
+       "Elige A o B: (A) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, canalizador druídico (rama de muérdago), paquete de explorador y 7 po, o (B) 150 po",
+       "Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), libro (de conocimiento oculto), paquete de erudito y 15 po, o (B) 100 po",
+       "Elige A o B: (A) camisa de malla, escudo, maza, paquete de sacerdote, símbolo sagrado y 7 po, o (B) 110 po",
+       "Elige A o B: (A) cota de malla, escudo, espada larga, 6 jabalinas, símbolo sagrado, paquete de sacerdote y 9 po, o (B) 150 po",
+       "Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po, o (B) 75 po",
+       "Elige A o B: (A) lanza, 2 dagas, canalizador arcano (cristal), paquete de explorador de mazmorras y 28 po, o (B) 50 po",
+       "Elige A o B: (A) lanza, 5 dagas,",
+       "Elige A, Bo C: (A) cota de malla, espadón, mangual, 8 jabalinas, paquete de explorador de mazmorras y 4 po; (B) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, paquete de explorador de mazmorras y 11 po, o (C) 155 po"
+      ]
+     }
+    },
+    "required": [
+     "Característica principal",
+     "Competencias con armas",
+     "Competencias en habilidades",
+     "Competencias en tiradas de salvación",
+     "Dado de puntos de golpe",
+     "Entrenamiento con armaduras",
+     "Equipo inicial"
+    ]
+   },
+   "features": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "blocks": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "caption": {
+          "type": "string",
+          "enum": [
+           "Crear espacios de conjuro",
+           "Formas de bestia",
+           "Rasgos de bárbaro",
+           "Rasgos de guerrero",
+           "Rasgos de hechicero"
+          ]
+         },
+         "header": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "md": {
+          "type": "string"
+         },
+         "page": {
+          "type": "integer"
+         },
+         "rows": {
+          "type": "array",
+          "items": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          }
+         },
+         "text": {
+          "type": "string"
+         },
+         "type": {
+          "type": "string",
+          "enum": [
+           "definition",
+           "list-item",
+           "paragraph",
+           "sidebar",
+           "table"
+          ]
+         }
+        },
+        "required": [
+         "page",
+         "type"
+        ]
+       }
+      },
+      "level": {
+       "type": "integer"
+      },
+      "name": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "subclass": {
+       "type": "null"
+      },
+      "text": {
+       "type": "string"
+      },
+      "title": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "blocks",
+      "level",
+      "name",
+      "page",
+      "subclass",
+      "text",
+      "title"
+     ]
+    }
+   },
+   "id": {
+    "type": "string",
+    "enum": [
+     "class.barbaro",
+     "class.bardo",
+     "class.brujo",
+     "class.clerigo",
+     "class.druida",
+     "class.explorador",
+     "class.guerrero",
+     "class.hechicero",
+     "class.mago",
+     "class.monje",
+     "class.paladin",
+     "class.picaro"
+    ]
+   },
+   "name": {
+    "type": "string",
+    "enum": [
+     "Bardo",
+     "Brujo",
+     "Bárbaro",
+     "Clérigo",
+     "Druida",
+     "Explorador",
+     "Guerrero",
+     "Hechicero",
+     "Mago",
+     "Monje",
+     "Paladín",
+     "Pícaro"
+    ]
+   },
+   "progression": {
+    "type": "object",
+    "properties": {
+     "caption": {
+      "type": "string",
+      "enum": [
+       "Rasgos de bardo",
+       "Rasgos de brujo",
+       "Rasgos de bárbaro",
+       "Rasgos de clérigo",
+       "Rasgos de druida",
+       "Rasgos de explorador",
+       "Rasgos de guerrero",
+       "Rasgos de hechicero",
+       "Rasgos de mago",
+       "Rasgos de monje",
+       "Rasgos de paladín",
+       "Rasgos de pícaro"
+      ]
+     },
+     "header": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "rows": {
+      "type": "array",
+      "items": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "required": [
+     "caption",
+     "header",
+     "rows"
+    ]
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "spellLists": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": "string"
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "enum": [
+         "Conjuro",
+         "Escuela",
+         "Especial"
+        ]
+       }
+      },
+      "level": {
+       "type": "integer"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "required": [
+      "caption",
+      "header",
+      "level",
+      "page",
+      "rows"
+     ]
+    }
+   },
+   "subclasses": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "features": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "blocks": {
+          "type": "array",
+          "items": {
+           "type": "object",
+           "properties": {
+            "caption": {
+             "type": "string",
+             "enum": [
+              "Conjuros del dominio de la vida",
+              "Conjuros del infernal",
+              "Conjuros del juramento de entrega",
+              "Conjuros dracónicos",
+              "Protección de la naturaleza",
+              "Terreno polar",
+              "Terreno templado",
+              "Terreno tropical",
+              "Terreno árido"
+             ]
+            },
+            "header": {
+             "type": "array",
+             "items": {
+              "type": "string",
+              "enum": [
+               "Conjuros",
+               "Conjuros de círculo",
+               "Conjuros preparados",
+               "Nivel de brujo",
+               "Nivel de clérigo",
+               "Nivel de druida",
+               "Nivel de hechicero",
+               "Nivel de paladín",
+               "Resistencia",
+               "Tipo de terreno"
+              ]
+             }
+            },
+            "md": {
+             "type": "string"
+            },
+            "page": {
+             "type": "integer"
+            },
+            "rows": {
+             "type": "array",
+             "items": {
+              "type": "array",
+              "items": {
+               "type": "string"
+              }
+             }
+            },
+            "text": {
+             "type": "string"
+            },
+            "type": {
+             "type": "string",
+             "enum": [
+              "definition",
+              "paragraph",
+              "property",
+              "table"
+             ]
+            }
+           },
+           "required": [
+            "page",
+            "type"
+           ]
+          }
+         },
+         "level": {
+          "type": "integer"
+         },
+         "name": {
+          "type": "string"
+         },
+         "page": {
+          "type": "integer"
+         },
+         "subclass": {
+          "type": "string",
+          "enum": [
+           "Subclase de bardo: Colegio del conocimiento",
+           "Subclase de brujo: Patrón infernal",
+           "Subclase de bárbaro: Senda del berserker",
+           "Subclase de clérigo: Dominio de la vida",
+           "Subclase de druida: Círculo de la tierra",
+           "Subclase de explorador: Cazador",
+           "Subclase de guerrero: Campeón",
+           "Subclase de hechicero: Hechicería dracónica",
+           "Subclase de mago: Evocador",
+           "Subclase de monje: Guerrero de la mano abierta",
+           "Subclase de paladín: Juramento de entrega",
+           "Subclase de pícaro: Ladrón"
+          ]
+         },
+         "text": {
+          "type": "string"
+         },
+         "title": {
+          "type": "string"
+         }
+        },
+        "required": [
+         "blocks",
+         "level",
+         "name",
+         "page",
+         "subclass",
+         "text",
+         "title"
+        ]
+       }
+      },
+      "name": {
+       "type": "string",
+       "enum": [
+        "Subclase de bardo: Colegio del conocimiento",
+        "Subclase de brujo: Patrón infernal",
+        "Subclase de bárbaro: Senda del berserker",
+        "Subclase de clérigo: Dominio de la vida",
+        "Subclase de druida: Círculo de la tierra",
+        "Subclase de explorador: Cazador",
+        "Subclase de guerrero: Campeón",
+        "Subclase de hechicero: Hechicería dracónica",
+        "Subclase de mago: Evocador",
+        "Subclase de monje: Guerrero de la mano abierta",
+        "Subclase de paladín: Juramento de entrega",
+        "Subclase de pícaro: Ladrón"
+       ]
+      }
+     },
+     "required": [
+      "features",
+      "name"
+     ]
+    }
+   }
+  },
+  "required": [
+   "coreTraits",
+   "features",
+   "id",
+   "name",
+   "progression",
+   "source",
+   "spellLists",
+   "subclasses"
+  ]
+ }
+}

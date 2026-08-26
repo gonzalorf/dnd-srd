@@ -1,0 +1,53 @@
+{
+ "id": "item.bote-plegable",
+ "name": "Bote plegable",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Este objeto parece una caja de madera que mide 30 cm de largo, 15 cm de ancho y 15 cm de profundidad. Pesa 2 kg y flota. Puede abrirse para guardar objetos en su interior. El objeto posee tres palabras de activación y cada una de ellas requiere una acción de magia para usarla:\n\nPrimera palabra de activación. La caja se despliega y forma un bote de remos.\n\nSegunda palabra de activación. La caja se despliega y forma una barcaza.\n\nTercera palabra de activación. El bote plegable se convierte de nuevo en una caja, siempre que no haya criaturas a bordo. Cualquier objeto que contenga la embarcación y no quepa en la caja permanecerá fuera de ella cuando se pliegue. Los que sí quepan en la caja permanecerán dentro.\n\nCuando la caja se convierte en una embarcación, adopta el peso de una embarcación de su tamaño y cualquier cosa que contuviera la caja permanece en su interior.\n\nLos parámetros del bote de remos y de la barcaza se muestran en el capítulo “Equipo”. Si los puntos de golpe de cualquier embarcación se reducen a 0, el bote plegable queda destruido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Este objeto parece una caja de madera que mide 30 cm de largo, 15 cm de ancho y 15 cm de profundidad. Pesa 2 kg y flota. Puede abrirse para guardar objetos en su interior. El objeto posee tres palabras de activación y cada una de ellas requiere una acción de magia para usarla:",
+   "text": "Este objeto parece una caja de madera que mide 30 cm de largo, 15 cm de ancho y 15 cm de profundidad. Pesa 2 kg y flota. Puede abrirse para guardar objetos en su interior. El objeto posee tres palabras de activación y cada una de ellas requiere una acción de magia para usarla:"
+  },
+  {
+   "type": "definition",
+   "page": 246,
+   "md": "**Primera palabra de activación.** La caja se despliega y forma un bote de remos.",
+   "text": "Primera palabra de activación. La caja se despliega y forma un bote de remos."
+  },
+  {
+   "type": "definition",
+   "page": 246,
+   "md": "**Segunda palabra de activación.** La caja se despliega y forma una barcaza.",
+   "text": "Segunda palabra de activación. La caja se despliega y forma una barcaza."
+  },
+  {
+   "type": "definition",
+   "page": 246,
+   "md": "**Tercera palabra de activación.** El *bote plegable* se convierte de nuevo en una caja, siempre que no haya criaturas a bordo. Cualquier objeto que contenga la embarcación y no quepa en la caja permanecerá fuera de ella cuando se pliegue. Los que sí quepan en la caja permanecerán dentro.",
+   "text": "Tercera palabra de activación. El bote plegable se convierte de nuevo en una caja, siempre que no haya criaturas a bordo. Cualquier objeto que contenga la embarcación y no quepa en la caja permanecerá fuera de ella cuando se pliegue. Los que sí quepan en la caja permanecerán dentro."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Cuando la caja se convierte en una embarcación, adopta el peso de una embarcación de su tamaño y cualquier cosa que contuviera la caja permanece en su interior.",
+   "text": "Cuando la caja se convierte en una embarcación, adopta el peso de una embarcación de su tamaño y cualquier cosa que contuviera la caja permanece en su interior."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Los parámetros del bote de remos y de la barcaza se muestran en el capítulo “Equipo”. Si los puntos de golpe de cualquier embarcación se reducen a 0, el *bote plegable* queda destruido.",
+   "text": "Los parámetros del bote de remos y de la barcaza se muestran en el capítulo “Equipo”. Si los puntos de golpe de cualquier embarcación se reducen a 0, el bote plegable queda destruido."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ }
+}

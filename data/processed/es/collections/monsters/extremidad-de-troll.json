@@ -1,0 +1,96 @@
+{
+ "id": "monster.extremidad-de-troll",
+ "name": "Extremidad de troll",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 372
+ },
+ "context": [
+  "Troll"
+ ],
+ "metaRaw": "Gigante Pequeño, caótico malvado",
+ "type": "Gigante",
+ "alignment": "caótico malvado",
+ "size": "Pequeño",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "14 (4d6)",
+  "average": 14,
+  "formula": "4d6"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "traits": [
+  {
+   "name": "Engendro de troll",
+   "md": "***Engendro de troll.*** Asombrosamente, la extremidad tiene los mismos sentidos que un troll entero. Si la extremidad no se destruye en 24 horas, tira 1d12. Si el resultado es 12, la extremidad se convierte en un troll. Si no, la extremidad se atrofia y muere.",
+   "page": 372,
+   "description": "Asombrosamente, la extremidad tiene los mismos sentidos que un troll entero. Si la extremidad no se destruye en 24 horas, tira 1d12. Si el resultado es 12, la extremidad se convierte en un troll. Si no, la extremidad se atrofia y muere."
+  },
+  {
+   "name": "Regeneración",
+   "md": "***Regeneración.*** La extremidad recupera 5 puntos de golpe al principio de cada uno de sus turnos. Si recibe daño de ácido o de fuego, este atributo no funcionará en su siguiente turno. La extremidad solo morirá si empieza su turno con 0 puntos de golpe y no se regenera.",
+   "page": 372,
+   "description": "La extremidad recupera 5 puntos de golpe al principio de cada uno de sus turnos. Si recibe daño de ácido o de fuego, este atributo no funcionará en su siguiente turno. La extremidad solo morirá si empieza su turno con 0 puntos de golpe y no se regenera."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (2d4 + 4) de daño cortante.",
+   "page": 372,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (2d4 + 4) de daño cortante."
+  }
+ ]
+}

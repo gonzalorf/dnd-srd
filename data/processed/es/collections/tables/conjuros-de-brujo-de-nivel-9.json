@@ -1,0 +1,56 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-9",
+ "caption": "Conjuros de brujo de nivel 9",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Cautiverio",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Palabra de poder: matar",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Polimorfar verdadero",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Portal",
+   "Conjuración",
+   "C, M"
+  ],
+  [
+   "Presciencia",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Proyección astral",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Terror abyecto",
+   "Ilusionismo",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 46
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "armor.escudo",
+ "name": "Escudo",
+ "kind": "armor",
+ "group": "Escudos (acción de utilizar para ponérselos o quitárselos)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Escudo",
+  "Clase de armadura (CA)": "+2",
+  "Fuerza": "—",
+  "Sigilo": "—",
+  "Peso": "3 kg",
+  "Precio": "10 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "3 kg",
+  "kg": 3.0
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

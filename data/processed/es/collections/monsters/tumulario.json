@@ -1,0 +1,123 @@
+{
+ "id": "monster.tumulario",
+ "name": "Tumulario",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 372
+ },
+ "context": [
+  "Tumulario"
+ ],
+ "metaRaw": "Muerto viviente Mediano, neutral malvado",
+ "type": "Muerto viviente",
+ "alignment": "neutral malvado",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "82 (11d8 + 33)",
+  "average": 82,
+  "formula": "11d8 + 33"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Percepción": 3,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "resistances": [
+  "necrótico"
+ ],
+ "gear": [
+  "armadura de cuero tachonado"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Sensibilidad a la luz solar",
+   "md": "***Sensibilidad a la luz solar.*** Bajo la luz del sol, el tumulario tiene desventaja en las pruebas de característica y las tiradas de ataque.",
+   "page": 372,
+   "description": "Bajo la luz del sol, el tumulario tiene desventaja en las pruebas de característica y las tiradas de ataque."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El tumulario realiza dos ataques con su espada necrótica o su arco necrótico en cualquier combinación. Puede sustituir un ataque por una acción de consumir vida.",
+   "page": 372,
+   "description": "El tumulario realiza dos ataques con su espada necrótica o su arco necrótico en cualquier combinación. Puede sustituir un ataque por una acción de consumir vida."
+  },
+  {
+   "name": "Espada necrótica",
+   "md": "***Espada necrótica.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño cortante más 4 (1d8) de daño necrótico.",
+   "page": 372,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño cortante más 4 (1d8) de daño necrótico."
+  },
+  {
+   "name": "Arco necrótico",
+   "md": "***Arco necrótico.*** *Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 6 (1d8 + 2) de daño perforante más 4 (1d8) de daño necrótico.",
+   "page": 372,
+   "description": "*Tirada de ataque a distancia:* +4, alcance 45/180 m. *Acierto:* 6 (1d8 + 2) de daño perforante más 4 (1d8) de daño necrótico."
+  },
+  {
+   "name": "Consumir vida",
+   "md": "***Consumir vida.*** *Tirada de salvación de Constitución:* CD 13, una criatura a 1,5 m o menos. *Fallo:* 6 (1d8 + 2) de daño necrótico y los puntos de golpe máximos del objetivo se reducirán en una cantidad igual al daño sufrido. Un humanoide que muera por este ataque se alzará 24 horas después como un zombi bajo el control del tumulario, a menos que se le devuelva a la vida o su cuerpo sea destruido. El tumulario no puede tener más de doce zombis bajo su control a la vez.",
+   "page": 372,
+   "description": "*Tirada de salvación de Constitución:* CD 13, una criatura a 1,5 m o menos. *Fallo:* 6 (1d8 + 2) de daño necrótico y los puntos de golpe máximos del objetivo se reducirán en una cantidad igual al daño sufrido. Un humanoide que muera por este ataque se alzará 24 horas después como un zombi bajo el control del tumulario, a menos que se le devuelva a la vida o su cuerpo sea destruido. El tumulario no puede tener más de doce zombis bajo su control a la vez."
+  }
+ ]
+}

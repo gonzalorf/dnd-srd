@@ -1,0 +1,89 @@
+{
+ "id": "monster.tejon",
+ "name": "Tejón",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 396
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "5 (1d4 + 3)",
+  "average": 5,
+  "formula": "1d4 + 3"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "excavar": 1.5
+ },
+ "skills": {
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 9 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "resistances": [
+  "veneno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante.",
+   "page": 396,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño perforante."
+  }
+ ]
+}

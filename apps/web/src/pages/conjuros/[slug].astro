@@ -1,0 +1,30 @@
+---
+import Base from "../../layouts/Base.astro";
+import Bloques from "../../components/Bloques.astro";
+import { collections, slugOf, hrefOf } from "../../lib/srd";
+
+export function getStaticPaths() {
+  return collections.spells().map((s) => ({ params: { slug: slugOf(s.id) }, props: { s } }));
+}
+const { s } = Astro.props as any;
+const nivel = s.level === 0 ? `Truco de ${s.school.toLowerCase()}` : `${s.school} de nivel ${s.level}`;
+---
+
+<Base title={s.name} page={s.source.page} subtitle={`${nivel}. ${s.classes.join(", ")}.`}>
+  <article data-pagefind-body>
+    <p class="subtitulo">{nivel} ({s.classes.join(", ")})</p>
+    <dl class="propiedades">
+      <dt>Tiempo de lanzamiento</dt><dd>{s.castingTime.raw}</dd>
+      <dt>Alcance</dt><dd>{s.range.raw}</dd>
+      <dt>Componentes</dt><dd>{s.components.raw}</dd>
+      <dt>Duración</dt><dd>{s.duration.raw}</dd>
+    </dl>
+    <Bloques nodes={s.blocks.map((b: any) => ({ ...b, source: { page: b.page } }))} depth={2} selfId={s.id} />
+    {s.refs?.length > 0 && (
+      <nav class="relacionado">
+        <h2>Menciona</h2>
+        <ul>{s.refs.map((r: string) => hrefOf(r) && <li><a href={hrefOf(r)}>{r.split(".").slice(1).join(" ")}</a></li>)}</ul>
+      </nav>
+    )}
+  </article>
+</Base>

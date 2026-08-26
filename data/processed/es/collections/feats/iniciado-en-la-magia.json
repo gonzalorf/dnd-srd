@@ -1,0 +1,48 @@
+{
+ "id": "feat.iniciado-en-la-magia",
+ "name": "Iniciado en la magia",
+ "text": "Dote de origen\n\nObtienes los siguientes beneficios:\n\nDos trucos. Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote).\n\nConjuro de nivel 1. Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.\n\nCambiar conjuro. Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada.\n\nRepetible. Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote de origen*",
+   "text": "Dote de origen"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Dos trucos.*** Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote).",
+   "text": "Dos trucos. Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo, druida o mago. Tu aptitud mágica para los conjuros de esta dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta dote)."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Conjuro de nivel 1.*** Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.",
+   "text": "Conjuro de nivel 1. Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Cambiar conjuro.*** Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada.",
+   "text": "Cambiar conjuro. Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Repetible.*** Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez.",
+   "text": "Repetible. Puedes elegir esta dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes de origen"
+}

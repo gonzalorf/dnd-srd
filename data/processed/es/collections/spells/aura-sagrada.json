@@ -1,0 +1,49 @@
+{
+ "id": "spell.aura-sagrada",
+ "name": "Aura sagrada",
+ "level": 8,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un relicario que valga al menos 1000 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un relicario que valga al menos 1000 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Hasta que termine el conjuro, emites un aura en una emanación de 9 m. Mientras permanezcan dentro, las criaturas de tu elección tienen ventaja en todas las tiradas de salvación y otras criaturas tienen desventaja en las tiradas de ataque contra ellas. Además, cuando un infernal o un muerto viviente acierte a una criatura afectada con una tirada de ataque cuerpo a cuerpo, el atacante deberá superar una tirada de salvación de Constitución o tendrá el estado de cegado hasta el final de su siguiente turno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 124,
+   "md": "Hasta que termine el conjuro, emites un aura en una emanación de 9 m. Mientras permanezcan dentro, las criaturas de tu elección tienen ventaja en todas las tiradas de salvación y otras criaturas tienen desventaja en las tiradas de ataque contra ellas. Además, cuando un infernal o un muerto viviente acierte a una criatura afectada con una tirada de ataque cuerpo a cuerpo, el atacante deberá superar una tirada de salvación de Constitución o tendrá el estado de cegado hasta el final de su siguiente turno.",
+   "text": "Hasta que termine el conjuro, emites un aura en una emanación de 9 m. Mientras permanezcan dentro, las criaturas de tu elección tienen ventaja en todas las tiradas de salvación y otras criaturas tienen desventaja en las tiradas de ataque contra ellas. Además, cuando un infernal o un muerto viviente acierte a una criatura afectada con una tirada de ataque cuerpo a cuerpo, el atacante deberá superar una tirada de salvación de Constitución o tendrá el estado de cegado hasta el final de su siguiente turno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 124
+ }
+}

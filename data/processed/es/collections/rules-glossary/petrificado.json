@@ -1,0 +1,66 @@
+{
+ "id": "rule.petrificado",
+ "name": "Petrificado",
+ "text": "Mientras tengas el estado de petrificado, experimentarás los siguientes efectos:\n\nTransformación en sustancia inanimada. Te transformas, junto con cualquier objeto no mágico\n\nque vistas o lleves contigo, en una sustancia sólida e inanimada (normalmente piedra). Tu peso se multiplica por diez y dejas de envejecer.\n\nIncapacitado. Tienes el estado de incapacitado.\n\nVelocidad 0. Tu velocidad es 0 y no puede aumentar.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen ventaja.\n\nTiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\nResistencia al daño. Tienes resistencia a todo el daño.\n\nInmunidad al veneno. Tienes inmunidad al estado de envenenado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "Mientras tengas el estado de petrificado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de petrificado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Transformación en sustancia inanimada.*** Te transformas, junto con cualquier objeto no mágico",
+   "text": "Transformación en sustancia inanimada. Te transformas, junto con cualquier objeto no mágico"
+  },
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "que vistas o lleves contigo, en una sustancia sólida e inanimada (normalmente piedra). Tu peso se multiplica por diez y dejas de envejecer.",
+   "text": "que vistas o lleves contigo, en una sustancia sólida e inanimada (normalmente piedra). Tu peso se multiplica por diez y dejas de envejecer."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Incapacitado.*** Tienes el estado de incapacitado.",
+   "text": "Incapacitado. Tienes el estado de incapacitado."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Velocidad 0.*** Tu velocidad es 0 y no puede aumentar.",
+   "text": "Velocidad 0. Tu velocidad es 0 y no puede aumentar."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen ventaja.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen ventaja."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Tiradas de salvación afectadas.*** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.",
+   "text": "Tiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Resistencia al daño.*** Tienes resistencia a todo el daño.",
+   "text": "Resistencia al daño. Tienes resistencia a todo el daño."
+  },
+  {
+   "type": "definition",
+   "page": 206,
+   "md": "***Inmunidad al veneno.*** Tienes inmunidad al estado de envenenado.",
+   "text": "Inmunidad al veneno. Tienes inmunidad al estado de envenenado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 205
+ },
+ "kind": "estado"
+}

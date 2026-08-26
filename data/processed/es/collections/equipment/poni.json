@@ -1,0 +1,22 @@
+{
+ "id": "mount.poni",
+ "name": "Poni",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Poni",
+  "Capacidad de carga": "112,5 kg",
+  "Precio": "30 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "30 po",
+  "amount": 30.0,
+  "coin": "po",
+  "gp": 30.0
+ }
+}

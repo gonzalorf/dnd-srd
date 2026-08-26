@@ -1,0 +1,49 @@
+{
+ "id": "spell.invisibilidad-mejorada",
+ "name": "Invisibilidad mejorada",
+ "level": 4,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine.",
+   "text": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 160
+ }
+}

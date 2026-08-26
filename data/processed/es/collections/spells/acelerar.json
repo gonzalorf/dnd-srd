@@ -1,0 +1,57 @@
+{
+ "id": "spell.acelerar",
+ "name": "Acelerar",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un viruta de raíz de regaliz)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un viruta de raíz de regaliz",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su clase de armadura, tiene ventaja en tiradas de salvación de Destreza y consigue una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para llevar a cabo una acción de atacar (solo un ataque), correr, destrabarse, esconderse o utilizar.\n\nCuando el conjuro termine, el objetivo tendrá el estado de incapacitado y una velocidad de 0 hasta el final de su siguiente turno, debido a una ola de somnolencia que lo afecta.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su clase de armadura, tiene ventaja en tiradas de salvación de Destreza y consigue una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para llevar a cabo una acción de atacar (solo un ataque), correr, destrabarse, esconderse o utilizar.",
+   "text": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su clase de armadura, tiene ventaja en tiradas de salvación de Destreza y consigue una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para llevar a cabo una acción de atacar (solo un ataque), correr, destrabarse, esconderse o utilizar."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Cuando el conjuro termine, el objetivo tendrá el estado de incapacitado y una velocidad de 0 hasta el final de su siguiente turno, debido a una ola de somnolencia que lo afecta.",
+   "text": "Cuando el conjuro termine, el objetivo tendrá el estado de incapacitado y una velocidad de 0 hasta el final de su siguiente turno, debido a una ola de somnolencia que lo afecta."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 118
+ }
+}

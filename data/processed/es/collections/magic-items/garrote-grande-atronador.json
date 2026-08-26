@@ -1,0 +1,41 @@
+{
+ "id": "item.garrote-grande-atronador",
+ "name": "Garrote grande atronador",
+ "category": "Arma",
+ "variant": "garrote grande",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (garrote grande), muy rara (requiere sintonización)",
+ "text": "Mientras tengas sintonización con esta arma mágica, tu Fuerza será de 20 salvo que ya sea igual o superior. El arma causa 1d8 de daño de trueno adicional a cualquier criatura a la que acierte y 3d8 de daño de trueno adicional a los objetos a los que acierte que no vista o lleve nadie.\n\nEl arma tiene las siguientes propiedades adicionales:\n\nEstallido de trueno. Como acción de magia, puedes golpear el arma contra una superficie dura, lo que producirá un tronido audible a 90 m de distancia. También crearás un cono de 9 m de energía atronadora. Todas las criaturas situadas en el cono deberán superar una tirada de salvación de Fuerza con CD 15 o tendrán el estado de derribadas. Los objetos no mágicos que nadie vista o lleve en el cono recibirán 3d8 de daño de trueno.\n\nTerremoto. Como acción de magia, puedes golpear el arma contra el suelo para crear una perturbación sísmica intensa en un círculo de 15 m de radio centrado en el punto del impacto. Las estructuras en contacto con el suelo en esa zona sufrirán 50 de daño contundente, y las criaturas que haya en ella y estén en el suelo deberán superar una tirada de salvación de Destreza con CD 20 o tendrán el estado de derribadas. Si alguna de esas criaturas se está concentrando, deberá superar una tirada de salvación de Constitución con CD 20 o perderá la concentración. Además, puedes hacer que se abra una grieta de 9 m de profundidad y 3 m de ancho en cualquier punto del suelo dentro del área. Cualquier criatura que esté en un punto en el que se abra la grieta deberá hacer una tirada de salvación de Destreza con CD 20; si la falla, caerá en la grieta, y si la supera, se moverá a la vez que se abre el borde de la grieta. Cualquier estructura que esté en un punto en el que se abra la grieta se hundirá dentro de ella. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "Mientras tengas sintonización con esta arma mágica, tu Fuerza será de 20 salvo que ya sea igual o superior. El arma causa 1d8 de daño de trueno adicional a cualquier criatura a la que acierte y 3d8 de daño de trueno adicional a los objetos a los que acierte que no vista o lleve nadie.",
+   "text": "Mientras tengas sintonización con esta arma mágica, tu Fuerza será de 20 salvo que ya sea igual o superior. El arma causa 1d8 de daño de trueno adicional a cualquier criatura a la que acierte y 3d8 de daño de trueno adicional a los objetos a los que acierte que no vista o lleve nadie."
+  },
+  {
+   "type": "paragraph",
+   "page": 258,
+   "md": "El arma tiene las siguientes propiedades adicionales:",
+   "text": "El arma tiene las siguientes propiedades adicionales:"
+  },
+  {
+   "type": "definition",
+   "page": 258,
+   "md": "***Estallido de trueno.*** Como acción de magia, puedes golpear el arma contra una superficie dura, lo que producirá un tronido audible a 90 m de distancia. También crearás un cono de 9 m de energía atronadora. Todas las criaturas situadas en el cono deberán superar una tirada de salvación de Fuerza con CD 15 o tendrán el estado de derribadas. Los objetos no mágicos que nadie vista o lleve en el cono recibirán 3d8 de daño de trueno.",
+   "text": "Estallido de trueno. Como acción de magia, puedes golpear el arma contra una superficie dura, lo que producirá un tronido audible a 90 m de distancia. También crearás un cono de 9 m de energía atronadora. Todas las criaturas situadas en el cono deberán superar una tirada de salvación de Fuerza con CD 15 o tendrán el estado de derribadas. Los objetos no mágicos que nadie vista o lleve en el cono recibirán 3d8 de daño de trueno."
+  },
+  {
+   "type": "definition",
+   "page": 259,
+   "md": "***Terremoto.*** Como acción de magia, puedes golpear el arma contra el suelo para crear una perturbación sísmica intensa en un círculo de 15 m de radio centrado en el punto del impacto. Las estructuras en contacto con el suelo en esa zona sufrirán 50 de daño contundente, y las criaturas que haya en ella y estén en el suelo deberán superar una tirada de salvación de Destreza con CD 20 o tendrán el estado de derribadas. Si alguna de esas criaturas se está concentrando, deberá superar una tirada de salvación de Constitución con CD 20 o perderá la concentración. Además, puedes hacer que se abra una grieta de 9 m de profundidad y 3 m de ancho en cualquier punto del suelo dentro del área. Cualquier criatura que esté en un punto en el que se abra la grieta deberá hacer una tirada de salvación de Destreza con CD 20; si la falla, caerá en la grieta, y si la supera, se moverá a la vez que se abre el borde de la grieta. Cualquier estructura que esté en un punto en el que se abra la grieta se hundirá dentro de ella. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "Terremoto. Como acción de magia, puedes golpear el arma contra el suelo para crear una perturbación sísmica intensa en un círculo de 15 m de radio centrado en el punto del impacto. Las estructuras en contacto con el suelo en esa zona sufrirán 50 de daño contundente, y las criaturas que haya en ella y estén en el suelo deberán superar una tirada de salvación de Destreza con CD 20 o tendrán el estado de derribadas. Si alguna de esas criaturas se está concentrando, deberá superar una tirada de salvación de Constitución con CD 20 o perderá la concentración. Además, puedes hacer que se abra una grieta de 9 m de profundidad y 3 m de ancho en cualquier punto del suelo dentro del área. Cualquier criatura que esté en un punto en el que se abra la grieta deberá hacer una tirada de salvación de Destreza con CD 20; si la falla, caerá en la grieta, y si la supera, se moverá a la vez que se abre el borde de la grieta. Cualquier estructura que esté en un punto en el que se abra la grieta se hundirá dentro de ella. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 258
+ }
+}

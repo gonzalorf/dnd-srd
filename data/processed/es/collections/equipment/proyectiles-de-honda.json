@@ -1,0 +1,28 @@
+{
+ "id": "ammunition.proyectiles-de-honda",
+ "name": "Proyectiles de honda",
+ "kind": "ammunition",
+ "group": null,
+ "table": "Munición",
+ "fields": {
+  "Tipo": "Proyectiles de honda",
+  "Cantidad": "20",
+  "Recipiente": "Bolsa",
+  "Peso": "0,75 kg",
+  "Precio": "4 pc"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 106
+ },
+ "weight": {
+  "raw": "0,75 kg",
+  "kg": 0.75
+ },
+ "price": {
+  "raw": "4 pc",
+  "amount": 4.0,
+  "coin": "pc",
+  "gp": 0.04
+ }
+}

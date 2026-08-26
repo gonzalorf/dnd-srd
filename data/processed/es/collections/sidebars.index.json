@@ -1,0 +1,187 @@
+[
+ {
+  "id": "sidebar.las-excepciones-se-imponen-a-las-reglas-generales",
+  "title": "Las excepciones se imponen a las reglas generales",
+  "context": [
+   "Cómo jugar",
+   "El ritmo de juego"
+  ],
+  "page": 5
+ },
+ {
+  "id": "sidebar.redondear-hacia-abajo",
+  "title": "Redondear hacia abajo",
+  "context": [
+   "Cómo jugar",
+   "Las seis características",
+   "Puntuaciones de característica"
+  ],
+  "page": 5
+ },
+ {
+  "id": "sidebar.inspiracion-heroica",
+  "title": "Inspiración heroica",
+  "context": [
+   "Cómo jugar",
+   "Las pruebas con d20",
+   "Tiradas de ataque",
+   "Bonificador por competencia"
+  ],
+  "page": 8
+ },
+ {
+  "id": "sidebar.orden-de-marcha",
+  "title": "Orden de marcha",
+  "context": [
+   "Cómo jugar",
+   "Exploración",
+   "Interactuar con objetos",
+   "Romper objetos"
+  ],
+  "page": 13
+ },
+ {
+  "id": "sidebar.jugar-con-una-cuadricula",
+  "title": "Jugar con una cuadrícula",
+  "context": [
+   "Cómo jugar",
+   "Combate",
+   "Estructura de un combate",
+   "Tu turno"
+  ],
+  "page": 14
+ },
+ {
+  "id": "sidebar.atacantes-y-objetivos-ocultos",
+  "title": "Atacantes y objetivos ocultos",
+  "context": [
+   "Cómo jugar",
+   "Combate",
+   "Ataques a distancia",
+   "Ataques a distancia en combate cuerpo a cuerpo"
+  ],
+  "page": 16
+ },
+ {
+  "id": "sidebar.descansar",
+  "title": "Descansar",
+  "context": [
+   "Cómo jugar",
+   "Daño y curación",
+   "Tiradas de salvación y daño"
+  ],
+  "page": 18
+ },
+ {
+  "id": "sidebar.noquear-a-una-criatura",
+  "title": "Noquear a una criatura",
+  "context": [
+   "Cómo jugar",
+   "Daño y curación",
+   "Llegar a 0 puntos de golpe",
+   "Muerte instantánea"
+  ],
+  "page": 19
+ },
+ {
+  "id": "sidebar.criaturas-sin-alineamiento",
+  "title": "Criaturas sin alineamiento",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 4: alineamiento"
+  ],
+  "page": 24
+ },
+ {
+  "id": "sidebar.dotes-adicionales-en-el-nivel-20",
+  "title": "Dotes adicionales en el nivel 20",
+  "context": [
+   "Creación de personajes",
+   "Progresión de niveles",
+   "Subir de nivel"
+  ],
+  "page": 26
+ },
+ {
+  "id": "sidebar.ampliar-y-sustituir-un-libro-de-conjuros",
+  "title": "Ampliar y sustituir un libro de conjuros",
+  "context": [
+   "Clases",
+   "Mago",
+   "Rasgos de clase de mago",
+   "Nivel 18: Maestría sobre conjuros"
+  ],
+  "page": 73
+ },
+ {
+  "id": "sidebar.romper-tu-juramento",
+  "title": "Romper tu juramento",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Rasgos de clase de paladín",
+   "Nivel 2: Estilo de combate"
+  ],
+  "page": 82
+ },
+ {
+  "id": "sidebar.vender-equipo",
+  "title": "Vender equipo",
+  "context": [
+   "Equipo",
+   "Armas"
+  ],
+  "page": 97
+ },
+ {
+  "id": "sidebar.armas-improvisadas",
+  "title": "Armas improvisadas",
+  "context": [
+   "Equipo",
+   "Armas",
+   "Propiedades de maestría"
+  ],
+  "page": 98
+ },
+ {
+  "id": "sidebar.lanzar-conjuros-con-armadura",
+  "title": "Lanzar conjuros con armadura",
+  "context": [
+   "Conjuros",
+   "Lanzar conjuros"
+  ],
+  "page": 114
+ },
+ {
+  "id": "sidebar.identificar-un-conjuro-activo",
+  "title": "Identificar un conjuro activo",
+  "context": [
+   "Conjuros",
+   "Lanzar conjuros",
+   "Efectos",
+   "Objetivos"
+  ],
+  "page": 116
+ },
+ {
+  "id": "sidebar.reglas-de-objetos-magicos",
+  "title": "Reglas de objetos mágicos",
+  "context": [
+   "Objetos mágicos",
+   "Categorías de objetos mágicos",
+   "Varitas"
+  ],
+  "page": 224
+ },
+ {
+  "id": "sidebar.interpretar-a-un-monstruo",
+  "title": "Interpretar a un monstruo",
+  "context": [
+   "Monstruos",
+   "Partes de un perfil",
+   "Puntos de golpe"
+  ],
+  "page": 279
+ }
+]

@@ -1,0 +1,101 @@
+{
+ "id": "monster.centinela-azer",
+ "name": "Centinela azer",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 286
+ },
+ "context": [
+  "Azer"
+ ],
+ "metaRaw": "Elemental Mediano, legal neutral",
+ "type": "Elemental",
+ "alignment": "legal neutral",
+ "size": "Mediano",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "39 (6d8 + 12)",
+  "average": 39,
+  "formula": "6d8 + 12"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "primordial (ígneo)"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "envenenado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 4
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Aura de fuego",
+   "md": "***Aura de fuego.*** Al final de cada turno del azer, todas las criaturas a elección del azer en una emanación de 1,5 m que se origina en él recibirán 5 (1d10) de daño de fuego, a menos que el azer tenga el estado de incapacitado.",
+   "page": 286,
+   "description": "Al final de cada turno del azer, todas las criaturas a elección del azer en una emanación de 1,5 m que se origina en él recibirán 5 (1d10) de daño de fuego, a menos que el azer tenga el estado de incapacitado."
+  },
+  {
+   "name": "Iluminación",
+   "md": "***Iluminación.*** El azer emite luz brillante en un radio de 3 m y luz tenue 3 m más allá.",
+   "page": 286,
+   "description": "El azer emite luz brillante en un radio de 3 m y luz tenue 3 m más allá."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Martillo ardiente",
+   "md": "***Martillo ardiente.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño contundente más 3 (1d6) de daño de fuego.",
+   "page": 286,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño contundente más 3 (1d6) de daño de fuego."
+  }
+ ]
+}

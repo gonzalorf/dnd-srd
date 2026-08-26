@@ -1,0 +1,17 @@
+{
+ "id": "rule.ataque-con-arma",
+ "name": "Ataque con arma",
+ "text": "Un ataque con arma es una tirada de ataque realizada con un arma. Consulta también “Arma”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Un ataque con arma es una tirada de ataque realizada con un arma. *Consulta también* “Arma”.",
+   "text": "Un ataque con arma es una tirada de ataque realizada con un arma. Consulta también “Arma”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ }
+}

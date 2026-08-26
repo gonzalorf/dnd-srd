@@ -1,0 +1,55 @@
+{
+ "id": "spell.adivinacion",
+ "name": "Adivinación",
+ "level": 4,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (incienso que valga al menos 25 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso que valga al menos 25 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Este conjuro te pone en contacto con un dios o sus sirvientes. Puedes hacer una pregunta sobre un objetivo, un suceso o una actividad específicos que ocurrirán en los próximos 7 días. Tu GM te dará una respuesta verdadera, que puede ser una frase corta o una rima críptica. El conjuro no tiene en cuenta ninguna circunstancia que pueda alterar la respuesta, como por ejemplo el lanzamiento de otros conjuros.\n\nSi lanzas el conjuro más de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento después del primero de que no recibas ninguna respuesta.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Este conjuro te pone en contacto con un dios o sus sirvientes. Puedes hacer una pregunta sobre un objetivo, un suceso o una actividad específicos que ocurrirán en los próximos 7 días. Tu GM te dará una respuesta verdadera, que puede ser una frase corta o una rima críptica. El conjuro no tiene en cuenta ninguna circunstancia que pueda alterar la respuesta, como por ejemplo el lanzamiento de otros conjuros.",
+   "text": "Este conjuro te pone en contacto con un dios o sus sirvientes. Puedes hacer una pregunta sobre un objetivo, un suceso o una actividad específicos que ocurrirán en los próximos 7 días. Tu GM te dará una respuesta verdadera, que puede ser una frase corta o una rima críptica. El conjuro no tiene en cuenta ninguna circunstancia que pueda alterar la respuesta, como por ejemplo el lanzamiento de otros conjuros."
+  },
+  {
+   "type": "paragraph",
+   "page": 118,
+   "md": "Si lanzas el conjuro más de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento después del primero de que no recibas ninguna respuesta.",
+   "text": "Si lanzas el conjuro más de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento después del primero de que no recibas ninguna respuesta."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 118
+ }
+}

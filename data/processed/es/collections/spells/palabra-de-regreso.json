@@ -1,0 +1,52 @@
+{
+ "id": "spell.palabra-de-regreso",
+ "name": "Palabra de regreso",
+ "level": 6,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "1,5 m",
+  "kind": "ranged",
+  "meters": 1.5
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Tú y hasta cinco criaturas voluntarias a 1,5 m o menos de ti os teletransportáis al instante a un santuario designado previamente. Tú y cualquier criatura que se teletransporte contigo apareceréis en el espacio sin ocupar más cercano al punto designado al preparar el santuario (consulta más adelante). Si lanzas este conjuro sin preparar antes un santuario, no tiene ningún efecto.\n\nDebes designar un lugar como santuario lanzando este conjuro allí; por ejemplo, en un templo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Tú y hasta cinco criaturas voluntarias a 1,5 m o menos de ti os teletransportáis al instante a un santuario designado previamente. Tú y cualquier criatura que se teletransporte contigo apareceréis en el espacio sin ocupar más cercano al punto designado al preparar el santuario (consulta más adelante). Si lanzas este conjuro sin preparar antes un santuario, no tiene ningún efecto.",
+   "text": "Tú y hasta cinco criaturas voluntarias a 1,5 m o menos de ti os teletransportáis al instante a un santuario designado previamente. Tú y cualquier criatura que se teletransporte contigo apareceréis en el espacio sin ocupar más cercano al punto designado al preparar el santuario (consulta más adelante). Si lanzas este conjuro sin preparar antes un santuario, no tiene ningún efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Debes designar un lugar como santuario lanzando este conjuro allí; por ejemplo, en un templo.",
+   "text": "Debes designar un lugar como santuario lanzando este conjuro allí; por ejemplo, en un templo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

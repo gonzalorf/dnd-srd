@@ -1,0 +1,58 @@
+{
+ "id": "spell.tormenta-de-aguanieve",
+ "name": "Tormenta de aguanieve",
+ "level": 3,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (un paraguas en miniatura)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un paraguas en miniatura",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Hasta que el conjuro termine, caerá aguanieve en un cilindro de 12 m de alto y 6 m de radio centrado en un punto que elijas dentro del alcance. La zona está muy oscura y las llamas desprotegidas que haya en ella se apagan.\n\nEl suelo abarcado en el cilindro es terreno difícil. Cuando una criatura entre en el cilindro por primera vez en un turno o comience su turno en él, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribada y perderá la concentración.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Hasta que el conjuro termine, caerá aguanieve en un cilindro de 12 m de alto y 6 m de radio centrado en un punto que elijas dentro del alcance. La zona está muy oscura y las llamas desprotegidas que haya en ella se apagan.",
+   "text": "Hasta que el conjuro termine, caerá aguanieve en un cilindro de 12 m de alto y 6 m de radio centrado en un punto que elijas dentro del alcance. La zona está muy oscura y las llamas desprotegidas que haya en ella se apagan."
+  },
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "El suelo abarcado en el cilindro es terreno difícil. Cuando una criatura entre en el cilindro por primera vez en un turno o comience su turno en él, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribada y perderá la concentración.",
+   "text": "El suelo abarcado en el cilindro es terreno difícil. Cuando una criatura entre en el cilindro por primera vez en un turno o comience su turno en él, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribada y perderá la concentración."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 190
+ }
+}

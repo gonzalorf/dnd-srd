@@ -1,0 +1,176 @@
+{
+ "id": "monster.dragon-de-bronce-adulto",
+ "name": "Dragón de bronce adulto",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 302
+ },
+ "context": [
+  "Dragones de bronce"
+ ],
+ "metaRaw": "Dragón Enorme (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Enorme",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 10,
+  "score": 20
+ },
+ "hp": {
+  "raw": "212 (17d12 + 102)",
+  "average": 212,
+  "formula": "17d12 + 102"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 12,
+  "Perspicacia": 7,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 22",
+  "passivePerception": 22
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+  "cr": 15,
+  "xp": 13000,
+  "proficiencyBonus": 5,
+  "xpInLair": 15000
+ },
+ "abilities": {
+  "fue": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 5
+  },
+  "con": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 7
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 302,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día o 4/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 302,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día o 4/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento repulsor o de (B) su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 2).",
+   "page": 302,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento repulsor o de (B) su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 2)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 16 (2d8 + 7) de daño cortante más 5 (1d10) de daño de relámpago.",
+   "page": 302,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 16 (2d8 + 7) de daño cortante más 5 (1d10) de daño de relámpago."
+  },
+  {
+   "name": "Aliento de relámpago",
+   "md": "***Aliento de relámpago (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 19, todas las criaturas en una línea de 27 m de largo y 1,5 m de ancho. *Fallo:* 55 (10d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 302,
+   "description": ". *Tirada de salvación de Destreza:* CD 19, todas las criaturas en una línea de 27 m de largo y 1,5 m de ancho. *Fallo:* 55 (10d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento repulsor",
+   "md": "***Aliento repulsor.*** *Tirada de salvación de Fuerza:* CD 19, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 18 m respecto al dragón en línea recta y tiene el estado de derribado.",
+   "page": 302,
+   "description": "*Tirada de salvación de Fuerza:* CD 19, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 18 m respecto al dragón en línea recta y tiene el estado de derribado."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17, +10 a acertar con ataques de conjuro):",
+   "page": 302,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 17, +10 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración ni puntos de golpe temporales para mantener el conjuro), *detectar magia*, *hablar con los animales*, *saeta guía* (versión de nivel 2), *taumaturgia* 1/día cada uno: *detectar pensamientos*, *respirar bajo el agua*",
+   "page": 302
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 302,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Luz guía",
+    "md": "***Luz guía.*** El dragón utiliza su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 2).",
+    "page": 302,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *saeta guía* (versión de nivel 2)."
+   },
+   {
+    "name": "Trueno",
+    "md": "***Trueno.*** *Tirada de salvación de Constitución:* CD 17, todas las criaturas en una esfera de 6 m de radio centrada en un punto que el dragón pueda ver a 27 m o menos. *Fallo:* 10 (3d6) de daño de trueno y el objetivo tendrá el estado de ensordecido hasta el final de su siguiente turno.",
+    "page": 302,
+    "description": "*Tirada de salvación de Constitución:* CD 17, todas las criaturas en una esfera de 6 m de radio centrada en un punto que el dragón pueda ver a 27 m o menos. *Fallo:* 10 (3d6) de daño de trueno y el objetivo tendrá el estado de ensordecido hasta el final de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.saeta-guia",
+  "spell.cambiar-de-forma",
+  "spell.detectar-magia",
+  "spell.hablar-con-los-animales",
+  "spell.taumaturgia",
+  "spell.detectar-pensamientos",
+  "spell.respirar-bajo-el-agua"
+ ]
+}

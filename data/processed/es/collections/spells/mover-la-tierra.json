@@ -1,0 +1,70 @@
+{
+ "id": "spell.mover-la-tierra",
+ "name": "Mover la tierra",
+ "level": 6,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una pala en miniatura)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pala en miniatura",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 2 horas",
+  "concentration": true,
+  "kind": "timed",
+  "value": 2,
+  "unit": "hora"
+ },
+ "text": "Elige una zona de terreno que no tenga más de 12 m de lado dentro del alcance. Puedes cambiar como quieras la forma de la tierra, la arena o la arcilla del área hasta que termine el conjuro. Puedes aumentar o reducir la elevación de la zona, crear o llenar una zanja, levantar o derribar una pared o formar una columna. La extensión de cualquiera de estos cambios no puede superar la mitad de la dimensión más larga de la zona. Por ejemplo, si afectas a un cuadrado de 12 m de lado, puedes crear una columna de hasta 6 m de altura, aumentar o reducir la elevación del cuadrado hasta 6 m, cavar una zanja de hasta 6 m de profundidad, etc. Estos cambios tardan 10 minutos en completarse. Como la transformación de la zona se produce poco a poco, las criaturas que haya en ella generalmente no quedarán atrapadas por el movimiento del suelo ni sufrirán daños por ello.\n\nAl final de cada 10 minutos que pases concentrándote en el conjuro, podrás elegir una nueva zona de terreno que modificar dentro del alcance.\n\nEste conjuro no puede manipular la piedra natural ni las construcciones de piedra. Las rocas y las estructuras se desplazan para acomodar el nuevo terreno. Si la forma que le das al terreno hace que una estructura sea inestable, esta podría hundirse.\n\nDe forma similar, este conjuro no afecta directamente al crecimiento vegetal y la tierra desplazada se lleva con ella cualquier planta que haya.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Elige una zona de terreno que no tenga más de 12 m de lado dentro del alcance. Puedes cambiar como quieras la forma de la tierra, la arena o la arcilla del área hasta que termine el conjuro. Puedes aumentar o reducir la elevación de la zona, crear o llenar una zanja, levantar o derribar una pared o formar una columna. La extensión de cualquiera de estos cambios no puede superar la mitad de la dimensión más larga de la zona. Por ejemplo, si afectas a un cuadrado de 12 m de lado, puedes crear una columna de hasta 6 m de altura, aumentar o reducir la elevación del cuadrado hasta 6 m, cavar una zanja de hasta 6 m de profundidad, etc. Estos cambios tardan 10 minutos en completarse. Como la transformación de la zona se produce poco a poco, las criaturas que haya en ella generalmente no quedarán atrapadas por el movimiento del suelo ni sufrirán daños por ello.",
+   "text": "Elige una zona de terreno que no tenga más de 12 m de lado dentro del alcance. Puedes cambiar como quieras la forma de la tierra, la arena o la arcilla del área hasta que termine el conjuro. Puedes aumentar o reducir la elevación de la zona, crear o llenar una zanja, levantar o derribar una pared o formar una columna. La extensión de cualquiera de estos cambios no puede superar la mitad de la dimensión más larga de la zona. Por ejemplo, si afectas a un cuadrado de 12 m de lado, puedes crear una columna de hasta 6 m de altura, aumentar o reducir la elevación del cuadrado hasta 6 m, cavar una zanja de hasta 6 m de profundidad, etc. Estos cambios tardan 10 minutos en completarse. Como la transformación de la zona se produce poco a poco, las criaturas que haya en ella generalmente no quedarán atrapadas por el movimiento del suelo ni sufrirán daños por ello."
+  },
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Al final de cada 10 minutos que pases concentrándote en el conjuro, podrás elegir una nueva zona de terreno que modificar dentro del alcance.",
+   "text": "Al final de cada 10 minutos que pases concentrándote en el conjuro, podrás elegir una nueva zona de terreno que modificar dentro del alcance."
+  },
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Este conjuro no puede manipular la piedra natural ni las construcciones de piedra. Las rocas y las estructuras se desplazan para acomodar el nuevo terreno. Si la forma que le das al terreno hace que una estructura sea inestable, esta podría hundirse.",
+   "text": "Este conjuro no puede manipular la piedra natural ni las construcciones de piedra. Las rocas y las estructuras se desplazan para acomodar el nuevo terreno. Si la forma que le das al terreno hace que una estructura sea inestable, esta podría hundirse."
+  },
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "De forma similar, este conjuro no afecta directamente al crecimiento vegetal y la tierra desplazada se lleva con ella cualquier planta que haya.",
+   "text": "De forma similar, este conjuro no afecta directamente al crecimiento vegetal y la tierra desplazada se lleva con ella cualquier planta que haya."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 166
+ }
+}

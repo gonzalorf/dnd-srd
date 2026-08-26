@@ -1,0 +1,56 @@
+{
+ "id": "spell.corcel-fantasma",
+ "name": "Corcel fantasma",
+ "level": 3,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto o un ritual",
+  "ritual": true,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una criatura equina cuasi real de tamaño Grande aparece en un espacio sin ocupar de tu elección dentro del alcance. Tú decides su aspecto y estará equipada con una silla, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá en una bocanada de humo si se lleva a más de 3 m de la montura.\n\nHasta que termine el conjuro, tú o una criatura de tu elección podéis montar el corcel. El corcel utiliza el perfil del caballo de monta (consulta el capítulo “Monstruos”), excepto que tiene una velocidad de 30 m y puede desplazarse a 20 km/h. Cuando el conjuro termina, el corcel se desvanece gradualmente, lo que da al jinete 1 minuto para desmontar. El conjuro termina antes si el corcel recibe daño.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 135,
+   "md": "Una criatura equina cuasi real de tamaño Grande aparece en un espacio sin ocupar de tu elección dentro del alcance. Tú decides su aspecto y estará equipada con una silla, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá en una bocanada de humo si se lleva a más de 3 m de la montura.",
+   "text": "Una criatura equina cuasi real de tamaño Grande aparece en un espacio sin ocupar de tu elección dentro del alcance. Tú decides su aspecto y estará equipada con una silla, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá en una bocanada de humo si se lleva a más de 3 m de la montura."
+  },
+  {
+   "type": "paragraph",
+   "page": 135,
+   "md": "Hasta que termine el conjuro, tú o una criatura de tu elección podéis montar el corcel. El corcel utiliza el perfil del **caballo de monta** (consulta el capítulo “Monstruos”), excepto que tiene una velocidad de 30 m y puede desplazarse a 20 km/h. Cuando el conjuro termina, el corcel se desvanece gradualmente, lo que da al jinete 1 minuto para desmontar. El conjuro termina antes si el corcel recibe daño.",
+   "text": "Hasta que termine el conjuro, tú o una criatura de tu elección podéis montar el corcel. El corcel utiliza el perfil del caballo de monta (consulta el capítulo “Monstruos”), excepto que tiene una velocidad de 30 m y puede desplazarse a 20 km/h. Cuando el conjuro termina, el corcel se desvanece gradualmente, lo que da al jinete 1 minuto para desmontar. El conjuro termina antes si el corcel recibe daño."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 135
+ }
+}

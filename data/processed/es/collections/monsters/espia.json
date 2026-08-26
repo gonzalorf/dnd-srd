@@ -1,0 +1,110 @@
+{
+ "id": "monster.espia",
+ "name": "Espía",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 323
+ },
+ "context": [
+  "Espía"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "27 (6d8)",
+  "average": 27,
+  "formula": "6d8"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Engaño": 5,
+  "Investigación": 5,
+  "Juego de manos": 4,
+  "Percepción": 6,
+  "Perspicacia": 4,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "gear": [
+  "ballesta de mano",
+  "espada corta",
+  "herramientas de ladrón"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "actions": [
+  {
+   "name": "Espada corta",
+   "md": "***Espada corta.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 7 (2d6) de daño de veneno.",
+   "page": 323,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 7 (2d6) de daño de veneno."
+  },
+  {
+   "name": "Ballesta de mano",
+   "md": "***Ballesta de mano.*** *Tirada de ataque a distancia:* +4, alcance 9/36 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 7 (2d6) de daño de veneno.",
+   "page": 323,
+   "description": "*Tirada de ataque a distancia:* +4, alcance 9/36 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 7 (2d6) de daño de veneno."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Acción astuta",
+   "md": "***Acción astuta.*** El espía realiza las acciones de correr, destrabarse o esconderse.",
+   "page": 323,
+   "description": "El espía realiza las acciones de correr, destrabarse o esconderse."
+  }
+ ]
+}

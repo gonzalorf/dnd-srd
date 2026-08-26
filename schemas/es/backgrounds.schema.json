@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "backgrounds",
+ "description": "Inferido de 4 fichas de la colección «backgrounds».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "md": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "callout",
+        "paragraph"
+       ]
+      }
+     },
+     "required": [
+      "md",
+      "page",
+      "text",
+      "type"
+     ]
+    }
+   },
+   "id": {
+    "type": "string",
+    "enum": [
+     "background.acolito",
+     "background.criminal",
+     "background.erudito",
+     "background.soldado"
+    ]
+   },
+   "name": {
+    "type": "string",
+    "enum": [
+     "Acólito",
+     "Criminal",
+     "Erudito",
+     "Soldado"
+    ]
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "text": {
+    "type": "string",
+    "enum": [
+     "Puntuaciones de característica: Constitución, Inteli\n\ngencia, Sabiduría Dote: Iniciado en la magia (mago) (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Conocimiento arcano\n\ne Historia\n\nCompetencia con herramientas: suministros de\n\ncalígrafo Equipo: elige A o B: (A) bastón, suministros de calígrafo, libro (de historia), pergamino (8 hojas), túnica y 8 po, o (B) 50 po",
+     "Puntuaciones de característica: Destreza, Constitu\n\nción, Inteligencia Dote: Alerta (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Juego de manos\n\ny Sigilo\n\nCompetencia con herramientas: herramientas\n\nde ladrón Equipo: elige A o B: (A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropas de viaje y 16 po, o (B) 50 po",
+     "Puntuaciones de característica: Fuerza, Destreza,\n\nConstitución Dote: Atacante salvaje (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Atletismo e\n\nIntimidación\n\nCompetencia con herramientas: elige un tipo de juego\n\n(consulta el capítulo “Equipo”) Equipo: elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po",
+     "Puntuaciones de característica: Inteligencia, Sabidu\n\nría, Carisma Dote: Iniciado en la magia (clérigo) (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Perspicacia y Religión Competencia con herramientas: suministros de\n\ncalígrafo Equipo: elige A o B: (A) suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po, o (B) 50 po"
+    ]
+   }
+  },
+  "required": [
+   "blocks",
+   "id",
+   "name",
+   "source",
+   "text"
+  ]
+ }
+}

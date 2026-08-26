@@ -1,0 +1,52 @@
+{
+ "id": "spell.susurros-discordantes",
+ "name": "Susurros discordantes",
+ "level": 1,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una criatura de tu elección que puedas ver dentro del alcance oye una melodía discordante en su mente. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, recibirá 3d6 de daño psíquico y deberá utilizar su reacción inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta más segura. Si supera la tirada, solo sufrirá la mitad de ese daño.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Una criatura de tu elección que puedas ver dentro del alcance oye una melodía discordante en su mente. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, recibirá 3d6 de daño psíquico y deberá utilizar su reacción inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta más segura. Si supera la tirada, solo sufrirá la mitad de ese daño.",
+   "text": "Una criatura de tu elección que puedas ver dentro del alcance oye una melodía discordante en su mente. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, recibirá 3d6 de daño psíquico y deberá utilizar su reacción inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta más segura. Si supera la tirada, solo sufrirá la mitad de ese daño."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 186
+ }
+}

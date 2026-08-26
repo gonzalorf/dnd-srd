@@ -1,0 +1,56 @@
+{
+ "id": "table.trucos-conjuros-de-clerigo-de-nivel-0",
+ "caption": "Trucos (conjuros de clérigo de nivel 0)",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Guía",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Llama sagrada",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Luz",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Piedad con los moribundos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Reparar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Resistencia",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Taumaturgia",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo",
+  "Lista de conjuros de clérigo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 49
+ }
+}

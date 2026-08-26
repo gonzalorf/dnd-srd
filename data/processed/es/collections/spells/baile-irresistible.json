@@ -1,0 +1,55 @@
+{
+ "id": "spell.baile-irresistible",
+ "name": "Baile irresistible",
+ "level": 6,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una criatura que puedas ver dentro del alcance debe hacer una tirada de salvación de Sabiduría. Si la supera, el objetivo bailará de forma cómica hasta el final de su siguiente turno y utilizará todo su movimiento para bailar en el sitio.\n\nSi la falla, tendrá el estado de hechizado hasta que termine el conjuro. Mientras esté hechizado, el objetivo bailará de forma cómica, empleará todo su movimiento para bailar en el sitio y tendrá desventaja en las tiradas de ataque y de salvación de Destreza, y otras criaturas tendrán ventaja en las tiradas de ataque contra él. En cada uno de sus turnos, el objetivo puede usar una acción para recuperar el control y repetir la tirada de salvación. Si la supera, el conjuro termina.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 124,
+   "md": "Una criatura que puedas ver dentro del alcance debe hacer una tirada de salvación de Sabiduría. Si la supera, el objetivo bailará de forma cómica hasta el final de su siguiente turno y utilizará todo su movimiento para bailar en el sitio.",
+   "text": "Una criatura que puedas ver dentro del alcance debe hacer una tirada de salvación de Sabiduría. Si la supera, el objetivo bailará de forma cómica hasta el final de su siguiente turno y utilizará todo su movimiento para bailar en el sitio."
+  },
+  {
+   "type": "paragraph",
+   "page": 124,
+   "md": "Si la falla, tendrá el estado de hechizado hasta que termine el conjuro. Mientras esté hechizado, el objetivo bailará de forma cómica, empleará todo su movimiento para bailar en el sitio y tendrá desventaja en las tiradas de ataque y de salvación de Destreza, y otras criaturas tendrán ventaja en las tiradas de ataque contra él. En cada uno de sus turnos, el objetivo puede usar una acción para recuperar el control y repetir la tirada de salvación. Si la supera, el conjuro termina.",
+   "text": "Si la falla, tendrá el estado de hechizado hasta que termine el conjuro. Mientras esté hechizado, el objetivo bailará de forma cómica, empleará todo su movimiento para bailar en el sitio y tendrá desventaja en las tiradas de ataque y de salvación de Destreza, y otras criaturas tendrán ventaja en las tiradas de ataque contra él. En cada uno de sus turnos, el objetivo puede usar una acción para recuperar el control y repetir la tirada de salvación. Si la supera, el conjuro termina."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 124
+ }
+}

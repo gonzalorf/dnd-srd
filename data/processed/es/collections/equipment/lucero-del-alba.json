@@ -1,0 +1,29 @@
+{
+ "id": "weapon.lucero-del-alba",
+ "name": "Lucero del alba",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Lucero del alba",
+  "Daño": "1d8 perforante",
+  "Propiedades": "—",
+  "Maestría": "Debilitar",
+  "Peso": "2 kg",
+  "Precio": "15 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "2 kg",
+  "kg": 2.0
+ },
+ "price": {
+  "raw": "15 po",
+  "amount": 15.0,
+  "coin": "po",
+  "gp": 15.0
+ }
+}

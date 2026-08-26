@@ -1,0 +1,29 @@
+{
+ "id": "weapon.arco-largo",
+ "name": "Arco largo",
+ "kind": "weapon",
+ "group": "Armas a distancia marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Arco largo",
+  "Daño": "1d8 perforante",
+  "Propiedades": "A dos manos, munición (alcance 45/180; flecha), pesado",
+  "Maestría": "Ralentizar",
+  "Peso": "1 kg",
+  "Precio": "50 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

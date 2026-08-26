@@ -1,0 +1,70 @@
+{
+ "id": "spell.muro-de-fuego",
+ "name": "Muro de fuego",
+ "level": 4,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de carbón)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de carbón",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas un muro de fuego en una superficie sólida dentro del alcance. Puedes formar un muro recto de hasta 18 m de longitud, 6 m de altura y 30 cm de grosor o un muro circular de hasta 6 m de diámetro, 6 m de altura y 30 cm de grosor. El muro es opaco y durará hasta que termine el conjuro.\n\nCuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuego si la fallan o la mitad de daño si la superan.\n\nUn lado del muro, que seleccionas cuando lanzas el conjuro, causa 5d8 de daño de fuego a cada criatura que termine su turno a 3 m o menos de ese lado o dentro del muro. Una criatura recibirá el mismo daño cuando entre en el muro por primera vez en un turno o termine su turno allí. El otro lado del muro no causa ningún daño.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Creas un muro de fuego en una superficie sólida dentro del alcance. Puedes formar un muro recto de hasta 18 m de longitud, 6 m de altura y 30 cm de grosor o un muro circular de hasta 6 m de diámetro, 6 m de altura y 30 cm de grosor. El muro es opaco y durará hasta que termine el conjuro.",
+   "text": "Creas un muro de fuego en una superficie sólida dentro del alcance. Puedes formar un muro recto de hasta 18 m de longitud, 6 m de altura y 30 cm de grosor o un muro circular de hasta 6 m de diámetro, 6 m de altura y 30 cm de grosor. El muro es opaco y durará hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuego si la fallan o la mitad de daño si la superan.",
+   "text": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuego si la fallan o la mitad de daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Un lado del muro, que seleccionas cuando lanzas el conjuro, causa 5d8 de daño de fuego a cada criatura que termine su turno a 3 m o menos de ese lado o dentro del muro. Una criatura recibirá el mismo daño cuando entre en el muro por primera vez en un turno o termine su turno allí. El otro lado del muro no causa ningún daño.",
+   "text": "Un lado del muro, que seleccionas cuando lanzas el conjuro, causa 5d8 de daño de fuego a cada criatura que termine su turno a 3 m o menos de ese lado o dentro del muro. Una criatura recibirá el mismo daño cuando entre en el muro por primera vez en un turno o termine su turno allí. El otro lado del muro no causa ningún daño."
+  },
+  {
+   "type": "definition",
+   "page": 167,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 167
+ }
+}

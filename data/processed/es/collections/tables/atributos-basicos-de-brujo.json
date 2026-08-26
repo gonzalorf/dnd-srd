@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-brujo",
+ "caption": "Atributos básicos de brujo",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Carisma"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de brujo"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Sabiduría y Carisma"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Conocimiento arcano, Engaño, Historia, Intimidación, Investigación, Naturaleza o Religión"
+  ],
+  [
+   "Competencias con armas",
+   "Amas sencillas"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) armadura de cuero, hoz, 2 dagas, canalizador arcano (orbe), libro (de conocimiento oculto), paquete de erudito y 15 po, o (B) 100 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 40
+ }
+}

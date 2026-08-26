@@ -1,0 +1,23 @@
+{
+ "id": "item.collar-de-adaptacion",
+ "name": "Collar de adaptación",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves este collar, puedes respirar con normalidad en cualquier entorno y tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 249,
+   "md": "Mientras lleves este collar, puedes respirar con normalidad en cualquier entorno y tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.",
+   "text": "Mientras lleves este collar, puedes respirar con normalidad en cualquier entorno y tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 249
+ }
+}

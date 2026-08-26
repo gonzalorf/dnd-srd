@@ -1,0 +1,6394 @@
+{
+ "version": 1,
+ "ids": {
+  "ammunition.balas-de-arma-de-fuego": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "ammunition.dardos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "ammunition.flechas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "ammunition.proyectiles-de-honda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "ammunition.virotes": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-acolchada": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-de-bandas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-de-cuero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-de-cuero-tachonado": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-de-pieles": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.armadura-de-placas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.camisa-de-malla": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.coraza": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.cota-de-escamas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.cota-de-malla": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.cota-guarnecida": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.escudo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "armor.media-armadura": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "background.acolito": {
+   "collection": "backgrounds",
+   "since": "5.2.1"
+  },
+  "background.criminal": {
+   "collection": "backgrounds",
+   "since": "5.2.1"
+  },
+  "background.erudito": {
+   "collection": "backgrounds",
+   "since": "5.2.1"
+  },
+  "background.soldado": {
+   "collection": "backgrounds",
+   "since": "5.2.1"
+  },
+  "class.barbaro": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.bardo": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.brujo": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.clerigo": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.druida": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.explorador": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.guerrero": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.hechicero": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.mago": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.monje": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.paladin": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "class.picaro": {
+   "collection": "classes",
+   "since": "5.2.1"
+  },
+  "feat.alerta": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.apresador": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.atacante-salvaje": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.combate-con-armas-a-dos-manos": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.combate-con-dos-armas": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.defensa": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-de-la-pericia-en-combate": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-de-la-vision-verdadera": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-del-ataque-imparable": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-del-destino": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-del-espiritu-de-la-noche": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-del-recuerdo-de-conjuros": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.don-del-viaje-dimensional": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.habilidoso": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.iniciado-en-la-magia": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.mejora-de-caracteristica": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "feat.tiro-con-arco": {
+   "collection": "feats",
+   "since": "5.2.1"
+  },
+  "focus.baston": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "focus.cristal": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "focus.orbe": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "focus.vara": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "focus.varita": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.abrojos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.aceite": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.acido": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.agua-bendita": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.aljaba": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.antitoxina": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.antorcha": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.ariete-portatil": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.barril": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.bolas-de-metal": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.bolsa": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.botella-de-cristal": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cadena": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.campana": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.canalizador-arcano": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.canalizador-druidico": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cantimplora": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.catalejo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cerradura": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cesta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cofre": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cordel": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cubo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.cuerda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.disfraz": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.escalera": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.espejo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.esposas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.estuche-para-mapas-o-pergaminos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.estuche-para-virotes-de-ballesta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.frasco": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.fuego-de-alquimista": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.garfio-de-escalada": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.jarro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.lampara": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.libro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.linterna-de-ojo-de-buey": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.linterna-sorda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.lupa": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.manta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.mapa": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.mochila": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.municion": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.olla-de-hierro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pala": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.palanqueta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.papel": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-artista": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-diplomatico": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-erudito": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-explorador": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-explorador-de-mazmorras": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-ladron": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.paquete-de-sacerdote": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.perfume": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pergamino": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pergamino-de-conjuro-nivel-1": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pergamino-de-conjuro-truco": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.petate": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pluma": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.pocion-de-curacion": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.polipasto": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.puntas-de-hierro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.raciones": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.red": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.ropas-de-calidad": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.ropas-de-viaje": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.saco": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.saquito-de-componentes": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.silbato-de-supervivencia": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.simbolo-sagrado": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.tienda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.tinta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.trampa-para-cazar": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.tunica": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.utiles-de-escalada": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.utiles-de-sanador": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.vara": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.vela": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.veneno-basico": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.vial": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "gear.yesquero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "item.abalorio-de-nutricion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.abanico-del-viento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.aceite-de-afilado": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.aceite-de-etereidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.aceite-escurridizo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.agujero-portatil": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.alas-de-vuelo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.alfombra-voladora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.aljaba-eficiente": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.amuleto-a-prueba-de-deteccion-y-localizacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.amuleto-de-los-planos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.amuleto-de-salud": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-almacenamiento-de-conjuros": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-caida-de-pluma": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-calidez": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-caminar-sobre-las-aguas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-comandar-elementales": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-escudo-mental": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-estrellas-fugaces": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-evasion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-influencia-animal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-invisibilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-invocar-djinns": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-libertad-de-accion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-los-tres-deseos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-natacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-proteccion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-regeneracion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-resistencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-retorno-de-conjuros": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-salto": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-telequinesis": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-de-vision-de-rayos-x": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anillo-del-carnero": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anteojos-de-encantamiento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anteojos-de-la-noche": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anteojos-de-vision-minuciosa": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.anteojos-de-vista-de-aguila": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.aparato-del-crustaceo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.arco-de-energia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.arco-juramentado": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.arma-1-2-o-3": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.arma-de-advertencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.arma-feroz": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-1-2-o-3": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-adamantina": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-invulnerabilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-mithral": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-placas-de-etereidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-placas-enana": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-resistencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-de-vulnerabilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.armadura-demoniaca": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.babuchas-de-trepar-cual-aracnido": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bandas-de-hierro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baraja-de-ilusiones": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baraja-misteriosa": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-acrobata": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-curacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-enjambre-de-insectos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-escarcha": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-fuego": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-impacto": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-la-piton": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-los-bosques": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-los-magos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-marchitamiento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-poder": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-de-truenos-y-relampagos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.baston-del-cautivador": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bola-de-cristal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bola-de-cristal-de-leer-mentes": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bola-de-cristal-de-telepatia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bola-de-cristal-de-vision-veraz": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bolsa-de-contencion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bolsa-de-judias": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bolsa-de-trucos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bolsa-devoradora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-aladas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-de-las-tierras-invernales": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-de-levitacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-de-velocidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-de-zancadas-y-brincos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botas-elficas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.bote-plegable": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botella-de-ifrit": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.botella-siemprehumeante": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.brasero-para-controlar-elementales-de-fuego": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.brazales-de-arqueria": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.brazales-de-defensa": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.broche-escudo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.canica-de-fuerza": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-aracnida": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-de-desplazamiento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-de-invisibilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-de-la-mantarraya": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-de-murcielago": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-de-proteccion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-del-charlatan": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.capa-elfica": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.carillon-de-apertura": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cetro-de-mando": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cetro-de-poder-senorial": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cimitarra-de-velocidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cinturon-de-fuerza-de-gigante": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cinturon-enano": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.colgante-de-inmunidad-al-veneno": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.collar-de-adaptacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.collar-de-bolas-de-fuego": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.collar-de-plegarias": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cota-de-escamas-de-dragon": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cubo-de-fuerza": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuenco-para-controlar-elementales-de-agua": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuerda-de-escalada": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuerda-enredadora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuerno-de-estallido": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuerno-del-valhalla": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.cuero-tachonado-encantado": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.daga-de-la-ponzona": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.decantador-de-agua-interminable": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.defensora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.diadema-de-estallidos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.diadema-de-intelecto": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.disolvente-universal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.elixir-de-salud": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escarabajo-protector": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escoba-voladora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-1-2-o-3": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-animado": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-atrapaflechas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-centinela": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-de-atraer-proyectiles": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-de-caballero": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.escudo-de-guarda-contra-conjuros": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.esfera-de-aniquilacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-danzarina": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-de-hoja-afilada": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-hiriente": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-ladrona-de-vida": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-solar": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espada-vorpal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.espejo-atrapavidas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.estatuilla-de-poder-maravilloso": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.ficha-de-pluma": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.filo-de-la-fortuna": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.filtro-de-amor": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.flauta-de-la-aparicion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.flauta-de-las-cloacas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.fortaleza-instantanea": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.frasco-de-hierro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.garrote-grande-atronador": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.gema-de-vision": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.gema-del-resplandor": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.gema-elemental": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.grilletes-dimensionales": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.guanteletes-de-fuerza-de-ogro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.guantes-atrapaflechas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.guantes-de-ladron": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.guantes-de-natacion-y-escalada": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.hacha-berserker": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.herraduras-de-velocidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.herraduras-del-cefiro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.hierro-de-escarcha": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.incensario-de-controlar-elementales-de-aire": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.jabalina-del-relampago": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.ladrona-de-nueve-vidas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.lengua-de-fuego": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.linterna-de-revelacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.malla-elfica": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.manto-de-resistencia-a-conjuros": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.manual-de-golems": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.manual-de-la-salud-corporal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.manual-de-rapidez-de-accion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.manual-del-ejercicio-beneficioso": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.martillo-arrojadizo-enano": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.martillo-de-rayos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.matadragones": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.matagigantes": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.maza-castigadora": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.maza-del-terror": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.maza-disruptiva": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.medallon-de-los-pensamientos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.morral-practico": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.municion-1-2-o-3": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.municion-asesina": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.orbe-dragontino": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pegamento-soberano": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pergamino-de-conjuro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.perla-de-poder": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.piedra-de-controlar-elementales-de-tierra": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.piedra-de-la-buena-fortuna-piedra-de-la-suerte": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.piedra-ioun": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.piedras-mensajeras": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pigmentos-maravillosos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-amistad-animal": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-clarividencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-crecimiento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-encoger": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-forma-gaseosa": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-fuerza-de-gigante": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-heroismo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-invisibilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-invulnerabilidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-leer-mentes": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-longevidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-resistencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-respirar-bajo-el-agua": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-trepar": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-velocidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-veneno": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-vitalidad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pocion-de-vuelo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pociones-de-curacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.polvo-de-desaparicion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.polvo-de-estornudar-y-atragantarse": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.polvo-de-sequedad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.portal-cubico": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.pozo-de-los-muchos-mundos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.sombrero-de-disfraz": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.sombrero-de-multiples-conjuros": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.talisman-de-cerrar-heridas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.talisman-de-la-esfera": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.talisman-de-salud": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.talisman-del-bien-puro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.talisman-del-mal-definitivo": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tomo-de-entendimiento": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tomo-de-liderazgo-e-influencia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tomo-de-pensamiento-claro": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tridente-de-comandar-peces": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tunica-de-colores-hipnoticos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tunica-de-las-estrellas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tunica-de-los-ojos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tunica-de-objetos-utiles": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.tunica-del-archimago": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vara-de-la-absorcion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vara-de-la-alerta": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vara-de-la-resurreccion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vara-de-la-seguridad": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vara-inamovible": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-atadura": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-bolas-de-fuego": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-deteccion-magica": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-detectar-enemigos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-las-maravillas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-paralisis": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-polimorfar": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-proyectiles-magicos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-relampagos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-secretos": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-de-telarana": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-del-mago-de-guerra-1-2-o-3": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.varita-del-terror": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vela-de-invocacion": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.vengadora-sagrada": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.yelmo-de-entender-idiomas": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.yelmo-de-fulgor": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.yelmo-de-telepatia": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "item.yelmo-de-teletransporte": {
+   "collection": "magic-items",
+   "since": "5.2.1"
+  },
+  "monster.aboleth": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.acechador-invisible": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.acechador-osgo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.aguila": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.aguila-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.alce": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.alce-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.alfombra-asfixiante-animada": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.alosaurio": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ankheg": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.anquilosaurio": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.aparicion": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arana": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arana-de-fase": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arana-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arbol-despertado": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arbusto-despertado": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.archelon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.archimago": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.armadura-animada": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.arpia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.asesino": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.avatar-de-la-muerte": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.avispa-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.babuino": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.balor": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.bandido": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.basilisco": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.batidor": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.behir": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.berserker": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.bocon-barbotante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.broza-movediza": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.buho": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.buho-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.buitre": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.buitre-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.bulette": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballero": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballito-de-mar": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballito-de-mar-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballo-de-guerra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballo-de-guerra-esqueleto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballo-de-monta": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.caballo-de-tiro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cabra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cabra-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.camello": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cangrejo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cangrejo-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.capitan-bandido": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.capitan-de-la-guardia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.capitan-hobgoblin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.capitan-pirata": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.centinela-azer": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.chacal": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.chuul": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ciempies-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cieno-gris": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ciervo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cocatriz": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cocodrilo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cocodrilo-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.comadreja": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.comadreja-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.corcel-sobrenatural": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.couatl": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-azul": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-blanco": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-de-bronce": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-de-cobre": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-de-oro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-de-oropel": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-de-plata": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-negro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-rojo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cria-de-dragon-verde": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cubo-gelatinoso": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.cuervo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.deva": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablillo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-astado": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-barbado": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-de-la-sima": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-de-las-cadenas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-gelido": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-oseo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.diablo-punzante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.djinn": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.doppelganger": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-azul-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-azul-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-azul-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-blanco-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-blanco-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-blanco-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-bronce-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-bronce-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-bronce-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-cobre-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-cobre-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-cobre-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oro-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oro-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oro-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oropel-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oropel-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-oropel-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-plata-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-plata-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-de-plata-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-negro-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-negro-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-negro-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-rojo-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-rojo-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-rojo-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-tortuga": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-verde-adulto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-verde-anciano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dragon-verde-joven": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.drana": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.dretch": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.driade": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.druida": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.duende": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.elefante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.elemental-de-agua": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.elemental-de-aire": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.elemental-de-fuego": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.elemental-de-tierra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.engendro-vampirico": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-cuervos": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-garras-reptantes": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-insectos": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-murcielagos": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-piranas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-ratas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.enjambre-de-serpientes-venenosas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ent": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.erinia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.escarabajo-de-fuego-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.escorpion": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.escorpion-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.esfinge-de-las-maravillas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.esfinge-del-conocimiento": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.esfinge-del-valor": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.espada-voladora-animada": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.espectro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.espia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.espiritu-draconico": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.esqueleto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.estirge": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ettercap": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ettin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.experto-en-escaramuzas-sirenido": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.extremidad-de-troll": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.fanatico-sectario": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.fantasma": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.fuego-fatuo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gargola": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gato": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gelatina-ocre": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ghast": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-escarcha": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-fuego": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-las-colinas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-las-nubes": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-las-tormentas": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gigante-de-piedra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.glabrezu": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gladiador": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.golem-de-arcilla": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.golem-de-carne": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.golem-de-hierro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.golem-de-piedra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gorgon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.grick": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.grifo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.grimlock": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guardia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guardian-escudo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-de-infanteria": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-gnoll": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-goblin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-hobgoblin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-kobold": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-osgo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-sahuagin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guerrero-veterano": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.guiverno": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gul": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.gusano-purpura": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.halcon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.halcon-sangriento": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hezrou": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hidra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hiena": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hiena-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hipogrifo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hipopotamo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hombre-jabali": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hombre-lobo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hombre-oso": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hombre-rata": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hombre-tigre": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.homunculo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hongo-chillon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.hongo-violeta": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.huargo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ifrit": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.incubo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.insecto-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.jabali": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.jabali-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.jefe-goblin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.jefe-pendenciero": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.kraken": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lacero": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lagarto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lagarto-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lamia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lemur": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.leon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.liche": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lobo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lobo-invernal": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.lobo-terrible": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.magmin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mago": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mamut": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.manticora": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.manto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mantoscuro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.marilith": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mastin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.medusa": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mephit-de-hielo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mephit-de-magma": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mephit-de-polvo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mephit-de-vapor": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.merrow": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mimeto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.minotauro-de-bafomet": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.minotauro-esqueleto": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.momia": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.monstruo-corrosivo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mosca-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.mula": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.murcielago": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.murcielago-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.naga-espiritual": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.naga-guardiana": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.nalfeshnee": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.noble": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.objeto-animado": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ogro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.ogro-zombi": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.oni": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.orca": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.oso-lechuza": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.oso-negro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.oso-pardo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.oso-polar": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.otyugh": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pantera": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pegaso": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pendenciero": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.perro-del-inframundo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.perro-intermitente": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pesadilla": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pico-de-hacha": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pirana": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pirata": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.planetar": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.plebeyo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.plesiosaurio": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.poni": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pseudodragon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pteranodon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pudin-negro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pulpo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.pulpo-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.quasit": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.quimera": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rakshasa": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rana": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rana-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rata": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rata-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.remorhaz": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.rinoceronte": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.roc": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sabueso-infernal": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sacerdote": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sacerdote-acolito": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.saga-cetrina": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.saga-de-la-noche": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.saga-de-los-mares": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.salamandra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sapo-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.satiro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sectario": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.secuaz-goblin": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.semidragon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.senor-de-las-momias": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.serpiente-constrictora": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.serpiente-constrictora-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.serpiente-venenosa": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.serpiente-venenosa-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.serpiente-voladora": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.siervo-de-vampiro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.simio": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.simio-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.solar": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.soldado-centauro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sombra": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.sucubo": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tarantula-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tarasca": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tejon": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tejon-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tiburon-cazador": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tiburon-de-arrecife": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tiburon-gigante": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tigre": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tigre-dientes-de-sable": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tiranosaurio-rex": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.triceratops": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.troll": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.tumulario": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.unicornio": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.vampiro": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.vrock": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.xorn": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "monster.zombi": {
+   "collection": "monsters",
+   "since": "5.2.1"
+  },
+  "mount.caballo-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.caballo-de-monta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.caballo-de-tiro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.camello": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.elefante": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.mastin": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.mula": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "mount.poni": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "rule.accion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.accion-adicional": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.actitud": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.agarrado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.agarrar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.al-dia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.alcance": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.aliado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.alineamiento": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.amistosa": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.apresado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.area-de-efecto": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.arma": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.armas-improvisadas": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.arrastrarse": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.asfixia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.asustado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.atacar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ataque-con-arma": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ataque-de-conjuro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ataque-sin-armas": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ataques-de-oportunidad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.aturdido": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.aventura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ayudar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.buscar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.caidas": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cambio-de-forma": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.campana": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.canalizador-magico": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cansancio": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.capacidad-de-carga": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cegado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cilindro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.clase-de-armadura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.clase-de-dificultad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cobertura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.competencia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.concentracion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.conjuro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cono": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.correr": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.criatura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.critico": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.cubo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.curacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.dados-de-puntos-de-golpe": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.dano": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.derribado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.descanso-corto": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.descanso-largo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.deshidratacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.desnutricion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.destrabarse": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.desventaja": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.efecto-magico": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.efectos-simultaneos": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.emanacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.encuentro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.enemigo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ensordecido": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.entrenamiento-con-armaduras": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.envenenado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.esconderse": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.esfera": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.espacio-ocupado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.espacio-sin-ocupar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.esquivar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.estable": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.estado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.estudiar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.fuego": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.habilidad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.hechizado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.hoja-de-personaje": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.hostil": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ilusiones": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.incapacitado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.inconsciente": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.indiferente": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.influir": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.iniciativa": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.inmunidad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.inspiracion-heroica": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.invisible": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.levitar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ligeramente-oscuro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.linea": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.luz-brillante": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.luz-tenue": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.magia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.maldiciones": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.maltrecho": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.monstruo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.muerto": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.muy-oscuro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.nadar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.noquear-a-una-criatura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.objetivo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.objeto": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.oscuridad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.paralizado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.peligro": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.percepcion-pasiva": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.perfil": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.pericia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.personaje-jugador": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.personaje-no-jugador": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.petrificado": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.posesion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.preparar-una-accion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.prueba-con-d20": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.prueba-de-caracteristica": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.puntos-de-experiencia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.puntos-de-golpe": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.puntos-de-golpe-temporales": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.puntuacion-de-caracteristica-y-modificador": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.reaccion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.redondear-hacia-abajo": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.resistencia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ritual": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.romper-objetos": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.saltar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.salto-de-altura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.salto-de-longitud": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.salvacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.sentir-vibraciones": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.sintonizacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.sorpresa": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tamano": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.telepatia": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.teletransporte": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.terreno-dificil": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tipo-de-criatura": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tipos-de-dano": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tirada-de-ataque": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tirada-de-dano": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tirada-de-salvacion": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.tirada-de-salvacion-contra-muerte": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.trepar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.truco": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.umbral-de-dano": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.utilizar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.valor-de-desafio": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.velocidad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.velocidad-excavando": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.velocidad-nadando": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.velocidad-trepando": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.velocidad-volando": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.ventaja": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.vision-ciega": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.vision-en-la-oscuridad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.vision-verdadera": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.volar": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "rule.vulnerabilidad": {
+   "collection": "rules-glossary",
+   "since": "5.2.1"
+  },
+  "sidebar.ampliar-y-sustituir-un-libro-de-conjuros": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.armas-improvisadas": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.atacantes-y-objetivos-ocultos": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.criaturas-sin-alineamiento": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.descansar": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.dotes-adicionales-en-el-nivel-20": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.identificar-un-conjuro-activo": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.inspiracion-heroica": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.interpretar-a-un-monstruo": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.jugar-con-una-cuadricula": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.lanzar-conjuros-con-armadura": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.las-excepciones-se-imponen-a-las-reglas-generales": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.noquear-a-una-criatura": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.orden-de-marcha": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.redondear-hacia-abajo": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.reglas-de-objetos-magicos": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.romper-tu-juramento": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "sidebar.vender-equipo": {
+   "collection": "sidebars",
+   "since": "5.2.1"
+  },
+  "species.draconido": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.elfo": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.enano": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.gnomo": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.goliat": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.humano": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.mediano": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.orco": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "species.tiefling": {
+   "collection": "species",
+   "since": "5.2.1"
+  },
+  "spell.abrir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.acelerar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.adivinacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.agarre-electrizante": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.agrandar-reducir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.alarma": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aliado-planar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aliento-de-dragon": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.alterar-el-propio-aspecto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.alterar-los-recuerdos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.alzar-a-los-muertos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.animar-a-los-muertos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.animar-objetos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.antipatia-simpatia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.apariencia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.arma-espiritual": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.arma-magica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.armadura-de-mago": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.asesino-fantasmal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aspectos-animales": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.atadura-planar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.augurio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aura-de-vida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aura-magica-de-arcanista": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.aura-sagrada": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.auxilio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.baile-irresistible": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.barrera-de-cuchillas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.bendicion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.boca-magica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.bola-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.bola-de-fuego-de-explosion-retardada": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.buenas-bayas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.burla-danina": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.caida-de-pluma": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.calentar-metal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.calmar-emociones": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cambiar-de-forma": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.caminar-sobre-el-agua": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.campo-antimagia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.caparazon-antivida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.castigo-abrasador": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.castigo-brillante": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.castigo-divino": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cautiverio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cerradura-arcana": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.circulo-de-muerte": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.circulo-de-teletransportacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.circulo-magico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.clarividencia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.clavo-mental": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.clon": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cofre-oculto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.compulsion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.comunion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.comunion-con-la-naturaleza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.confusion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-animales": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-celestial": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-elemental": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-elementales-menores": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-feerico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conjurar-seres-del-bosque": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cono-de-frio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.conocer-las-leyendas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.consagrar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.contactar-con-otro-plano": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.contagio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.contingencia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.contorno-borroso": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.contrahechizo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.controlar-agua": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.controlar-el-clima": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.corcel-fantasma": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.creacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crear-comida-y-agua": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crear-llama": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crear-muerto-viviente": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crear-o-destruir-agua": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crecimiento-espinoso": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.crecimiento-vegetal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.cuchillo-de-hielo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.curar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.curar-en-masa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.curar-heridas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.curar-heridas-en-masa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.danar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.de-la-carne-a-la-piedra": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dedo-de-la-muerte": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.descarga-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.descarga-sobrenatural": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.deseo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.desintegrar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.despertar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.desplazamiento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.desplazamiento-entre-planos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.destierro": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.detectar-el-bien-y-el-mal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.detectar-magia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.detectar-pensamientos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.detectar-trampas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.detectar-venenos-y-enfermedades": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.disco-flotante": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.disfrazarse": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.disipar-el-bien-y-el-mal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.disipar-magia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dominar-bestia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dominar-monstruo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dominar-persona": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.don-de-lenguas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dormir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.dulce-descanso": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.elementalismo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.embelesar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.encantar-animal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.encontrar-el-camino": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.encontrar-familiar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.enganar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.enlace-telepatico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.enmaranar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ensueno": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.entender-idiomas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.escudo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.escudo-de-fe": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.escudo-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.escudrinar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.esfera-congelante": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.esfera-de-llamas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.esfera-elastica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.esfera-vitriolica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.espada-arcana": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.espejismo-arcano": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.espiritus-guardianes": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.estallido-magico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.excursion-eterea": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.explosion-solar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.fabricar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.falsa-vida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.favor-divino": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.festin-de-heroes": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.flecha-acida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.forma-gaseosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.fuego-feerico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.fuerza-fantasmal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.fundirse-con-la-piedra": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.geas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.glifo-custodio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.globo-de-invulnerabilidad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.golpe-apresador": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.golpe-flamigero": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.grasa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.guarda-contra-la-muerte": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.guardas-y-guardias": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.guardian-de-la-fe": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.guia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hablar-con-las-plantas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hablar-con-los-animales": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hablar-con-los-muertos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hacer-anicos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hallar-corcel": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hechizar-monstruo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hechizar-persona": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.heroismo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.hoja-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.identificar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ilusion-menor": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ilusion-programada": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.imagen-mayor": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.imagen-multiple": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.imagen-silenciosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.impacto-certero": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.imponer-maldicion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.indetectable": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.infligir-heridas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.inmovilizar-monstruo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.inmovilizar-persona": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.insecto-gigante": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.invertir-la-gravedad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.invisibilidad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.invisibilidad-mejorada": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.invocacion-instantanea": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.invocar-dragon": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.jaula-de-fuerza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.laberinto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.labia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.levantar-maldicion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.levitar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.libertad-de-movimiento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.llama-permanente": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.llama-sagrada": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.llamar-al-relampago": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.localizar-animales-o-plantas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.localizar-criatura": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.localizar-objeto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.luces-danzantes": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.luz": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.luz-del-dia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mal-de-ojo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.maleficio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mano-arcana": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mano-de-mago": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.manos-ardientes": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mansion-magnifica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.marca-del-cazador": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.marchitar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mastin-fiel": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mensaje": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mensajero-animal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mente-en-blanco": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.moldear-la-piedra": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.mover-la-tierra": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-espinas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-fuerza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-hielo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-piedra": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-de-viento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.muro-prismatico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.nube-aniquiladora": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.nube-apestosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.nube-de-oscurecimiento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.nube-incendiaria": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ofuscacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ojo-arcano": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ola-atronadora": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.orbe-cromatico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.orden-imperiosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.oscuridad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-curacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-curacion-en-masa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-poder-aturdir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-poder-matar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-poder-sanar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-de-regreso": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.palabra-divina": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.parar-el-tiempo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.pasamuros": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.pasar-sin-rastro": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.paso-arboreo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.paso-brumoso": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.patron-hipnotico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.pequena-choza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.perdicion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.piedad-con-los-moribundos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.piel-petrea": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.piel-robliza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.plaga-de-insectos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.plegaria-de-curacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.polimorfar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.polimorfar-verdadero": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.portal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.potenciar-caracteristica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.presciencia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.prestidigitacion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.prohibicion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proteccion-contra-el-bien-y-el-mal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proteccion-contra-energia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proteccion-contra-veneno": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proyeccion-astral": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proyectar-imagen": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.proyectil-magico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.puerta-dimensional": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.purificar-comida-y-bebida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rafaga-de-viento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ralentizar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-abrasador": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-de-escarcha": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-de-luna": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-debilitador": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-nauseabundo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rayo-solar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.recado": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.recluir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.reencarnar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.regenerar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.relampago": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.relampago-en-cadena": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.reparar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.reprension-infernal": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.resistencia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.respirar-bajo-el-agua": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.restablecimiento-mayor": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.restablecimiento-menor": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.resurreccion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.resurreccion-verdadera": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.retirada-expeditiva": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.revivir": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.risa-horrible": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rociada-de-color": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rociada-prismatica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.rociada-venenosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.saber-druidico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.saeta-guia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.salpicadura-acida": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.salto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.sanctasanctorum-privado": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.santuario": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.semiplano": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.senal-de-esperanza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.shillelagh": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.silencio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.simbolo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.simulacro": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.sirviente-invisible": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.sordera-ceguera": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.sugestion": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.sugestion-en-masa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.susurros-discordantes": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.taumaturgia": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.telarana": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.telequinesis": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.teletransporte": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tentaculos-negros": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.terremoto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.terreno-alucinatorio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.terror": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.terror-abyecto": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.texto-ilusorio": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.toque-helado": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.toque-vampirico": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tormenta-de-aguanieve": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tormenta-de-fuego": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tormenta-de-hielo": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tormenta-de-la-venganza": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tormenta-de-meteoritos": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.trepar-cual-aracnido": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.truco-de-la-cuerda": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.tsunami": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.urna-magica": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.ver-invisibilidad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.viajar-con-el-viento": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.viajar-mediante-plantas": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.vinculo-protector": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.vision-en-la-oscuridad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.vision-veraz": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.volar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.voluta-estelar": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.zancada-prodigiosa": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "spell.zona-de-la-verdad": {
+   "collection": "spells",
+   "since": "5.2.1"
+  },
+  "table.acciones": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.alineamiento-del-objeto-consciente": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.ancestros-draconicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.areas-de-conocimiento": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.armaduras": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.armas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.arreos-arneses-y-vehiculos-tirados-por-animales": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.asalariados": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-barbaro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-bardo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-brujo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-clerigo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-druida": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-explorador": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-guerrero": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-hechicero": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-mago": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-monje": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-paladin": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.atributos-basicos-de-picaro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bagatelas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.baraja-de-ilusiones": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.baraja-misteriosa": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bolsa-de-trucos-gris": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bolsa-de-trucos-marron": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bolsa-de-trucos-rojiza": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bonificador-por-competencia": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.bonificador-por-competencia-por-valor-de-desafio": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.busqueda": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.canalizadores-arcanos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.canalizadores-druidicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.capacidad-de-carga": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.capas-prismaticas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.caracteristicas-de-las-tiradas-de-ataque": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.caras-del-cubo-de-fuerza": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.categorias-de-objetos-magicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.clase-de-armadura-de-objetos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.clases-de-dificultad-tipicas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.cobertura": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.comida-bebida-y-alojamiento": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.comunicacion-del-objeto-consciente": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjunto-estandar-por-clase": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-bardo-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-brujo-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-clerigo-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-druida-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-explorador-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-explorador-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-explorador-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-explorador-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-explorador-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-hechicero-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-6": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-7": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-8": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-mago-de-nivel-9": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-paladin-de-nivel-1": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-paladin-de-nivel-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-paladin-de-nivel-3": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-paladin-de-nivel-4": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-de-paladin-de-nivel-5": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-del-dominio-de-la-vida": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-del-infernal": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-del-juramento-de-entrega": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.conjuros-draconicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.consumo-de-agua-al-dia": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.consumo-de-alimentos-al-dia": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.costes-de-pergaminos-de-conjuro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.costes-en-puntos-de-las-puntuaciones-de-caracteristica": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.crear-espacios-de-conjuro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.dado-de-golpe-por-tamano": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.descripciones-de-las-caracteristicas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.efectos-de-la-varita-de-las-maravillas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.efectos-de-palabra-divina": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.ejemplos-de-pruebas-de-caracteristica": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.ejemplos-de-tiradas-de-salvacion": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.equipo-de-aventureros": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.equipo-inicial-a-niveles-superiores": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.escuelas-magicas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.fichas-de-pluma": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.formas-de-bestia": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.habilidades": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.herramientas-para-objetos-magicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.idiomas-estandar": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.idiomas-inusuales": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.lanzador-de-conjuros-multiclase-espacios-de-conjuro-por-cada-nivel-de-conjuro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.legados-infernales": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.linajes-elficos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.materiales": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.miscibilidad-de-pociones": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.modificadores-por-caracteristica": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.monturas-y-otros-animales": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.muestras-de-cd-de-miedos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.muestras-de-efectos-de-estres-psicologico": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.municion": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p131": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p147": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p147-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p180": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p194": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p218": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p219": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p219-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p220": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p221": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p222": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p228": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p229": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p23": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p230": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p231": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p231-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p232": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p235": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p239": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p240": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p240-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p241": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p242": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p243": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p244": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p245": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p248": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p249": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p249-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p250": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p251": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p254": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p259": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p26": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p261": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p263": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p264": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p264-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p267": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p267-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p268": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p269": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p270": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p272": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p273": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p274": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p275": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p276": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p276-2": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p281": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p30": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p31": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p39": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p50": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p51": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p74": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.p75": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.palancas-del-aparato-del-crustaceo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.precipitaciones": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.preparacion-de-conjuros-segun-clase": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.presagios": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.presupuesto-de-px-por-personaje": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.progreso-de-los-personajes": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.proposito-especial-del-objeto-consciente": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.proteccion-de-la-naturaleza": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.pruebas-de-influencia": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntos-de-experiencia-por-valor-de-desafio": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntos-de-golpe-de-objetos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntos-de-golpe-en-el-nivel-1-por-clase": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntos-de-golpe-establecidos-por-clase": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntuaciones-de-caracteristica": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntuaciones-de-caracteristica-y-modificadores": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.puntuaciones-de-caracteristica-y-trasfondos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rareza-y-valor-de-objetos-magicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-barbaro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-bardo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-brujo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-clerigo": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-druida": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-explorador": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-guerrero": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-hechicero": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-mago": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-monje": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-paladin": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rasgos-de-picaro": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.rayos-prismaticos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.resultado-del-teletransporte": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.resumen-de-las-clases": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.ritmo-de-viaje": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.sentidos-del-objeto-consciente": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.servicios-de-lanzamiento-de-conjuros": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.simbolos-sagrados": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.tamano-y-espacio-de-las-criaturas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.temperatura-viento": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.terreno-arido": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.terreno-de-viaje": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.terreno-polar": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.terreno-templado": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.terreno-tropical": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.tiempo-y-precio-de-fabricacion-de-objetos-magicos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.tipos-de-dano": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-bardo-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-brujo-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-clerigo-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-druida-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-hechicero-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.trucos-conjuros-de-mago-de-nivel-0": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.valores-de-monedas": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "table.vehiculos-acuaticos-y-aereos": {
+   "collection": "tables",
+   "since": "5.2.1"
+  },
+  "tack.alimento-por-dia": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.carreta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.carro": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.carro-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.carruaje": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.de-monta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.estabulado-por-dia": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.exotica": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.militar": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tack.trineo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-albanil": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-alfarero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-carpintero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-cartografo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-curtidor": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-ebanista": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-herrero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-joyero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-ladron": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-manitas": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-navegante": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-soplador-de-vidrio": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-tejedor": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.herramientas-de-zapatero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.instrumento-musical-variable": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.juego-variable": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.suministros-de-alquimista": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.suministros-de-caligrafo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.suministros-de-cervecero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.suministros-de-pintor": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.utiles-de-cocinero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.utiles-de-envenenador": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.utiles-de-herborista": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.utiles-para-disfrazarse": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "tool.utiles-para-falsificar": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.aeronave": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.barcaza": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.bote-de-remos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.drakkar": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.galera": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.navio-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.pasajeros": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.reparacion-de-vehiculos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.tripulacion": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.umbral-de-dano": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.velero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "vehicle.velocidad": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.alabarda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.arco-corto": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.arco-largo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.ballesta-de-mano": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.ballesta-ligera": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.ballesta-pesada": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.baston": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.cerbatana": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.cimitarra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.daga": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.dardo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.espada-corta": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.espada-larga": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.espadon": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.estoque": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.garrote": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.garrote-grande": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.guja": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.hacha-a-dos-manos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.hacha-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.hacha-de-mano": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.honda": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.hoz": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.jabalina": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.lanza": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.lanza-de-caballeria": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.latigo": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.lucero-del-alba": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.mangual": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.martillo-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.martillo-ligero": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.maza": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.maza-a-dos-manos": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.mosquete": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.pica": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.pico-de-guerra": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.pistola": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  },
+  "weapon.tridente": {
+   "collection": "equipment",
+   "since": "5.2.1"
+  }
+ },
+ "retired": {}
+}

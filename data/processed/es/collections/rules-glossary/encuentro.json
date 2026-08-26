@@ -1,0 +1,17 @@
+{
+ "id": "rule.encuentro",
+ "name": "Encuentro",
+ "text": "Un encuentro es una escena de una aventura que forma parte de al menos uno de los tres pilares del juego: interacciones sociales, exploración o combate. Consulta también el capítulo “Cómo jugar” (“Interacciones sociales”, “Exploración” y “Combate”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Un encuentro es una escena de una aventura que forma parte de al menos uno de los tres pilares del juego: interacciones sociales, exploración o combate. *Consulta también* el capítulo “Cómo jugar” (“Interacciones sociales”, “Exploración” y “Combate”).",
+   "text": "Un encuentro es una escena de una aventura que forma parte de al menos uno de los tres pilares del juego: interacciones sociales, exploración o combate. Consulta también el capítulo “Cómo jugar” (“Interacciones sociales”, “Exploración” y “Combate”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

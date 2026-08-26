@@ -1,0 +1,19 @@
+{
+ "id": "sidebar.lanzar-conjuros-con-armadura",
+ "title": "Lanzar conjuros con armadura",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Debes tener entrenamiento con la armadura que llevas para lanzar conjuros vistiéndola. De lo contrario, la armadura será un lastre excesivo para lanzar conjuros.",
+   "text": "Debes tener entrenamiento con la armadura que llevas para lanzar conjuros vistiéndola. De lo contrario, la armadura será un lastre excesivo para lanzar conjuros."
+  }
+ ],
+ "context": [
+  "Conjuros",
+  "Lanzar conjuros"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 114
+ }
+}

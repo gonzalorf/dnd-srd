@@ -1,0 +1,61 @@
+{
+ "id": "spell.toque-vampirico",
+ "name": "Toque vampírico",
+ "level": 3,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si acierta, el objetivo sufrirá 3d6 de daño necrótico y tú recuperarás una cantidad de puntos de golpe igual a la mitad del daño necrótico infligido.\n\nHasta que el conjuro termine, podrás realizar el ataque otra vez como acción de magia en cada uno de tus turnos y hacer objetivo a la misma criatura o a otra distinta.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si acierta, el objetivo sufrirá 3d6 de daño necrótico y tú recuperarás una cantidad de puntos de golpe igual a la mitad del daño necrótico infligido.",
+   "text": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si acierta, el objetivo sufrirá 3d6 de daño necrótico y tú recuperarás una cantidad de puntos de golpe igual a la mitad del daño necrótico infligido."
+  },
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Hasta que el conjuro termine, podrás realizar el ataque otra vez como acción de magia en cada uno de tus turnos y hacer objetivo a la misma criatura o a otra distinta.",
+   "text": "Hasta que el conjuro termine, podrás realizar el ataque otra vez como acción de magia en cada uno de tus turnos y hacer objetivo a la misma criatura o a otra distinta."
+  },
+  {
+   "type": "definition",
+   "page": 190,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 189
+ }
+}

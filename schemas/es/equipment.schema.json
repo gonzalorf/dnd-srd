@@ -1,0 +1,412 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "equipment",
+ "description": "Inferido de 198 fichas de la colección «equipment».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "blocks": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "caption": {
+       "type": "string",
+       "enum": [
+        "Canalizadores arcanos",
+        "Canalizadores druídicos",
+        "Equipo de aventureros",
+        "Símbolos sagrados",
+        "Vehículos acuáticos y aéreos"
+       ]
+      },
+      "header": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "md": {
+       "type": "string"
+      },
+      "page": {
+       "type": "integer"
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "text": {
+       "type": "string"
+      },
+      "type": {
+       "type": "string",
+       "enum": [
+        "definition",
+        "paragraph",
+        "property",
+        "table"
+       ]
+      }
+     },
+     "required": [
+      "page",
+      "type"
+     ]
+    }
+   },
+   "descriptionPage": {
+    "type": "integer"
+   },
+   "fields": {
+    "type": "object",
+    "properties": {
+     "Animal": {
+      "type": "string"
+     },
+     "Armadura": {
+      "type": "string"
+     },
+     "CA": {
+      "type": "string",
+      "enum": [
+       "11",
+       "13",
+       "15"
+      ]
+     },
+     "Canalizador": {
+      "type": "string",
+      "enum": [
+       "Bastón",
+       "Cristal",
+       "Orbe",
+       "Vara",
+       "Varita"
+      ]
+     },
+     "Cantidad": {
+      "type": "string",
+      "enum": [
+       "10",
+       "20",
+       "50"
+      ]
+     },
+     "Capacidad de carga": {
+      "type": "string",
+      "enum": [
+       "112,5 kg",
+       "210 kg",
+       "225 kg",
+       "240 kg",
+       "270 kg",
+       "660 kg",
+       "97,5 kg"
+      ]
+     },
+     "Cargamento (toneladas)": {
+      "type": "string",
+      "enum": [
+       "1",
+       "1/2",
+       "10",
+       "100",
+       "150",
+       "200",
+       "—"
+      ]
+     },
+     "Clase de armadura (CA)": {
+      "type": "string",
+      "enum": [
+       "+2",
+       "11 + modificador por Des",
+       "12 + modificador por Des",
+       "12 + modificador por Des (máx. 2)",
+       "13 + modificador por Des (máx. 2)",
+       "14",
+       "14 + modificador por Des (máx. 2)",
+       "15 + modificador por Des (máx. 2)",
+       "16",
+       "17",
+       "18"
+      ]
+     },
+     "Daño": {
+      "type": "string"
+     },
+     "Fuerza": {
+      "type": "string",
+      "enum": [
+       "Fue 13",
+       "Fue 15",
+       "—"
+      ]
+     },
+     "Maestría": {
+      "type": "string",
+      "enum": [
+       "Debilitar",
+       "Derribar",
+       "Empujar",
+       "Hender",
+       "Mellar",
+       "Molestar",
+       "Ralentizar",
+       "Rozar"
+      ]
+     },
+     "Nombre": {
+      "type": "string"
+     },
+     "Objeto": {
+      "type": "string"
+     },
+     "PG": {
+      "type": "string",
+      "enum": [
+       "100",
+       "300",
+       "50",
+       "500"
+      ]
+     },
+     "Pasajeros": {
+      "type": "string",
+      "enum": [
+       "150",
+       "20",
+       "3",
+       "6",
+       "60",
+       "—"
+      ]
+     },
+     "Peso": {
+      "type": "string"
+     },
+     "Precio": {
+      "type": "string"
+     },
+     "Propiedades": {
+      "type": "string"
+     },
+     "Recipiente": {
+      "type": "string",
+      "enum": [
+       "Aljaba",
+       "Bolsa",
+       "Estuche"
+      ]
+     },
+     "Sigilo": {
+      "type": "string",
+      "enum": [
+       "Desventaja",
+       "—"
+      ]
+     },
+     "Tipo": {
+      "type": "string",
+      "enum": [
+       "Balas de arma de fuego",
+       "Dardos",
+       "Flechas",
+       "Proyectiles de honda",
+       "Virotes"
+      ]
+     },
+     "Tripulación": {
+      "type": "string",
+      "enum": [
+       "1",
+       "10",
+       "20",
+       "40",
+       "60",
+       "80"
+      ]
+     },
+     "Umbral de daño": {
+      "type": "string",
+      "enum": [
+       "10",
+       "15",
+       "20",
+       "—"
+      ]
+     },
+     "Vehículo": {
+      "type": "string",
+      "enum": [
+       "Aeronave",
+       "Barcaza",
+       "Bote de remos",
+       "Drakkar",
+       "Galera",
+       "Navío de guerra",
+       "Velero"
+      ]
+     },
+     "Velocidad": {
+      "type": "string",
+      "enum": [
+       "1,5 km/h",
+       "12 km/h",
+       "2,4 km/h",
+       "3 km/h",
+       "4 km/h",
+       "4,5 km/h",
+       "6 km/h"
+      ]
+     }
+    },
+    "required": [
+     "Precio"
+    ]
+   },
+   "group": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "enum": [
+     "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+     "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+     "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+     "Armas a distancia marciales",
+     "Armas a distancia sencillas",
+     "Armas cuerpo a cuerpo marciales",
+     "Armas cuerpo a cuerpo sencillas",
+     "Escudos (acción de utilizar para ponérselos o quitárselos)",
+     "Herramientas de artesano",
+     "Otras herramientas",
+     "Silla",
+     "Vehículos grandes",
+     null
+    ]
+   },
+   "id": {
+    "type": "string"
+   },
+   "kind": {
+    "type": "string",
+    "enum": [
+     "ammunition",
+     "armor",
+     "focus",
+     "gear",
+     "mount",
+     "tack",
+     "tool",
+     "vehicle",
+     "weapon"
+    ]
+   },
+   "name": {
+    "type": "string"
+   },
+   "price": {
+    "type": "object",
+    "properties": {
+     "amount": {
+      "type": "number"
+     },
+     "coin": {
+      "type": "string",
+      "enum": [
+       "pc",
+       "po",
+       "pp"
+      ]
+     },
+     "gp": {
+      "type": "number"
+     },
+     "raw": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "amount",
+     "coin",
+     "gp",
+     "raw"
+    ]
+   },
+   "refs": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "gear.pocion-de-curacion",
+      "item.pergamino-de-conjuro"
+     ]
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   },
+   "table": {
+    "type": "string",
+    "enum": [
+     "Armaduras",
+     "Armas",
+     "Arreos, arneses y vehículos tirados por animales",
+     "Canalizadores arcanos",
+     "Equipo de aventureros",
+     "Monturas y otros animales",
+     "Munición",
+     "Vehículos acuáticos y aéreos"
+    ]
+   },
+   "text": {
+    "type": "string"
+   },
+   "weight": {
+    "type": "object",
+    "properties": {
+     "kg": {
+      "type": "number"
+     },
+     "raw": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "kg",
+     "raw"
+    ]
+   }
+  },
+  "required": [
+   "group",
+   "id",
+   "kind",
+   "name",
+   "source"
+  ]
+ }
+}

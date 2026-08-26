@@ -1,0 +1,24 @@
+{
+ "id": "rule.cilindro",
+ "name": "Cilindro",
+ "text": "Un cilindro es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en el centro de la parte superior o inferior circular del cilindro. El efecto que crea un cilindro especifica el radio de la base y la altura del cilindro.\n\nEl punto de origen de un cilindro está incluido en el área de efecto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Un cilindro es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en el centro de la parte superior o inferior circular del cilindro. El efecto que crea un cilindro especifica el radio de la base y la altura del cilindro.",
+   "text": "Un cilindro es un área de efecto que se extiende en líneas rectas desde un punto de origen situado en el centro de la parte superior o inferior circular del cilindro. El efecto que crea un cilindro especifica el radio de la base y la altura del cilindro."
+  },
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "El punto de origen de un cilindro está incluido en el área de efecto.",
+   "text": "El punto de origen de un cilindro está incluido en el área de efecto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ },
+ "kind": "área de efecto"
+}

@@ -1,0 +1,98 @@
+{
+ "id": "monster.pirata",
+ "name": "Pirata",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 359
+ },
+ "context": [
+  "Piratas"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 5,
+  "score": 15
+ },
+ "hp": {
+  "raw": "33 (6d8 + 6)",
+  "average": 33,
+  "formula": "6d8 + 6"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "gear": [
+  "armadura de cuero",
+  "dagas (6)"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 5
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 4
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El pirata realiza dos ataques con sus dagas. Puede sustituir un ataque por un uso de su garbo cautivador.",
+   "page": 359,
+   "description": "El pirata realiza dos ataques con sus dagas. Puede sustituir un ataque por un uso de su garbo cautivador."
+  },
+  {
+   "name": "Daga",
+   "md": "***Daga.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 5 (1d4 + 3) de daño perforante.",
+   "page": 359,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 5 (1d4 + 3) de daño perforante."
+  },
+  {
+   "name": "Garbo cautivador",
+   "md": "***Garbo cautivador.*** *Tirada de salvación de Sabiduría:* CD 12, una criatura que el pirata pueda ver a 9 m o menos. *Fallo:* el objetivo tendrá el estado de hechizado hasta el principio del siguiente turno del pirata.",
+   "page": 359,
+   "description": "*Tirada de salvación de Sabiduría:* CD 12, una criatura que el pirata pueda ver a 9 m o menos. *Fallo:* el objetivo tendrá el estado de hechizado hasta el principio del siguiente turno del pirata."
+  }
+ ]
+}

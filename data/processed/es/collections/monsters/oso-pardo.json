@@ -1,0 +1,98 @@
+{
+ "id": "monster.oso-pardo",
+ "name": "Oso pardo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 390
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "22 (3d10 + 6)",
+  "average": 22,
+  "formula": "3d10 + 6"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El oso realiza un ataque de mordisco y uno con sus garras.",
+   "page": 390,
+   "description": "El oso realiza un ataque de mordisco y uno con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra***. *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.",
+   "page": 390,
+   "description": ". *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco***. *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante.",
+   "page": 390,
+   "description": ". *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante."
+  }
+ ]
+}

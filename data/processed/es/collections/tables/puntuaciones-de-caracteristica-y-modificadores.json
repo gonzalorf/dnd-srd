@@ -1,0 +1,57 @@
+{
+ "id": "table.puntuaciones-de-caracteristica-y-modificadores",
+ "caption": "Puntuaciones de característica y modificadores",
+ "header": [
+  "Puntuación",
+  "Modificador"
+ ],
+ "rows": [
+  [
+   "3",
+   "−4"
+  ],
+  [
+   "4–5",
+   "−3"
+  ],
+  [
+   "6–7",
+   "−2"
+  ],
+  [
+   "8–9",
+   "−1"
+  ],
+  [
+   "10–11",
+   "+0"
+  ],
+  [
+   "14–15",
+   "+2"
+  ],
+  [
+   "16–17",
+   "+3"
+  ],
+  [
+   "18–19",
+   "+4"
+  ],
+  [
+   "20",
+   "+5"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 3: puntuaciones de característica",
+  "Determina los modificadores por característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 23
+ }
+}

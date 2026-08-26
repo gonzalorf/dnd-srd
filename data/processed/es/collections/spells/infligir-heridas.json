@@ -1,0 +1,51 @@
+{
+ "id": "spell.infligir-heridas",
+ "name": "Infligir heridas",
+ "level": 1,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una criatura a la que toques hace una tirada de salvación de Constitución; sufrirá 2d10 de daño necrótico si la falla o la mitad del daño si la supera.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 158,
+   "md": "Una criatura a la que toques hace una tirada de salvación de Constitución; sufrirá 2d10 de daño necrótico si la falla o la mitad del daño si la supera.",
+   "text": "Una criatura a la que toques hace una tirada de salvación de Constitución; sufrirá 2d10 de daño necrótico si la falla o la mitad del daño si la supera."
+  },
+  {
+   "type": "definition",
+   "page": 158,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 158
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "spell.curar",
+ "name": "Curar",
+ "level": 6,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Elige a una criatura que puedas ver dentro del alcance. Una energía positiva la recorre y hace que recupere 70 puntos de golpe. El conjuro también elimina los estados de cegado, ensordecido y envenenado del objetivo.\n\nCon un espacio de conjuro de nivel superior. La curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "Elige a una criatura que puedas ver dentro del alcance. Una energía positiva la recorre y hace que recupere 70 puntos de golpe. El conjuro también elimina los estados de cegado, ensordecido y envenenado del objetivo.",
+   "text": "Elige a una criatura que puedas ver dentro del alcance. Una energía positiva la recorre y hace que recupere 70 puntos de golpe. El conjuro también elimina los estados de cegado, ensordecido y envenenado del objetivo."
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. La curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 137
+ }
+}

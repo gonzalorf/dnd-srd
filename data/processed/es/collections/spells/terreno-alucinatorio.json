@@ -1,0 +1,61 @@
+{
+ "id": "spell.terreno-alucinatorio",
+ "name": "Terreno alucinatorio",
+ "level": 4,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "90 m",
+  "kind": "ranged",
+  "meters": 90
+ },
+ "components": {
+  "raw": "V, S, M (una seta)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una seta",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno difícil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian.\n\nLas características táctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusión. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusión puede usar una acción de estudiar y hacer una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros para distinguirla. Si la criatura percibe que es una ilusión, la verá como una imagen difusa y superpuesta al terreno de verdad.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno difícil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian.",
+   "text": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno difícil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian."
+  },
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Las características táctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusión. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusión puede usar una acción de estudiar y hacer una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros para distinguirla. Si la criatura percibe que es una ilusión, la verá como una imagen difusa y superpuesta al terreno de verdad.",
+   "text": "Las características táctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusión. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusión puede usar una acción de estudiar y hacer una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros para distinguirla. Si la criatura percibe que es una ilusión, la verá como una imagen difusa y superpuesta al terreno de verdad."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 189
+ }
+}

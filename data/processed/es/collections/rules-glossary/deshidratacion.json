@@ -1,0 +1,53 @@
+{
+ "id": "rule.deshidratacion",
+ "name": "Deshidratación",
+ "text": "Las criaturas requieren cierta cantidad de agua al día en función de su tamaño, como se muestra en la tabla “Consumo de agua al día”. Si una criatura bebe menos de la mitad del agua que necesita al día, sumará 1 nivel de cansancio al final del día. El cansancio causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria al día. Consulta también “Cansancio”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Las criaturas requieren cierta cantidad de agua al día en función de su tamaño, como se muestra en la tabla “Consumo de agua al día”. Si una criatura bebe menos de la mitad del agua que necesita al día, sumará 1 nivel de cansancio al final del día. El cansancio causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria al día. *Consulta también* “Cansancio”.",
+   "text": "Las criaturas requieren cierta cantidad de agua al día en función de su tamaño, como se muestra en la tabla “Consumo de agua al día”. Si una criatura bebe menos de la mitad del agua que necesita al día, sumará 1 nivel de cansancio al final del día. El cansancio causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria al día. Consulta también “Cansancio”."
+  },
+  {
+   "type": "table",
+   "page": 200,
+   "caption": "Consumo de agua al día",
+   "header": [
+    "Tamaño",
+    "Agua"
+   ],
+   "rows": [
+    [
+     "Diminuto",
+     "1 l"
+    ],
+    [
+     "Pequeño",
+     "4 l"
+    ],
+    [
+     "Mediano",
+     "4 l"
+    ],
+    [
+     "Grande",
+     "16 l"
+    ],
+    [
+     "Enorme",
+     "64 l"
+    ],
+    [
+     "Gargantuesco",
+     "256 l"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ },
+ "kind": "peligro"
+}

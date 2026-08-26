@@ -1,0 +1,104 @@
+{
+ "id": "monster.pulpo-gigante",
+ "name": "Pulpo gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 392
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "45 (7d10 + 7)",
+  "average": 45,
+  "formula": "7d10 + 7"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "nadar": 18.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Respirar en el agua",
+   "md": "***Respirar en el agua.*** El pulpo solo puede respirar bajo el agua. Puede aguantar la respiración durante 1 hora fuera del agua.",
+   "page": 392,
+   "description": "El pulpo solo puede respirar bajo el agua. Puede aguantar la respiración durante 1 hora fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Tentáculos",
+   "md": "***Tentáculos.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 3 m. *Acierto:* 10 (2d6 + 3) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 13 para escapar) por los ocho tentáculos. Mientras esté agarrada, tendrá el estado de apresada.",
+   "page": 392,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 3 m. *Acierto:* 10 (2d6 + 3) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 13 para escapar) por los ocho tentáculos. Mientras esté agarrada, tendrá el estado de apresada."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Nube de tinta",
+   "md": "***Nube de tinta (1/día).*** *Detonante:* el pulpo recibe daño mientras está bajo el agua. *Respuesta:* el pulpo suelta tinta que llena un cubo de 3 m de lado centrado en él y se mueve hasta su velocidad nadando. El cubo está muy oscuro durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.",
+   "page": 392,
+   "description": "*Detonante:* el pulpo recibe daño mientras está bajo el agua. *Respuesta:* el pulpo suelta tinta que llena un cubo de 3 m de lado centrado en él y se mueve hasta su velocidad nadando. El cubo está muy oscuro durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.",
+   "uses": "1/día"
+  }
+ ]
+}

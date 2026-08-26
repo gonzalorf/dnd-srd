@@ -1,0 +1,199 @@
+{
+ "id": "monster.liche",
+ "name": "Liche",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 345
+ },
+ "context": [
+  "Liche"
+ ],
+ "metaRaw": "Muerto viviente Mediano (mago), neutral malvado",
+ "type": "Muerto viviente",
+ "alignment": "neutral malvado",
+ "size": "Mediano",
+ "tags": [
+  "mago"
+ ],
+ "ac": 20,
+ "acRaw": "20",
+ "initiative": {
+  "mod": 17,
+  "score": 27
+ },
+ "hp": {
+  "raw": "315 (42d8 + 126)",
+  "average": 315,
+  "formula": "42d8 + 126"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Conocimiento arcano": 19,
+  "Historia": 12,
+  "Percepción": 9,
+  "Perspicacia": 9
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "todos"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "paralizado"
+ ],
+ "resistances": [
+  "frío",
+  "relámpago"
+ ],
+ "gear": [
+  "saquito de componentes"
+ ],
+ "challenge": {
+  "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+  "cr": 21,
+  "xp": 33000,
+  "proficiencyBonus": 7,
+  "xpInLair": 41000
+ },
+ "abilities": {
+  "fue": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 10
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 10
+  },
+  "int": {
+   "score": 21,
+   "mod": 5,
+   "save": 12
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 9
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Recipiente espiritual",
+   "md": "***Recipiente espiritual.*** Si lo destruyen, el liche se recompondrá al cabo de 1d10 días si tiene un recipiente espiritual y revivirá con todos sus puntos de golpe. El nuevo cuerpo aparecerá en un espacio sin ocupar en la guarida del liche.",
+   "page": 345,
+   "description": "Si lo destruyen, el liche se recompondrá al cabo de 1d10 días si tiene un recipiente espiritual y revivirá con todos sus puntos de golpe. El nuevo cuerpo aparecerá en un espacio sin ocupar en la guarida del liche."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El liche puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 345,
+   "description": "El liche puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El liche realiza tres ataques con su estallido sobrenatural o su toque paralizante en cualquier combinación.",
+   "page": 345,
+   "description": "El liche realiza tres ataques con su estallido sobrenatural o su toque paralizante en cualquier combinación."
+  },
+  {
+   "name": "Estallido sobrenatural",
+   "md": "***Estallido sobrenatural.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +12, alcance 1,5 m o 36 m a distancia. *Acierto:* 31 (4d12 + 5) de daño de fuerza.",
+   "page": 345,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +12, alcance 1,5 m o 36 m a distancia. *Acierto:* 31 (4d12 + 5) de daño de fuerza."
+  },
+  {
+   "name": "Toque paralizante",
+   "md": "***Toque paralizante.*** *Tirada de ataque cuerpo a cuerpo:* +12, alcance 1,5 m. *Acierto:* 15 (3d6 + 5) de daño de frío y el objetivo tendrá el estado de paralizado hasta el principio del siguiente turno del liche.",
+   "page": 345,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +12, alcance 1,5 m. *Acierto:* 15 (3d6 + 5) de daño de frío y el objetivo tendrá el estado de paralizado hasta el principio del siguiente turno del liche."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El liche lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 20):",
+   "page": 345,
+   "description": "El liche lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 20):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *bola de fuego* (versión de nivel 5), *detectar magia*, *detectar pensamientos*, *disipar magia*, *invisibilidad*, *mano de mago*, *prestidigitación*, *relámpago* (versión de nivel 5) 2/día cada uno: *animar a los muertos*, *desplazamiento entre planos*, *puerta dimensional* 1/día cada uno: *dedo de la muerte*, *escudriñar*, *palabra de poder: matar*, *relámpago en cadena*",
+   "page": 345
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Magia protectora",
+   "md": "***Magia protectora.*** El liche lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 345,
+   "description": "El liche lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros."
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Mirada aterradora",
+    "md": "***Mirada aterradora.*** El liche lanza *terror* usando la misma aptitud mágica que para su lanzamiento de conjuros. el liche no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 345,
+    "description": "El liche lanza *terror* usando la misma aptitud mágica que para su lanzamiento de conjuros. el liche no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Perturbar vida",
+    "md": "***Perturbar vida.*** *Tirada de salvación de Constitución:* CD 20, todas las criaturas que no sean muertos vivientes en una emanación de 6 m que se origina en el liche. *Fallo:* 31 (9d6) de daño necrótico. *Éxito:* la mitad del daño. *Fallo o éxito:* el liche no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 345,
+    "description": "*Tirada de salvación de Constitución:* CD 20, todas las criaturas que no sean muertos vivientes en una emanación de 6 m que se origina en el liche. *Fallo:* 31 (9d6) de daño necrótico. *Éxito:* la mitad del daño. *Fallo o éxito:* el liche no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Teletransporte letal",
+    "md": "***Teletransporte letal.*** El liche se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver y todas las criaturas a 3 m o menos del espacio que abandonó reciben 11 (2d10) de daño necrótico.",
+    "page": 345,
+    "description": "El liche se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver y todas las criaturas a 3 m o menos del espacio que abandonó reciben 11 (2d10) de daño necrótico."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el liche puede emplear un uso para llevar a cabo una de las siguientes acciones. El liche recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.bola-de-fuego",
+  "spell.detectar-magia",
+  "spell.detectar-pensamientos",
+  "spell.disipar-magia",
+  "spell.invisibilidad",
+  "spell.mano-de-mago",
+  "spell.prestidigitacion",
+  "spell.relampago",
+  "spell.animar-a-los-muertos",
+  "spell.desplazamiento-entre-planos",
+  "spell.puerta-dimensional",
+  "spell.dedo-de-la-muerte",
+  "spell.escudrinar",
+  "spell.palabra-de-poder-matar",
+  "spell.relampago-en-cadena",
+  "spell.contrahechizo",
+  "spell.escudo",
+  "spell.terror"
+ ]
+}

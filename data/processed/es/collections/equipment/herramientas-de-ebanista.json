@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-ebanista",
+ "name": "Herramientas de ebanista",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: tallar un dibujo en madera (CD 10)\n\nFabricar: bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+   "text": "Característica: Destreza Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** tallar un dibujo en madera (CD 10)",
+   "text": "Utilizar: tallar un dibujo en madera (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes",
+   "text": "Fabricar: bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ }
+}

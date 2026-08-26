@@ -1,0 +1,100 @@
+{
+ "id": "monster.tiranosaurio-rex",
+ "name": "Tiranosaurio rex",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 397
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme (dinosaurio), sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "tags": [
+  "dinosaurio"
+ ],
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "136 (13d12 + 52)",
+  "average": 136,
+  "formula": "13d12 + 52"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 25,
+   "mod": 7,
+   "save": 10
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El tiranosaurio realiza un ataque de mordisco y uno con su cola.",
+   "page": 397,
+   "description": "El tiranosaurio realiza un ataque de mordisco y uno con su cola."
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 4,5 m. *Acierto:* 25 (4d8 + 7) de daño contundente. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de derribada.",
+   "page": 397,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 4,5 m. *Acierto:* 25 (4d8 + 7) de daño contundente. Si el objetivo es una criatura Enorme o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 33 (4d12 + 7) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 17 para escapar). Mientras esté agarrada, tendrá el estado de apresada y no podrá ser objetivo de la cola del tiranosaurio.",
+   "page": 397,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 33 (4d12 + 7) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 17 para escapar). Mientras esté agarrada, tendrá el estado de apresada y no podrá ser objetivo de la cola del tiranosaurio."
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-7",
+ "caption": "Conjuros de mago de nivel 7",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Bola de fuego de explosión retardada",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Dedo de la muerte",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Desplazamiento entre planos",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Espada arcana",
+   "Evocación",
+   "C, M"
+  ],
+  [
+   "Espejismo arcano",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Excursión etérea",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Invertir la gravedad",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Jaula de fuerza",
+   "Evocación",
+   "C, M"
+  ],
+  [
+   "Mansión magnífica",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Proyectar imagen",
+   "Ilusionismo",
+   "C, M"
+  ],
+  [
+   "Recluir",
+   "Transmutación",
+   "M"
+  ],
+  [
+   "Rociada prismática",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Símbolo",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Simulacro",
+   "Ilusionismo",
+   "M"
+  ],
+  [
+   "Teletransporte",
+   "Conjuración",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 76
+ }
+}

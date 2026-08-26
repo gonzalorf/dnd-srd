@@ -1,0 +1,5050 @@
+[
+ {
+  "id": "monster.objeto-animado",
+  "name": "Objeto animado",
+  "size": "Enorme",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+  },
+  "page": 121
+ },
+ {
+  "id": "monster.corcel-sobrenatural",
+  "name": "Corcel sobrenatural",
+  "size": "Grande",
+  "type": "Celestial, feérico infernal",
+  "alignment": "neutral",
+  "ac": 10,
+  "challenge": {
+   "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+  },
+  "page": 155
+ },
+ {
+  "id": "monster.insecto-gigante",
+  "name": "Insecto gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+  },
+  "page": 159
+ },
+ {
+  "id": "monster.espiritu-draconico",
+  "name": "Espíritu dracónico",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+  },
+  "page": 160
+ },
+ {
+  "id": "monster.avatar-de-la-muerte",
+  "name": "Avatar de la muerte",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 20,
+  "challenge": {
+   "raw": "ninguno (0 PX; BC igual al de su invocador)"
+  },
+  "page": 238
+ },
+ {
+  "id": "monster.mosca-gigante",
+  "name": "Mosca gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (0 PX; BC +2)",
+   "cr": 0,
+   "xp": 0,
+   "proficiencyBonus": 2
+  },
+  "page": 256
+ },
+ {
+  "id": "monster.aboleth",
+  "name": "Aboleth",
+  "size": "Grande",
+  "type": "Aberración",
+  "alignment": "legal malvada",
+  "ac": 17,
+  "challenge": {
+   "raw": "10 (5900 PX o 7200 en la guarida; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4,
+   "xpInLair": 7200
+  },
+  "page": 283
+ },
+ {
+  "id": "monster.acechador-invisible",
+  "name": "Acechador invisible",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 283
+ },
+ {
+  "id": "monster.ankheg",
+  "name": "Ankheg",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 284
+ },
+ {
+  "id": "monster.aparicion",
+  "name": "Aparición",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 284
+ },
+ {
+  "id": "monster.arana-de-fase",
+  "name": "Araña de fase",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 284
+ },
+ {
+  "id": "monster.arpia",
+  "name": "Arpía",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 11,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 285
+ },
+ {
+  "id": "monster.asesino",
+  "name": "Asesino",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 16,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 285
+ },
+ {
+  "id": "monster.centinela-azer",
+  "name": "Centinela azer",
+  "size": "Mediano",
+  "type": "Elemental",
+  "alignment": "legal neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 286
+ },
+ {
+  "id": "monster.balor",
+  "name": "Balor",
+  "size": "Enorme",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "19 (22 000 PX; BC +6)",
+   "cr": 19,
+   "xp": 22000,
+   "proficiencyBonus": 6
+  },
+  "page": 286
+ },
+ {
+  "id": "monster.bandido",
+  "name": "Bandido",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 286
+ },
+ {
+  "id": "monster.capitan-bandido",
+  "name": "Capitán bandido",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 15,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 287
+ },
+ {
+  "id": "monster.basilisco",
+  "name": "Basilisco",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 287
+ },
+ {
+  "id": "monster.batidor",
+  "name": "Batidor",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 287
+ },
+ {
+  "id": "monster.behir",
+  "name": "Behir",
+  "size": "Enorme",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 17,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 287
+ },
+ {
+  "id": "monster.berserker",
+  "name": "Berserker",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 288
+ },
+ {
+  "id": "monster.bocon-barbotante",
+  "name": "Bocón barbotante",
+  "size": "Mediano",
+  "type": "Aberración",
+  "alignment": "caótica neutral",
+  "ac": 9,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 288
+ },
+ {
+  "id": "monster.broza-movediza",
+  "name": "Broza movediza",
+  "size": "Grande",
+  "type": "Planta",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 289
+ },
+ {
+  "id": "monster.bulette",
+  "name": "Bulette",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 17,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 289
+ },
+ {
+  "id": "monster.caballero",
+  "name": "Caballero",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 18,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 289
+ },
+ {
+  "id": "monster.soldado-centauro",
+  "name": "Soldado centauro",
+  "size": "Grande",
+  "type": "Feérico",
+  "alignment": "neutral bueno",
+  "ac": 16,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 290
+ },
+ {
+  "id": "monster.chuul",
+  "name": "Chuul",
+  "size": "Grande",
+  "type": "Aberración",
+  "alignment": "caótica malvada",
+  "ac": 16,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 290
+ },
+ {
+  "id": "monster.cieno-gris",
+  "name": "Cieno gris",
+  "size": "Mediano",
+  "type": "Cieno",
+  "alignment": "sin alineamiento",
+  "ac": 9,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 290
+ },
+ {
+  "id": "monster.cocatriz",
+  "name": "Cocatriz",
+  "size": "Pequeño",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 291
+ },
+ {
+  "id": "monster.couatl",
+  "name": "Couatl",
+  "size": "Mediano",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 19,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 291
+ },
+ {
+  "id": "monster.cubo-gelatinoso",
+  "name": "Cubo gelatinoso",
+  "size": "Grande",
+  "type": "Cieno",
+  "alignment": "sin alineamiento",
+  "ac": 6,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 292
+ },
+ {
+  "id": "monster.deva",
+  "name": "Deva",
+  "size": "Mediano",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "10 (5900 PX; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4
+  },
+  "page": 292
+ },
+ {
+  "id": "monster.diablillo",
+  "name": "Diablillo",
+  "size": "Diminuto",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 293
+ },
+ {
+  "id": "monster.diablo-astado",
+  "name": "Diablo astado",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 293
+ },
+ {
+  "id": "monster.diablo-barbado",
+  "name": "Diablo barbado",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 293
+ },
+ {
+  "id": "monster.diablo-de-las-cadenas",
+  "name": "Diablo de las cadenas",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 294
+ },
+ {
+  "id": "monster.diablo-de-la-sima",
+  "name": "Diablo de la sima",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 21,
+  "challenge": {
+   "raw": "20 (25 000 PX; BC +6)",
+   "cr": 20,
+   "xp": 25000,
+   "proficiencyBonus": 6
+  },
+  "page": 294
+ },
+ {
+  "id": "monster.diablo-gelido",
+  "name": "Diablo gélido",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "14 (11 500 PX; BC +5)",
+   "cr": 14,
+   "xp": 11500,
+   "proficiencyBonus": 5
+  },
+  "page": 295
+ },
+ {
+  "id": "monster.diablo-oseo",
+  "name": "Diablo óseo",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 16,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 296
+ },
+ {
+  "id": "monster.diablo-punzante",
+  "name": "Diablo punzante",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 296
+ },
+ {
+  "id": "monster.djinn",
+  "name": "Djinn",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 296
+ },
+ {
+  "id": "monster.doppelganger",
+  "name": "Doppelganger",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 297
+ },
+ {
+  "id": "monster.cria-de-dragon-azul",
+  "name": "Cría de dragón azul",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 298
+ },
+ {
+  "id": "monster.dragon-azul-joven",
+  "name": "Dragón azul joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 298
+ },
+ {
+  "id": "monster.dragon-azul-adulto",
+  "name": "Dragón azul adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "16 (15 000 PX o 18 000 en la guarida; BC +5)",
+   "cr": 16,
+   "xp": 15000,
+   "proficiencyBonus": 5,
+   "xpInLair": 18000
+  },
+  "page": 298
+ },
+ {
+  "id": "monster.dragon-azul-anciano",
+  "name": "Dragón azul anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 22,
+  "challenge": {
+   "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+   "cr": 23,
+   "xp": 50000,
+   "proficiencyBonus": 7,
+   "xpInLair": 62000
+  },
+  "page": 299
+ },
+ {
+  "id": "monster.cria-de-dragon-blanco",
+  "name": "Cría de dragón blanco",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 16,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 299
+ },
+ {
+  "id": "monster.dragon-blanco-joven",
+  "name": "Dragón blanco joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 299
+ },
+ {
+  "id": "monster.dragon-blanco-adulto",
+  "name": "Dragón blanco adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "13 (10 000 PX u 11 500 en la guarida; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 300
+ },
+ {
+  "id": "monster.dragon-blanco-anciano",
+  "name": "Dragón blanco anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 20,
+  "challenge": {
+   "raw": "20 (25 000 PX o 33 000 en la guarida; BC +6)",
+   "cr": 20,
+   "xp": 25000,
+   "proficiencyBonus": 6,
+   "xpInLair": 33000
+  },
+  "page": 300
+ },
+ {
+  "id": "monster.cria-de-dragon-de-bronce",
+  "name": "Cría de dragón de bronce",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 15,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 301
+ },
+ {
+  "id": "monster.dragon-de-bronce-joven",
+  "name": "Dragón de bronce joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 301
+ },
+ {
+  "id": "monster.dragon-de-bronce-adulto",
+  "name": "Dragón de bronce adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+   "cr": 15,
+   "xp": 13000,
+   "proficiencyBonus": 5,
+   "xpInLair": 15000
+  },
+  "page": 302
+ },
+ {
+  "id": "monster.dragon-de-bronce-anciano",
+  "name": "Dragón de bronce anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 22,
+  "challenge": {
+   "raw": "22 (41 000 PX o 50 000 en la guarida; BC +7)",
+   "cr": 22,
+   "xp": 41000,
+   "proficiencyBonus": 7,
+   "xpInLair": 50000
+  },
+  "page": 302
+ },
+ {
+  "id": "monster.cria-de-dragon-de-cobre",
+  "name": "Cría de dragón de cobre",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 16,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 303
+ },
+ {
+  "id": "monster.dragon-de-cobre-joven",
+  "name": "Dragón de cobre joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 303
+ },
+ {
+  "id": "monster.dragon-de-cobre-adulto",
+  "name": "Dragón de cobre adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "14 (11 500 PX o 13 000 en la guarida; BC +5)",
+   "cr": 14,
+   "xp": 11500,
+   "proficiencyBonus": 5,
+   "xpInLair": 13000
+  },
+  "page": 303
+ },
+ {
+  "id": "monster.dragon-de-cobre-anciano",
+  "name": "Dragón de cobre anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 21,
+  "challenge": {
+   "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+   "cr": 21,
+   "xp": 33000,
+   "proficiencyBonus": 7,
+   "xpInLair": 41000
+  },
+  "page": 304
+ },
+ {
+  "id": "monster.cria-de-dragon-de-oro",
+  "name": "Cría de dragón de oro",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 305
+ },
+ {
+  "id": "monster.dragon-de-oro-joven",
+  "name": "Dragón de oro joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "10 (5900 PX; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4
+  },
+  "page": 305
+ },
+ {
+  "id": "monster.dragon-de-oro-adulto",
+  "name": "Dragón de oro adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 19,
+  "challenge": {
+   "raw": "17 (18 000 PX o 20 000 en la guarida; BC +6)",
+   "cr": 17,
+   "xp": 18000,
+   "proficiencyBonus": 6,
+   "xpInLair": 20000
+  },
+  "page": 306
+ },
+ {
+  "id": "monster.dragon-de-oro-anciano",
+  "name": "Dragón de oro anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 22,
+  "challenge": {
+   "raw": "24 (62 000 PX o 75 000 en la guarida; BC +7)",
+   "cr": 24,
+   "xp": 62000,
+   "proficiencyBonus": 7,
+   "xpInLair": 75000
+  },
+  "page": 306
+ },
+ {
+  "id": "monster.cria-de-dragon-de-oropel",
+  "name": "Cría de dragón de oropel",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 15,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 307
+ },
+ {
+  "id": "monster.dragon-de-oropel-joven",
+  "name": "Dragón de oropel joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 307
+ },
+ {
+  "id": "monster.dragon-de-oropel-adulto",
+  "name": "Dragón de oropel adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "13 (10 000 PX u 11 500 en la guarida; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 308
+ },
+ {
+  "id": "monster.dragon-de-oropel-anciano",
+  "name": "Dragón de oropel anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "caótico bueno",
+  "ac": 20,
+  "challenge": {
+   "raw": "20 (25 000 PX o 33 000 en la guarida; BC +6)",
+   "cr": 20,
+   "xp": 25000,
+   "proficiencyBonus": 6,
+   "xpInLair": 33000
+  },
+  "page": 308
+ },
+ {
+  "id": "monster.cria-de-dragon-de-plata",
+  "name": "Cría de dragón de plata",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 17,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 309
+ },
+ {
+  "id": "monster.dragon-de-plata-joven",
+  "name": "Dragón de plata joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 309
+ },
+ {
+  "id": "monster.dragon-de-plata-adulto",
+  "name": "Dragón de plata adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 19,
+  "challenge": {
+   "raw": "16 (15 000 PX o 18 000 en la guarida; BC +5)",
+   "cr": 16,
+   "xp": 15000,
+   "proficiencyBonus": 5,
+   "xpInLair": 18000
+  },
+  "page": 310
+ },
+ {
+  "id": "monster.dragon-de-plata-anciano",
+  "name": "Dragón de plata anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "legal bueno",
+  "ac": 22,
+  "challenge": {
+   "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+   "cr": 23,
+   "xp": 50000,
+   "proficiencyBonus": 7,
+   "xpInLair": 62000
+  },
+  "page": 310
+ },
+ {
+  "id": "monster.cria-de-dragon-negro",
+  "name": "Cría de dragón negro",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 311
+ },
+ {
+  "id": "monster.dragon-negro-joven",
+  "name": "Dragón negro joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 311
+ },
+ {
+  "id": "monster.dragon-negro-adulto",
+  "name": "Dragón negro adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "14 (11 500 PX o 13 000 en la guarida; BC +5)",
+   "cr": 14,
+   "xp": 11500,
+   "proficiencyBonus": 5,
+   "xpInLair": 13000
+  },
+  "page": 312
+ },
+ {
+  "id": "monster.dragon-negro-anciano",
+  "name": "Dragón negro anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 22,
+  "challenge": {
+   "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+   "cr": 21,
+   "xp": 33000,
+   "proficiencyBonus": 7,
+   "xpInLair": 41000
+  },
+  "page": 312
+ },
+ {
+  "id": "monster.cria-de-dragon-rojo",
+  "name": "Cría de dragón rojo",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 313
+ },
+ {
+  "id": "monster.dragon-rojo-joven",
+  "name": "Dragón rojo joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "10 (5900 PX; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4
+  },
+  "page": 313
+ },
+ {
+  "id": "monster.dragon-rojo-adulto",
+  "name": "Dragón rojo adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "17 (18 000 PX o 20 000 en la guarida; BC +6)",
+   "cr": 17,
+   "xp": 18000,
+   "proficiencyBonus": 6,
+   "xpInLair": 20000
+  },
+  "page": 313
+ },
+ {
+  "id": "monster.dragon-rojo-anciano",
+  "name": "Dragón rojo anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "caótico malvado",
+  "ac": 22,
+  "challenge": {
+   "raw": "24 (62 000 PX o 75 000 en la guarida; BC +7)",
+   "cr": 24,
+   "xp": 62000,
+   "proficiencyBonus": 7,
+   "xpInLair": 75000
+  },
+  "page": 314
+ },
+ {
+  "id": "monster.cria-de-dragon-verde",
+  "name": "Cría de dragón verde",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 314
+ },
+ {
+  "id": "monster.dragon-verde-joven",
+  "name": "Dragón verde joven",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 315
+ },
+ {
+  "id": "monster.dragon-verde-adulto",
+  "name": "Dragón verde adulto",
+  "size": "Enorme",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+   "cr": 15,
+   "xp": 13000,
+   "proficiencyBonus": 5,
+   "xpInLair": 15000
+  },
+  "page": 315
+ },
+ {
+  "id": "monster.dragon-verde-anciano",
+  "name": "Dragón verde anciano",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "legal malvado",
+  "ac": 21,
+  "challenge": {
+   "raw": "22 (41 000 PX o 50 000 en la guarida; BC +7)",
+   "cr": 22,
+   "xp": 41000,
+   "proficiencyBonus": 7,
+   "xpInLair": 50000
+  },
+  "page": 316
+ },
+ {
+  "id": "monster.dragon-tortuga",
+  "name": "Dragón tortuga",
+  "size": "Gargantuesco",
+  "type": "Dragón",
+  "alignment": "neutral",
+  "ac": 20,
+  "challenge": {
+   "raw": "17 (18 000 PX; BC +6)",
+   "cr": 17,
+   "xp": 18000,
+   "proficiencyBonus": 6
+  },
+  "page": 316
+ },
+ {
+  "id": "monster.drana",
+  "name": "Draña",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 19,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 317
+ },
+ {
+  "id": "monster.dretch",
+  "name": "Dretch",
+  "size": "Pequeño",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 317
+ },
+ {
+  "id": "monster.driade",
+  "name": "Dríade",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "neutral",
+  "ac": 16,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 317
+ },
+ {
+  "id": "monster.druida",
+  "name": "Druida",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 318
+ },
+ {
+  "id": "monster.duende",
+  "name": "Duende",
+  "size": "Diminuto",
+  "type": "Feérico",
+  "alignment": "neutral bueno",
+  "ac": 15,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 318
+ },
+ {
+  "id": "monster.elemental-de-agua",
+  "name": "Elemental de agua",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 318
+ },
+ {
+  "id": "monster.elemental-de-aire",
+  "name": "Elemental de aire",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 319
+ },
+ {
+  "id": "monster.elemental-de-fuego",
+  "name": "Elemental de fuego",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 319
+ },
+ {
+  "id": "monster.elemental-de-tierra",
+  "name": "Elemental de tierra",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 320
+ },
+ {
+  "id": "monster.ent",
+  "name": "Ent",
+  "size": "Enorme",
+  "type": "Planta",
+  "alignment": "caótica buena",
+  "ac": 16,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 320
+ },
+ {
+  "id": "monster.erinia",
+  "name": "Erinia",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "12 (8400 PX; BC +4)",
+   "cr": 12,
+   "xp": 8400,
+   "proficiencyBonus": 4
+  },
+  "page": 320
+ },
+ {
+  "id": "monster.esfinge-de-las-maravillas",
+  "name": "Esfinge de las maravillas",
+  "size": "Diminuto",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 321
+ },
+ {
+  "id": "monster.esfinge-del-conocimiento",
+  "name": "Esfinge del conocimiento",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "11 (7200 PX u 8400 en la guarida; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 321
+ },
+ {
+  "id": "monster.esfinge-del-valor",
+  "name": "Esfinge del valor",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "17 (18 000 PX o 20 000 en la guarida; BC +6)",
+   "cr": 17,
+   "xp": 18000,
+   "proficiencyBonus": 6,
+   "xpInLair": 20000
+  },
+  "page": 322
+ },
+ {
+  "id": "monster.espectro",
+  "name": "Espectro",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "caótico malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 323
+ },
+ {
+  "id": "monster.espia",
+  "name": "Espía",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 323
+ },
+ {
+  "id": "monster.esqueleto",
+  "name": "Esqueleto",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 323
+ },
+ {
+  "id": "monster.caballo-de-guerra-esqueleto",
+  "name": "Caballo de guerra esqueleto",
+  "size": "Grande",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 323
+ },
+ {
+  "id": "monster.minotauro-esqueleto",
+  "name": "Minotauro esqueleto",
+  "size": "Grande",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 324
+ },
+ {
+  "id": "monster.estirge",
+  "name": "Estirge",
+  "size": "Diminuto",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 324
+ },
+ {
+  "id": "monster.ettercap",
+  "name": "Ettercap",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 324
+ },
+ {
+  "id": "monster.ettin",
+  "name": "Ettin",
+  "size": "Grande",
+  "type": "Gigante",
+  "alignment": "caótico malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 325
+ },
+ {
+  "id": "monster.fantasma",
+  "name": "Fantasma",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral",
+  "ac": 11,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 325
+ },
+ {
+  "id": "monster.fuego-fatuo",
+  "name": "Fuego fatuo",
+  "size": "Diminuto",
+  "type": "Muerto viviente",
+  "alignment": "caótico malvado",
+  "ac": 19,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 326
+ },
+ {
+  "id": "monster.gargola",
+  "name": "Gárgola",
+  "size": "Mediano",
+  "type": "Elemental",
+  "alignment": "caótico malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 326
+ },
+ {
+  "id": "monster.enjambre-de-garras-reptantes",
+  "name": "Enjambre de garras reptantes",
+  "size": "Mediano",
+  "type": "Enjambre de muertos vivientes Diminutos",
+  "alignment": "neutral malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 326
+ },
+ {
+  "id": "monster.gelatina-ocre",
+  "name": "Gelatina ocre",
+  "size": "Grande",
+  "type": "Cieno",
+  "alignment": "sin alineamiento",
+  "ac": 8,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 327
+ },
+ {
+  "id": "monster.ghast",
+  "name": "Ghast",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "caótico malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 327
+ },
+ {
+  "id": "monster.gigante-de-escarcha",
+  "name": "Gigante de escarcha",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "neutral malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 327
+ },
+ {
+  "id": "monster.gigante-de-fuego",
+  "name": "Gigante de fuego",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 328
+ },
+ {
+  "id": "monster.gigante-de-las-colinas",
+  "name": "Gigante de las colinas",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "caótico malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 328
+ },
+ {
+  "id": "monster.gigante-de-las-nubes",
+  "name": "Gigante de las nubes",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 328
+ },
+ {
+  "id": "monster.gigante-de-las-tormentas",
+  "name": "Gigante de las tormentas",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "caótico bueno",
+  "ac": 16,
+  "challenge": {
+   "raw": "13 (10 000 PX; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 329
+ },
+ {
+  "id": "monster.gigante-de-piedra",
+  "name": "Gigante de piedra",
+  "size": "Enorme",
+  "type": "Gigante",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 329
+ },
+ {
+  "id": "monster.glabrezu",
+  "name": "Glabrezu",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 330
+ },
+ {
+  "id": "monster.gladiador",
+  "name": "Gladiador",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 16,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 330
+ },
+ {
+  "id": "monster.guerrero-gnoll",
+  "name": "Guerrero gnoll",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 330
+ },
+ {
+  "id": "monster.secuaz-goblin",
+  "name": "Secuaz goblin",
+  "size": "Pequeño",
+  "type": "Feérico",
+  "alignment": "caótico neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 331
+ },
+ {
+  "id": "monster.guerrero-goblin",
+  "name": "Guerrero goblin",
+  "size": "Pequeño",
+  "type": "Feérico",
+  "alignment": "caótico neutral",
+  "ac": 15,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 331
+ },
+ {
+  "id": "monster.jefe-goblin",
+  "name": "Jefe goblin",
+  "size": "Pequeño",
+  "type": "Feérico",
+  "alignment": "caótico neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 331
+ },
+ {
+  "id": "monster.golem-de-arcilla",
+  "name": "Gólem de arcilla",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "9 (5000 PX; BC +4)",
+   "cr": 9,
+   "xp": 5000,
+   "proficiencyBonus": 4
+  },
+  "page": 331
+ },
+ {
+  "id": "monster.golem-de-carne",
+  "name": "Gólem de carne",
+  "size": "Mediano",
+  "type": "Autómata",
+  "alignment": "neutral",
+  "ac": 9,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 332
+ },
+ {
+  "id": "monster.golem-de-hierro",
+  "name": "Gólem de hierro",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 20,
+  "challenge": {
+   "raw": "16 (15 000 PX; BC +5)",
+   "cr": 16,
+   "xp": 15000,
+   "proficiencyBonus": 5
+  },
+  "page": 332
+ },
+ {
+  "id": "monster.golem-de-piedra",
+  "name": "Gólem de piedra",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 18,
+  "challenge": {
+   "raw": "10 (5900 PX; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4
+  },
+  "page": 333
+ },
+ {
+  "id": "monster.gorgon",
+  "name": "Gorgon",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 19,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 333
+ },
+ {
+  "id": "monster.grick",
+  "name": "Grick",
+  "size": "Mediano",
+  "type": "Aberración",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 334
+ },
+ {
+  "id": "monster.grifo",
+  "name": "Grifo",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 334
+ },
+ {
+  "id": "monster.grimlock",
+  "name": "Grimlock",
+  "size": "Mediano",
+  "type": "Aberración",
+  "alignment": "neutral malvada",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 334
+ },
+ {
+  "id": "monster.guardian-escudo",
+  "name": "Guardián escudo",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 17,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 334
+ },
+ {
+  "id": "monster.guardia",
+  "name": "Guardia",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 16,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 335
+ },
+ {
+  "id": "monster.capitan-de-la-guardia",
+  "name": "Capitán de la guardia",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 18,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 335
+ },
+ {
+  "id": "monster.guerrero-de-infanteria",
+  "name": "Guerrero de infantería",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 335
+ },
+ {
+  "id": "monster.guerrero-veterano",
+  "name": "Guerrero veterano",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 335
+ },
+ {
+  "id": "monster.guiverno",
+  "name": "Guiverno",
+  "size": "Grande",
+  "type": "Dragón",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 336
+ },
+ {
+  "id": "monster.gul",
+  "name": "Gul",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "caótico malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 336
+ },
+ {
+  "id": "monster.gusano-purpura",
+  "name": "Gusano púrpura",
+  "size": "Gargantuesco",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 18,
+  "challenge": {
+   "raw": "15 (13 000 PX; BC +5)",
+   "cr": 15,
+   "xp": 13000,
+   "proficiencyBonus": 5
+  },
+  "page": 336
+ },
+ {
+  "id": "monster.hezrou",
+  "name": "Hezrou",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 337
+ },
+ {
+  "id": "monster.hidra",
+  "name": "Hidra",
+  "size": "Enorme",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 337
+ },
+ {
+  "id": "monster.hipogrifo",
+  "name": "Hipogrifo",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 338
+ },
+ {
+  "id": "monster.guerrero-hobgoblin",
+  "name": "Guerrero hobgoblin",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "legal malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 338
+ },
+ {
+  "id": "monster.capitan-hobgoblin",
+  "name": "Capitán hobgoblin",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 338
+ },
+ {
+  "id": "monster.hombre-jabali",
+  "name": "Hombre jabalí",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 15,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 338
+ },
+ {
+  "id": "monster.hombre-lobo",
+  "name": "Hombre lobo",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 339
+ },
+ {
+  "id": "monster.hombre-oso",
+  "name": "Hombre oso",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral buena",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 339
+ },
+ {
+  "id": "monster.hombre-rata",
+  "name": "Hombre rata",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "legal malvada",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 340
+ },
+ {
+  "id": "monster.hombre-tigre",
+  "name": "Hombre tigre",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 340
+ },
+ {
+  "id": "monster.homunculo",
+  "name": "Homúnculo",
+  "size": "Diminuto",
+  "type": "Autómata",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 341
+ },
+ {
+  "id": "monster.hongo-chillon",
+  "name": "Hongo chillón",
+  "size": "Mediano",
+  "type": "Planta",
+  "alignment": "sin alineamiento",
+  "ac": 5,
+  "challenge": {
+   "raw": "0 (0 PX; BC +2)",
+   "cr": 0,
+   "xp": 0,
+   "proficiencyBonus": 2
+  },
+  "page": 341
+ },
+ {
+  "id": "monster.hongo-violeta",
+  "name": "Hongo violeta",
+  "size": "Mediano",
+  "type": "Planta",
+  "alignment": "sin alineamiento",
+  "ac": 5,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 341
+ },
+ {
+  "id": "monster.huargo",
+  "name": "Huargo",
+  "size": "Grande",
+  "type": "Feérico",
+  "alignment": "neutral malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 341
+ },
+ {
+  "id": "monster.ifrit",
+  "name": "Ifrit",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 342
+ },
+ {
+  "id": "monster.incubo",
+  "name": "Íncubo",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "neutral malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 342
+ },
+ {
+  "id": "monster.guerrero-kobold",
+  "name": "Guerrero kobold",
+  "size": "Pequeño",
+  "type": "Dragón",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 343
+ },
+ {
+  "id": "monster.kraken",
+  "name": "Kraken",
+  "size": "Gargantuesco",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 18,
+  "challenge": {
+   "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+   "cr": 23,
+   "xp": 50000,
+   "proficiencyBonus": 7,
+   "xpInLair": 62000
+  },
+  "page": 343
+ },
+ {
+  "id": "monster.lacero",
+  "name": "Lacero",
+  "size": "Grande",
+  "type": "Aberración",
+  "alignment": "neutral malvada",
+  "ac": 20,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 344
+ },
+ {
+  "id": "monster.lamia",
+  "name": "Lamia",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 344
+ },
+ {
+  "id": "monster.lemur",
+  "name": "Lémur",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 9,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 344
+ },
+ {
+  "id": "monster.liche",
+  "name": "Liche",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 20,
+  "challenge": {
+   "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+   "cr": 21,
+   "xp": 33000,
+   "proficiencyBonus": 7,
+   "xpInLair": 41000
+  },
+  "page": 345
+ },
+ {
+  "id": "monster.lobo-invernal",
+  "name": "Lobo invernal",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 13,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 346
+ },
+ {
+  "id": "monster.magmin",
+  "name": "Magmin",
+  "size": "Pequeño",
+  "type": "Elemental",
+  "alignment": "caótico neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 346
+ },
+ {
+  "id": "monster.mago",
+  "name": "Mago",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 15,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 346
+ },
+ {
+  "id": "monster.archimago",
+  "name": "Archimago",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "12 (8000 PX; BC +4)",
+   "cr": 12,
+   "xp": 8000,
+   "proficiencyBonus": 4
+  },
+  "page": 347
+ },
+ {
+  "id": "monster.manticora",
+  "name": "Mantícora",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "legal malvada",
+  "ac": 14,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 347
+ },
+ {
+  "id": "monster.manto",
+  "name": "Manto",
+  "size": "Grande",
+  "type": "Aberración",
+  "alignment": "caótica neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 347
+ },
+ {
+  "id": "monster.mantoscuro",
+  "name": "Mantoscuro",
+  "size": "Pequeño",
+  "type": "Aberración",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 348
+ },
+ {
+  "id": "monster.marilith",
+  "name": "Marilith",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 16,
+  "challenge": {
+   "raw": "16 (15 000 PX; BC +5)",
+   "cr": 16,
+   "xp": 15000,
+   "proficiencyBonus": 5
+  },
+  "page": 348
+ },
+ {
+  "id": "monster.medusa",
+  "name": "Medusa",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "legal malvada",
+  "ac": 15,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 349
+ },
+ {
+  "id": "monster.mephit-de-hielo",
+  "name": "Mephit de hielo",
+  "size": "Pequeño",
+  "type": "Elemental",
+  "alignment": "neutral malvado",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 349
+ },
+ {
+  "id": "monster.mephit-de-magma",
+  "name": "Mephit de magma",
+  "size": "Pequeño",
+  "type": "Elemental",
+  "alignment": "neutral malvado",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 349
+ },
+ {
+  "id": "monster.mephit-de-polvo",
+  "name": "Mephit de polvo",
+  "size": "Pequeño",
+  "type": "Elemental",
+  "alignment": "neutral malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 350
+ },
+ {
+  "id": "monster.mephit-de-vapor",
+  "name": "Mephit de vapor",
+  "size": "Pequeño",
+  "type": "Elemental",
+  "alignment": "neutral malvado",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 350
+ },
+ {
+  "id": "monster.merrow",
+  "name": "Merrow",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 350
+ },
+ {
+  "id": "monster.mimeto",
+  "name": "Mimeto",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 351
+ },
+ {
+  "id": "monster.minotauro-de-bafomet",
+  "name": "Minotauro de Bafomet",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 14,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 351
+ },
+ {
+  "id": "monster.momia",
+  "name": "Momia",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 11,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 351
+ },
+ {
+  "id": "monster.senor-de-las-momias",
+  "name": "Señor de las momias",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "15 (13 000 PX o 15 000 en la guarida; BC +5)",
+   "cr": 15,
+   "xp": 13000,
+   "proficiencyBonus": 5,
+   "xpInLair": 15000
+  },
+  "page": 352
+ },
+ {
+  "id": "monster.monstruo-corrosivo",
+  "name": "Monstruo corrosivo",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 353
+ },
+ {
+  "id": "monster.naga-espiritual",
+  "name": "Naga espiritual",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 353
+ },
+ {
+  "id": "monster.naga-guardiana",
+  "name": "Naga guardiana",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 18,
+  "challenge": {
+   "raw": "10 (5900 PX; BC +4)",
+   "cr": 10,
+   "xp": 5900,
+   "proficiencyBonus": 4
+  },
+  "page": 353
+ },
+ {
+  "id": "monster.nalfeshnee",
+  "name": "Nalfeshnee",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 18,
+  "challenge": {
+   "raw": "13 (10 000 PX; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 354
+ },
+ {
+  "id": "monster.noble",
+  "name": "Noble",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 15,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 354
+ },
+ {
+  "id": "monster.alfombra-asfixiante-animada",
+  "name": "Alfombra asfixiante animada",
+  "size": "Grande",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 355
+ },
+ {
+  "id": "monster.armadura-animada",
+  "name": "Armadura animada",
+  "size": "Mediano",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 18,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 355
+ },
+ {
+  "id": "monster.espada-voladora-animada",
+  "name": "Espada voladora animada",
+  "size": "Pequeño",
+  "type": "Autómata",
+  "alignment": "sin alineamiento",
+  "ac": 17,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 355
+ },
+ {
+  "id": "monster.ogro",
+  "name": "Ogro",
+  "size": "Grande",
+  "type": "Gigante",
+  "alignment": "caótico malvado",
+  "ac": 11,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 355
+ },
+ {
+  "id": "monster.oni",
+  "name": "Oni",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 355
+ },
+ {
+  "id": "monster.acechador-osgo",
+  "name": "Acechador osgo",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "caótico malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 356
+ },
+ {
+  "id": "monster.guerrero-osgo",
+  "name": "Guerrero osgo",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "caótico malvado",
+  "ac": 14,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 356
+ },
+ {
+  "id": "monster.oso-lechuza",
+  "name": "Oso lechuza",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 357
+ },
+ {
+  "id": "monster.otyugh",
+  "name": "Otyugh",
+  "size": "Grande",
+  "type": "Aberración",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 357
+ },
+ {
+  "id": "monster.pegaso",
+  "name": "Pegaso",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "caótico bueno",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 357
+ },
+ {
+  "id": "monster.pendenciero",
+  "name": "Pendenciero",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 357
+ },
+ {
+  "id": "monster.jefe-pendenciero",
+  "name": "Jefe pendenciero",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 16,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 358
+ },
+ {
+  "id": "monster.perro-del-inframundo",
+  "name": "Perro del inframundo",
+  "size": "Mediano",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 358
+ },
+ {
+  "id": "monster.perro-intermitente",
+  "name": "Perro intermitente",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "legal bueno",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 358
+ },
+ {
+  "id": "monster.pesadilla",
+  "name": "Pesadilla",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "neutral malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 359
+ },
+ {
+  "id": "monster.pico-de-hacha",
+  "name": "Pico de hacha",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 359
+ },
+ {
+  "id": "monster.pirata",
+  "name": "Pirata",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 14,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 359
+ },
+ {
+  "id": "monster.capitan-pirata",
+  "name": "Capitán pirata",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 17,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 359
+ },
+ {
+  "id": "monster.planetar",
+  "name": "Planetar",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 19,
+  "challenge": {
+   "raw": "16 (15 000 PX; BC +5)",
+   "cr": 16,
+   "xp": 15000,
+   "proficiencyBonus": 5
+  },
+  "page": 360
+ },
+ {
+  "id": "monster.arbol-despertado",
+  "name": "Árbol despertado",
+  "size": "Enorme",
+  "type": "Planta",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 360
+ },
+ {
+  "id": "monster.arbusto-despertado",
+  "name": "Arbusto despertado",
+  "size": "Pequeño",
+  "type": "Planta",
+  "alignment": "neutral",
+  "ac": 9,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 360
+ },
+ {
+  "id": "monster.plebeyo",
+  "name": "Plebeyo",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 10,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 361
+ },
+ {
+  "id": "monster.pseudodragon",
+  "name": "Pseudodragón",
+  "size": "Diminuto",
+  "type": "Dragón",
+  "alignment": "neutral bueno",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 361
+ },
+ {
+  "id": "monster.pudin-negro",
+  "name": "Pudin negro",
+  "size": "Grande",
+  "type": "Cieno",
+  "alignment": "sin alineamiento",
+  "ac": 7,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 361
+ },
+ {
+  "id": "monster.quasit",
+  "name": "Quasit",
+  "size": "Diminuto",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 362
+ },
+ {
+  "id": "monster.quimera",
+  "name": "Quimera",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "caótica malvada",
+  "ac": 14,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 362
+ },
+ {
+  "id": "monster.rakshasa",
+  "name": "Rakshasa",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "13 (10 000 PX; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 362
+ },
+ {
+  "id": "monster.remorhaz",
+  "name": "Remorhaz",
+  "size": "Enorme",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 17,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 363
+ },
+ {
+  "id": "monster.roc",
+  "name": "Roc",
+  "size": "Gargantuesco",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "11 (7200 PX; BC +4)",
+   "cr": 11,
+   "xp": 7200,
+   "proficiencyBonus": 4
+  },
+  "page": 364
+ },
+ {
+  "id": "monster.sabueso-infernal",
+  "name": "Sabueso infernal",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 364
+ },
+ {
+  "id": "monster.sacerdote-acolito",
+  "name": "Sacerdote acólito",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 364
+ },
+ {
+  "id": "monster.sacerdote",
+  "name": "Sacerdote",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 365
+ },
+ {
+  "id": "monster.saga-cetrina",
+  "name": "Saga cetrina",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "neutral malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 365
+ },
+ {
+  "id": "monster.saga-de-la-noche",
+  "name": "Saga de la noche",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "neutral malvado",
+  "ac": 17,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 365
+ },
+ {
+  "id": "monster.saga-de-los-mares",
+  "name": "Saga de los mares",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "caótico malvado",
+  "ac": 14,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 366
+ },
+ {
+  "id": "monster.guerrero-sahuagin",
+  "name": "Guerrero sahuagin",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "legal malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 367
+ },
+ {
+  "id": "monster.salamandra",
+  "name": "Salamandra",
+  "size": "Grande",
+  "type": "Elemental",
+  "alignment": "neutral malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 367
+ },
+ {
+  "id": "monster.satiro",
+  "name": "Sátiro",
+  "size": "Mediano",
+  "type": "Feérico",
+  "alignment": "caótico neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 367
+ },
+ {
+  "id": "monster.sectario",
+  "name": "Sectario",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 368
+ },
+ {
+  "id": "monster.fanatico-sectario",
+  "name": "Fanático sectario",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 368
+ },
+ {
+  "id": "monster.semidragon",
+  "name": "Semidragón",
+  "size": "Mediano",
+  "type": "Dragón",
+  "alignment": "neutral",
+  "ac": 18,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 368
+ },
+ {
+  "id": "monster.experto-en-escaramuzas-sirenido",
+  "name": "Experto en escaramuzas sirénido",
+  "size": "Mediano",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 368
+ },
+ {
+  "id": "monster.solar",
+  "name": "Solar",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 21,
+  "challenge": {
+   "raw": "21 (33 000 PX; BC +7)",
+   "cr": 21,
+   "xp": 33000,
+   "proficiencyBonus": 7
+  },
+  "page": 369
+ },
+ {
+  "id": "monster.sombra",
+  "name": "Sombra",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "caótico malvado",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 369
+ },
+ {
+  "id": "monster.sucubo",
+  "name": "Súcubo",
+  "size": "Mediano",
+  "type": "Infernal",
+  "alignment": "neutral malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 370
+ },
+ {
+  "id": "monster.tarasca",
+  "name": "Tarasca",
+  "size": "Gargantuesco",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 25,
+  "challenge": {
+   "raw": "30 (155 000 PX; BC +9)",
+   "cr": 30,
+   "xp": 155000,
+   "proficiencyBonus": 9
+  },
+  "page": 370
+ },
+ {
+  "id": "monster.troll",
+  "name": "Troll",
+  "size": "Grande",
+  "type": "Gigante",
+  "alignment": "caótico malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 371
+ },
+ {
+  "id": "monster.extremidad-de-troll",
+  "name": "Extremidad de troll",
+  "size": "Pequeño",
+  "type": "Gigante",
+  "alignment": "caótico malvado",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 372
+ },
+ {
+  "id": "monster.tumulario",
+  "name": "Tumulario",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 14,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 372
+ },
+ {
+  "id": "monster.unicornio",
+  "name": "Unicornio",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "legal bueno",
+  "ac": 12,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 372
+ },
+ {
+  "id": "monster.siervo-de-vampiro",
+  "name": "Siervo de vampiro",
+  "size": "Mediano",
+  "type": "Humanoide",
+  "alignment": "neutral malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 373
+ },
+ {
+  "id": "monster.engendro-vampirico",
+  "name": "Engendro vampírico",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 16,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 373
+ },
+ {
+  "id": "monster.vampiro",
+  "name": "Vampiro",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "legal malvado",
+  "ac": 16,
+  "challenge": {
+   "raw": "13 (10 000 PX u 11 500 en la guarida; BC +5)",
+   "cr": 13,
+   "xp": 10000,
+   "proficiencyBonus": 5
+  },
+  "page": 374
+ },
+ {
+  "id": "monster.vrock",
+  "name": "Vrock",
+  "size": "Grande",
+  "type": "Infernal",
+  "alignment": "caótico malvado",
+  "ac": 15,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 375
+ },
+ {
+  "id": "monster.xorn",
+  "name": "Xorn",
+  "size": "Mediano",
+  "type": "Elemental",
+  "alignment": "neutral",
+  "ac": 19,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 375
+ },
+ {
+  "id": "monster.zombi",
+  "name": "Zombi",
+  "size": "Mediano",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 8,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 376
+ },
+ {
+  "id": "monster.ogro-zombi",
+  "name": "Ogro zombi",
+  "size": "Grande",
+  "type": "Muerto viviente",
+  "alignment": "neutral malvado",
+  "ac": 8,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 376
+ },
+ {
+  "id": "monster.aguila",
+  "name": "Águila",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 376
+ },
+ {
+  "id": "monster.aguila-gigante",
+  "name": "Águila gigante",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "neutral bueno",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 376
+ },
+ {
+  "id": "monster.alce",
+  "name": "Alce",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 376
+ },
+ {
+  "id": "monster.alce-gigante",
+  "name": "Alce gigante",
+  "size": "Enorme",
+  "type": "Celestial",
+  "alignment": "neutral bueno",
+  "ac": 14,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 377
+ },
+ {
+  "id": "monster.alosaurio",
+  "name": "Alosaurio",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 377
+ },
+ {
+  "id": "monster.anquilosaurio",
+  "name": "Anquilosaurio",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 377
+ },
+ {
+  "id": "monster.arana",
+  "name": "Araña",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 377
+ },
+ {
+  "id": "monster.arana-gigante",
+  "name": "Araña gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 378
+ },
+ {
+  "id": "monster.archelon",
+  "name": "Archelon",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 17,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 378
+ },
+ {
+  "id": "monster.avispa-gigante",
+  "name": "Avispa gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 378
+ },
+ {
+  "id": "monster.babuino",
+  "name": "Babuino",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 378
+ },
+ {
+  "id": "monster.buho",
+  "name": "Búho",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 379
+ },
+ {
+  "id": "monster.buho-gigante",
+  "name": "Búho gigante",
+  "size": "Grande",
+  "type": "Celestial",
+  "alignment": "neutral",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 379
+ },
+ {
+  "id": "monster.buitre",
+  "name": "Buitre",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 379
+ },
+ {
+  "id": "monster.buitre-gigante",
+  "name": "Buitre gigante",
+  "size": "Grande",
+  "type": "Monstruosidad",
+  "alignment": "neutral malvada",
+  "ac": 10,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 379
+ },
+ {
+  "id": "monster.caballito-de-mar",
+  "name": "Caballito de mar",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (0 PX; BC +2)",
+   "cr": 0,
+   "xp": 0,
+   "proficiencyBonus": 2
+  },
+  "page": 380
+ },
+ {
+  "id": "monster.caballito-de-mar-gigante",
+  "name": "Caballito de mar gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 380
+ },
+ {
+  "id": "monster.caballo-de-guerra",
+  "name": "Caballo de guerra",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 380
+ },
+ {
+  "id": "monster.caballo-de-monta",
+  "name": "Caballo de monta",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 380
+ },
+ {
+  "id": "monster.caballo-de-tiro",
+  "name": "Caballo de tiro",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 380
+ },
+ {
+  "id": "monster.cabra",
+  "name": "Cabra",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 381
+ },
+ {
+  "id": "monster.cabra-gigante",
+  "name": "Cabra gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 381
+ },
+ {
+  "id": "monster.camello",
+  "name": "Camello",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 381
+ },
+ {
+  "id": "monster.cangrejo",
+  "name": "Cangrejo",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 381
+ },
+ {
+  "id": "monster.cangrejo-gigante",
+  "name": "Cangrejo gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 381
+ },
+ {
+  "id": "monster.chacal",
+  "name": "Chacal",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 382
+ },
+ {
+  "id": "monster.ciempies-gigante",
+  "name": "Ciempiés gigante",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 382
+ },
+ {
+  "id": "monster.ciervo",
+  "name": "Ciervo",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 382
+ },
+ {
+  "id": "monster.cocodrilo",
+  "name": "Cocodrilo",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 382
+ },
+ {
+  "id": "monster.cocodrilo-gigante",
+  "name": "Cocodrilo gigante",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 382
+ },
+ {
+  "id": "monster.comadreja",
+  "name": "Comadreja",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 383
+ },
+ {
+  "id": "monster.comadreja-gigante",
+  "name": "Comadreja gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 383
+ },
+ {
+  "id": "monster.cuervo",
+  "name": "Cuervo",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 383
+ },
+ {
+  "id": "monster.elefante",
+  "name": "Elefante",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 383
+ },
+ {
+  "id": "monster.enjambre-de-cuervos",
+  "name": "Enjambre de cuervos",
+  "size": "Mediano",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 384
+ },
+ {
+  "id": "monster.enjambre-de-insectos",
+  "name": "Enjambre de insectos",
+  "size": "Mediano",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 384
+ },
+ {
+  "id": "monster.enjambre-de-murcielagos",
+  "name": "Enjambre de murciélagos",
+  "size": "Grande",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 384
+ },
+ {
+  "id": "monster.enjambre-de-piranas",
+  "name": "Enjambre de pirañas",
+  "size": "Mediano",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 384
+ },
+ {
+  "id": "monster.enjambre-de-ratas",
+  "name": "Enjambre de ratas",
+  "size": "Mediano",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 385
+ },
+ {
+  "id": "monster.enjambre-de-serpientes-venenosas",
+  "name": "Enjambre de serpientes venenosas",
+  "size": "Mediano",
+  "type": "Enjambre de bestias Diminutas",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 385
+ },
+ {
+  "id": "monster.escarabajo-de-fuego-gigante",
+  "name": "Escarabajo de fuego gigante",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 385
+ },
+ {
+  "id": "monster.escorpion",
+  "name": "Escorpión",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 385
+ },
+ {
+  "id": "monster.escorpion-gigante",
+  "name": "Escorpión gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 15,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 386
+ },
+ {
+  "id": "monster.gato",
+  "name": "Gato",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 386
+ },
+ {
+  "id": "monster.halcon",
+  "name": "Halcón",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 386
+ },
+ {
+  "id": "monster.halcon-sangriento",
+  "name": "Halcón sangriento",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 386
+ },
+ {
+  "id": "monster.hiena",
+  "name": "Hiena",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 386
+ },
+ {
+  "id": "monster.hiena-gigante",
+  "name": "Hiena gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 387
+ },
+ {
+  "id": "monster.hipopotamo",
+  "name": "Hipopótamo",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "4 (1100 PX; BC +2)",
+   "cr": 4,
+   "xp": 1100,
+   "proficiencyBonus": 2
+  },
+  "page": 387
+ },
+ {
+  "id": "monster.jabali",
+  "name": "Jabalí",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 387
+ },
+ {
+  "id": "monster.jabali-gigante",
+  "name": "Jabalí gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 387
+ },
+ {
+  "id": "monster.lagarto",
+  "name": "Lagarto",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 388
+ },
+ {
+  "id": "monster.lagarto-gigante",
+  "name": "Lagarto gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 388
+ },
+ {
+  "id": "monster.leon",
+  "name": "León",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 388
+ },
+ {
+  "id": "monster.lobo",
+  "name": "Lobo",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 388
+ },
+ {
+  "id": "monster.lobo-terrible",
+  "name": "Lobo terrible",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 389
+ },
+ {
+  "id": "monster.mamut",
+  "name": "Mamut",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "6 (2300 PX; BC +3)",
+   "cr": 6,
+   "xp": 2300,
+   "proficiencyBonus": 3
+  },
+  "page": 389
+ },
+ {
+  "id": "monster.mastin",
+  "name": "Mastín",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 389
+ },
+ {
+  "id": "monster.mula",
+  "name": "Mula",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 389
+ },
+ {
+  "id": "monster.murcielago",
+  "name": "Murciélago",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 389
+ },
+ {
+  "id": "monster.murcielago-gigante",
+  "name": "Murciélago gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 390
+ },
+ {
+  "id": "monster.orca",
+  "name": "Orca",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "3 (700 PX; BC +2)",
+   "cr": 3,
+   "xp": 700,
+   "proficiencyBonus": 2
+  },
+  "page": 390
+ },
+ {
+  "id": "monster.oso-negro",
+  "name": "Oso negro",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 390
+ },
+ {
+  "id": "monster.oso-pardo",
+  "name": "Oso pardo",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 390
+ },
+ {
+  "id": "monster.oso-polar",
+  "name": "Oso polar",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 390
+ },
+ {
+  "id": "monster.pantera",
+  "name": "Pantera",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 391
+ },
+ {
+  "id": "monster.pirana",
+  "name": "Piraña",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 391
+ },
+ {
+  "id": "monster.plesiosaurio",
+  "name": "Plesiosaurio",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 391
+ },
+ {
+  "id": "monster.poni",
+  "name": "Poni",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 391
+ },
+ {
+  "id": "monster.pteranodon",
+  "name": "Pteranodon",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 391
+ },
+ {
+  "id": "monster.pulpo",
+  "name": "Pulpo",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 392
+ },
+ {
+  "id": "monster.pulpo-gigante",
+  "name": "Pulpo gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 392
+ },
+ {
+  "id": "monster.rana",
+  "name": "Rana",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 392
+ },
+ {
+  "id": "monster.rana-gigante",
+  "name": "Rana gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 392
+ },
+ {
+  "id": "monster.rata",
+  "name": "Rata",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 10,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 393
+ },
+ {
+  "id": "monster.rata-gigante",
+  "name": "Rata gigante",
+  "size": "Pequeño",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 393
+ },
+ {
+  "id": "monster.rinoceronte",
+  "name": "Rinoceronte",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 393
+ },
+ {
+  "id": "monster.sapo-gigante",
+  "name": "Sapo gigante",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 394
+ },
+ {
+  "id": "monster.serpiente-constrictora",
+  "name": "Serpiente constrictora",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 394
+ },
+ {
+  "id": "monster.serpiente-constrictora-gigante",
+  "name": "Serpiente constrictora gigante",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 394
+ },
+ {
+  "id": "monster.serpiente-venenosa",
+  "name": "Serpiente venenosa",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 394
+ },
+ {
+  "id": "monster.serpiente-venenosa-gigante",
+  "name": "Serpiente venenosa gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 395
+ },
+ {
+  "id": "monster.serpiente-voladora",
+  "name": "Serpiente voladora",
+  "size": "Diminuto",
+  "type": "Monstruosidad",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "1/8 (25 PX; BC +2)",
+   "cr": 0.125,
+   "xp": 25,
+   "proficiencyBonus": 2
+  },
+  "page": 395
+ },
+ {
+  "id": "monster.simio",
+  "name": "Simio",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 395
+ },
+ {
+  "id": "monster.simio-gigante",
+  "name": "Simio gigante",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "7 (2900 PX; BC +3)",
+   "cr": 7,
+   "xp": 2900,
+   "proficiencyBonus": 3
+  },
+  "page": 395
+ },
+ {
+  "id": "monster.tarantula-gigante",
+  "name": "Tarántula gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 395
+ },
+ {
+  "id": "monster.tejon",
+  "name": "Tejón",
+  "size": "Diminuto",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 11,
+  "challenge": {
+   "raw": "0 (10 PX; BC +2)",
+   "cr": 0,
+   "xp": 10,
+   "proficiencyBonus": 2
+  },
+  "page": 396
+ },
+ {
+  "id": "monster.tejon-gigante",
+  "name": "Tejón gigante",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1/4 (50 PX; BC +2)",
+   "cr": 0.25,
+   "xp": 50,
+   "proficiencyBonus": 2
+  },
+  "page": 396
+ },
+ {
+  "id": "monster.tiburon-cazador",
+  "name": "Tiburón cazador",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2)",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 396
+ },
+ {
+  "id": "monster.tiburon-de-arrecife",
+  "name": "Tiburón de arrecife",
+  "size": "Mediano",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 12,
+  "challenge": {
+   "raw": "1/2 (100 PX; BC +2)",
+   "cr": 0.5,
+   "xp": 100,
+   "proficiencyBonus": 2
+  },
+  "page": 396
+ },
+ {
+  "id": "monster.tiburon-gigante",
+  "name": "Tiburón gigante",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 396
+ },
+ {
+  "id": "monster.tigre",
+  "name": "Tigre",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "1 (200 PX; BC +2)",
+   "cr": 1,
+   "xp": 200,
+   "proficiencyBonus": 2
+  },
+  "page": 397
+ },
+ {
+  "id": "monster.tigre-dientes-de-sable",
+  "name": "Tigre dientes de sable",
+  "size": "Grande",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "2 (450 PX; BC +2) Huida veloz. El tigre realiza las acciones de destrabarse o esconderse.",
+   "cr": 2,
+   "xp": 450,
+   "proficiencyBonus": 2
+  },
+  "page": 397
+ },
+ {
+  "id": "monster.tiranosaurio-rex",
+  "name": "Tiranosaurio rex",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 13,
+  "challenge": {
+   "raw": "8 (3900 PX; BC +3)",
+   "cr": 8,
+   "xp": 3900,
+   "proficiencyBonus": 3
+  },
+  "page": 397
+ },
+ {
+  "id": "monster.triceratops",
+  "name": "Triceratops",
+  "size": "Enorme",
+  "type": "Bestia",
+  "alignment": "sin alineamiento",
+  "ac": 14,
+  "challenge": {
+   "raw": "5 (1800 PX; BC +3)",
+   "cr": 5,
+   "xp": 1800,
+   "proficiencyBonus": 3
+  },
+  "page": 398
+ }
+]

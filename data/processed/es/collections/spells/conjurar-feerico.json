@@ -1,0 +1,60 @@
+{
+ "id": "spell.conjurar-feerico",
+ "name": "Conjurar feérico",
+ "level": 6,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo.\n\nComo acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d12 por cada nivel por encima de 6 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo.",
+   "text": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo."
+  },
+  {
+   "type": "paragraph",
+   "page": 132,
+   "md": "Como acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él.",
+   "text": "Como acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él."
+  },
+  {
+   "type": "definition",
+   "page": 132,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d12 por cada nivel por encima de 6 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d12 por cada nivel por encima de 6 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 132
+ }
+}

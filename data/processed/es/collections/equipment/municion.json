@@ -1,0 +1,26 @@
+{
+ "id": "gear.municion",
+ "name": "Munición",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Munición",
+  "Peso": "Variable",
+  "Precio": "Variable"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "text": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 98,
+   "md": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él.",
+   "text": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él."
+  }
+ ],
+ "descriptionPage": 98
+}

@@ -1,0 +1,100 @@
+{
+ "id": "monster.secuaz-goblin",
+ "name": "Secuaz goblin",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 331
+ },
+ "context": [
+  "Goblins"
+ ],
+ "metaRaw": "Feérico Pequeño (trasgo), caótico neutral",
+ "type": "Feérico",
+ "alignment": "caótico neutral",
+ "size": "Pequeño",
+ "tags": [
+  "trasgo"
+ ],
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "7 (2d6)",
+  "average": 7,
+  "formula": "2d6"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "común",
+  "goblin"
+ ],
+ "gear": [
+  "dagas (3)"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Daga",
+   "md": "***Daga.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +4, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d4 + 2) de daño perforante.",
+   "page": 331,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +4, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d4 + 2) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Huida veloz",
+   "md": "***Huida veloz.*** El goblin realiza las acciones de destrabarse o esconderse.",
+   "page": 331,
+   "description": "El goblin realiza las acciones de destrabarse o esconderse."
+  }
+ ]
+}

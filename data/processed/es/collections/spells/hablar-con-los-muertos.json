@@ -1,0 +1,58 @@
+{
+ "id": "spell.hablar-con-los-muertos",
+ "name": "Hablar con los muertos",
+ "level": 3,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S, M (incienso para quemar)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso para quemar",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "10 minutos",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Otorgas una apariencia de vida a un cadáver de tu elección dentro del alcance para que pueda responder a tus preguntas. El cadáver debe tener boca y el conjuro falla si la criatura difunta era un muerto viviente cuando falleció. El conjuro también falla si el cadáver ya ha sido el objetivo de este conjuro en los últimos 10 días.\n\nHasta que el conjuro termine, puedes hacerle al cadáver hasta cinco preguntas. Este solo sabe lo que sabía en vida, incluidos los idiomas. Sus respuestas suelen ser breves, crípticas o repetitivas, y no se siente obligado a darte una respuesta verdadera si eres hostil con él o te reconoce como un enemigo. Este conjuro no devuelve el alma de la criatura a su cuerpo, solo anima su espíritu. Por tanto, el cadáver no puede aprender nueva información, no entiende nada que haya ocurrido después su muerte y no puede especular sobre sucesos futuros.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "Otorgas una apariencia de vida a un cadáver de tu elección dentro del alcance para que pueda responder a tus preguntas. El cadáver debe tener boca y el conjuro falla si la criatura difunta era un muerto viviente cuando falleció. El conjuro también falla si el cadáver ya ha sido el objetivo de este conjuro en los últimos 10 días.",
+   "text": "Otorgas una apariencia de vida a un cadáver de tu elección dentro del alcance para que pueda responder a tus preguntas. El cadáver debe tener boca y el conjuro falla si la criatura difunta era un muerto viviente cuando falleció. El conjuro también falla si el cadáver ya ha sido el objetivo de este conjuro en los últimos 10 días."
+  },
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "Hasta que el conjuro termine, puedes hacerle al cadáver hasta cinco preguntas. Este solo sabe lo que sabía en vida, incluidos los idiomas. Sus respuestas suelen ser breves, crípticas o repetitivas, y no se siente obligado a darte una respuesta verdadera si eres hostil con él o te reconoce como un enemigo. Este conjuro no devuelve el alma de la criatura a su cuerpo, solo anima su espíritu. Por tanto, el cadáver no puede aprender nueva información, no entiende nada que haya ocurrido después su muerte y no puede especular sobre sucesos futuros.",
+   "text": "Hasta que el conjuro termine, puedes hacerle al cadáver hasta cinco preguntas. Este solo sabe lo que sabía en vida, incluidos los idiomas. Sus respuestas suelen ser breves, crípticas o repetitivas, y no se siente obligado a darte una respuesta verdadera si eres hostil con él o te reconoce como un enemigo. Este conjuro no devuelve el alma de la criatura a su cuerpo, solo anima su espíritu. Por tanto, el cadáver no puede aprender nueva información, no entiende nada que haya ocurrido después su muerte y no puede especular sobre sucesos futuros."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 154
+ }
+}

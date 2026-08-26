@@ -1,0 +1,879 @@
+{
+ "id": "class.barbaro",
+ "name": "Bárbaro",
+ "coreTraits": {
+  "Característica principal": "Fuerza",
+  "Dado de puntos de golpe": "1d12 por nivel de bárbaro",
+  "Competencias en tiradas de salvación": "Fuerza y Constitución",
+  "Competencias en habilidades": "Elige dos: Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales",
+  "Competencias con armas": "Armas sencillas y marciales",
+  "Entrenamiento con armaduras": "Armaduras ligeras y medias y escudos",
+  "Equipo inicial": "Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po, o (B) 75 po"
+ },
+ "progression": {
+  "caption": "Rasgos de bárbaro",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "N.º de furias",
+   "Daño por furia",
+   "Maestría con armas"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Defensa sin armadura, Furia, Maestría con armas",
+    "2",
+    "+2",
+    "2"
+   ],
+   [
+    "2",
+    "+2",
+    "Ataque temerario, Sentir el peligro",
+    "2",
+    "+2",
+    "2"
+   ],
+   [
+    "3",
+    "+2",
+    "Conocimiento primigenio, subclase de bárbaro",
+    "3",
+    "+2",
+    "2"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "3",
+    "+2",
+    "3"
+   ],
+   [
+    "5",
+    "+3",
+    "Ataque adicional, Movimiento rápido",
+    "3",
+    "+2",
+    "3"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "4",
+    "+2",
+    "3"
+   ],
+   [
+    "7",
+    "+3",
+    "Instinto salvaje, Salto instintivo",
+    "4",
+    "+2",
+    "3"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "4",
+    "+2",
+    "3"
+   ],
+   [
+    "9",
+    "+4",
+    "Golpe brutal",
+    "4",
+    "+3",
+    "3"
+   ],
+   [
+    "10",
+    "+4",
+    "Rasgo de subclase",
+    "4",
+    "+3",
+    "4"
+   ],
+   [
+    "11",
+    "+4",
+    "Furia implacable",
+    "4",
+    "+3",
+    "4"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "5",
+    "+3",
+    "4"
+   ],
+   [
+    "13",
+    "+5",
+    "Golpe brutal mejorado",
+    "5",
+    "+3",
+    "4"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "5",
+    "+3",
+    "4"
+   ],
+   [
+    "15",
+    "+5",
+    "Furia persistente",
+    "5",
+    "+3",
+    "4"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "5",
+    "+4",
+    "4"
+   ],
+   [
+    "17",
+    "+6",
+    "Golpe brutal mejorado",
+    "6",
+    "+4",
+    "4"
+   ],
+   [
+    "18",
+    "+6",
+    "Poderío indómito",
+    "6",
+    "+4",
+    "4"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "6",
+    "+4",
+    "4"
+   ],
+   [
+    "20",
+    "+6",
+    "Campeón primordial",
+    "6",
+    "+4",
+    "4"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Defensa sin armadura",
+   "title": "Nivel 1: Defensa sin armadura",
+   "subclass": null,
+   "text": "Mientras no lleves armadura alguna, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 32,
+     "md": "Mientras no lleves armadura alguna, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.",
+     "text": "Mientras no lleves armadura alguna, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo."
+    },
+    {
+     "type": "table",
+     "page": 32,
+     "caption": "Rasgos de bárbaro",
+     "header": [
+      "Nivel",
+      "Bonificador por competencia",
+      "Rasgos de clase",
+      "N.º de furias",
+      "Daño por furia",
+      "Maestría con armas"
+     ],
+     "rows": [
+      [
+       "1",
+       "+2",
+       "Defensa sin armadura, Furia, Maestría con armas",
+       "2",
+       "+2",
+       "2"
+      ],
+      [
+       "2",
+       "+2",
+       "Ataque temerario, Sentir el peligro",
+       "2",
+       "+2",
+       "2"
+      ],
+      [
+       "3",
+       "+2",
+       "Conocimiento primigenio, subclase de bárbaro",
+       "3",
+       "+2",
+       "2"
+      ],
+      [
+       "4",
+       "+2",
+       "Mejora de característica",
+       "3",
+       "+2",
+       "3"
+      ],
+      [
+       "5",
+       "+3",
+       "Ataque adicional, Movimiento rápido",
+       "3",
+       "+2",
+       "3"
+      ],
+      [
+       "6",
+       "+3",
+       "Rasgo de subclase",
+       "4",
+       "+2",
+       "3"
+      ],
+      [
+       "7",
+       "+3",
+       "Instinto salvaje, Salto instintivo",
+       "4",
+       "+2",
+       "3"
+      ],
+      [
+       "8",
+       "+3",
+       "Mejora de característica",
+       "4",
+       "+2",
+       "3"
+      ],
+      [
+       "9",
+       "+4",
+       "Golpe brutal",
+       "4",
+       "+3",
+       "3"
+      ],
+      [
+       "10",
+       "+4",
+       "Rasgo de subclase",
+       "4",
+       "+3",
+       "4"
+      ],
+      [
+       "11",
+       "+4",
+       "Furia implacable",
+       "4",
+       "+3",
+       "4"
+      ],
+      [
+       "12",
+       "+4",
+       "Mejora de característica",
+       "5",
+       "+3",
+       "4"
+      ],
+      [
+       "13",
+       "+5",
+       "Golpe brutal mejorado",
+       "5",
+       "+3",
+       "4"
+      ],
+      [
+       "14",
+       "+5",
+       "Rasgo de subclase",
+       "5",
+       "+3",
+       "4"
+      ],
+      [
+       "15",
+       "+5",
+       "Furia persistente",
+       "5",
+       "+3",
+       "4"
+      ],
+      [
+       "16",
+       "+5",
+       "Mejora de característica",
+       "5",
+       "+4",
+       "4"
+      ],
+      [
+       "17",
+       "+6",
+       "Golpe brutal mejorado",
+       "6",
+       "+4",
+       "4"
+      ],
+      [
+       "18",
+       "+6",
+       "Poderío indómito",
+       "6",
+       "+4",
+       "4"
+      ],
+      [
+       "19",
+       "+6",
+       "Don épico",
+       "6",
+       "+4",
+       "4"
+      ],
+      [
+       "20",
+       "+6",
+       "Campeón primordial",
+       "6",
+       "+4",
+       "4"
+      ]
+     ]
+    }
+   ],
+   "page": 32
+  },
+  {
+   "level": 1,
+   "name": "Furia",
+   "title": "Nivel 1: Furia",
+   "subclass": null,
+   "text": "Puedes imbuirte de un poder primigenio llamado furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como acción adicional si no llevas puesta una armadura pesada.\n\nPuedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro”. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.\n\nMientras estés enfurecido, usa las siguientes reglas.\n\nResistencia al daño. Tienes resistencia al daño contundente, cortante y perforante.\n\nDaño por furia. Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un arma o un ataque sin armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de bárbaro, como se muestra en la columna “Daño por furia” de la tabla “Rasgos de bárbaro”.\n\nVentaja en Fuerza. Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.\n\nSin concentración ni conjuros. No puedes mantener la concentración ni lanzar conjuros.\n\nDuración. La furia dura hasta el final de tu siguiente turno y termina antes si te pones una armadura pesada o recibes el estado de incapacitado. Si la furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:\n\n• Haces una tirada de ataque contra un enemigo.\n\n• Obligas a un enemigo a hacer una tirada de salvación.\n\n• Empleas una acción adicional para prolongar tu furia.\n\nCada vez que prolongues la furia, durará hasta el final de tu siguiente turno. Puedes mantener una furia hasta 10 minutos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Puedes imbuirte de un poder primigenio llamado furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como acción adicional si no llevas puesta una armadura pesada.",
+     "text": "Puedes imbuirte de un poder primigenio llamado furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como acción adicional si no llevas puesta una armadura pesada."
+    },
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro”. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.",
+     "text": "Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro”. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Mientras estés enfurecido, usa las siguientes reglas.",
+     "text": "Mientras estés enfurecido, usa las siguientes reglas."
+    },
+    {
+     "type": "definition",
+     "page": 33,
+     "md": "***Resistencia al daño.*** Tienes resistencia al daño contundente, cortante y perforante.",
+     "text": "Resistencia al daño. Tienes resistencia al daño contundente, cortante y perforante."
+    },
+    {
+     "type": "definition",
+     "page": 33,
+     "md": "***Daño por furia.*** Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un arma o un ataque sin armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de bárbaro, como se muestra en la columna “Daño por furia” de la tabla “Rasgos de bárbaro”.",
+     "text": "Daño por furia. Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un arma o un ataque sin armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de bárbaro, como se muestra en la columna “Daño por furia” de la tabla “Rasgos de bárbaro”."
+    },
+    {
+     "type": "definition",
+     "page": 33,
+     "md": "***Ventaja en Fuerza.*** Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.",
+     "text": "Ventaja en Fuerza. Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza."
+    },
+    {
+     "type": "definition",
+     "page": 33,
+     "md": "***Sin concentración ni conjuros.*** No puedes mantener la concentración ni lanzar conjuros.",
+     "text": "Sin concentración ni conjuros. No puedes mantener la concentración ni lanzar conjuros."
+    },
+    {
+     "type": "definition",
+     "page": 33,
+     "md": "***Duración.*** La furia dura hasta el final de tu siguiente turno y termina antes si te pones una armadura pesada o recibes el estado de incapacitado. Si la furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:",
+     "text": "Duración. La furia dura hasta el final de tu siguiente turno y termina antes si te pones una armadura pesada o recibes el estado de incapacitado. Si la furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:"
+    },
+    {
+     "type": "list-item",
+     "page": 33,
+     "md": "• Haces una tirada de ataque contra un enemigo.",
+     "text": "• Haces una tirada de ataque contra un enemigo."
+    },
+    {
+     "type": "list-item",
+     "page": 33,
+     "md": "• Obligas a un enemigo a hacer una tirada de salvación.",
+     "text": "• Obligas a un enemigo a hacer una tirada de salvación."
+    },
+    {
+     "type": "list-item",
+     "page": 33,
+     "md": "• Empleas una acción adicional para prolongar tu furia.",
+     "text": "• Empleas una acción adicional para prolongar tu furia."
+    },
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Cada vez que prolongues la furia, durará hasta el final de tu siguiente turno. Puedes mantener una furia hasta 10 minutos.",
+     "text": "Cada vez que prolongues la furia, durará hasta el final de tu siguiente turno. Puedes mantener una furia hasta 10 minutos."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 1,
+   "name": "Maestría con armas",
+   "title": "Nivel 1: Maestría con armas",
+   "subclass": null,
+   "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección, como las hachas a dos manos y las hachas de mano. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.\n\nCuando alcances ciertos niveles de bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de bárbaro”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección, como las hachas a dos manos y las hachas de mano. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.",
+     "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección, como las hachas a dos manos y las hachas de mano. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones."
+    },
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Cuando alcances ciertos niveles de bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de bárbaro”.",
+     "text": "Cuando alcances ciertos niveles de bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de bárbaro”."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 2,
+   "name": "Ataque temerario",
+   "title": "Nivel 2: Ataque temerario",
+   "subclass": null,
+   "text": "Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir atacar temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir atacar temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.",
+     "text": "Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir atacar temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 2,
+   "name": "Sentir el peligro",
+   "title": "Nivel 2: Sentir el peligro",
+   "subclass": null,
+   "text": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las tiradas de salvación de Destreza salvo que tengas el estado de incapacitado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las tiradas de salvación de Destreza salvo que tengas el estado de incapacitado.",
+     "text": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las tiradas de salvación de Destreza salvo que tengas el estado de incapacitado."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 3,
+   "name": "Conocimiento primigenio",
+   "title": "Nivel 3: Conocimiento primigenio",
+   "subclass": null,
+   "text": "Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.\n\nAdemás, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.",
+     "text": "Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1."
+    },
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.",
+     "text": "Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 3,
+   "name": "Subclase de bárbaro",
+   "title": "Nivel 3: Subclase de bárbaro",
+   "subclass": null,
+   "text": "Consigues una subclase de bárbaro de tu elección. La subclase de la senda del berserker se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bárbaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bárbaro e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Consigues una subclase de bárbaro de tu elección. La subclase de la senda del berserker se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bárbaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bárbaro e inferiores.",
+     "text": "Consigues una subclase de bárbaro de tu elección. La subclase de la senda del berserker se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bárbaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bárbaro e inferiores."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bárbaro.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bárbaro.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bárbaro."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 5,
+   "name": "Ataque adicional",
+   "title": "Nivel 5: Ataque adicional",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 5,
+   "name": "Movimiento rápido",
+   "title": "Nivel 5: Movimiento rápido",
+   "subclass": null,
+   "text": "Tu velocidad aumenta en 3 m si no llevas armadura pesada.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Tu velocidad aumenta en 3 m si no llevas armadura pesada.",
+     "text": "Tu velocidad aumenta en 3 m si no llevas armadura pesada."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 7,
+   "name": "Instinto salvaje",
+   "title": "Nivel 7: Instinto salvaje",
+   "subclass": null,
+   "text": "Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 33,
+     "md": "Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.",
+     "text": "Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa."
+    }
+   ],
+   "page": 33
+  },
+  {
+   "level": 7,
+   "name": "Salto instintivo",
+   "title": "Nivel 7: Salto instintivo",
+   "subclass": null,
+   "text": "Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad.",
+     "text": "Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 9,
+   "name": "Golpe brutal",
+   "title": "Nivel 9: Golpe brutal",
+   "subclass": null,
+   "text": "Si utilizas Ataque temerario, puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre 1d10 de daño adicional del mismo tipo que inflija el arma o el ataque sin armas y puedes causar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efectos.\n\nGolpe enérgico. El objetivo es empujado 4,5 m respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar ataques de oportunidad.\n\nGolpe ralentizador. La velocidad del objetivo se reduce en 4,5 m hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Si utilizas Ataque temerario, puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre 1d10 de daño adicional del mismo tipo que inflija el arma o el ataque sin armas y puedes causar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efectos.",
+     "text": "Si utilizas Ataque temerario, puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre 1d10 de daño adicional del mismo tipo que inflija el arma o el ataque sin armas y puedes causar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efectos."
+    },
+    {
+     "type": "definition",
+     "page": 34,
+     "md": "***Golpe enérgico.*** El objetivo es empujado 4,5 m respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar ataques de oportunidad.",
+     "text": "Golpe enérgico. El objetivo es empujado 4,5 m respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar ataques de oportunidad."
+    },
+    {
+     "type": "definition",
+     "page": 34,
+     "md": "***Golpe ralentizador.*** La velocidad del objetivo se reduce en 4,5 m hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.",
+     "text": "Golpe ralentizador. La velocidad del objetivo se reduce en 4,5 m hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 11,
+   "name": "Furia implacable",
+   "title": "Nivel 11: Furia implacable",
+   "subclass": null,
+   "text": "Tu furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus puntos de golpe se reducen a 0 mientras estas enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de salvación de Constitución con CD 10. Si la superas, tus puntos de golpe pasarán a ser una cantidad igual al doble de tu nivel de bárbaro.\n\nSiempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un descanso corto o largo, la CD vuelve a ser 10.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Tu furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus puntos de golpe se reducen a 0 mientras estas enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de salvación de Constitución con CD 10. Si la superas, tus puntos de golpe pasarán a ser una cantidad igual al doble de tu nivel de bárbaro.",
+     "text": "Tu furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus puntos de golpe se reducen a 0 mientras estas enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de salvación de Constitución con CD 10. Si la superas, tus puntos de golpe pasarán a ser una cantidad igual al doble de tu nivel de bárbaro."
+    },
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un descanso corto o largo, la CD vuelve a ser 10.",
+     "text": "Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un descanso corto o largo, la CD vuelve a ser 10."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 13,
+   "name": "Golpe brutal mejorado",
+   "title": "Nivel 13: Golpe brutal mejorado",
+   "subclass": null,
+   "text": "Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:\n\nGolpe abrumador. El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.\n\nGolpe desgarrador. Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:",
+     "text": "Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:"
+    },
+    {
+     "type": "definition",
+     "page": 34,
+     "md": "***Golpe abrumador.*** El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.",
+     "text": "Golpe abrumador. El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno."
+    },
+    {
+     "type": "definition",
+     "page": 34,
+     "md": "***Golpe desgarrador.*** Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.",
+     "text": "Golpe desgarrador. Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 15,
+   "name": "Furia persistente",
+   "title": "Nivel 15: Furia persistente",
+   "subclass": null,
+   "text": "Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo.\n\nAdemás, tu furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu furia termina antes si recibes el estado de inconsciente (no solo el de incapacitado) o te pones una armadura pesada.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Además, tu furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu furia termina antes si recibes el estado de inconsciente (no solo el de incapacitado) o te pones una armadura pesada.",
+     "text": "Además, tu furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu furia termina antes si recibes el estado de inconsciente (no solo el de incapacitado) o te pones una armadura pesada."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 17,
+   "name": "Golpe brutal mejorado",
+   "title": "Nivel 17: Golpe brutal mejorado",
+   "subclass": null,
+   "text": "El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe brutal siempre que uses tu rasgo Golpe brutal.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe brutal siempre que uses tu rasgo Golpe brutal.",
+     "text": "El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe brutal siempre que uses tu rasgo Golpe brutal."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 18,
+   "name": "Poderío indómito",
+   "title": "Nivel 18: Poderío indómito",
+   "subclass": null,
+   "text": "Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.",
+     "text": "Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del ataque imparable."
+    }
+   ],
+   "page": 34
+  },
+  {
+   "level": 20,
+   "name": "Campeón primordial",
+   "title": "Nivel 20: Campeón primordial",
+   "subclass": null,
+   "text": "Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 34,
+     "md": "Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.",
+     "text": "Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25."
+    }
+   ],
+   "page": 34
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de bárbaro: Senda del berserker",
+   "features": [
+    {
+     "level": 3,
+     "name": "Frenesí",
+     "title": "Nivel 3: Frenesí",
+     "subclass": "Subclase de bárbaro: Senda del berserker",
+     "text": "Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 34,
+       "md": "Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.",
+       "text": "Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque."
+      }
+     ],
+     "page": 34
+    },
+    {
+     "level": 6,
+     "name": "Furia irracional",
+     "title": "Nivel 6: Furia irracional",
+     "subclass": "Subclase de bárbaro: Senda del berserker",
+     "text": "Tienes inmunidad a los estados de asustado y hechizado mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado terminará para ti.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 34,
+       "md": "Tienes inmunidad a los estados de asustado y hechizado mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado terminará para ti.",
+       "text": "Tienes inmunidad a los estados de asustado y hechizado mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado terminará para ti."
+      }
+     ],
+     "page": 34
+    },
+    {
+     "level": 10,
+     "name": "Represalia",
+     "title": "Nivel 10: Represalia",
+     "subclass": "Subclase de bárbaro: Senda del berserker",
+     "text": "Cuando recibas daño de una criatura que esté a 1,5 m o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 34,
+       "md": "Cuando recibas daño de una criatura que esté a 1,5 m o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas.",
+       "text": "Cuando recibas daño de una criatura que esté a 1,5 m o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas."
+      }
+     ],
+     "page": 34
+    },
+    {
+     "level": 14,
+     "name": "Presencia intimidante",
+     "title": "Nivel 14: Presencia intimidante",
+     "subclass": "Subclase de bárbaro: Senda del berserker",
+     "text": "Como acción adicional, puedes sembrar el terror en los demás con tu mera presencia amenazadora y tu poder primigenio. Cuando lo hagas, todas las criaturas de tu elección situadas en una emanación de 9 m originada en ti deberán hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu bonificador por competencia). Si la fallan, tendrán el estado de asustadas durante 1 minuto. Al final de cada uno de sus turnos, las criaturas asustadas repiten la tirada de salvación y, si tienen éxito, se librarán del efecto.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecer su uso.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 35,
+       "md": "Como acción adicional, puedes sembrar el terror en los demás con tu mera presencia amenazadora y tu poder primigenio. Cuando lo hagas, todas las criaturas de tu elección situadas en una emanación de 9 m originada en ti deberán hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu bonificador por competencia). Si la fallan, tendrán el estado de asustadas durante 1 minuto. Al final de cada uno de sus turnos, las criaturas asustadas repiten la tirada de salvación y, si tienen éxito, se librarán del efecto.",
+       "text": "Como acción adicional, puedes sembrar el terror en los demás con tu mera presencia amenazadora y tu poder primigenio. Cuando lo hagas, todas las criaturas de tu elección situadas en una emanación de 9 m originada en ti deberán hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu bonificador por competencia). Si la fallan, tendrán el estado de asustadas durante 1 minuto. Al final de cada uno de sus turnos, las criaturas asustadas repiten la tirada de salvación y, si tienen éxito, se librarán del efecto."
+      },
+      {
+       "type": "paragraph",
+       "page": 35,
+       "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecer su uso.",
+       "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecer su uso."
+      }
+     ],
+     "page": 35
+    }
+   ]
+  }
+ ],
+ "spellLists": [],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 32
+ }
+}

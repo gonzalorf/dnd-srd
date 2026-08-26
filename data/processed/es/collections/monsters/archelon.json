@@ -1,0 +1,103 @@
+{
+ "id": "monster.archelon",
+ "name": "Archelon",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 378
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme (dinosaurio), sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "tags": [
+  "dinosaurio"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "90 (12d12 + 12)",
+  "average": 90,
+  "formula": "12d12 + 12"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "nadar": 24.0
+ },
+ "skills": {
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El archelon puede respirar tanto dentro como fuera del agua.",
+   "page": 378,
+   "description": "El archelon puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El archelon realiza dos ataques de mordisco.",
+   "page": 378,
+   "description": "El archelon realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño perforante.",
+   "page": 378,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño perforante."
+  }
+ ]
+}

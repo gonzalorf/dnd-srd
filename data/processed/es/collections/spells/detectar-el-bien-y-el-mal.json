@@ -1,0 +1,57 @@
+{
+ "id": "spell.detectar-el-bien-y-el-mal",
+ "name": "Detectar el bien y el mal",
+ "level": 1,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Hasta que el conjuro termine, percibes la ubicación de cualquier aberración, celestial, elemental, feérico, infernal o muerto viviente a 9 m o menos de ti. También percibes si hay un conjuro consagrar activo en el espacio y su ubicación.\n\nEl conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 141,
+   "md": "Hasta que el conjuro termine, percibes la ubicación de cualquier aberración, celestial, elemental, feérico, infernal o muerto viviente a 9 m o menos de ti. También percibes si hay un conjuro *consagrar* activo en el espacio y su ubicación.",
+   "text": "Hasta que el conjuro termine, percibes la ubicación de cualquier aberración, celestial, elemental, feérico, infernal o muerto viviente a 9 m o menos de ti. También percibes si hay un conjuro consagrar activo en el espacio y su ubicación."
+  },
+  {
+   "type": "paragraph",
+   "page": 141,
+   "md": "El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo.",
+   "text": "El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 141
+ },
+ "refs": [
+  "spell.consagrar"
+ ]
+}

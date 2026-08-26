@@ -1,0 +1,29 @@
+{
+ "id": "weapon.mosquete",
+ "name": "Mosquete",
+ "kind": "weapon",
+ "group": "Armas a distancia marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Mosquete",
+  "Daño": "1d12 perforante",
+  "Propiedades": "A dos manos, munición (alcance 12/36; bala), recarga",
+  "Maestría": "Ralentizar",
+  "Peso": "5 kg",
+  "Precio": "500 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "5 kg",
+  "kg": 5.0
+ },
+ "price": {
+  "raw": "500 po",
+  "amount": 500.0,
+  "coin": "po",
+  "gp": 500.0
+ }
+}

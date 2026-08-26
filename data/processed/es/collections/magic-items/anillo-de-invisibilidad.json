@@ -1,0 +1,23 @@
+{
+ "id": "item.anillo-de-invisibilidad",
+ "name": "Anillo de invisibilidad",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, legendario (requiere sintonización)",
+ "text": "Mientras lleves puesto este anillo, puedes utilizar una acción de magia para otorgarte el estado de invisible. Permanecerás invisible hasta que te quites el anillo o hasta que emplees una acción adicional para volverte visible de nuevo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 232,
+   "md": "Mientras lleves puesto este anillo, puedes utilizar una acción de magia para otorgarte el estado de invisible. Permanecerás invisible hasta que te quites el anillo o hasta que emplees una acción adicional para volverte visible de nuevo.",
+   "text": "Mientras lleves puesto este anillo, puedes utilizar una acción de magia para otorgarte el estado de invisible. Permanecerás invisible hasta que te quites el anillo o hasta que emplees una acción adicional para volverte visible de nuevo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 232
+ }
+}

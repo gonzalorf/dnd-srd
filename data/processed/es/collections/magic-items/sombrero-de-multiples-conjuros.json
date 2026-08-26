@@ -1,0 +1,119 @@
+{
+ "id": "item.sombrero-de-multiples-conjuros",
+ "name": "Sombrero de múltiples conjuros",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": "un mago",
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización por parte de un mago)",
+ "text": "Este sombrero puntiagudo tiene las siguientes propiedades.\n\nCanalizador mágico. Mientras sujetas el sombrero, puedes usarlo como canalizador mágico para tus conjuros de mago. Cualquier conjuro que lances mediante el sombrero tendrá un componente somático especial: debes meter la mano en el sombrero y “sacar” el conjuro de él.\n\nConjuro desconocido. Mientras sujetas el sombrero, puedes intentar lanzar un conjuro de nivel 1 o superior que no conoces. El conjuro debe estar en la lista de conjuros de mago, debe ser de un nivel que puedas lanzar y no puede tener componentes materiales que cuesten más de 1000 po. Cuando hayas decidido el conjuro, deberás gastar un espacio de conjuro del nivel correspondiente. A continua\n\nción, para determinar si lo lanzas, haz una prueba de Inteligencia (Conocimiento arcano) (CD 10 más el nivel del conjuro). Si la superas, lanzarás el conjuro con su tiempo de lanzamiento normal y no podrás volver a utilizar esta propiedad hasta que finalices un descanso corto o largo. Si la fallas, el conjuro no se lanzará y en su lugar se producirá un efecto aleatorio. Tira en la tabla a continuación para determinarlo.\n\nLos conjuros que lances desde el sombrero emplean tu CD de salvación de conjuros y tu bonificador de ataque de conjuros.\n\npar lo más cerca posible de ti. El animal no se encuentra bajo tu control, actúa con normalidad y desaparece tras 1 hora o cuando sus puntos de golpe se reduzcan a 0. Tira 1d4 para determinar la criatura: si el resultado es 1, un camello; si es 2, un elefante; si es 3, una mula; si es 4, una serpiente constrictora.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 269,
+   "md": "Este sombrero puntiagudo tiene las siguientes propiedades.",
+   "text": "Este sombrero puntiagudo tiene las siguientes propiedades."
+  },
+  {
+   "type": "definition",
+   "page": 269,
+   "md": "***Canalizador mágico.*** Mientras sujetas el sombrero, puedes usarlo como canalizador mágico para tus conjuros de mago. Cualquier conjuro que lances mediante el sombrero tendrá un componente somático especial: debes meter la mano en el sombrero y “sacar” el conjuro de él.",
+   "text": "Canalizador mágico. Mientras sujetas el sombrero, puedes usarlo como canalizador mágico para tus conjuros de mago. Cualquier conjuro que lances mediante el sombrero tendrá un componente somático especial: debes meter la mano en el sombrero y “sacar” el conjuro de él."
+  },
+  {
+   "type": "definition",
+   "page": 269,
+   "md": "***Conjuro desconocido.*** Mientras sujetas el sombrero, puedes intentar lanzar un conjuro de nivel 1 o superior que no conoces. El conjuro debe estar en la lista de conjuros de mago, debe ser de un nivel que puedas lanzar y no puede tener componentes materiales que cuesten más de 1000 po. Cuando hayas decidido el conjuro, deberás gastar un espacio de conjuro del nivel correspondiente. A continua",
+   "text": "Conjuro desconocido. Mientras sujetas el sombrero, puedes intentar lanzar un conjuro de nivel 1 o superior que no conoces. El conjuro debe estar en la lista de conjuros de mago, debe ser de un nivel que puedas lanzar y no puede tener componentes materiales que cuesten más de 1000 po. Cuando hayas decidido el conjuro, deberás gastar un espacio de conjuro del nivel correspondiente. A continua"
+  },
+  {
+   "type": "paragraph",
+   "page": 269,
+   "md": "ción, para determinar si lo lanzas, haz una prueba de Inteligencia (Conocimiento arcano) (CD 10 más el nivel del conjuro). Si la superas, lanzarás el conjuro con su tiempo de lanzamiento normal y no podrás volver a utilizar esta propiedad hasta que finalices un descanso corto o largo. Si la fallas, el conjuro no se lanzará y en su lugar se producirá un efecto aleatorio. Tira en la tabla a continuación para determinarlo.",
+   "text": "ción, para determinar si lo lanzas, haz una prueba de Inteligencia (Conocimiento arcano) (CD 10 más el nivel del conjuro). Si la superas, lanzarás el conjuro con su tiempo de lanzamiento normal y no podrás volver a utilizar esta propiedad hasta que finalices un descanso corto o largo. Si la fallas, el conjuro no se lanzará y en su lugar se producirá un efecto aleatorio. Tira en la tabla a continuación para determinarlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 269,
+   "md": "Los conjuros que lances desde el sombrero emplean tu CD de salvación de conjuros y tu bonificador de ataque de conjuros.",
+   "text": "Los conjuros que lances desde el sombrero emplean tu CD de salvación de conjuros y tu bonificador de ataque de conjuros."
+  },
+  {
+   "type": "table",
+   "page": 269,
+   "caption": null,
+   "header": [
+    "1d100",
+    "Efecto"
+   ],
+   "rows": [
+    [
+     "01–50",
+     "Lanzas un conjuro aleatorio que determinas tirando 1d10: si el resultado es 1, agrandar/reducir (efecto de agrandar); si es 2, agrandar/reducir (efecto de reducir); si es 3, bola de fuego; si es 4, fuego feérico; si es 5, fuerza fantasmal; si es 6, invisibilidad (sobre ti); si es 7, nube apestosa; si es 8, polimorfar; si es 9, ráfaga de viento; si es 10, relámpago."
+    ],
+    [
+     "51–55",
+     "Creerás que ha sucedido algo asombroso y tendrás el estado de aturdido hasta el final de tu siguiente turno."
+    ],
+    [
+     "56–60",
+     "Un enjambre inofensivo de mariposas llena un cubo de 3 m de lado a 9 m o menos de ti. El enjambre se dispersa pasado 1 minuto."
+    ],
+    [
+     "61–65",
+     "Sacas un objeto no mágico del sombrero. Tira 1d4 para determinar el objeto: si el resultado es 1, un vial de ácido; si es 2, una antorcha encendida; si es 3, un frasco de fuego de alquimista; si es 4, una palanqueta."
+    ],
+    [
+     "66–70",
+     "Sufres unas “náuseas mágicas” y tienes el estado de envenenado durante 1 hora."
+    ],
+    [
+     "71–75",
+     "Tienes el estado de petrificado hasta el final de tu siguiente turno."
+    ],
+    [
+     "76–80",
+     "Sacas un objeto no mágico del sombrero. Tira 1d4 para determinar el objeto: si el resultado es 1, una bolsa de abrojos; si es 2, una cuerda con un garfio de escalada atado en un extremo; si es 3, una daga; si es 4, una gema valorada en 50 po."
+    ],
+    [
+     "81–85",
+     "Una criatura aparece en un espacio sin ocu"
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 269,
+   "md": "par lo más cerca posible de ti. El animal no se encuentra bajo tu control, actúa con normalidad y desaparece tras 1 hora o cuando sus puntos de golpe se reduzcan a 0. Tira 1d4 para determinar la criatura: si el resultado es **1**, un **camello**; si es **2**, un **elefante**; si es **3**, una **mula**; si es **4**, una **serpiente constrictora**.",
+   "text": "par lo más cerca posible de ti. El animal no se encuentra bajo tu control, actúa con normalidad y desaparece tras 1 hora o cuando sus puntos de golpe se reduzcan a 0. Tira 1d4 para determinar la criatura: si el resultado es 1, un camello; si es 2, un elefante; si es 3, una mula; si es 4, una serpiente constrictora."
+  },
+  {
+   "type": "table",
+   "page": 270,
+   "caption": null,
+   "header": [
+    "1d100",
+    "Efecto"
+   ],
+   "rows": [
+    [
+     "86–90",
+     "Un enjambre de murciélagos hostil surge del sombrero, ocupa tu espacio y te ataca."
+    ],
+    [
+     "91–95",
+     "Un portal bidireccional y vertical de 3 m de diámetro que conduce a otro plano de existencia se abre en un espacio sin ocupar a 9 m o menos de ti y permanece abierto hasta el final de tu siguiente turno. Tu GM establece adónde lleva."
+    ],
+    [
+     "96–00",
+     "Sacas un objeto mágico del sombrero. Tira 1d6 para determinar la rareza del objeto: si el resultado es 1–3, común; si es 4–5, infrecuente; si es 6, raro. Tu GM elige el objeto, que desaparecerá tras 1 hora si no se consume o destruye antes."
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 269
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "feat.alerta",
+ "name": "Alerta",
+ "text": "Dote de origen\n\nObtienes los siguientes beneficios:\n\nCompetencia en iniciativa. Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada.\n\nIntercambio de iniciativa. Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote de origen*",
+   "text": "Dote de origen"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Competencia en iniciativa.*** Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada.",
+   "text": "Competencia en iniciativa. Cuando tires iniciativa, puedes sumar tu bonificador por competencia a la tirada."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Intercambio de iniciativa.*** Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado.",
+   "text": "Intercambio de iniciativa. Justo después de tirar iniciativa, puedes cambiar tu iniciativa con la de un aliado que esté dispuesto a hacerlo en el mismo combate. No puedes hacer este intercambio si el aliado o tú tenéis el estado de incapacitado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes de origen"
+}

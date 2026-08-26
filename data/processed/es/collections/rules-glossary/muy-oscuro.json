@@ -1,0 +1,17 @@
+{
+ "id": "rule.muy-oscuro",
+ "name": "Muy oscuro",
+ "text": "Cuando tratas de ver algo en un espacio muy oscuro, tienes el estado de cegado. Consulta también “Cegado”, “Oscuridad” y el capítulo “Cómo jugar” (“Exploración”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Cuando tratas de ver algo en un espacio muy oscuro, tienes el estado de cegado. *Consulta también* “Cegado”, “Oscuridad” y el capítulo “Cómo jugar” (“Exploración”).",
+   "text": "Cuando tratas de ver algo en un espacio muy oscuro, tienes el estado de cegado. Consulta también “Cegado”, “Oscuridad” y el capítulo “Cómo jugar” (“Exploración”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

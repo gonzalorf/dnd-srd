@@ -1,0 +1,131 @@
+{
+ "id": "table.baraja-misteriosa",
+ "caption": "Baraja misteriosa",
+ "header": [
+  "1d100 (baraja de 13 cartas)",
+  "1d100 (baraja de 22 cartas)",
+  "Carta"
+ ],
+ "rows": [
+  [
+   "01–08",
+   "01–05",
+   "Bufón"
+  ],
+  [
+   "09–16",
+   "06–10",
+   "Caballero"
+  ],
+  [
+   "—",
+   "11–14",
+   "Calabozo"
+  ],
+  [
+   "17–24",
+   "15–18",
+   "Calavera"
+  ],
+  [
+   "25–32",
+   "19–22",
+   "Canalla"
+  ],
+  [
+   "—",
+   "23–27",
+   "Cometa"
+  ],
+  [
+   "33–36",
+   "28–31",
+   "El Vacío"
+  ],
+  [
+   "—",
+   "32–36",
+   "Equilibrio"
+  ],
+  [
+   "—",
+   "37–41",
+   "Erudito"
+  ],
+  [
+   "37–44",
+   "42–46",
+   "Estrella"
+  ],
+  [
+   "45–52",
+   "47–50",
+   "Euríale"
+  ],
+  [
+   "—",
+   "51–54",
+   "Garras"
+  ],
+  [
+   "—",
+   "55–59",
+   "Gema"
+  ],
+  [
+   "—",
+   "60–64",
+   "Hados"
+  ],
+  [
+   "53–60",
+   "65–68",
+   "Llamas"
+  ],
+  [
+   "61–68",
+   "69–73",
+   "Llave"
+  ],
+  [
+   "—",
+   "74–77",
+   "Loco"
+  ],
+  [
+   "69–76",
+   "78–82",
+   "Luna"
+  ],
+  [
+   "—",
+   "83–86",
+   "Rompecabezas"
+  ],
+  [
+   "77–84",
+   "87–90",
+   "Ruina"
+  ],
+  [
+   "85–92",
+   "91–95",
+   "Sol"
+  ],
+  [
+   "93–00",
+   "96–00",
+   "Trono"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Baraja misteriosa"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 237
+ }
+}

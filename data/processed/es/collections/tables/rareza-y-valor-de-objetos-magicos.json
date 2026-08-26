@@ -1,0 +1,40 @@
+{
+ "id": "table.rareza-y-valor-de-objetos-magicos",
+ "caption": "Rareza y valor de objetos mágicos",
+ "header": [
+  "Rareza",
+  "Valor*",
+  "Rareza",
+  "Valor*"
+ ],
+ "rows": [
+  [
+   "Común",
+   "100 po",
+   "Muy raro",
+   "40 000 po"
+  ],
+  [
+   "Infrecuente",
+   "400 po",
+   "Legendario",
+   "200 000 po"
+  ],
+  [
+   "Raro",
+   "4000 po",
+   "Artefacto",
+   "Incalculable"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Rareza de los objetos mágicos",
+  "Valor de objetos mágicos según su rareza"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 225
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "table.conjuros-de-paladin-de-nivel-2",
+ "caption": "Conjuros de paladín de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Arma mágica",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Auxilio",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Castigo brillante",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Dulce descanso",
+   "Nigromancia",
+   "R, M"
+  ],
+  [
+   "Hallar corcel",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Localizar objeto",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Plegaria de curación",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Protección contra veneno",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Restablecimiento menor",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Vínculo protector",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Zona de la verdad",
+   "Encantamiento",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Paladín",
+  "Lista de conjuros de paladín"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 84
+ }
+}

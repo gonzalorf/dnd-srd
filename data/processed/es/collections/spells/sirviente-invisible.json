@@ -1,0 +1,64 @@
+{
+ "id": "spell.sirviente-invisible",
+ "name": "Sirviente invisible",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "brujo",
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de cuerda y uno de madera)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de cuerda y uno de madera",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Este conjuro crea una fuerza invisible de tamaño Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.\n\nUna vez en cada uno de tus turnos como acción adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interactúe con un objeto. El sirviente puede realizar tareas sencillas que también podría llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.\n\nSi ordenas al sirviente que lleve a cabo una tarea que lo alejaría más de 18 m de ti, el conjuro termina.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "Este conjuro crea una fuerza invisible de tamaño Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.",
+   "text": "Este conjuro crea una fuerza invisible de tamaño Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "Una vez en cada uno de tus turnos como acción adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interactúe con un objeto. El sirviente puede realizar tareas sencillas que también podría llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.",
+   "text": "Una vez en cada uno de tus turnos como acción adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interactúe con un objeto. El sirviente puede realizar tareas sencillas que también podría llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden."
+  },
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Si ordenas al sirviente que lleve a cabo una tarea que lo alejaría más de 18 m de ti, el conjuro termina.",
+   "text": "Si ordenas al sirviente que lleve a cabo una tarea que lo alejaría más de 18 m de ti, el conjuro termina."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 185
+ }
+}

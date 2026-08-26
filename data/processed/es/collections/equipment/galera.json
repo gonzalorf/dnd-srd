@@ -1,0 +1,22 @@
+{
+ "id": "vehicle.galera",
+ "name": "Galera",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Galera",
+  "Velocidad": "6 km/h",
+  "Tripulación": "80",
+  "Pasajeros": "—",
+  "Cargamento (toneladas)": "150",
+  "CA": "15",
+  "PG": "500",
+  "Umbral de daño": "20",
+  "Precio": "30 000 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": "spell.consagrar",
+ "name": "Consagrar",
+ "level": 5,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "24 horas",
+  "ritual": false,
+  "kind": "time",
+  "value": 24,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (incienso que valga al menos 1000 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "incienso que valga al menos 1000 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Tocas un punto e impregnas una zona a su alrededor con poder sagrado o impío. El área puede tener un radio de hasta 18 m y el conjuro falla si el radio incluye cualquier zona que ya esté bajo el efecto de consagrar. La zona afectada tiene los siguientes efectos.\n\nProtección sagrada. Elige cualquiera de los siguientes tipos de criatura: aberración, celestial, elemental, feérico, infernal o muerto viviente. Las criaturas de los tipos elegidos no podrán entrar en la zona voluntariamente, y cualquier criatura poseída o con los estados de asustada o hechizada a causa de ellas dejarán de estarlo mientras permanezcan en la zona.\n\nEfecto adicional. Vinculas un efecto adicional de la siguiente lista:\n\nCoraje. Las criaturas de cualesquiera tipos que elijas no podrán obtener el estado de asustadas dentro de la zona.\n\nDescanso plácido. Los cadáveres enterrados en la zona no se pueden convertir en muertos vivientes.\n\nDon de lenguas. Las criaturas de cualesquiera tipos que elijas se pueden comunicar con cualquier otra criatura en la zona, aunque no compartan ningún idioma común.\n\nIntromisión extradimensional. Las criaturas de cualesquiera tipos que elijas no pueden entrar en la zona ni salir de ella usando el teletransporte o el viaje interplanar.\n\nLuz del día. La zona se llena de luz brillante. La oscuridad mágica creada por conjuros de niveles menores que el de este conjuro no puede extinguir la luz.\n\nOscuridad. La zona se llena de oscuridad. La luz normal y la luz mágica creada por conjuros de niveles menores que el de este conjuro no pueden iluminar la zona.\n\nResistencia. Las criaturas de cualesquiera tipos que elijas tienen resistencia a un tipo de daño de tu elección dentro de la zona.\n\nSilencio. Ningún sonido puede salir de la zona ni penetrar en ella.\n\nTerror. Las criaturas de cualesquiera tipos que elijas tienen el estado de asustadas dentro de la zona.\n\nVulnerabilidad. Las criaturas de cualesquiera tipos que elijas tienen vulnerabilidad a un tipo de daño de tu elección dentro de la zona.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 133,
+   "md": "Tocas un punto e impregnas una zona a su alrededor con poder sagrado o impío. El área puede tener un radio de hasta 18 m y el conjuro falla si el radio incluye cualquier zona que ya esté bajo el efecto de *consagrar*. La zona afectada tiene los siguientes efectos.",
+   "text": "Tocas un punto e impregnas una zona a su alrededor con poder sagrado o impío. El área puede tener un radio de hasta 18 m y el conjuro falla si el radio incluye cualquier zona que ya esté bajo el efecto de consagrar. La zona afectada tiene los siguientes efectos."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "***Protección sagrada.*** Elige cualquiera de los siguientes tipos de criatura: aberración, celestial, elemental, feérico, infernal o muerto viviente. Las criaturas de los tipos elegidos no podrán entrar en la zona voluntariamente, y cualquier criatura poseída o con los estados de asustada o hechizada a causa de ellas dejarán de estarlo mientras permanezcan en la zona.",
+   "text": "Protección sagrada. Elige cualquiera de los siguientes tipos de criatura: aberración, celestial, elemental, feérico, infernal o muerto viviente. Las criaturas de los tipos elegidos no podrán entrar en la zona voluntariamente, y cualquier criatura poseída o con los estados de asustada o hechizada a causa de ellas dejarán de estarlo mientras permanezcan en la zona."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "***Efecto adicional.*** Vinculas un efecto adicional de la siguiente lista:",
+   "text": "Efecto adicional. Vinculas un efecto adicional de la siguiente lista:"
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Coraje.** Las criaturas de cualesquiera tipos que elijas no podrán obtener el estado de asustadas dentro de la zona.",
+   "text": "Coraje. Las criaturas de cualesquiera tipos que elijas no podrán obtener el estado de asustadas dentro de la zona."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Descanso plácido.** Los cadáveres enterrados en la zona no se pueden convertir en muertos vivientes.",
+   "text": "Descanso plácido. Los cadáveres enterrados en la zona no se pueden convertir en muertos vivientes."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Don de lenguas.** Las criaturas de cualesquiera tipos que elijas se pueden comunicar con cualquier otra criatura en la zona, aunque no compartan ningún idioma común.",
+   "text": "Don de lenguas. Las criaturas de cualesquiera tipos que elijas se pueden comunicar con cualquier otra criatura en la zona, aunque no compartan ningún idioma común."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Intromisión extradimensional.** Las criaturas de cualesquiera tipos que elijas no pueden entrar en la zona ni salir de ella usando el teletransporte o el viaje interplanar.",
+   "text": "Intromisión extradimensional. Las criaturas de cualesquiera tipos que elijas no pueden entrar en la zona ni salir de ella usando el teletransporte o el viaje interplanar."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Luz del día.** La zona se llena de luz brillante. La oscuridad mágica creada por conjuros de niveles menores que el de este conjuro no puede extinguir la luz.",
+   "text": "Luz del día. La zona se llena de luz brillante. La oscuridad mágica creada por conjuros de niveles menores que el de este conjuro no puede extinguir la luz."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Oscuridad.** La zona se llena de oscuridad. La luz normal y la luz mágica creada por conjuros de niveles menores que el de este conjuro no pueden iluminar la zona.",
+   "text": "Oscuridad. La zona se llena de oscuridad. La luz normal y la luz mágica creada por conjuros de niveles menores que el de este conjuro no pueden iluminar la zona."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Resistencia.** Las criaturas de cualesquiera tipos que elijas tienen resistencia a un tipo de daño de tu elección dentro de la zona.",
+   "text": "Resistencia. Las criaturas de cualesquiera tipos que elijas tienen resistencia a un tipo de daño de tu elección dentro de la zona."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Silencio.** Ningún sonido puede salir de la zona ni penetrar en ella.",
+   "text": "Silencio. Ningún sonido puede salir de la zona ni penetrar en ella."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Terror.** Las criaturas de cualesquiera tipos que elijas tienen el estado de asustadas dentro de la zona.",
+   "text": "Terror. Las criaturas de cualesquiera tipos que elijas tienen el estado de asustadas dentro de la zona."
+  },
+  {
+   "type": "definition",
+   "page": 133,
+   "md": "**Vulnerabilidad.** Las criaturas de cualesquiera tipos que elijas tienen vulnerabilidad a un tipo de daño de tu elección dentro de la zona.",
+   "text": "Vulnerabilidad. Las criaturas de cualesquiera tipos que elijas tienen vulnerabilidad a un tipo de daño de tu elección dentro de la zona."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 133
+ }
+}

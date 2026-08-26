@@ -1,0 +1,37 @@
+{
+ "id": "table.puntos-de-golpe-en-el-nivel-1-por-clase",
+ "caption": "Puntos de golpe en el nivel 1 por clase",
+ "header": [
+  "Clase",
+  "Puntos de golpe máximos"
+ ],
+ "rows": [
+  [
+   "Bárbaro",
+   "12 + modificador por Con"
+  ],
+  [
+   "Explorador, guerrero o paladín",
+   "10 + modificador por Con"
+  ],
+  [
+   "Bardo, brujo, clérigo, druida, monje o pícaro",
+   "8 + modificador por Con"
+  ],
+  [
+   "Hechicero o mago",
+   "6 + modificador por Con"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 5: detalles de la creación del personaje",
+  "Rellena los números"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 25
+ }
+}

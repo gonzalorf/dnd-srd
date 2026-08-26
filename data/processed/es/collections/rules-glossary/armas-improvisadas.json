@@ -1,0 +1,41 @@
+{
+ "id": "rule.armas-improvisadas",
+ "name": "Armas improvisadas",
+ "text": "Un arma improvisada es cualquier objeto que utilices como arma provisional, como una botella rota, la pata de una mesa o una sartén. Un arma sencilla o marcial también cuenta como arma improvisada si se emplea de un modo contrario a su diseño: por ejemplo, si utilizas un arma a distancia para realizar un ataque cuerpo a cuerpo o lanzas un arma cuerpo a cuerpo sin la propiedad “arrojadiza”, contará como un arma improvisada. Un arma improvisada sigue estas reglas:\n\nCompetencia. No sumas tu bonificador por competencia a las tiradas de ataque con un arma improvisada.\n\nDaño. Si acierta, el arma inflige 1d4 de daño de un tipo que tu GM considere apropiado para el objeto.\n\nAlcance. Si arrojas el arma, tendrá un alcance normal de 6 m y un alcance largo de 18 m.\n\nEquivalentes del arma. Si un arma improvisada se parece a un arma sencilla o marcial, tu GM puede decidir que funcione como ella y emplear las reglas que se le aplican. Por ejemplo, tu GM podría tratar la pata de una mesa como un garrote.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Un arma improvisada es cualquier objeto que utilices como arma provisional, como una botella rota, la pata de una mesa o una sartén. Un arma sencilla o marcial también cuenta como arma improvisada si se emplea de un modo contrario a su diseño: por ejemplo, si utilizas un arma a distancia para realizar un ataque cuerpo a cuerpo o lanzas un arma cuerpo a cuerpo sin la propiedad “arrojadiza”, contará como un arma improvisada. Un arma improvisada sigue estas reglas:",
+   "text": "Un arma improvisada es cualquier objeto que utilices como arma provisional, como una botella rota, la pata de una mesa o una sartén. Un arma sencilla o marcial también cuenta como arma improvisada si se emplea de un modo contrario a su diseño: por ejemplo, si utilizas un arma a distancia para realizar un ataque cuerpo a cuerpo o lanzas un arma cuerpo a cuerpo sin la propiedad “arrojadiza”, contará como un arma improvisada. Un arma improvisada sigue estas reglas:"
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Competencia.*** No sumas tu bonificador por competencia a las tiradas de ataque con un arma improvisada.",
+   "text": "Competencia. No sumas tu bonificador por competencia a las tiradas de ataque con un arma improvisada."
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Daño.*** Si acierta, el arma inflige 1d4 de daño de un tipo que tu GM considere apropiado para el objeto.",
+   "text": "Daño. Si acierta, el arma inflige 1d4 de daño de un tipo que tu GM considere apropiado para el objeto."
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Alcance.*** Si arrojas el arma, tendrá un alcance normal de 6 m y un alcance largo de 18 m.",
+   "text": "Alcance. Si arrojas el arma, tendrá un alcance normal de 6 m y un alcance largo de 18 m."
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Equivalentes del arma.*** Si un arma improvisada se parece a un arma sencilla o marcial, tu GM puede decidir que funcione como ella y emplear las reglas que se le aplican. Por ejemplo, tu GM podría tratar la pata de una mesa como un garrote.",
+   "text": "Equivalentes del arma. Si un arma improvisada se parece a un arma sencilla o marcial, tu GM puede decidir que funcione como ella y emplear las reglas que se le aplican. Por ejemplo, tu GM podría tratar la pata de una mesa como un garrote."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

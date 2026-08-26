@@ -1,0 +1,56 @@
+{
+ "id": "spell.zona-de-la-verdad",
+ "name": "Zona de la verdad",
+ "level": 2,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "10 minutos",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Creas una zona mágica que protege contra el engaño en una esfera de 4,5 m de radio centrada en un punto dentro del alcance. Hasta que el conjuro termine, una criatura que entre en la zona del conjuro por primera vez en un turno o comience su turno allí realizará una tirada de salvación de Carisma. Si la falla, no podrá decir una mentira voluntariamente mientras esté en el radio del conjuro. Sabrás si una criatura supera o falla esta tirada.\n\nUna criatura afectada es consciente del conjuro y puede evitar responder a preguntas a las que normalmente respondería con una mentira. Dicha criatura puede dar respuestas evasivas, pero deberá ser sincera.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 193,
+   "md": "Creas una zona mágica que protege contra el engaño en una esfera de 4,5 m de radio centrada en un punto dentro del alcance. Hasta que el conjuro termine, una criatura que entre en la zona del conjuro por primera vez en un turno o comience su turno allí realizará una tirada de salvación de Carisma. Si la falla, no podrá decir una mentira voluntariamente mientras esté en el radio del conjuro. Sabrás si una criatura supera o falla esta tirada.",
+   "text": "Creas una zona mágica que protege contra el engaño en una esfera de 4,5 m de radio centrada en un punto dentro del alcance. Hasta que el conjuro termine, una criatura que entre en la zona del conjuro por primera vez en un turno o comience su turno allí realizará una tirada de salvación de Carisma. Si la falla, no podrá decir una mentira voluntariamente mientras esté en el radio del conjuro. Sabrás si una criatura supera o falla esta tirada."
+  },
+  {
+   "type": "paragraph",
+   "page": 193,
+   "md": "Una criatura afectada es consciente del conjuro y puede evitar responder a preguntas a las que normalmente respondería con una mentira. Dicha criatura puede dar respuestas evasivas, pero deberá ser sincera.",
+   "text": "Una criatura afectada es consciente del conjuro y puede evitar responder a preguntas a las que normalmente respondería con una mentira. Dicha criatura puede dar respuestas evasivas, pero deberá ser sincera."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 193
+ }
+}

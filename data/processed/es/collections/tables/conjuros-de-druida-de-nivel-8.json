@@ -1,0 +1,61 @@
+{
+ "id": "table.conjuros-de-druida-de-nivel-8",
+ "caption": "Conjuros de druida de nivel 8",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Antipatía/simpatía",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Aspectos animales",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Controlar el clima",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Explosión solar",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Nube incendiaria",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Ofuscación",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Terremoto",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Tsunami",
+   "Conjuración",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 56
+ }
+}

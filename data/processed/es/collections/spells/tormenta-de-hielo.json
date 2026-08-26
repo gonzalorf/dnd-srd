@@ -1,0 +1,62 @@
+{
+ "id": "spell.tormenta-de-hielo",
+ "name": "Tormenta de hielo",
+ "level": 4,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "90 m",
+  "kind": "ranged",
+  "meters": 90
+ },
+ "components": {
+  "raw": "V, S, M (una manopla)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una manopla",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una granizada cae en un cilindro de 6 m de radio y 12 m de altura centrado en un punto dentro del alcance. Todas las criaturas situadas en el cilindro hacen una tirada de salvación de Destreza; sufrirán 2d10 de daño contundente y 4d6 de daño de frío si la fallan o la mitad del daño si la superan.\n\nLas bolas de granizo convierten el suelo del cilindro en terreno difícil hasta el final de tu siguiente turno.\n\nCon un espacio de conjuro de nivel superior. El daño contundente aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Una granizada cae en un cilindro de 6 m de radio y 12 m de altura centrado en un punto dentro del alcance. Todas las criaturas situadas en el cilindro hacen una tirada de salvación de Destreza; sufrirán 2d10 de daño contundente y 4d6 de daño de frío si la fallan o la mitad del daño si la superan.",
+   "text": "Una granizada cae en un cilindro de 6 m de radio y 12 m de altura centrado en un punto dentro del alcance. Todas las criaturas situadas en el cilindro hacen una tirada de salvación de Destreza; sufrirán 2d10 de daño contundente y 4d6 de daño de frío si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Las bolas de granizo convierten el suelo del cilindro en terreno difícil hasta el final de tu siguiente turno.",
+   "text": "Las bolas de granizo convierten el suelo del cilindro en terreno difícil hasta el final de tu siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 190,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño contundente aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño contundente aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 190
+ }
+}

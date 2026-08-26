@@ -1,0 +1,71 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "tables",
+ "description": "Inferido de 251 fichas de la colección «tables».",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "properties": {
+   "caption": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "context": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "fullWidth": {
+    "type": "boolean"
+   },
+   "header": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "id": {
+    "type": "string"
+   },
+   "rows": {
+    "type": "array",
+    "items": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "source": {
+    "type": "object",
+    "properties": {
+     "book": {
+      "type": "string",
+      "enum": [
+       "SRD 5.2.1 es"
+      ]
+     },
+     "page": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "book",
+     "page"
+    ]
+   }
+  },
+  "required": [
+   "caption",
+   "context",
+   "fullWidth",
+   "header",
+   "id",
+   "rows",
+   "source"
+  ]
+ }
+}

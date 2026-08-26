@@ -1,0 +1,55 @@
+{
+ "id": "spell.palabra-de-poder-aturdir",
+ "name": "Palabra de poder: aturdir",
+ "level": 8,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendrá el estado de aturdido. De lo contrario, su velocidad será 0 hasta el principio de tu siguiente turno.\n\nEl objetivo aturdido hace una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del estado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 171,
+   "md": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendrá el estado de aturdido. De lo contrario, su velocidad será 0 hasta el principio de tu siguiente turno.",
+   "text": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendrá el estado de aturdido. De lo contrario, su velocidad será 0 hasta el principio de tu siguiente turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 171,
+   "md": "El objetivo aturdido hace una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del estado.",
+   "text": "El objetivo aturdido hace una tirada de salvación de Constitución al final de cada uno de sus turnos y, si tiene éxito, se librará del estado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 171
+ }
+}

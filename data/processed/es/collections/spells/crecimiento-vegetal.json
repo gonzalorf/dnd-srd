@@ -1,0 +1,66 @@
+{
+ "id": "spell.crecimiento-vegetal",
+ "name": "Crecimiento vegetal",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción (sobrecrecimiento) u 8 horas (fertilización)",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuación.\n\nSobrecrecimiento. Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volverán gruesas\n\ny frondosas. Una criatura que atraviese esa área deberá gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o más zonas de cualquier tamaño dentro del área del conjuro para que no se vean afectadas.\n\nFertilización. Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estarán fertilizadas durante 365 días y producirán el doble de comida al recolectarlas. Solo podrán beneficiarse de un crecimiento vegetal cada año.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuación.",
+   "text": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuación."
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "***Sobrecrecimiento.*** Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volverán gruesas",
+   "text": "Sobrecrecimiento. Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volverán gruesas"
+  },
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "y frondosas. Una criatura que atraviese esa área deberá gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o más zonas de cualquier tamaño dentro del área del conjuro para que no se vean afectadas.",
+   "text": "y frondosas. Una criatura que atraviese esa área deberá gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o más zonas de cualquier tamaño dentro del área del conjuro para que no se vean afectadas."
+  },
+  {
+   "type": "definition",
+   "page": 137,
+   "md": "***Fertilización.*** Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estarán fertilizadas durante 365 días y producirán el doble de comida al recolectarlas. Solo podrán beneficiarse de un *crecimiento vegetal* cada año.",
+   "text": "Fertilización. Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estarán fertilizadas durante 365 días y producirán el doble de comida al recolectarlas. Solo podrán beneficiarse de un crecimiento vegetal cada año."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 137
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "table.p23",
+ "caption": null,
+ "header": [
+  "Idioma",
+  "Idioma"
+ ],
+ "rows": [
+  [
+   "Druídico",
+   "Primordial*"
+  ],
+  [
+   "Habla de las profundidades",
+   "Silvano"
+  ],
+  [
+   "Infernal",
+   ""
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 2: origen del personaje",
+  "Elige tus idiomas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 23
+ }
+}

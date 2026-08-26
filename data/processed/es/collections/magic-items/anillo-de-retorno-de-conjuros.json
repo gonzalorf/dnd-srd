@@ -1,0 +1,23 @@
+{
+ "id": "item.anillo-de-retorno-de-conjuros",
+ "name": "Anillo de retorno de conjuros",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, legendario (requiere sintonización)",
+ "text": "Mientras lleves puesto este anillo, tienes ventaja en las tiradas de salvación contra conjuros. Si superas la tirada de un conjuro de nivel 7 o inferior, dicho conjuro no tendrá ningún efecto sobre ti. Si el conjuro solo te hacía objetivo a ti y no creó un área de efecto, puedes emplear una reacción para devolverle el conjuro al lanzador, que deberá hacer una tirada de salvación contra él usando su propia CD de salvación de conjuros.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 232,
+   "md": "Mientras lleves puesto este anillo, tienes ventaja en las tiradas de salvación contra conjuros. Si superas la tirada de un conjuro de nivel 7 o inferior, dicho conjuro no tendrá ningún efecto sobre ti. Si el conjuro solo te hacía objetivo a ti y no creó un área de efecto, puedes emplear una reacción para devolverle el conjuro al lanzador, que deberá hacer una tirada de salvación contra él usando su propia CD de salvación de conjuros.",
+   "text": "Mientras lleves puesto este anillo, tienes ventaja en las tiradas de salvación contra conjuros. Si superas la tirada de un conjuro de nivel 7 o inferior, dicho conjuro no tendrá ningún efecto sobre ti. Si el conjuro solo te hacía objetivo a ti y no creó un área de efecto, puedes emplear una reacción para devolverle el conjuro al lanzador, que deberá hacer una tirada de salvación contra él usando su propia CD de salvación de conjuros."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 232
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "table.conjuros-de-explorador-de-nivel-2",
+ "caption": "Conjuros de explorador de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Arma mágica",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Auxilio",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Crecimiento espinoso",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Detectar trampas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Localizar animales o plantas",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Localizar objeto",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Mensajero animal",
+   "Encantamiento",
+   "R"
+  ],
+  [
+   "Pasar sin rastro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Piel robliza",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Potenciar característica",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Protección contra veneno",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Ráfaga de viento",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Restablecimiento menor",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Silencio",
+   "Ilusionismo",
+   "C, R"
+  ],
+  [
+   "Visión en la oscuridad",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Explorador",
+  "Lista de conjuros de explorador"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 61
+ }
+}

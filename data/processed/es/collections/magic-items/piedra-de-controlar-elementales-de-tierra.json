@@ -1,0 +1,29 @@
+{
+ "id": "item.piedra-de-controlar-elementales-de-tierra",
+ "name": "Piedra de controlar elementales de tierra",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Si esta piedra de 2,5 kg está tocando el suelo, puedes emplear una acción de magia para invocar un\n\nelemental de tierra. Aparecerá en un espacio sin ocupar de tu elección a 9 m o menos de ti, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. La piedra no puede volver a emplearse de esta manera hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 265,
+   "md": "Si esta piedra de 2,5 kg está tocando el suelo, puedes emplear una acción de magia para invocar un",
+   "text": "Si esta piedra de 2,5 kg está tocando el suelo, puedes emplear una acción de magia para invocar un"
+  },
+  {
+   "type": "definition",
+   "page": 265,
+   "md": "**elemental de tierra**. Aparecerá en un espacio sin ocupar de tu elección a 9 m o menos de ti, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. La piedra no puede volver a emplearse de esta manera hasta el siguiente amanecer.",
+   "text": "elemental de tierra. Aparecerá en un espacio sin ocupar de tu elección a 9 m o menos de ti, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. La piedra no puede volver a emplearse de esta manera hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 265
+ }
+}

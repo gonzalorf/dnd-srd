@@ -1,0 +1,336 @@
+# Mapa de huellas tipográficas -> rol semántico.
+#
+# Cada regla identifica un tipo de contenido por (fuente, tamaño, color).
+# Todas las huellas están verificadas sobre SP_SRD_CC_v5.2.1.pdf.
+#
+# IMPORTANTE: los tamaños del PDF no son redondos (la tabla de características
+# usa 9.75, no 9.8). La tolerancia por defecto es 0.2; no la bajes.
+#
+# Este fichero es compartido entre idiomas: la maquetación del SRD es idéntica
+# en todas las traducciones. Lo que cambia por idioma va en config/lang/<code>.yaml.
+
+meta:
+  size_tolerance: 0.2
+
+# Colores del documento, por nombre, para no repetir enteros mágicos.
+colors:
+  maroon: 0x8C2220 # títulos de jerarquía
+  black: 0x231F20 # texto corrido y tablas
+  darkred: 0x540000 # cabecera de los perfiles
+  grey_chrome: 0x808285 # encabezado y número de página
+  grey_meta: 0x636466 # subtítulo de perfil, acciones legendarias
+  grey_micro: 0x8E9093 # micro-encabezados MOD./SALV.
+
+# Rellenos vectoriales que delimitan bloques (componente rojo, tolerancia 0.01).
+#
+# El SRD usa TRES grises distintos para el cuerpo de una tabla. Con solo el
+# principal se pierden 17 tablas: las monturas y los arreos (p. 109), los
+# efectos del sombrero de trucos (pp. 269-270) y varias listas de conjuros.
+fills:
+  table_body: [0.903, 0.937, 0.914]
+  sidebar_frame: [0.137] # marco del cuadro destacado
+  ability_band: [0.820] # bandas de la tabla de características
+
+# Reglas de clasificación. Se evalúan en orden; la primera que casa gana.
+# `font` es coincidencia exacta del nombre de fuente PostScript.
+styles:
+  # --- jerarquía de títulos ------------------------------------------------
+  - role: heading.chapter
+    level: 1
+    font: GillSans-SemiBold
+    size: 26.0
+    color: maroon
+
+  - role: heading.section
+    level: 2
+    font: GillSans-SemiBold
+    size: 18.0
+    color: maroon
+
+  - role: heading.subsection
+    level: 3
+    font: GillSans-SemiBold
+    size: 14.0
+    color: maroon
+
+  - role: heading.entry
+    level: 4
+    font: GillSans-SemiBold
+    size: 12.0
+    color: maroon
+
+  # --- perfiles de criatura -------------------------------------------------
+  # OJO: statblock.section comparte tamaño y color con heading.entry.
+  # Lo único que los distingue es el PESO de la fuente (GillSans vs
+  # GillSans-SemiBold). Sin este matiz, los "Acciones"/"Atributos" de cada
+  # perfil se cuelan en el árbol como entradas de contenido.
+  - role: statblock.name
+    font: GillSans-SemiBold
+    size: 14.8
+    color: maroon
+
+  - role: statblock.section
+    font: GillSans
+    size: 12.0
+    color: maroon
+
+  - role: statblock.meta # tamaño, tipo y alineamiento
+    font: Optima-Italic
+    size: 9.0
+    color: grey_meta
+
+  - role: statblock.legendary.intro
+    font: Optima-Italic
+    size: 9.0
+    color: grey_meta
+
+  - role: statblock.header.label # "CA:", "PG:", "Velocidad:"...
+    font: Optima-Bold
+    size: 9.0
+    color: darkred
+
+  - role: statblock.header.value
+    font: Optima-Regular
+    size: 9.0
+    color: darkred
+
+  - role: statblock.ability.value
+    font: GillSans
+    size: 9.75
+    color: darkred
+
+  - role: statblock.ability.abbr
+    font: GillSans-SemiBold-SC700
+    size: 9.75
+    color: darkred
+
+  - role: statblock.ability.abbr
+    font: GillSans-SemiBold-SC700
+    size: 6.825
+    color: darkred
+
+  - role: statblock.ability.header # MOD. / SALV.
+    font: GillSans
+    size: 6.0
+    color: grey_micro
+
+  - role: statblock.trait.name
+    font: Optima-BoldItalic
+    size: 9.5
+    color: black
+
+  - role: statblock.body
+    font: Optima-Regular
+    size: 9.5
+    color: black
+
+  - role: statblock.body.em # términos mecánicos: "Acierto:", "Fallo:"
+    font: Optima-Italic
+    size: 9.5
+    color: black
+
+  - role: statblock.body.strong
+    font: Optima-Bold
+    size: 9.5
+    color: black
+
+  # --- tablas ---------------------------------------------------------------
+  - role: table.caption
+    font: GillSans-SemiBold
+    size: 10.5
+    color: black
+
+  - role: table.caption # variante pequeña, dentro de cuadros destacados
+    font: GillSans-SemiBold
+    size: 10.0
+    color: black
+
+  - role: table.caption
+    font: GillSans-Bold
+    size: 10.0
+    color: black
+
+  - role: table.header
+    font: GillSans-SemiBold
+    size: 9.2
+    color: black
+
+  - role: table.note # notas al pie de tabla
+    font: GillSans
+    size: 8.0
+    color: black
+
+  # --- fichas de conjuro ----------------------------------------------------
+  # Comparten huella con las celdas de tabla. Se desambigua por geometría:
+  # si la línea cae dentro del rectángulo de fondo de una tabla es una celda,
+  # y si no, es una propiedad de conjuro. Ver extractor/classify.py.
+  - role: prop.label
+    font: GillSans-SemiBold
+    size: 9.5
+    color: black
+
+  - role: prop.label # etiquetas de trampa: "Activador:", "Duración:"
+    font: GillSans-Bold
+    size: 9.5
+    color: black
+
+  - role: prop.value
+    font: GillSans
+    size: 9.5
+    color: black
+
+  - role: prop.value.em
+    font: GillSans-Italic
+    size: 9.5
+    color: black
+
+  # --- texto corrido --------------------------------------------------------
+  - role: body
+    font: Cambria
+    size: 10.0
+    color: black
+
+  - role: body.strong
+    font: Cambria-Bold
+    size: 10.0
+    color: black
+
+  - role: body.em
+    font: Cambria-Italic
+    size: 10.0
+    color: black
+
+  - role: body.strong-em
+    font: Cambria-BoldItalic
+    size: 10.0
+    color: black
+
+  # --- cuadros destacados ---------------------------------------------------
+  - role: sidebar.title
+    font: GillSans-Bold-SC700
+    size: 11.0
+    color: black
+
+  - role: sidebar.title # versalitas: las minúsculas van a 7.7
+    font: GillSans-Bold-SC700
+    size: 7.7
+    color: black
+
+  - role: sidebar.body
+    font: GillSans
+    size: 9.0
+    color: black
+
+  - role: sidebar.body.em
+    font: GillSans-Italic
+    size: 9.0
+    color: black
+
+  - role: sidebar.body.strong
+    font: GillSans-BoldItalic
+    size: 9.0
+    color: black
+
+  - role: sidebar.body # texto suelto de cuadro a 10 pt
+    font: GillSans
+    size: 10.0
+    color: black
+
+  # --- casos residuales -----------------------------------------------------
+  # Detectados por el propio `extract`: 9 huellas, 31 spans en 398 páginas.
+  # Se declaran explícitamente para que el inventario quede a cero y cualquier
+  # huella nueva en una versión futura del PDF salte como anomalía real.
+  - role: body.link # URL de la licencia CC en la página 1
+    font: Cambria
+    size: 10.0
+    color: 0x1E5E9E
+
+  - role: body.superscript # llamadas a nota al pie
+    font: Cambria
+    size: 5.83
+    color: black
+
+  - role: table.note.em
+    font: GillSans-Italic
+    size: 8.0
+    color: black
+
+  - role: table.note # ornamento suelto
+    font: GillSans
+    size: 4.664
+    color: black
+
+  - role: sidebar.body.em
+    font: GillSans-Italic
+    size: 10.0
+    color: black
+
+  - role: sidebar.body.strong
+    font: GillSans-Bold
+    size: 9.0
+    color: black
+
+  - role: sidebar.body # sustitución puntual de fuente
+    font: GillSansMTStd-Medium
+    size: 10.0
+    color: black
+
+  - role: statblock.header.value
+    font: Optima-Italic
+    size: 9.0
+    color: darkred
+
+  - role: statblock.header.label
+    font: Optima-BoldItalic
+    size: 9.0
+    color: darkred
+
+  # --- índice general (pp. 2-4) ---------------------------------------------
+  - role: toc.entry
+    font: Cambria
+    size: 9.0
+    color: black
+
+  - role: toc.entry.strong
+    font: Cambria-Bold
+    size: 9.0
+    color: black
+
+  # --- elementos de página que se descartan ---------------------------------
+  - role: chrome.header
+    font: GillSans
+    size: 11.0
+    color: grey_chrome
+    discard: true
+
+  - role: chrome.pagenum
+    font: GillSans-SemiBold
+    size: 11.0
+    color: grey_chrome
+    discard: true
+
+# Roles que producen un nodo de título en el árbol del documento.
+heading_roles:
+  [heading.chapter, heading.section, heading.subsection, heading.entry]
+
+# Roles cuyo texto pertenece a un perfil de criatura.
+statblock_roles:
+  - statblock.name
+  - statblock.section
+  - statblock.meta
+  - statblock.legendary.intro
+  - statblock.header.label
+  - statblock.header.value
+  - statblock.ability.value
+  - statblock.ability.abbr
+  - statblock.ability.header
+  - statblock.trait.name
+  - statblock.body
+  - statblock.body.em
+  - statblock.body.strong
+
+# Marcado inline que se emite en el campo `md` de cada bloque.
+inline_emphasis:
+  strong: [body.strong, sidebar.body.strong, toc.entry.strong, prop.label]
+  em: [body.em, prop.value.em, statblock.body.em, sidebar.body.em]
+  strong_em: [body.strong-em, statblock.trait.name]

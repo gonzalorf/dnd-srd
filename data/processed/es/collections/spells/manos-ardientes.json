@@ -1,0 +1,58 @@
+{
+ "id": "spell.manos-ardientes",
+ "name": "Manos ardientes",
+ "level": 1,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño de fuego si la fallan o la mitad del daño si la superan.\n\nLos objetos inflamables dentro del cono que no lleve o vista nadie empezarán a arder.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 164,
+   "md": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño de fuego si la fallan o la mitad del daño si la superan.",
+   "text": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño de fuego si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 164,
+   "md": "Los objetos inflamables dentro del cono que no lleve o vista nadie empezarán a arder.",
+   "text": "Los objetos inflamables dentro del cono que no lleve o vista nadie empezarán a arder."
+  },
+  {
+   "type": "definition",
+   "page": 164,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 164
+ }
+}

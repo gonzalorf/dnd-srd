@@ -1,0 +1,29 @@
+{
+ "id": "item.matagigantes",
+ "name": "Matagigantes",
+ "category": "Arma",
+ "variant": "cualquiera sencilla o marcial",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquiera sencilla o marcial), rara",
+ "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica.\n\nCuando aciertes a un gigante con ella, el gigante sufrirá 2d6 de daño adicional del tipo del arma y deberá superar una tirada de salvación de Fuerza con CD 15 o tendrá el estado de derribado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica.",
+   "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 262,
+   "md": "Cuando aciertes a un gigante con ella, el gigante sufrirá 2d6 de daño adicional del tipo del arma y deberá superar una tirada de salvación de Fuerza con CD 15 o tendrá el estado de derribado.",
+   "text": "Cuando aciertes a un gigante con ella, el gigante sufrirá 2d6 de daño adicional del tipo del arma y deberá superar una tirada de salvación de Fuerza con CD 15 o tendrá el estado de derribado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 262
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "rule.magia",
+ "name": "Magia",
+ "text": "Cuando llevas a cabo la acción de magia, puedes lanzar un conjuro que tenga un tiempo de lanzamiento de una acción o usar un rasgo u objeto mágico que requiera una acción de magia para activarlo.\n\nSi lanzas un conjuro que tiene un tiempo de lanzamiento de 1 minuto o superior, deberás realizar la acción de magia en cada turno de ese lanzamiento y mantener la concentración mientras lo haces. Si pierdes la concentración, el conjuro fallará, pero no gastarás un espacio de conjuro. Consulta también “Concentración”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Cuando llevas a cabo la acción de magia, puedes lanzar un conjuro que tenga un tiempo de lanzamiento de una acción o usar un rasgo u objeto mágico que requiera una acción de magia para activarlo.",
+   "text": "Cuando llevas a cabo la acción de magia, puedes lanzar un conjuro que tenga un tiempo de lanzamiento de una acción o usar un rasgo u objeto mágico que requiera una acción de magia para activarlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Si lanzas un conjuro que tiene un tiempo de lanzamiento de 1 minuto o superior, deberás realizar la acción de magia en cada turno de ese lanzamiento y mantener la concentración mientras lo haces. Si pierdes la concentración, el conjuro fallará, pero no gastarás un espacio de conjuro. *Consulta también* “Concentración”.",
+   "text": "Si lanzas un conjuro que tiene un tiempo de lanzamiento de 1 minuto o superior, deberás realizar la acción de magia en cada turno de ese lanzamiento y mantener la concentración mientras lo haces. Si pierdes la concentración, el conjuro fallará, pero no gastarás un espacio de conjuro. Consulta también “Concentración”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ },
+ "kind": "acción"
+}

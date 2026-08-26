@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import { chapters } from "../lib/srd";
+const caps = chapters();
+---
+
+<Base title="Documento de referencia del sistema 5.2.1" subtitle="El SRD 5.2.1 en español, navegable y con buscador.">
+  <p class="entradilla">
+    El SRD 5.2.1 en español, con enlaces entre conjuros, objetos y reglas, y la
+    página del PDF original en cada fragmento.
+  </p>
+
+  <div class="atajos">
+    <a href="/conjuros/"><strong>339</strong> conjuros</a>
+    <a href="/monstruos/"><strong>336</strong> perfiles</a>
+    <a href="/objetos/"><strong>258</strong> objetos mágicos</a>
+    <a href="/buscar/"><strong>Buscar</strong> en todo el libro</a>
+  </div>
+
+  <h2>Contenido</h2>
+  <ol class="capitulos">
+    {caps.map((c) => (
+      <li>
+        <a href={`/libro/${c.slug}/`}>{c.title}</a> <span class="pag">p{c.page}</span>
+        {c.sections.length > 0 && (
+          <ul>
+            {c.sections.slice(0, 12).map((s) => (
+              <li><a href={`/libro/${c.slug}/${s.slug}/`}>{s.title}</a></li>
+            ))}
+            {c.sections.length > 12 && <li class="mas"><a href={`/libro/${c.slug}/`}>… y {c.sections.length - 12} más</a></li>}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ol>
+</Base>

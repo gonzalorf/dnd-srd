@@ -1,0 +1,26 @@
+{
+ "id": "item.anteojos-de-encantamiento",
+ "name": "Anteojos de encantamiento",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Estas lentes de cristal cubren los ojos y tienen 3 cargas. Mientras las lleves puestas, puedes gastar 1 o más cargas para lanzar hechizar persona (CD de salvación 13). Si empleas 1 carga, podrás lanzar la versión de nivel 1 del conjuro. Aumentarás el nivel del conjuro en 1 por cada carga adicional que emplees. Las lentes recuperan todas las cargas empleadas cada día, al amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Estas lentes de cristal cubren los ojos y tienen 3 cargas. Mientras las lleves puestas, puedes gastar 1 o más cargas para lanzar *hechizar persona* (CD de salvación 13). Si empleas 1 carga, podrás lanzar la versión de nivel 1 del conjuro. Aumentarás el nivel del conjuro en 1 por cada carga adicional que emplees. Las lentes recuperan todas las cargas empleadas cada día, al amanecer.",
+   "text": "Estas lentes de cristal cubren los ojos y tienen 3 cargas. Mientras las lleves puestas, puedes gastar 1 o más cargas para lanzar hechizar persona (CD de salvación 13). Si empleas 1 carga, podrás lanzar la versión de nivel 1 del conjuro. Aumentarás el nivel del conjuro en 1 por cada carga adicional que emplees. Las lentes recuperan todas las cargas empleadas cada día, al amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ },
+ "refs": [
+  "spell.hechizar-persona"
+ ]
+}

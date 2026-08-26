@@ -1,0 +1,108 @@
+{
+ "id": "monster.arana-gigante",
+ "name": "Araña gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 378
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "26 (4d10 + 4)",
+  "average": 26,
+  "formula": "4d10 + 4"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Caminar por telarañas",
+   "md": "***Caminar por telarañas.*** La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña.",
+   "page": 378,
+   "description": "La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña."
+  },
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 378,
+   "description": "La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 7 (2d6) de daño de veneno.",
+   "page": 378,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 7 (2d6) de daño de veneno."
+  },
+  {
+   "name": "Telaraña",
+   "md": "***Telaraña (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 13, una criatura que la araña pueda ver a 18 m o menos. *Fallo:* el objetivo tendrá el estado de apresado hasta que se destruya la telaraña (CA 10, 5 pg, vulnerabilidad a daño de fuego e inmunidad a daño psíquico y de veneno).",
+   "page": 378,
+   "description": "*Tirada de salvación de Destreza:* CD 13, una criatura que la araña pueda ver a 18 m o menos. *Fallo:* el objetivo tendrá el estado de apresado hasta que se destruya la telaraña (CA 10, 5 pg, vulnerabilidad a daño de fuego e inmunidad a daño psíquico y de veneno).",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

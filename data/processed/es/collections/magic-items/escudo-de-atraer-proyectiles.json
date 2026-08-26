@@ -1,0 +1,32 @@
+{
+ "id": "item.escudo-de-atraer-proyectiles",
+ "name": "Escudo de atraer proyectiles",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), rara (requiere sintonización)",
+ "text": "Mientras lleves embrazado este escudo, tendrás resistencia al daño de los ataques con armas a distancia.\n\nMaldición. Este escudo está maldito. Al sintonizarte con él, sufres la maldición hasta que seas el objetivo del conjuro levantar maldición u otro efecto mágico similar. Quitarse el escudo no acaba con la maldición. Siempre que un ataque con un arma a distancia tenga como objetivo a una criatura a 3 m o menos de ti, la maldición hará que tú seas el objetivo en su lugar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 253,
+   "md": "Mientras lleves embrazado este escudo, tendrás resistencia al daño de los ataques con armas a distancia.",
+   "text": "Mientras lleves embrazado este escudo, tendrás resistencia al daño de los ataques con armas a distancia."
+  },
+  {
+   "type": "definition",
+   "page": 253,
+   "md": "***Maldición.*** Este escudo está maldito. Al sintonizarte con él, sufres la maldición hasta que seas el objetivo del conjuro *levantar maldición* u otro efecto mágico similar. Quitarse el escudo no acaba con la maldición. Siempre que un ataque con un arma a distancia tenga como objetivo a una criatura a 3 m o menos de ti, la maldición hará que tú seas el objetivo en su lugar.",
+   "text": "Maldición. Este escudo está maldito. Al sintonizarte con él, sufres la maldición hasta que seas el objetivo del conjuro levantar maldición u otro efecto mágico similar. Quitarse el escudo no acaba con la maldición. Siempre que un ataque con un arma a distancia tenga como objetivo a una criatura a 3 m o menos de ti, la maldición hará que tú seas el objetivo en su lugar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 253
+ },
+ "refs": [
+  "spell.levantar-maldicion"
+ ]
+}

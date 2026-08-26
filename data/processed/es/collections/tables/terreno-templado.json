@@ -1,0 +1,37 @@
+{
+ "id": "table.terreno-templado",
+ "caption": "Terreno templado",
+ "header": [
+  "Nivel de druida",
+  "Conjuros de círculo"
+ ],
+ "rows": [
+  [
+   "3",
+   "Agarre electrizante, dormir, paso brumoso"
+  ],
+  [
+   "5",
+   "Relámpago"
+  ],
+  [
+   "7",
+   "Libertad de movimiento"
+  ],
+  [
+   "9",
+   "Paso arbóreo"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Subclase de druida: Círculo de la tierra",
+  "Nivel 3: Conjuros del círculo de la tierra"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 57
+ }
+}

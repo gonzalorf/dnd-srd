@@ -1,0 +1,17 @@
+{
+ "id": "rule.desventaja",
+ "name": "Desventaja",
+ "text": "Si tienes desventaja en una prueba con d20, tira 2d20 y utiliza el resultado más bajo. Una tirada no puede verse afectada por más de una desventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Si tienes desventaja en una prueba con d20, tira 2d20 y utiliza el resultado más bajo. Una tirada no puede verse afectada por más de una desventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. *Consulta también* el capítulo “Cómo jugar” (“Las pruebas con d20”).",
+   "text": "Si tienes desventaja en una prueba con d20, tira 2d20 y utiliza el resultado más bajo. Una tirada no puede verse afectada por más de una desventaja, y una ventaja y una desventaja en la misma tirada se anulan entre sí. Consulta también el capítulo “Cómo jugar” (“Las pruebas con d20”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

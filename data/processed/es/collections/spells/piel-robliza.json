@@ -1,0 +1,50 @@
+{
+ "id": "spell.piel-robliza",
+ "name": "Piel robliza",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un puñado de corteza)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un puñado de corteza",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, la piel del objetivo adopta una apariencia de corteza y su clase de armadura no podrá ser inferior a 17.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 174,
+   "md": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, la piel del objetivo adopta una apariencia de corteza y su clase de armadura no podrá ser inferior a 17.",
+   "text": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, la piel del objetivo adopta una apariencia de corteza y su clase de armadura no podrá ser inferior a 17."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 174
+ }
+}

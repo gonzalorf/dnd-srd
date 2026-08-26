@@ -1,0 +1,21 @@
+{
+ "id": "sidebar.orden-de-marcha",
+ "title": "Orden de marcha",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Los aventureros deberían establecer un orden de marcha cuando se desplazan, ya sea por interiores o exteriores. El orden de marcha facilita determinar qué personajes se ven afectados por las trampas, quiénes pueden detectar a los enemigos ocultos y cuáles están situados más cerca de ellos si estalla un combate. Podéis cambiar vuestro orden de marcha cuando no estéis en un combate y registrar el orden como consideréis apropiado: por ejemplo, anotadlo o representadlo con miniaturas.",
+   "text": "Los aventureros deberían establecer un orden de marcha cuando se desplazan, ya sea por interiores o exteriores. El orden de marcha facilita determinar qué personajes se ven afectados por las trampas, quiénes pueden detectar a los enemigos ocultos y cuáles están situados más cerca de ellos si estalla un combate. Podéis cambiar vuestro orden de marcha cuando no estéis en un combate y registrar el orden como consideréis apropiado: por ejemplo, anotadlo o representadlo con miniaturas."
+  }
+ ],
+ "context": [
+  "Cómo jugar",
+  "Exploración",
+  "Interactuar con objetos",
+  "Romper objetos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 13
+ }
+}

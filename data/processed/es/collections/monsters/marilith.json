@@ -1,0 +1,152 @@
+{
+ "id": "monster.marilith",
+ "name": "Marilith",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 348,
+  "pages": [
+   348,
+   349
+  ]
+ },
+ "context": [
+  "Marilith"
+ ],
+ "metaRaw": "Infernal Grande (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 10,
+  "score": 20
+ },
+ "hp": {
+  "raw": "220 (21d10 + 105)",
+  "average": 220,
+  "formula": "21d10 + 105"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0
+ },
+ "skills": {
+  "Percepción": 8
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "abisal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "16 (15 000 PX; BC +5)",
+  "cr": 16,
+  "xp": 15000,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 9
+  },
+  "des": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 10
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 8
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 10
+  }
+ },
+ "traits": [
+  {
+   "name": "Reactiva",
+   "md": "***Reactiva.*** La marilith puede llevar a cabo una reacción en cada turno de combate.",
+   "page": 348,
+   "description": "La marilith puede llevar a cabo una reacción en cada turno de combate."
+  },
+  {
+   "name": "Recuperación demoníaca",
+   "md": "***Recuperación demoníaca.*** Si la marilith muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.",
+   "page": 348,
+   "description": "Si la marilith muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** La marilith tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 348,
+   "description": "La marilith tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La marilith realiza seis ataques con sus cuchillas de pacto y emplea su acción de constreñir.",
+   "page": 348,
+   "description": "La marilith realiza seis ataques con sus cuchillas de pacto y emplea su acción de constreñir."
+  },
+  {
+   "name": "Cuchilla de pacto",
+   "md": "***Cuchilla de pacto.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 10 (1d10 + 5) de daño cortante más 7 (2d6) de daño necrótico.",
+   "page": 348,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 10 (1d10 + 5) de daño cortante más 7 (2d6) de daño necrótico."
+  },
+  {
+   "name": "Constreñir",
+   "md": "***Constreñir.*** *Tirada de salvación de Fuerza:* CD 17, una criatura Mediana o más pequeña que la marilith pueda ver a 1,5 m o menos. *Fallo:* 15 (2d10 + 4) de daño contundente. El objetivo tendrá el estado de agarrado (CD 14 para escapar) y el de apresado hasta que el agarre termine.",
+   "page": 348,
+   "description": "*Tirada de salvación de Fuerza:* CD 17, una criatura Mediana o más pequeña que la marilith pueda ver a 1,5 m o menos. *Fallo:* 15 (2d10 + 4) de daño contundente. El objetivo tendrá el estado de agarrado (CD 14 para escapar) y el de apresado hasta que el agarre termine."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Teletransporte",
+   "md": "***Teletransporte (recarga 5–6).*** La marilith se teletransporta hasta 36 m a un espacio sin ocupar que pueda ver.",
+   "page": 349,
+   "description": "La marilith se teletransporta hasta 36 m a un espacio sin ocupar que pueda ver.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Parada",
+   "md": "***Parada.*** *Detonante:* una tirada de ataque cuerpo a cuerpo acierta a la marilith mientras sostiene un arma. *Respuesta:* la marilith suma 5 a su CA contra ese ataque, lo que puede hacer que falle.",
+   "page": 349,
+   "description": "*Detonante:* una tirada de ataque cuerpo a cuerpo acierta a la marilith mientras sostiene un arma. *Respuesta:* la marilith suma 5 a su CA contra ese ataque, lo que puede hacer que falle."
+  }
+ ]
+}

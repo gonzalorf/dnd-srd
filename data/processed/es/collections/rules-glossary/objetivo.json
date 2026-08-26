@@ -1,0 +1,17 @@
+{
+ "id": "rule.objetivo",
+ "name": "Objetivo",
+ "text": "Un objetivo es la criatura o el objeto al que una tirada de ataque hace objetivo, al que un efecto obliga a hacer una tirada de salvación o al que se selecciona para recibir los efectos de un conjuro u otro fenómeno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Un objetivo es la criatura o el objeto al que una tirada de ataque hace objetivo, al que un efecto obliga a hacer una tirada de salvación o al que se selecciona para recibir los efectos de un conjuro u otro fenómeno.",
+   "text": "Un objetivo es la criatura o el objeto al que una tirada de ataque hace objetivo, al que un efecto obliga a hacer una tirada de salvación o al que se selecciona para recibir los efectos de un conjuro u otro fenómeno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

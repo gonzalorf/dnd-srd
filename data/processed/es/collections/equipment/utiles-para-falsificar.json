@@ -1,0 +1,31 @@
+{
+ "id": "tool.utiles-para-falsificar",
+ "name": "Útiles para falsificar",
+ "kind": "tool",
+ "group": "Otras herramientas",
+ "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+   "text": "Característica: Destreza Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)",
+   "text": "Utilizar: escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "15 po",
+  "amount": 15.0,
+  "coin": "po",
+  "gp": 15.0
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.maltrecho",
+ "name": "Maltrecho",
+ "text": "Una criatura está maltrecha cuando le quedan la mitad de sus puntos de golpe o menos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Una criatura está maltrecha cuando le quedan la mitad de sus puntos de golpe o menos.",
+   "text": "Una criatura está maltrecha cuando le quedan la mitad de sus puntos de golpe o menos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

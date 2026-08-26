@@ -1,0 +1,136 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-1",
+ "caption": "Conjuros de bardo de nivel 1",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Caída de pluma",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Curar heridas",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Detectar magia",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Disfrazarse",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Dormir",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Encantar animal",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Entender idiomas",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Fuego feérico",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Hablar con los animales",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Hechizar persona",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Heroísmo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Identificar",
+   "Adivinación",
+   "R, M"
+  ],
+  [
+   "Imagen silenciosa",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Ola atronadora",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Orden imperiosa",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Palabra de curación",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Perdición",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Risa horrible",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Rociada de color",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Sirviente invisible",
+   "Conjuración",
+   "R"
+  ],
+  [
+   "Susurros discordantes",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Texto ilusorio",
+   "Ilusionismo",
+   "R, M"
+  ],
+  [
+   "Zancada prodigiosa",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 38
+ }
+}

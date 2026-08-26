@@ -1,0 +1,17 @@
+{
+ "id": "rule.arrastrarse",
+ "name": "Arrastrarse",
+ "text": "Cuando te arrastras, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Consulta también “Velocidad”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Cuando te arrastras, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). *Consulta también* “Velocidad”.",
+   "text": "Cuando te arrastras, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Consulta también “Velocidad”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ }
+}

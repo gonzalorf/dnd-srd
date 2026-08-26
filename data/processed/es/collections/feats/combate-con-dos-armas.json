@@ -1,0 +1,24 @@
+{
+ "id": "feat.combate-con-dos-armas",
+ "name": "Combate con dos armas",
+ "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)\n\nCuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 95,
+   "md": "*Dote de estilo de combate (requisitos: rasgo Estilo de combate)*",
+   "text": "Dote de estilo de combate (requisitos: rasgo Estilo de combate)"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "md": "Cuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño.",
+   "text": "Cuando haces un ataque extra como resultado de utilizar un arma con la propiedad “ligera”, puedes sumar tu modificador por característica al daño de ese ataque si no lo estás sumando ya al daño."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 95
+ },
+ "category": "Dotes de estilo de combate"
+}

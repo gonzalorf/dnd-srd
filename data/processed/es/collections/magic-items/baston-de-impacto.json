@@ -1,0 +1,35 @@
+{
+ "id": "item.baston-de-impacto",
+ "name": "Bastón de impacto",
+ "category": "Bastón",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Bastón, muy raro (requiere sintonización)",
+ "text": "Este bastón se puede usar a modo de bastón mágico que otorga un bonificador de +3 a las tiradas de ataque y de daño realizadas con él.\n\nEl bastón tiene 10 cargas. Cuando aciertes con un ataque cuerpo a cuerpo con él, podrás gastar hasta 3 cargas. Por cada carga empleada, el objetivo recibirá 1d6 de daño de fuerza adicional.\n\nRecuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en un bastón no mágico.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 240,
+   "md": "Este bastón se puede usar a modo de bastón mágico que otorga un bonificador de +3 a las tiradas de ataque y de daño realizadas con él.",
+   "text": "Este bastón se puede usar a modo de bastón mágico que otorga un bonificador de +3 a las tiradas de ataque y de daño realizadas con él."
+  },
+  {
+   "type": "paragraph",
+   "page": 240,
+   "md": "El bastón tiene 10 cargas. Cuando aciertes con un ataque cuerpo a cuerpo con él, podrás gastar hasta 3 cargas. Por cada carga empleada, el objetivo recibirá 1d6 de daño de fuerza adicional.",
+   "text": "El bastón tiene 10 cargas. Cuando aciertes con un ataque cuerpo a cuerpo con él, podrás gastar hasta 3 cargas. Por cada carga empleada, el objetivo recibirá 1d6 de daño de fuerza adicional."
+  },
+  {
+   "type": "definition",
+   "page": 240,
+   "md": "***Recuperar cargas.*** El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en un bastón no mágico.",
+   "text": "Recuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en un bastón no mágico."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 240
+ }
+}

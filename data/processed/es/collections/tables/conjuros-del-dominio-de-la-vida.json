@@ -1,0 +1,37 @@
+{
+ "id": "table.conjuros-del-dominio-de-la-vida",
+ "caption": "Conjuros del dominio de la vida",
+ "header": [
+  "Nivel de clérigo",
+  "Conjuros preparados"
+ ],
+ "rows": [
+  [
+   "3",
+   "Auxilio, bendición, curar heridas, restablecimiento menor"
+  ],
+  [
+   "5",
+   "Palabra de curación en masa, revivir"
+  ],
+  [
+   "7",
+   "Aura de vida, guarda contra la muerte"
+  ],
+  [
+   "9",
+   "Curar heridas en masa, restablecimiento"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Clérigo",
+  "Subclase de clérigo: Dominio de la vida",
+  "Nivel 3: Conjuros del dominio de la vida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 51
+ }
+}

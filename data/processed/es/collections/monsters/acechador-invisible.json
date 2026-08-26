@@ -1,0 +1,134 @@
+{
+ "id": "monster.acechador-invisible",
+ "name": "Acechador invisible",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 283,
+  "pages": [
+   283,
+   284
+  ]
+ },
+ "context": [
+  "Acechador invisible"
+ ],
+ "metaRaw": "Elemental Grande, neutral",
+ "type": "Elemental",
+ "alignment": "neutral",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 7,
+  "score": 22
+ },
+ "hp": {
+  "raw": "97 (13d10 + 26)",
+  "average": 97,
+  "formula": "13d10 + 26"
+ },
+ "speeds": {
+  "caminando": 15.0,
+  "volar": 15.0
+ },
+ "skills": {
+  "Percepción": 8,
+  "Sigilo": 10
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "común",
+  "primordial (aurano)"
+ ],
+ "immunities": [
+  "veneno",
+  "agarrado",
+  "apresado",
+  "cansancio",
+  "derribado",
+  "envenenado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "contundente",
+  "cortante",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Forma de aire",
+   "md": "***Forma de aire.*** El acechador puede entrar en el espacio de un enemigo y detenerse allí. Puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo.",
+   "page": 284,
+   "description": "El acechador puede entrar en el espacio de un enemigo y detenerse allí. Puede moverse a través de un espacio de solo 2,5 cm de ancho sin gastar movimiento adicional para hacerlo."
+  },
+  {
+   "name": "Invisibilidad",
+   "md": "***Invisibilidad.*** El acechador tiene el estado de invisible.",
+   "page": 284,
+   "description": "El acechador tiene el estado de invisible."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El acechador realiza tres ataques con su zarpazo de viento. Puede sustituir un ataque por un uso de su vórtice.",
+   "page": 284,
+   "description": "El acechador realiza tres ataques con su zarpazo de viento. Puede sustituir un ataque por un uso de su vórtice."
+  },
+  {
+   "name": "Zarpazo de viento",
+   "md": "***Zarpazo de viento.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño de fuerza.",
+   "page": 284,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño de fuerza."
+  },
+  {
+   "name": "Vórtice",
+   "md": "***Vórtice.*** *Tirada de salvación de Constitución:* CD 14, una criatura Grande o más pequeña en el espacio del acechador. *Fallo:* 7 (1d8 + 3) de daño de trueno y el objetivo tendrá el estado de agarrado (CD 13 para escapar). Hasta que el agarre termine, el objetivo no podrá lanzar conjuros con un componente verbal y recibirá 7 (2d6) de daño de trueno al principio de cada turno del acechador.",
+   "page": 284,
+   "description": "*Tirada de salvación de Constitución:* CD 14, una criatura Grande o más pequeña en el espacio del acechador. *Fallo:* 7 (1d8 + 3) de daño de trueno y el objetivo tendrá el estado de agarrado (CD 13 para escapar). Hasta que el agarre termine, el objetivo no podrá lanzar conjuros con un componente verbal y recibirá 7 (2d6) de daño de trueno al principio de cada turno del acechador."
+  }
+ ]
+}

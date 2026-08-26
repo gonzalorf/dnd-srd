@@ -1,0 +1,23 @@
+{
+ "id": "item.anillo-de-caida-de-pluma",
+ "name": "Anillo de caída de pluma",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, raro (requiere sintonización)",
+ "text": "Si caes mientras llevas puesto este anillo, descenderás 18 m por asalto y no sufrirás daño por la caída.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Si caes mientras llevas puesto este anillo, descenderás 18 m por asalto y no sufrirás daño por la caída.",
+   "text": "Si caes mientras llevas puesto este anillo, descenderás 18 m por asalto y no sufrirás daño por la caída."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ }
+}

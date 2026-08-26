@@ -1,0 +1,94 @@
+{
+ "id": "spell.creacion",
+ "name": "Creación",
+ "level": 5,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un pincel)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un pincel",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Especial",
+  "concentration": false,
+  "kind": "special"
+ },
+ "text": "Tomas hebras de sombra del Páramo Sombrío para crear un objeto dentro del alcance. Puede ser un objeto de materia vegetal (tela, cuerda, madera o algo similar) o mineral (piedra, cristal, metal o algo similar). El objeto no puede ser mayor que un cubo de 1,5 m de lado y debe tener una forma y un material que hayas visto.\n\nLa duración del conjuro depende del material del objeto, como se muestra en la tabla “Materiales”. Si el objeto está compuesto de varios materiales, su duración será la menor. Si se usa cualquier objeto creado con este conjuro como componente material de otro conjuro, este último fallará.\n\nCon un espacio de conjuro de nivel superior. El tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 5 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "Tomas hebras de sombra del Páramo Sombrío para crear un objeto dentro del alcance. Puede ser un objeto de materia vegetal (tela, cuerda, madera o algo similar) o mineral (piedra, cristal, metal o algo similar). El objeto no puede ser mayor que un cubo de 1,5 m de lado y debe tener una forma y un material que hayas visto.",
+   "text": "Tomas hebras de sombra del Páramo Sombrío para crear un objeto dentro del alcance. Puede ser un objeto de materia vegetal (tela, cuerda, madera o algo similar) o mineral (piedra, cristal, metal o algo similar). El objeto no puede ser mayor que un cubo de 1,5 m de lado y debe tener una forma y un material que hayas visto."
+  },
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "La duración del conjuro depende del material del objeto, como se muestra en la tabla “Materiales”. Si el objeto está compuesto de varios materiales, su duración será la menor. Si se usa cualquier objeto creado con este conjuro como componente material de otro conjuro, este último fallará.",
+   "text": "La duración del conjuro depende del material del objeto, como se muestra en la tabla “Materiales”. Si el objeto está compuesto de varios materiales, su duración será la menor. Si se usa cualquier objeto creado con este conjuro como componente material de otro conjuro, este último fallará."
+  },
+  {
+   "type": "table",
+   "page": 136,
+   "caption": "Materiales",
+   "header": [
+    "Material",
+    "Duración"
+   ],
+   "rows": [
+    [
+     "Materia vegetal",
+     "24 horas"
+    ],
+    [
+     "Piedra o cristal",
+     "12 horas"
+    ],
+    [
+     "Metales preciosos",
+     "1 hora"
+    ],
+    [
+     "Gemas",
+     "10 minutos"
+    ],
+    [
+     "Adamantina o mithral",
+     "1 minuto"
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 136,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 5 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 5 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 136
+ }
+}

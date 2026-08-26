@@ -1,0 +1,17 @@
+{
+ "id": "rule.conjuro",
+ "name": "Conjuro",
+ "text": "Un conjuro es un efecto mágico que tiene las características descritas en el capítulo “Conjuros”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Un conjuro es un efecto mágico que tiene las características descritas en el capítulo “Conjuros”.",
+   "text": "Un conjuro es un efecto mágico que tiene las características descritas en el capítulo “Conjuros”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ }
+}

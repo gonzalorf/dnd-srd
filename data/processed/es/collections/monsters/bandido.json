@@ -1,0 +1,98 @@
+{
+ "id": "monster.bandido",
+ "name": "Bandido",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 286,
+  "pages": [
+   286,
+   287
+  ]
+ },
+ "context": [
+  "Bandidos"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común",
+  "jerga de ladrones"
+ ],
+ "gear": [
+  "armadura de cuero",
+  "ballesta ligera",
+  "cimitarra"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Cimitarra",
+   "md": "***Cimitarra.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante.",
+   "page": 287,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante."
+  },
+  {
+   "name": "Ballesta ligera",
+   "md": "***Ballesta ligera.*** *Tirada de ataque a distancia:* +3, alcance 24/96 m. *Acierto:* 5 (1d8 + 1) de daño perforante.",
+   "page": 287,
+   "description": "*Tirada de ataque a distancia:* +3, alcance 24/96 m. *Acierto:* 5 (1d8 + 1) de daño perforante."
+  }
+ ]
+}

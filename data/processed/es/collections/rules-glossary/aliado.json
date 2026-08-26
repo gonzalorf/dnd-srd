@@ -1,0 +1,17 @@
+{
+ "id": "rule.aliado",
+ "name": "Aliado",
+ "text": "Una criatura es tu aliada si es un miembro de tu grupo de aventureros, si es tu amiga, si combate en tu bando o si las reglas o tu GM determinan que sea tu aliada.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Una criatura es tu aliada si es un miembro de tu grupo de aventureros, si es tu amiga, si combate en tu bando o si las reglas o tu GM determinan que sea tu aliada.",
+   "text": "Una criatura es tu aliada si es un miembro de tu grupo de aventureros, si es tu amiga, si combate en tu bando o si las reglas o tu GM determinan que sea tu aliada."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

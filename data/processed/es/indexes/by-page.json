@@ -1,0 +1,2317 @@
+{
+ "5": [
+  "table.descripciones-de-las-caracteristicas",
+  "table.puntuaciones-de-caracteristica",
+  "sidebar.las-excepciones-se-imponen-a-las-reglas-generales",
+  "sidebar.redondear-hacia-abajo"
+ ],
+ "6": [
+  "table.modificadores-por-caracteristica",
+  "table.ejemplos-de-pruebas-de-caracteristica"
+ ],
+ "7": [
+  "table.clases-de-dificultad-tipicas",
+  "table.ejemplos-de-tiradas-de-salvacion",
+  "table.caracteristicas-de-las-tiradas-de-ataque"
+ ],
+ "8": [
+  "sidebar.inspiracion-heroica"
+ ],
+ "9": [
+  "table.bonificador-por-competencia",
+  "table.habilidades"
+ ],
+ "10": [
+  "table.acciones"
+ ],
+ "13": [
+  "table.ritmo-de-viaje",
+  "sidebar.orden-de-marcha"
+ ],
+ "14": [
+  "sidebar.jugar-con-una-cuadricula"
+ ],
+ "15": [
+  "table.tamano-y-espacio-de-las-criaturas"
+ ],
+ "16": [
+  "table.cobertura",
+  "sidebar.atacantes-y-objetivos-ocultos"
+ ],
+ "18": [
+  "sidebar.descansar"
+ ],
+ "19": [
+  "sidebar.noquear-a-una-criatura"
+ ],
+ "21": [
+  "table.resumen-de-las-clases"
+ ],
+ "22": [
+  "table.puntuaciones-de-caracteristica-y-trasfondos",
+  "table.idiomas-estandar",
+  "table.idiomas-inusuales"
+ ],
+ "23": [
+  "table.p23",
+  "table.costes-en-puntos-de-las-puntuaciones-de-caracteristica",
+  "table.conjunto-estandar-por-clase",
+  "table.puntuaciones-de-caracteristica-y-modificadores"
+ ],
+ "24": [
+  "sidebar.criaturas-sin-alineamiento"
+ ],
+ "25": [
+  "table.puntos-de-golpe-en-el-nivel-1-por-clase",
+  "table.progreso-de-los-personajes"
+ ],
+ "26": [
+  "table.p26",
+  "table.puntos-de-golpe-establecidos-por-clase",
+  "sidebar.dotes-adicionales-en-el-nivel-20"
+ ],
+ "27": [
+  "table.equipo-inicial-a-niveles-superiores"
+ ],
+ "29": [
+  "table.lanzador-de-conjuros-multiclase-espacios-de-conjuro-por-cada-nivel-de-conjuro",
+  "table.bagatelas"
+ ],
+ "30": [
+  "table.p30"
+ ],
+ "31": [
+  "table.p31"
+ ],
+ "32": [
+  "class.barbaro",
+  "table.atributos-basicos-de-barbaro",
+  "table.rasgos-de-barbaro"
+ ],
+ "35": [
+  "class.bardo",
+  "table.atributos-basicos-de-bardo",
+  "table.rasgos-de-bardo"
+ ],
+ "37": [
+  "table.trucos-conjuros-de-bardo-de-nivel-0"
+ ],
+ "38": [
+  "table.conjuros-de-bardo-de-nivel-1",
+  "table.conjuros-de-bardo-de-nivel-2",
+  "table.conjuros-de-bardo-de-nivel-3",
+  "table.conjuros-de-bardo-de-nivel-4",
+  "table.conjuros-de-bardo-de-nivel-5"
+ ],
+ "39": [
+  "table.p39",
+  "table.conjuros-de-bardo-de-nivel-6",
+  "table.conjuros-de-bardo-de-nivel-7",
+  "table.conjuros-de-bardo-de-nivel-8",
+  "table.conjuros-de-bardo-de-nivel-9"
+ ],
+ "40": [
+  "class.brujo",
+  "table.atributos-basicos-de-brujo",
+  "table.rasgos-de-brujo"
+ ],
+ "45": [
+  "table.trucos-conjuros-de-brujo-de-nivel-0",
+  "table.conjuros-de-brujo-de-nivel-1",
+  "table.conjuros-de-brujo-de-nivel-2",
+  "table.conjuros-de-brujo-de-nivel-3",
+  "table.conjuros-de-brujo-de-nivel-4",
+  "table.conjuros-de-brujo-de-nivel-5",
+  "table.conjuros-de-brujo-de-nivel-6",
+  "table.conjuros-de-brujo-de-nivel-7"
+ ],
+ "46": [
+  "table.conjuros-de-brujo-de-nivel-8",
+  "table.conjuros-de-brujo-de-nivel-9",
+  "table.conjuros-del-infernal"
+ ],
+ "47": [
+  "class.clerigo",
+  "table.atributos-basicos-de-clerigo",
+  "table.rasgos-de-clerigo"
+ ],
+ "49": [
+  "table.trucos-conjuros-de-clerigo-de-nivel-0",
+  "table.conjuros-de-clerigo-de-nivel-1"
+ ],
+ "50": [
+  "table.p50",
+  "table.conjuros-de-clerigo-de-nivel-2",
+  "table.conjuros-de-clerigo-de-nivel-3",
+  "table.conjuros-de-clerigo-de-nivel-4",
+  "table.conjuros-de-clerigo-de-nivel-5",
+  "table.conjuros-de-clerigo-de-nivel-6"
+ ],
+ "51": [
+  "table.p51",
+  "table.conjuros-de-clerigo-de-nivel-7",
+  "table.conjuros-de-clerigo-de-nivel-8",
+  "table.conjuros-de-clerigo-de-nivel-9",
+  "table.conjuros-del-dominio-de-la-vida"
+ ],
+ "52": [
+  "class.druida",
+  "table.atributos-basicos-de-druida",
+  "table.rasgos-de-druida"
+ ],
+ "54": [
+  "table.formas-de-bestia"
+ ],
+ "55": [
+  "table.trucos-conjuros-de-druida-de-nivel-0",
+  "table.conjuros-de-druida-de-nivel-1",
+  "table.conjuros-de-druida-de-nivel-2"
+ ],
+ "56": [
+  "table.conjuros-de-druida-de-nivel-3",
+  "table.conjuros-de-druida-de-nivel-4",
+  "table.conjuros-de-druida-de-nivel-5",
+  "table.conjuros-de-druida-de-nivel-6",
+  "table.conjuros-de-druida-de-nivel-7",
+  "table.conjuros-de-druida-de-nivel-8"
+ ],
+ "57": [
+  "table.conjuros-de-druida-de-nivel-9",
+  "table.terreno-arido",
+  "table.terreno-polar",
+  "table.terreno-templado",
+  "table.terreno-tropical",
+  "table.proteccion-de-la-naturaleza"
+ ],
+ "58": [
+  "class.explorador",
+  "table.atributos-basicos-de-explorador",
+  "table.rasgos-de-explorador"
+ ],
+ "60": [
+  "table.conjuros-de-explorador-de-nivel-1"
+ ],
+ "61": [
+  "table.conjuros-de-explorador-de-nivel-2",
+  "table.conjuros-de-explorador-de-nivel-3",
+  "table.conjuros-de-explorador-de-nivel-4",
+  "table.conjuros-de-explorador-de-nivel-5"
+ ],
+ "62": [
+  "class.guerrero",
+  "table.atributos-basicos-de-guerrero",
+  "table.rasgos-de-guerrero"
+ ],
+ "64": [
+  "class.hechicero",
+  "table.atributos-basicos-de-hechicero"
+ ],
+ "65": [
+  "table.rasgos-de-hechicero"
+ ],
+ "66": [
+  "table.crear-espacios-de-conjuro"
+ ],
+ "68": [
+  "table.trucos-conjuros-de-hechicero-de-nivel-0",
+  "table.conjuros-de-hechicero-de-nivel-1",
+  "table.conjuros-de-hechicero-de-nivel-2"
+ ],
+ "69": [
+  "table.conjuros-de-hechicero-de-nivel-3",
+  "table.conjuros-de-hechicero-de-nivel-4",
+  "table.conjuros-de-hechicero-de-nivel-5",
+  "table.conjuros-de-hechicero-de-nivel-6",
+  "table.conjuros-de-hechicero-de-nivel-7"
+ ],
+ "70": [
+  "table.conjuros-de-hechicero-de-nivel-8",
+  "table.conjuros-de-hechicero-de-nivel-9",
+  "table.conjuros-draconicos"
+ ],
+ "71": [
+  "class.mago",
+  "table.atributos-basicos-de-mago",
+  "table.rasgos-de-mago"
+ ],
+ "73": [
+  "table.trucos-conjuros-de-mago-de-nivel-0",
+  "table.conjuros-de-mago-de-nivel-1",
+  "sidebar.ampliar-y-sustituir-un-libro-de-conjuros"
+ ],
+ "74": [
+  "table.p74",
+  "table.conjuros-de-mago-de-nivel-2",
+  "table.conjuros-de-mago-de-nivel-3"
+ ],
+ "75": [
+  "table.p75",
+  "table.conjuros-de-mago-de-nivel-4",
+  "table.conjuros-de-mago-de-nivel-5",
+  "table.conjuros-de-mago-de-nivel-6"
+ ],
+ "76": [
+  "table.conjuros-de-mago-de-nivel-7",
+  "table.conjuros-de-mago-de-nivel-8",
+  "table.conjuros-de-mago-de-nivel-9"
+ ],
+ "77": [
+  "class.monje",
+  "table.atributos-basicos-de-monje",
+  "table.rasgos-de-monje"
+ ],
+ "81": [
+  "class.paladin",
+  "table.atributos-basicos-de-paladin",
+  "table.rasgos-de-paladin"
+ ],
+ "82": [
+  "sidebar.romper-tu-juramento"
+ ],
+ "84": [
+  "table.conjuros-de-paladin-de-nivel-1",
+  "table.conjuros-de-paladin-de-nivel-2",
+  "table.conjuros-de-paladin-de-nivel-3",
+  "table.conjuros-de-paladin-de-nivel-4",
+  "table.conjuros-de-paladin-de-nivel-5"
+ ],
+ "85": [
+  "table.conjuros-del-juramento-de-entrega"
+ ],
+ "86": [
+  "class.picaro",
+  "table.atributos-basicos-de-picaro",
+  "table.rasgos-de-picaro"
+ ],
+ "89": [
+  "background.acolito",
+  "background.criminal",
+  "background.erudito",
+  "background.soldado"
+ ],
+ "90": [
+  "species.draconido",
+  "species.elfo",
+  "table.ancestros-draconicos"
+ ],
+ "91": [
+  "species.enano",
+  "species.gnomo",
+  "table.linajes-elficos"
+ ],
+ "92": [
+  "species.goliat",
+  "species.humano",
+  "species.mediano",
+  "species.orco"
+ ],
+ "93": [
+  "species.tiefling",
+  "table.legados-infernales"
+ ],
+ "94": [
+  "feat.alerta",
+  "feat.atacante-salvaje",
+  "feat.habilidoso",
+  "feat.iniciado-en-la-magia",
+  "feat.apresador",
+  "feat.mejora-de-caracteristica"
+ ],
+ "95": [
+  "feat.combate-con-armas-a-dos-manos",
+  "feat.combate-con-dos-armas",
+  "feat.defensa",
+  "feat.tiro-con-arco",
+  "feat.don-de-la-pericia-en-combate",
+  "feat.don-de-la-vision-verdadera",
+  "feat.don-del-ataque-imparable",
+  "feat.don-del-destino",
+  "feat.don-del-espiritu-de-la-noche",
+  "feat.don-del-recuerdo-de-conjuros"
+ ],
+ "96": [
+  "feat.don-del-viaje-dimensional"
+ ],
+ "97": [
+  "table.valores-de-monedas",
+  "sidebar.vender-equipo"
+ ],
+ "98": [
+  "sidebar.armas-improvisadas"
+ ],
+ "99": [
+  "weapon.baston",
+  "weapon.daga",
+  "weapon.garrote",
+  "weapon.garrote-grande",
+  "weapon.hacha-de-mano",
+  "weapon.hoz",
+  "weapon.jabalina",
+  "weapon.lanza",
+  "weapon.martillo-ligero",
+  "weapon.maza",
+  "weapon.arco-corto",
+  "weapon.ballesta-ligera",
+  "weapon.dardo",
+  "weapon.honda",
+  "weapon.alabarda",
+  "weapon.cimitarra",
+  "weapon.espada-corta",
+  "weapon.espada-larga",
+  "weapon.espadon",
+  "weapon.estoque",
+  "weapon.guja",
+  "weapon.hacha-a-dos-manos",
+  "weapon.hacha-de-guerra",
+  "weapon.lanza-de-caballeria",
+  "weapon.latigo",
+  "weapon.lucero-del-alba",
+  "weapon.mangual",
+  "weapon.martillo-de-guerra",
+  "weapon.maza-a-dos-manos",
+  "weapon.pica",
+  "weapon.pico-de-guerra",
+  "weapon.tridente",
+  "weapon.arco-largo",
+  "weapon.ballesta-de-mano",
+  "weapon.ballesta-pesada",
+  "weapon.cerbatana",
+  "weapon.mosquete",
+  "weapon.pistola",
+  "table.armas"
+ ],
+ "100": [
+  "armor.armadura-acolchada",
+  "armor.armadura-de-cuero",
+  "armor.armadura-de-cuero-tachonado",
+  "armor.armadura-de-pieles",
+  "armor.camisa-de-malla",
+  "armor.cota-de-escamas",
+  "armor.coraza",
+  "armor.media-armadura",
+  "armor.cota-guarnecida",
+  "armor.cota-de-malla",
+  "armor.armadura-de-bandas",
+  "armor.armadura-de-placas",
+  "armor.escudo",
+  "table.armaduras"
+ ],
+ "101": [
+  "tool.herramientas-de-albanil",
+  "tool.herramientas-de-alfarero",
+  "tool.herramientas-de-carpintero",
+  "tool.herramientas-de-cartografo",
+  "tool.herramientas-de-curtidor",
+  "tool.herramientas-de-ebanista",
+  "tool.herramientas-de-herrero",
+  "tool.herramientas-de-joyero",
+  "tool.herramientas-de-manitas",
+  "tool.herramientas-de-soplador-de-vidrio"
+ ],
+ "102": [
+  "tool.herramientas-de-tejedor",
+  "tool.herramientas-de-zapatero",
+  "tool.suministros-de-alquimista",
+  "tool.suministros-de-caligrafo",
+  "tool.suministros-de-cervecero",
+  "tool.suministros-de-pintor",
+  "tool.utiles-de-cocinero",
+  "tool.herramientas-de-ladron",
+  "tool.herramientas-de-navegante",
+  "tool.instrumento-musical-variable",
+  "tool.juego-variable",
+  "tool.utiles-de-envenenador",
+  "tool.utiles-de-herborista",
+  "tool.utiles-para-disfrazarse",
+  "tool.utiles-para-falsificar"
+ ],
+ "103": [
+  "gear.abrojos",
+  "gear.aceite",
+  "gear.acido",
+  "gear.agua-bendita",
+  "gear.aljaba",
+  "gear.antitoxina",
+  "gear.antorcha",
+  "gear.ariete-portatil",
+  "gear.barril",
+  "gear.bolas-de-metal",
+  "gear.bolsa",
+  "gear.botella-de-cristal",
+  "gear.cadena",
+  "gear.campana",
+  "gear.canalizador-arcano",
+  "gear.canalizador-druidico",
+  "gear.cantimplora",
+  "gear.catalejo",
+  "gear.cerradura",
+  "gear.cesta",
+  "gear.cofre",
+  "gear.cordel",
+  "gear.cubo",
+  "gear.cuerda",
+  "gear.disfraz",
+  "gear.escalera",
+  "gear.espejo",
+  "gear.esposas",
+  "gear.estuche-para-mapas-o-pergaminos",
+  "gear.estuche-para-virotes-de-ballesta",
+  "gear.frasco",
+  "gear.fuego-de-alquimista",
+  "gear.garfio-de-escalada",
+  "gear.jarro",
+  "gear.lampara",
+  "gear.libro",
+  "gear.linterna-de-ojo-de-buey",
+  "gear.linterna-sorda",
+  "gear.lupa",
+  "gear.manta",
+  "gear.mapa",
+  "gear.mochila",
+  "gear.municion",
+  "gear.olla-de-hierro",
+  "gear.pala",
+  "gear.palanqueta",
+  "gear.papel",
+  "gear.paquete-de-artista",
+  "gear.paquete-de-diplomatico",
+  "gear.paquete-de-erudito",
+  "gear.paquete-de-explorador",
+  "gear.paquete-de-explorador-de-mazmorras",
+  "gear.paquete-de-ladron",
+  "gear.paquete-de-sacerdote",
+  "gear.perfume",
+  "gear.pergamino",
+  "gear.pergamino-de-conjuro-truco",
+  "gear.pergamino-de-conjuro-nivel-1",
+  "gear.petate",
+  "gear.pluma",
+  "gear.pocion-de-curacion",
+  "gear.polipasto",
+  "gear.puntas-de-hierro",
+  "gear.raciones",
+  "gear.red",
+  "gear.ropas-de-calidad",
+  "gear.ropas-de-viaje",
+  "gear.saco",
+  "gear.saquito-de-componentes",
+  "gear.silbato-de-supervivencia",
+  "gear.simbolo-sagrado",
+  "gear.tienda",
+  "gear.tinta",
+  "gear.trampa-para-cazar",
+  "gear.tunica",
+  "gear.utiles-de-escalada",
+  "gear.utiles-de-sanador",
+  "gear.vara",
+  "gear.vela",
+  "gear.veneno-basico",
+  "gear.vial",
+  "gear.yesquero",
+  "table.equipo-de-aventureros"
+ ],
+ "105": [
+  "focus.baston",
+  "focus.cristal",
+  "focus.orbe",
+  "focus.vara",
+  "focus.varita",
+  "table.canalizadores-arcanos",
+  "table.canalizadores-druidicos"
+ ],
+ "106": [
+  "ammunition.balas-de-arma-de-fuego",
+  "ammunition.dardos",
+  "ammunition.flechas",
+  "ammunition.proyectiles-de-honda",
+  "ammunition.virotes",
+  "table.municion"
+ ],
+ "108": [
+  "table.simbolos-sagrados"
+ ],
+ "109": [
+  "mount.caballo-de-guerra",
+  "mount.caballo-de-monta",
+  "mount.caballo-de-tiro",
+  "mount.camello",
+  "mount.elefante",
+  "mount.mastin",
+  "mount.mula",
+  "mount.poni",
+  "tack.alimento-por-dia",
+  "tack.carreta",
+  "tack.carro",
+  "tack.carro-de-guerra",
+  "tack.carruaje",
+  "tack.estabulado-por-dia",
+  "tack.de-monta",
+  "tack.exotica",
+  "tack.militar",
+  "tack.trineo",
+  "vehicle.velocidad",
+  "vehicle.tripulacion",
+  "vehicle.pasajeros",
+  "vehicle.umbral-de-dano",
+  "table.monturas-y-otros-animales",
+  "table.arreos-arneses-y-vehiculos-tirados-por-animales"
+ ],
+ "110": [
+  "vehicle.aeronave",
+  "vehicle.barcaza",
+  "vehicle.bote-de-remos",
+  "vehicle.drakkar",
+  "vehicle.galera",
+  "vehicle.navio-de-guerra",
+  "vehicle.velero",
+  "vehicle.reparacion-de-vehiculos",
+  "table.vehiculos-acuaticos-y-aereos",
+  "table.comida-bebida-y-alojamiento"
+ ],
+ "111": [
+  "table.asalariados",
+  "table.servicios-de-lanzamiento-de-conjuros"
+ ],
+ "113": [
+  "table.costes-de-pergaminos-de-conjuro"
+ ],
+ "114": [
+  "table.preparacion-de-conjuros-segun-clase",
+  "sidebar.lanzar-conjuros-con-armadura"
+ ],
+ "115": [
+  "table.escuelas-magicas"
+ ],
+ "116": [
+  "sidebar.identificar-un-conjuro-activo"
+ ],
+ "118": [
+  "spell.abrir",
+  "spell.acelerar",
+  "spell.adivinacion",
+  "spell.agarre-electrizante",
+  "spell.agrandar-reducir"
+ ],
+ "119": [
+  "spell.alarma",
+  "spell.aliado-planar",
+  "spell.aliento-de-dragon",
+  "spell.alterar-el-propio-aspecto"
+ ],
+ "120": [
+  "spell.alterar-los-recuerdos",
+  "spell.alzar-a-los-muertos",
+  "spell.animar-a-los-muertos"
+ ],
+ "121": [
+  "spell.animar-objetos",
+  "spell.antipatia-simpatia",
+  "monster.objeto-animado"
+ ],
+ "122": [
+  "spell.apariencia",
+  "spell.arma-espiritual",
+  "spell.arma-magica",
+  "spell.armadura-de-mago",
+  "spell.asesino-fantasmal"
+ ],
+ "123": [
+  "spell.aspectos-animales",
+  "spell.atadura-planar",
+  "spell.augurio",
+  "spell.aura-de-vida",
+  "table.presagios"
+ ],
+ "124": [
+  "spell.aura-magica-de-arcanista",
+  "spell.aura-sagrada",
+  "spell.auxilio",
+  "spell.baile-irresistible",
+  "spell.barrera-de-cuchillas"
+ ],
+ "125": [
+  "spell.bendicion",
+  "spell.boca-magica",
+  "spell.bola-de-fuego",
+  "spell.bola-de-fuego-de-explosion-retardada"
+ ],
+ "126": [
+  "spell.buenas-bayas",
+  "spell.burla-danina",
+  "spell.caida-de-pluma",
+  "spell.calentar-metal",
+  "spell.calmar-emociones",
+  "spell.cambiar-de-forma"
+ ],
+ "127": [
+  "spell.caminar-sobre-el-agua",
+  "spell.campo-antimagia",
+  "spell.caparazon-antivida",
+  "spell.castigo-abrasador",
+  "spell.castigo-brillante"
+ ],
+ "128": [
+  "spell.castigo-divino",
+  "spell.cautiverio",
+  "spell.cerradura-arcana",
+  "spell.circulo-de-muerte"
+ ],
+ "129": [
+  "spell.circulo-de-teletransportacion",
+  "spell.circulo-magico",
+  "spell.clarividencia",
+  "spell.clavo-mental"
+ ],
+ "130": [
+  "spell.clon",
+  "spell.cofre-oculto",
+  "spell.compulsion",
+  "spell.comunion",
+  "spell.comunion-con-la-naturaleza"
+ ],
+ "131": [
+  "spell.confusion",
+  "spell.conjurar-animales",
+  "spell.conjurar-celestial",
+  "table.p131"
+ ],
+ "132": [
+  "spell.conjurar-elemental",
+  "spell.conjurar-elementales-menores",
+  "spell.conjurar-feerico",
+  "spell.conjurar-seres-del-bosque"
+ ],
+ "133": [
+  "spell.cono-de-frio",
+  "spell.conocer-las-leyendas",
+  "spell.consagrar",
+  "spell.contactar-con-otro-plano"
+ ],
+ "134": [
+  "spell.contagio",
+  "spell.contingencia",
+  "spell.contorno-borroso",
+  "spell.contrahechizo",
+  "spell.controlar-agua"
+ ],
+ "135": [
+  "spell.controlar-el-clima",
+  "spell.corcel-fantasma",
+  "table.precipitaciones",
+  "table.temperatura-viento"
+ ],
+ "136": [
+  "spell.creacion",
+  "spell.crear-comida-y-agua",
+  "spell.crear-llama",
+  "spell.crear-muerto-viviente",
+  "table.materiales"
+ ],
+ "137": [
+  "spell.crear-o-destruir-agua",
+  "spell.crecimiento-espinoso",
+  "spell.crecimiento-vegetal",
+  "spell.cuchillo-de-hielo",
+  "spell.curar",
+  "spell.curar-en-masa"
+ ],
+ "138": [
+  "spell.curar-heridas",
+  "spell.curar-heridas-en-masa",
+  "spell.danar",
+  "spell.dedo-de-la-muerte",
+  "spell.de-la-carne-a-la-piedra",
+  "spell.descarga-de-fuego"
+ ],
+ "139": [
+  "spell.descarga-sobrenatural",
+  "spell.deseo",
+  "spell.desintegrar"
+ ],
+ "140": [
+  "spell.despertar",
+  "spell.desplazamiento",
+  "spell.desplazamiento-entre-planos",
+  "spell.destierro"
+ ],
+ "141": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.detectar-magia",
+  "spell.detectar-pensamientos",
+  "spell.detectar-trampas"
+ ],
+ "142": [
+  "spell.detectar-venenos-y-enfermedades",
+  "spell.disco-flotante",
+  "spell.disfrazarse",
+  "spell.disipar-el-bien-y-el-mal",
+  "spell.disipar-magia"
+ ],
+ "143": [
+  "spell.dominar-bestia",
+  "spell.dominar-monstruo",
+  "spell.dominar-persona",
+  "spell.don-de-lenguas"
+ ],
+ "144": [
+  "spell.dormir",
+  "spell.dulce-descanso",
+  "spell.elementalismo",
+  "spell.embelesar",
+  "spell.encantar-animal"
+ ],
+ "145": [
+  "spell.encontrar-el-camino",
+  "spell.encontrar-familiar",
+  "spell.enganar",
+  "spell.enlace-telepatico"
+ ],
+ "146": [
+  "spell.enmaranar",
+  "spell.ensueno",
+  "spell.entender-idiomas",
+  "spell.escudo",
+  "spell.escudo-de-fe",
+  "spell.escudo-de-fuego"
+ ],
+ "147": [
+  "spell.escudrinar",
+  "spell.esfera-congelante",
+  "spell.esfera-de-llamas",
+  "table.p147",
+  "table.p147-2"
+ ],
+ "148": [
+  "spell.esfera-elastica",
+  "spell.esfera-vitriolica",
+  "spell.espada-arcana",
+  "spell.espejismo-arcano"
+ ],
+ "149": [
+  "spell.espiritus-guardianes",
+  "spell.estallido-magico",
+  "spell.excursion-eterea",
+  "spell.explosion-solar",
+  "spell.fabricar"
+ ],
+ "150": [
+  "spell.falsa-vida",
+  "spell.favor-divino",
+  "spell.festin-de-heroes",
+  "spell.flecha-acida",
+  "spell.forma-gaseosa"
+ ],
+ "151": [
+  "spell.fuego-feerico",
+  "spell.fuerza-fantasmal",
+  "spell.fundirse-con-la-piedra",
+  "spell.geas"
+ ],
+ "152": [
+  "spell.glifo-custodio",
+  "spell.globo-de-invulnerabilidad",
+  "spell.golpe-apresador"
+ ],
+ "153": [
+  "spell.golpe-flamigero",
+  "spell.grasa",
+  "spell.guarda-contra-la-muerte",
+  "spell.guardas-y-guardias"
+ ],
+ "154": [
+  "spell.guardian-de-la-fe",
+  "spell.guia",
+  "spell.hablar-con-las-plantas",
+  "spell.hablar-con-los-animales",
+  "spell.hablar-con-los-muertos",
+  "spell.hacer-anicos"
+ ],
+ "155": [
+  "spell.hallar-corcel",
+  "spell.hechizar-monstruo",
+  "monster.corcel-sobrenatural"
+ ],
+ "156": [
+  "spell.hechizar-persona",
+  "spell.heroismo",
+  "spell.hoja-de-fuego",
+  "spell.identificar",
+  "spell.ilusion-menor"
+ ],
+ "157": [
+  "spell.ilusion-programada",
+  "spell.imagen-mayor",
+  "spell.imagen-multiple",
+  "spell.imagen-silenciosa"
+ ],
+ "158": [
+  "spell.impacto-certero",
+  "spell.imponer-maldicion",
+  "spell.indetectable",
+  "spell.infligir-heridas",
+  "spell.inmovilizar-monstruo"
+ ],
+ "159": [
+  "spell.inmovilizar-persona",
+  "spell.insecto-gigante",
+  "spell.invertir-la-gravedad",
+  "spell.invisibilidad",
+  "monster.insecto-gigante"
+ ],
+ "160": [
+  "spell.invisibilidad-mejorada",
+  "spell.invocacion-instantanea",
+  "spell.invocar-dragon",
+  "spell.jaula-de-fuerza",
+  "monster.espiritu-draconico"
+ ],
+ "161": [
+  "spell.laberinto",
+  "spell.labia",
+  "spell.levantar-maldicion",
+  "spell.levitar",
+  "spell.libertad-de-movimiento"
+ ],
+ "162": [
+  "spell.llama-permanente",
+  "spell.llama-sagrada",
+  "spell.llamar-al-relampago",
+  "spell.localizar-animales-o-plantas",
+  "spell.localizar-criatura",
+  "spell.localizar-objeto"
+ ],
+ "163": [
+  "spell.luces-danzantes",
+  "spell.luz",
+  "spell.luz-del-dia",
+  "spell.mal-de-ojo",
+  "spell.maleficio"
+ ],
+ "164": [
+  "spell.mano-arcana",
+  "spell.mano-de-mago",
+  "spell.manos-ardientes",
+  "spell.mansion-magnifica"
+ ],
+ "165": [
+  "spell.marca-del-cazador",
+  "spell.marchitar",
+  "spell.mastin-fiel",
+  "spell.mensaje"
+ ],
+ "166": [
+  "spell.mensajero-animal",
+  "spell.mente-en-blanco",
+  "spell.moldear-la-piedra",
+  "spell.mover-la-tierra"
+ ],
+ "167": [
+  "spell.muro-de-espinas",
+  "spell.muro-de-fuego",
+  "spell.muro-de-fuerza",
+  "spell.muro-de-hielo"
+ ],
+ "168": [
+  "spell.muro-de-piedra",
+  "spell.muro-de-viento",
+  "spell.muro-prismatico"
+ ],
+ "169": [
+  "spell.nube-aniquiladora",
+  "spell.nube-apestosa",
+  "table.capas-prismaticas"
+ ],
+ "170": [
+  "spell.nube-de-oscurecimiento",
+  "spell.nube-incendiaria",
+  "spell.ofuscacion",
+  "spell.ojo-arcano",
+  "spell.ola-atronadora",
+  "spell.orbe-cromatico"
+ ],
+ "171": [
+  "spell.orden-imperiosa",
+  "spell.oscuridad",
+  "spell.palabra-de-curacion",
+  "spell.palabra-de-curacion-en-masa",
+  "spell.palabra-de-poder-aturdir",
+  "spell.palabra-de-poder-matar"
+ ],
+ "172": [
+  "spell.palabra-de-poder-sanar",
+  "spell.palabra-de-regreso",
+  "spell.palabra-divina",
+  "spell.parar-el-tiempo",
+  "spell.pasamuros",
+  "spell.pasar-sin-rastro",
+  "table.efectos-de-palabra-divina"
+ ],
+ "173": [
+  "spell.paso-arboreo",
+  "spell.paso-brumoso",
+  "spell.patron-hipnotico",
+  "spell.pequena-choza",
+  "spell.perdicion",
+  "spell.piedad-con-los-moribundos"
+ ],
+ "174": [
+  "spell.piel-petrea",
+  "spell.piel-robliza",
+  "spell.plaga-de-insectos",
+  "spell.plegaria-de-curacion",
+  "spell.polimorfar",
+  "spell.polimorfar-verdadero"
+ ],
+ "175": [
+  "spell.portal",
+  "spell.potenciar-caracteristica",
+  "spell.presciencia"
+ ],
+ "176": [
+  "spell.prestidigitacion",
+  "spell.prohibicion",
+  "spell.proteccion-contra-el-bien-y-el-mal",
+  "spell.proteccion-contra-energia",
+  "spell.proteccion-contra-veneno"
+ ],
+ "177": [
+  "spell.proyeccion-astral",
+  "spell.proyectar-imagen",
+  "spell.proyectil-magico",
+  "spell.puerta-dimensional"
+ ],
+ "178": [
+  "spell.purificar-comida-y-bebida",
+  "spell.rafaga-de-viento",
+  "spell.ralentizar",
+  "spell.rayo-abrasador",
+  "spell.rayo-de-escarcha",
+  "spell.rayo-de-luna"
+ ],
+ "179": [
+  "spell.rayo-debilitador",
+  "spell.rayo-nauseabundo",
+  "spell.rayo-solar",
+  "spell.recado",
+  "spell.recluir"
+ ],
+ "180": [
+  "spell.reencarnar",
+  "spell.regenerar",
+  "spell.relampago",
+  "spell.relampago-en-cadena",
+  "spell.reparar",
+  "spell.reprension-infernal",
+  "table.p180"
+ ],
+ "181": [
+  "spell.resistencia",
+  "spell.respirar-bajo-el-agua",
+  "spell.restablecimiento-mayor",
+  "spell.restablecimiento-menor",
+  "spell.resurreccion",
+  "spell.resurreccion-verdadera"
+ ],
+ "182": [
+  "spell.retirada-expeditiva",
+  "spell.revivir",
+  "spell.risa-horrible",
+  "spell.rociada-de-color",
+  "spell.rociada-prismatica",
+  "spell.rociada-venenosa",
+  "table.rayos-prismaticos"
+ ],
+ "183": [
+  "spell.saber-druidico",
+  "spell.saeta-guia",
+  "spell.salpicadura-acida",
+  "spell.salto",
+  "spell.sanctasanctorum-privado"
+ ],
+ "184": [
+  "spell.santuario",
+  "spell.semiplano",
+  "spell.senal-de-esperanza",
+  "spell.shillelagh",
+  "spell.silencio",
+  "spell.simbolo"
+ ],
+ "185": [
+  "spell.simulacro",
+  "spell.sirviente-invisible"
+ ],
+ "186": [
+  "spell.sordera-ceguera",
+  "spell.sugestion",
+  "spell.sugestion-en-masa",
+  "spell.susurros-discordantes",
+  "spell.taumaturgia"
+ ],
+ "187": [
+  "spell.telarana",
+  "spell.telequinesis",
+  "spell.teletransporte",
+  "table.resultado-del-teletransporte"
+ ],
+ "188": [
+  "spell.tentaculos-negros",
+  "spell.terremoto"
+ ],
+ "189": [
+  "spell.terreno-alucinatorio",
+  "spell.terror",
+  "spell.terror-abyecto",
+  "spell.texto-ilusorio",
+  "spell.toque-helado",
+  "spell.toque-vampirico"
+ ],
+ "190": [
+  "spell.tormenta-de-aguanieve",
+  "spell.tormenta-de-fuego",
+  "spell.tormenta-de-hielo",
+  "spell.tormenta-de-la-venganza",
+  "spell.tormenta-de-meteoritos"
+ ],
+ "191": [
+  "spell.trepar-cual-aracnido",
+  "spell.truco-de-la-cuerda",
+  "spell.tsunami",
+  "spell.urna-magica"
+ ],
+ "192": [
+  "spell.ver-invisibilidad",
+  "spell.viajar-con-el-viento",
+  "spell.viajar-mediante-plantas",
+  "spell.vinculo-protector"
+ ],
+ "193": [
+  "spell.vision-en-la-oscuridad",
+  "spell.vision-veraz",
+  "spell.volar",
+  "spell.voluta-estelar",
+  "spell.zancada-prodigiosa",
+  "spell.zona-de-la-verdad"
+ ],
+ "194": [
+  "rule.accion",
+  "rule.accion-adicional",
+  "rule.actitud",
+  "rule.agarrado",
+  "rule.agarrar",
+  "table.p194"
+ ],
+ "195": [
+  "rule.al-dia",
+  "rule.alcance",
+  "rule.aliado",
+  "rule.alineamiento",
+  "rule.amistosa",
+  "rule.apresado",
+  "rule.area-de-efecto",
+  "rule.arma",
+  "rule.armas-improvisadas"
+ ],
+ "196": [
+  "rule.arrastrarse",
+  "rule.asfixia",
+  "rule.asustado",
+  "rule.atacar",
+  "rule.ataque-con-arma",
+  "rule.ataque-de-conjuro",
+  "rule.ataques-de-oportunidad",
+  "rule.ataque-sin-armas",
+  "rule.aturdido",
+  "rule.aventura",
+  "rule.ayudar"
+ ],
+ "197": [
+  "rule.buscar",
+  "rule.caidas",
+  "rule.cambio-de-forma",
+  "rule.campana",
+  "rule.canalizador-magico",
+  "rule.cansancio",
+  "rule.capacidad-de-carga",
+  "rule.cegado",
+  "table.busqueda",
+  "table.capacidad-de-carga"
+ ],
+ "198": [
+  "rule.cilindro",
+  "rule.clase-de-armadura",
+  "rule.clase-de-dificultad",
+  "rule.cobertura",
+  "rule.competencia",
+  "rule.concentracion",
+  "rule.conjuro",
+  "rule.cono",
+  "rule.correr",
+  "rule.criatura",
+  "rule.critico"
+ ],
+ "199": [
+  "rule.cubo",
+  "rule.curacion",
+  "rule.dados-de-puntos-de-golpe",
+  "rule.dano",
+  "rule.derribado",
+  "rule.descanso-corto",
+  "rule.descanso-largo"
+ ],
+ "200": [
+  "rule.deshidratacion",
+  "rule.desnutricion",
+  "rule.destrabarse",
+  "rule.desventaja",
+  "rule.efecto-magico",
+  "rule.efectos-simultaneos",
+  "rule.emanacion",
+  "rule.encuentro",
+  "rule.enemigo",
+  "rule.ensordecido",
+  "rule.entrenamiento-con-armaduras",
+  "table.consumo-de-agua-al-dia",
+  "table.consumo-de-alimentos-al-dia"
+ ],
+ "201": [
+  "rule.envenenado",
+  "rule.esconderse",
+  "rule.esfera",
+  "rule.espacio-ocupado",
+  "rule.espacio-sin-ocupar",
+  "rule.esquivar",
+  "rule.estable",
+  "rule.estado",
+  "rule.estudiar",
+  "rule.fuego",
+  "table.areas-de-conocimiento"
+ ],
+ "202": [
+  "rule.habilidad",
+  "rule.hechizado",
+  "rule.hoja-de-personaje",
+  "rule.hostil",
+  "rule.ilusiones",
+  "rule.incapacitado",
+  "rule.inconsciente",
+  "rule.indiferente",
+  "rule.influir"
+ ],
+ "203": [
+  "rule.iniciativa",
+  "rule.inmunidad",
+  "rule.inspiracion-heroica",
+  "rule.invisible",
+  "rule.levitar",
+  "rule.ligeramente-oscuro",
+  "rule.linea",
+  "rule.luz-brillante",
+  "rule.luz-tenue",
+  "rule.magia",
+  "rule.maldiciones",
+  "rule.maltrecho",
+  "rule.monstruo",
+  "table.pruebas-de-influencia"
+ ],
+ "204": [
+  "rule.muerto",
+  "rule.muy-oscuro",
+  "rule.nadar",
+  "rule.noquear-a-una-criatura",
+  "rule.objetivo",
+  "rule.objeto",
+  "rule.oscuridad",
+  "rule.paralizado",
+  "rule.peligro",
+  "rule.percepcion-pasiva",
+  "rule.perfil"
+ ],
+ "205": [
+  "rule.pericia",
+  "rule.personaje-jugador",
+  "rule.personaje-no-jugador",
+  "rule.petrificado"
+ ],
+ "206": [
+  "rule.posesion",
+  "rule.preparar-una-accion",
+  "rule.prueba-con-d20",
+  "rule.prueba-de-caracteristica",
+  "rule.puntos-de-experiencia",
+  "rule.puntos-de-golpe",
+  "rule.puntos-de-golpe-temporales",
+  "rule.puntuacion-de-caracteristica-y-modificador",
+  "rule.reaccion"
+ ],
+ "207": [
+  "rule.redondear-hacia-abajo",
+  "rule.resistencia",
+  "rule.ritual",
+  "rule.romper-objetos",
+  "rule.saltar",
+  "rule.salto-de-altura",
+  "rule.salto-de-longitud",
+  "table.clase-de-armadura-de-objetos",
+  "table.puntos-de-golpe-de-objetos"
+ ],
+ "208": [
+  "rule.salvacion",
+  "rule.sentir-vibraciones",
+  "rule.sintonizacion",
+  "rule.sorpresa",
+  "rule.tamano",
+  "rule.telepatia",
+  "rule.teletransporte",
+  "rule.terreno-dificil",
+  "rule.tipo-de-criatura"
+ ],
+ "209": [
+  "rule.tipos-de-dano",
+  "rule.tirada-de-ataque",
+  "rule.tirada-de-dano",
+  "rule.tirada-de-salvacion",
+  "rule.tirada-de-salvacion-contra-muerte",
+  "rule.trepar",
+  "rule.truco",
+  "rule.umbral-de-dano",
+  "rule.utilizar",
+  "rule.valor-de-desafio",
+  "table.tipos-de-dano"
+ ],
+ "210": [
+  "rule.velocidad",
+  "rule.velocidad-excavando",
+  "rule.velocidad-nadando",
+  "rule.velocidad-trepando",
+  "rule.velocidad-volando",
+  "rule.ventaja",
+  "rule.vision-ciega",
+  "rule.vision-en-la-oscuridad",
+  "rule.vision-verdadera",
+  "rule.volar",
+  "rule.vulnerabilidad"
+ ],
+ "211": [
+  "table.terreno-de-viaje"
+ ],
+ "215": [
+  "table.muestras-de-cd-de-miedos",
+  "table.muestras-de-efectos-de-estres-psicologico"
+ ],
+ "218": [
+  "table.p218"
+ ],
+ "219": [
+  "table.p219",
+  "table.p219-2"
+ ],
+ "220": [
+  "table.p220"
+ ],
+ "221": [
+  "table.p221",
+  "table.presupuesto-de-px-por-personaje"
+ ],
+ "222": [
+  "table.p222"
+ ],
+ "223": [
+  "table.categorias-de-objetos-magicos"
+ ],
+ "224": [
+  "table.miscibilidad-de-pociones",
+  "sidebar.reglas-de-objetos-magicos"
+ ],
+ "225": [
+  "table.rareza-y-valor-de-objetos-magicos"
+ ],
+ "226": [
+  "table.herramientas-para-objetos-magicos",
+  "table.tiempo-y-precio-de-fabricacion-de-objetos-magicos"
+ ],
+ "227": [
+  "table.alineamiento-del-objeto-consciente",
+  "table.comunicacion-del-objeto-consciente",
+  "table.sentidos-del-objeto-consciente",
+  "table.proposito-especial-del-objeto-consciente"
+ ],
+ "228": [
+  "item.abalorio-de-nutricion",
+  "item.abanico-del-viento",
+  "item.aceite-de-afilado",
+  "item.aceite-de-etereidad",
+  "item.aceite-escurridizo",
+  "table.p228"
+ ],
+ "229": [
+  "item.agujero-portatil",
+  "item.alas-de-vuelo",
+  "item.alfombra-voladora",
+  "item.aljaba-eficiente",
+  "item.amuleto-a-prueba-de-deteccion-y-localizacion",
+  "table.p229"
+ ],
+ "230": [
+  "item.amuleto-de-los-planos",
+  "item.amuleto-de-salud",
+  "item.anillo-de-almacenamiento-de-conjuros",
+  "item.anillo-de-caida-de-pluma",
+  "item.anillo-de-calidez",
+  "item.anillo-de-caminar-sobre-las-aguas",
+  "item.anillo-de-comandar-elementales",
+  "table.p230"
+ ],
+ "231": [
+  "item.anillo-de-escudo-mental",
+  "item.anillo-de-estrellas-fugaces",
+  "item.anillo-de-evasion",
+  "table.p231",
+  "table.p231-2"
+ ],
+ "232": [
+  "item.anillo-de-influencia-animal",
+  "item.anillo-de-invisibilidad",
+  "item.anillo-de-invocar-djinns",
+  "item.anillo-de-libertad-de-accion",
+  "item.anillo-de-los-tres-deseos",
+  "item.anillo-de-natacion",
+  "item.anillo-de-proteccion",
+  "item.anillo-de-regeneracion",
+  "item.anillo-de-resistencia",
+  "item.anillo-de-retorno-de-conjuros",
+  "table.p232"
+ ],
+ "233": [
+  "item.anillo-de-salto",
+  "item.anillo-de-telequinesis",
+  "item.anillo-de-vision-de-rayos-x",
+  "item.anillo-del-carnero",
+  "item.anteojos-de-encantamiento",
+  "item.anteojos-de-la-noche",
+  "item.anteojos-de-vision-minuciosa",
+  "item.anteojos-de-vista-de-aguila",
+  "item.aparato-del-crustaceo"
+ ],
+ "234": [
+  "item.arco-de-energia",
+  "item.arco-juramentado",
+  "table.palancas-del-aparato-del-crustaceo"
+ ],
+ "235": [
+  "item.arma-1-2-o-3",
+  "item.arma-de-advertencia",
+  "item.arma-feroz",
+  "item.armadura-1-2-o-3",
+  "item.armadura-adamantina",
+  "item.armadura-de-invulnerabilidad",
+  "item.armadura-de-mithral",
+  "item.armadura-de-placas-de-etereidad",
+  "item.armadura-de-placas-enana",
+  "item.armadura-de-resistencia",
+  "table.p235"
+ ],
+ "236": [
+  "item.armadura-de-vulnerabilidad",
+  "item.armadura-demoniaca",
+  "item.babuchas-de-trepar-cual-aracnido",
+  "item.bandas-de-hierro",
+  "item.baraja-de-ilusiones"
+ ],
+ "237": [
+  "item.baraja-misteriosa",
+  "table.baraja-de-ilusiones",
+  "table.baraja-misteriosa"
+ ],
+ "238": [
+  "monster.avatar-de-la-muerte"
+ ],
+ "239": [
+  "item.baston-de-acrobata",
+  "item.baston-de-curacion",
+  "item.baston-de-enjambre-de-insectos",
+  "table.p239"
+ ],
+ "240": [
+  "item.baston-de-escarcha",
+  "item.baston-de-fuego",
+  "item.baston-de-impacto",
+  "item.baston-de-la-piton",
+  "item.baston-de-los-bosques",
+  "table.p240",
+  "table.p240-2"
+ ],
+ "241": [
+  "item.baston-de-los-magos",
+  "item.baston-de-marchitamiento",
+  "item.baston-de-poder",
+  "table.p241"
+ ],
+ "242": [
+  "item.baston-de-truenos-y-relampagos",
+  "item.baston-del-cautivador",
+  "item.bola-de-cristal",
+  "table.p242"
+ ],
+ "243": [
+  "item.bola-de-cristal-de-leer-mentes",
+  "item.bola-de-cristal-de-telepatia",
+  "item.bola-de-cristal-de-vision-veraz",
+  "item.bolsa-de-contencion",
+  "item.bolsa-de-judias",
+  "table.p243"
+ ],
+ "244": [
+  "item.bolsa-de-trucos",
+  "item.bolsa-devoradora",
+  "table.p244",
+  "table.bolsa-de-trucos-gris",
+  "table.bolsa-de-trucos-rojiza",
+  "table.bolsa-de-trucos-marron"
+ ],
+ "245": [
+  "item.botas-aladas",
+  "item.botas-de-las-tierras-invernales",
+  "item.botas-de-levitacion",
+  "item.botas-de-velocidad",
+  "item.botas-de-zancadas-y-brincos",
+  "item.botas-elficas",
+  "item.botella-de-ifrit",
+  "table.p245"
+ ],
+ "246": [
+  "item.botella-siemprehumeante",
+  "item.bote-plegable",
+  "item.brasero-para-controlar-elementales-de-fuego",
+  "item.brazales-de-arqueria",
+  "item.brazales-de-defensa",
+  "item.broche-escudo",
+  "item.canica-de-fuerza",
+  "item.capa-aracnida"
+ ],
+ "247": [
+  "item.capa-de-desplazamiento",
+  "item.capa-de-invisibilidad",
+  "item.capa-de-la-mantarraya",
+  "item.capa-de-murcielago",
+  "item.capa-de-proteccion",
+  "item.capa-del-charlatan",
+  "item.capa-elfica",
+  "item.carillon-de-apertura",
+  "item.cetro-de-mando"
+ ],
+ "248": [
+  "item.cetro-de-poder-senorial",
+  "item.cimitarra-de-velocidad",
+  "item.cinturon-de-fuerza-de-gigante",
+  "table.p248"
+ ],
+ "249": [
+  "item.cinturon-enano",
+  "item.colgante-de-inmunidad-al-veneno",
+  "item.collar-de-adaptacion",
+  "item.collar-de-bolas-de-fuego",
+  "item.collar-de-plegarias",
+  "item.cota-de-escamas-de-dragon",
+  "table.p249",
+  "table.p249-2"
+ ],
+ "250": [
+  "item.cubo-de-fuerza",
+  "item.cuenco-para-controlar-elementales-de-agua",
+  "item.cuerda-de-escalada",
+  "item.cuerda-enredadora",
+  "table.p250",
+  "table.caras-del-cubo-de-fuerza"
+ ],
+ "251": [
+  "item.cuerno-de-estallido",
+  "item.cuerno-del-valhalla",
+  "item.cuero-tachonado-encantado",
+  "item.daga-de-la-ponzona",
+  "item.decantador-de-agua-interminable",
+  "item.defensora",
+  "table.p251"
+ ],
+ "252": [
+  "item.diadema-de-estallidos",
+  "item.diadema-de-intelecto",
+  "item.disolvente-universal",
+  "item.elixir-de-salud",
+  "item.escarabajo-protector",
+  "item.escoba-voladora",
+  "item.escudo-1-2-o-3",
+  "item.escudo-animado",
+  "item.escudo-atrapaflechas"
+ ],
+ "253": [
+  "item.escudo-centinela",
+  "item.escudo-de-atraer-proyectiles",
+  "item.escudo-de-caballero",
+  "item.escudo-de-guarda-contra-conjuros",
+  "item.esfera-de-aniquilacion"
+ ],
+ "254": [
+  "item.espada-danzarina",
+  "item.espada-de-hoja-afilada",
+  "item.espada-hiriente",
+  "item.espada-ladrona-de-vida",
+  "item.espada-solar",
+  "item.espada-vorpal",
+  "table.p254"
+ ],
+ "255": [
+  "item.espejo-atrapavidas",
+  "item.estatuilla-de-poder-maravilloso"
+ ],
+ "256": [
+  "monster.mosca-gigante",
+  "item.ficha-de-pluma"
+ ],
+ "257": [
+  "item.filo-de-la-fortuna",
+  "item.filtro-de-amor",
+  "item.flauta-de-la-aparicion",
+  "item.flauta-de-las-cloacas",
+  "table.fichas-de-pluma"
+ ],
+ "258": [
+  "item.fortaleza-instantanea",
+  "item.frasco-de-hierro",
+  "item.garrote-grande-atronador"
+ ],
+ "259": [
+  "item.gema-del-resplandor",
+  "item.gema-de-vision",
+  "item.gema-elemental",
+  "item.grilletes-dimensionales",
+  "item.guanteletes-de-fuerza-de-ogro",
+  "table.p259"
+ ],
+ "260": [
+  "item.guantes-atrapaflechas",
+  "item.guantes-de-ladron",
+  "item.guantes-de-natacion-y-escalada",
+  "item.hacha-berserker",
+  "item.herraduras-de-velocidad",
+  "item.herraduras-del-cefiro",
+  "item.hierro-de-escarcha",
+  "item.incensario-de-controlar-elementales-de-aire"
+ ],
+ "261": [
+  "item.jabalina-del-relampago",
+  "item.ladrona-de-nueve-vidas",
+  "item.lengua-de-fuego",
+  "item.linterna-de-revelacion",
+  "item.malla-elfica",
+  "item.manto-de-resistencia-a-conjuros",
+  "item.manual-de-golems",
+  "item.manual-de-la-salud-corporal",
+  "table.p261"
+ ],
+ "262": [
+  "item.manual-de-rapidez-de-accion",
+  "item.manual-del-ejercicio-beneficioso",
+  "item.martillo-arrojadizo-enano",
+  "item.martillo-de-rayos",
+  "item.matadragones",
+  "item.matagigantes",
+  "item.maza-castigadora",
+  "item.maza-del-terror"
+ ],
+ "263": [
+  "item.maza-disruptiva",
+  "item.medallon-de-los-pensamientos",
+  "item.morral-practico",
+  "item.municion-1-2-o-3",
+  "item.municion-asesina",
+  "item.orbe-dragontino",
+  "table.p263"
+ ],
+ "264": [
+  "item.pegamento-soberano",
+  "item.pergamino-de-conjuro",
+  "table.p264",
+  "table.p264-2"
+ ],
+ "265": [
+  "item.perla-de-poder",
+  "item.piedra-de-controlar-elementales-de-tierra",
+  "item.piedra-de-la-buena-fortuna-piedra-de-la-suerte",
+  "item.piedra-ioun"
+ ],
+ "266": [
+  "item.piedras-mensajeras",
+  "item.pigmentos-maravillosos",
+  "item.pocion-de-amistad-animal",
+  "item.pocion-de-clarividencia",
+  "item.pocion-de-crecimiento",
+  "item.pocion-de-encoger",
+  "item.pocion-de-forma-gaseosa"
+ ],
+ "267": [
+  "item.pocion-de-fuerza-de-gigante",
+  "item.pocion-de-heroismo",
+  "item.pocion-de-invisibilidad",
+  "item.pocion-de-invulnerabilidad",
+  "item.pocion-de-leer-mentes",
+  "item.pocion-de-longevidad",
+  "item.pocion-de-resistencia",
+  "item.pocion-de-respirar-bajo-el-agua",
+  "item.pocion-de-trepar",
+  "item.pocion-de-velocidad",
+  "item.pocion-de-veneno",
+  "table.p267",
+  "table.p267-2"
+ ],
+ "268": [
+  "item.pocion-de-vitalidad",
+  "item.pocion-de-vuelo",
+  "item.pociones-de-curacion",
+  "item.polvo-de-desaparicion",
+  "item.polvo-de-estornudar-y-atragantarse",
+  "item.polvo-de-sequedad",
+  "item.portal-cubico",
+  "table.p268"
+ ],
+ "269": [
+  "item.pozo-de-los-muchos-mundos",
+  "item.sombrero-de-disfraz",
+  "item.sombrero-de-multiples-conjuros",
+  "table.p269"
+ ],
+ "270": [
+  "item.talisman-de-cerrar-heridas",
+  "item.talisman-de-la-esfera",
+  "item.talisman-de-salud",
+  "item.talisman-del-bien-puro",
+  "item.talisman-del-mal-definitivo",
+  "table.p270"
+ ],
+ "271": [
+  "item.tomo-de-entendimiento",
+  "item.tomo-de-liderazgo-e-influencia",
+  "item.tomo-de-pensamiento-claro",
+  "item.tridente-de-comandar-peces",
+  "item.tunica-de-colores-hipnoticos",
+  "item.tunica-del-archimago",
+  "item.tunica-de-las-estrellas",
+  "item.tunica-de-los-ojos"
+ ],
+ "272": [
+  "item.tunica-de-objetos-utiles",
+  "item.vara-de-la-absorcion",
+  "item.vara-de-la-alerta",
+  "table.p272"
+ ],
+ "273": [
+  "item.vara-de-la-resurreccion",
+  "item.vara-de-la-seguridad",
+  "item.vara-inamovible",
+  "item.varita-de-atadura",
+  "item.varita-de-bolas-de-fuego",
+  "item.varita-de-deteccion-magica",
+  "item.varita-de-detectar-enemigos",
+  "table.p273"
+ ],
+ "274": [
+  "item.varita-de-las-maravillas",
+  "table.efectos-de-la-varita-de-las-maravillas",
+  "table.p274"
+ ],
+ "275": [
+  "item.varita-de-paralisis",
+  "item.varita-de-polimorfar",
+  "item.varita-de-proyectiles-magicos",
+  "item.varita-de-relampagos",
+  "item.varita-de-secretos",
+  "item.varita-de-telarana",
+  "item.varita-del-mago-de-guerra-1-2-o-3",
+  "table.p275"
+ ],
+ "276": [
+  "item.varita-del-terror",
+  "item.vela-de-invocacion",
+  "item.vengadora-sagrada",
+  "item.yelmo-de-entender-idiomas",
+  "item.yelmo-de-fulgor",
+  "table.p276",
+  "table.p276-2"
+ ],
+ "277": [
+  "item.yelmo-de-telepatia",
+  "item.yelmo-de-teletransporte"
+ ],
+ "279": [
+  "table.dado-de-golpe-por-tamano",
+  "sidebar.interpretar-a-un-monstruo"
+ ],
+ "280": [
+  "table.puntos-de-experiencia-por-valor-de-desafio"
+ ],
+ "281": [
+  "table.p281",
+  "table.bonificador-por-competencia-por-valor-de-desafio"
+ ],
+ "283": [
+  "monster.aboleth",
+  "monster.acechador-invisible"
+ ],
+ "284": [
+  "monster.ankheg",
+  "monster.aparicion",
+  "monster.arana-de-fase"
+ ],
+ "285": [
+  "monster.arpia",
+  "monster.asesino"
+ ],
+ "286": [
+  "monster.centinela-azer",
+  "monster.balor",
+  "monster.bandido"
+ ],
+ "287": [
+  "monster.capitan-bandido",
+  "monster.basilisco",
+  "monster.batidor",
+  "monster.behir"
+ ],
+ "288": [
+  "monster.berserker",
+  "monster.bocon-barbotante"
+ ],
+ "289": [
+  "monster.broza-movediza",
+  "monster.bulette",
+  "monster.caballero"
+ ],
+ "290": [
+  "monster.soldado-centauro",
+  "monster.chuul",
+  "monster.cieno-gris"
+ ],
+ "291": [
+  "monster.cocatriz",
+  "monster.couatl"
+ ],
+ "292": [
+  "monster.cubo-gelatinoso",
+  "monster.deva"
+ ],
+ "293": [
+  "monster.diablillo",
+  "monster.diablo-astado",
+  "monster.diablo-barbado"
+ ],
+ "294": [
+  "monster.diablo-de-las-cadenas",
+  "monster.diablo-de-la-sima"
+ ],
+ "295": [
+  "monster.diablo-gelido"
+ ],
+ "296": [
+  "monster.diablo-oseo",
+  "monster.diablo-punzante",
+  "monster.djinn"
+ ],
+ "297": [
+  "monster.doppelganger"
+ ],
+ "298": [
+  "monster.cria-de-dragon-azul",
+  "monster.dragon-azul-joven",
+  "monster.dragon-azul-adulto"
+ ],
+ "299": [
+  "monster.dragon-azul-anciano",
+  "monster.cria-de-dragon-blanco",
+  "monster.dragon-blanco-joven"
+ ],
+ "300": [
+  "monster.dragon-blanco-adulto",
+  "monster.dragon-blanco-anciano"
+ ],
+ "301": [
+  "monster.cria-de-dragon-de-bronce",
+  "monster.dragon-de-bronce-joven"
+ ],
+ "302": [
+  "monster.dragon-de-bronce-adulto",
+  "monster.dragon-de-bronce-anciano"
+ ],
+ "303": [
+  "monster.cria-de-dragon-de-cobre",
+  "monster.dragon-de-cobre-joven",
+  "monster.dragon-de-cobre-adulto"
+ ],
+ "304": [
+  "monster.dragon-de-cobre-anciano"
+ ],
+ "305": [
+  "monster.cria-de-dragon-de-oro",
+  "monster.dragon-de-oro-joven"
+ ],
+ "306": [
+  "monster.dragon-de-oro-adulto",
+  "monster.dragon-de-oro-anciano"
+ ],
+ "307": [
+  "monster.cria-de-dragon-de-oropel",
+  "monster.dragon-de-oropel-joven"
+ ],
+ "308": [
+  "monster.dragon-de-oropel-adulto",
+  "monster.dragon-de-oropel-anciano"
+ ],
+ "309": [
+  "monster.cria-de-dragon-de-plata",
+  "monster.dragon-de-plata-joven"
+ ],
+ "310": [
+  "monster.dragon-de-plata-adulto",
+  "monster.dragon-de-plata-anciano"
+ ],
+ "311": [
+  "monster.cria-de-dragon-negro",
+  "monster.dragon-negro-joven"
+ ],
+ "312": [
+  "monster.dragon-negro-adulto",
+  "monster.dragon-negro-anciano"
+ ],
+ "313": [
+  "monster.cria-de-dragon-rojo",
+  "monster.dragon-rojo-joven",
+  "monster.dragon-rojo-adulto"
+ ],
+ "314": [
+  "monster.dragon-rojo-anciano",
+  "monster.cria-de-dragon-verde"
+ ],
+ "315": [
+  "monster.dragon-verde-joven",
+  "monster.dragon-verde-adulto"
+ ],
+ "316": [
+  "monster.dragon-verde-anciano",
+  "monster.dragon-tortuga"
+ ],
+ "317": [
+  "monster.drana",
+  "monster.dretch",
+  "monster.driade"
+ ],
+ "318": [
+  "monster.druida",
+  "monster.duende",
+  "monster.elemental-de-agua"
+ ],
+ "319": [
+  "monster.elemental-de-aire",
+  "monster.elemental-de-fuego"
+ ],
+ "320": [
+  "monster.elemental-de-tierra",
+  "monster.ent",
+  "monster.erinia"
+ ],
+ "321": [
+  "monster.esfinge-de-las-maravillas",
+  "monster.esfinge-del-conocimiento"
+ ],
+ "322": [
+  "monster.esfinge-del-valor"
+ ],
+ "323": [
+  "monster.espectro",
+  "monster.espia",
+  "monster.esqueleto",
+  "monster.caballo-de-guerra-esqueleto"
+ ],
+ "324": [
+  "monster.minotauro-esqueleto",
+  "monster.estirge",
+  "monster.ettercap"
+ ],
+ "325": [
+  "monster.ettin",
+  "monster.fantasma"
+ ],
+ "326": [
+  "monster.fuego-fatuo",
+  "monster.gargola",
+  "monster.enjambre-de-garras-reptantes"
+ ],
+ "327": [
+  "monster.gelatina-ocre",
+  "monster.ghast",
+  "monster.gigante-de-escarcha"
+ ],
+ "328": [
+  "monster.gigante-de-fuego",
+  "monster.gigante-de-las-colinas",
+  "monster.gigante-de-las-nubes"
+ ],
+ "329": [
+  "monster.gigante-de-las-tormentas",
+  "monster.gigante-de-piedra"
+ ],
+ "330": [
+  "monster.glabrezu",
+  "monster.gladiador",
+  "monster.guerrero-gnoll"
+ ],
+ "331": [
+  "monster.secuaz-goblin",
+  "monster.guerrero-goblin",
+  "monster.jefe-goblin",
+  "monster.golem-de-arcilla"
+ ],
+ "332": [
+  "monster.golem-de-carne",
+  "monster.golem-de-hierro"
+ ],
+ "333": [
+  "monster.golem-de-piedra",
+  "monster.gorgon"
+ ],
+ "334": [
+  "monster.grick",
+  "monster.grifo",
+  "monster.grimlock",
+  "monster.guardian-escudo"
+ ],
+ "335": [
+  "monster.guardia",
+  "monster.capitan-de-la-guardia",
+  "monster.guerrero-de-infanteria",
+  "monster.guerrero-veterano"
+ ],
+ "336": [
+  "monster.guiverno",
+  "monster.gul",
+  "monster.gusano-purpura"
+ ],
+ "337": [
+  "monster.hezrou",
+  "monster.hidra"
+ ],
+ "338": [
+  "monster.hipogrifo",
+  "monster.guerrero-hobgoblin",
+  "monster.capitan-hobgoblin",
+  "monster.hombre-jabali"
+ ],
+ "339": [
+  "monster.hombre-lobo",
+  "monster.hombre-oso"
+ ],
+ "340": [
+  "monster.hombre-rata",
+  "monster.hombre-tigre"
+ ],
+ "341": [
+  "monster.homunculo",
+  "monster.hongo-chillon",
+  "monster.hongo-violeta",
+  "monster.huargo"
+ ],
+ "342": [
+  "monster.ifrit",
+  "monster.incubo"
+ ],
+ "343": [
+  "monster.guerrero-kobold",
+  "monster.kraken"
+ ],
+ "344": [
+  "monster.lacero",
+  "monster.lamia",
+  "monster.lemur"
+ ],
+ "345": [
+  "monster.liche"
+ ],
+ "346": [
+  "monster.lobo-invernal",
+  "monster.magmin",
+  "monster.mago"
+ ],
+ "347": [
+  "monster.archimago",
+  "monster.manticora",
+  "monster.manto"
+ ],
+ "348": [
+  "monster.mantoscuro",
+  "monster.marilith"
+ ],
+ "349": [
+  "monster.medusa",
+  "monster.mephit-de-hielo",
+  "monster.mephit-de-magma"
+ ],
+ "350": [
+  "monster.mephit-de-polvo",
+  "monster.mephit-de-vapor",
+  "monster.merrow"
+ ],
+ "351": [
+  "monster.mimeto",
+  "monster.minotauro-de-bafomet",
+  "monster.momia"
+ ],
+ "352": [
+  "monster.senor-de-las-momias"
+ ],
+ "353": [
+  "monster.monstruo-corrosivo",
+  "monster.naga-espiritual",
+  "monster.naga-guardiana"
+ ],
+ "354": [
+  "monster.nalfeshnee",
+  "monster.noble"
+ ],
+ "355": [
+  "monster.alfombra-asfixiante-animada",
+  "monster.armadura-animada",
+  "monster.espada-voladora-animada",
+  "monster.ogro",
+  "monster.oni"
+ ],
+ "356": [
+  "monster.acechador-osgo",
+  "monster.guerrero-osgo"
+ ],
+ "357": [
+  "monster.oso-lechuza",
+  "monster.otyugh",
+  "monster.pegaso",
+  "monster.pendenciero"
+ ],
+ "358": [
+  "monster.jefe-pendenciero",
+  "monster.perro-del-inframundo",
+  "monster.perro-intermitente"
+ ],
+ "359": [
+  "monster.pesadilla",
+  "monster.pico-de-hacha",
+  "monster.pirata",
+  "monster.capitan-pirata"
+ ],
+ "360": [
+  "monster.planetar",
+  "monster.arbol-despertado",
+  "monster.arbusto-despertado"
+ ],
+ "361": [
+  "monster.plebeyo",
+  "monster.pseudodragon",
+  "monster.pudin-negro"
+ ],
+ "362": [
+  "monster.quasit",
+  "monster.quimera",
+  "monster.rakshasa"
+ ],
+ "363": [
+  "monster.remorhaz"
+ ],
+ "364": [
+  "monster.roc",
+  "monster.sabueso-infernal",
+  "monster.sacerdote-acolito"
+ ],
+ "365": [
+  "monster.sacerdote",
+  "monster.saga-cetrina",
+  "monster.saga-de-la-noche"
+ ],
+ "366": [
+  "monster.saga-de-los-mares"
+ ],
+ "367": [
+  "monster.guerrero-sahuagin",
+  "monster.salamandra",
+  "monster.satiro"
+ ],
+ "368": [
+  "monster.sectario",
+  "monster.fanatico-sectario",
+  "monster.semidragon",
+  "monster.experto-en-escaramuzas-sirenido"
+ ],
+ "369": [
+  "monster.solar",
+  "monster.sombra"
+ ],
+ "370": [
+  "monster.sucubo",
+  "monster.tarasca"
+ ],
+ "371": [
+  "monster.troll"
+ ],
+ "372": [
+  "monster.extremidad-de-troll",
+  "monster.tumulario",
+  "monster.unicornio"
+ ],
+ "373": [
+  "monster.siervo-de-vampiro",
+  "monster.engendro-vampirico"
+ ],
+ "374": [
+  "monster.vampiro"
+ ],
+ "375": [
+  "monster.vrock",
+  "monster.xorn"
+ ],
+ "376": [
+  "monster.zombi",
+  "monster.ogro-zombi",
+  "monster.aguila",
+  "monster.aguila-gigante",
+  "monster.alce"
+ ],
+ "377": [
+  "monster.alce-gigante",
+  "monster.alosaurio",
+  "monster.anquilosaurio",
+  "monster.arana"
+ ],
+ "378": [
+  "monster.arana-gigante",
+  "monster.archelon",
+  "monster.avispa-gigante",
+  "monster.babuino"
+ ],
+ "379": [
+  "monster.buho",
+  "monster.buho-gigante",
+  "monster.buitre",
+  "monster.buitre-gigante"
+ ],
+ "380": [
+  "monster.caballito-de-mar",
+  "monster.caballito-de-mar-gigante",
+  "monster.caballo-de-guerra",
+  "monster.caballo-de-monta",
+  "monster.caballo-de-tiro"
+ ],
+ "381": [
+  "monster.cabra",
+  "monster.cabra-gigante",
+  "monster.camello",
+  "monster.cangrejo",
+  "monster.cangrejo-gigante"
+ ],
+ "382": [
+  "monster.chacal",
+  "monster.ciempies-gigante",
+  "monster.ciervo",
+  "monster.cocodrilo",
+  "monster.cocodrilo-gigante"
+ ],
+ "383": [
+  "monster.comadreja",
+  "monster.comadreja-gigante",
+  "monster.cuervo",
+  "monster.elefante"
+ ],
+ "384": [
+  "monster.enjambre-de-cuervos",
+  "monster.enjambre-de-insectos",
+  "monster.enjambre-de-murcielagos",
+  "monster.enjambre-de-piranas"
+ ],
+ "385": [
+  "monster.enjambre-de-ratas",
+  "monster.enjambre-de-serpientes-venenosas",
+  "monster.escarabajo-de-fuego-gigante",
+  "monster.escorpion"
+ ],
+ "386": [
+  "monster.escorpion-gigante",
+  "monster.gato",
+  "monster.halcon",
+  "monster.halcon-sangriento",
+  "monster.hiena"
+ ],
+ "387": [
+  "monster.hiena-gigante",
+  "monster.hipopotamo",
+  "monster.jabali",
+  "monster.jabali-gigante"
+ ],
+ "388": [
+  "monster.lagarto",
+  "monster.lagarto-gigante",
+  "monster.leon",
+  "monster.lobo"
+ ],
+ "389": [
+  "monster.lobo-terrible",
+  "monster.mamut",
+  "monster.mastin",
+  "monster.mula",
+  "monster.murcielago"
+ ],
+ "390": [
+  "monster.murcielago-gigante",
+  "monster.orca",
+  "monster.oso-negro",
+  "monster.oso-pardo",
+  "monster.oso-polar"
+ ],
+ "391": [
+  "monster.pantera",
+  "monster.pirana",
+  "monster.plesiosaurio",
+  "monster.poni",
+  "monster.pteranodon"
+ ],
+ "392": [
+  "monster.pulpo",
+  "monster.pulpo-gigante",
+  "monster.rana",
+  "monster.rana-gigante"
+ ],
+ "393": [
+  "monster.rata",
+  "monster.rata-gigante",
+  "monster.rinoceronte"
+ ],
+ "394": [
+  "monster.sapo-gigante",
+  "monster.serpiente-constrictora",
+  "monster.serpiente-constrictora-gigante",
+  "monster.serpiente-venenosa"
+ ],
+ "395": [
+  "monster.serpiente-venenosa-gigante",
+  "monster.serpiente-voladora",
+  "monster.simio",
+  "monster.simio-gigante",
+  "monster.tarantula-gigante"
+ ],
+ "396": [
+  "monster.tejon",
+  "monster.tejon-gigante",
+  "monster.tiburon-cazador",
+  "monster.tiburon-de-arrecife",
+  "monster.tiburon-gigante"
+ ],
+ "397": [
+  "monster.tigre",
+  "monster.tigre-dientes-de-sable",
+  "monster.tiranosaurio-rex"
+ ],
+ "398": [
+  "monster.triceratops"
+ ]
+}

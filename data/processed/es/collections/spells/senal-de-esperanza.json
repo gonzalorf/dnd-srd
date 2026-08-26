@@ -1,0 +1,48 @@
+{
+ "id": "spell.senal-de-esperanza",
+ "name": "Señal de esperanza",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Elige cualquier cantidad de criaturas dentro del alcance. Hasta que el conjuro termine, todos los objetivos tienen ventaja en sus tiradas de salvación de Sabiduría y sus tiradas de salvación contra muerte, y también recuperan la cantidad máxima posible de puntos de golpe en cualquier curación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 184,
+   "md": "Elige cualquier cantidad de criaturas dentro del alcance. Hasta que el conjuro termine, todos los objetivos tienen ventaja en sus tiradas de salvación de Sabiduría y sus tiradas de salvación contra muerte, y también recuperan la cantidad máxima posible de puntos de golpe en cualquier curación.",
+   "text": "Elige cualquier cantidad de criaturas dentro del alcance. Hasta que el conjuro termine, todos los objetivos tienen ventaja en sus tiradas de salvación de Sabiduría y sus tiradas de salvación contra muerte, y también recuperan la cantidad máxima posible de puntos de golpe en cualquier curación."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 184
+ }
+}

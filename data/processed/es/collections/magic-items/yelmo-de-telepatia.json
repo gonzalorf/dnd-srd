@@ -1,0 +1,27 @@
+{
+ "id": "item.yelmo-de-telepatia",
+ "name": "Yelmo de telepatía",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves este yelmo, tienes telepatía hasta 9 m y puedes lanzar detectar pensamientos o sugestión (CD de salvación 13) desde él. Cuando lances cualquiera de estos conjuros desde el yelmo, no podrás volver a lanzar ese conjuro desde él hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 277,
+   "md": "Mientras lleves este yelmo, tienes telepatía hasta 9 m y puedes lanzar *detectar pensamientos* o *sugestión* (CD de salvación 13) desde él. Cuando lances cualquiera de estos conjuros desde el yelmo, no podrás volver a lanzar ese conjuro desde él hasta el siguiente amanecer.",
+   "text": "Mientras lleves este yelmo, tienes telepatía hasta 9 m y puedes lanzar detectar pensamientos o sugestión (CD de salvación 13) desde él. Cuando lances cualquiera de estos conjuros desde el yelmo, no podrás volver a lanzar ese conjuro desde él hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 277
+ },
+ "refs": [
+  "spell.detectar-pensamientos",
+  "spell.sugestion"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "monster.magmin",
+ "name": "Magmin",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 346
+ },
+ "context": [
+  "Magmin"
+ ],
+ "metaRaw": "Elemental Pequeño, caótico neutral",
+ "type": "Elemental",
+ "alignment": "caótico neutral",
+ "size": "Pequeño",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "13 (3d6 + 3)",
+  "average": 13,
+  "formula": "3d6 + 3"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "primordial (ígneo)"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Explotar al morir",
+   "md": "***Explotar al morir.*** El magmin explota cuando muere. *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una emanación de 3 m que se origina en el magmin. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 346,
+   "description": "El magmin explota cuando muere. *Tirada de salvación de Destreza:* CD 11, todas las criaturas en una emanación de 3 m que se origina en el magmin. *Fallo:* 7 (2d6) de daño de fuego. *Éxito:* la mitad del daño."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Toque",
+   "md": "***Toque.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d4 + 2) de daño de fuego. Si el objetivo es una criatura u objeto inflamable que no lleve o vista nadie, empieza a arder.",
+   "page": 346,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d4 + 2) de daño de fuego. Si el objetivo es una criatura u objeto inflamable que no lleve o vista nadie, empieza a arder."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Iluminación ardiente",
+   "md": "***Iluminación ardiente.*** El magmin se prende fuego o extingue sus llamas. Mientras esté ardiendo, emitirá luz brillante en un radio de 3 m y luz tenue 3 m más allá.",
+   "page": 346,
+   "description": "El magmin se prende fuego o extingue sus llamas. Mientras esté ardiendo, emitirá luz brillante en un radio de 3 m y luz tenue 3 m más allá."
+  }
+ ]
+}

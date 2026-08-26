@@ -1,0 +1,32 @@
+{
+ "id": "item.carillon-de-apertura",
+ "name": "Carillón de apertura",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Este tubo de metal hueco mide alrededor de 30 cm de largo y pesa 0,5 kg. Como acción de magia, puedes golpearlo para lanzar abrir. El sonido habitual del conjuro se sustituye por el tono prístino y resonante del carillón, que se puede oír a 90 m de distancia.\n\nEl carillón puede usarse hasta 10 veces. Tras el décimo uso, se resquebraja y se vuelve inútil.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 247,
+   "md": "Este tubo de metal hueco mide alrededor de 30 cm de largo y pesa 0,5 kg. Como acción de magia, puedes golpearlo para lanzar *abrir*. El sonido habitual del conjuro se sustituye por el tono prístino y resonante del carillón, que se puede oír a 90 m de distancia.",
+   "text": "Este tubo de metal hueco mide alrededor de 30 cm de largo y pesa 0,5 kg. Como acción de magia, puedes golpearlo para lanzar abrir. El sonido habitual del conjuro se sustituye por el tono prístino y resonante del carillón, que se puede oír a 90 m de distancia."
+  },
+  {
+   "type": "paragraph",
+   "page": 247,
+   "md": "El carillón puede usarse hasta 10 veces. Tras el décimo uso, se resquebraja y se vuelve inútil.",
+   "text": "El carillón puede usarse hasta 10 veces. Tras el décimo uso, se resquebraja y se vuelve inútil."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 247
+ },
+ "refs": [
+  "spell.abrir"
+ ]
+}

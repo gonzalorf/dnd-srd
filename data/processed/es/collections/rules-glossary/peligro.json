@@ -1,0 +1,17 @@
+{
+ "id": "rule.peligro",
+ "name": "Peligro",
+ "text": "Un peligro es una situación contextual comprometida. Consulta también “Asfixia”, “Caídas, “Deshidratación”, “Desnutrición” y “Fuego”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Un peligro es una situación contextual comprometida. *Consulta también* “Asfixia”, “Caídas, “Deshidratación”, “Desnutrición” y “Fuego”.",
+   "text": "Un peligro es una situación contextual comprometida. Consulta también “Asfixia”, “Caídas, “Deshidratación”, “Desnutrición” y “Fuego”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

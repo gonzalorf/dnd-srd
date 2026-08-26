@@ -1,0 +1,17 @@
+{
+ "id": "rule.luz-tenue",
+ "name": "Luz tenue",
+ "text": "Una zona con luz tenue está ligeramente oscura. Consulta también “Ligeramente oscuro” y el capítulo “Cómo jugar” (“Exploración”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Una zona con luz tenue está ligeramente oscura. *Consulta también* “Ligeramente oscuro” y el capítulo “Cómo jugar” (“Exploración”).",
+   "text": "Una zona con luz tenue está ligeramente oscura. Consulta también “Ligeramente oscuro” y el capítulo “Cómo jugar” (“Exploración”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

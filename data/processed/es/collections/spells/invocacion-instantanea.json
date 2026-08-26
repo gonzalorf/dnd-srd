@@ -1,0 +1,61 @@
+{
+ "id": "spell.invocacion-instantanea",
+ "name": "Invocación instantánea",
+ "level": 6,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto o un ritual",
+  "ritual": true,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (un zafiro que valga al menos 1000 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un zafiro que valga al menos 1000 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensión más grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deberás usar un zafiro distinto.\n\nA partir de entonces, podrás emplear una acción de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecerá en tu mano al instante, sin importar las distancias físicas o interplanares, y el conjuro terminará.\n\nSi otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevará hasta ti. En su lugar, descubrirás quién es la criatura que lo tiene y su paradero actual.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensión más grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deberás usar un zafiro distinto.",
+   "text": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensión más grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deberás usar un zafiro distinto."
+  },
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "A partir de entonces, podrás emplear una acción de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecerá en tu mano al instante, sin importar las distancias físicas o interplanares, y el conjuro terminará.",
+   "text": "A partir de entonces, podrás emplear una acción de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecerá en tu mano al instante, sin importar las distancias físicas o interplanares, y el conjuro terminará."
+  },
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Si otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevará hasta ti. En su lugar, descubrirás quién es la criatura que lo tiene y su paradero actual.",
+   "text": "Si otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevará hasta ti. En su lugar, descubrirás quién es la criatura que lo tiene y su paradero actual."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 160
+ }
+}

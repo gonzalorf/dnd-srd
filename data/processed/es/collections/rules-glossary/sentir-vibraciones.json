@@ -1,0 +1,23 @@
+{
+ "id": "rule.sentir-vibraciones",
+ "name": "Sentir vibraciones",
+ "text": "Una criatura con la capacidad de sentir vibraciones puede localizar criaturas y objetos en movimiento dentro de un alcance determinado, siempre y cuando la criatura que pueda sentir vibraciones y cualquier cosa que detecte estén en contacto con la misma superficie (como el suelo, una pared o un techo) o con el mismo líquido.\n\nSentir vibraciones no sirve para detectar criaturas u objetos en el aire y no cuenta como una forma de visión.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Una criatura con la capacidad de sentir vibraciones puede localizar criaturas y objetos en movimiento dentro de un alcance determinado, siempre y cuando la criatura que pueda sentir vibraciones y cualquier cosa que detecte estén en contacto con la misma superficie (como el suelo, una pared o un techo) o con el mismo líquido.",
+   "text": "Una criatura con la capacidad de sentir vibraciones puede localizar criaturas y objetos en movimiento dentro de un alcance determinado, siempre y cuando la criatura que pueda sentir vibraciones y cualquier cosa que detecte estén en contacto con la misma superficie (como el suelo, una pared o un techo) o con el mismo líquido."
+  },
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Sentir vibraciones no sirve para detectar criaturas u objetos en el aire y no cuenta como una forma de visión.",
+   "text": "Sentir vibraciones no sirve para detectar criaturas u objetos en el aire y no cuenta como una forma de visión."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

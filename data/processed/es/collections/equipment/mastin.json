@@ -1,0 +1,22 @@
+{
+ "id": "mount.mastin",
+ "name": "Mastín",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Mastín",
+  "Capacidad de carga": "97,5 kg",
+  "Precio": "25 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "25 po",
+  "amount": 25.0,
+  "coin": "po",
+  "gp": 25.0
+ }
+}

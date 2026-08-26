@@ -1,0 +1,28 @@
+{
+ "id": "ammunition.virotes",
+ "name": "Virotes",
+ "kind": "ammunition",
+ "group": null,
+ "table": "Munición",
+ "fields": {
+  "Tipo": "Virotes",
+  "Cantidad": "20",
+  "Recipiente": "Estuche",
+  "Peso": "0,75 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 106
+ },
+ "weight": {
+  "raw": "0,75 kg",
+  "kg": 0.75
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ }
+}

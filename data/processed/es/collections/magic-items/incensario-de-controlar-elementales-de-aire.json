@@ -1,0 +1,23 @@
+{
+ "id": "item.incensario-de-controlar-elementales-de-aire",
+ "name": "Incensario de controlar elementales de aire",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Puedes emplear una acción de magia mientras balanceas con suavidad este incensario para invocar un elemental de aire. El elemental aparece en un espacio sin ocupar lo más cerca posible del incensario, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El incensario no puede volver a emplearse de esta manera hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 260,
+   "md": "Puedes emplear una acción de magia mientras balanceas con suavidad este incensario para invocar un **elemental de aire**. El elemental aparece en un espacio sin ocupar lo más cerca posible del incensario, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El incensario no puede volver a emplearse de esta manera hasta el siguiente amanecer.",
+   "text": "Puedes emplear una acción de magia mientras balanceas con suavidad este incensario para invocar un elemental de aire. El elemental aparece en un espacio sin ocupar lo más cerca posible del incensario, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El incensario no puede volver a emplearse de esta manera hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 260
+ }
+}

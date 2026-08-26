@@ -1,0 +1,86 @@
+{
+ "id": "monster.murcielago",
+ "name": "Murciélago",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 389,
+  "pages": [
+   389,
+   390
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "1 (1d4 − 1)",
+  "average": 1
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "volar": 9.0
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante.",
+   "page": 390,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante."
+  }
+ ]
+}

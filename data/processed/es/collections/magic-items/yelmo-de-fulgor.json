@@ -1,0 +1,71 @@
+{
+ "id": "item.yelmo-de-fulgor",
+ "name": "Yelmo de fulgor",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización)",
+ "text": "Este yelmo tiene incrustados 1d10 diamantes, 2d10 rubíes, 3d10 ópalos de fuego y 4d10 ópalos. Cualquier gema que se retire del yelmo se convierte en polvo. Si se retiran o se destruyen todas las gemas, el yelmo pierde su magia.\n\nMientras lo lleves puesto, obtienes los siguientes beneficios:\n\nConjuros. Puedes lanzar uno de los siguientes conjuros (CD de salvación 18) utilizando una de las gemas del tipo especificado como componente: bola de fuego (ópalo de fuego), luz del día (ópalo), muro de fuego (rubí) o rociada prismática (diamante). La gema se destruye cuando el conjuro se lanza, por lo que desaparecerá del yelmo.\n\nLlamas de ópalo de fuego. Mientras quede al menos un ópalo de fuego en el yelmo, podrás emplear una acción de magia para hacer que un arma que estés empuñando se envuelva en llamas. Las llamas emitirán luz brillante en un radio de 3 m y luz tenue 3 m más allá. Las llamas son inofensivas para ti y el arma. Cuando aciertes un ataque usando el arma llameante, el objetivo recibirá 1d6 de daño de fuego adicional. Las llamas permanecen hasta que emplees una acción adicional para extinguirlas o hasta que sueltes o guardes el arma.\n\nLuz de diamante. Mientras quede al menos un diamante, el yelmo emitirá una emanación de 9 m. Si hay algún muerto viviente en esa zona, la emanación se llena de luz tenue. Cualquier muerto viviente que comience su turno en la zona sufrirá 1d6 de daño radiante.\n\nRecibir daño de fuego. Tira 1d20 si llevas el yelmo puesto y sufres daño de fuego por haber fallado una tirada de salvación contra un conjuro.\n\nSi sacas un 1, las gemas restantes emitirán rayos de luz y el yelmo se destruirá. Todas las criaturas dentro de una emanación de 18 m que se origina en el yelmo deberán superar una tirada de salvación de Destreza con CD 17 o un rayo las alcanzará y sufrirán una cantidad de daño radiante igual al número de gemas del yelmo.\n\nResistencia de rubí. Mientras quede al menos un rubí en el yelmo, tendrás resistencia al daño de fuego.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 276,
+   "md": "Este yelmo tiene incrustados 1d10 diamantes, 2d10 rubíes, 3d10 ópalos de fuego y 4d10 ópalos. Cualquier gema que se retire del yelmo se convierte en polvo. Si se retiran o se destruyen todas las gemas, el yelmo pierde su magia.",
+   "text": "Este yelmo tiene incrustados 1d10 diamantes, 2d10 rubíes, 3d10 ópalos de fuego y 4d10 ópalos. Cualquier gema que se retire del yelmo se convierte en polvo. Si se retiran o se destruyen todas las gemas, el yelmo pierde su magia."
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "md": "Mientras lo lleves puesto, obtienes los siguientes beneficios:",
+   "text": "Mientras lo lleves puesto, obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Conjuros.*** Puedes lanzar uno de los siguientes conjuros (CD de salvación 18) utilizando una de las gemas del tipo especificado como componente: *bola de fuego* (ópalo de fuego), *luz del día* (ópalo), *muro de fuego* (rubí) o *rociada prismática* (diamante). La gema se destruye cuando el conjuro se lanza, por lo que desaparecerá del yelmo.",
+   "text": "Conjuros. Puedes lanzar uno de los siguientes conjuros (CD de salvación 18) utilizando una de las gemas del tipo especificado como componente: bola de fuego (ópalo de fuego), luz del día (ópalo), muro de fuego (rubí) o rociada prismática (diamante). La gema se destruye cuando el conjuro se lanza, por lo que desaparecerá del yelmo."
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Llamas de ópalo de fuego.*** Mientras quede al menos un ópalo de fuego en el yelmo, podrás emplear una acción de magia para hacer que un arma que estés empuñando se envuelva en llamas. Las llamas emitirán luz brillante en un radio de 3 m y luz tenue 3 m más allá. Las llamas son inofensivas para ti y el arma. Cuando aciertes un ataque usando el arma llameante, el objetivo recibirá 1d6 de daño de fuego adicional. Las llamas permanecen hasta que emplees una acción adicional para extinguirlas o hasta que sueltes o guardes el arma.",
+   "text": "Llamas de ópalo de fuego. Mientras quede al menos un ópalo de fuego en el yelmo, podrás emplear una acción de magia para hacer que un arma que estés empuñando se envuelva en llamas. Las llamas emitirán luz brillante en un radio de 3 m y luz tenue 3 m más allá. Las llamas son inofensivas para ti y el arma. Cuando aciertes un ataque usando el arma llameante, el objetivo recibirá 1d6 de daño de fuego adicional. Las llamas permanecen hasta que emplees una acción adicional para extinguirlas o hasta que sueltes o guardes el arma."
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Luz de diamante.*** Mientras quede al menos un diamante, el yelmo emitirá una emanación de 9 m. Si hay algún muerto viviente en esa zona, la emanación se llena de luz tenue. Cualquier muerto viviente que comience su turno en la zona sufrirá 1d6 de daño radiante.",
+   "text": "Luz de diamante. Mientras quede al menos un diamante, el yelmo emitirá una emanación de 9 m. Si hay algún muerto viviente en esa zona, la emanación se llena de luz tenue. Cualquier muerto viviente que comience su turno en la zona sufrirá 1d6 de daño radiante."
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Recibir daño de fuego.*** Tira 1d20 si llevas el yelmo puesto y sufres daño de fuego por haber fallado una tirada de salvación contra un conjuro.",
+   "text": "Recibir daño de fuego. Tira 1d20 si llevas el yelmo puesto y sufres daño de fuego por haber fallado una tirada de salvación contra un conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "md": "Si sacas un 1, las gemas restantes emitirán rayos de luz y el yelmo se destruirá. Todas las criaturas dentro de una emanación de 18 m que se origina en el yelmo deberán superar una tirada de salvación de Destreza con CD 17 o un rayo las alcanzará y sufrirán una cantidad de daño radiante igual al número de gemas del yelmo.",
+   "text": "Si sacas un 1, las gemas restantes emitirán rayos de luz y el yelmo se destruirá. Todas las criaturas dentro de una emanación de 18 m que se origina en el yelmo deberán superar una tirada de salvación de Destreza con CD 17 o un rayo las alcanzará y sufrirán una cantidad de daño radiante igual al número de gemas del yelmo."
+  },
+  {
+   "type": "definition",
+   "page": 277,
+   "md": "***Resistencia de rubí.*** Mientras quede al menos un rubí en el yelmo, tendrás resistencia al daño de fuego.",
+   "text": "Resistencia de rubí. Mientras quede al menos un rubí en el yelmo, tendrás resistencia al daño de fuego."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 276
+ },
+ "refs": [
+  "spell.bola-de-fuego",
+  "spell.luz-del-dia",
+  "spell.muro-de-fuego",
+  "spell.rociada-prismatica"
+ ]
+}

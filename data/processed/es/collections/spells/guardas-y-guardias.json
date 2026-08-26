@@ -1,0 +1,128 @@
+{
+ "id": "spell.guardas-y-guardias",
+ "name": "Guardas y guardias",
+ "level": 6,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una vara de plata que valga al menos 10 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una vara de plata que valga al menos 10 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Creas una protección que cubre hasta 250 m2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y le das la forma de una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m de lado o veinticinco cuadrados contiguos de 3 m de lado.\n\nCuando lances el conjuro, puedes especificar criaturas individuales que no se verán afectadas por los efectos del conjuro. También puedes designar una contraseña que, cuando se diga en alto a 1,5 m o menos de la zona protegida, hace inmune a sus efectos a quien la dice.\n\nEl conjuro crea los efectos indicados a continuación en la zona protegida. Disipar magia no tiene efecto sobre guardas y guardias, pero sí que se pueden disipar los siguientes efectos. Si se disipan los cuatro, guardas y guardias terminará. Si lanzas el conjuro a diario durante 365 días en la misma zona, el conjuro durará hasta que se disipen todos sus efectos.\n\nEscaleras. Todas las escaleras de la zona protegida se llenan de telas de araña de arriba abajo, como si estuvieran afectadas por el conjuro telaraña. Mientras dure guardas y guardias, estas telas de araña vuelven a generarse en un plazo de 10 minutos si se destruyen.\n\nPasillos. Todos los pasillos protegidos se llenan de niebla y pasan a estar muy oscuros. Además, en cada intersección o en cada camino que se divida y que permita elegir una dirección, hay un 50 % de probabilidad de que una criatura que no seas tú piense que va en la dirección contraria a la que haya elegido.\n\nPuertas. Todas las puertas de la zona protegida están cerradas de manera mágica, como si estuvieran afectadas por el conjuro cerradura arcana. Además, puedes cubrir hasta 10 puertas con una ilusión para que parezcan simples secciones de pared.\n\nOtro efecto del conjuro. Sitúas uno de los siguientes efectos mágicos dentro de la zona protegida:\n\n• Luces danzantes en cuatro pasillos con un patrón sencillo que las luces reproducirán mientras dure guardas y guardias.\n\n• Boca mágica en dos lugares.\n\n• Nube apestosa en dos lugares (los vapores volverán tras 10 minutos si se dispersan mientras dure guardas y guardias).\n\n• Ráfaga de viento en un pasillo o sala (el viento sopla sin parar mientras dure el conjuro).\n\n• Sugestión en una casilla de 1,5 m de lado, y cualquier criatura que entre en ella recibirá la sugestión mentalmente.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Creas una protección que cubre hasta 250 m2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y le das la forma de una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m de lado o veinticinco cuadrados contiguos de 3 m de lado.",
+   "text": "Creas una protección que cubre hasta 250 m2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y le das la forma de una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m de lado o veinticinco cuadrados contiguos de 3 m de lado."
+  },
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "Cuando lances el conjuro, puedes especificar criaturas individuales que no se verán afectadas por los efectos del conjuro. También puedes designar una contraseña que, cuando se diga en alto a 1,5 m o menos de la zona protegida, hace inmune a sus efectos a quien la dice.",
+   "text": "Cuando lances el conjuro, puedes especificar criaturas individuales que no se verán afectadas por los efectos del conjuro. También puedes designar una contraseña que, cuando se diga en alto a 1,5 m o menos de la zona protegida, hace inmune a sus efectos a quien la dice."
+  },
+  {
+   "type": "paragraph",
+   "page": 153,
+   "md": "El conjuro crea los efectos indicados a continuación en la zona protegida. *Disipar magia* no tiene efecto sobre *guardas y guardias*, pero sí que se pueden disipar los siguientes efectos. Si se disipan los cuatro, *guardas y guardias* terminará. Si lanzas el conjuro a diario durante 365 días en la misma zona, el conjuro durará hasta que se disipen todos sus efectos.",
+   "text": "El conjuro crea los efectos indicados a continuación en la zona protegida. Disipar magia no tiene efecto sobre guardas y guardias, pero sí que se pueden disipar los siguientes efectos. Si se disipan los cuatro, guardas y guardias terminará. Si lanzas el conjuro a diario durante 365 días en la misma zona, el conjuro durará hasta que se disipen todos sus efectos."
+  },
+  {
+   "type": "definition",
+   "page": 153,
+   "md": "***Escaleras.*** Todas las escaleras de la zona protegida se llenan de telas de araña de arriba abajo, como si estuvieran afectadas por el conjuro *telaraña*. Mientras dure *guardas y guardias*, estas telas de araña vuelven a generarse en un plazo de 10 minutos si se destruyen.",
+   "text": "Escaleras. Todas las escaleras de la zona protegida se llenan de telas de araña de arriba abajo, como si estuvieran afectadas por el conjuro telaraña. Mientras dure guardas y guardias, estas telas de araña vuelven a generarse en un plazo de 10 minutos si se destruyen."
+  },
+  {
+   "type": "definition",
+   "page": 153,
+   "md": "***Pasillos.*** Todos los pasillos protegidos se llenan de niebla y pasan a estar muy oscuros. Además, en cada intersección o en cada camino que se divida y que permita elegir una dirección, hay un 50 % de probabilidad de que una criatura que no seas tú piense que va en la dirección contraria a la que haya elegido.",
+   "text": "Pasillos. Todos los pasillos protegidos se llenan de niebla y pasan a estar muy oscuros. Además, en cada intersección o en cada camino que se divida y que permita elegir una dirección, hay un 50 % de probabilidad de que una criatura que no seas tú piense que va en la dirección contraria a la que haya elegido."
+  },
+  {
+   "type": "definition",
+   "page": 153,
+   "md": "***Puertas.*** Todas las puertas de la zona protegida están cerradas de manera mágica, como si estuvieran afectadas por el conjuro *cerradura arcana*. Además, puedes cubrir hasta 10 puertas con una ilusión para que parezcan simples secciones de pared.",
+   "text": "Puertas. Todas las puertas de la zona protegida están cerradas de manera mágica, como si estuvieran afectadas por el conjuro cerradura arcana. Además, puedes cubrir hasta 10 puertas con una ilusión para que parezcan simples secciones de pared."
+  },
+  {
+   "type": "definition",
+   "page": 153,
+   "md": "***Otro efecto del conjuro.*** Sitúas uno de los siguientes efectos mágicos dentro de la zona protegida:",
+   "text": "Otro efecto del conjuro. Sitúas uno de los siguientes efectos mágicos dentro de la zona protegida:"
+  },
+  {
+   "type": "list-item",
+   "page": 153,
+   "md": "• *Luces danzantes* en cuatro pasillos con un patrón sencillo que las luces reproducirán mientras dure *guardas y guardias*.",
+   "text": "• Luces danzantes en cuatro pasillos con un patrón sencillo que las luces reproducirán mientras dure guardas y guardias."
+  },
+  {
+   "type": "list-item",
+   "page": 153,
+   "md": "• *Boca mágica* en dos lugares.",
+   "text": "• Boca mágica en dos lugares."
+  },
+  {
+   "type": "list-item",
+   "page": 153,
+   "md": "• *Nube apestosa* en dos lugares (los vapores volverán tras 10 minutos si se dispersan mientras dure *guardas y guardias*).",
+   "text": "• Nube apestosa en dos lugares (los vapores volverán tras 10 minutos si se dispersan mientras dure guardas y guardias)."
+  },
+  {
+   "type": "list-item",
+   "page": 153,
+   "md": "• *Ráfaga de viento* en un pasillo o sala (el viento sopla sin parar mientras dure el conjuro)*.*",
+   "text": "• Ráfaga de viento en un pasillo o sala (el viento sopla sin parar mientras dure el conjuro)."
+  },
+  {
+   "type": "list-item",
+   "page": 154,
+   "md": "• *Sugestión* en una casilla de 1,5 m de lado, y cualquier criatura que entre en ella recibirá la sugestión mentalmente.",
+   "text": "• Sugestión en una casilla de 1,5 m de lado, y cualquier criatura que entre en ella recibirá la sugestión mentalmente."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 153
+ },
+ "refs": [
+  "spell.disipar-magia",
+  "spell.telarana",
+  "spell.cerradura-arcana",
+  "spell.luces-danzantes",
+  "spell.boca-magica",
+  "spell.nube-apestosa",
+  "spell.rafaga-de-viento",
+  "spell.sugestion"
+ ]
+}

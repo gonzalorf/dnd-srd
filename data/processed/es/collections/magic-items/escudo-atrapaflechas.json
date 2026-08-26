@@ -1,0 +1,29 @@
+{
+ "id": "item.escudo-atrapaflechas",
+ "name": "Escudo atrapaflechas",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), rara (requiere sintonización)",
+ "text": "Mientras embraces este escudo, obtienes un bonificador de +2 a la clase de armadura contra las tiradas de ataque a distancia. Este bonificador se suma al bonificador a la CA normal del escudo.\n\nCuando una criatura realice una tirada de ataque a distancia contra un objetivo que esté a 1,5 m o menos de ti, podrás usar una reacción para convertirte en el objetivo del ataque.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Mientras embraces este escudo, obtienes un bonificador de +2 a la clase de armadura contra las tiradas de ataque a distancia. Este bonificador se suma al bonificador a la CA normal del escudo.",
+   "text": "Mientras embraces este escudo, obtienes un bonificador de +2 a la clase de armadura contra las tiradas de ataque a distancia. Este bonificador se suma al bonificador a la CA normal del escudo."
+  },
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Cuando una criatura realice una tirada de ataque a distancia contra un objetivo que esté a 1,5 m o menos de ti, podrás usar una reacción para convertirte en el objetivo del ataque.",
+   "text": "Cuando una criatura realice una tirada de ataque a distancia contra un objetivo que esté a 1,5 m o menos de ti, podrás usar una reacción para convertirte en el objetivo del ataque."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

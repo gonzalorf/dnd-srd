@@ -1,0 +1,58 @@
+{
+ "id": "spell.invertir-la-gravedad",
+ "name": "Invertir la gravedad",
+ "level": 7,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "30 m",
+  "kind": "ranged",
+  "meters": 30
+ },
+ "components": {
+  "raw": "V, S, M (un imán natural y virutas de hierro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un imán natural y virutas de hierro",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no estén fijados al suelo caerán hacia arriba y llegarán a la parte superior del cilindro. Una criatura puede hacer una tirada de salvación de Destreza para agarrarse a un objeto fijo a su alcance y así evitar la caída hacia arriba.\n\nSi un techo o un objeto fijo se interpone en la caída, las criaturas y objetos chocan contra él como harían en una caída normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecerá allí flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caerán hacia abajo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 159,
+   "md": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no estén fijados al suelo caerán hacia arriba y llegarán a la parte superior del cilindro. Una criatura puede hacer una tirada de salvación de Destreza para agarrarse a un objeto fijo a su alcance y así evitar la caída hacia arriba.",
+   "text": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no estén fijados al suelo caerán hacia arriba y llegarán a la parte superior del cilindro. Una criatura puede hacer una tirada de salvación de Destreza para agarrarse a un objeto fijo a su alcance y así evitar la caída hacia arriba."
+  },
+  {
+   "type": "paragraph",
+   "page": 159,
+   "md": "Si un techo o un objeto fijo se interpone en la caída, las criaturas y objetos chocan contra él como harían en una caída normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecerá allí flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caerán hacia abajo.",
+   "text": "Si un techo o un objeto fijo se interpone en la caída, las criaturas y objetos chocan contra él como harían en una caída normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecerá allí flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caerán hacia abajo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 159
+ }
+}

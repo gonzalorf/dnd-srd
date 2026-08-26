@@ -1,0 +1,32 @@
+{
+ "id": "gear.papel",
+ "name": "Papel",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Papel",
+  "Peso": "—",
+  "Precio": "2 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "2 pp",
+  "amount": 2.0,
+  "coin": "pp",
+  "gp": 0.2
+ },
+ "text": "En una hoja de papel caben unas 250 palabras escritas a mano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "En una hoja de papel caben unas 250 palabras escritas a mano.",
+   "text": "En una hoja de papel caben unas 250 palabras escritas a mano."
+  }
+ ],
+ "descriptionPage": 106
+}

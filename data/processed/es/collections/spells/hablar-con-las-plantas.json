@@ -1,0 +1,67 @@
+{
+ "id": "spell.hablar-con-las-plantas",
+ "name": "Hablar con las plantas",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "10 minutos",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Insuflas una consciencia y una animación limitadas a las plantas en una emanación inmóvil de 9 m, lo que les otorga la capacidad de comunicarse contigo y obedecer órdenes sencillas que les des. Puedes preguntar a las plantas acerca de sucesos que hayan ocurrido en la zona del conjuro durante el último día y conseguir información sobre qué criaturas han pasado por allí, el clima y otras circunstancias.\n\nTambién puedes convertir el terreno difícil debido al crecimiento vegetal (como matorrales y maleza) en terreno normal hasta que termine el conjuro o puedes convertir un terreno normal en el que haya plantas en terreno difícil hasta que termine el conjuro.\n\nEl conjuro no permite que las plantas se liberen del suelo y se desplacen, pero sí que pueden mover sus ramas, zarcillos y tallos por ti.\n\nSi hay una criatura de tipo “planta” en la zona, puedes comunicarte con ella como si compartierais un idioma común.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "Insuflas una consciencia y una animación limitadas a las plantas en una emanación inmóvil de 9 m, lo que les otorga la capacidad de comunicarse contigo y obedecer órdenes sencillas que les des. Puedes preguntar a las plantas acerca de sucesos que hayan ocurrido en la zona del conjuro durante el último día y conseguir información sobre qué criaturas han pasado por allí, el clima y otras circunstancias.",
+   "text": "Insuflas una consciencia y una animación limitadas a las plantas en una emanación inmóvil de 9 m, lo que les otorga la capacidad de comunicarse contigo y obedecer órdenes sencillas que les des. Puedes preguntar a las plantas acerca de sucesos que hayan ocurrido en la zona del conjuro durante el último día y conseguir información sobre qué criaturas han pasado por allí, el clima y otras circunstancias."
+  },
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "También puedes convertir el terreno difícil debido al crecimiento vegetal (como matorrales y maleza) en terreno normal hasta que termine el conjuro o puedes convertir un terreno normal en el que haya plantas en terreno difícil hasta que termine el conjuro.",
+   "text": "También puedes convertir el terreno difícil debido al crecimiento vegetal (como matorrales y maleza) en terreno normal hasta que termine el conjuro o puedes convertir un terreno normal en el que haya plantas en terreno difícil hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "El conjuro no permite que las plantas se liberen del suelo y se desplacen, pero sí que pueden mover sus ramas, zarcillos y tallos por ti.",
+   "text": "El conjuro no permite que las plantas se liberen del suelo y se desplacen, pero sí que pueden mover sus ramas, zarcillos y tallos por ti."
+  },
+  {
+   "type": "paragraph",
+   "page": 154,
+   "md": "Si hay una criatura de tipo “planta” en la zona, puedes comunicarte con ella como si compartierais un idioma común.",
+   "text": "Si hay una criatura de tipo “planta” en la zona, puedes comunicarte con ella como si compartierais un idioma común."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 154
+ }
+}

@@ -1,0 +1,118 @@
+---
+/**
+ * Las páginas del libro.
+ *
+ * Una por capítulo (índice de sus secciones) y una por sección (el texto). Las
+ * secciones con muchísimas entradas —los 339 conjuros, los 258 objetos— se
+ * convierten en índice y cada entrada recibe su propia página, para que ningún
+ * HTML se dispare de tamaño.
+ */
+import Base from "../../layouts/Base.astro";
+import Bloques from "../../components/Bloques.astro";
+import { bookSections, chapters, slugify, type Node } from "../../lib/srd";
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  const caps = chapters();
+
+  for (const chapter of caps) {
+    paths.push({
+      params: { ruta: chapter.slug },
+      props: { kind: "chapter", chapter, title: chapter.title, page: chapter.page },
+    });
+  }
+
+  for (const section of bookSections()) {
+    if (section.split) {
+      const entries = (section.node.children ?? []).filter((c) => c.type === "entry");
+      paths.push({
+        params: { ruta: section.slug },
+        props: {
+          kind: "index",
+          title: section.title,
+          page: section.page,
+          chapterSlug: section.chapterSlug,
+          chapterTitle: section.chapter,
+          entries: entries.map((e: Node) => ({
+            title: e.title,
+            slug: slugify(e.title ?? ""),
+            page: e.source.page,
+          })),
+        },
+      });
+      for (const entry of entries) {
+        paths.push({
+          params: { ruta: `${section.slug}/${slugify(entry.title ?? "")}` },
+          props: {
+            kind: "entry",
+            title: entry.title,
+            page: entry.source.page,
+            chapterSlug: section.chapterSlug,
+            chapterTitle: section.chapter,
+            parentSlug: section.slug,
+            parentTitle: section.title,
+            nodes: entry.children ?? [],
+          },
+        });
+      }
+    } else {
+      paths.push({
+        params: { ruta: section.slug },
+        props: {
+          kind: "section",
+          title: section.title,
+          page: section.page,
+          chapterSlug: section.chapterSlug,
+          chapterTitle: section.chapter,
+          nodes: section.node.children ?? [],
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const props = Astro.props as any;
+---
+
+<Base title={props.title} page={props.page}>
+  {props.kind !== "chapter" && (
+    <nav class="migas">
+      <a href="/libro/">Libro</a> ›
+      <a href={`/libro/${props.chapterSlug}/`}>{props.chapterTitle}</a>
+      {props.parentSlug && (<> › <a href={`/libro/${props.parentSlug}/`}>{props.parentTitle}</a></>)}
+    </nav>
+  )}
+
+  {props.kind === "chapter" && (
+    <ul class="secciones">
+      {props.chapter.sections.map((s: any) => (
+        <li>
+          <a href={`/libro/${props.chapter.slug}/${s.slug}/`}>{s.title}</a>
+          <span class="pag">p{s.page}</span>
+        </li>
+      ))}
+      {props.chapter.sections.length === 0 && <li class="vacio">Capítulo sin secciones.</li>}
+    </ul>
+  )}
+
+  {props.kind === "index" && (
+    <>
+      <p class="entradilla">{props.entries.length} entradas.</p>
+      <ul class="listado">
+        {props.entries.map((e: any) => (
+          <li>
+            <a href={`/libro/${Astro.params.ruta}/${e.slug}/`}>{e.title}</a>
+            <span class="pag">p{e.page}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {(props.kind === "section" || props.kind === "entry") && (
+    <article data-pagefind-body>
+      <Bloques nodes={props.nodes} depth={2} />
+    </article>
+  )}
+</Base>

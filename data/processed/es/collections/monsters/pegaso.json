@@ -1,0 +1,89 @@
+{
+ "id": "monster.pegaso",
+ "name": "Pegaso",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 357
+ },
+ "context": [
+  "Pegaso"
+ ],
+ "metaRaw": "Celestial Grande, caótico bueno",
+ "type": "Celestial",
+ "alignment": "caótico bueno",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "59 (7d10 + 21)",
+  "average": 59,
+  "formula": "7d10 + 21"
+ },
+ "speeds": {
+  "caminando": 18.0,
+  "volar": 27.0
+ },
+ "skills": {
+  "Percepción": 6
+ },
+ "senses": {
+  "raw": "Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "entiende celestial",
+  "común",
+  "elfo y silvano",
+  "pero no puede hablar"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 4
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 5
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 4
+  },
+  "car": {
+   "score": 13,
+   "mod": 1,
+   "save": 3
+  }
+ },
+ "actions": [
+  {
+   "name": "Cascos",
+   "md": "***Cascos.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente más 5 (2d4) de daño radiante.",
+   "page": 357,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 7 (1d6 + 4) de daño contundente más 5 (2d4) de daño radiante."
+  }
+ ]
+}

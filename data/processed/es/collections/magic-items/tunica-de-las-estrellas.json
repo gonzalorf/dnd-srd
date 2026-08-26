@@ -1,0 +1,38 @@
+{
+ "id": "item.tunica-de-las-estrellas",
+ "name": "Túnica de las estrellas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización)",
+ "text": "Esta túnica negra o azul oscura lleva bordadas pequeñas estrellas blancas o plateadas. Mientras la lleves puesta, recibirás un bonificador de +1 a las tiradas de salvación.\n\nSeis de las estrellas, situadas en la parte superior delantera de la túnica, son especialmente grandes. Mientras lleves puesta la túnica, puedes emplear una acción de magia para arrancar una de las estrellas y gastarla para lanzar la versión de nivel 5 de proyectil mágico. Cada día al amanecer, 1d6 estrellas arrancadas reaparecerán en la túnica.\n\nMientras lleves puesta la túnica, podrás utilizar una acción de magia para entrar en el Plano Astral junto con todo lo que vistas o lleves. Permanecerás allí hasta que utilices una acción de magia para volver al plano en el que estabas. Reaparecerás en el último espacio que ocupabas o, si el espacio ya está ocupado, en el espacio sin ocupar más cercano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Esta túnica negra o azul oscura lleva bordadas pequeñas estrellas blancas o plateadas. Mientras la lleves puesta, recibirás un bonificador de +1 a las tiradas de salvación.",
+   "text": "Esta túnica negra o azul oscura lleva bordadas pequeñas estrellas blancas o plateadas. Mientras la lleves puesta, recibirás un bonificador de +1 a las tiradas de salvación."
+  },
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Seis de las estrellas, situadas en la parte superior delantera de la túnica, son especialmente grandes. Mientras lleves puesta la túnica, puedes emplear una acción de magia para arrancar una de las estrellas y gastarla para lanzar la versión de nivel 5 de *proyectil mágico*. Cada día al amanecer, 1d6 estrellas arrancadas reaparecerán en la túnica.",
+   "text": "Seis de las estrellas, situadas en la parte superior delantera de la túnica, son especialmente grandes. Mientras lleves puesta la túnica, puedes emplear una acción de magia para arrancar una de las estrellas y gastarla para lanzar la versión de nivel 5 de proyectil mágico. Cada día al amanecer, 1d6 estrellas arrancadas reaparecerán en la túnica."
+  },
+  {
+   "type": "paragraph",
+   "page": 271,
+   "md": "Mientras lleves puesta la túnica, podrás utilizar una acción de magia para entrar en el Plano Astral junto con todo lo que vistas o lleves. Permanecerás allí hasta que utilices una acción de magia para volver al plano en el que estabas. Reaparecerás en el último espacio que ocupabas o, si el espacio ya está ocupado, en el espacio sin ocupar más cercano.",
+   "text": "Mientras lleves puesta la túnica, podrás utilizar una acción de magia para entrar en el Plano Astral junto con todo lo que vistas o lleves. Permanecerás allí hasta que utilices una acción de magia para volver al plano en el que estabas. Reaparecerás en el último espacio que ocupabas o, si el espacio ya está ocupado, en el espacio sin ocupar más cercano."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 271
+ },
+ "refs": [
+  "spell.proyectil-magico"
+ ]
+}

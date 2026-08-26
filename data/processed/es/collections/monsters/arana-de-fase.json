@@ -1,0 +1,124 @@
+{
+ "id": "monster.arana-de-fase",
+ "name": "Araña de fase",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 284,
+  "pages": [
+   284,
+   285
+  ]
+ },
+ "context": [
+  "Araña de fase"
+ ],
+ "metaRaw": "Monstruosidad Grande, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "45 (7d10 + 7)",
+  "average": 45,
+  "formula": "7d10 + 7"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Caminar por telarañas",
+   "md": "***Caminar por telarañas.*** La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña.",
+   "page": 285,
+   "description": "La araña ignora todas las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura que esté en contacto con la misma telaraña."
+  },
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 285,
+   "description": "La araña puede trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  },
+  {
+   "name": "Visión etérea",
+   "md": "***Visión etérea.*** La araña puede ver a 18 m de distancia en el Plano Etéreo cuando se encuentra en el Plano Material y viceversa.",
+   "page": 285,
+   "description": "La araña puede ver a 18 m de distancia en el Plano Etéreo cuando se encuentra en el Plano Material y viceversa."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La araña realiza dos ataques de mordisco.",
+   "page": 285,
+   "description": "La araña realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño perforante más 9 (2d8) de daño de veneno. Si este daño reduce a 0 los puntos de golpe del objetivo, pasará a estar estable y tendrá el estado de envenenado durante 1 hora. Mientras esté envenenado, también tendrá el estado de paralizado.",
+   "page": 285,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño perforante más 9 (2d8) de daño de veneno. Si este daño reduce a 0 los puntos de golpe del objetivo, pasará a estar estable y tendrá el estado de envenenado durante 1 hora. Mientras esté envenenado, también tendrá el estado de paralizado."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto etéreo",
+   "md": "***Salto etéreo.*** La araña se teletransporta del Plano Material al Plano Etéreo o viceversa.",
+   "page": 285,
+   "description": "La araña se teletransporta del Plano Material al Plano Etéreo o viceversa."
+  }
+ ]
+}

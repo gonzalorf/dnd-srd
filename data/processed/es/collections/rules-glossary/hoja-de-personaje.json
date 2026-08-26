@@ -1,0 +1,17 @@
+{
+ "id": "rule.hoja-de-personaje",
+ "name": "Hoja de personaje",
+ "text": "Una hoja de personaje es un registro en papel o digital en el que apuntas la información sobre tu personaje. Consulta también el capítulo “Creación de personajes”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Una hoja de personaje es un registro en papel o digital en el que apuntas la información sobre tu personaje. *Consulta también* el capítulo “Creación de personajes”.",
+   "text": "Una hoja de personaje es un registro en papel o digital en el que apuntas la información sobre tu personaje. Consulta también el capítulo “Creación de personajes”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ }
+}

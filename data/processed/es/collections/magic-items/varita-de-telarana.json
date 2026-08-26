@@ -1,0 +1,32 @@
+{
+ "id": "item.varita-de-telarana",
+ "name": "Varita de telaraña",
+ "category": "Varita",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": "un lanzador de conjuros",
+ "subtitle": "Varita, infrecuente (requiere sintonización por parte de un lanzador de conjuros)",
+ "text": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar telaraña (CD de salvación 13) desde ella.\n\nRecuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 275,
+   "md": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar *telaraña* (CD de salvación 13) desde ella.",
+   "text": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar telaraña (CD de salvación 13) desde ella."
+  },
+  {
+   "type": "definition",
+   "page": 275,
+   "md": "***Recuperar cargas.*** La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+   "text": "Recuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 275
+ },
+ "refs": [
+  "spell.telarana"
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "id": "item.baraja-de-ilusiones",
+ "name": "Baraja de ilusiones",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Esta caja contiene una baraja de cartas. Una baraja completa tiene 34 cartas: 32 de ellas muestran criaturas concretas y las otras 2 tienen una superficie espejada. A una baraja encontrada como tesoro le suelen faltar 1d20 − 1 cartas.\n\nLa magia de la baraja solo funciona si las cartas se roban al azar. Puedes utilizar una acción de magia para robar una carta al azar de la baraja y tirarla al suelo, a un punto que esté a 9 m o menos de ti. Una ilusión de una criatura, que se determina tirando en la tabla “Baraja de ilusiones”, se formará sobre la carta y permanecerá hasta que se disipe. La criatura ilusoria que crea la carta se parece a una criatura real de su tipo y se comporta como tal, excepto porque no puede hacer daño. Mientras estés a 36 m o menos de una criatura ilusoria y puedas verla, podrás emplear una acción de magia para moverla a cualquier lugar situado a 9 m o menos de la carta.\n\nCualquier interacción física con la criatura ilusoria revelará que es falsa, ya que los objetos la atravesarán. Si una criatura emplea una acción de estudiar para inspeccionarla, identificará que es una ilusión si supera una prueba de Inteligencia (Investigación) con CD 15. La ilusión durará hasta que se disipe (mediante un conjuro disipar magia o un efecto similar) o hasta que alguien mueva la carta. Cuando la ilusión concluya, la imagen de la carta desaparecerá y esa carta no se podrá volver a usar.\n\n*Los perfiles de las criaturas (salvo el dueño de la baraja) aparecen en el capítulo “Monstruos”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 236,
+   "md": "Esta caja contiene una baraja de cartas. Una baraja completa tiene 34 cartas: 32 de ellas muestran criaturas concretas y las otras 2 tienen una superficie espejada. A una baraja encontrada como tesoro le suelen faltar 1d20 − 1 cartas.",
+   "text": "Esta caja contiene una baraja de cartas. Una baraja completa tiene 34 cartas: 32 de ellas muestran criaturas concretas y las otras 2 tienen una superficie espejada. A una baraja encontrada como tesoro le suelen faltar 1d20 − 1 cartas."
+  },
+  {
+   "type": "paragraph",
+   "page": 236,
+   "md": "La magia de la baraja solo funciona si las cartas se roban al azar. Puedes utilizar una acción de magia para robar una carta al azar de la baraja y tirarla al suelo, a un punto que esté a 9 m o menos de ti. Una ilusión de una criatura, que se determina tirando en la tabla “Baraja de ilusiones”, se formará sobre la carta y permanecerá hasta que se disipe. La criatura ilusoria que crea la carta se parece a una criatura real de su tipo y se comporta como tal, excepto porque no puede hacer daño. Mientras estés a 36 m o menos de una criatura ilusoria y puedas verla, podrás emplear una acción de magia para moverla a cualquier lugar situado a 9 m o menos de la carta.",
+   "text": "La magia de la baraja solo funciona si las cartas se roban al azar. Puedes utilizar una acción de magia para robar una carta al azar de la baraja y tirarla al suelo, a un punto que esté a 9 m o menos de ti. Una ilusión de una criatura, que se determina tirando en la tabla “Baraja de ilusiones”, se formará sobre la carta y permanecerá hasta que se disipe. La criatura ilusoria que crea la carta se parece a una criatura real de su tipo y se comporta como tal, excepto porque no puede hacer daño. Mientras estés a 36 m o menos de una criatura ilusoria y puedas verla, podrás emplear una acción de magia para moverla a cualquier lugar situado a 9 m o menos de la carta."
+  },
+  {
+   "type": "paragraph",
+   "page": 236,
+   "md": "Cualquier interacción física con la criatura ilusoria revelará que es falsa, ya que los objetos la atravesarán. Si una criatura emplea una acción de estudiar para inspeccionarla, identificará que es una ilusión si supera una prueba de Inteligencia (Investigación) con CD 15. La ilusión durará hasta que se disipe (mediante un conjuro *disipar magia* o un efecto similar) o hasta que alguien mueva la carta. Cuando la ilusión concluya, la imagen de la carta desaparecerá y esa carta no se podrá volver a usar.",
+   "text": "Cualquier interacción física con la criatura ilusoria revelará que es falsa, ya que los objetos la atravesarán. Si una criatura emplea una acción de estudiar para inspeccionarla, identificará que es una ilusión si supera una prueba de Inteligencia (Investigación) con CD 15. La ilusión durará hasta que se disipe (mediante un conjuro disipar magia o un efecto similar) o hasta que alguien mueva la carta. Cuando la ilusión concluya, la imagen de la carta desaparecerá y esa carta no se podrá volver a usar."
+  },
+  {
+   "type": "table",
+   "page": 237,
+   "caption": "Baraja de ilusiones",
+   "header": [
+    "1d100",
+    "Ilusión*"
+   ],
+   "rows": [
+    [
+     "01–03",
+     "Archimago"
+    ],
+    [
+     "04–06",
+     "Asesino"
+    ],
+    [
+     "07–09",
+     "Basilisco"
+    ],
+    [
+     "10–12",
+     "Berserker"
+    ],
+    [
+     "13–15",
+     "Caballero"
+    ],
+    [
+     "16–18",
+     "Capitán bandido"
+    ],
+    [
+     "19–21",
+     "Dragón rojo adulto"
+    ],
+    [
+     "22–24",
+     "Druida"
+    ],
+    [
+     "25–27",
+     "Erinia"
+    ],
+    [
+     "28–30",
+     "Ettin"
+    ],
+    [
+     "31–33",
+     "Gigante de escarcha"
+    ],
+    [
+     "34–36",
+     "Gigante de fuego"
+    ],
+    [
+     "37–39",
+     "Gigante de las colinas"
+    ],
+    [
+     "40–42",
+     "Gigante de las nubes"
+    ],
+    [
+     "43–45",
+     "Gólem de hierro"
+    ],
+    [
+     "46–48",
+     "Guerrero gnoll"
+    ],
+    [
+     "49–51",
+     "Guerrero goblin"
+    ],
+    [
+     "52–54",
+     "Guerrero hobgoblin"
+    ],
+    [
+     "55–57",
+     "Guerrero kobold"
+    ],
+    [
+     "58–60",
+     "Guerrero osgo"
+    ],
+    [
+     "61–63",
+     "Guerrero veterano"
+    ],
+    [
+     "64–66",
+     "Guiverno"
+    ],
+    [
+     "67–69",
+     "Íncubo"
+    ],
+    [
+     "70–72",
+     "Liche"
+    ],
+    [
+     "73–75",
+     "Medusa"
+    ],
+    [
+     "76–78",
+     "Naga guardiana"
+    ],
+    [
+     "79–81",
+     "Ogro"
+    ],
+    [
+     "82–84",
+     "Oni"
+    ],
+    [
+     "85–87",
+     "Sacerdote"
+    ],
+    [
+     "88–90",
+     "Saga de la noche"
+    ],
+    [
+     "91–93",
+     "Súcubo"
+    ],
+    [
+     "94–96",
+     "Troll"
+    ],
+    [
+     "97–00",
+     "El dueño de la baraja"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 237,
+   "md": "*Los perfiles de las criaturas (salvo el dueño de la baraja) aparecen en el capítulo “Monstruos”.",
+   "text": "*Los perfiles de las criaturas (salvo el dueño de la baraja) aparecen en el capítulo “Monstruos”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 236
+ },
+ "refs": [
+  "spell.disipar-magia"
+ ]
+}

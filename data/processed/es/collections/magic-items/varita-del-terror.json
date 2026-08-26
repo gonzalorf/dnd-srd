@@ -1,0 +1,54 @@
+{
+ "id": "item.varita-del-terror",
+ "name": "Varita del terror",
+ "category": "Varita",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Varita, rara (requiere sintonización)",
+ "text": "Esta varita tiene 7 cargas.\n\nConjuros. Mientras sostengas la varita, puedes lanzar desde ella un conjuro (CD de salvación 15) de la tabla a continuación. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.\n\nRecuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 276,
+   "md": "Esta varita tiene 7 cargas.",
+   "text": "Esta varita tiene 7 cargas."
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Conjuros.*** Mientras sostengas la varita, puedes lanzar desde ella un conjuro (CD de salvación 15) de la tabla a continuación. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.",
+   "text": "Conjuros. Mientras sostengas la varita, puedes lanzar desde ella un conjuro (CD de salvación 15) de la tabla a continuación. En ella se indica cuántas cargas debes gastar para lanzar el conjuro."
+  },
+  {
+   "type": "table",
+   "page": 276,
+   "caption": null,
+   "header": [
+    "Conjuro",
+    "Coste en cargas"
+   ],
+   "rows": [
+    [
+     "Orden imperiosa (solo “huye” o “póstrate”)",
+     "1"
+    ],
+    [
+     "Terror (cono de 18 m)",
+     "3"
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 276,
+   "md": "***Recuperar cargas.*** La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+   "text": "Recuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 276
+ }
+}

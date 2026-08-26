@@ -1,0 +1,29 @@
+{
+ "id": "item.cuenco-para-controlar-elementales-de-agua",
+ "name": "Cuenco para controlar elementales de agua",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Mientras este cuenco esté lleno de agua y estés a 1,5 m o menos de él, puedes emplear una acción de magia para invocar un elemental de agua. El elemental aparece en un espacio sin ocupar lo más cerca posible del cuenco, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El cuenco no puede volver a emplearse de esta manera hasta el siguiente amanecer.\n\nEl cuenco tiene aproximadamente 30 cm de diámetro, la mitad de profundidad y puede contener unos 12 l de líquido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "Mientras este cuenco esté lleno de agua y estés a 1,5 m o menos de él, puedes emplear una acción de magia para invocar un **elemental de agua**. El elemental aparece en un espacio sin ocupar lo más cerca posible del cuenco, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El cuenco no puede volver a emplearse de esta manera hasta el siguiente amanecer.",
+   "text": "Mientras este cuenco esté lleno de agua y estés a 1,5 m o menos de él, puedes emplear una acción de magia para invocar un elemental de agua. El elemental aparece en un espacio sin ocupar lo más cerca posible del cuenco, entiende tus idiomas, obedece tus órdenes y juega su turno inmediatamente después de ti en tu orden de iniciativa. El elemental desaparecerá tras 1 hora, cuando muera o si lo desconvocas como acción adicional. El cuenco no puede volver a emplearse de esta manera hasta el siguiente amanecer."
+  },
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "El cuenco tiene aproximadamente 30 cm de diámetro, la mitad de profundidad y puede contener unos 12 l de líquido.",
+   "text": "El cuenco tiene aproximadamente 30 cm de diámetro, la mitad de profundidad y puede contener unos 12 l de líquido."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 250
+ }
+}

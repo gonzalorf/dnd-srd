@@ -1,0 +1,29 @@
+{
+ "id": "item.botas-de-zancadas-y-brincos",
+ "name": "Botas de zancadas y brincos",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras calces estas botas, tu velocidad pasa a ser de 9 m, salvo que normalmente sea superior, y no se reduce por superar tu capacidad de carga o por llevar puesta una armadura pesada.\n\nUna vez en cada uno de tus turnos, puedes saltar hasta 9 m usando solo 3 m de movimiento.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 245,
+   "md": "Mientras calces estas botas, tu velocidad pasa a ser de 9 m, salvo que normalmente sea superior, y no se reduce por superar tu capacidad de carga o por llevar puesta una armadura pesada.",
+   "text": "Mientras calces estas botas, tu velocidad pasa a ser de 9 m, salvo que normalmente sea superior, y no se reduce por superar tu capacidad de carga o por llevar puesta una armadura pesada."
+  },
+  {
+   "type": "paragraph",
+   "page": 245,
+   "md": "Una vez en cada uno de tus turnos, puedes saltar hasta 9 m usando solo 3 m de movimiento.",
+   "text": "Una vez en cada uno de tus turnos, puedes saltar hasta 9 m usando solo 3 m de movimiento."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 245
+ }
+}

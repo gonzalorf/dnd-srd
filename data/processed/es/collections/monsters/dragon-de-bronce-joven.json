@@ -1,0 +1,123 @@
+{
+ "id": "monster.dragon-de-bronce-joven",
+ "name": "Dragón de bronce joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 301
+ },
+ "context": [
+  "Dragones de bronce"
+ ],
+ "metaRaw": "Dragón Grande (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "142 (15d10 + 60)",
+  "average": 142,
+  "formula": "15d10 + 60"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 7,
+  "Perspicacia": 4,
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 17",
+  "passivePerception": 17
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 3
+  },
+  "con": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 301,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento repulsor.",
+   "page": 301,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento repulsor."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 16 (2d10 + 5) de daño cortante.",
+   "page": 301,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 16 (2d10 + 5) de daño cortante."
+  },
+  {
+   "name": "Aliento de relámpago",
+   "md": "***Aliento de relámpago (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 15, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:* 49 (9d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 301,
+   "description": ". *Tirada de salvación de Destreza:* CD 15, todas las criaturas en una línea de 18 m de largo y 1,5 m de ancho. *Fallo:* 49 (9d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento repulsor",
+   "md": "***Aliento repulsor.*** *Tirada de salvación de Fuerza:* CD 15, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 12 m respecto al dragón en línea recta y tiene el estado de derribado.",
+   "page": 301,
+   "description": "*Tirada de salvación de Fuerza:* CD 15, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 12 m respecto al dragón en línea recta y tiene el estado de derribado."
+  }
+ ]
+}

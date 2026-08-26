@@ -1,0 +1,85 @@
+{
+ "id": "monster.mastin",
+ "name": "Mastín",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 389
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "5 (1d8 + 1)",
+  "average": 5,
+  "formula": "1d8 + 1"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 3
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de derribada.",
+   "page": 389,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de derribada."
+  }
+ ]
+}

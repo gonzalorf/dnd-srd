@@ -1,0 +1,23 @@
+{
+ "id": "rule.clase-de-armadura",
+ "name": "Clase de armadura",
+ "text": "Una clase de armadura (CA) es el número objetivo de una tirada de ataque. La CA representa la dificultad de acertar a un objetivo.\n\nEl cálculo de tu CA base es 10 más tu modificador por Destreza. Si una regla otorga otro cálculo de tu CA base, elige qué cálculo quieres usar, ya que no puedes usar más de uno. Consulta también “Tirada de ataque”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Una clase de armadura (CA) es el número objetivo de una tirada de ataque. La CA representa la dificultad de acertar a un objetivo.",
+   "text": "Una clase de armadura (CA) es el número objetivo de una tirada de ataque. La CA representa la dificultad de acertar a un objetivo."
+  },
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "El cálculo de tu CA base es 10 más tu modificador por Destreza. Si una regla otorga otro cálculo de tu CA base, elige qué cálculo quieres usar, ya que no puedes usar más de uno. *Consulta también* “Tirada de ataque”.",
+   "text": "El cálculo de tu CA base es 10 más tu modificador por Destreza. Si una regla otorga otro cálculo de tu CA base, elige qué cálculo quieres usar, ya que no puedes usar más de uno. Consulta también “Tirada de ataque”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ }
+}

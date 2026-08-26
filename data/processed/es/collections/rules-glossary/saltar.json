@@ -1,0 +1,17 @@
+{
+ "id": "rule.saltar",
+ "name": "Saltar",
+ "text": "Cuando saltas, puedes hacer un salto de longitud (horizontal) o un salto de altura (vertical). Consulta también “Salto de altura” y “Salto de longitud”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Cuando saltas, puedes hacer un salto de longitud (horizontal) o un salto de altura (vertical). *Consulta también* “Salto de altura” y “Salto de longitud”.",
+   "text": "Cuando saltas, puedes hacer un salto de longitud (horizontal) o un salto de altura (vertical). Consulta también “Salto de altura” y “Salto de longitud”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

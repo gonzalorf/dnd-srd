@@ -1,0 +1,78 @@
+{
+ "id": "item.cuerno-del-valhalla",
+ "name": "Cuerno del Valhalla",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (plata o latón), muy raro (bronce) o legendario (hierro)",
+ "text": "Puedes emplear una acción de magia para soplar este cuerno. Acudiendo a tu llamada, varios espíritus guerreros del plano de Ysgard aparecerán en espacios sin ocupar a 18 m o menos de ti. Todos emplean el perfil del berserker y vuelven a Ysgard después de 1 hora o cuando sus puntos de golpe se reduzcan a 0. Los espíritus parecen guerreros vivos de verdad y tienen inmunidad a los estados de asustados y hechizados. Una vez que utilices el cuerno, no podrás volver a usarlo hasta que hayan pasado 7 días.\n\nSe conoce la existencia de cuatro tipos de cuerno del Valhalla, cada uno hecho de un metal distinto. El tipo de cuerno determina cuántos espíritus responden a su llamada, así como el requisito para utilizarlo. Tu GM elige el tipo de cuerno o lo determina al azar tirando en la tabla a continuación.\n\nSi soplas el cuerno sin cumplir su requisito, los espíritus invocados te atacarán. Si cumples el requisito, serán amistosos contigo y tus aliados y seguirán tus órdenes.\n\ncon todas las armas marciales",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Puedes emplear una acción de magia para soplar este cuerno. Acudiendo a tu llamada, varios espíritus guerreros del plano de Ysgard aparecerán en espacios sin ocupar a 18 m o menos de ti. Todos emplean el perfil del **berserker** y vuelven a Ysgard después de 1 hora o cuando sus puntos de golpe se reduzcan a 0. Los espíritus parecen guerreros vivos de verdad y tienen inmunidad a los estados de asustados y hechizados. Una vez que utilices el cuerno, no podrás volver a usarlo hasta que hayan pasado 7 días.",
+   "text": "Puedes emplear una acción de magia para soplar este cuerno. Acudiendo a tu llamada, varios espíritus guerreros del plano de Ysgard aparecerán en espacios sin ocupar a 18 m o menos de ti. Todos emplean el perfil del berserker y vuelven a Ysgard después de 1 hora o cuando sus puntos de golpe se reduzcan a 0. Los espíritus parecen guerreros vivos de verdad y tienen inmunidad a los estados de asustados y hechizados. Una vez que utilices el cuerno, no podrás volver a usarlo hasta que hayan pasado 7 días."
+  },
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Se conoce la existencia de cuatro tipos de *cuerno del Valhalla*, cada uno hecho de un metal distinto. El tipo de cuerno determina cuántos espíritus responden a su llamada, así como el requisito para utilizarlo. Tu GM elige el tipo de cuerno o lo determina al azar tirando en la tabla a continuación.",
+   "text": "Se conoce la existencia de cuatro tipos de cuerno del Valhalla, cada uno hecho de un metal distinto. El tipo de cuerno determina cuántos espíritus responden a su llamada, así como el requisito para utilizarlo. Tu GM elige el tipo de cuerno o lo determina al azar tirando en la tabla a continuación."
+  },
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Si soplas el cuerno sin cumplir su requisito, los espíritus invocados te atacarán. Si cumples el requisito, serán amistosos contigo y tus aliados y seguirán tus órdenes.",
+   "text": "Si soplas el cuerno sin cumplir su requisito, los espíritus invocados te atacarán. Si cumples el requisito, serán amistosos contigo y tus aliados y seguirán tus órdenes."
+  },
+  {
+   "type": "table",
+   "page": 251,
+   "caption": null,
+   "header": [
+    "1d100",
+    "Tipo de cuerno",
+    "Espíritus",
+    "Requisito"
+   ],
+   "rows": [
+    [
+     "01–40",
+     "Plata",
+     "2",
+     "Ninguno"
+    ],
+    [
+     "41–75",
+     "Latón",
+     "3",
+     "Competencia con todas las armas sencillas"
+    ],
+    [
+     "76–90",
+     "Bronce",
+     "4",
+     "Entrenamiento con todas las armaduras medias"
+    ],
+    [
+     "91–00",
+     "Hierro",
+     "5",
+     "Competencia"
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 251,
+   "md": "con todas las armas marciales",
+   "text": "con todas las armas marciales"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 251
+ }
+}

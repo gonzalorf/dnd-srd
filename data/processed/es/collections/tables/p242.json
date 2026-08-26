@@ -1,0 +1,56 @@
+{
+ "id": "table.p242",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Bola de fuego (versión de nivel 5)",
+   "5"
+  ],
+  [
+   "Cono de frío",
+   "5"
+  ],
+  [
+   "Globo de invulnerabilidad",
+   "6"
+  ],
+  [
+   "Inmovilizar monstruo",
+   "5"
+  ],
+  [
+   "Levitar",
+   "2"
+  ],
+  [
+   "Muro de fuerza",
+   "5"
+  ],
+  [
+   "Proyectil mágico",
+   "1"
+  ],
+  [
+   "Rayo debilitador",
+   "1"
+  ],
+  [
+   "Relámpago (versión de nivel 5)",
+   "5"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Bastón de poder"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 242
+ }
+}

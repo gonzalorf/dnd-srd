@@ -1,0 +1,50 @@
+{
+ "id": "table.p26",
+ "caption": null,
+ "header": [
+  "Nivel",
+  "Puntos de experiencia",
+  "Bonificador por competencia"
+ ],
+ "rows": [
+  [
+   "15",
+   "165 000",
+   "+5"
+  ],
+  [
+   "16",
+   "195 000",
+   "+5"
+  ],
+  [
+   "17",
+   "225 000",
+   "+6"
+  ],
+  [
+   "18",
+   "265 000",
+   "+6"
+  ],
+  [
+   "19",
+   "305 000",
+   "+6"
+  ],
+  [
+   "20",
+   "355 000",
+   "+6"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Progresión de niveles"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 26
+ }
+}

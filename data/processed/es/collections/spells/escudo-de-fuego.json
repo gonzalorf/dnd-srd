@@ -1,0 +1,63 @@
+{
+ "id": "spell.escudo-de-fuego",
+ "name": "Escudo de fuego",
+ "level": 4,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una luciérnaga o una pizca de fósforo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una luciérnaga o una pizca de fósforo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "10 minutos",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Unas llamas tenues envuelven tu cuerpo hasta que termine el conjuro y emiten luz brillante en un radio de 3 m y luz tenue 3 m más allá.\n\nLas llamas te proporcionan un escudo cálido o un escudo frío, a tu elección. El escudo cálido te proporciona resistencia al daño de frío, mientras que el escudo frío te concede resistencia al daño de fuego.\n\nAdemás, siempre que una criatura a 1,5 m o menos de ti te acierte con una tirada de ataque cuerpo a cuerpo, el escudo estallará en llamas. El atacante recibirá 2d8 de daño de fuego de un escudo cálido o 2d8 de daño de frío de un escudo frío.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 146,
+   "md": "Unas llamas tenues envuelven tu cuerpo hasta que termine el conjuro y emiten luz brillante en un radio de 3 m y luz tenue 3 m más allá.",
+   "text": "Unas llamas tenues envuelven tu cuerpo hasta que termine el conjuro y emiten luz brillante en un radio de 3 m y luz tenue 3 m más allá."
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "md": "Las llamas te proporcionan un escudo cálido o un escudo frío, a tu elección. El escudo cálido te proporciona resistencia al daño de frío, mientras que el escudo frío te concede resistencia al daño de fuego.",
+   "text": "Las llamas te proporcionan un escudo cálido o un escudo frío, a tu elección. El escudo cálido te proporciona resistencia al daño de frío, mientras que el escudo frío te concede resistencia al daño de fuego."
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "md": "Además, siempre que una criatura a 1,5 m o menos de ti te acierte con una tirada de ataque cuerpo a cuerpo, el escudo estallará en llamas. El atacante recibirá 2d8 de daño de fuego de un escudo cálido o 2d8 de daño de frío de un escudo frío.",
+   "text": "Además, siempre que una criatura a 1,5 m o menos de ti te acierte con una tirada de ataque cuerpo a cuerpo, el escudo estallará en llamas. El atacante recibirá 2d8 de daño de fuego de un escudo cálido o 2d8 de daño de frío de un escudo frío."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 146
+ }
+}

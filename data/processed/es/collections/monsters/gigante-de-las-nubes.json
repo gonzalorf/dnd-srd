@@ -1,0 +1,132 @@
+{
+ "id": "monster.gigante-de-las-nubes",
+ "name": "Gigante de las nubes",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 328,
+  "pages": [
+   328,
+   329
+  ]
+ },
+ "context": [
+  "Gigante de las nubes"
+ ],
+ "metaRaw": "Gigante Enorme, neutral",
+ "type": "Gigante",
+ "alignment": "neutral",
+ "size": "Enorme",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "200 (16d12 + 96)",
+  "average": 200,
+  "formula": "16d12 + 96"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 6.0
+ },
+ "skills": {
+  "Percepción": 11,
+  "Perspicacia": 7
+ },
+ "senses": {
+  "raw": "Percepción pasiva 21",
+  "passivePerception": 21
+ },
+ "languages": [
+  "común",
+  "gigante"
+ ],
+ "challenge": {
+  "raw": "9 (5000 PX; BC +4)",
+  "cr": 9,
+  "xp": 5000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 22,
+   "mod": 6,
+   "save": 10
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 7
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gigante realiza dos ataques con su maza atronadora o su nube de tormenta en cualquier combinación. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *nube de oscurecimiento*.",
+   "page": 328,
+   "description": "El gigante realiza dos ataques con su maza atronadora o su nube de tormenta en cualquier combinación. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *nube de oscurecimiento*."
+  },
+  {
+   "name": "Maza atronadora",
+   "md": "***Maza atronadora.*** *Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 21 (3d8 + 8) de daño contundente más 7 (2d6) de daño de trueno.",
+   "page": 328,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 21 (3d8 + 8) de daño contundente más 7 (2d6) de daño de trueno."
+  },
+  {
+   "name": "Nube de tormenta",
+   "md": "***Nube de tormenta.*** *Tirada de ataque a distancia:* +12, alcance 72 m. *Acierto:* 18 (3d6 + 8) de daño de trueno y el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno.",
+   "page": 329,
+   "description": "*Tirada de ataque a distancia:* +12, alcance 72 m. *Acierto:* 18 (3d6 + 8) de daño de trueno y el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El gigante lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 15):",
+   "page": 329,
+   "description": "El gigante lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 15):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *luz*, *nube de oscurecimiento* 1/día cada uno: *controlar el clima*, *forma gaseosa*, *telequinesis*",
+   "page": 329
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Paso brumoso",
+   "md": "***Paso brumoso.*** El gigante lanza el conjuro *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 329,
+   "description": "El gigante lanza el conjuro *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros."
+  }
+ ],
+ "refs": [
+  "spell.nube-de-oscurecimiento",
+  "spell.detectar-magia",
+  "spell.luz",
+  "spell.controlar-el-clima",
+  "spell.forma-gaseosa",
+  "spell.telequinesis",
+  "spell.paso-brumoso"
+ ]
+}

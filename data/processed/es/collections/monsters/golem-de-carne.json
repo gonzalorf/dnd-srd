@@ -1,0 +1,131 @@
+{
+ "id": "monster.golem-de-carne",
+ "name": "Gólem de carne",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 332
+ },
+ "context": [
+  "Gólem de carne"
+ ],
+ "metaRaw": "Autómata Mediano, neutral",
+ "type": "Autómata",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 9,
+ "acRaw": "9",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "127 (15d8 + 60)",
+  "average": 127,
+  "formula": "15d8 + 60"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "entiende común y otro idioma",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "relámpago",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "paralizado",
+  "petrificado"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Absorción de relámpago",
+   "md": "***Absorción de relámpago.*** Siempre que fuese a recibir daño de relámpago, el gólem recupera una cantidad de puntos de golpe igual al daño de relámpago infligido.",
+   "page": 332,
+   "description": "Siempre que fuese a recibir daño de relámpago, el gólem recupera una cantidad de puntos de golpe igual al daño de relámpago infligido."
+  },
+  {
+   "name": "Aversión al fuego",
+   "md": "***Aversión al fuego.*** Si el gólem recibe daño de fuego, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el final de su siguiente turno.",
+   "page": 332,
+   "description": "Si el gólem recibe daño de fuego, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el final de su siguiente turno."
+  },
+  {
+   "name": "Berserk",
+   "md": "***Berserk.*** Siempre que el gólem comience su turno maltrecho, tira 1d6. Si sacas un 6, el gólem se ve poseído por una furia berserk. En cada uno de los turnos que pase en este estado, el gólem atacará a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante próxima como para que se mueva hasta ella y la ataque, el gólem atacará a un objeto. Una vez que el gólem se ve poseído por la furia berserk, continuará así hasta que sea destruido o deje de estar maltrecho. Si el creador del gólem está a 18 m o menos de este, podrá intentar calmarlo empleando una acción para realizar una prueba de Carisma (Persuasión) con CD 15; el gólem deberá ser capaz de oír a su creador. Si supera la prueba, el gólem dejará de estar en estado berserk hasta el principio de su siguiente turno. En ese momento, volverá a tirar según su atributo Berserk si sigue maltrecho.",
+   "page": 332,
+   "description": "Siempre que el gólem comience su turno maltrecho, tira 1d6. Si sacas un 6, el gólem se ve poseído por una furia berserk. En cada uno de los turnos que pase en este estado, el gólem atacará a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante próxima como para que se mueva hasta ella y la ataque, el gólem atacará a un objeto. Una vez que el gólem se ve poseído por la furia berserk, continuará así hasta que sea destruido o deje de estar maltrecho. Si el creador del gólem está a 18 m o menos de este, podrá intentar calmarlo empleando una acción para realizar una prueba de Carisma (Persuasión) con CD 15; el gólem deberá ser capaz de oír a su creador. Si supera la prueba, el gólem dejará de estar en estado berserk hasta el principio de su siguiente turno. En ese momento, volverá a tirar según su atributo Berserk si sigue maltrecho."
+  },
+  {
+   "name": "Forma inmutable",
+   "md": "***Forma inmutable.*** El gólem no puede cambiar de forma.",
+   "page": 332,
+   "description": "El gólem no puede cambiar de forma."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El gólem tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 332,
+   "description": "El gólem tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gólem realiza dos ataques con su golpe.",
+   "page": 332,
+   "description": "El gólem realiza dos ataques con su golpe."
+  },
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente más 4 (1d8) de daño de relámpago.",
+   "page": 332,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente más 4 (1d8) de daño de relámpago."
+  }
+ ]
+}

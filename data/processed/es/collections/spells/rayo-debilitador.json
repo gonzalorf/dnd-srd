@@ -1,0 +1,55 @@
+{
+ "id": "spell.rayo-debilitador",
+ "name": "Rayo debilitador",
+ "level": 2,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "brujo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Un haz de energía debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deberá hacer una tirada de salvación de Constitución. Si la supera, tendrá desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno.\n\nSi la falla, tendrá desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, también restará 1d8 a todas las tiradas de daño que haga. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Un haz de energía debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deberá hacer una tirada de salvación de Constitución. Si la supera, tendrá desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno.",
+   "text": "Un haz de energía debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deberá hacer una tirada de salvación de Constitución. Si la supera, tendrá desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Si la falla, tendrá desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, también restará 1d8 a todas las tiradas de daño que haga. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro.",
+   "text": "Si la falla, tendrá desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, también restará 1d8 a todas las tiradas de daño que haga. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 179
+ }
+}

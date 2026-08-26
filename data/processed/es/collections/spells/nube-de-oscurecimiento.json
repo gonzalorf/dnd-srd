@@ -1,0 +1,60 @@
+{
+ "id": "spell.nube-de-oscurecimiento",
+ "name": "Nube de oscurecimiento",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "explorador",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento).\n\nCon un espacio de conjuro de nivel superior. El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea *ráfaga de viento*).",
+   "text": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento)."
+  },
+  {
+   "type": "definition",
+   "page": 170,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 170
+ },
+ "refs": [
+  "spell.rafaga-de-viento"
+ ]
+}

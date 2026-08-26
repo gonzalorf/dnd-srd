@@ -1,0 +1,160 @@
+{
+ "id": "monster.diablo-de-la-sima",
+ "name": "Diablo de la sima",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 294,
+  "pages": [
+   294,
+   295
+  ]
+ },
+ "context": [
+  "Diablo de la sima"
+ ],
+ "metaRaw": "Infernal Grande (diablo), legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Grande",
+ "tags": [
+  "diablo"
+ ],
+ "ac": 21,
+ "acRaw": "21",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "337 (27d10 + 189)",
+  "average": 337,
+  "formula": "27d10 + 189"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 10,
+  "Persuasión": 19
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 20",
+  "passivePerception": 20
+ },
+ "languages": [
+  "infernal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "20 (25 000 PX; BC +6)",
+  "cr": 20,
+  "xp": 25000,
+  "proficiencyBonus": 6
+ },
+ "abilities": {
+  "fue": {
+   "score": 26,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 8
+  },
+  "con": {
+   "score": 24,
+   "mod": 7,
+   "save": 7
+  },
+  "int": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "sab": {
+   "score": 18,
+   "mod": 4,
+   "save": 10
+  },
+  "car": {
+   "score": 24,
+   "mod": 7,
+   "save": 7
+  }
+ },
+ "traits": [
+  {
+   "name": "Aura de miedo",
+   "md": "***Aura de miedo.*** Mientras no tenga el estado de incapacitado, el diablo de la sima emite un aura en una emanación de 6 m. *Tirada de salvación de Sabiduría:* CD 21, cualquier enemigo que comience su turno dentro del aura. *Fallo:* el objetivo tendrá el estado de asustado hasta el principio de su siguiente turno. *Éxito:* el objetivo será inmune al aura de este diablo de la sima durante 24 horas.",
+   "page": 295,
+   "description": "Mientras no tenga el estado de incapacitado, el diablo de la sima emite un aura en una emanación de 6 m. *Tirada de salvación de Sabiduría:* CD 21, cualquier enemigo que comience su turno dentro del aura. *Fallo:* el objetivo tendrá el estado de asustado hasta el principio de su siguiente turno. *Éxito:* el objetivo será inmune al aura de este diablo de la sima durante 24 horas."
+  },
+  {
+   "name": "Recuperación diabólica",
+   "md": "***Recuperación diabólica.*** Si el diablo de la sima muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos.",
+   "page": 295,
+   "description": "Si el diablo de la sima muere fuera de los Nueve Infiernos, su cuerpo se desvanece en un humo sulfuroso, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar de los Nueve Infiernos."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día).*** El diablo de la sima puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 295,
+   "description": "El diablo de la sima puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día"
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El diablo de la sima tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 295,
+   "description": "El diablo de la sima tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El diablo de la sima realiza un ataque de mordisco, dos con su garra diabólica y uno con su maza ardiente.",
+   "page": 295,
+   "description": "El diablo de la sima realiza un ataque de mordisco, dos con su garra diabólica y uno con su maza ardiente."
+  },
+  {
+   "name": "Garra diabólica",
+   "md": "***Garra diabólica.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 26 (4d8 + 8) de daño necrótico.",
+   "page": 295,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 26 (4d8 + 8) de daño necrótico."
+  },
+  {
+   "name": "Maza ardiente",
+   "md": "***Maza ardiente.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 22 (4d6 + 8) de daño de fuerza más 21 (6d6) de daño de fuego.",
+   "page": 295,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 22 (4d6 + 8) de daño de fuerza más 21 (6d6) de daño de fuego."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 18 (3d6 + 8) de daño perforante. Si el objetivo es una criatura, deberá hacer la siguiente tirada de salvación. *Tirada de salvación de Constitución:* CD 21. *Fallo:* el objetivo tendrá el estado de envenenado. Mientras esté envenenado, no podrá recuperar puntos de golpe y sufrirá 21 (6d6) de daño de veneno al principio de cada uno de sus turnos. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 295,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 18 (3d6 + 8) de daño perforante. Si el objetivo es una criatura, deberá hacer la siguiente tirada de salvación. *Tirada de salvación de Constitución:* CD 21. *Fallo:* el objetivo tendrá el estado de envenenado. Mientras esté envenenado, no podrá recuperar puntos de golpe y sufrirá 21 (6d6) de daño de veneno al principio de cada uno de sus turnos. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente."
+  },
+  {
+   "name": "Lanzamiento de conjuros de fuego infernal",
+   "md": "***Lanzamiento de conjuros de fuego infernal (recarga 4–6).*** El diablo de la sima lanza *bola de fuego* (versión de nivel 5) dos veces, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 21). Puede sustituir una *bola de fuego* por *inmovilizar monstruo* (versión de nivel 7) o *muro de fuego*.",
+   "page": 295,
+   "description": "El diablo de la sima lanza *bola de fuego* (versión de nivel 5) dos veces, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 21). Puede sustituir una *bola de fuego* por *inmovilizar monstruo* (versión de nivel 7) o *muro de fuego*.",
+   "uses": "recarga 4–6"
+  }
+ ],
+ "refs": [
+  "spell.bola-de-fuego",
+  "spell.inmovilizar-monstruo",
+  "spell.muro-de-fuego"
+ ]
+}

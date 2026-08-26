@@ -1,0 +1,142 @@
+{
+ "id": "monster.mago",
+ "name": "Mago",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 346
+ },
+ "context": [
+  "Magos"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño (mago), neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "tags": [
+  "mago"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "81 (18d8)",
+  "average": 81,
+  "formula": "18d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Conocimiento arcano": 6,
+  "Historia": 6,
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "común y otros tres idiomas"
+ ],
+ "gear": [
+  "varita"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 17,
+   "mod": 3,
+   "save": 6
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El mago realiza tres ataques con su estallido arcano.",
+   "page": 346,
+   "description": "El mago realiza tres ataques con su estallido arcano."
+  },
+  {
+   "name": "Estallido arcano",
+   "md": "***Estallido arcano.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 36 m a distancia. *Acierto:* 16 (3d8 + 3) de daño de fuerza.",
+   "page": 346,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 36 m a distancia. *Acierto:* 16 (3d8 + 3) de daño de fuerza."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El mago lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 14):",
+   "page": 346,
+   "description": "El mago lanza uno de los siguientes conjuros, que utiliza la Inteligencia como aptitud mágica (CD de salvación de conjuros 14):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *armadura de mago* (incluido en la CA), *detectar magia*, *luz*, *mano de mago*, *prestidigitación* 2/día cada uno: *bola de fuego* (versión de nivel 4), *invisibilidad* 1/día cada uno: *cono de frío*, *volar*",
+   "page": 346
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Paso brumoso",
+   "md": "***Paso brumoso (3/día).*** El mago lanza *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 346,
+   "description": "El mago lanza *paso brumoso* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Magia protectora",
+   "md": "***Magia protectora (3/día).*** El mago lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 346,
+   "description": "El mago lanza *contrahechizo* o *escudo* en respuesta al desencadenante de esos conjuros, usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "refs": [
+  "spell.armadura-de-mago",
+  "spell.detectar-magia",
+  "spell.luz",
+  "spell.mano-de-mago",
+  "spell.prestidigitacion",
+  "spell.bola-de-fuego",
+  "spell.invisibilidad",
+  "spell.cono-de-frio",
+  "spell.volar",
+  "spell.paso-brumoso",
+  "spell.contrahechizo",
+  "spell.escudo"
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "id": "monster.dragon-azul-anciano",
+ "name": "Dragón azul anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 299
+ },
+ "context": [
+  "Dragones azules"
+ ],
+ "metaRaw": "Dragón Gargantuesco (cromático), legal malvado",
+ "type": "Dragón",
+ "alignment": "legal malvado",
+ "size": "Gargantuesco",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 22,
+ "acRaw": "22",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "481 (26d20 + 208)",
+  "average": 481,
+  "formula": "26d20 + 208"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "excavar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 17,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 27",
+  "passivePerception": 27
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+  "cr": 23,
+  "xp": 50000,
+  "proficiencyBonus": 7,
+  "xpInLair": 62000
+ },
+ "abilities": {
+  "fue": {
+   "score": 29,
+   "mod": 9,
+   "save": 9
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 7
+  },
+  "con": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 17,
+   "mod": 3,
+   "save": 10
+  },
+  "car": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 299,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *hacer añicos* (versión de nivel 3).",
+   "page": 299,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *hacer añicos* (versión de nivel 3)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +16, alcance 4,5 m. *Acierto:* 18 (2d8 + 9) de daño cortante más 11 (2d10) de daño de relámpago.",
+   "page": 299,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +16, alcance 4,5 m. *Acierto:* 18 (2d8 + 9) de daño cortante más 11 (2d10) de daño de relámpago."
+  },
+  {
+   "name": "Aliento de relámpago",
+   "md": "***Aliento de relámpago (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 23, todas las criaturas en una línea de 36 m de largo y 3 m de ancho. *Fallo:* 88 (16d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 299,
+   "description": "*Tirada de salvación de Destreza:* CD 23, todas las criaturas en una línea de 36 m de largo y 3 m de ancho. *Fallo:* 88 (16d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 22):",
+   "page": 299,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 22):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *hacer añicos* (versión de nivel 3), *invisibilidad*, *mano de mago* 1/día cada uno: *escudriñar*, *recado*",
+   "page": 299
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Coletazo",
+    "md": "***Coletazo.*** El dragón realiza un ataque de desgarro.",
+    "page": 299,
+    "description": "El dragón realiza un ataque de desgarro."
+   },
+   {
+    "name": "Estallido sónico",
+    "md": "***Estallido sónico.*** El dragón utiliza su lanzamiento de conjuros para lanzar *hacer añicos* (versión de nivel 3).",
+    "page": 299,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *hacer añicos* (versión de nivel 3)."
+   },
+   {
+    "name": null,
+    "md": "El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 299
+   },
+   {
+    "name": "Vuelo encubierto",
+    "md": "***Vuelo encubierto.*** El dragón utiliza su lanzamiento de conjuros para lanzarse *invisibilidad* a sí mismo y puede volar hasta la mitad de su velocidad volando. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 299,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzarse *invisibilidad* a sí mismo y puede volar hasta la mitad de su velocidad volando. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.hacer-anicos",
+  "spell.detectar-magia",
+  "spell.invisibilidad",
+  "spell.mano-de-mago",
+  "spell.escudrinar",
+  "spell.recado"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "mount.caballo-de-monta",
+ "name": "Caballo de monta",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Caballo de monta",
+  "Capacidad de carga": "240 kg",
+  "Precio": "75 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "75 po",
+  "amount": 75.0,
+  "coin": "po",
+  "gp": 75.0
+ }
+}

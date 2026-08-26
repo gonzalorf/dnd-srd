@@ -1,0 +1,53 @@
+{
+ "id": "table.ancestros-draconicos",
+ "caption": "Ancestros dracónicos",
+ "header": [
+  "Dragón",
+  "Tipo de daño",
+  "Dragón",
+  "Tipo de daño"
+ ],
+ "rows": [
+  [
+   "Azul",
+   "Relámpago",
+   "Oro",
+   "Fuego"
+  ],
+  [
+   "Blanco",
+   "Frío",
+   "Oropel",
+   "Fuego"
+  ],
+  [
+   "Bronce",
+   "Relámpago",
+   "Plata",
+   "Frío"
+  ],
+  [
+   "Cobre",
+   "Ácido",
+   "Rojo",
+   "Fuego"
+  ],
+  [
+   "Negro",
+   "Ácido",
+   "Verde",
+   "Veneno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Orígenes de personaje",
+  "Especies de personaje",
+  "Descripciones de las especies",
+  "Dracónido"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 90
+ }
+}

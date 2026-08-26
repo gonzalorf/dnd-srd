@@ -1,0 +1,69 @@
+{
+ "id": "table.presupuesto-de-px-por-personaje",
+ "caption": "Presupuesto de PX por personaje",
+ "header": [
+  "Nivel del grupo",
+  "——— Dificultad del encuentro ——— BajaModeradaAlta"
+ ],
+ "rows": [
+  [
+   "1",
+   "5075100"
+  ],
+  [
+   "2",
+   "100150200"
+  ],
+  [
+   "3",
+   "150225400"
+  ],
+  [
+   "4",
+   "250375500"
+  ],
+  [
+   "5",
+   "5007501100"
+  ],
+  [
+   "6",
+   "60010001400"
+  ],
+  [
+   "7",
+   "75013001700"
+  ],
+  [
+   "8",
+   "100017002100"
+  ],
+  [
+   "9",
+   "130020002600"
+  ],
+  [
+   "10",
+   "160023003100"
+  ],
+  [
+   "11",
+   "190029004100"
+  ],
+  [
+   "12",
+   "220037004700"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Herramientas del juego",
+  "Encuentros de combate",
+  "Dificultad de los encuentros de combate",
+  "Paso 2: definir tu presupuesto de PX"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 221
+ }
+}

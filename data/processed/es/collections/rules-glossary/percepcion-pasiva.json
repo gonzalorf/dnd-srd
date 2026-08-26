@@ -1,0 +1,23 @@
+{
+ "id": "rule.percepcion-pasiva",
+ "name": "Percepción pasiva",
+ "text": "La Percepción pasiva es una puntuación que refleja la atención general de una criatura al entorno. El GM usa esta puntuación para determinar si una criatura se percata de algo sin tener que realizar adrede una prueba de Sabiduría (Percepción).\n\nLa Percepción pasiva de una criatura es igual a 10 más su bonificador a las pruebas de Sabiduría (Percepción). Si la criatura tiene ventaja en estas pruebas, aumenta la puntuación en 5. Si la criatura tiene desventaja en ellas, reduce la puntuación en 5. Por ejemplo, un personaje de nivel 1 con una Sabiduría de 15 y competencia en Percepción tiene una Percepción pasiva de 14 (10 + 2 + 2). Si ese personaje tiene ventaja en las pruebas de Sabiduría (Percepción), la puntuación será de 19.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "La Percepción pasiva es una puntuación que refleja la atención general de una criatura al entorno. El GM usa esta puntuación para determinar si una criatura se percata de algo sin tener que realizar adrede una prueba de Sabiduría (Percepción).",
+   "text": "La Percepción pasiva es una puntuación que refleja la atención general de una criatura al entorno. El GM usa esta puntuación para determinar si una criatura se percata de algo sin tener que realizar adrede una prueba de Sabiduría (Percepción)."
+  },
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "La Percepción pasiva de una criatura es igual a 10 más su bonificador a las pruebas de Sabiduría (Percepción). Si la criatura tiene ventaja en estas pruebas, aumenta la puntuación en 5. Si la criatura tiene desventaja en ellas, reduce la puntuación en 5. Por ejemplo, un personaje de nivel 1 con una Sabiduría de 15 y competencia en Percepción tiene una Percepción pasiva de 14 (10 + 2 + 2). Si ese personaje tiene ventaja en las pruebas de Sabiduría (Percepción), la puntuación será de 19.",
+   "text": "La Percepción pasiva de una criatura es igual a 10 más su bonificador a las pruebas de Sabiduría (Percepción). Si la criatura tiene ventaja en estas pruebas, aumenta la puntuación en 5. Si la criatura tiene desventaja en ellas, reduce la puntuación en 5. Por ejemplo, un personaje de nivel 1 con una Sabiduría de 15 y competencia en Percepción tiene una Percepción pasiva de 14 (10 + 2 + 2). Si ese personaje tiene ventaja en las pruebas de Sabiduría (Percepción), la puntuación será de 19."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

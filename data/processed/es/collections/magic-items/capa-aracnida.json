@@ -1,0 +1,50 @@
+{
+ "id": "item.capa-aracnida",
+ "name": "Capa arácnida",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización)",
+ "text": "Esta delicada prenda se ha fabricado con seda negra y tiene finas hebras plateadas entretejidas. Mientras la lleves puesta, obtendrás los siguientes beneficios:\n\nCaminar cual arácnido. No puedes quedar atrapado en ningún tipo de red o telaraña y podrás moverte por ellas como si fueran terreno difícil.\n\nResistencia al veneno. Tienes resistencia al daño de veneno.\n\nTelaraña. Puedes lanzar telaraña (CD de salvación 13). La telaraña creada por este conjuro tiene el doble del tamaño normal. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.\n\nTrepar cual arácnido. Tienes una velocidad trepando igual a tu velocidad y puedes moverte hacia arriba, hacia abajo y de lado por superficies verticales y techos mientras mantienes las manos libres.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Esta delicada prenda se ha fabricado con seda negra y tiene finas hebras plateadas entretejidas. Mientras la lleves puesta, obtendrás los siguientes beneficios:",
+   "text": "Esta delicada prenda se ha fabricado con seda negra y tiene finas hebras plateadas entretejidas. Mientras la lleves puesta, obtendrás los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 246,
+   "md": "***Caminar cual arácnido.*** No puedes quedar atrapado en ningún tipo de red o telaraña y podrás moverte por ellas como si fueran terreno difícil.",
+   "text": "Caminar cual arácnido. No puedes quedar atrapado en ningún tipo de red o telaraña y podrás moverte por ellas como si fueran terreno difícil."
+  },
+  {
+   "type": "definition",
+   "page": 247,
+   "md": "***Resistencia al veneno.*** Tienes resistencia al daño de veneno.",
+   "text": "Resistencia al veneno. Tienes resistencia al daño de veneno."
+  },
+  {
+   "type": "definition",
+   "page": 247,
+   "md": "***Telaraña.*** Puedes lanzar *telaraña* (CD de salvación 13). La telaraña creada por este conjuro tiene el doble del tamaño normal. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "Telaraña. Puedes lanzar telaraña (CD de salvación 13). La telaraña creada por este conjuro tiene el doble del tamaño normal. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer."
+  },
+  {
+   "type": "definition",
+   "page": 247,
+   "md": "***Trepar cual arácnido.*** Tienes una velocidad trepando igual a tu velocidad y puedes moverte hacia arriba, hacia abajo y de lado por superficies verticales y techos mientras mantienes las manos libres.",
+   "text": "Trepar cual arácnido. Tienes una velocidad trepando igual a tu velocidad y puedes moverte hacia arriba, hacia abajo y de lado por superficies verticales y techos mientras mantienes las manos libres."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ },
+ "refs": [
+  "spell.telarana"
+ ]
+}

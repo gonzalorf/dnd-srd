@@ -1,0 +1,23 @@
+{
+ "id": "rule.ilusiones",
+ "name": "Ilusiones",
+ "text": "Los conjuros y otros efectos a veces crean ilusiones mágicas. Estos efectos definen lo que hace la ilusión y con qué sentidos o facultades mentales juega.\n\nSi una ilusión se manifiesta en un lugar, será insustancial e ingrávida, aunque parecerá que le afecta el entorno como si la ilusión fuera real, salvo que el efecto que la haya creado especifique algo distinto. Por ejemplo, una ilusión visual de una criatura proyecta sombras y reflejos, y el viento parece afectar a la criatura ilusoria. De manera similar, una ilusión audible resuena en un lugar con eco.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Los conjuros y otros efectos a veces crean ilusiones mágicas. Estos efectos definen lo que hace la ilusión y con qué sentidos o facultades mentales juega.",
+   "text": "Los conjuros y otros efectos a veces crean ilusiones mágicas. Estos efectos definen lo que hace la ilusión y con qué sentidos o facultades mentales juega."
+  },
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Si una ilusión se manifiesta en un lugar, será insustancial e ingrávida, aunque parecerá que le afecta el entorno como si la ilusión fuera real, salvo que el efecto que la haya creado especifique algo distinto. Por ejemplo, una ilusión visual de una criatura proyecta sombras y reflejos, y el viento parece afectar a la criatura ilusoria. De manera similar, una ilusión audible resuena en un lugar con eco.",
+   "text": "Si una ilusión se manifiesta en un lugar, será insustancial e ingrávida, aunque parecerá que le afecta el entorno como si la ilusión fuera real, salvo que el efecto que la haya creado especifique algo distinto. Por ejemplo, una ilusión visual de una criatura proyecta sombras y reflejos, y el viento parece afectar a la criatura ilusoria. De manera similar, una ilusión audible resuena en un lugar con eco."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ }
+}

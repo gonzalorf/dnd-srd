@@ -1,0 +1,29 @@
+{
+ "id": "item.varita-de-paralisis",
+ "name": "Varita de parálisis",
+ "category": "Varita",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": "un lanzador de conjuros",
+ "subtitle": "Varita, rara (requiere sintonización por parte de un lanzador de conjuros)",
+ "text": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes emplear una acción de magia y gastar 1 carga para conjurar un delgado rayo azul que serpenteará desde la punta de la varita hacia una criatura que puedas ver a 18 m o menos de ti. El objetivo deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de paralizado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto.\n\nRecuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 275,
+   "md": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes emplear una acción de magia y gastar 1 carga para conjurar un delgado rayo azul que serpenteará desde la punta de la varita hacia una criatura que puedas ver a 18 m o menos de ti. El objetivo deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de paralizado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto.",
+   "text": "Esta varita tiene 7 cargas. Mientras la sostengas, puedes emplear una acción de magia y gastar 1 carga para conjurar un delgado rayo azul que serpenteará desde la punta de la varita hacia una criatura que puedas ver a 18 m o menos de ti. El objetivo deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de paralizado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo repetirá la tirada de salvación y, si tiene éxito, se librará del efecto."
+  },
+  {
+   "type": "definition",
+   "page": 275,
+   "md": "***Recuperar cargas.*** La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye.",
+   "text": "Recuperar cargas. La varita recupera 1d6 + 1 cargas empleadas cada día, al amanecer. Si gastas la última carga de la varita, tira 1d20. Si el resultado es 1, la varita se convierte en cenizas y se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 275
+ }
+}

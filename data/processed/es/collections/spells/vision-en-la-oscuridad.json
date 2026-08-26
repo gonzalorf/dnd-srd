@@ -1,0 +1,52 @@
+{
+ "id": "spell.vision-en-la-oscuridad",
+ "name": "Visión en la oscuridad",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "explorador",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una zanahoria seca)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una zanahoria seca",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendrá visión en la oscuridad hasta 45 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 193,
+   "md": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendrá visión en la oscuridad hasta 45 m.",
+   "text": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendrá visión en la oscuridad hasta 45 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 193
+ }
+}

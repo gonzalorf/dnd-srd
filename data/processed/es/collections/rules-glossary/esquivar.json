@@ -1,0 +1,24 @@
+{
+ "id": "rule.esquivar",
+ "name": "Esquivar",
+ "text": "Si llevas a cabo la acción de esquivar, obtienes los siguientes beneficios: hasta el principio de tu siguiente turno, las tiradas de ataque contra ti tendrán desventaja si puedes ver al atacante y tendrás ventaja en las tiradas de salvación de Destreza.\n\nPerderás estos beneficios si tienes el estado de incapacitado o si tu velocidad es 0.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Si llevas a cabo la acción de esquivar, obtienes los siguientes beneficios: hasta el principio de tu siguiente turno, las tiradas de ataque contra ti tendrán desventaja si puedes ver al atacante y tendrás ventaja en las tiradas de salvación de Destreza.",
+   "text": "Si llevas a cabo la acción de esquivar, obtienes los siguientes beneficios: hasta el principio de tu siguiente turno, las tiradas de ataque contra ti tendrán desventaja si puedes ver al atacante y tendrás ventaja en las tiradas de salvación de Destreza."
+  },
+  {
+   "type": "paragraph",
+   "page": 201,
+   "md": "Perderás estos beneficios si tienes el estado de incapacitado o si tu velocidad es 0.",
+   "text": "Perderás estos beneficios si tienes el estado de incapacitado o si tu velocidad es 0."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 201
+ },
+ "kind": "acción"
+}

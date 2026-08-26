@@ -1,0 +1,36 @@
+{
+ "id": "gear.utiles-de-sanador",
+ "name": "Útiles de sanador",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Útiles de sanador",
+  "Peso": "1,5 kg",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1,5 kg",
+  "kg": 1.5
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "text": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 108,
+   "md": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).",
+   "text": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina)."
+  }
+ ],
+ "descriptionPage": 108
+}

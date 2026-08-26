@@ -1,0 +1,29 @@
+{
+ "id": "weapon.hacha-a-dos-manos",
+ "name": "Hacha a dos manos",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Hacha a dos manos",
+  "Daño": "1d12 cortante",
+  "Propiedades": "A dos manos, pesada",
+  "Maestría": "Hender",
+  "Peso": "3,5 kg",
+  "Precio": "30 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "3,5 kg",
+  "kg": 3.5
+ },
+ "price": {
+  "raw": "30 po",
+  "amount": 30.0,
+  "coin": "po",
+  "gp": 30.0
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "spell.luces-danzantes",
+ "name": "Luces danzantes",
+ "level": 0,
+ "cantrip": true,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de fósforo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de fósforo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas hasta cuatro luces del tamaño de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitarán hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tamaño Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.\n\nComo acción adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecerá si sale del alcance del mismo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Creas hasta cuatro luces del tamaño de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitarán hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tamaño Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.",
+   "text": "Creas hasta cuatro luces del tamaño de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitarán hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tamaño Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 163,
+   "md": "Como acción adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecerá si sale del alcance del mismo.",
+   "text": "Como acción adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecerá si sale del alcance del mismo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 163
+ }
+}

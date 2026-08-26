@@ -1,0 +1,81 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-5",
+ "caption": "Conjuros de hechicero de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Animar objetos",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Apariencia",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Círculo de teletransportación",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Cono de frío",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Creación",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Dominar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Inmovilizar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Mano arcana",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Muro de piedra",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Nube aniquiladora",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Plaga de insectos",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Telequinesis",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 69
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "table.ejemplos-de-pruebas-de-caracteristica",
+ "caption": "Ejemplos de pruebas de característica",
+ "header": [
+  "Característica",
+  "Haz una prueba para..."
+ ],
+ "rows": [
+  [
+   "Fuerza",
+   "Levantar, empujar, tirar o romper algo."
+  ],
+  [
+   "Destreza",
+   "Moverte de forma ágil, rápida o silenciosa."
+  ],
+  [
+   "Constitución",
+   "Rebasar tus capacidades físicas normales."
+  ],
+  [
+   "Inteligencia",
+   "Razonar o recordar algo."
+  ],
+  [
+   "Sabiduría",
+   "Percatarte de algo en tu entorno o en la conducta de las criaturas."
+  ],
+  [
+   "Carisma",
+   "Influir, entretener o engañar."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las pruebas con d20",
+  "Pruebas de característica",
+  "Modificador por característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 6
+ }
+}

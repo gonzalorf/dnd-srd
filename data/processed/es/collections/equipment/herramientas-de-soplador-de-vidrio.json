@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-soplador-de-vidrio",
+ "name": "Herramientas de soplador de vidrio",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Inteligencia Peso: 2,5 kg\n\nUtilizar: distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)\n\nFabricar: botella de cristal, catalejo, lupa, vial",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Inteligencia **Peso:** 2,5 kg",
+   "text": "Característica: Inteligencia Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)",
+   "text": "Utilizar: distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** botella de cristal, catalejo, lupa, vial",
+   "text": "Fabricar: botella de cristal, catalejo, lupa, vial"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "30 po",
+  "amount": 30.0,
+  "coin": "po",
+  "gp": 30.0
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "monster.gargola",
+ "name": "Gárgola",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 326
+ },
+ "context": [
+  "Gárgola"
+ ],
+ "metaRaw": "Elemental Mediano, caótico malvado",
+ "type": "Elemental",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "67 (9d8 + 27)",
+  "average": 67,
+  "formula": "9d8 + 27"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "primordial (terrano)"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado",
+  "petrificado"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Pasar volando",
+   "md": "***Pasar volando.*** La gárgola no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.",
+   "page": 326,
+   "description": "La gárgola no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La gárgola realiza dos ataques con sus garras.",
+   "page": 326,
+   "description": "La gárgola realiza dos ataques con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d4 + 2) de daño cortante.",
+   "page": 326,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 7 (2d4 + 2) de daño cortante."
+  }
+ ]
+}

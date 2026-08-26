@@ -1,0 +1,133 @@
+{
+ "id": "monster.dragon-de-oro-joven",
+ "name": "Dragón de oro joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 305,
+  "pages": [
+   305,
+   306
+  ]
+ },
+ "context": [
+  "Dragones de oro"
+ ],
+ "metaRaw": "Dragón Grande (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 6,
+  "score": 16
+ },
+ "hp": {
+  "raw": "178 (17d10 + 85)",
+  "average": 178,
+  "formula": "17d10 + 85"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 9,
+  "Perspicacia": 5,
+  "Persuasión": 9,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "10 (5900 PX; BC +4)",
+  "cr": 10,
+  "xp": 5900,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 6
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 5
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 305,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento debilitador.",
+   "page": 305,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento debilitador."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 17 (2d10 + 6) de daño cortante.",
+   "page": 305,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 17 (2d10 + 6) de daño cortante."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 17, todas las criaturas en un cono de 9 m. *Fallo:* 55 (10d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 305,
+   "description": ". *Tirada de salvación de Destreza:* CD 17, todas las criaturas en un cono de 9 m. *Fallo:* 55 (10d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento debilitador",
+   "md": "***Aliento debilitador.*** *Tirada de salvación de Fuerza:* CD 17, todas las criaturas que no estén afectadas ya por este aliento en un cono de 9 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 3 (1d6) a sus tiradas de daño. Repe",
+   "page": 305,
+   "description": "*Tirada de salvación de Fuerza:* CD 17, todas las criaturas que no estén afectadas ya por este aliento en un cono de 9 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 3 (1d6) a sus tiradas de daño. Repe"
+  },
+  {
+   "name": null,
+   "md": "tirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 306
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "background.erudito",
+ "name": "Erudito",
+ "text": "Puntuaciones de característica: Constitución, Inteli\n\ngencia, Sabiduría Dote: Iniciado en la magia (mago) (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Conocimiento arcano\n\ne Historia\n\nCompetencia con herramientas: suministros de\n\ncalígrafo Equipo: elige A o B: (A) bastón, suministros de calígrafo, libro (de historia), pergamino (8 hojas), túnica y 8 po, o (B) 50 po",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Puntuaciones de característica: Constitución, Inteli",
+   "text": "Puntuaciones de característica: Constitución, Inteli"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "gencia, Sabiduría Dote: Iniciado en la magia (mago) (consulta el capítulo “Dotes”)",
+   "text": "gencia, Sabiduría Dote: Iniciado en la magia (mago) (consulta el capítulo “Dotes”)"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencias en habilidades: Conocimiento arcano",
+   "text": "Competencias en habilidades: Conocimiento arcano"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "e Historia",
+   "text": "e Historia"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencia con herramientas: suministros de",
+   "text": "Competencia con herramientas: suministros de"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "calígrafo Equipo: *elige A o B:* (A) bastón, suministros de calígrafo, libro (de historia), pergamino (8 hojas), túnica y 8 po, o (B) 50 po",
+   "text": "calígrafo Equipo: elige A o B: (A) bastón, suministros de calígrafo, libro (de historia), pergamino (8 hojas), túnica y 8 po, o (B) 50 po"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 89
+ }
+}

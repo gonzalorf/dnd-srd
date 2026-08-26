@@ -1,0 +1,261 @@
+/* Hoja de estilos única del sitio.
+ *
+ * Sin framework CSS. Una columna de texto de ancho legible, tipografía del
+ * sistema y una paleta que respeta el modo del lector. Todo lo que no ayuda a
+ * leer sobra: es un libro de consulta, no una landing.
+ */
+
+:root {
+  --granate: #8c2220;
+  --tinta: #231f20;
+  --papel: #fbfaf8;
+  --tenue: #6b6663;
+  --linea: #ddd8d2;
+  --panel: #f2efea;
+  --ancho: 46rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --granate: #e0908c;
+    --tinta: #e8e4df;
+    --papel: #161514;
+    --tenue: #9b948e;
+    --linea: #34312e;
+    --panel: #201e1c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.saltar {
+  position: absolute;
+  left: -9999px;
+}
+.saltar:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+  background: var(--papel);
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+/* --- cabecera y pie ------------------------------------------------------ */
+
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  align-items: baseline;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 1px solid var(--linea);
+}
+.marca {
+  font-weight: 700;
+  color: var(--granate);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.cabecera nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+.cabecera a { color: var(--tenue); text-decoration: none; }
+.cabecera a:hover,
+.cabecera a.activo { color: var(--granate); }
+
+main {
+  max-width: var(--ancho);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+.pie {
+  max-width: var(--ancho);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+  border-top: 1px solid var(--linea);
+  color: var(--tenue);
+  font-size: 0.85rem;
+}
+
+/* --- títulos ------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Optima, Candara, sans-serif;
+  color: var(--granate);
+  line-height: 1.25;
+  margin: 1.8em 0 0.5em;
+}
+h1 { font-size: 1.9rem; margin-top: 0.4em; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.18rem; }
+h4, h5 { font-size: 1.02rem; }
+
+.ancla { color: inherit; text-decoration: none; }
+.ancla:hover::after { content: " #"; color: var(--linea); }
+
+/* --- referencias de página ---------------------------------------------- */
+
+.pag {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.68em;
+  font-weight: 400;
+  color: var(--tenue);
+  margin-left: 0.5em;
+  white-space: nowrap;
+}
+.pagina-origen {
+  color: var(--tenue);
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+}
+
+/* --- texto --------------------------------------------------------------- */
+
+p { margin: 0 0 0.9em; }
+.entradilla { color: var(--tenue); }
+
+a { color: var(--granate); }
+a.ref { text-decoration-style: dotted; text-underline-offset: 2px; }
+
+.vineta { padding-left: 1.3em; text-indent: -0.8em; }
+.vineta::before { content: "• "; color: var(--tenue); }
+.definition { padding-left: 1.3em; text-indent: -1.3em; }
+.subtitulo { font-style: italic; color: var(--tenue); margin-top: -0.4em; }
+
+.formula {
+  background: var(--panel);
+  border-left: 3px solid var(--granate);
+  padding: 0.6em 0.9em;
+  font-family: "Gill Sans", "Gill Sans MT", Optima, Candara, sans-serif;
+  font-size: 0.95em;
+}
+
+.sin-cubrir { background: #fee; border: 1px dashed #c00; padding: 0.4em; }
+
+/* --- listas de navegación ------------------------------------------------ */
+
+.capitulos, .secciones, .listado { padding-left: 1.2rem; }
+.capitulos ul { list-style: none; padding-left: 0.8rem; font-size: 0.92rem; }
+.secciones, .listado { list-style: none; padding-left: 0; }
+.secciones li, .listado li { padding: 0.2rem 0; border-bottom: 1px solid var(--linea); }
+.migas { font-size: 0.85rem; color: var(--tenue); margin-bottom: 1rem; }
+
+.atajos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+.atajos a {
+  display: block;
+  padding: 0.9rem;
+  background: var(--panel);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--tinta);
+}
+.atajos strong { color: var(--granate); display: block; font-size: 1.25rem; }
+
+/* --- tablas -------------------------------------------------------------- */
+
+.tabla { margin: 1.5rem 0; }
+.tabla figcaption {
+  font-family: "Gill Sans", "Gill Sans MT", Optima, Candara, sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.scroll { overflow-x: auto; }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; padding: 0.35rem 0.6rem; vertical-align: top; }
+thead th {
+  font-family: "Gill Sans", "Gill Sans MT", Optima, Candara, sans-serif;
+  border-bottom: 2px solid var(--linea);
+}
+tbody tr:nth-child(odd) { background: var(--panel); }
+
+.caracteristicas { max-width: 22rem; text-align: center; }
+.caracteristicas th, .caracteristicas td { text-align: center; }
+
+/* --- fichas -------------------------------------------------------------- */
+
+.propiedades {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.15rem 0.8rem;
+  background: var(--panel);
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.95rem;
+}
+.propiedades dt { font-weight: 700; }
+.propiedades dd { margin: 0; }
+
+.cuadro {
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  padding: 0.8rem 1.1rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+.cuadro h4 { margin-top: 0; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.9rem; }
+
+.perfil {
+  border-left: 3px solid var(--granate);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+.perfil-seccion, .perfil-ficha h2 {
+  font-size: 1rem;
+  border-bottom: 1px solid var(--granate);
+  padding-bottom: 0.15rem;
+}
+.intro-legendaria { font-style: italic; color: var(--tenue); }
+
+/* --- filtros ------------------------------------------------------------- */
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  align-items: end;
+  padding: 0.9rem 1rem;
+  background: var(--panel);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Optima, Candara, sans-serif;
+  font-size: 0.9rem;
+}
+.filtros label { display: flex; flex-direction: column; gap: 0.2rem; }
+.filtros .check { flex-direction: row; align-items: center; gap: 0.4rem; }
+.filtros select, .filtros input[type="number"] {
+  font: inherit;
+  padding: 0.25rem 0.4rem;
+  border: 1px solid var(--linea);
+  border-radius: 4px;
+  background: var(--papel);
+  color: var(--tinta);
+}
+.fichas td.clases { color: var(--tenue); font-size: 0.88em; }
+.sin-resultados { color: var(--tenue); font-style: italic; }
+
+.relacionado { margin-top: 2rem; font-size: 0.92rem; }
+.relacionado ul { columns: 2; }
+
+/* --- impresión ----------------------------------------------------------- */
+
+@media print {
+  .cabecera, .filtros, .migas, .saltar { display: none; }
+  body { font-size: 10pt; }
+  a { color: inherit; text-decoration: none; }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "rule.terreno-dificil",
+ "name": "Terreno difícil",
+ "text": "Si un espacio es terreno difícil, cada metro de movimiento en ese espacio cuesta 1 m adicional. Por ejemplo, si te mueves 1,5 m por terreno difícil, te cuesta 3 m de movimiento. El terreno difícil no es acumulativo; un espacio es terreno difícil o no lo es.\n\nUn espacio es terreno difícil si contiene algo de lo siguiente u otro elemento similar:\n\n• una criatura que no sea Diminuta o aliada tuya;\n\n• un mueble diseñado para criaturas de tu tamaño o superior;\n\n• escombros, hielo, maleza o nieve espesa;\n\n• líquido que llegue entre las espinillas y la cintura;\n\n• una abertura estrecha en la que quepa una criatura cuyo tamaño sea una categoría inferior al tuyo;\n\n• una pendiente de 20 grados o más.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Si un espacio es terreno difícil, cada metro de movimiento en ese espacio cuesta 1 m adicional. Por ejemplo, si te mueves 1,5 m por terreno difícil, te cuesta 3 m de movimiento. El terreno difícil no es acumulativo; un espacio es terreno difícil o no lo es.",
+   "text": "Si un espacio es terreno difícil, cada metro de movimiento en ese espacio cuesta 1 m adicional. Por ejemplo, si te mueves 1,5 m por terreno difícil, te cuesta 3 m de movimiento. El terreno difícil no es acumulativo; un espacio es terreno difícil o no lo es."
+  },
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Un espacio es terreno difícil si contiene algo de lo siguiente u otro elemento similar:",
+   "text": "Un espacio es terreno difícil si contiene algo de lo siguiente u otro elemento similar:"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• una criatura que no sea Diminuta o aliada tuya;",
+   "text": "• una criatura que no sea Diminuta o aliada tuya;"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• un mueble diseñado para criaturas de tu tamaño o superior;",
+   "text": "• un mueble diseñado para criaturas de tu tamaño o superior;"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• escombros, hielo, maleza o nieve espesa;",
+   "text": "• escombros, hielo, maleza o nieve espesa;"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• líquido que llegue entre las espinillas y la cintura;",
+   "text": "• líquido que llegue entre las espinillas y la cintura;"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• una abertura estrecha en la que quepa una criatura cuyo tamaño sea una categoría inferior al tuyo;",
+   "text": "• una abertura estrecha en la que quepa una criatura cuyo tamaño sea una categoría inferior al tuyo;"
+  },
+  {
+   "type": "callout",
+   "page": 208,
+   "md": "• una pendiente de 20 grados o más.",
+   "text": "• una pendiente de 20 grados o más."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

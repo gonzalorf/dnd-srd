@@ -1,0 +1,177 @@
+{
+ "id": "monster.dragon-negro-anciano",
+ "name": "Dragón negro anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 312,
+  "pages": [
+   312,
+   313
+  ]
+ },
+ "context": [
+  "Dragones negros"
+ ],
+ "metaRaw": "Dragón Gargantuesco (cromático), caótico malvado",
+ "type": "Dragón",
+ "alignment": "caótico malvado",
+ "size": "Gargantuesco",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 22,
+ "acRaw": "22",
+ "initiative": {
+  "mod": 16,
+  "score": 26
+ },
+ "hp": {
+  "raw": "367 (21d20 + 147)",
+  "average": 367,
+  "formula": "21d20 + 147"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 16,
+  "Sigilo": 9
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 26",
+  "passivePerception": 26
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "21 (33 000 PX o 41 000 en la guarida; BC +7)",
+  "cr": 21,
+  "xp": 33000,
+  "proficiencyBonus": 7,
+  "xpInLair": 41000
+ },
+ "abilities": {
+  "fue": {
+   "score": 27,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 9
+  },
+  "con": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 9
+  },
+  "car": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 312,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 312,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *flecha ácida* (versión de nivel 4).",
+   "page": 312,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su lanzamiento de conjuros para lanzar *flecha ácida* (versión de nivel 4)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +15, alcance 4,5 m. *Acierto:* 17 (2d8 + 8) de daño cortante más 9 (2d8) de daño de ácido.",
+   "page": 312,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +15, alcance 4,5 m. *Acierto:* 17 (2d8 + 8) de daño cortante más 9 (2d8) de daño de ácido."
+  },
+  {
+   "name": "Aliento ácido",
+   "md": "***Aliento ácido (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 22, todas las criaturas en una línea de",
+   "page": 312,
+   "description": "*Tirada de salvación de Destreza:* CD 22, todas las criaturas en una línea de",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": null,
+   "md": "27 m de largo y 3 m de ancho. *Fallo:* 67 (15d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 313
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 21, +13 a acertar con ataques de conjuro):",
+   "page": 313,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 21, +13 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *flecha ácida* (versión de nivel 4), *terror* 1/día cada uno: *crear muerto viviente*, *esfera vitriólica* (versión de nivel 5), *hablar con los muertos*",
+   "page": 313
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 313,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Nubarrón de insectos",
+    "md": "***Nubarrón de insectos.*** *Tirada de salvación de Destreza:* CD 21, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 33 (6d10) de daño de veneno y el objetivo tendrá desventaja en las tiradas de salvación para mantener la concentración hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 313,
+    "description": "*Tirada de salvación de Destreza:* CD 21, una criatura que el dragón pueda ver a 36 m o menos. *Fallo:* 33 (6d10) de daño de veneno y el objetivo tendrá desventaja en las tiradas de salvación para mantener la concentración hasta el final de su siguiente turno. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Presencia aterradora",
+    "md": "***Presencia aterradora.*** El dragón utiliza su lanzamiento de conjuros para lanzar *terror*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 313,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *terror*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.flecha-acida",
+  "spell.detectar-magia",
+  "spell.terror",
+  "spell.crear-muerto-viviente",
+  "spell.esfera-vitriolica",
+  "spell.hablar-con-los-muertos"
+ ]
+}

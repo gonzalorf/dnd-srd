@@ -1,0 +1,96 @@
+{
+ "id": "monster.mamut",
+ "name": "Mamut",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 389
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "126 (11d12 + 55)",
+  "average": 126,
+  "formula": "11d12 + 55"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 24,
+   "mod": 7,
+   "save": 10
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 8
+  },
+  "int": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El mamut realiza dos ataques con sus colmillos.",
+   "page": 389,
+   "description": "El mamut realiza dos ataques con sus colmillos."
+  },
+  {
+   "name": "Colmillos",
+   "md": "***Colmillos.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 18 (2d10 + 7) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el mamut recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada.",
+   "page": 389,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 18 (2d10 + 7) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el mamut recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Arrollar",
+   "md": "***Arrollar.*** *Tirada de salvación de Destreza:* CD 18, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 29 (4d10 + 7) de daño contundente. *Éxito:* la mitad del daño.",
+   "page": 389,
+   "description": "*Tirada de salvación de Destreza:* CD 18, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 29 (4d10 + 7) de daño contundente. *Éxito:* la mitad del daño."
+  }
+ ]
+}

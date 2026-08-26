@@ -1,0 +1,46 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-8",
+ "caption": "Conjuros de brujo de nivel 8",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Dominar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Labia",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Ofuscación",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Palabra de poder: aturdir",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Semiplano",
+   "Conjuración",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 46
+ }
+}

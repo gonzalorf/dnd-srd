@@ -1,0 +1,23 @@
+{
+ "id": "item.armadura-de-placas-enana",
+ "name": "Armadura de placas enana",
+ "category": "Armadura",
+ "variant": "armadura de placas o media armadura",
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (armadura de placas o media armadura), muy rara",
+ "text": "Mientras lleves esta armadura, obtendrás un bonificador de +2 a la clase de armadura. Además, si cualquier efecto te desplaza por el suelo contra tu voluntad, puedes usar una reacción para reducir hasta 3 m la distancia en que te mueves.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Mientras lleves esta armadura, obtendrás un bonificador de +2 a la clase de armadura. Además, si cualquier efecto te desplaza por el suelo contra tu voluntad, puedes usar una reacción para reducir hasta 3 m la distancia en que te mueves.",
+   "text": "Mientras lleves esta armadura, obtendrás un bonificador de +2 a la clase de armadura. Además, si cualquier efecto te desplaza por el suelo contra tu voluntad, puedes usar una reacción para reducir hasta 3 m la distancia en que te mueves."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

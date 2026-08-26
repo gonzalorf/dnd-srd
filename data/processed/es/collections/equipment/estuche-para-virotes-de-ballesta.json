@@ -1,0 +1,36 @@
+{
+ "id": "gear.estuche-para-virotes-de-ballesta",
+ "name": "Estuche para virotes de ballesta",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Estuche para virotes de ballesta",
+  "Peso": "0,5 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "0,5 kg",
+  "kg": 0.5
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "En un estuche para virotes de ballesta caben hasta 20 virotes.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "En un estuche para virotes de ballesta caben hasta 20 virotes.",
+   "text": "En un estuche para virotes de ballesta caben hasta 20 virotes."
+  }
+ ],
+ "descriptionPage": 105
+}

@@ -1,0 +1,86 @@
+{
+ "id": "table.p39",
+ "caption": null,
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Atadura planar",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Círculo de teletransportación",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Conocer las leyendas",
+   "Adivinación",
+   "M"
+  ],
+  [
+   "Curar heridas en masa",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Despertar",
+   "Transmutación",
+   "M"
+  ],
+  [
+   "Dominar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Engañar",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Enlace telepático",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Ensueño",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Escudriñar",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Geas",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Inmovilizar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Restablecimiento mayor",
+   "Abjuración",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 39
+ }
+}

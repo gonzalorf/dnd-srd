@@ -1,0 +1,122 @@
+{
+ "id": "rule.romper-objetos",
+ "name": "Romper objetos",
+ "text": "Los objetos pueden dañarse con ataques y algunos conjuros, conforme a las siguientes reglas. Si un objeto es extremadamente frágil, tu GM puede permitir que una criatura lo rompa automáticamente con las acciones de atacar o utilizar.\n\nClase de armadura. La tabla “Clase de armadura de objetos” muestra las CA de varias sustancias.\n\nPuntos de golpe. Un objeto se destruye cuando sus puntos de golpe se reducen a 0. La tabla “Puntos de golpe de objetos” sugiere puntos de golpe para objetos frágiles y resistentes de tamaño Grande o más pequeño. Para asignar puntos de golpe a un objeto Enorme o Gargantuesco, divídelo en secciones Grandes o más pequeñas y lleva la cuenta de cada una por separado. Cada GM determina si destruir parte de un objeto hará que se desmorone por completo.\n\ncomedor)\n\nTipos de daño y objetos. Los objetos tienen inmunidad al daño psíquico y de veneno. Cada GM puede decidir que determinados tipos de daño sean más o menos efectivos contra un objeto. Por ejemplo, el daño contundente sirve para destrozar cosas a golpes, pero no para cortar. Los objetos de papel o tela pueden ser vulnerables al daño de fuego.\n\nUmbral de daño. Los objetos de gran tamaño, como los muros de un castillo, suelen tener una resistencia mayor, lo que se representa mediante un umbral de daño. Consulta también “Umbral de daño”.\n\nSin puntuaciones de característica. Los objetos no tienen puntuaciones de característica, salvo que una regla les asigne puntuaciones. Al no tener puntuaciones de característica, los objetos no pueden hacer pruebas de característica y fallan todas las tiradas de salvación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Los objetos pueden dañarse con ataques y algunos conjuros, conforme a las siguientes reglas. Si un objeto es extremadamente frágil, tu GM puede permitir que una criatura lo rompa automáticamente con las acciones de atacar o utilizar.",
+   "text": "Los objetos pueden dañarse con ataques y algunos conjuros, conforme a las siguientes reglas. Si un objeto es extremadamente frágil, tu GM puede permitir que una criatura lo rompa automáticamente con las acciones de atacar o utilizar."
+  },
+  {
+   "type": "definition",
+   "page": 207,
+   "md": "***Clase de armadura.*** La tabla “Clase de armadura de objetos” muestra las CA de varias sustancias.",
+   "text": "Clase de armadura. La tabla “Clase de armadura de objetos” muestra las CA de varias sustancias."
+  },
+  {
+   "type": "table",
+   "page": 207,
+   "caption": "Clase de armadura de objetos",
+   "header": [
+    "CA",
+    "Sustancia",
+    "CA",
+    "Sustancia"
+   ],
+   "rows": [
+    [
+     "11",
+     "Tela, papel, cuerda",
+     "19",
+     "Hierro, acero"
+    ],
+    [
+     "13",
+     "Cristal, vidrio, hielo",
+     "21",
+     "Mithral"
+    ],
+    [
+     "15",
+     "Madera",
+     "23",
+     "Adamantina"
+    ],
+    [
+     "17",
+     "Piedra",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 207,
+   "md": "***Puntos de golpe.*** Un objeto se destruye cuando sus puntos de golpe se reducen a 0. La tabla “Puntos de golpe de objetos” sugiere puntos de golpe para objetos frágiles y resistentes de tamaño Grande o más pequeño. Para asignar puntos de golpe a un objeto Enorme o Gargantuesco, divídelo en secciones Grandes o más pequeñas y lleva la cuenta de cada una por separado. Cada GM determina si destruir parte de un objeto hará que se desmorone por completo.",
+   "text": "Puntos de golpe. Un objeto se destruye cuando sus puntos de golpe se reducen a 0. La tabla “Puntos de golpe de objetos” sugiere puntos de golpe para objetos frágiles y resistentes de tamaño Grande o más pequeño. Para asignar puntos de golpe a un objeto Enorme o Gargantuesco, divídelo en secciones Grandes o más pequeñas y lleva la cuenta de cada una por separado. Cada GM determina si destruir parte de un objeto hará que se desmorone por completo."
+  },
+  {
+   "type": "table",
+   "page": 207,
+   "caption": "Puntos de golpe de objetos",
+   "header": [
+    "Tamaño",
+    "Frágil",
+    "Resistente"
+   ],
+   "rows": [
+    [
+     "Diminuto (botella, cerradura)",
+     "2 (1d4)",
+     "5 (2d4)"
+    ],
+    [
+     "Pequeño (cofre, laúd)",
+     "3 (1d6)",
+     "10 (3d6)"
+    ],
+    [
+     "Mediano (barril, candelabro)",
+     "4 (1d8)",
+     "18 (4d8)"
+    ],
+    [
+     "Grande (carreta, mesa de",
+     "5 (1d10)",
+     "27 (5d10)"
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 207,
+   "md": "comedor)",
+   "text": "comedor)"
+  },
+  {
+   "type": "definition",
+   "page": 207,
+   "md": "***Tipos de daño y objetos.*** Los objetos tienen inmunidad al daño psíquico y de veneno. Cada GM puede decidir que determinados tipos de daño sean más o menos efectivos contra un objeto. Por ejemplo, el daño contundente sirve para destrozar cosas a golpes, pero no para cortar. Los objetos de papel o tela pueden ser vulnerables al daño de fuego.",
+   "text": "Tipos de daño y objetos. Los objetos tienen inmunidad al daño psíquico y de veneno. Cada GM puede decidir que determinados tipos de daño sean más o menos efectivos contra un objeto. Por ejemplo, el daño contundente sirve para destrozar cosas a golpes, pero no para cortar. Los objetos de papel o tela pueden ser vulnerables al daño de fuego."
+  },
+  {
+   "type": "definition",
+   "page": 207,
+   "md": "***Umbral de daño.*** Los objetos de gran tamaño, como los muros de un castillo, suelen tener una resistencia mayor, lo que se representa mediante un umbral de daño. *Consulta también* “Umbral de daño”.",
+   "text": "Umbral de daño. Los objetos de gran tamaño, como los muros de un castillo, suelen tener una resistencia mayor, lo que se representa mediante un umbral de daño. Consulta también “Umbral de daño”."
+  },
+  {
+   "type": "definition",
+   "page": 207,
+   "md": "***Sin puntuaciones de característica.*** Los objetos no tienen puntuaciones de característica, salvo que una regla les asigne puntuaciones. Al no tener puntuaciones de característica, los objetos no pueden hacer pruebas de característica y fallan todas las tiradas de salvación.",
+   "text": "Sin puntuaciones de característica. Los objetos no tienen puntuaciones de característica, salvo que una regla les asigne puntuaciones. Al no tener puntuaciones de característica, los objetos no pueden hacer pruebas de característica y fallan todas las tiradas de salvación."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

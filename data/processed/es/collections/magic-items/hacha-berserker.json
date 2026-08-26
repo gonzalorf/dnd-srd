@@ -1,0 +1,35 @@
+{
+ "id": "item.hacha-berserker",
+ "name": "Hacha berserker",
+ "category": "Arma",
+ "variant": "alabarda, hacha a dos manos o hacha de guerra",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (alabarda, hacha a dos manos o hacha de guerra), rara (requiere sintonización)",
+ "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, mientras tengas sintonización con ella, tus puntos de golpe máximos aumentan en 1 por cada nivel que hayas alcanzado.\n\nMaldición. Esta arma está maldita y, al sintonizarte con ella, te afectará la maldición. Mientras sufras la maldición, no querrás deshacerte voluntariamente del arma y la mantendrás siempre a tu alcance. También tendrás desventaja en las tiradas de ataque con otras armas. Siempre que otra criatura te haga daño, si tienes el arma en tu posesión, deberás superar una tirada de salvación de Sabiduría con CD 15 o sucumbirás a una furia berserk. Este estado termina cuando comiences tu turno y no haya criaturas que puedas ver u oír a 18 m o menos de ti. Mientras estés bajo los efectos de la furia berserk, considerarás a la criatura más cercana a ti que puedas ver u oír como tu enemigo. Si hay varias criaturas posibles, elige una al azar. Durante cada uno de tus turnos, debes acercarte todo lo posible a la criatura y emplear la acción de atacar contra ella. Si no puedes acercarte lo suficiente a la criatura como para atacarla con el arma, tu turno termina cuando hayas gastado todo tu movimiento disponible. Si la criatura muere o dejas de verla u\n\noírla, la siguiente criatura más cercana que puedas ver u oír será tu nuevo objetivo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 260,
+   "md": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, mientras tengas sintonización con ella, tus puntos de golpe máximos aumentan en 1 por cada nivel que hayas alcanzado.",
+   "text": "Recibes un bonificador de +1 a las tiradas de ataque y de daño que hagas con esta arma mágica. Además, mientras tengas sintonización con ella, tus puntos de golpe máximos aumentan en 1 por cada nivel que hayas alcanzado."
+  },
+  {
+   "type": "definition",
+   "page": 260,
+   "md": "***Maldición.*** Esta arma está maldita y, al sintonizarte con ella, te afectará la maldición. Mientras sufras la maldición, no querrás deshacerte voluntariamente del arma y la mantendrás siempre a tu alcance. También tendrás desventaja en las tiradas de ataque con otras armas. Siempre que otra criatura te haga daño, si tienes el arma en tu posesión, deberás superar una tirada de salvación de Sabiduría con CD 15 o sucumbirás a una furia berserk. Este estado termina cuando comiences tu turno y no haya criaturas que puedas ver u oír a 18 m o menos de ti. Mientras estés bajo los efectos de la furia berserk, considerarás a la criatura más cercana a ti que puedas ver u oír como tu enemigo. Si hay varias criaturas posibles, elige una al azar. Durante cada uno de tus turnos, debes acercarte todo lo posible a la criatura y emplear la acción de atacar contra ella. Si no puedes acercarte lo suficiente a la criatura como para atacarla con el arma, tu turno termina cuando hayas gastado todo tu movimiento disponible. Si la criatura muere o dejas de verla u",
+   "text": "Maldición. Esta arma está maldita y, al sintonizarte con ella, te afectará la maldición. Mientras sufras la maldición, no querrás deshacerte voluntariamente del arma y la mantendrás siempre a tu alcance. También tendrás desventaja en las tiradas de ataque con otras armas. Siempre que otra criatura te haga daño, si tienes el arma en tu posesión, deberás superar una tirada de salvación de Sabiduría con CD 15 o sucumbirás a una furia berserk. Este estado termina cuando comiences tu turno y no haya criaturas que puedas ver u oír a 18 m o menos de ti. Mientras estés bajo los efectos de la furia berserk, considerarás a la criatura más cercana a ti que puedas ver u oír como tu enemigo. Si hay varias criaturas posibles, elige una al azar. Durante cada uno de tus turnos, debes acercarte todo lo posible a la criatura y emplear la acción de atacar contra ella. Si no puedes acercarte lo suficiente a la criatura como para atacarla con el arma, tu turno termina cuando hayas gastado todo tu movimiento disponible. Si la criatura muere o dejas de verla u"
+  },
+  {
+   "type": "paragraph",
+   "page": 260,
+   "md": "oírla, la siguiente criatura más cercana que puedas ver u oír será tu nuevo objetivo***.***",
+   "text": "oírla, la siguiente criatura más cercana que puedas ver u oír será tu nuevo objetivo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 260
+ }
+}

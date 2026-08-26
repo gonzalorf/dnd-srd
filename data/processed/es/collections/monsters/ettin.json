@@ -1,0 +1,109 @@
+{
+ "id": "monster.ettin",
+ "name": "Ettin",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 325
+ },
+ "context": [
+  "Ettin"
+ ],
+ "metaRaw": "Gigante Grande, caótico malvado",
+ "type": "Gigante",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "85 (10d10 + 30)",
+  "average": 85,
+  "formula": "10d10 + 30"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "gigante"
+ ],
+ "immunities": [
+  "asustado",
+  "aturdido",
+  "cegado",
+  "ensordecido",
+  "hechizado",
+  "inconsciente"
+ ],
+ "gear": [
+  "hacha de guerra",
+  "lucero del alba"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El ettin realiza un ataque con su hacha de guerra y uno con su lucero del alba.",
+   "page": 325,
+   "description": "El ettin realiza un ataque con su hacha de guerra y uno con su lucero del alba."
+  },
+  {
+   "name": "Hacha de guerra",
+   "md": "***Hacha de guerra.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 14 (2d8 + 5) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.",
+   "page": 325,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 14 (2d8 + 5) de daño cortante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Lucero del alba",
+   "md": "***Lucero del alba.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 14 (2d8 + 5) de daño perforante y el objetivo tendrá desventaja en la siguiente tirada de ataque que haga antes del final de su siguiente turno.",
+   "page": 325,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 14 (2d8 + 5) de daño perforante y el objetivo tendrá desventaja en la siguiente tirada de ataque que haga antes del final de su siguiente turno."
+  }
+ ]
+}

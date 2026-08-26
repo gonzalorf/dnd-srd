@@ -1,0 +1,58 @@
+{
+ "id": "spell.invisibilidad",
+ "name": "Invisibilidad",
+ "level": 2,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una pestaña envuelta en goma arábiga)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pestaña envuelta en goma arábiga",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine. El conjuro terminará inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine. El conjuro terminará inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.",
+   "text": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine. El conjuro terminará inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 160,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 159
+ }
+}

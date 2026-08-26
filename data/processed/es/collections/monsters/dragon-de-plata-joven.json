@@ -1,0 +1,123 @@
+{
+ "id": "monster.dragon-de-plata-joven",
+ "name": "Dragón de plata joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 309,
+  "pages": [
+   309,
+   310
+  ]
+ },
+ "context": [
+  "Dragones de plata"
+ ],
+ "metaRaw": "Dragón Grande (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "168 (16d10 + 80)",
+  "average": 168,
+  "formula": "16d10 + 80"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Historia": 6,
+  "Percepción": 8,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "9 (5000 PX; BC +4)",
+  "cr": 9,
+  "xp": 5000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 4
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 4
+  },
+  "car": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento paralizante.",
+   "page": 309,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento paralizante."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 15 (2d8 + 6) de daño cortante.",
+   "page": 309,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 15 (2d8 + 6) de daño cortante."
+  },
+  {
+   "name": "Aliento gélido",
+   "md": "***Aliento gélido (recarga 5–6)***. *Tirada de salvación de Constitución:* CD 17, todas las criaturas en un cono de",
+   "page": 309,
+   "description": ". *Tirada de salvación de Constitución:* CD 17, todas las criaturas en un cono de",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": null,
+   "md": "9 m. *Fallo:* 49 (11d8) de daño de frío. *Éxito:* la mitad del daño.",
+   "page": 310
+  },
+  {
+   "name": "Aliento paralizante",
+   "md": "***Aliento paralizante.*** *Tirada de salvación de Constitución:* CD 17, todas las criaturas en un cono de 9 m. *Primer fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de paralizado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 310,
+   "description": "*Tirada de salvación de Constitución:* CD 17, todas las criaturas en un cono de 9 m. *Primer fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de paralizado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente."
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "id": "table.p194",
+ "caption": null,
+ "header": [],
+ "rows": [
+  [
+   "BC",
+   "Bonificador por competencia"
+  ],
+  [
+   "C",
+   "Concentración"
+  ],
+  [
+   "Car",
+   "Carisma"
+  ],
+  [
+   "CA",
+   "Clase de armadura"
+  ],
+  [
+   "CB",
+   "Caótico bueno"
+  ],
+  [
+   "CD",
+   "Clase de dificultad"
+  ],
+  [
+   "CM",
+   "Caótico malvado"
+  ],
+  [
+   "CN",
+   "Caótico neutral"
+  ],
+  [
+   "Con",
+   "Constitución"
+  ],
+  [
+   "Des",
+   "Destreza"
+  ],
+  [
+   "Fue",
+   "Fuerza"
+  ],
+  [
+   "GM",
+   "Game Master"
+  ],
+  [
+   "Int",
+   "Inteligencia"
+  ],
+  [
+   "LB",
+   "Legal bueno"
+  ],
+  [
+   "LM",
+   "Legal malvado"
+  ],
+  [
+   "LN",
+   "Legal neutral"
+  ],
+  [
+   "M",
+   "Componente material"
+  ],
+  [
+   "NB",
+   "Neutral bueno"
+  ],
+  [
+   "NM",
+   "Neutral malvado"
+  ],
+  [
+   "pc",
+   "Pieza(s) de cobre"
+  ],
+  [
+   "pe",
+   "Pieza(s) de electro"
+  ],
+  [
+   "pg",
+   "Punto(s) de golpe"
+  ],
+  [
+   "PNJ",
+   "Personaje no jugador"
+  ],
+  [
+   "po",
+   "Pieza(s) de oro"
+  ],
+  [
+   "pp",
+   "Pieza(s) de plata"
+  ],
+  [
+   "ppt",
+   "Pieza(s) de platino"
+  ],
+  [
+   "PX",
+   "Punto(s) de experiencia"
+  ],
+  [
+   "R",
+   "Ritual"
+  ],
+  [
+   "S",
+   "Componente somático"
+  ],
+  [
+   "Sab",
+   "Sabiduría"
+  ],
+  [
+   "V",
+   "Componente verbal"
+  ],
+  [
+   "VD",
+   "Valor de desafío"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Convenciones del glosario"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 194
+ }
+}

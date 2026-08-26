@@ -1,0 +1,141 @@
+{
+ "id": "monster.naga-guardiana",
+ "name": "Naga guardiana",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 353,
+  "pages": [
+   353,
+   354
+  ]
+ },
+ "context": [
+  "Naga guardiana"
+ ],
+ "metaRaw": "Celestial Grande, legal bueno",
+ "type": "Celestial",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "136 (16d10 + 48)",
+  "average": 136,
+  "formula": "16d10 + 48"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "nadar": 12.0,
+  "trepar": 12.0
+ },
+ "skills": {
+  "Conocimiento arcano": 11,
+  "Historia": 11,
+  "Religión": 11
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "celestial",
+  "común"
+ ],
+ "immunities": [
+  "veneno",
+  "apresado",
+  "envenenado",
+  "hechizado",
+  "paralizado"
+ ],
+ "challenge": {
+  "raw": "10 (5900 PX; BC +4)",
+  "cr": 10,
+  "xp": 5900,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 8
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 7
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 7
+  },
+  "sab": {
+   "score": 19,
+   "mod": 4,
+   "save": 8
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 8
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación celestial",
+   "md": "***Recuperación celestial.*** Si la naga muere, regresará a la vida tras 1d6 días y recuperará todos sus puntos de golpe salvo que se lance el conjuro *disipar el bien y el mal* sobre sus restos.",
+   "page": 354,
+   "description": "Si la naga muere, regresará a la vida tras 1d6 días y recuperará todos sus puntos de golpe salvo que se lance el conjuro *disipar el bien y el mal* sobre sus restos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** La naga realiza dos ataques de mordisco. Puede sustituir cualquier ataque por un uso de su saliva venenosa.",
+   "page": 354,
+   "description": "La naga realiza dos ataques de mordisco. Puede sustituir cualquier ataque por un uso de su saliva venenosa."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 17 (2d12 + 4) de daño perforante más 22 (4d10) de daño de veneno.",
+   "page": 354,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 17 (2d12 + 4) de daño perforante más 22 (4d10) de daño de veneno."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** La naga lanza uno de los siguientes conjuros, que no requiere componentes somáticos o materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 16):",
+   "page": 354,
+   "description": "La naga lanza uno de los siguientes conjuros, que no requiere componentes somáticos o materiales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 16):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *taumaturgia* 1/día cada uno: *clarividencia*, *curar heridas* (versión de nivel 6), *geas*, *golpe flamígero* (versión de nivel 6), *visión veraz*",
+   "page": 354
+  },
+  {
+   "name": "Saliva venenosa",
+   "md": "***Saliva venenosa.*** *Tirada de salvación de Constitución:* CD 16, una criatura que la naga pueda ver a 18 m o menos. *Fallo:* 31 (7d8) de daño de veneno y el objetivo tendrá el estado de cegado hasta el principio del siguiente turno de la naga. *Éxito:* solo la mitad del daño.",
+   "page": 354,
+   "description": "*Tirada de salvación de Constitución:* CD 16, una criatura que la naga pueda ver a 18 m o menos. *Fallo:* 31 (7d8) de daño de veneno y el objetivo tendrá el estado de cegado hasta el principio del siguiente turno de la naga. *Éxito:* solo la mitad del daño."
+  }
+ ],
+ "refs": [
+  "spell.disipar-el-bien-y-el-mal",
+  "spell.taumaturgia",
+  "spell.clarividencia",
+  "spell.curar-heridas",
+  "spell.geas",
+  "spell.golpe-flamigero",
+  "spell.vision-veraz"
+ ]
+}

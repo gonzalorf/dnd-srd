@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-alfarero",
+ "name": "Herramientas de alfarero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Inteligencia Peso: 1,5 kg\n\nUtilizar: distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)\n\nFabricar: jarro, lámpara",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Inteligencia **Peso:** 1,5 kg",
+   "text": "Característica: Inteligencia Peso: 1,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)",
+   "text": "Utilizar: distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** jarro, lámpara",
+   "text": "Fabricar: jarro, lámpara"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

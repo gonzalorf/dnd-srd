@@ -1,0 +1,119 @@
+{
+ "id": "spell.escudrinar",
+ "name": "Escudriñar",
+ "level": 5,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "clérigo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "10 minutos",
+  "ritual": false,
+  "kind": "time",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Puedes ver y oír a una criatura de tu elección que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, modificada en función de lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él (consulta las tablas más adelante). El objetivo desconoce contra qué hace la tirada de salvación; solo sabe que siente intranquilidad.\n\nSi supera la tirada de salvación, el objetivo no se verá afectado y no podrás volver a usar este conjuro con él durante 24 horas.\n\nSi la falla, el conjuro crea un sensor invisible e intangible a 3 m o menos de él. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve a la vez que el objetivo y permanece a 3 m o menos de él hasta que termine el conjuro. Si algo puede percibir el sensor, se mostrará como un orbe luminoso del tamaño aproximado de tu puño.\n\nEn vez de hacer objetivo a una criatura, puedes elegir una ubicación que hayas visto antes. Cuando lo hagas, el sensor aparecerá en ese lugar y no se moverá.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 147,
+   "md": "Puedes ver y oír a una criatura de tu elección que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, modificada en función de lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él (consulta las tablas más adelante). El objetivo desconoce contra qué hace la tirada de salvación; solo sabe que siente intranquilidad.",
+   "text": "Puedes ver y oír a una criatura de tu elección que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, modificada en función de lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él (consulta las tablas más adelante). El objetivo desconoce contra qué hace la tirada de salvación; solo sabe que siente intranquilidad."
+  },
+  {
+   "type": "table",
+   "page": 147,
+   "caption": null,
+   "header": [
+    "Conocimiento sobre el objetivo",
+    "Modificador de la tirada de salvación"
+   ],
+   "rows": [
+    [
+     "De segundas (has oído hablar del objetivo)",
+     "+5"
+    ],
+    [
+     "De primera mano (has conocido al objetivo)",
+     "+0"
+    ],
+    [
+     "Familiar (conoces bien al objetivo)",
+     "−5"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 147,
+   "caption": null,
+   "header": [
+    "¿Qué tienes del objetivo?",
+    "Modificador de la tirada de salvación"
+   ],
+   "rows": [
+    [
+     "Dibujo u otro retrato",
+     "−2"
+    ],
+    [
+     "Prenda u otra posesión",
+     "−4"
+    ],
+    [
+     "Parte del cuerpo, mechón de pelo o trozo de uña",
+     "−10"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "md": "Si supera la tirada de salvación, el objetivo no se verá afectado y no podrás volver a usar este conjuro con él durante 24 horas.",
+   "text": "Si supera la tirada de salvación, el objetivo no se verá afectado y no podrás volver a usar este conjuro con él durante 24 horas."
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "md": "Si la falla, el conjuro crea un sensor invisible e intangible a 3 m o menos de él. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve a la vez que el objetivo y permanece a 3 m o menos de él hasta que termine el conjuro. Si algo puede percibir el sensor, se mostrará como un orbe luminoso del tamaño aproximado de tu puño.",
+   "text": "Si la falla, el conjuro crea un sensor invisible e intangible a 3 m o menos de él. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve a la vez que el objetivo y permanece a 3 m o menos de él hasta que termine el conjuro. Si algo puede percibir el sensor, se mostrará como un orbe luminoso del tamaño aproximado de tu puño."
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "md": "En vez de hacer objetivo a una criatura, puedes elegir una ubicación que hayas visto antes. Cuando lo hagas, el sensor aparecerá en ese lugar y no se moverá.",
+   "text": "En vez de hacer objetivo a una criatura, puedes elegir una ubicación que hayas visto antes. Cuando lo hagas, el sensor aparecerá en ese lugar y no se moverá."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 147
+ }
+}

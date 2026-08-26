@@ -1,0 +1,29 @@
+{
+ "id": "item.anillo-de-calidez",
+ "name": "Anillo de calidez",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, infrecuente (requiere sintonización)",
+ "text": "Si sufres daño de frío mientras lleves puesto este anillo, ese daño se reduce en 2d8.\n\nAdemás, las temperaturas de −18 °C o menos no os afectarán ni a ti ni a nada de lo que vistas o lleves.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Si sufres daño de frío mientras lleves puesto este anillo, ese daño se reduce en 2d8.",
+   "text": "Si sufres daño de frío mientras lleves puesto este anillo, ese daño se reduce en 2d8."
+  },
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Además, las temperaturas de −18 °C o menos no os afectarán ni a ti ni a nada de lo que vistas o lleves.",
+   "text": "Además, las temperaturas de −18 °C o menos no os afectarán ni a ti ni a nada de lo que vistas o lleves."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "table.simbolos-sagrados",
+ "caption": "Símbolos sagrados",
+ "header": [
+  "Símbolo",
+  "Peso",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Amuleto (puesto o sostenido)",
+   "0,5 kg",
+   "5 po"
+  ],
+  [
+   "Emblema (en tela o en escudo)",
+   "—",
+   "5 po"
+  ],
+  [
+   "Relicario (sostenido)",
+   "1 kg",
+   "5 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Equipo de aventureros",
+  "Símbolo sagrado (variable)"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 108
+ }
+}

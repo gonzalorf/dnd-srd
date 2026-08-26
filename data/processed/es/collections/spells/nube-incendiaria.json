@@ -1,0 +1,65 @@
+{
+ "id": "spell.nube-incendiaria",
+ "name": "Nube incendiaria",
+ "level": 8,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Una nube turbulenta de humo y ascuas llena una esfera de 6 m de radio centrada en un punto dentro del alcance. La zona que ocupa la nube está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento).\n\nCuando aparezca la nube, todas las criaturas dentro de ella harán una tirada de salvación de Destreza; sufrirán 10d8 de daño de fuego si la fallan o la mitad del daño si la superan. Una criatura también deberá hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.\n\nLa nube se aleja de ti 3 m en la dirección que elijas al principio de cada uno de tus turnos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Una nube turbulenta de humo y ascuas llena una esfera de 6 m de radio centrada en un punto dentro del alcance. La zona que ocupa la nube está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea *ráfaga de viento*).",
+   "text": "Una nube turbulenta de humo y ascuas llena una esfera de 6 m de radio centrada en un punto dentro del alcance. La zona que ocupa la nube está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea ráfaga de viento)."
+  },
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Cuando aparezca la nube, todas las criaturas dentro de ella harán una tirada de salvación de Destreza; sufrirán 10d8 de daño de fuego si la fallan o la mitad del daño si la superan. Una criatura también deberá hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.",
+   "text": "Cuando aparezca la nube, todas las criaturas dentro de ella harán una tirada de salvación de Destreza; sufrirán 10d8 de daño de fuego si la fallan o la mitad del daño si la superan. Una criatura también deberá hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "La nube se aleja de ti 3 m en la dirección que elijas al principio de cada uno de tus turnos.",
+   "text": "La nube se aleja de ti 3 m en la dirección que elijas al principio de cada uno de tus turnos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 170
+ },
+ "refs": [
+  "spell.rafaga-de-viento"
+ ]
+}

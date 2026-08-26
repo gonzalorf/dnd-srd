@@ -1,0 +1,94 @@
+{
+ "id": "monster.berserker",
+ "name": "Berserker",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 288
+ },
+ "context": [
+  "Berserker"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "67 (9d8 + 27)",
+  "average": 67,
+  "formula": "9d8 + 27"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "armadura de pieles",
+  "hacha a dos manos"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Frenesí maltrecho",
+   "md": "***Frenesí maltrecho.*** Mientras esté maltrecho, el berserker tiene ventaja en las tiradas de ataque y las tiradas de salvación.",
+   "page": 288,
+   "description": "Mientras esté maltrecho, el berserker tiene ventaja en las tiradas de ataque y las tiradas de salvación."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Hacha a dos manos",
+   "md": "***Hacha a dos manos.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 9 (1d12 + 3) de daño cortante.",
+   "page": 288,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 9 (1d12 + 3) de daño cortante."
+  }
+ ]
+}

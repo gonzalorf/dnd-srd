@@ -1,0 +1,29 @@
+{
+ "id": "rule.velocidad",
+ "name": "Velocidad",
+ "text": "Las criaturas tienen una velocidad, que es la distancia en metros que pueden recorrer cuando se mueven en su turno. Consulta también “Arrastrarse”, “Nadar”, “Trepar”, “Saltar” y “Volar”, y el capítulo “Cómo jugar” (“Combate”).\n\nVelocidades especiales. Algunas criaturas tienen velocidades especiales, como una velocidad excavando, velocidad nadando, velocidad trepando o velocidad volando, todas ellas definidas en este glosario. Si tienes más de una velocidad, elige cuál vas a usar al moverte. Podrás alternar entre las velocidades durante el movimiento. Cada vez que lo hagas, resta la distancia que ya te hayas movido a la nueva velocidad. Lo que quede será lo que aún te puedas mover. Si te quedan 0 metros o menos, no podrás usar la nueva velocidad durante el movimiento actual. Por ejemplo, si tienes una velocidad caminando de 9 m y una velocidad volando de 12 m, entonces podrías volar 3 m, caminar 3 m y levantar el vuelo para recorrer otros 6 m más.\n\nCambios en tus velocidades. Si un efecto aumenta o reduce tu velocidad durante un tiempo, cualquier velocidad especial que tengas aumentará o se reducirá en la misma cantidad durante el mismo periodo de tiempo. Por ejemplo, si tu velocidad se reduce a 0 y tienes una velocidad trepando, tu velocidad trepando también se reducirá a 0. De igual forma, si tu velocidad se reduce a la mitad y tienes una velocidad volando, tu velocidad volando también se reducirá a la mitad.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Las criaturas tienen una velocidad, que es la distancia en metros que pueden recorrer cuando se mueven en su turno. *Consulta también* “Arrastrarse”, “Nadar”, “Trepar”, “Saltar” y “Volar”, y el capítulo “Cómo jugar” (“Combate”).",
+   "text": "Las criaturas tienen una velocidad, que es la distancia en metros que pueden recorrer cuando se mueven en su turno. Consulta también “Arrastrarse”, “Nadar”, “Trepar”, “Saltar” y “Volar”, y el capítulo “Cómo jugar” (“Combate”)."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "***Velocidades especiales.*** Algunas criaturas tienen velocidades especiales, como una velocidad excavando, velocidad nadando, velocidad trepando o velocidad volando, todas ellas definidas en este glosario. Si tienes más de una velocidad, elige cuál vas a usar al moverte. Podrás alternar entre las velocidades durante el movimiento. Cada vez que lo hagas, resta la distancia que ya te hayas movido a la nueva velocidad. Lo que quede será lo que aún te puedas mover. Si te quedan 0 metros o menos, no podrás usar la nueva velocidad durante el movimiento actual. Por ejemplo, si tienes una velocidad caminando de 9 m y una velocidad volando de 12 m, entonces podrías volar 3 m, caminar 3 m y levantar el vuelo para recorrer otros 6 m más.",
+   "text": "Velocidades especiales. Algunas criaturas tienen velocidades especiales, como una velocidad excavando, velocidad nadando, velocidad trepando o velocidad volando, todas ellas definidas en este glosario. Si tienes más de una velocidad, elige cuál vas a usar al moverte. Podrás alternar entre las velocidades durante el movimiento. Cada vez que lo hagas, resta la distancia que ya te hayas movido a la nueva velocidad. Lo que quede será lo que aún te puedas mover. Si te quedan 0 metros o menos, no podrás usar la nueva velocidad durante el movimiento actual. Por ejemplo, si tienes una velocidad caminando de 9 m y una velocidad volando de 12 m, entonces podrías volar 3 m, caminar 3 m y levantar el vuelo para recorrer otros 6 m más."
+  },
+  {
+   "type": "definition",
+   "page": 210,
+   "md": "***Cambios en tus velocidades.*** Si un efecto aumenta o reduce tu velocidad durante un tiempo, cualquier velocidad especial que tengas aumentará o se reducirá en la misma cantidad durante el mismo periodo de tiempo. Por ejemplo, si tu velocidad se reduce a 0 y tienes una velocidad trepando, tu velocidad trepando también se reducirá a 0. De igual forma, si tu velocidad se reduce a la mitad y tienes una velocidad volando, tu velocidad volando también se reducirá a la mitad.",
+   "text": "Cambios en tus velocidades. Si un efecto aumenta o reduce tu velocidad durante un tiempo, cualquier velocidad especial que tengas aumentará o se reducirá en la misma cantidad durante el mismo periodo de tiempo. Por ejemplo, si tu velocidad se reduce a 0 y tienes una velocidad trepando, tu velocidad trepando también se reducirá a 0. De igual forma, si tu velocidad se reduce a la mitad y tienes una velocidad volando, tu velocidad volando también se reducirá a la mitad."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

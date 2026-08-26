@@ -1,0 +1,115 @@
+{
+ "id": "monster.dragon-de-cobre-joven",
+ "name": "Dragón de cobre joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 303
+ },
+ "context": [
+  "Dragones de cobre"
+ ],
+ "metaRaw": "Dragón Grande (metálico), caótico bueno",
+ "type": "Dragón",
+ "alignment": "caótico bueno",
+ "size": "Grande",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "119 (14d10 + 42)",
+  "average": 119,
+  "formula": "14d10 + 42"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Engaño": 5,
+  "Percepción": 7,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 17",
+  "passivePerception": 17
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "ácido"
+ ],
+ "challenge": {
+  "raw": "7 (2900 PX; BC +3)",
+  "cr": 7,
+  "xp": 2900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento ralentizador.",
+   "page": 303,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de su aliento ralentizador."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 15 (2d10 + 4) de daño cortante.",
+   "page": 303,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 15 (2d10 + 4) de daño cortante."
+  },
+  {
+   "name": "Aliento ácido",
+   "md": "***Aliento ácido (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 14, todas las criaturas en una línea de 12 m de largo y 1,5 m de ancho. *Fallo:* 40 (9d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "page": 303,
+   "description": "*Tirada de salvación de Destreza:* CD 14, todas las criaturas en una línea de 12 m de largo y 1,5 m de ancho. *Fallo:* 40 (9d8) de daño de ácido. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento ralentizador",
+   "md": "***Aliento ralentizador.*** *Tirada de salvación de Constitución:* CD 14, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno.",
+   "page": 303,
+   "description": "*Tirada de salvación de Constitución:* CD 14, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo no podrá llevar a cabo reacciones, su velocidad se reducirá a la mitad y podrá realizar una acción o una acción adicional en su turno, pero no ambas. Este efecto durará hasta el final de su siguiente turno."
+  }
+ ]
+}

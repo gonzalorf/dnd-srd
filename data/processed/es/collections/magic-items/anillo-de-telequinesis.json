@@ -1,0 +1,26 @@
+{
+ "id": "item.anillo-de-telequinesis",
+ "name": "Anillo de telequinesis",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, muy raro (requiere sintonización)",
+ "text": "Mientras lleves puesto este anillo, puedes lanzar telequinesis desde él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Mientras lleves puesto este anillo, puedes lanzar *telequinesis* desde él.",
+   "text": "Mientras lleves puesto este anillo, puedes lanzar telequinesis desde él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ },
+ "refs": [
+  "spell.telequinesis"
+ ]
+}

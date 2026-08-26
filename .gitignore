@@ -1,0 +1,22 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# --- Node ---
+node_modules/
+
+# --- Artefactos intermedios del pipeline ---
+# Se regeneran con `python -m extractor build` y no aportan nada en el
+# repositorio: pages.jsonl son 11 MB de volcado crudo del PDF y blocks.json
+# otros 5,8 MB de paso intermedio.
+data/raw/
+data/interim/
+
+# --- Salida de compilación del sitio ---
+# Se regenera con `npm run build` en apps/web.
+apps/web/dist/
+
+# NOTA: `data/processed/` SÍ se versiona. Es el contrato que consumen el sitio
+# y cualquier herramienta futura, y permite compilar la web sin ejecutar Python.

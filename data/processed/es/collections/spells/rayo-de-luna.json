@@ -1,0 +1,65 @@
+{
+ "id": "spell.rayo-de-luna",
+ "name": "Rayo de luna",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una hoja con forma de media luna)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una hoja con forma de media luna",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Un rayo de luz pálida y plateada brilla en un cilindro de 1,5 m de radio y 12 m de alto centrado en un punto dentro del alcance. Hasta que el conjuro termine, una luz tenue llena el cilindro y puedes emplear una acción de magia en turnos posteriores para mover el cilindro hasta 18 m.\n\nCuando el cilindro aparezca, todas las criaturas que haya en él realizan una tirada de salvación de Constitución. Si la fallan, recibirán 2d10 de daño radiante, y si una criatura ha cambiado de forma (por ejemplo, como resultado del conjuro polimorfar), volverá a su forma real y no podrá cambiarla hasta que salga del cilindro. Si la superan, solo sufrirán la mitad de ese daño. Una criatura también deberá hacer esta tirada cuando el área del conjuro entre en su espacio o cuando la criatura entre en el área o acabe su turno en ella. Una criatura solo hace esta tirada una vez por turno.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Un rayo de luz pálida y plateada brilla en un cilindro de 1,5 m de radio y 12 m de alto centrado en un punto dentro del alcance. Hasta que el conjuro termine, una luz tenue llena el cilindro y puedes emplear una acción de magia en turnos posteriores para mover el cilindro hasta 18 m.",
+   "text": "Un rayo de luz pálida y plateada brilla en un cilindro de 1,5 m de radio y 12 m de alto centrado en un punto dentro del alcance. Hasta que el conjuro termine, una luz tenue llena el cilindro y puedes emplear una acción de magia en turnos posteriores para mover el cilindro hasta 18 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Cuando el cilindro aparezca, todas las criaturas que haya en él realizan una tirada de salvación de Constitución. Si la fallan, recibirán 2d10 de daño radiante, y si una criatura ha cambiado de forma (por ejemplo, como resultado del conjuro *polimorfar*), volverá a su forma real y no podrá cambiarla hasta que salga del cilindro. Si la superan, solo sufrirán la mitad de ese daño. Una criatura también deberá hacer esta tirada cuando el área del conjuro entre en su espacio o cuando la criatura entre en el área o acabe su turno en ella. Una criatura solo hace esta tirada una vez por turno.",
+   "text": "Cuando el cilindro aparezca, todas las criaturas que haya en él realizan una tirada de salvación de Constitución. Si la fallan, recibirán 2d10 de daño radiante, y si una criatura ha cambiado de forma (por ejemplo, como resultado del conjuro polimorfar), volverá a su forma real y no podrá cambiarla hasta que salga del cilindro. Si la superan, solo sufrirán la mitad de ese daño. Una criatura también deberá hacer esta tirada cuando el área del conjuro entre en su espacio o cuando la criatura entre en el área o acabe su turno en ella. Una criatura solo hace esta tirada una vez por turno."
+  },
+  {
+   "type": "definition",
+   "page": 179,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d10 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d10 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 178
+ },
+ "refs": [
+  "spell.polimorfar"
+ ]
+}

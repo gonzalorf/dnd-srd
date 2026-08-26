@@ -1,0 +1,29 @@
+{
+ "id": "item.municion-1-2-o-3",
+ "name": "Munición +1, +2 o +3",
+ "category": "Arma",
+ "variant": "cualquier munición",
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquier munición), infrecuente (+1), rara (+2) o muy rara (+3)",
+ "text": "Tienes un bonificador a las tiradas de ataque y de daño que hagas con esta unidad de munición mágica. El bonificador depende de la rareza de la munición. Una vez que acierte a un objetivo, la munición dejará de ser mágica.\n\nLa munición suele encontrarse o venderse en conjuntos de diez o veinte unidades. El valor de diez unidades de esta munición equivale a una poción de la misma rareza.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "Tienes un bonificador a las tiradas de ataque y de daño que hagas con esta unidad de munición mágica. El bonificador depende de la rareza de la munición. Una vez que acierte a un objetivo, la munición dejará de ser mágica.",
+   "text": "Tienes un bonificador a las tiradas de ataque y de daño que hagas con esta unidad de munición mágica. El bonificador depende de la rareza de la munición. Una vez que acierte a un objetivo, la munición dejará de ser mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 263,
+   "md": "La munición suele encontrarse o venderse en conjuntos de diez o veinte unidades. El valor de diez unidades de esta munición equivale a una poción de la misma rareza.",
+   "text": "La munición suele encontrarse o venderse en conjuntos de diez o veinte unidades. El valor de diez unidades de esta munición equivale a una poción de la misma rareza."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 263
+ }
+}

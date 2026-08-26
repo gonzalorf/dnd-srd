@@ -1,0 +1,75 @@
+{
+ "id": "monster.mosca-gigante",
+ "name": "Mosca gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 256
+ },
+ "context": [
+  "Estatuilla de poder maravilloso"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "19 (3d10 + 3)",
+  "average": 19,
+  "formula": "3d10 + 3"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m, Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (0 PX; BC +2)",
+  "cr": 0,
+  "xp": 0,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ }
+}

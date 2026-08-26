@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-barbaro",
+ "caption": "Atributos básicos de bárbaro",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Fuerza"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d12 por nivel de bárbaro"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Fuerza y Constitución"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas y marciales"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras y medias y escudos"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) hacha a dos manos, 4 hachas de mano, paquete de explorador y 15 po, o (B) 75 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bárbaro"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 32
+ }
+}

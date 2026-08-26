@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-manitas",
+ "name": "Herramientas de manitas",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Destreza Peso: 5 kg\n\nUtilizar: montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)\n\nFabricar: mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Destreza **Peso:** 5 kg",
+   "text": "Característica: Destreza Peso: 5 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)",
+   "text": "Utilizar: montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero",
+   "text": "Fabricar: mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

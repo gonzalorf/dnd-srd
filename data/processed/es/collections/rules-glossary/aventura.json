@@ -1,0 +1,17 @@
+{
+ "id": "rule.aventura",
+ "name": "Aventura",
+ "text": "Una aventura es una serie de encuentros. La historia surge al ir interpretándolos. Consulta también “Encuentro”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Una aventura es una serie de encuentros. La historia surge al ir interpretándolos. *Consulta también* “Encuentro”.",
+   "text": "Una aventura es una serie de encuentros. La historia surge al ir interpretándolos. Consulta también “Encuentro”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "table.trucos-conjuros-de-hechicero-de-nivel-0",
+ "caption": "Trucos (conjuros de hechicero de nivel 0)",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Agarre electrizante",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Descarga de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Elementalismo",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Estallido mágico",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Ilusión menor",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Impacto certero",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Luces danzantes",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Luz",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Mano de mago",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Mensaje",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Prestidigitación",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Rayo de escarcha",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Reparar",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Rociada venenosa",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Salpicadura ácida",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Toque helado",
+   "Nigromancia",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 68
+ }
+}

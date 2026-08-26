@@ -1,0 +1,71 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-4",
+ "caption": "Conjuros de bardo de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Asesino fantasmal",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Compulsión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Confusión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Hechizar monstruo",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Invisibilidad mejorada",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Libertad de movimiento",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Localizar criatura",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Polimorfar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Puerta dimensional",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Terreno alucinatorio",
+   "Ilusionismo",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 38
+ }
+}

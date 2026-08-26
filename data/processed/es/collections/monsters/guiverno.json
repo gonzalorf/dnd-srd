@@ -1,0 +1,98 @@
+{
+ "id": "monster.guiverno",
+ "name": "Guiverno",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 336
+ },
+ "context": [
+  "Guiverno"
+ ],
+ "metaRaw": "Dragón Grande, sin alineamiento",
+ "type": "Dragón",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "127 (15d10 + 45)",
+  "average": 127,
+  "formula": "15d10 + 45"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El guiverno realiza un ataque de mordisco y uno con su aguijón.",
+   "page": 336,
+   "description": "El guiverno realiza un ataque de mordisco y uno con su aguijón."
+  },
+  {
+   "name": "Aguijón",
+   "md": "***Aguijón.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño perforante más 24 (7d6) de daño de veneno y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del guiverno.",
+   "page": 336,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 3 m. *Acierto:* 11 (2d6 + 4) de daño perforante más 24 (7d6) de daño de veneno y el objetivo tendrá el estado de envenenado hasta el principio del siguiente turno del guiverno."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño perforante.",
+   "page": 336,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño perforante."
+  }
+ ]
+}

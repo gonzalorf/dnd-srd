@@ -1,0 +1,68 @@
+{
+ "id": "spell.mastin-fiel",
+ "name": "Mastín fiel",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un silbato de plata)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un silbato de plata",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Conjuras un perro guardián en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alejéis a más de 90 m.\n\nSolo tú puedes verlo y es intangible e invulnerable. Cuando una criatura Pequeña o de mayor tamaño se acerque a 9 m o menos de él sin decir la contraseña que especifiques al lanzar el conjuro, el mastín empezará a ladrar ruidosamente. Además, tiene visión verdadera hasta 9 m.\n\nAl principio de cada uno de tus turnos, el mastín tratará de morder a un enemigo que esté a 1,5 m o menos de él. Ese enemigo deberá superar una tirada de salvación de Destreza o sufrirá 4d8 de daño de fuerza.\n\nEn tus siguientes turnos, puedes usar una acción de magia para mover el mastín hasta 9 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Conjuras un perro guardián en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alejéis a más de 90 m.",
+   "text": "Conjuras un perro guardián en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alejéis a más de 90 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Solo tú puedes verlo y es intangible e invulnerable. Cuando una criatura Pequeña o de mayor tamaño se acerque a 9 m o menos de él sin decir la contraseña que especifiques al lanzar el conjuro, el mastín empezará a ladrar ruidosamente. Además, tiene visión verdadera hasta 9 m.",
+   "text": "Solo tú puedes verlo y es intangible e invulnerable. Cuando una criatura Pequeña o de mayor tamaño se acerque a 9 m o menos de él sin decir la contraseña que especifiques al lanzar el conjuro, el mastín empezará a ladrar ruidosamente. Además, tiene visión verdadera hasta 9 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "Al principio de cada uno de tus turnos, el mastín tratará de morder a un enemigo que esté a 1,5 m o menos de él. Ese enemigo deberá superar una tirada de salvación de Destreza o sufrirá 4d8 de daño de fuerza.",
+   "text": "Al principio de cada uno de tus turnos, el mastín tratará de morder a un enemigo que esté a 1,5 m o menos de él. Ese enemigo deberá superar una tirada de salvación de Destreza o sufrirá 4d8 de daño de fuerza."
+  },
+  {
+   "type": "paragraph",
+   "page": 165,
+   "md": "En tus siguientes turnos, puedes usar una acción de magia para mover el mastín hasta 9 m.",
+   "text": "En tus siguientes turnos, puedes usar una acción de magia para mover el mastín hasta 9 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 165
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "spell.tentaculos-negros",
+ "name": "Tentáculos negros",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V, S, M (un tentáculo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un tentáculo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Unos tentáculos color ébano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tentáculos convertirán la zona en terreno difícil.\n\nTodas las criaturas situadas en esa zona hacen una tirada de salvación de Fuerza. Si la fallan, sufrirán 3d6 de daño contundente y tendrán el estado de apresadas hasta que el conjuro termine. Una criatura también deberá hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno.\n\nUna criatura apresada puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros y, si la supera, pondrá fin a su estado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 188,
+   "md": "Unos tentáculos color ébano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tentáculos convertirán la zona en terreno difícil.",
+   "text": "Unos tentáculos color ébano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tentáculos convertirán la zona en terreno difícil."
+  },
+  {
+   "type": "paragraph",
+   "page": 188,
+   "md": "Todas las criaturas situadas en esa zona hacen una tirada de salvación de Fuerza. Si la fallan, sufrirán 3d6 de daño contundente y tendrán el estado de apresadas hasta que el conjuro termine. Una criatura también deberá hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno.",
+   "text": "Todas las criaturas situadas en esa zona hacen una tirada de salvación de Fuerza. Si la fallan, sufrirán 3d6 de daño contundente y tendrán el estado de apresadas hasta que el conjuro termine. Una criatura también deberá hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno."
+  },
+  {
+   "type": "paragraph",
+   "page": 188,
+   "md": "Una criatura apresada puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros y, si la supera, pondrá fin a su estado.",
+   "text": "Una criatura apresada puede emplear una acción para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros y, si la supera, pondrá fin a su estado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 188
+ }
+}

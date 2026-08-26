@@ -1,0 +1,32 @@
+{
+ "id": "item.aceite-de-etereidad",
+ "name": "Aceite de etereidad",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, rara",
+ "text": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro excursión etérea durante 1 hora.\n\nEn el exterior de este recipiente se forman gotitas de un aceite turbio y gris que se evaporan rápidamente.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro *excursión etérea* durante 1 hora.",
+   "text": "Un vial de este aceite puede cubrir a una criatura Mediana o más pequeña, así como el equipo que vista o lleve. Se necesita un vial extra por cada categoría de tamaño por encima de Mediano. Aplicar el aceite lleva 10 minutos. La criatura afectada obtiene el efecto del conjuro excursión etérea durante 1 hora."
+  },
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "En el exterior de este recipiente se forman gotitas de un aceite turbio y gris que se evaporan rápidamente.",
+   "text": "En el exterior de este recipiente se forman gotitas de un aceite turbio y gris que se evaporan rápidamente."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ },
+ "refs": [
+  "spell.excursion-eterea"
+ ]
+}

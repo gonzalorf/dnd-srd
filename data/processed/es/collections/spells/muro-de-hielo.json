@@ -1,0 +1,74 @@
+{
+ "id": "spell.muro-de-hielo",
+ "name": "Muro de hielo",
+ "level": 6,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de cuarzo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de cuarzo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Creas un muro de hielo en una superficie sólida dentro del alcance. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durará hasta que termine el conjuro.\n\nAl aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál) y hace una tirada de salvación de Destreza; sufrirá 10d6 de daño de frío si la falla o la mitad de daño si la supera.\n\nEl muro es un objeto que se puede dañar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada sección de 3 m de lado, inmunidad al daño de frío, psíquico y de veneno y vulnerabilidad al daño de fuego. Si se reduce una sección del muro de 3 m de lado a 0 puntos de golpe, se destruirá y dejará una capa de aire gélido en el lugar que ocupaba.\n\nSi una criatura pasa por la capa de aire gélido por primera vez en un turno, deberá hacer una tirada de salvación de Constitución; sufrirá 5d6 de daño de frío si la falla o la mitad de daño si la supera.\n\nCon un espacio de conjuro de nivel superior. El daño que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire gélido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Creas un muro de hielo en una superficie sólida dentro del alcance. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durará hasta que termine el conjuro.",
+   "text": "Creas un muro de hielo en una superficie sólida dentro del alcance. Puedes darle forma de cúpula semiesférica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durará hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál) y hace una tirada de salvación de Destreza; sufrirá 10d6 de daño de frío si la falla o la mitad de daño si la supera.",
+   "text": "Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (tú eliges cuál) y hace una tirada de salvación de Destreza; sufrirá 10d6 de daño de frío si la falla o la mitad de daño si la supera."
+  },
+  {
+   "type": "paragraph",
+   "page": 167,
+   "md": "El muro es un objeto que se puede dañar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada sección de 3 m de lado, inmunidad al daño de frío, psíquico y de veneno y vulnerabilidad al daño de fuego. Si se reduce una sección del muro de 3 m de lado a 0 puntos de golpe, se destruirá y dejará una capa de aire gélido en el lugar que ocupaba.",
+   "text": "El muro es un objeto que se puede dañar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada sección de 3 m de lado, inmunidad al daño de frío, psíquico y de veneno y vulnerabilidad al daño de fuego. Si se reduce una sección del muro de 3 m de lado a 0 puntos de golpe, se destruirá y dejará una capa de aire gélido en el lugar que ocupaba."
+  },
+  {
+   "type": "paragraph",
+   "page": 168,
+   "md": "Si una criatura pasa por la capa de aire gélido por primera vez en un turno, deberá hacer una tirada de salvación de Constitución; sufrirá 5d6 de daño de frío si la falla o la mitad de daño si la supera.",
+   "text": "Si una criatura pasa por la capa de aire gélido por primera vez en un turno, deberá hacer una tirada de salvación de Constitución; sufrirá 5d6 de daño de frío si la falla o la mitad de daño si la supera."
+  },
+  {
+   "type": "definition",
+   "page": 168,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire gélido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire gélido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 167
+ }
+}

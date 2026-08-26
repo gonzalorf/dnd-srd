@@ -1,0 +1,115 @@
+{
+ "id": "item.aparato-del-crustaceo",
+ "name": "Aparato del crustáceo",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario",
+ "text": "A simple vista, este objeto parece un barril de hierro sellado que pesa 250 kg. El barril tiene un pestillo escondido, que se puede encontrar si se supera una prueba de Inteligencia (Investigación) con CD 20. Si se abre el pestillo, se accede a una escotilla en un extremo del barril, en el que pueden entrar dos criaturas Medianas o más pequeñas arrastrándose. Al fondo hay diez palancas dispuestas en fila en posición neutra que pueden levantarse o bajarse. Si se usan determinadas palancas, el aparato se transforma en una especie de langosta gigante.\n\nEl aparato del crustáceo es un objeto Grande con el siguiente perfil: CA de 20, 200 pg, velocidad 9 m, nadar 9 m (o 0 m en ambos casos si las patas no están extendidas) e inmunidad al daño psíquico y de veneno.\n\nEl aparato puede utilizarse como vehículo, pero requiere un piloto para ello. Mientras la escotilla esté cerrada, el compartimento es estanco y hermético. Contiene aire suficiente para respirar durante 10 horas, divididas entre el número de criaturas que necesiten respirar en su interior.\n\nEl aparato flota en el agua. También puede sumergirse a una profundidad de 270 m. Por debajo de esta profundidad, el vehículo sufre 2d6 de daño contundente cada minuto debido a la presión.\n\nUna criatura que esté en el compartimento puede emplear una acción de utilizar para subir o bajar hasta dos de las palancas del aparato. Después de\n\ncada uso, la palanca regresa a su posición neutra. Cada palanca, de izquierda a derecha, funciona como se muestra en la tabla “Palancas del aparato del crustáceo”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "A simple vista, este objeto parece un barril de hierro sellado que pesa 250 kg. El barril tiene un pestillo escondido, que se puede encontrar si se supera una prueba de Inteligencia (Investigación) con CD 20. Si se abre el pestillo, se accede a una escotilla en un extremo del barril, en el que pueden entrar dos criaturas Medianas o más pequeñas arrastrándose. Al fondo hay diez palancas dispuestas en fila en posición neutra que pueden levantarse o bajarse. Si se usan determinadas palancas, el aparato se transforma en una especie de langosta gigante.",
+   "text": "A simple vista, este objeto parece un barril de hierro sellado que pesa 250 kg. El barril tiene un pestillo escondido, que se puede encontrar si se supera una prueba de Inteligencia (Investigación) con CD 20. Si se abre el pestillo, se accede a una escotilla en un extremo del barril, en el que pueden entrar dos criaturas Medianas o más pequeñas arrastrándose. Al fondo hay diez palancas dispuestas en fila en posición neutra que pueden levantarse o bajarse. Si se usan determinadas palancas, el aparato se transforma en una especie de langosta gigante."
+  },
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "El *aparato del crustáceo* es un objeto Grande con el siguiente perfil: CA de 20, 200 pg, velocidad 9 m, nadar 9 m (o 0 m en ambos casos si las patas no están extendidas) e inmunidad al daño psíquico y de veneno.",
+   "text": "El aparato del crustáceo es un objeto Grande con el siguiente perfil: CA de 20, 200 pg, velocidad 9 m, nadar 9 m (o 0 m en ambos casos si las patas no están extendidas) e inmunidad al daño psíquico y de veneno."
+  },
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "El aparato puede utilizarse como vehículo, pero requiere un piloto para ello. Mientras la escotilla esté cerrada, el compartimento es estanco y hermético. Contiene aire suficiente para respirar durante 10 horas, divididas entre el número de criaturas que necesiten respirar en su interior.",
+   "text": "El aparato puede utilizarse como vehículo, pero requiere un piloto para ello. Mientras la escotilla esté cerrada, el compartimento es estanco y hermético. Contiene aire suficiente para respirar durante 10 horas, divididas entre el número de criaturas que necesiten respirar en su interior."
+  },
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "El aparato flota en el agua. También puede sumergirse a una profundidad de 270 m. Por debajo de esta profundidad, el vehículo sufre 2d6 de daño contundente cada minuto debido a la presión.",
+   "text": "El aparato flota en el agua. También puede sumergirse a una profundidad de 270 m. Por debajo de esta profundidad, el vehículo sufre 2d6 de daño contundente cada minuto debido a la presión."
+  },
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Una criatura que esté en el compartimento puede emplear una acción de utilizar para subir o bajar hasta dos de las palancas del aparato. Después de",
+   "text": "Una criatura que esté en el compartimento puede emplear una acción de utilizar para subir o bajar hasta dos de las palancas del aparato. Después de"
+  },
+  {
+   "type": "table",
+   "page": 234,
+   "caption": "Palancas del aparato del crustáceo",
+   "header": [
+    "Palanca",
+    "Subida",
+    "Bajada"
+   ],
+   "rows": [
+    [
+     "1",
+     "Las patas se extienden, lo que permite que el aparato camine y nade.",
+     "Las patas se retraen, lo que reduce la velocidad y la velocidad nadando del aparato a 0 e impide que se beneficie de ningún bonificador a su velocidad."
+    ],
+    [
+     "2",
+     "La persiana de la ventana delantera se abre.",
+     "La persiana de la ventana delantera se cierra."
+    ],
+    [
+     "3",
+     "Las persianas de las ventanas laterales se abren (dos por lado).",
+     "Las persianas de las ventanas laterales se cierran (dos por lado)."
+    ],
+    [
+     "4",
+     "Se extienden dos pinzas desde la parte delantera del aparato.",
+     "Las pinzas se retraen."
+    ],
+    [
+     "5",
+     "Cada pinza extendida lleva a cabo el siguiente ataque cuerpo a cuerpo: +8 a acertar, alcance 1,5 m. 7 (2d6) de daño contundente.",
+     "Cada pinza extendida lleva a cabo el siguiente ataque Acierto:cuerpo a cuerpo: +8 a acertar, alcance 1,5 m. Acierto: el objetivo tendrá el estado de agarrado (CD 15 para escapar)."
+    ],
+    [
+     "6",
+     "Si las patas están extendidas, el aparato camina o nada hacia delante.",
+     "Si las patas están extendidas, el aparato camina o nada hacia atrás."
+    ],
+    [
+     "7",
+     "Si las patas están extendidas, el aparato gira 90 grados a la izquierda.",
+     "Si las patas están extendidas, el aparato gira 90 grados a la derecha."
+    ],
+    [
+     "8",
+     "Unas linternas con forma de ojo emiten luz brillante en un radio de 9 m y luz tenue 9 m más allá.",
+     "La luz se apaga."
+    ],
+    [
+     "9",
+     "El aparato desciende hasta 6 m en un medio líquido.",
+     "El aparato asciende hasta 6 m en un medio líquido."
+    ],
+    [
+     "10",
+     "La escotilla trasera se abre.",
+     "La escotilla trasera se cierra."
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 234,
+   "md": "cada uso, la palanca regresa a su posición neutra. Cada palanca, de izquierda a derecha, funciona como se muestra en la tabla “Palancas del aparato del crustáceo”.",
+   "text": "cada uso, la palanca regresa a su posición neutra. Cada palanca, de izquierda a derecha, funciona como se muestra en la tabla “Palancas del aparato del crustáceo”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ }
+}

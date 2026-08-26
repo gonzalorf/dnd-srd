@@ -1,0 +1,53 @@
+{
+ "id": "spell.don-de-lenguas",
+ "name": "Don de lenguas",
+ "level": 3,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "clérigo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, M (un zigurat en miniatura)",
+  "v": true,
+  "s": false,
+  "m": true,
+  "material": "un zigurat en miniatura",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Este conjuro permite a la criatura que toques comprender cualquier idioma hablado que oiga o lengua de signos que vea. Asimismo, cuando el objetivo se comunica oralmente o mediante signos, cualquier criatura que conozca al menos un idioma podrá entenderlo si lo escucha hablar o lo ve signar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 143,
+   "md": "Este conjuro permite a la criatura que toques comprender cualquier idioma hablado que oiga o lengua de signos que vea. Asimismo, cuando el objetivo se comunica oralmente o mediante signos, cualquier criatura que conozca al menos un idioma podrá entenderlo si lo escucha hablar o lo ve signar.",
+   "text": "Este conjuro permite a la criatura que toques comprender cualquier idioma hablado que oiga o lengua de signos que vea. Asimismo, cuando el objetivo se comunica oralmente o mediante signos, cualquier criatura que conozca al menos un idioma podrá entenderlo si lo escucha hablar o lo ve signar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 143
+ }
+}

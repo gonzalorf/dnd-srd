@@ -1,0 +1,29 @@
+{
+ "id": "armor.media-armadura",
+ "name": "Media armadura",
+ "kind": "armor",
+ "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Media armadura",
+  "Clase de armadura (CA)": "15 + modificador por Des (máx. 2)",
+  "Fuerza": "—",
+  "Sigilo": "Desventaja",
+  "Peso": "20 kg",
+  "Precio": "750 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "20 kg",
+  "kg": 20.0
+ },
+ "price": {
+  "raw": "750 po",
+  "amount": 750.0,
+  "coin": "po",
+  "gp": 750.0
+ }
+}

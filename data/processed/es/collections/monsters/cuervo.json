@@ -1,0 +1,94 @@
+{
+ "id": "monster.cuervo",
+ "name": "Cuervo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 383
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "2 (1d4)",
+  "average": 2,
+  "formula": "1d4"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 15.0
+ },
+ "skills": {
+  "Percepción": 3
+ },
+ "senses": {
+  "raw": "Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Imitación",
+   "md": "***Imitación.*** El cuervo puede imitar sonidos sencillos que haya escuchado, como un susurro o un trino. Alguien que lo escuche podrá darse cuenta de que son imitaciones si supera una prueba de Sabiduría (Perspicacia) con CD 10.",
+   "page": 383,
+   "description": "El cuervo puede imitar sonidos sencillos que haya escuchado, como un susurro o un trino. Alguien que lo escuche podrá darse cuenta de que son imitaciones si supera una prueba de Sabiduría (Perspicacia) con CD 10."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Pico",
+   "md": "***Pico.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante.",
+   "page": 383,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 1 de daño perforante."
+  }
+ ]
+}

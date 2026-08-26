@@ -1,0 +1,61 @@
+{
+ "id": "spell.enganar",
+ "name": "Engañar",
+ "level": 5,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "S",
+  "v": false,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Obtienes el estado de invisible al mismo tiempo que un doble ilusorio de ti aparece en tu sitio. El doble permanece hasta que termine el conjuro, pero la invisibilidad acaba de inmediato después de que hagas una tirada de ataque, causes daño o lances un conjuro.\n\nComo acción de magia, puedes hacer que tu doble ilusorio se mueva hasta el doble de tu velocidad y hacer que realice gestos, hable y se comporte del modo que quieras. El doble es intangible e invulnerable.\n\nPuedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su ubicación.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Obtienes el estado de invisible al mismo tiempo que un doble ilusorio de ti aparece en tu sitio. El doble permanece hasta que termine el conjuro, pero la invisibilidad acaba de inmediato después de que hagas una tirada de ataque, causes daño o lances un conjuro.",
+   "text": "Obtienes el estado de invisible al mismo tiempo que un doble ilusorio de ti aparece en tu sitio. El doble permanece hasta que termine el conjuro, pero la invisibilidad acaba de inmediato después de que hagas una tirada de ataque, causes daño o lances un conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Como acción de magia, puedes hacer que tu doble ilusorio se mueva hasta el doble de tu velocidad y hacer que realice gestos, hable y se comporte del modo que quieras. El doble es intangible e invulnerable.",
+   "text": "Como acción de magia, puedes hacer que tu doble ilusorio se mueva hasta el doble de tu velocidad y hacer que realice gestos, hable y se comporte del modo que quieras. El doble es intangible e invulnerable."
+  },
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Puedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su ubicación.",
+   "text": "Puedes ver a través de sus ojos y oír con sus oídos como si estuvieras en su ubicación."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 145
+ }
+}

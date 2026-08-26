@@ -1,0 +1,41 @@
+{
+ "id": "item.anillo-de-almacenamiento-de-conjuros",
+ "name": "Anillo de almacenamiento de conjuros",
+ "category": "Anillo",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Anillo, raro (requiere sintonización)",
+ "text": "Este anillo almacena los conjuros que se lanzan sobre él y los conserva hasta que el portador sintonizado decida usarlos. El anillo puede guardar conjuros con un valor de hasta 5 niveles. Cuando lo encuentres, contendrá 1d6 − 1 niveles de conjuros almacenados, a elección de tu GM.\n\nCualquier criatura puede lanzar un conjuro de niveles 1 a 5 sobre el anillo si lo toca mientras lanza el conjuro. El único efecto que tendrá el conjuro es que quedará almacenado en el anillo. Si el anillo no puede albergarlo, el conjuro se gastará sin efecto.\n\nEl nivel del espacio utilizado para lanzar el conjuro determina cuánto espacio utiliza.\n\nMientras lleves puesto este anillo, podrás lanzar cualquiera de los conjuros almacenados. El conjuro utiliza el nivel del espacio, la CD de salvación de conjuros, el bonificador de ataque de conjuros y la aptitud mágica del lanzador original, pero, por lo demás, funciona como si tú lo hubieses lanzado. El conjuro lanzado desde el anillo deja de estar almacenado en él, por lo que deja espacio libre.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Este anillo almacena los conjuros que se lanzan sobre él y los conserva hasta que el portador sintonizado decida usarlos. El anillo puede guardar conjuros con un valor de hasta 5 niveles. Cuando lo encuentres, contendrá 1d6 − 1 niveles de conjuros almacenados, a elección de tu GM.",
+   "text": "Este anillo almacena los conjuros que se lanzan sobre él y los conserva hasta que el portador sintonizado decida usarlos. El anillo puede guardar conjuros con un valor de hasta 5 niveles. Cuando lo encuentres, contendrá 1d6 − 1 niveles de conjuros almacenados, a elección de tu GM."
+  },
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Cualquier criatura puede lanzar un conjuro de niveles 1 a 5 sobre el anillo si lo toca mientras lanza el conjuro. El único efecto que tendrá el conjuro es que quedará almacenado en el anillo. Si el anillo no puede albergarlo, el conjuro se gastará sin efecto.",
+   "text": "Cualquier criatura puede lanzar un conjuro de niveles 1 a 5 sobre el anillo si lo toca mientras lanza el conjuro. El único efecto que tendrá el conjuro es que quedará almacenado en el anillo. Si el anillo no puede albergarlo, el conjuro se gastará sin efecto."
+  },
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "El nivel del espacio utilizado para lanzar el conjuro determina cuánto espacio utiliza.",
+   "text": "El nivel del espacio utilizado para lanzar el conjuro determina cuánto espacio utiliza."
+  },
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Mientras lleves puesto este anillo, podrás lanzar cualquiera de los conjuros almacenados. El conjuro utiliza el nivel del espacio, la CD de salvación de conjuros, el bonificador de ataque de conjuros y la aptitud mágica del lanzador original, pero, por lo demás, funciona como si tú lo hubieses lanzado. El conjuro lanzado desde el anillo deja de estar almacenado en él, por lo que deja espacio libre.",
+   "text": "Mientras lleves puesto este anillo, podrás lanzar cualquiera de los conjuros almacenados. El conjuro utiliza el nivel del espacio, la CD de salvación de conjuros, el bonificador de ataque de conjuros y la aptitud mágica del lanzador original, pero, por lo demás, funciona como si tú lo hubieses lanzado. El conjuro lanzado desde el anillo deja de estar almacenado en él, por lo que deja espacio libre."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "spell.localizar-animales-o-plantas",
+ "name": "Localizar animales o plantas",
+ "level": 2,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (pelaje de un sabueso)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "pelaje de un sabueso",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Describe o nombra un tipo concreto de bestia, criatura de tipo “planta” o planta no mágica. Descubres la dirección y la distancia hasta la criatura o la planta de ese tipo más cercana que esté a 7,5 km o menos, siempre y cuando haya alguna.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Describe o nombra un tipo concreto de bestia, criatura de tipo “planta” o planta no mágica. Descubres la dirección y la distancia hasta la criatura o la planta de ese tipo más cercana que esté a 7,5 km o menos, siempre y cuando haya alguna.",
+   "text": "Describe o nombra un tipo concreto de bestia, criatura de tipo “planta” o planta no mágica. Descubres la dirección y la distancia hasta la criatura o la planta de ese tipo más cercana que esté a 7,5 km o menos, siempre y cuando haya alguna."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 162
+ }
+}

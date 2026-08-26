@@ -1,0 +1,44 @@
+{
+ "id": "table.consumo-de-agua-al-dia",
+ "caption": "Consumo de agua al día",
+ "header": [
+  "Tamaño",
+  "Agua"
+ ],
+ "rows": [
+  [
+   "Diminuto",
+   "1 l"
+  ],
+  [
+   "Pequeño",
+   "4 l"
+  ],
+  [
+   "Mediano",
+   "4 l"
+  ],
+  [
+   "Grande",
+   "16 l"
+  ],
+  [
+   "Enorme",
+   "64 l"
+  ],
+  [
+   "Gargantuesco",
+   "256 l"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Glosario de reglas",
+  "Definiciones de las reglas",
+  "Deshidratación [peligro]"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

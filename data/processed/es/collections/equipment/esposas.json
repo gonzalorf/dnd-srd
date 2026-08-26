@@ -1,0 +1,42 @@
+{
+ "id": "gear.esposas",
+ "name": "Esposas",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Esposas",
+  "Peso": "3 kg",
+  "Precio": "2 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "3 kg",
+  "kg": 3.0
+ },
+ "price": {
+  "raw": "2 po",
+  "amount": 2.0,
+  "coin": "po",
+  "gp": 2.0
+ },
+ "text": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción.\n\nCada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción.",
+   "text": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción."
+  },
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15.",
+   "text": "Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15."
+  }
+ ],
+ "descriptionPage": 105
+}

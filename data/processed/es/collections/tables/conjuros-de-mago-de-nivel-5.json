@@ -1,0 +1,136 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-5",
+ "caption": "Conjuros de mago de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Alterar los recuerdos",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Animar objetos",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Apariencia",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Atadura planar",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Círculo de teletransportación",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Cono de frío",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Conocer las leyendas",
+   "Adivinación",
+   "M"
+  ],
+  [
+   "Contactar con otro plano",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Creación",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Dominar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Engañar",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Enlace telepático",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Ensueño",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Escudriñar",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Geas",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Inmovilizar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Invocar dragón",
+   "Conjuración",
+   "C, M"
+  ],
+  [
+   "Mano arcana",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Muro de fuerza",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Muro de piedra",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Nube aniquiladora",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Pasamuros",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Telequinesis",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 75
+ }
+}

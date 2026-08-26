@@ -1,0 +1,17 @@
+{
+ "id": "rule.accion-adicional",
+ "name": "Acción adicional",
+ "text": "Una acción adicional es una acción especial que puedes hacer en el mismo turno en que llevas a cabo una acción. No puedes realizar más de una acción adicional en un turno y solo tienes acciones adicionales a tu disposición si una regla lo indica de forma explícita. Consulta también el capítulo “Cómo jugar” (“Acciones”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 194,
+   "md": "Una acción adicional es una acción especial que puedes hacer en el mismo turno en que llevas a cabo una acción. No puedes realizar más de una acción adicional en un turno y solo tienes acciones adicionales a tu disposición si una regla lo indica de forma explícita. *Consulta también* el capítulo “Cómo jugar” (“Acciones”).",
+   "text": "Una acción adicional es una acción especial que puedes hacer en el mismo turno en que llevas a cabo una acción. No puedes realizar más de una acción adicional en un turno y solo tienes acciones adicionales a tu disposición si una regla lo indica de forma explícita. Consulta también el capítulo “Cómo jugar” (“Acciones”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 194
+ }
+}

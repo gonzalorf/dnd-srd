@@ -1,0 +1,44 @@
+{
+ "id": "table.atributos-basicos-de-hechicero",
+ "caption": "Atributos básicos de hechicero",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Carisma"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d6 por nivel de hechicero"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Constitución y Carisma"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige dos: Conocimiento arcano, Engaño, Intimidación, Perspicacia, Persuasión o Religión"
+  ],
+  [
+   "Competencias con armas",
+   "Amas sencillas"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Ninguna"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) lanza, 2 dagas, canalizador arcano (cristal), paquete de explorador de mazmorras y 28 po, o (B) 50 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 64
+ }
+}

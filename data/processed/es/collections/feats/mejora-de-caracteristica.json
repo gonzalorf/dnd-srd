@@ -1,0 +1,30 @@
+{
+ "id": "feat.mejora-de-caracteristica",
+ "name": "Mejora de característica",
+ "text": "Dote general (requisitos: nivel 4 o más)\n\nAumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20.\n\nRepetible. Puedes elegir esta dote más de una vez.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote general (requisitos: nivel 4 o más)*",
+   "text": "Dote general (requisitos: nivel 4 o más)"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Aumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20.",
+   "text": "Aumenta en 2 una puntuación de característica que elijas o aumenta dos en 1 cada una. Esta dote no puede aumentar una puntuación de característica por encima de 20."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Repetible.*** Puedes elegir esta dote más de una vez.",
+   "text": "Repetible. Puedes elegir esta dote más de una vez."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes generales"
+}

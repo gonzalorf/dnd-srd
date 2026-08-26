@@ -1,0 +1,32 @@
+{
+ "id": "item.pocion-de-leer-mentes",
+ "name": "Poción de leer mentes",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, rara",
+ "text": "Cuando bebas esta poción, obtendrás el efecto del conjuro detectar pensamientos (CD de salvación 13) durante 10 minutos (no requiere concentración).\n\nEn el líquido denso y morado de esta poción flota una nube rosa ovoide.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, obtendrás el efecto del conjuro *detectar pensamientos* (CD de salvación 13) durante 10 minutos (no requiere concentración).",
+   "text": "Cuando bebas esta poción, obtendrás el efecto del conjuro detectar pensamientos (CD de salvación 13) durante 10 minutos (no requiere concentración)."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "En el líquido denso y morado de esta poción flota una nube rosa ovoide.",
+   "text": "En el líquido denso y morado de esta poción flota una nube rosa ovoide."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ },
+ "refs": [
+  "spell.detectar-pensamientos"
+ ]
+}

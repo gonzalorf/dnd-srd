@@ -1,0 +1,115 @@
+{
+ "id": "monster.guerrero-veterano",
+ "name": "Guerrero veterano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 335,
+  "pages": [
+   335,
+   336
+  ]
+ },
+ "context": [
+  "Guerreros"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "65 (10d8 + 20)",
+  "average": 65,
+  "formula": "10d8 + 20"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Atletismo": 5,
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "gear": [
+  "armadura de bandas",
+  "ballesta pesada",
+  "espadón"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El guerrero realiza dos ataques con su espadón o su ballesta pesada.",
+   "page": 336,
+   "description": "El guerrero realiza dos ataques con su espadón o su ballesta pesada."
+  },
+  {
+   "name": "Espadón",
+   "md": "***Espadón.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante.",
+   "page": 336,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño cortante."
+  },
+  {
+   "name": "Ballesta pesada",
+   "md": "***Ballesta pesada.*** *Tirada de ataque a distancia:* +3, alcance 30/120 m. *Acierto:* 12 (2d10 + 1) de daño perforante.",
+   "page": 336,
+   "description": "*Tirada de ataque a distancia:* +3, alcance 30/120 m. *Acierto:* 12 (2d10 + 1) de daño perforante."
+  }
+ ],
+ "reactions": [
+  {
+   "name": "Parada",
+   "md": "***Parada.*** *Detonante:* una tirada de ataque cuerpo a cuerpo acierta al guerrero mientras sostiene un arma. *Respuesta:* el guerrero suma 2 a su CA contra ese ataque, lo que puede hacer que falle.",
+   "page": 336,
+   "description": "*Detonante:* una tirada de ataque cuerpo a cuerpo acierta al guerrero mientras sostiene un arma. *Respuesta:* el guerrero suma 2 a su CA contra ese ataque, lo que puede hacer que falle."
+  }
+ ]
+}

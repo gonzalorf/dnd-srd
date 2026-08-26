@@ -1,0 +1,53 @@
+{
+ "id": "spell.rayo-de-escarcha",
+ "name": "Rayo de escarcha",
+ "level": 0,
+ "cantrip": true,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de daño de frío y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.\n\nMejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de daño de frío y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.",
+   "text": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de daño de frío y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 178,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+   "text": "Mejora de truco. El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 178
+ }
+}

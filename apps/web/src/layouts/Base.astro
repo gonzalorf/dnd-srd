@@ -1,0 +1,56 @@
+---
+/**
+ * Plantilla única del sitio.
+ *
+ * Sin framework de UI y sin JavaScript salvo en la página de búsqueda: lo que
+ * se sirve es HTML con una hoja de estilos. Eso es lo que permite alojarlo en
+ * cualquier hosting de ficheros y lo que hace que abra rápido en un lector
+ * lento o con la conexión justa.
+ */
+export interface Props {
+  title: string;
+  page?: number;
+  subtitle?: string;
+}
+const { title, page, subtitle } = Astro.props;
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — SRD 5.2.1</title>
+    <meta name="description" content={subtitle ?? `${title}. Documento de referencia del sistema 5.2.1 en español.`} />
+    <link rel="stylesheet" href="/estilos.css" />
+  </head>
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="cabecera">
+      <a class="marca" href="/">SRD 5.2.1</a>
+      <nav>
+        <a href="/libro/" class={path.startsWith("/libro") ? "activo" : ""}>Libro</a>
+        <a href="/conjuros/" class={path.startsWith("/conjuros") ? "activo" : ""}>Conjuros</a>
+        <a href="/monstruos/" class={path.startsWith("/monstruos") ? "activo" : ""}>Monstruos</a>
+        <a href="/objetos/" class={path.startsWith("/objetos") ? "activo" : ""}>Objetos</a>
+        <a href="/buscar/" class={path.startsWith("/buscar") ? "activo" : ""}>Buscar</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <h1>{title}</h1>
+      {page && <p class="pagina-origen">Página {page} del PDF</p>}
+      <slot />
+    </main>
+
+    <footer class="pie">
+      <p>
+        Contenido del <strong>System Reference Document 5.2.1</strong> de Wizards of the Coast LLC,
+        bajo <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>.
+      </p>
+      <p>Cada fragmento indica su página en el PDF original.</p>
+    </footer>
+  </body>
+</html>

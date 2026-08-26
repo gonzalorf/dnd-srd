@@ -1,0 +1,29 @@
+{
+ "id": "armor.armadura-de-pieles",
+ "name": "Armadura de pieles",
+ "kind": "armor",
+ "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Armadura de pieles",
+  "Clase de armadura (CA)": "12 + modificador por Des (máx. 2)",
+  "Fuerza": "—",
+  "Sigilo": "—",
+  "Peso": "6 kg",
+  "Precio": "10 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "6 kg",
+  "kg": 6.0
+ },
+ "price": {
+  "raw": "10 po",
+  "amount": 10.0,
+  "coin": "po",
+  "gp": 10.0
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "id": "monster.mephit-de-hielo",
+ "name": "Mephit de hielo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 349
+ },
+ "context": [
+  "Mephits"
+ ],
+ "metaRaw": "Elemental Pequeño, neutral malvado",
+ "type": "Elemental",
+ "alignment": "neutral malvado",
+ "size": "Pequeño",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "21 (6d6)",
+  "average": 21,
+  "formula": "6d6"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Percepción": 2,
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "primordial (acuano",
+  "aurano)"
+ ],
+ "immunities": [
+  "frío",
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Explotar al morir",
+   "md": "***Explotar al morir.*** El mephit explota cuando muere. *Tirada de salvación de Constitución:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño de frío. *Éxito:* la mitad del daño.",
+   "page": 349,
+   "description": "El mephit explota cuando muere. *Tirada de salvación de Constitución:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño de frío. *Éxito:* la mitad del daño."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 2 (1d4) de daño de frío.",
+   "page": 349,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 3 (1d4 + 1) de daño cortante más 2 (1d4) de daño de frío."
+  },
+  {
+   "name": "Aliento de escarcha",
+   "md": "***Aliento de escarcha (recarga 6).*** *Tirada de salvación de Constitución:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* 7 (3d4) de daño de frío. *Éxito:* la mitad del daño.",
+   "page": 349,
+   "description": "*Tirada de salvación de Constitución:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* 7 (3d4) de daño de frío. *Éxito:* la mitad del daño.",
+   "uses": "recarga 6"
+  },
+  {
+   "name": "Nube de oscurecimiento",
+   "md": "***Nube de oscurecimiento (1/día).*** El mephit lanza *nube de oscurecimiento*, que no requiere componentes y utiliza el Carisma como aptitud mágica.",
+   "page": 349,
+   "description": "El mephit lanza *nube de oscurecimiento*, que no requiere componentes y utiliza el Carisma como aptitud mágica.",
+   "uses": "1/día"
+  }
+ ],
+ "refs": [
+  "spell.nube-de-oscurecimiento"
+ ]
+}

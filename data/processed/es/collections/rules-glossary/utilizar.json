@@ -1,0 +1,18 @@
+{
+ "id": "rule.utilizar",
+ "name": "Utilizar",
+ "text": "Normalmente, interactúas con un objeto mientras haces otra cosa, como cuando desenvainas una espada como parte de una acción de atacar. Si quieres utilizar un objeto que requiera una acción para ello, tendrás que llevar a cabo la acción de utilizar.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 209,
+   "md": "Normalmente, interactúas con un objeto mientras haces otra cosa, como cuando desenvainas una espada como parte de una acción de atacar. Si quieres utilizar un objeto que requiera una acción para ello, tendrás que llevar a cabo la acción de utilizar.",
+   "text": "Normalmente, interactúas con un objeto mientras haces otra cosa, como cuando desenvainas una espada como parte de una acción de atacar. Si quieres utilizar un objeto que requiera una acción para ello, tendrás que llevar a cabo la acción de utilizar."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 209
+ },
+ "kind": "acción"
+}

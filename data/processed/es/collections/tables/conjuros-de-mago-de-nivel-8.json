@@ -1,0 +1,81 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-8",
+ "caption": "Conjuros de mago de nivel 8",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Antipatía/simpatía",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Campo antimagia",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Clon",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Controlar el clima",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Dominar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Explosión solar",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Laberinto",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Mente en blanco",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Nube incendiaria",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Ofuscación",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Palabra de poder: aturdir",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Semiplano",
+   "Conjuración",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 76
+ }
+}

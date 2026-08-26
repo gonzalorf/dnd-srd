@@ -1,0 +1,171 @@
+{
+ "id": "monster.kraken",
+ "name": "Kraken",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 343,
+  "pages": [
+   343,
+   344
+  ]
+ },
+ "context": [
+  "Kraken"
+ ],
+ "metaRaw": "Monstruosidad Gargantuesca (titán), caótica malvada",
+ "type": "Monstruosidad",
+ "alignment": "caótica malvada",
+ "size": "Gargantuesco",
+ "tags": [
+  "titán"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "481 (26d20 + 208)",
+  "average": 481,
+  "formula": "26d20 + 208"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 36.0
+ },
+ "skills": {
+  "Historia": 13,
+  "Percepción": 11
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 21",
+  "passivePerception": 21
+ },
+ "languages": [
+  "entiende abisal",
+  "celestial",
+  "infernal y primordial",
+  "pero no puede hablar",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "frío",
+  "relámpago",
+  "agarrado",
+  "apresado",
+  "asustado",
+  "paralizado"
+ ],
+ "challenge": {
+  "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+  "cr": 23,
+  "xp": 50000,
+  "proficiencyBonus": 7,
+  "xpInLair": 62000
+ },
+ "abilities": {
+  "fue": {
+   "score": 30,
+   "mod": 10,
+   "save": 17
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 7
+  },
+  "con": {
+   "score": 26,
+   "mod": 8,
+   "save": 15
+  },
+  "int": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "sab": {
+   "score": 18,
+   "mod": 4,
+   "save": 11
+  },
+  "car": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El kraken puede respirar tanto dentro como fuera del agua.",
+   "page": 343,
+   "description": "El kraken puede respirar tanto dentro como fuera del agua."
+  },
+  {
+   "name": "Monstruo de asedio",
+   "md": "***Monstruo de asedio.*** El kraken inflige el doble de daño a objetos y estructuras.",
+   "page": 343,
+   "description": "El kraken inflige el doble de daño a objetos y estructuras."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El kraken puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 343,
+   "description": "El kraken puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El kraken realiza dos ataques con sus tentáculos y lleva a cabo una acción de engullir, lanzar o relámpago.",
+   "page": 343,
+   "description": "El kraken realiza dos ataques con sus tentáculos y lleva a cabo una acción de engullir, lanzar o relámpago."
+  },
+  {
+   "name": "Tentáculo",
+   "md": "***Tentáculo.*** *Tirada de ataque cuerpo a cuerpo:* +17, alcance 9 m. *Acierto:* 24 (4d6 + 10) de daño contundente. El objetivo tendrá el estado de agarrado (CD 20 para escapar) por uno de los diez tentáculos y el de apresado hasta que el agarre termine.",
+   "page": 343,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +17, alcance 9 m. *Acierto:* 24 (4d6 + 10) de daño contundente. El objetivo tendrá el estado de agarrado (CD 20 para escapar) por uno de los diez tentáculos y el de apresado hasta que el agarre termine."
+  },
+  {
+   "name": "Engullir",
+   "md": "***Engullir.*** *Tirada de salvación de Destreza:* CD 25, una criatura agarrada por el kraken (puede tener hasta cuatro criaturas engullidas a la vez). *Fallo:* 23 (3d8 + 10) de daño perforante. Si el objetivo es Grande o más pequeño, será engullido y dejará de estar agarrado. Una criatura engullida tendrá el estado de apresada, tendrá cobertura completa contra los ataques y otros efectos fuera del kraken y recibirá 24 (7d6) de daño de ácido al principio de cada uno de sus propios turnos. Si el kraken sufre 50 o más de daño en un solo turno por parte de una criatura que esté dentro de él, deberá superar una tirada de salvación de Constitución con CD 25 al final de ese turno o regurgitará a todas las criaturas engullidas, que caerán en espacios a 3 m o menos del kraken y tendrán el estado de derribadas. Si el kraken muere, cualquier criatura engullida dejará de tener el estado de apresada y podrá gastar 4,5 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada.",
+   "page": 343,
+   "description": "*Tirada de salvación de Destreza:* CD 25, una criatura agarrada por el kraken (puede tener hasta cuatro criaturas engullidas a la vez). *Fallo:* 23 (3d8 + 10) de daño perforante. Si el objetivo es Grande o más pequeño, será engullido y dejará de estar agarrado. Una criatura engullida tendrá el estado de apresada, tendrá cobertura completa contra los ataques y otros efectos fuera del kraken y recibirá 24 (7d6) de daño de ácido al principio de cada uno de sus propios turnos. Si el kraken sufre 50 o más de daño en un solo turno por parte de una criatura que esté dentro de él, deberá superar una tirada de salvación de Constitución con CD 25 al final de ese turno o regurgitará a todas las criaturas engullidas, que caerán en espacios a 3 m o menos del kraken y tendrán el estado de derribadas. Si el kraken muere, cualquier criatura engullida dejará de tener el estado de apresada y podrá gastar 4,5 m de movimiento para escapar del cadáver, del que saldrá con el estado de derribada."
+  },
+  {
+   "name": "Lanzar",
+   "md": "***Lanzar.*** El kraken lanza una criatura Grande o más pequeña que tenga agarrada a un espacio que pueda ver a 18 m o menos de él que no esté en el aire. *Tirada de salvación de Destreza:* CD 25, la criatura lanzada y todas las criaturas en el espacio de destino. *Fallo:* 18 (4d8) de daño contundente y el objetivo tiene el estado de derribado. *Éxito:* solo la mitad del daño.",
+   "page": 343,
+   "description": "El kraken lanza una criatura Grande o más pequeña que tenga agarrada a un espacio que pueda ver a 18 m o menos de él que no esté en el aire. *Tirada de salvación de Destreza:* CD 25, la criatura lanzada y todas las criaturas en el espacio de destino. *Fallo:* 18 (4d8) de daño contundente y el objetivo tiene el estado de derribado. *Éxito:* solo la mitad del daño."
+  },
+  {
+   "name": "Relámpago",
+   "md": "***Relámpago.*** *Tirada de salvación de Destreza:* CD 23, una criatura que el kraken pueda ver a 36 m o menos. *Fallo:* 33 (6d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 344,
+   "description": "*Tirada de salvación de Destreza:* CD 23, una criatura que el kraken pueda ver a 36 m o menos. *Fallo:* 33 (6d10) de daño de relámpago. *Éxito:* la mitad del daño."
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Golpe de tormenta",
+    "md": "***Golpe de tormenta.*** El kraken utiliza su relámpago.",
+    "page": 344,
+    "description": "El kraken utiliza su relámpago."
+   },
+   {
+    "name": "Tinta tóxica",
+    "md": "***Tinta tóxica.*** *Tirada de salvación de Constitución:* CD 23, todas las criaturas en una emanación de 4,5 m que se origina en el kraken mientras esté bajo el agua. *Fallo:* el objetivo tendrá los estados de cegado y envenenado hasta el final del siguiente turno del kraken. Después, el kraken se mueve hasta su velocidad. *Fallo o éxito:* el kraken no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 344,
+    "description": "*Tirada de salvación de Constitución:* CD 23, todas las criaturas en una emanación de 4,5 m que se origina en el kraken mientras esté bajo el agua. *Fallo:* el objetivo tendrá los estados de cegado y envenenado hasta el final del siguiente turno del kraken. Después, el kraken se mueve hasta su velocidad. *Fallo o éxito:* el kraken no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el kraken puede emplear un uso para llevar a cabo una de las siguientes acciones. El kraken recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ }
+}

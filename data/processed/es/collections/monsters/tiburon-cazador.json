@@ -1,0 +1,94 @@
+{
+ "id": "monster.tiburon-cazador",
+ "name": "Tiburón cazador",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 396
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "45 (6d10 + 12)",
+  "average": 45,
+  "formula": "6d10 + 12"
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "nadar": 12.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "visión ciega 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Respirar en el agua",
+   "md": "***Respirar en el agua.*** El tiburón solo puede respirar bajo el agua.",
+   "page": 396,
+   "description": "El tiburón solo puede respirar bajo el agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +6 (con ventaja si el objetivo no tiene todos sus puntos de golpe), alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño perforante.",
+   "page": 396,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6 (con ventaja si el objetivo no tiene todos sus puntos de golpe), alcance 1,5 m. *Acierto:* 14 (3d6 + 4) de daño perforante."
+  }
+ ]
+}

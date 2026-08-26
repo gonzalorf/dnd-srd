@@ -1,0 +1,2984 @@
+[
+ {
+  "id": "weapon.baston",
+  "name": "Bastón",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.daga",
+  "name": "Daga",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.garrote",
+  "name": "Garrote",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.garrote-grande",
+  "name": "Garrote grande",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.hacha-de-mano",
+  "name": "Hacha de mano",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.hoz",
+  "name": "Hoz",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.jabalina",
+  "name": "Jabalina",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.lanza",
+  "name": "Lanza",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.martillo-ligero",
+  "name": "Martillo ligero",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.maza",
+  "name": "Maza",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.arco-corto",
+  "name": "Arco corto",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.ballesta-ligera",
+  "name": "Ballesta ligera",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.dardo",
+  "name": "Dardo",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.honda",
+  "name": "Honda",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.alabarda",
+  "name": "Alabarda",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.cimitarra",
+  "name": "Cimitarra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.espada-corta",
+  "name": "Espada corta",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.espada-larga",
+  "name": "Espada larga",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.espadon",
+  "name": "Espadón",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.estoque",
+  "name": "Estoque",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.guja",
+  "name": "Guja",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.hacha-a-dos-manos",
+  "name": "Hacha a dos manos",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.hacha-de-guerra",
+  "name": "Hacha de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.lanza-de-caballeria",
+  "name": "Lanza de caballería",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.latigo",
+  "name": "Látigo",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.lucero-del-alba",
+  "name": "Lucero del alba",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.mangual",
+  "name": "Mangual",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.martillo-de-guerra",
+  "name": "Martillo de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.maza-a-dos-manos",
+  "name": "Maza a dos manos",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.pica",
+  "name": "Pica",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "9 kg",
+   "kg": 9.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.pico-de-guerra",
+  "name": "Pico de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.tridente",
+  "name": "Tridente",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.arco-largo",
+  "name": "Arco largo",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.ballesta-de-mano",
+  "name": "Ballesta de mano",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.ballesta-pesada",
+  "name": "Ballesta pesada",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "9 kg",
+   "kg": 9.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.cerbatana",
+  "name": "Cerbatana",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.mosquete",
+  "name": "Mosquete",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "500 po",
+   "amount": 500.0,
+   "coin": "po",
+   "gp": 500.0
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 99
+ },
+ {
+  "id": "weapon.pistola",
+  "name": "Pistola",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "price": {
+   "raw": "250 po",
+   "amount": 250.0,
+   "coin": "po",
+   "gp": 250.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 99
+ },
+ {
+  "id": "armor.armadura-acolchada",
+  "name": "Armadura acolchada",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "4 kg",
+   "kg": 4.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.armadura-de-cuero",
+  "name": "Armadura de cuero",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.armadura-de-cuero-tachonado",
+  "name": "Armadura de cuero tachonado",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "price": {
+   "raw": "45 po",
+   "amount": 45.0,
+   "coin": "po",
+   "gp": 45.0
+  },
+  "weight": {
+   "raw": "6,5 kg",
+   "kg": 6.5
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.armadura-de-pieles",
+  "name": "Armadura de pieles",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "6 kg",
+   "kg": 6.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.camisa-de-malla",
+  "name": "Camisa de malla",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.cota-de-escamas",
+  "name": "Cota de escamas",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "22,5 kg",
+   "kg": 22.5
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.coraza",
+  "name": "Coraza",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "price": {
+   "raw": "400 po",
+   "amount": 400.0,
+   "coin": "po",
+   "gp": 400.0
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.media-armadura",
+  "name": "Media armadura",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "price": {
+   "raw": "750 po",
+   "amount": 750.0,
+   "coin": "po",
+   "gp": 750.0
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.cota-guarnecida",
+  "name": "Cota guarnecida",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.cota-de-malla",
+  "name": "Cota de malla",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.armadura-de-bandas",
+  "name": "Armadura de bandas",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "price": {
+   "raw": "200 po",
+   "amount": 200.0,
+   "coin": "po",
+   "gp": 200.0
+  },
+  "weight": {
+   "raw": "30 kg",
+   "kg": 30.0
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.armadura-de-placas",
+  "name": "Armadura de placas",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "price": {
+   "raw": "1500 po",
+   "amount": 1500.0,
+   "coin": "po",
+   "gp": 1500.0
+  },
+  "weight": {
+   "raw": "32,5 kg",
+   "kg": 32.5
+  },
+  "page": 100
+ },
+ {
+  "id": "armor.escudo",
+  "name": "Escudo",
+  "kind": "armor",
+  "group": "Escudos (acción de utilizar para ponérselos o quitárselos)",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 100
+ },
+ {
+  "id": "gear.abrojos",
+  "name": "Abrojos",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.aceite",
+  "name": "Aceite",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.acido",
+  "name": "Ácido",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.agua-bendita",
+  "name": "Agua bendita",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.aljaba",
+  "name": "Aljaba",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.antitoxina",
+  "name": "Antitoxina",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.antorcha",
+  "name": "Antorcha",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.ariete-portatil",
+  "name": "Ariete portátil",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "4 po",
+   "amount": 4.0,
+   "coin": "po",
+   "gp": 4.0
+  },
+  "weight": {
+   "raw": "17,5 kg",
+   "kg": 17.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.barril",
+  "name": "Barril",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "35 kg",
+   "kg": 35.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.bolas-de-metal",
+  "name": "Bolas de metal",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.bolsa",
+  "name": "Bolsa",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.botella-de-cristal",
+  "name": "Botella de cristal",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cadena",
+  "name": "Cadena",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.campana",
+  "name": "Campana",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.canalizador-arcano",
+  "name": "Canalizador arcano",
+  "kind": "gear",
+  "group": null,
+  "page": 103
+ },
+ {
+  "id": "gear.canalizador-druidico",
+  "name": "Canalizador druídico",
+  "kind": "gear",
+  "group": null,
+  "page": 103
+ },
+ {
+  "id": "gear.cantimplora",
+  "name": "Cantimplora",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.catalejo",
+  "name": "Catalejo",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1000 po",
+   "amount": 1000.0,
+   "coin": "po",
+   "gp": 1000.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cerradura",
+  "name": "Cerradura",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cesta",
+  "name": "Cesta",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "4 pp",
+   "amount": 4.0,
+   "coin": "pp",
+   "gp": 0.4
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cofre",
+  "name": "Cofre",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cordel",
+  "name": "Cordel",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cubo",
+  "name": "Cubo",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.cuerda",
+  "name": "Cuerda",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.disfraz",
+  "name": "Disfraz",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.escalera",
+  "name": "Escalera",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.espejo",
+  "name": "Espejo",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.esposas",
+  "name": "Esposas",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.estuche-para-mapas-o-pergaminos",
+  "name": "Estuche para mapas o pergaminos",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.estuche-para-virotes-de-ballesta",
+  "name": "Estuche para virotes de ballesta",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.frasco",
+  "name": "Frasco",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.fuego-de-alquimista",
+  "name": "Fuego de alquimista",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.garfio-de-escalada",
+  "name": "Garfio de escalada",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.jarro",
+  "name": "Jarro",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.lampara",
+  "name": "Lámpara",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.libro",
+  "name": "Libro",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.linterna-de-ojo-de-buey",
+  "name": "Linterna de ojo de buey",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.linterna-sorda",
+  "name": "Linterna sorda",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.lupa",
+  "name": "Lupa",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.manta",
+  "name": "Manta",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.mapa",
+  "name": "Mapa",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.mochila",
+  "name": "Mochila",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.municion",
+  "name": "Munición",
+  "kind": "gear",
+  "group": null,
+  "page": 103
+ },
+ {
+  "id": "gear.olla-de-hierro",
+  "name": "Olla de hierro",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pala",
+  "name": "Pala",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.palanqueta",
+  "name": "Palanqueta",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.papel",
+  "name": "Papel",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-artista",
+  "name": "Paquete de artista",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "40 po",
+   "amount": 40.0,
+   "coin": "po",
+   "gp": 40.0
+  },
+  "weight": {
+   "raw": "29,25 kg",
+   "kg": 29.25
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-diplomatico",
+  "name": "Paquete de diplomático",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "39 po",
+   "amount": 39.0,
+   "coin": "po",
+   "gp": 39.0
+  },
+  "weight": {
+   "raw": "19,5 kg",
+   "kg": 19.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-erudito",
+  "name": "Paquete de erudito",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "40 po",
+   "amount": 40.0,
+   "coin": "po",
+   "gp": 40.0
+  },
+  "weight": {
+   "raw": "11 kg",
+   "kg": 11.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-explorador",
+  "name": "Paquete de explorador",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-explorador-de-mazmorras",
+  "name": "Paquete de explorador de mazmorras",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "12 po",
+   "amount": 12.0,
+   "coin": "po",
+   "gp": 12.0
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-ladron",
+  "name": "Paquete de ladrón",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "16 po",
+   "amount": 16.0,
+   "coin": "po",
+   "gp": 16.0
+  },
+  "weight": {
+   "raw": "21 kg",
+   "kg": 21.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.paquete-de-sacerdote",
+  "name": "Paquete de sacerdote",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "33 po",
+   "amount": 33.0,
+   "coin": "po",
+   "gp": 33.0
+  },
+  "weight": {
+   "raw": "14,5 kg",
+   "kg": 14.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.perfume",
+  "name": "Perfume",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pergamino",
+  "name": "Pergamino",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pergamino-de-conjuro-truco",
+  "name": "Pergamino de conjuro (truco)",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pergamino-de-conjuro-nivel-1",
+  "name": "Pergamino de conjuro (nivel 1)",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.petate",
+  "name": "Petate",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pluma",
+  "name": "Pluma",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.pocion-de-curacion",
+  "name": "Poción de curación",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.polipasto",
+  "name": "Polipasto",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.puntas-de-hierro",
+  "name": "Puntas de hierro",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.raciones",
+  "name": "Raciones",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.red",
+  "name": "Red",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.ropas-de-calidad",
+  "name": "Ropas de calidad",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.ropas-de-viaje",
+  "name": "Ropas de viaje",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.saco",
+  "name": "Saco",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.saquito-de-componentes",
+  "name": "Saquito de componentes",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.silbato-de-supervivencia",
+  "name": "Silbato de supervivencia",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.simbolo-sagrado",
+  "name": "Símbolo sagrado",
+  "kind": "gear",
+  "group": null,
+  "page": 103
+ },
+ {
+  "id": "gear.tienda",
+  "name": "Tienda",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.tinta",
+  "name": "Tinta",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.trampa-para-cazar",
+  "name": "Trampa para cazar",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.tunica",
+  "name": "Túnica",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.utiles-de-escalada",
+  "name": "Útiles de escalada",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "weight": {
+   "raw": "6 kg",
+   "kg": 6.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.utiles-de-sanador",
+  "name": "Útiles de sanador",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.vara",
+  "name": "Vara",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.vela",
+  "name": "Vela",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.veneno-basico",
+  "name": "Veneno básico",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.vial",
+  "name": "Vial",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 103
+ },
+ {
+  "id": "gear.yesquero",
+  "name": "Yesquero",
+  "kind": "gear",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 103
+ },
+ {
+  "id": "focus.baston",
+  "name": "Bastón",
+  "kind": "focus",
+  "group": null,
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "page": 105
+ },
+ {
+  "id": "focus.cristal",
+  "name": "Cristal",
+  "kind": "focus",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 105
+ },
+ {
+  "id": "focus.orbe",
+  "name": "Orbe",
+  "kind": "focus",
+  "group": null,
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "page": 105
+ },
+ {
+  "id": "focus.vara",
+  "name": "Vara",
+  "kind": "focus",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 105
+ },
+ {
+  "id": "focus.varita",
+  "name": "Varita",
+  "kind": "focus",
+  "group": null,
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 105
+ },
+ {
+  "id": "ammunition.balas-de-arma-de-fuego",
+  "name": "Balas de arma de fuego",
+  "kind": "ammunition",
+  "group": null,
+  "price": {
+   "raw": "3 po",
+   "amount": 3.0,
+   "coin": "po",
+   "gp": 3.0
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "page": 106
+ },
+ {
+  "id": "ammunition.dardos",
+  "name": "Dardos",
+  "kind": "ammunition",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 106
+ },
+ {
+  "id": "ammunition.flechas",
+  "name": "Flechas",
+  "kind": "ammunition",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "page": 106
+ },
+ {
+  "id": "ammunition.proyectiles-de-honda",
+  "name": "Proyectiles de honda",
+  "kind": "ammunition",
+  "group": null,
+  "price": {
+   "raw": "4 pc",
+   "amount": 4.0,
+   "coin": "pc",
+   "gp": 0.04
+  },
+  "weight": {
+   "raw": "0,75 kg",
+   "kg": 0.75
+  },
+  "page": 106
+ },
+ {
+  "id": "ammunition.virotes",
+  "name": "Virotes",
+  "kind": "ammunition",
+  "group": null,
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "weight": {
+   "raw": "0,75 kg",
+   "kg": 0.75
+  },
+  "page": 106
+ },
+ {
+  "id": "mount.caballo-de-guerra",
+  "name": "Caballo de guerra",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "400 po",
+   "amount": 400.0,
+   "coin": "po",
+   "gp": 400.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.caballo-de-monta",
+  "name": "Caballo de monta",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.caballo-de-tiro",
+  "name": "Caballo de tiro",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.camello",
+  "name": "Camello",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.elefante",
+  "name": "Elefante",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "200 po",
+   "amount": 200.0,
+   "coin": "po",
+   "gp": 200.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.mastin",
+  "name": "Mastín",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.mula",
+  "name": "Mula",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "8 po",
+   "amount": 8.0,
+   "coin": "po",
+   "gp": 8.0
+  },
+  "page": 109
+ },
+ {
+  "id": "mount.poni",
+  "name": "Poni",
+  "kind": "mount",
+  "group": null,
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.alimento-por-dia",
+  "name": "Alimento por día",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.carreta",
+  "name": "Carreta",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "weight": {
+   "raw": "100 kg",
+   "kg": 100.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.carro",
+  "name": "Carro",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "35 po",
+   "amount": 35.0,
+   "coin": "po",
+   "gp": 35.0
+  },
+  "weight": {
+   "raw": "200 kg",
+   "kg": 200.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.carro-de-guerra",
+  "name": "Carro de guerra",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "250 po",
+   "amount": 250.0,
+   "coin": "po",
+   "gp": 250.0
+  },
+  "weight": {
+   "raw": "50 kg",
+   "kg": 50.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.carruaje",
+  "name": "Carruaje",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  },
+  "weight": {
+   "raw": "300 kg",
+   "kg": 300.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.estabulado-por-dia",
+  "name": "Estabulado por día",
+  "kind": "tack",
+  "group": null,
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.de-monta",
+  "name": "De monta",
+  "kind": "tack",
+  "group": "Silla",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.exotica",
+  "name": "Exótica",
+  "kind": "tack",
+  "group": "Silla",
+  "price": {
+   "raw": "60 po",
+   "amount": 60.0,
+   "coin": "po",
+   "gp": 60.0
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.militar",
+  "name": "Militar",
+  "kind": "tack",
+  "group": "Silla",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "weight": {
+   "raw": "15 kg",
+   "kg": 15.0
+  },
+  "page": 109
+ },
+ {
+  "id": "tack.trineo",
+  "name": "Trineo",
+  "kind": "tack",
+  "group": "Silla",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "weight": {
+   "raw": "150 kg",
+   "kg": 150.0
+  },
+  "page": 109
+ },
+ {
+  "id": "vehicle.aeronave",
+  "name": "Aeronave",
+  "kind": "vehicle",
+  "group": null,
+  "page": 110
+ },
+ {
+  "id": "vehicle.barcaza",
+  "name": "Barcaza",
+  "kind": "vehicle",
+  "group": null,
+  "price": {
+   "raw": "3000 po",
+   "amount": 3000.0,
+   "coin": "po",
+   "gp": 3000.0
+  },
+  "page": 110
+ },
+ {
+  "id": "vehicle.bote-de-remos",
+  "name": "Bote de remos",
+  "kind": "vehicle",
+  "group": null,
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 110
+ },
+ {
+  "id": "vehicle.drakkar",
+  "name": "Drakkar",
+  "kind": "vehicle",
+  "group": null,
+  "page": 110
+ },
+ {
+  "id": "vehicle.galera",
+  "name": "Galera",
+  "kind": "vehicle",
+  "group": null,
+  "page": 110
+ },
+ {
+  "id": "vehicle.navio-de-guerra",
+  "name": "Navío de guerra",
+  "kind": "vehicle",
+  "group": null,
+  "page": 110
+ },
+ {
+  "id": "vehicle.velero",
+  "name": "Velero",
+  "kind": "vehicle",
+  "group": null,
+  "page": 110
+ },
+ {
+  "id": "tool.herramientas-de-albanil",
+  "name": "Herramientas de albañil",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-alfarero",
+  "name": "Herramientas de alfarero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-carpintero",
+  "name": "Herramientas de carpintero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "8 po",
+   "amount": 8.0,
+   "coin": "po",
+   "gp": 8.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-cartografo",
+  "name": "Herramientas de cartógrafo",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-curtidor",
+  "name": "Herramientas de curtidor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-ebanista",
+  "name": "Herramientas de ebanista",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-herrero",
+  "name": "Herramientas de herrero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-joyero",
+  "name": "Herramientas de joyero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-manitas",
+  "name": "Herramientas de manitas",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-soplador-de-vidrio",
+  "name": "Herramientas de soplador de vidrio",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  },
+  "page": 101
+ },
+ {
+  "id": "tool.herramientas-de-tejedor",
+  "name": "Herramientas de tejedor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.herramientas-de-zapatero",
+  "name": "Herramientas de zapatero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.suministros-de-alquimista",
+  "name": "Suministros de alquimista",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.suministros-de-caligrafo",
+  "name": "Suministros de calígrafo",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.suministros-de-cervecero",
+  "name": "Suministros de cervecero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.suministros-de-pintor",
+  "name": "Suministros de pintor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.utiles-de-cocinero",
+  "name": "Útiles de cocinero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.herramientas-de-ladron",
+  "name": "Herramientas de ladrón",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.herramientas-de-navegante",
+  "name": "Herramientas de navegante",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.instrumento-musical-variable",
+  "name": "Instrumento musical (variable)",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "page": 102
+ },
+ {
+  "id": "tool.juego-variable",
+  "name": "Juego (variable)",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "page": 102
+ },
+ {
+  "id": "tool.utiles-de-envenenador",
+  "name": "Útiles de envenenador",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.utiles-de-herborista",
+  "name": "Útiles de herborista",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.utiles-para-disfrazarse",
+  "name": "Útiles para disfrazarse",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "page": 102
+ },
+ {
+  "id": "tool.utiles-para-falsificar",
+  "name": "Útiles para falsificar",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "page": 102
+ },
+ {
+  "id": "vehicle.velocidad",
+  "name": "Velocidad",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "page": 109
+ },
+ {
+  "id": "vehicle.tripulacion",
+  "name": "Tripulación",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "page": 109
+ },
+ {
+  "id": "vehicle.pasajeros",
+  "name": "Pasajeros",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "page": 109
+ },
+ {
+  "id": "vehicle.umbral-de-dano",
+  "name": "Umbral de daño",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "page": 109
+ },
+ {
+  "id": "vehicle.reparacion-de-vehiculos",
+  "name": "Reparación de vehículos",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "page": 110
+ }
+]

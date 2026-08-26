@@ -1,0 +1,52 @@
+{
+ "id": "table.p250",
+ "caption": null,
+ "header": [
+  "Dragón",
+  "Resistencia",
+  "Dragón",
+  "Resistencia"
+ ],
+ "rows": [
+  [
+   "Azul",
+   "Relámpago",
+   "Oro",
+   "Fuego"
+  ],
+  [
+   "Blanco",
+   "Frío",
+   "Oropel",
+   "Fuego"
+  ],
+  [
+   "Bronce",
+   "Relámpago",
+   "Plata",
+   "Frío"
+  ],
+  [
+   "Cobre",
+   "Ácido",
+   "Rojo",
+   "Fuego"
+  ],
+  [
+   "Negro",
+   "Ácido",
+   "Verde",
+   "Veneno"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Cota de escamas de dragón"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 250
+ }
+}

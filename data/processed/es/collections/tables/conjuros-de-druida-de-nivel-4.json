@@ -1,0 +1,111 @@
+{
+ "id": "table.conjuros-de-druida-de-nivel-4",
+ "caption": "Conjuros de druida de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Adivinación",
+   "Adivinación",
+   "R, M"
+  ],
+  [
+   "Confusión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Conjurar elementales menores",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Conjurar seres del bosque",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Controlar agua",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Dominar bestia",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Escudo de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Hechizar monstruo",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Insecto gigante",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Libertad de movimiento",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Localizar criatura",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Marchitar",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Moldear la piedra",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Muro de fuego",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Piel pétrea",
+   "Transmutación",
+   "C, M"
+  ],
+  [
+   "Polimorfar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Terreno alucinatorio",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Tormenta de hielo",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 56
+ }
+}

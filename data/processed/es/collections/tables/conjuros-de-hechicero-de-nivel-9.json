@@ -1,0 +1,46 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-9",
+ "caption": "Conjuros de hechicero de nivel 9",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Deseo",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Palabra de poder: matar",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Parar el tiempo",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Portal",
+   "Conjuración",
+   "C, M"
+  ],
+  [
+   "Tormenta de meteoritos",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 70
+ }
+}

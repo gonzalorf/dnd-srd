@@ -1,0 +1,62 @@
+[
+ {
+  "id": "class.barbaro",
+  "name": "Bárbaro",
+  "page": 32
+ },
+ {
+  "id": "class.bardo",
+  "name": "Bardo",
+  "page": 35
+ },
+ {
+  "id": "class.brujo",
+  "name": "Brujo",
+  "page": 40
+ },
+ {
+  "id": "class.clerigo",
+  "name": "Clérigo",
+  "page": 47
+ },
+ {
+  "id": "class.druida",
+  "name": "Druida",
+  "page": 52
+ },
+ {
+  "id": "class.explorador",
+  "name": "Explorador",
+  "page": 58
+ },
+ {
+  "id": "class.guerrero",
+  "name": "Guerrero",
+  "page": 62
+ },
+ {
+  "id": "class.hechicero",
+  "name": "Hechicero",
+  "page": 64
+ },
+ {
+  "id": "class.mago",
+  "name": "Mago",
+  "page": 71
+ },
+ {
+  "id": "class.monje",
+  "name": "Monje",
+  "page": 77
+ },
+ {
+  "id": "class.paladin",
+  "name": "Paladín",
+  "page": 81
+ },
+ {
+  "id": "class.picaro",
+  "name": "Pícaro",
+  "page": 86
+ }
+]

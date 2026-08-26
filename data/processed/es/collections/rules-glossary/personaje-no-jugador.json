@@ -1,0 +1,17 @@
+{
+ "id": "rule.personaje-no-jugador",
+ "name": "Personaje no jugador",
+ "text": "Un personaje no jugador (PNJ) es un monstruo que tiene un nombre propio y una personalidad particular. Consulta también “Monstruo”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "Un personaje no jugador (PNJ) es un monstruo que tiene un nombre propio y una personalidad particular. *Consulta también* “Monstruo”.",
+   "text": "Un personaje no jugador (PNJ) es un monstruo que tiene un nombre propio y una personalidad particular. Consulta también “Monstruo”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 205
+ }
+}

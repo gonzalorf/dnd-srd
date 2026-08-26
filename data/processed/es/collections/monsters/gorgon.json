@@ -1,0 +1,104 @@
+{
+ "id": "monster.gorgon",
+ "name": "Gorgon",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 333
+ },
+ "context": [
+  "Gorgon"
+ ],
+ "metaRaw": "Autómata Grande, sin alineamiento",
+ "type": "Autómata",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "114 (12d10 + 48)",
+  "average": 114,
+  "formula": "12d10 + 48"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 17",
+  "passivePerception": 17
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "cansancio",
+  "petrificado"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Cornada",
+   "md": "***Cornada.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 18 (2d12 + 5) de daño perforante. Si el objetivo es una criatura Grande o más pequeña y el gorgon recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada.",
+   "page": 333,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 18 (2d12 + 5) de daño perforante. Si el objetivo es una criatura Grande o más pequeña y el gorgon recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, tendrá el estado de derribada."
+  },
+  {
+   "name": "Aliento petrificador",
+   "md": "***Aliento petrificador (recarga 5–6).*** *Tirada de salvación de Constitución:* CD 15, todas las criaturas en un cono de 9 m. *Primer fallo:* el objetivo tendrá el estado de apresado. Si al final de su siguiente turno sigue apresado, repetirá la tirada de salvación y se librará del efecto si la supera. *Segundo fallo:* el objetivo tendrá el estado de petrificado en vez del de apresado.",
+   "page": 333,
+   "description": "*Tirada de salvación de Constitución:* CD 15, todas las criaturas en un cono de 9 m. *Primer fallo:* el objetivo tendrá el estado de apresado. Si al final de su siguiente turno sigue apresado, repetirá la tirada de salvación y se librará del efecto si la supera. *Segundo fallo:* el objetivo tendrá el estado de petrificado en vez del de apresado.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Arrollar",
+   "md": "***Arrollar.*** *Tirada de salvación de Destreza:* CD 16, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 16 (2d10 + 5) de daño contundente. *Éxito:* la mitad del daño.",
+   "page": 333,
+   "description": "*Tirada de salvación de Destreza:* CD 16, una criatura a 1,5 m o menos que tenga el estado de derribada. *Fallo:* 16 (2d10 + 5) de daño contundente. *Éxito:* la mitad del daño."
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "item.pocion-de-respirar-bajo-el-agua",
+ "name": "Poción de respirar bajo el agua",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "Puedes respirar debajo del agua durante 24 horas tras beber esta poción.\n\nSu líquido verde turbio huele a mar y en él flota una burbuja con aspecto de medusa.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Puedes respirar debajo del agua durante 24 horas tras beber esta poción.",
+   "text": "Puedes respirar debajo del agua durante 24 horas tras beber esta poción."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Su líquido verde turbio huele a mar y en él flota una burbuja con aspecto de medusa.",
+   "text": "Su líquido verde turbio huele a mar y en él flota una burbuja con aspecto de medusa."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "spell.crear-muerto-viviente",
+ "name": "Crear muerto viviente",
+ "level": 6,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S, M (un ónice negro que valga al menos 150 po por cada cadáver)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un ónice negro que valga al menos 150 po por cada cadáver",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cadáveres de humanoides de tamaño Mediano o Pequeño dentro del alcance. Cada uno se convierte en un gul bajo tu control (consulta el capítulo “Monstruos” para ver su perfil).\n\nComo acción adicional en cada uno de tus turnos, puedes dar órdenes mentalmente a cada criatura que hayas animado con el conjuro que esté a 36 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Tú decides qué acción llevará a cabo la criatura y adónde se moverá en su siguiente turno, o puedes dar una orden general, como proteger un lugar en concreto. Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros. En cuanto se le dé una orden, la criatura la cumplirá hasta completar su tarea.\n\nLa criatura estará bajo tu control durante 24 horas, tras las cuales dejará de obedecer cualquier orden que le hayas dado. Para mantener el control sobre ella otras 24 horas, deberás volver a lanzarle este conjuro antes de que acabe el periodo actual de 24 horas. Este uso del conjuro refuerza tu control sobre hasta tres criaturas que hayas animado con él y no anima nuevas criaturas.\n\nCon un espacio de conjuro de nivel superior. Si usas un espacio de conjuro de nivel 7, puedes animar o reforzar el control sobre cuatro gules. Si usas un espacio de conjuro de nivel 8, puedes animar o reforzar el control sobre cinco gules o dos\n\nghasts o tumularios. Si usas un espacio de conjuro de nivel 9, puedes animar o reforzar el control sobre seis gules, tres ghasts o tumularios o dos momias. Consulta el capítulo “Monstruos” para ver estos perfiles.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cadáveres de humanoides de tamaño Mediano o Pequeño dentro del alcance. Cada uno se convierte en un **gul** bajo tu control (consulta el capítulo “Monstruos” para ver su perfil).",
+   "text": "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cadáveres de humanoides de tamaño Mediano o Pequeño dentro del alcance. Cada uno se convierte en un gul bajo tu control (consulta el capítulo “Monstruos” para ver su perfil)."
+  },
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "Como acción adicional en cada uno de tus turnos, puedes dar órdenes mentalmente a cada criatura que hayas animado con el conjuro que esté a 36 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Tú decides qué acción llevará a cabo la criatura y adónde se moverá en su siguiente turno, o puedes dar una orden general, como proteger un lugar en concreto. Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros. En cuanto se le dé una orden, la criatura la cumplirá hasta completar su tarea.",
+   "text": "Como acción adicional en cada uno de tus turnos, puedes dar órdenes mentalmente a cada criatura que hayas animado con el conjuro que esté a 36 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Tú decides qué acción llevará a cabo la criatura y adónde se moverá en su siguiente turno, o puedes dar una orden general, como proteger un lugar en concreto. Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros. En cuanto se le dé una orden, la criatura la cumplirá hasta completar su tarea."
+  },
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "La criatura estará bajo tu control durante 24 horas, tras las cuales dejará de obedecer cualquier orden que le hayas dado. Para mantener el control sobre ella otras 24 horas, deberás volver a lanzarle este conjuro antes de que acabe el periodo actual de 24 horas. Este uso del conjuro refuerza tu control sobre hasta tres criaturas que hayas animado con él y no anima nuevas criaturas.",
+   "text": "La criatura estará bajo tu control durante 24 horas, tras las cuales dejará de obedecer cualquier orden que le hayas dado. Para mantener el control sobre ella otras 24 horas, deberás volver a lanzarle este conjuro antes de que acabe el periodo actual de 24 horas. Este uso del conjuro refuerza tu control sobre hasta tres criaturas que hayas animado con él y no anima nuevas criaturas."
+  },
+  {
+   "type": "definition",
+   "page": 136,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Si usas un espacio de conjuro de nivel 7, puedes animar o reforzar el control sobre cuatro **gules**. Si usas un espacio de conjuro de nivel 8, puedes animar o reforzar el control sobre cinco **gules** o dos",
+   "text": "Con un espacio de conjuro de nivel superior. Si usas un espacio de conjuro de nivel 7, puedes animar o reforzar el control sobre cuatro gules. Si usas un espacio de conjuro de nivel 8, puedes animar o reforzar el control sobre cinco gules o dos"
+  },
+  {
+   "type": "definition",
+   "page": 136,
+   "md": "**ghasts** o **tumularios**. Si usas un espacio de conjuro de nivel 9, puedes animar o reforzar el control sobre seis **gules**, tres **ghasts** o **tumularios** o dos **momias**. Consulta el capítulo “Monstruos” para ver estos perfiles.",
+   "text": "ghasts o tumularios. Si usas un espacio de conjuro de nivel 9, puedes animar o reforzar el control sobre seis gules, tres ghasts o tumularios o dos momias. Consulta el capítulo “Monstruos” para ver estos perfiles."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 136
+ }
+}

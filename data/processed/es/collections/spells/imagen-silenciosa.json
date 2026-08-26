@@ -1,0 +1,64 @@
+{
+ "id": "spell.imagen-silenciosa",
+ "name": "Imagen silenciosa",
+ "level": 1,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un poco de vellón)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de vellón",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no está acompañada de sonido, olor u otros efectos sensoriales.\n\nComo acción de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.\n\nLa interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no está acompañada de sonido, olor u otros efectos sensoriales.",
+   "text": "Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no está acompañada de sonido, olor u otros efectos sensoriales."
+  },
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Como acción de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.",
+   "text": "Como acción de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando."
+  },
+  {
+   "type": "paragraph",
+   "page": 158,
+   "md": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella.",
+   "text": "La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 157
+ }
+}

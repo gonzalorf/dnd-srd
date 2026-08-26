@@ -1,0 +1,59 @@
+{
+ "id": "spell.reparar",
+ "name": "Reparar",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (dos imanes naturales)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "dos imanes naturales",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Este conjuro repara una sola grieta o desgarrón en un objeto que toques, como un eslabón roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarrón no tenga más de 30 cm de tamaño en ninguna de sus dimensiones, lo arreglarás sin dejar rastro del daño.\n\nEste conjuro puede reparar el componente físico de un objeto mágico, pero no puede restaurar su magia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 180,
+   "md": "Este conjuro repara una sola grieta o desgarrón en un objeto que toques, como un eslabón roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarrón no tenga más de 30 cm de tamaño en ninguna de sus dimensiones, lo arreglarás sin dejar rastro del daño.",
+   "text": "Este conjuro repara una sola grieta o desgarrón en un objeto que toques, como un eslabón roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarrón no tenga más de 30 cm de tamaño en ninguna de sus dimensiones, lo arreglarás sin dejar rastro del daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 180,
+   "md": "Este conjuro puede reparar el componente físico de un objeto mágico, pero no puede restaurar su magia.",
+   "text": "Este conjuro puede reparar el componente físico de un objeto mágico, pero no puede restaurar su magia."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 180
+ }
+}

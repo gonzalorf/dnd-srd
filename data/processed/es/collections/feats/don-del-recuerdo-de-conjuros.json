@@ -1,0 +1,36 @@
+{
+ "id": "feat.don-del-recuerdo-de-conjuros",
+ "name": "Don del recuerdo de conjuros",
+ "text": "Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30.\n\nLanzamiento gratuito. Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 95,
+   "md": "*Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)*",
+   "text": "Dote de don épico (requisito: nivel 19 o más, rasgo Lanzamiento de conjuros)"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Mejora de característica.*** Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30.",
+   "text": "Mejora de característica. Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 30."
+  },
+  {
+   "type": "definition",
+   "page": 95,
+   "md": "***Lanzamiento gratuito.*** Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta.",
+   "text": "Lanzamiento gratuito. Cada vez que lances un conjuro con un espacio de conjuro de nivel 1 a 4, tira 1d4. Si el número que sacas es el mismo que el nivel del espacio, este no se gasta."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 95
+ },
+ "category": "Dotes de don épico"
+}

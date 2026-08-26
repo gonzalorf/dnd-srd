@@ -1,0 +1,71 @@
+---
+import Base from "../../layouts/Base.astro";
+import { collections, slugOf } from "../../lib/srd";
+const spells = collections.spellIndex().sort((a, b) => a.name.localeCompare(b.name, "es"));
+const escuelas = [...new Set(spells.map((s) => s.school))].sort((a, b) => a.localeCompare(b, "es"));
+const clases = [...new Set(spells.flatMap((s) => s.classes))].sort((a, b) => a.localeCompare(b, "es"));
+---
+
+<Base title="Conjuros" subtitle="Los 339 conjuros del SRD, filtrables por nivel, escuela y clase.">
+  <p class="entradilla">{spells.length} conjuros. Los filtros funcionan sobre la lista ya cargada.</p>
+
+  <form class="filtros" id="filtros">
+    <label>Nivel
+      <select name="nivel">
+        <option value="">Todos</option>
+        <option value="0">Trucos</option>
+        {[1,2,3,4,5,6,7,8,9].map((n) => <option value={n}>Nivel {n}</option>)}
+      </select>
+    </label>
+    <label>Escuela
+      <select name="escuela"><option value="">Todas</option>{escuelas.map((e) => <option>{e}</option>)}</select>
+    </label>
+    <label>Clase
+      <select name="clase"><option value="">Todas</option>{clases.map((c) => <option>{c}</option>)}</select>
+    </label>
+    <label class="check"><input type="checkbox" name="ritual" /> Ritual</label>
+    <label class="check"><input type="checkbox" name="conc" /> Concentración</label>
+  </form>
+
+  <table class="fichas">
+    <thead><tr><th>Conjuro</th><th>Nivel</th><th>Escuela</th><th>Clases</th><th>p.</th></tr></thead>
+    <tbody>
+      {spells.map((s) => (
+        <tr data-nivel={s.level} data-escuela={s.school} data-clases={s.classes.join(",")}
+            data-ritual={String(s.ritual)} data-conc={String(s.concentration)}>
+          <td><a href={`/conjuros/${slugOf(s.id)}/`}>{s.name}</a></td>
+          <td>{s.level === 0 ? "Truco" : s.level}</td>
+          <td>{s.school}</td>
+          <td class="clases">{s.classes.join(", ")}</td>
+          <td class="pag">{s.page}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p class="sin-resultados" hidden>Ningún conjuro coincide con los filtros.</p>
+
+  <script is:inline>
+    // Filtrado sobre el DOM ya renderizado: sin datos extra que descargar y
+    // sin JavaScript si el navegador no lo soporta (la tabla sigue completa).
+    const form = document.getElementById("filtros");
+    const filas = [...document.querySelectorAll("table.fichas tbody tr")];
+    const aviso = document.querySelector(".sin-resultados");
+    function aplicar() {
+      const d = new FormData(form);
+      const nivel = d.get("nivel"), escuela = d.get("escuela"), clase = d.get("clase");
+      let visibles = 0;
+      for (const fila of filas) {
+        const ok =
+          (!nivel || fila.dataset.nivel === nivel) &&
+          (!escuela || fila.dataset.escuela === escuela) &&
+          (!clase || fila.dataset.clases.split(",").includes(clase)) &&
+          (!d.get("ritual") || fila.dataset.ritual === "true") &&
+          (!d.get("conc") || fila.dataset.conc === "true");
+        fila.hidden = !ok;
+        if (ok) visibles++;
+      }
+      aviso.hidden = visibles > 0;
+    }
+    form.addEventListener("change", aplicar);
+  </script>
+</Base>

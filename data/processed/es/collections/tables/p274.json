@@ -1,0 +1,45 @@
+{
+ "id": "table.p274",
+ "caption": null,
+ "header": [],
+ "rows": [
+  [
+   "56–60",
+   "Una criatura creada mediante magia aparece en un espacio sin ocupar lo más cercano posible al punto de origen elegido. La criatura no se encuentra bajo tu control, actúa con normalidad y desaparece tras 1 hora o cuando sus puntos de golpe se reduzcan a 0. Tira 1d4 para determinar qué criatura aparece. Si el resultado es 1, un elefante; si es 2–3, una rata, y si es 4, un rinoceronte."
+  ],
+  [
+   "61–64",
+   "Crece hierba en el suelo en un círculo de 18 m de radio cuyo centro estará lo más cerca posible del punto de origen elegido. Si ya había hierba allí, crecerá hasta diez veces su tamaño normal y tendrá ese tamaño durante 1 minuto."
+  ],
+  [
+   "65–68",
+   "Un objeto a elección de tu GM desaparece en el Plano Etéreo. El objeto no puede medir más de 3 m en ninguna dimensión, debe encontrarse a 36 m o menos del punto de origen elegido y nadie puede vestirlo o llevarlo. Si no hay objetos así dentro del alcance, no sucederá nada."
+  ],
+  [
+   "69–72",
+   "No sucede nada en el punto de origen elegido. En vez de eso, encoges como si hubieras lanzado agrandar/reducir sobre ti y permaneces así durante 1 minuto."
+  ],
+  [
+   "73–77",
+   "Crecen hojas en la criatura más cercana al punto de origen elegido. Salvo que se arranquen, las hojas se volverán marrones y caerán tras 24 horas."
+  ],
+  [
+   "78–82",
+   "No sucede nada en el punto de origen elegido. En vez de eso, una explosión de luz resplandeciente y colorida se extiende desde ti en una emanación de 9 m. Todas las criaturas situadas en la zona deberán superar una tirada de salvación de Constitución con CD 15 o tendrán el estado de cegadas durante 1 minuto. Las criaturas repetirán la tirada de salvación al final de cada uno de sus turnos y, si tienen éxito, se librarán del efecto."
+  ],
+  [
+   "83–87",
+   "No sucede nada en el punto de origen elegido. En vez de eso, lanzas invisibilidad sobre ti."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Varita de las maravillas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 274
+ }
+}

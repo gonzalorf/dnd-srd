@@ -1,0 +1,83 @@
+{
+ "id": "spell.alterar-los-recuerdos",
+ "name": "Alterar los recuerdos",
+ "level": 5,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Intentas modificar los recuerdos de otra criatura. Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. Si estás luchando contra ella, tendrá ventaja en la tirada. Si la falla, tendrá el estado de hechizada hasta que termine el conjuro. Mientras esté hechizado de esta manera, el objetivo también tiene el estado de incapacitado y no es consciente de su entorno, aunque puede oírte. Si recibe cualquier daño o es el objetivo de otro conjuro, este conjuro termina y no se modifica ninguno de sus recuerdos.\n\nMientras dure este sortilegio, puedes afectar al recuerdo de un suceso que haya vivido el objetivo durante las últimas 24 horas y que no haya durado más de 10 minutos. Puedes eliminar permanentemente todo recuerdo del suceso, permitir que lo recuerde con claridad perfecta, cambiar cómo recuerda los detalles o crear un recuerdo de otro suceso.\n\nDebes hablarle al objetivo para describir cómo se ven afectados sus recuerdos y este debe poder comprender tu idioma para que los recuerdos modificados se asienten. Su mente llenará cualquier hueco que falte en los detalles de tu descripción. Si el conjuro termina antes de que acabes de describir los recuerdos modificados, la memoria de la criatura no se verá afectada. De lo contrario, los recuerdos modificados ocuparán el lugar de los reales en cuanto el conjuro termine.\n\nUn recuerdo modificado no tiene por qué afectar al comportamiento de una criatura, en especial si contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado que no sea lógico, como cuánto disfrutó bañándose en ácido, se difuminará y la criatura lo considerará un mal sueño. Tu GM podría considerar que un recuerdo modificado es demasiado ilógico como para afectar a una criatura.\n\nUn conjuro levantar maldición o restablecimiento mayor lanzado sobre el objetivo restaurará los recuerdos auténticos de la criatura.\n\nCon un espacio de conjuro de nivel superior. Puedes alterar recuerdos del objetivo de un suceso que ocurrió hace 7 días (espacio de nivel 6), 30 días (espacio de nivel 7), 365 días (espacio de nivel 8) o en cualquier momento del pasado de la criatura (espacio de nivel 9).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Intentas modificar los recuerdos de otra criatura. Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. Si estás luchando contra ella, tendrá ventaja en la tirada. Si la falla, tendrá el estado de hechizada hasta que termine el conjuro. Mientras esté hechizado de esta manera, el objetivo también tiene el estado de incapacitado y no es consciente de su entorno, aunque puede oírte. Si recibe cualquier daño o es el objetivo de otro conjuro, este conjuro termina y no se modifica ninguno de sus recuerdos.",
+   "text": "Intentas modificar los recuerdos de otra criatura. Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. Si estás luchando contra ella, tendrá ventaja en la tirada. Si la falla, tendrá el estado de hechizada hasta que termine el conjuro. Mientras esté hechizado de esta manera, el objetivo también tiene el estado de incapacitado y no es consciente de su entorno, aunque puede oírte. Si recibe cualquier daño o es el objetivo de otro conjuro, este conjuro termina y no se modifica ninguno de sus recuerdos."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Mientras dure este sortilegio, puedes afectar al recuerdo de un suceso que haya vivido el objetivo durante las últimas 24 horas y que no haya durado más de 10 minutos. Puedes eliminar permanentemente todo recuerdo del suceso, permitir que lo recuerde con claridad perfecta, cambiar cómo recuerda los detalles o crear un recuerdo de otro suceso.",
+   "text": "Mientras dure este sortilegio, puedes afectar al recuerdo de un suceso que haya vivido el objetivo durante las últimas 24 horas y que no haya durado más de 10 minutos. Puedes eliminar permanentemente todo recuerdo del suceso, permitir que lo recuerde con claridad perfecta, cambiar cómo recuerda los detalles o crear un recuerdo de otro suceso."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Debes hablarle al objetivo para describir cómo se ven afectados sus recuerdos y este debe poder comprender tu idioma para que los recuerdos modificados se asienten. Su mente llenará cualquier hueco que falte en los detalles de tu descripción. Si el conjuro termina antes de que acabes de describir los recuerdos modificados, la memoria de la criatura no se verá afectada. De lo contrario, los recuerdos modificados ocuparán el lugar de los reales en cuanto el conjuro termine.",
+   "text": "Debes hablarle al objetivo para describir cómo se ven afectados sus recuerdos y este debe poder comprender tu idioma para que los recuerdos modificados se asienten. Su mente llenará cualquier hueco que falte en los detalles de tu descripción. Si el conjuro termina antes de que acabes de describir los recuerdos modificados, la memoria de la criatura no se verá afectada. De lo contrario, los recuerdos modificados ocuparán el lugar de los reales en cuanto el conjuro termine."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Un recuerdo modificado no tiene por qué afectar al comportamiento de una criatura, en especial si contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado que no sea lógico, como cuánto disfrutó bañándose en ácido, se difuminará y la criatura lo considerará un mal sueño. Tu GM podría considerar que un recuerdo modificado es demasiado ilógico como para afectar a una criatura.",
+   "text": "Un recuerdo modificado no tiene por qué afectar al comportamiento de una criatura, en especial si contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado que no sea lógico, como cuánto disfrutó bañándose en ácido, se difuminará y la criatura lo considerará un mal sueño. Tu GM podría considerar que un recuerdo modificado es demasiado ilógico como para afectar a una criatura."
+  },
+  {
+   "type": "paragraph",
+   "page": 120,
+   "md": "Un conjuro *levantar maldición* o *restablecimiento mayor* lanzado sobre el objetivo restaurará los recuerdos auténticos de la criatura.",
+   "text": "Un conjuro levantar maldición o restablecimiento mayor lanzado sobre el objetivo restaurará los recuerdos auténticos de la criatura."
+  },
+  {
+   "type": "definition",
+   "page": 120,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes alterar recuerdos del objetivo de un suceso que ocurrió hace 7 días (espacio de nivel 6), 30 días (espacio de nivel 7), 365 días (espacio de nivel 8) o en cualquier momento del pasado de la criatura (espacio de nivel 9).",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes alterar recuerdos del objetivo de un suceso que ocurrió hace 7 días (espacio de nivel 6), 30 días (espacio de nivel 7), 365 días (espacio de nivel 8) o en cualquier momento del pasado de la criatura (espacio de nivel 9)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 120
+ },
+ "refs": [
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-mayor"
+ ]
+}

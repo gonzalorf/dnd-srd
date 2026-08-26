@@ -1,0 +1,35 @@
+{
+ "id": "item.espada-danzarina",
+ "name": "Espada danzarina",
+ "category": "Arma",
+ "variant": "cimitarra, espada corta, espada larga, espadón o estoque",
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cimitarra, espada corta, espada larga, espadón o estoque), muy rara (requiere sintonización)",
+ "text": "Puedes emplear una acción adicional para lanzar esta arma mágica al aire. Cuando lo hagas, el arma comenzará a levitar, volará hasta 9 m y atacará a una criatura de tu elección que esté a 1,5 m o menos de ella. El arma utiliza tu tirada de ataque y añade tu modificador por característica a las tiradas de daño.\n\nMientras el arma esté levitando, podrás emplear una acción adicional para que vuele hasta 9 m hacia otro lugar situado a 9 m o menos de ti. Como parte de la misma acción adicional, podrás hacer que el arma ataque a una criatura situada a 1,5 m o menos de ella.\n\nDespués de que el arma flotante ataque por cuarta vez, volará hacia ti e intentará volver a tu mano. Si no tienes ninguna mano libre, caerá al suelo a tus pies. Si el arma tiene vía libre hasta ti, se te acercará todo lo que pueda y después caerá al suelo. También dejará de levitar si la agarras o si te alejas más de 9 m de ella.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Puedes emplear una acción adicional para lanzar esta arma mágica al aire. Cuando lo hagas, el arma comenzará a levitar, volará hasta 9 m y atacará a una criatura de tu elección que esté a 1,5 m o menos de ella. El arma utiliza tu tirada de ataque y añade tu modificador por característica a las tiradas de daño.",
+   "text": "Puedes emplear una acción adicional para lanzar esta arma mágica al aire. Cuando lo hagas, el arma comenzará a levitar, volará hasta 9 m y atacará a una criatura de tu elección que esté a 1,5 m o menos de ella. El arma utiliza tu tirada de ataque y añade tu modificador por característica a las tiradas de daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Mientras el arma esté levitando, podrás emplear una acción adicional para que vuele hasta 9 m hacia otro lugar situado a 9 m o menos de ti. Como parte de la misma acción adicional, podrás hacer que el arma ataque a una criatura situada a 1,5 m o menos de ella.",
+   "text": "Mientras el arma esté levitando, podrás emplear una acción adicional para que vuele hasta 9 m hacia otro lugar situado a 9 m o menos de ti. Como parte de la misma acción adicional, podrás hacer que el arma ataque a una criatura situada a 1,5 m o menos de ella."
+  },
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Después de que el arma flotante ataque por cuarta vez, volará hacia ti e intentará volver a tu mano. Si no tienes ninguna mano libre, caerá al suelo a tus pies. Si el arma tiene vía libre hasta ti, se te acercará todo lo que pueda y después caerá al suelo. También dejará de levitar si la agarras o si te alejas más de 9 m de ella.",
+   "text": "Después de que el arma flotante ataque por cuarta vez, volará hacia ti e intentará volver a tu mano. Si no tienes ninguna mano libre, caerá al suelo a tus pies. Si el arma tiene vía libre hasta ti, se te acercará todo lo que pueda y después caerá al suelo. También dejará de levitar si la agarras o si te alejas más de 9 m de ella."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 254
+ }
+}

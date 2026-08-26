@@ -1,0 +1,80 @@
+{
+ "id": "spell.animar-objetos",
+ "name": "Animar objetos",
+ "level": 5,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no vista ni lleve nadie, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica. A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos y un objetivo Enorme cuenta como tres.\n\nCada objetivo se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un objeto animado y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus puntos de golpe se reduzcan a 0. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti. En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo.\n\nHasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros.\n\nCuando los puntos de golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma.\n\nCon un espacio de conjuro de nivel superior. El daño del golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1d12 (Enorme) por cada nivel por encima de 5 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 121,
+   "md": "Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no vista ni lleve nadie, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica. A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos y un objetivo Enorme cuenta como tres.",
+   "text": "Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no vista ni lleve nadie, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica. A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos y un objetivo Enorme cuenta como tres."
+  },
+  {
+   "type": "paragraph",
+   "page": 121,
+   "md": "Cada objetivo se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un **objeto animado** y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus puntos de golpe se reduzcan a 0. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti. En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo.",
+   "text": "Cada objetivo se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un objeto animado y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus puntos de golpe se reduzcan a 0. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti. En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo."
+  },
+  {
+   "type": "paragraph",
+   "page": 121,
+   "md": "Hasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros.",
+   "text": "Hasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros."
+  },
+  {
+   "type": "paragraph",
+   "page": 121,
+   "md": "Cuando los puntos de golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma.",
+   "text": "Cuando los puntos de golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma."
+  },
+  {
+   "type": "definition",
+   "page": 121,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño del golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1d12 (Enorme) por cada nivel por encima de 5 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño del golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1d12 (Enorme) por cada nivel por encima de 5 que tenga el espacio."
+  },
+  {
+   "type": "statblock",
+   "page": 121,
+   "name": "Objeto animado",
+   "ref": "statblock.objeto-animado"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 121
+ }
+}

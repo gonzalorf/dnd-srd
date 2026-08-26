@@ -1,0 +1,59 @@
+{
+ "id": "species.enano",
+ "name": "Enano",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,2 y 1,5 m de altura)\n\nVelocidad: 9 m\n\nComo enano, tienes estos atributos especiales:\n\nAfinidad con la piedra. Como acción adicional, ganas la capacidad de sentir vibraciones con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada. Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.\n\nAguante enano. Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel.\n\nResistencia enana. Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 36 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 91,
+   "md": "Tamaño: Mediano (entre 1,2 y 1,5 m de altura)",
+   "text": "Tamaño: Mediano (entre 1,2 y 1,5 m de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "Como enano, tienes estos atributos especiales:",
+   "text": "Como enano, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Afinidad con la piedra.*** Como acción adicional, ganas la capacidad de sentir vibraciones con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada. Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.",
+   "text": "Afinidad con la piedra. Como acción adicional, ganas la capacidad de sentir vibraciones con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada. Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Aguante enano.*** Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel.",
+   "text": "Aguante enano. Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Resistencia enana.*** Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado.",
+   "text": "Resistencia enana. Tienes resistencia al daño de veneno. También tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Visión en la oscuridad.*** Tienes visión en la oscuridad hasta 36 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 36 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 91
+ }
+}

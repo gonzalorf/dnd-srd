@@ -1,0 +1,36 @@
+{
+ "id": "gear.paquete-de-diplomatico",
+ "name": "Paquete de diplomático",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Paquete de diplomático",
+  "Peso": "19,5 kg",
+  "Precio": "39 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "19,5 kg",
+  "kg": 19.5
+ },
+ "price": {
+  "raw": "39 po",
+  "amount": 39.0,
+  "coin": "po",
+  "gp": 39.0
+ },
+ "text": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero.",
+   "text": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero."
+  }
+ ],
+ "descriptionPage": 106
+}

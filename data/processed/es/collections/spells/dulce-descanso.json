@@ -1,0 +1,60 @@
+{
+ "id": "spell.dulce-descanso",
+ "name": "Dulce descanso",
+ "level": 2,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo",
+  "mago",
+  "paladín"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (2 piezas de cobre, que se consumen como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "2 piezas de cobre, que se consumen como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "10 días",
+  "concentration": false,
+  "kind": "timed",
+  "value": 10,
+  "unit": "día"
+ },
+ "text": "Tocas un cadáver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo está protegido de la descomposición y no se puede convertir en un muerto viviente.\n\nEl conjuro también amplía el tiempo máximo para resucitar al objetivo, ya que los días que pasa bajo su influencia no cuentan para el límite de tiempo de conjuros como alzar a los muertos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "Tocas un cadáver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo está protegido de la descomposición y no se puede convertir en un muerto viviente.",
+   "text": "Tocas un cadáver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo está protegido de la descomposición y no se puede convertir en un muerto viviente."
+  },
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "El conjuro también amplía el tiempo máximo para resucitar al objetivo, ya que los días que pasa bajo su influencia no cuentan para el límite de tiempo de conjuros como *alzar a los muertos*.",
+   "text": "El conjuro también amplía el tiempo máximo para resucitar al objetivo, ya que los días que pasa bajo su influencia no cuentan para el límite de tiempo de conjuros como alzar a los muertos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 144
+ },
+ "refs": [
+  "spell.alzar-a-los-muertos"
+ ]
+}

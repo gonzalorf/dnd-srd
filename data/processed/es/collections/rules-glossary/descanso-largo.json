@@ -1,0 +1,95 @@
+{
+ "id": "rule.descanso-largo",
+ "name": "Descanso largo",
+ "text": "Un descanso largo es un periodo de inactividad prolongado (al menos 8 horas) a disposición de cualquier criatura. Durante un descanso largo, duermes durante al menos 6 horas y realizas como máximo 2 horas de actividades ligeras, como leer, hablar, comer o montar guardia.\n\nMientras duermes, tienes el estado de inconsciente. Tras finalizar un descanso largo, deberás esperar al menos 16 horas para comenzar otro.\n\nBeneficios del descanso. Para comenzar un descanso largo, debes tener al menos 1 punto de golpe. Tras finalizar el descanso obtendrás los siguientes beneficios:\n\nPuntos de golpe al máximo. Recuperas todos los puntos de golpe perdidos y todos los dados de puntos de golpe gastados. Si tus puntos de golpe máximos se habían reducido, vuelven a la normalidad.\n\nPuntuaciones de característica restablecidas. Si alguna de tus puntuaciones de característica se había reducido, vuelve a la normalidad.\n\nCansancio reducido. Si tienes el estado de cansancio, su nivel se reduce en 1.\n\nRasgo especial. Algunos rasgos se recargan con un descanso largo. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción.\n\nInterrumpir el descanso. Un descanso largo se puede interrumpir de las siguientes formas:\n\n• si se tira iniciativa;\n\n• si se lanza un conjuro que no sea un truco;\n\n• si se sufre daño;\n\n• si se camina o se hace algún otro ejercicio físico durante 1 hora.\n\nSi logras descansar al menos 1 hora antes de la interrupción, obtienes los beneficios de un descanso corto. Consulta también “Descanso corto”.\n\nPuedes reanudar un descanso largo inmediatamente después de una interrupción. Si lo haces, el descanso requerirá 1 hora adicional por cada interrupción para finalizarlo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Un descanso largo es un periodo de inactividad prolongado (al menos 8 horas) a disposición de cualquier criatura. Durante un descanso largo, duermes durante al menos 6 horas y realizas como máximo 2 horas de actividades ligeras, como leer, hablar, comer o montar guardia.",
+   "text": "Un descanso largo es un periodo de inactividad prolongado (al menos 8 horas) a disposición de cualquier criatura. Durante un descanso largo, duermes durante al menos 6 horas y realizas como máximo 2 horas de actividades ligeras, como leer, hablar, comer o montar guardia."
+  },
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Mientras duermes, tienes el estado de inconsciente. Tras finalizar un descanso largo, deberás esperar al menos 16 horas para comenzar otro.",
+   "text": "Mientras duermes, tienes el estado de inconsciente. Tras finalizar un descanso largo, deberás esperar al menos 16 horas para comenzar otro."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "***Beneficios del descanso.*** Para comenzar un descanso largo, debes tener al menos 1 punto de golpe. Tras finalizar el descanso obtendrás los siguientes beneficios:",
+   "text": "Beneficios del descanso. Para comenzar un descanso largo, debes tener al menos 1 punto de golpe. Tras finalizar el descanso obtendrás los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Puntos de golpe al máximo.** Recuperas todos los puntos de golpe perdidos y todos los dados de puntos de golpe gastados. Si tus puntos de golpe máximos se habían reducido, vuelven a la normalidad.",
+   "text": "Puntos de golpe al máximo. Recuperas todos los puntos de golpe perdidos y todos los dados de puntos de golpe gastados. Si tus puntos de golpe máximos se habían reducido, vuelven a la normalidad."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Puntuaciones de característica restablecidas.** Si alguna de tus puntuaciones de característica se había reducido, vuelve a la normalidad.",
+   "text": "Puntuaciones de característica restablecidas. Si alguna de tus puntuaciones de característica se había reducido, vuelve a la normalidad."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Cansancio reducido.** Si tienes el estado de cansancio, su nivel se reduce en 1.",
+   "text": "Cansancio reducido. Si tienes el estado de cansancio, su nivel se reduce en 1."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Rasgo especial.** Algunos rasgos se recargan con un descanso largo. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción.",
+   "text": "Rasgo especial. Algunos rasgos se recargan con un descanso largo. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "***Interrumpir el descanso.*** Un descanso largo se puede interrumpir de las siguientes formas:",
+   "text": "Interrumpir el descanso. Un descanso largo se puede interrumpir de las siguientes formas:"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se tira iniciativa;",
+   "text": "• si se tira iniciativa;"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se lanza un conjuro que no sea un truco;",
+   "text": "• si se lanza un conjuro que no sea un truco;"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se sufre daño;",
+   "text": "• si se sufre daño;"
+  },
+  {
+   "type": "list-item",
+   "page": 200,
+   "md": "• si se camina o se hace algún otro ejercicio físico durante 1 hora.",
+   "text": "• si se camina o se hace algún otro ejercicio físico durante 1 hora."
+  },
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Si logras descansar al menos 1 hora antes de la interrupción, obtienes los beneficios de un descanso corto. *Consulta también* “Descanso corto”.",
+   "text": "Si logras descansar al menos 1 hora antes de la interrupción, obtienes los beneficios de un descanso corto. Consulta también “Descanso corto”."
+  },
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Puedes reanudar un descanso largo inmediatamente después de una interrupción. Si lo haces, el descanso requerirá 1 hora adicional por cada interrupción para finalizarlo.",
+   "text": "Puedes reanudar un descanso largo inmediatamente después de una interrupción. Si lo haces, el descanso requerirá 1 hora adicional por cada interrupción para finalizarlo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 199
+ }
+}

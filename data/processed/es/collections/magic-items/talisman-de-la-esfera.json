@@ -1,0 +1,26 @@
+{
+ "id": "item.talisman-de-la-esfera",
+ "name": "Talismán de la esfera",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario (requiere sintonización)",
+ "text": "Mientras sostengas o lleves puesto este talismán, tendrás ventaja en cualquier prueba de Inteligencia (Conocimiento arcano) para controlar una esfera de aniquilación. Además, siempre que comiences tu turno controlando una esfera de aniquilación, puedes emplear una acción de magia para moverla 3 m más una cantidad de metros adicionales igual a 3 × tu modificador por Inteligencia. Este movimiento no tiene por qué ser en línea recta.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 270,
+   "md": "Mientras sostengas o lleves puesto este talismán, tendrás ventaja en cualquier prueba de Inteligencia (Conocimiento arcano) para controlar una *esfera de aniquilación*. Además, siempre que comiences tu turno controlando una *esfera de aniquilación*, puedes emplear una acción de magia para moverla 3 m más una cantidad de metros adicionales igual a 3 × tu modificador por Inteligencia. Este movimiento no tiene por qué ser en línea recta.",
+   "text": "Mientras sostengas o lleves puesto este talismán, tendrás ventaja en cualquier prueba de Inteligencia (Conocimiento arcano) para controlar una esfera de aniquilación. Además, siempre que comiences tu turno controlando una esfera de aniquilación, puedes emplear una acción de magia para moverla 3 m más una cantidad de metros adicionales igual a 3 × tu modificador por Inteligencia. Este movimiento no tiene por qué ser en línea recta."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 270
+ },
+ "refs": [
+  "item.esfera-de-aniquilacion"
+ ]
+}

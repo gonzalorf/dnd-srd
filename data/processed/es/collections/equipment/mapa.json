@@ -1,0 +1,32 @@
+{
+ "id": "gear.mapa",
+ "name": "Mapa",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Mapa",
+  "Peso": "—",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él.",
+   "text": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él."
+  }
+ ],
+ "descriptionPage": 106
+}

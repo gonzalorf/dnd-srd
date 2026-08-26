@@ -1,0 +1,26 @@
+{
+ "id": "tack.carro",
+ "name": "Carro",
+ "kind": "tack",
+ "group": null,
+ "table": "Arreos, arneses y vehículos tirados por animales",
+ "fields": {
+  "Animal": "Carro",
+  "Peso": "200 kg",
+  "Precio": "35 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "weight": {
+  "raw": "200 kg",
+  "kg": 200.0
+ },
+ "price": {
+  "raw": "35 po",
+  "amount": 35.0,
+  "coin": "po",
+  "gp": 35.0
+ }
+}

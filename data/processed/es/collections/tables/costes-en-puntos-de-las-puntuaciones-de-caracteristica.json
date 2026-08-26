@@ -1,0 +1,53 @@
+{
+ "id": "table.costes-en-puntos-de-las-puntuaciones-de-caracteristica",
+ "caption": "Costes en puntos de las puntuaciones de característica",
+ "header": [
+  "Puntuación",
+  "Coste"
+ ],
+ "rows": [
+  [
+   "8",
+   "0"
+  ],
+  [
+   "9",
+   "1"
+  ],
+  [
+   "10",
+   "2"
+  ],
+  [
+   "11",
+   "3"
+  ],
+  [
+   "12",
+   "4"
+  ],
+  [
+   "13",
+   "5"
+  ],
+  [
+   "14",
+   "7"
+  ],
+  [
+   "15",
+   "9"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 3: puntuaciones de característica",
+  "Genera tus puntuaciones"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 23
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "id": "monster.perro-intermitente",
+ "name": "Perro intermitente",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 358
+ },
+ "context": [
+  "Perro intermitente"
+ ],
+ "metaRaw": "Feérico Mediano, legal bueno",
+ "type": "Feérico",
+ "alignment": "legal bueno",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "22 (4d8 + 4)",
+  "average": 22,
+  "formula": "4d8 + 4"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 5,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "perro intermitente",
+  "entiende el elfo y el silvano",
+  "pero no puede hablarlos"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño perforante.",
+   "page": 358,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 5 (1d4 + 3) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Teletransporte",
+   "md": "***Teletransporte (recarga 4–6).*** El perro se teletransporta hasta 12 m a un espacio sin ocupar que pueda ver.",
+   "page": 358,
+   "description": "El perro se teletransporta hasta 12 m a un espacio sin ocupar que pueda ver.",
+   "uses": "recarga 4–6"
+  }
+ ]
+}

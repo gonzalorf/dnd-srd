@@ -1,0 +1,49 @@
+{
+ "id": "spell.contrahechizo",
+ "name": "Contrahechizo",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Reacción, que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales",
+  "ritual": false,
+  "kind": "reaction",
+  "trigger": "llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "S",
+  "v": false,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Intentas interrumpir a una criatura que esté lanzando un conjuro. La criatura hace una tirada de salvación de Constitución. Si la falla, el conjuro se disipa sin causar efecto alguno y la acción, acción adicional o reacción empleada para lanzarlo se desperdiciará. Si ese conjuro se lanzó con un espacio de conjuro, dicho espacio no se gastará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "Intentas interrumpir a una criatura que esté lanzando un conjuro. La criatura hace una tirada de salvación de Constitución. Si la falla, el conjuro se disipa sin causar efecto alguno y la acción, acción adicional o reacción empleada para lanzarlo se desperdiciará. Si ese conjuro se lanzó con un espacio de conjuro, dicho espacio no se gastará.",
+   "text": "Intentas interrumpir a una criatura que esté lanzando un conjuro. La criatura hace una tirada de salvación de Constitución. Si la falla, el conjuro se disipa sin causar efecto alguno y la acción, acción adicional o reacción empleada para lanzarlo se desperdiciará. Si ese conjuro se lanzó con un espacio de conjuro, dicho espacio no se gastará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 134
+ }
+}

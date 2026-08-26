@@ -1,0 +1,90 @@
+{
+ "id": "monster.huargo",
+ "name": "Huargo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 341,
+  "pages": [
+   341,
+   342
+  ]
+ },
+ "context": [
+  "Huargo"
+ ],
+ "metaRaw": "Feérico Grande, neutral malvado",
+ "type": "Feérico",
+ "alignment": "neutral malvado",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "26 (4d10 + 4)",
+  "average": 26,
+  "formula": "4d10 + 4"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "skills": {
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "goblin",
+  "huargo"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante y la siguiente tirada de ataque realizada contra el objetivo antes del principio del siguiente turno del huargo tendrá ventaja.",
+   "page": 342,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante y la siguiente tirada de ataque realizada contra el objetivo antes del principio del siguiente turno del huargo tendrá ventaja."
+  }
+ ]
+}

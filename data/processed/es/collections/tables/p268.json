@@ -1,0 +1,41 @@
+{
+ "id": "table.p268",
+ "caption": null,
+ "header": [
+  "Poción",
+  "PG recuperados",
+  "Rareza"
+ ],
+ "rows": [
+  [
+   "Poción de curación",
+   "2d4 + 2",
+   "Común"
+  ],
+  [
+   "Poción de curación (mayor)",
+   "4d4 + 4",
+   "Infrecuente"
+  ],
+  [
+   "Poción de curación (superior)",
+   "8d4 + 8",
+   "Rara"
+  ],
+  [
+   "Poción de curación",
+   "10d4 + 20",
+   "Muy rara"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Pociones de curación"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 268
+ }
+}

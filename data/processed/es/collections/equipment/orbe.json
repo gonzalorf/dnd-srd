@@ -1,0 +1,26 @@
+{
+ "id": "focus.orbe",
+ "name": "Orbe",
+ "kind": "focus",
+ "group": null,
+ "table": "Canalizadores arcanos",
+ "fields": {
+  "Canalizador": "Orbe",
+  "Peso": "1,5 kg",
+  "Precio": "20 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 105
+ },
+ "weight": {
+  "raw": "1,5 kg",
+  "kg": 1.5
+ },
+ "price": {
+  "raw": "20 po",
+  "amount": 20.0,
+  "coin": "po",
+  "gp": 20.0
+ }
+}

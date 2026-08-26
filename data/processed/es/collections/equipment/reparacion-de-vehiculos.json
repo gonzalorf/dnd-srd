@@ -1,0 +1,19 @@
+{
+ "id": "vehicle.reparacion-de-vehiculos",
+ "name": "Reparación de vehículos",
+ "kind": "vehicle",
+ "group": "Vehículos grandes",
+ "text": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 110,
+   "md": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad.",
+   "text": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

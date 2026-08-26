@@ -1,0 +1,17 @@
+{
+ "id": "rule.objeto",
+ "name": "Objeto",
+ "text": "Un objeto es una cosa individual y sin vida. Las cosas compuestas, como los edificios, constan de más de un objeto. Consulta también “Romper objetos”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Un objeto es una cosa individual y sin vida. Las cosas compuestas, como los edificios, constan de más de un objeto. *Consulta también* “Romper objetos”.",
+   "text": "Un objeto es una cosa individual y sin vida. Las cosas compuestas, como los edificios, constan de más de un objeto. Consulta también “Romper objetos”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

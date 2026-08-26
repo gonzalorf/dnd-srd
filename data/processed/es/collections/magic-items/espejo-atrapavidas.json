@@ -1,0 +1,75 @@
+{
+ "id": "item.espejo-atrapavidas",
+ "name": "Espejo atrapavidas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro",
+ "text": "Cuando se mira de forma indirecta este espejo de 1,2 m de altura y 60 cm de ancho, su superficie muestra imágenes tenues de criaturas. El espejo pesa 25 kg y tiene una CA de 11, 10 pg, inmunidad al daño psíquico y de veneno y vulnerabilidad al daño contundente. Se hace pedazos y se destruye cuando sus puntos de golpe se reducen a 0.\n\nSi el espejo cuelga de una superficie vertical y estás a 1,5 m o menos de él, puedes emplear una acción de magia y usar una palabra de activación. Permanecerá activo hasta que emplees una acción de magia y repitas la palabra de activación para desactivarlo.\n\nSi una criatura distinta de ti ve su reflejo en el espejo activado a 9 m o menos de él, deberá superar una tirada de salvación de Carisma con CD 15 o quedará atrapada, junto con todo lo que vista o lleve, en una de las doce celdas extradimensionales del espejo. Una criatura que conozca la naturaleza del espejo hará la tirada con ventaja y los autómatas la superarán automáticamente.\n\nUna celda extradimensional es una extensión infinita cubierta por una espesa niebla que impide ver a más de 3 m de distancia. Las criaturas atrapadas en las celdas del espejo no envejecen y no necesitan ni comer ni beber ni dormir. Pueden escapar de la celda si utilizan magia que les permita viajar entre planos. De lo contrario, quedarán confinadas en la celda hasta que las liberen.\n\nSi el espejo atrapa a una criatura, pero sus doce celdas extradimensionales están ya ocupadas, liberará a una criatura atrapada al azar para alojar al nuevo prisionero. La criatura liberada aparecerá en un espacio sin ocupar a la vista del espejo, pero de espaldas a él. Si se destruye el espejo, todas las criaturas que contenga se liberarán y aparecerán en espacios sin ocupar cerca de él.\n\nMientras te encuentres a 1,5 m o menos del espejo, podrás emplear una acción de magia nombrar a una criatura atrapada o el número de una celda concreta. La criatura mencionada o la que contenga la celda nombrada aparecerá como una imagen en la superficie del espejo. La criatura y tú os podréis comunicar.\n\nDe forma similar, puedes emplear una acción de magia y usar una segunda palabra de activación para liberar a una criatura atrapada en el espejo. La criatura liberada aparecerá junto a sus posesiones en el espacio sin ocupar más cercano al espejo, pero de espaldas a él.\n\nMeter el espejo en el espacio extradimensional creado por un agujero portátil, una bolsa de contención o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral.\n\nEl portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Cuando se mira de forma indirecta este espejo de 1,2 m de altura y 60 cm de ancho, su superficie muestra imágenes tenues de criaturas. El espejo pesa 25 kg y tiene una CA de 11, 10 pg, inmunidad al daño psíquico y de veneno y vulnerabilidad al daño contundente. Se hace pedazos y se destruye cuando sus puntos de golpe se reducen a 0.",
+   "text": "Cuando se mira de forma indirecta este espejo de 1,2 m de altura y 60 cm de ancho, su superficie muestra imágenes tenues de criaturas. El espejo pesa 25 kg y tiene una CA de 11, 10 pg, inmunidad al daño psíquico y de veneno y vulnerabilidad al daño contundente. Se hace pedazos y se destruye cuando sus puntos de golpe se reducen a 0."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Si el espejo cuelga de una superficie vertical y estás a 1,5 m o menos de él, puedes emplear una acción de magia y usar una palabra de activación. Permanecerá activo hasta que emplees una acción de magia y repitas la palabra de activación para desactivarlo.",
+   "text": "Si el espejo cuelga de una superficie vertical y estás a 1,5 m o menos de él, puedes emplear una acción de magia y usar una palabra de activación. Permanecerá activo hasta que emplees una acción de magia y repitas la palabra de activación para desactivarlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Si una criatura distinta de ti ve su reflejo en el espejo activado a 9 m o menos de él, deberá superar una tirada de salvación de Carisma con CD 15 o quedará atrapada, junto con todo lo que vista o lleve, en una de las doce celdas extradimensionales del espejo. Una criatura que conozca la naturaleza del espejo hará la tirada con ventaja y los autómatas la superarán automáticamente.",
+   "text": "Si una criatura distinta de ti ve su reflejo en el espejo activado a 9 m o menos de él, deberá superar una tirada de salvación de Carisma con CD 15 o quedará atrapada, junto con todo lo que vista o lleve, en una de las doce celdas extradimensionales del espejo. Una criatura que conozca la naturaleza del espejo hará la tirada con ventaja y los autómatas la superarán automáticamente."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Una celda extradimensional es una extensión infinita cubierta por una espesa niebla que impide ver a más de 3 m de distancia. Las criaturas atrapadas en las celdas del espejo no envejecen y no necesitan ni comer ni beber ni dormir. Pueden escapar de la celda si utilizan magia que les permita viajar entre planos. De lo contrario, quedarán confinadas en la celda hasta que las liberen.",
+   "text": "Una celda extradimensional es una extensión infinita cubierta por una espesa niebla que impide ver a más de 3 m de distancia. Las criaturas atrapadas en las celdas del espejo no envejecen y no necesitan ni comer ni beber ni dormir. Pueden escapar de la celda si utilizan magia que les permita viajar entre planos. De lo contrario, quedarán confinadas en la celda hasta que las liberen."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Si el espejo atrapa a una criatura, pero sus doce celdas extradimensionales están ya ocupadas, liberará a una criatura atrapada al azar para alojar al nuevo prisionero. La criatura liberada aparecerá en un espacio sin ocupar a la vista del espejo, pero de espaldas a él. Si se destruye el espejo, todas las criaturas que contenga se liberarán y aparecerán en espacios sin ocupar cerca de él.",
+   "text": "Si el espejo atrapa a una criatura, pero sus doce celdas extradimensionales están ya ocupadas, liberará a una criatura atrapada al azar para alojar al nuevo prisionero. La criatura liberada aparecerá en un espacio sin ocupar a la vista del espejo, pero de espaldas a él. Si se destruye el espejo, todas las criaturas que contenga se liberarán y aparecerán en espacios sin ocupar cerca de él."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Mientras te encuentres a 1,5 m o menos del espejo, podrás emplear una acción de magia nombrar a una criatura atrapada o el número de una celda concreta. La criatura mencionada o la que contenga la celda nombrada aparecerá como una imagen en la superficie del espejo. La criatura y tú os podréis comunicar.",
+   "text": "Mientras te encuentres a 1,5 m o menos del espejo, podrás emplear una acción de magia nombrar a una criatura atrapada o el número de una celda concreta. La criatura mencionada o la que contenga la celda nombrada aparecerá como una imagen en la superficie del espejo. La criatura y tú os podréis comunicar."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "De forma similar, puedes emplear una acción de magia y usar una segunda palabra de activación para liberar a una criatura atrapada en el espejo. La criatura liberada aparecerá junto a sus posesiones en el espacio sin ocupar más cercano al espejo, pero de espaldas a él.",
+   "text": "De forma similar, puedes emplear una acción de magia y usar una segunda palabra de activación para liberar a una criatura atrapada en el espejo. La criatura liberada aparecerá junto a sus posesiones en el espacio sin ocupar más cercano al espejo, pero de espaldas a él."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "Meter el espejo en el espacio extradimensional creado por un *agujero portátil*, una *bolsa de contención* o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral.",
+   "text": "Meter el espejo en el espacio extradimensional creado por un agujero portátil, una bolsa de contención o un objeto similar destruye instantáneamente ambos objetos y abre un portal al Plano Astral."
+  },
+  {
+   "type": "paragraph",
+   "page": 255,
+   "md": "El portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse.",
+   "text": "El portal se crea en el sitio en el que un objeto se introdujo dentro del otro. El portal absorbe a todas las criaturas situadas a 3 m o menos de él y que no estén tras cobertura completa, y las conduce a un lugar aleatorio del Plano Astral. Después, el portal se cierra. El portal solo funciona en un sentido y no puede volver a abrirse."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 255
+ },
+ "refs": [
+  "item.agujero-portatil",
+  "item.bolsa-de-contencion"
+ ]
+}

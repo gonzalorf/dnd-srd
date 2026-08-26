@@ -1,0 +1,23 @@
+{
+ "id": "item.espada-ladrona-de-vida",
+ "name": "Espada ladrona de vida",
+ "category": "Arma",
+ "variant": "cimitarra, espada corta, espada larga, espadón, estoque o guja",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cimitarra, espada corta, espada larga, espadón, estoque o guja), rara (requiere sintonización)",
+ "text": "Cuando ataques a una criatura con esta arma mágica y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 15 de daño necrótico adicional si no es un autómata o un muerto viviente. Además, tú obtendrás una cantidad de puntos de golpe temporales igual al daño necrótico causado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Cuando ataques a una criatura con esta arma mágica y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 15 de daño necrótico adicional si no es un autómata o un muerto viviente. Además, tú obtendrás una cantidad de puntos de golpe temporales igual al daño necrótico causado.",
+   "text": "Cuando ataques a una criatura con esta arma mágica y saques un 20 en la tirada de ataque con el d20, el objetivo sufrirá 15 de daño necrótico adicional si no es un autómata o un muerto viviente. Además, tú obtendrás una cantidad de puntos de golpe temporales igual al daño necrótico causado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 254
+ }
+}

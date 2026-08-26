@@ -1,0 +1,143 @@
+{
+ "id": "rule.perfil",
+ "name": "Perfil",
+ "text": "Un perfil contiene las estadísticas de juego de un monstruo. Cada perfil incluye la siguiente información tras el nombre del monstruo.\n\nTamaño. Un monstruo puede ser Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. Consulta también “Tamaño”.\n\nTipo de criatura. Este apartado indica la familia de seres a la que pertenece un monstruo, junto con cualquier etiqueta descriptiva. Consulta también “Tipo de criatura”.\n\nAlineamiento. Se sugiere un alineamiento para el monstruo, aunque cada GM determina su alineamiento real. Consulta también “Alineamiento”.\n\nCA, iniciativa y PG. Estos apartados muestran la clase de armadura, la iniciativa y los puntos de golpe del monstruo, que se explican en el capítulo “Cómo jugar”. Después de los puntos de golpe aparecen los dados de puntos de golpe del monstruo entre paréntesis, junto con la contribución de su Constitución a sus puntos de golpe, si corresponde. Tras el modificador a la iniciativa se encuentra la puntuación de iniciativa. Algunas criaturas creadas mediante magia no tienen información sobre los dados de golpe y la iniciativa.\n\nVelocidad. Aquí se indica la velocidad del monstruo, junto con cualquier velocidad especial que tenga. Consulta también “Velocidad excavando,” “Velocidad nadando”, “Velocidad trepando” y “Velocidad volando”.\n\nPuntuaciones de característica. Una tabla muestra las puntuaciones de característica, los modificadores y los modificadores a las tiradas de salvación del monstruo, todos ellos explicados en el capítulo “Cómo jugar”.\n\nHabilidades. Este apartado indica las competencias en habilidades del monstruo, si es que tiene alguna. Consulta también el capítulo “Cómo jugar” (“Competencia”).\n\nResistencias y vulnerabilidades. Estos apartados recogen las resistencias y vulnerabilidades del monstruo si es que tiene alguna. Consulta también “Resistencia” y “Vulnerabilidad”.\n\nInmunidades. Este apartado recoge las inmunidades a daños y a estados del monstruo si es que tiene alguna. Consulta también “Inmunidad”.\n\nEquipo. Si el monstruo tiene algún equipo que se puede entregar o recuperar, aparecerá en este apartado.\n\nSentidos. Este apartado incluye los sentidos especiales (como la visión en la oscuridad) y la Percepción pasiva del monstruo. Consulta también “Percepción pasiva”.\n\nIdiomas. En este apartado aparecen los idiomas que sabe el monstruo.\n\nVD. El valor de desafío resume la amenaza que supone un monstruo y se explica en el capítulo “Monstruos”. Luego se muestran los puntos de experiencia que los personajes reciben por derrotar a un monstruo y su bonificador por competencia. Algunas criaturas creadas mediante magia no tienen VD. Consulta también “Puntos de experiencia” y “Valor de desafío”.\n\nAtributos. Los atributos del monstruo (si tiene) son capacidades que están activas todo el tiempo o en determinadas situaciones.\n\nAcciones. El monstruo puede llevar a cabo estas acciones además de las detalladas en este glosario.\n\nConsulta también el capítulo “Cómo jugar” (“Acciones”).\n\nAcciones adicionales. Si el monstruo tiene opciones como acción adicional, aparecerán en este apartado.\n\nReacciones. Si el monstruo puede llevar a cabo alguna reacción especial, aparecerá en esta sección.\n\nNotación de ataques. Los apartados de los ataques de un monstruo comienzan identificando si el ataque es cuerpo a cuerpo o a distancia. Luego indican el bonificador a la tirada de ataque, su alcance y lo que ocurre si acierta. Un ataque se lleva a cabo contra un objetivo salvo que este apartado diga lo contrario.\n\nNotación de tiradas de salvación. Si un efecto obliga a realizar una tirada de salvación, el apartado del efecto comienza identificando el tipo de tirada de salvación necesaria. Luego indica la CD de la tirada de salvación y describe qué criaturas deben realizar la tirada y lo que ocurre si la fallan o la superan.\n\nNotación del daño. Los perfiles suelen proporcionar un número estático y la tirada de dados usada con cada efecto de daño. Por ejemplo, un ataque podría causar 4 (1d4 +2) de daño si acierta. Cada GM determina si se emplea el número estático o la tirada de dados que aparece entre paréntesis: no se usan los dos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 204,
+   "md": "Un perfil contiene las estadísticas de juego de un monstruo. Cada perfil incluye la siguiente información tras el nombre del monstruo.",
+   "text": "Un perfil contiene las estadísticas de juego de un monstruo. Cada perfil incluye la siguiente información tras el nombre del monstruo."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Tamaño.*** Un monstruo puede ser Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. *Consulta también* “Tamaño”.",
+   "text": "Tamaño. Un monstruo puede ser Diminuto, Pequeño, Mediano, Grande, Enorme o Gargantuesco. Consulta también “Tamaño”."
+  },
+  {
+   "type": "definition",
+   "page": 204,
+   "md": "***Tipo de criatura.*** Este apartado indica la familia de seres a la que pertenece un monstruo, junto con cualquier etiqueta descriptiva. *Consulta también* “Tipo de criatura”.",
+   "text": "Tipo de criatura. Este apartado indica la familia de seres a la que pertenece un monstruo, junto con cualquier etiqueta descriptiva. Consulta también “Tipo de criatura”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Alineamiento.*** Se sugiere un alineamiento para el monstruo, aunque cada GM determina su alineamiento real. *Consulta también* “Alineamiento”.",
+   "text": "Alineamiento. Se sugiere un alineamiento para el monstruo, aunque cada GM determina su alineamiento real. Consulta también “Alineamiento”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***CA, iniciativa y PG.*** Estos apartados muestran la clase de armadura, la iniciativa y los puntos de golpe del monstruo, que se explican en el capítulo “Cómo jugar”. Después de los puntos de golpe aparecen los dados de puntos de golpe del monstruo entre paréntesis, junto con la contribución de su Constitución a sus puntos de golpe, si corresponde. Tras el modificador a la iniciativa se encuentra la puntuación de iniciativa. Algunas criaturas creadas mediante magia no tienen información sobre los dados de golpe y la iniciativa.",
+   "text": "CA, iniciativa y PG. Estos apartados muestran la clase de armadura, la iniciativa y los puntos de golpe del monstruo, que se explican en el capítulo “Cómo jugar”. Después de los puntos de golpe aparecen los dados de puntos de golpe del monstruo entre paréntesis, junto con la contribución de su Constitución a sus puntos de golpe, si corresponde. Tras el modificador a la iniciativa se encuentra la puntuación de iniciativa. Algunas criaturas creadas mediante magia no tienen información sobre los dados de golpe y la iniciativa."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Velocidad.*** Aquí se indica la velocidad del monstruo, junto con cualquier velocidad especial que tenga. *Consulta también* “Velocidad excavando,” “Velocidad nadando”, “Velocidad trepando” y “Velocidad volando”.",
+   "text": "Velocidad. Aquí se indica la velocidad del monstruo, junto con cualquier velocidad especial que tenga. Consulta también “Velocidad excavando,” “Velocidad nadando”, “Velocidad trepando” y “Velocidad volando”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Puntuaciones de característica.*** Una tabla muestra las puntuaciones de característica, los modificadores y los modificadores a las tiradas de salvación del monstruo, todos ellos explicados en el capítulo “Cómo jugar”.",
+   "text": "Puntuaciones de característica. Una tabla muestra las puntuaciones de característica, los modificadores y los modificadores a las tiradas de salvación del monstruo, todos ellos explicados en el capítulo “Cómo jugar”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Habilidades.*** Este apartado indica las competencias en habilidades del monstruo, si es que tiene alguna. *Consulta también* el capítulo “Cómo jugar” (“Competencia”).",
+   "text": "Habilidades. Este apartado indica las competencias en habilidades del monstruo, si es que tiene alguna. Consulta también el capítulo “Cómo jugar” (“Competencia”)."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Resistencias y vulnerabilidades.*** Estos apartados recogen las resistencias y vulnerabilidades del monstruo si es que tiene alguna. *Consulta también* “Resistencia” y “Vulnerabilidad”.",
+   "text": "Resistencias y vulnerabilidades. Estos apartados recogen las resistencias y vulnerabilidades del monstruo si es que tiene alguna. Consulta también “Resistencia” y “Vulnerabilidad”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Inmunidades.*** Este apartado recoge las inmunidades a daños y a estados del monstruo si es que tiene alguna. *Consulta también* “Inmunidad”.",
+   "text": "Inmunidades. Este apartado recoge las inmunidades a daños y a estados del monstruo si es que tiene alguna. Consulta también “Inmunidad”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Equipo.*** Si el monstruo tiene algún equipo que se puede entregar o recuperar, aparecerá en este apartado.",
+   "text": "Equipo. Si el monstruo tiene algún equipo que se puede entregar o recuperar, aparecerá en este apartado."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Sentidos.*** Este apartado incluye los sentidos especiales (como la visión en la oscuridad) y la Percepción pasiva del monstruo. *Consulta también* “Percepción pasiva”.",
+   "text": "Sentidos. Este apartado incluye los sentidos especiales (como la visión en la oscuridad) y la Percepción pasiva del monstruo. Consulta también “Percepción pasiva”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Idiomas.*** En este apartado aparecen los idiomas que sabe el monstruo.",
+   "text": "Idiomas. En este apartado aparecen los idiomas que sabe el monstruo."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***VD.*** El valor de desafío resume la amenaza que supone un monstruo y se explica en el capítulo “Monstruos”. Luego se muestran los puntos de experiencia que los personajes reciben por derrotar a un monstruo y su bonificador por competencia. Algunas criaturas creadas mediante magia no tienen VD. *Consulta también* “Puntos de experiencia” y “Valor de desafío”.",
+   "text": "VD. El valor de desafío resume la amenaza que supone un monstruo y se explica en el capítulo “Monstruos”. Luego se muestran los puntos de experiencia que los personajes reciben por derrotar a un monstruo y su bonificador por competencia. Algunas criaturas creadas mediante magia no tienen VD. Consulta también “Puntos de experiencia” y “Valor de desafío”."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Atributos.*** Los atributos del monstruo (si tiene) son capacidades que están activas todo el tiempo o en determinadas situaciones.",
+   "text": "Atributos. Los atributos del monstruo (si tiene) son capacidades que están activas todo el tiempo o en determinadas situaciones."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Acciones.*** El monstruo puede llevar a cabo estas acciones además de las detalladas en este glosario.",
+   "text": "Acciones. El monstruo puede llevar a cabo estas acciones además de las detalladas en este glosario."
+  },
+  {
+   "type": "paragraph",
+   "page": 205,
+   "md": "*Consulta también* el capítulo “Cómo jugar” (“Acciones”).",
+   "text": "Consulta también el capítulo “Cómo jugar” (“Acciones”)."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Acciones adicionales.*** Si el monstruo tiene opciones como acción adicional, aparecerán en este apartado.",
+   "text": "Acciones adicionales. Si el monstruo tiene opciones como acción adicional, aparecerán en este apartado."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Reacciones.*** Si el monstruo puede llevar a cabo alguna reacción especial, aparecerá en esta sección.",
+   "text": "Reacciones. Si el monstruo puede llevar a cabo alguna reacción especial, aparecerá en esta sección."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Notación de ataques.*** Los apartados de los ataques de un monstruo comienzan identificando si el ataque es cuerpo a cuerpo o a distancia. Luego indican el bonificador a la tirada de ataque, su alcance y lo que ocurre si acierta. Un ataque se lleva a cabo contra un objetivo salvo que este apartado diga lo contrario.",
+   "text": "Notación de ataques. Los apartados de los ataques de un monstruo comienzan identificando si el ataque es cuerpo a cuerpo o a distancia. Luego indican el bonificador a la tirada de ataque, su alcance y lo que ocurre si acierta. Un ataque se lleva a cabo contra un objetivo salvo que este apartado diga lo contrario."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Notación de tiradas de salvación.*** Si un efecto obliga a realizar una tirada de salvación, el apartado del efecto comienza identificando el tipo de tirada de salvación necesaria. Luego indica la CD de la tirada de salvación y describe qué criaturas deben realizar la tirada y lo que ocurre si la fallan o la superan.",
+   "text": "Notación de tiradas de salvación. Si un efecto obliga a realizar una tirada de salvación, el apartado del efecto comienza identificando el tipo de tirada de salvación necesaria. Luego indica la CD de la tirada de salvación y describe qué criaturas deben realizar la tirada y lo que ocurre si la fallan o la superan."
+  },
+  {
+   "type": "definition",
+   "page": 205,
+   "md": "***Notación del daño.*** Los perfiles suelen proporcionar un número estático y la tirada de dados usada con cada efecto de daño. Por ejemplo, un ataque podría causar 4 (1d4 +2) de daño si acierta. Cada GM determina si se emplea el número estático o la tirada de dados que aparece entre paréntesis: no se usan los dos.",
+   "text": "Notación del daño. Los perfiles suelen proporcionar un número estático y la tirada de dados usada con cada efecto de daño. Por ejemplo, un ataque podría causar 4 (1d4 +2) de daño si acierta. Cada GM determina si se emplea el número estático o la tirada de dados que aparece entre paréntesis: no se usan los dos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 204
+ }
+}

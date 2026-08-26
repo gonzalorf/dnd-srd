@@ -1,0 +1,121 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-1",
+ "caption": "Conjuros de hechicero de nivel 1",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Armadura de mago",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Caída de pluma",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Cuchillo de hielo",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Detectar magia",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Disfrazarse",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Dormir",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Entender idiomas",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Escudo",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Falsa vida",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Grasa",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Hechizar persona",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Manos ardientes",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Nube de oscurecimiento",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Ola atronadora",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Orbe cromático",
+   "Evocación",
+   "M"
+  ],
+  [
+   "Proyectil mágico",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Rayo nauseabundo",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Retirada expeditiva",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Rociada de color",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Salto",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 68
+ }
+}

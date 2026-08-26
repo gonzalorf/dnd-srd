@@ -1,0 +1,23 @@
+{
+ "id": "item.amuleto-de-salud",
+ "name": "Amuleto de salud",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Tu Constitución es de 19 mientras lleves puesto este amuleto. No tiene efecto si tu Constitución es de 19 o más sin él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 230,
+   "md": "Tu Constitución es de 19 mientras lleves puesto este amuleto. No tiene efecto si tu Constitución es de 19 o más sin él.",
+   "text": "Tu Constitución es de 19 mientras lleves puesto este amuleto. No tiene efecto si tu Constitución es de 19 o más sin él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 230
+ }
+}

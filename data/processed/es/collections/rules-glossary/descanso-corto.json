@@ -1,0 +1,65 @@
+{
+ "id": "rule.descanso-corto",
+ "name": "Descanso corto",
+ "text": "Un descanso corto es un periodo de inactividad de 1 hora en el que una criatura no hace nada más extenuante que leer, charlar, comer o montar guardia. Para comenzar un descanso corto, debes tener al menos 1 punto de golpe.\n\nBeneficios del descanso. Tras finalizar el descanso obtendrás los siguientes beneficios:\n\nGastar dados de puntos de golpe. Puedes gastar uno o más dados de puntos de golpe para recuperar puntos de golpe. Por cada dado de puntos de golpe que gastes de esta forma, tira el dado y suma tu modificador por Constitución al resultado. Recuperas una cantidad de puntos de golpe equivalente al total obtenido (con un mínimo de 1). Puedes decidir si gastas otro dado de puntos de golpe tras cada tirada.\n\nRasgo especial. Algunos rasgos se recargan con un descanso corto. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción.\n\nInterrumpir el descanso. Un descanso corto se puede interrumpir de las siguientes formas:\n\n• si se tira iniciativa;\n\n• si se lanza un conjuro que no sea un truco;\n\n• si se sufre daño.\n\nUn descanso corto interrumpido no otorga ningún beneficio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Un descanso corto es un periodo de inactividad de 1 hora en el que una criatura no hace nada más extenuante que leer, charlar, comer o montar guardia. Para comenzar un descanso corto, debes tener al menos 1 punto de golpe.",
+   "text": "Un descanso corto es un periodo de inactividad de 1 hora en el que una criatura no hace nada más extenuante que leer, charlar, comer o montar guardia. Para comenzar un descanso corto, debes tener al menos 1 punto de golpe."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "***Beneficios del descanso.*** Tras finalizar el descanso obtendrás los siguientes beneficios:",
+   "text": "Beneficios del descanso. Tras finalizar el descanso obtendrás los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Gastar dados de puntos de golpe.** Puedes gastar uno o más dados de puntos de golpe para recuperar puntos de golpe. Por cada dado de puntos de golpe que gastes de esta forma, tira el dado y suma tu modificador por Constitución al resultado. Recuperas una cantidad de puntos de golpe equivalente al total obtenido (con un mínimo de 1). Puedes decidir si gastas otro dado de puntos de golpe tras cada tirada.",
+   "text": "Gastar dados de puntos de golpe. Puedes gastar uno o más dados de puntos de golpe para recuperar puntos de golpe. Por cada dado de puntos de golpe que gastes de esta forma, tira el dado y suma tu modificador por Constitución al resultado. Recuperas una cantidad de puntos de golpe equivalente al total obtenido (con un mínimo de 1). Puedes decidir si gastas otro dado de puntos de golpe tras cada tirada."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "**Rasgo especial.** Algunos rasgos se recargan con un descanso corto. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción.",
+   "text": "Rasgo especial. Algunos rasgos se recargan con un descanso corto. Si tienes uno de estos rasgos, se recargará de la forma que indique su descripción."
+  },
+  {
+   "type": "definition",
+   "page": 199,
+   "md": "***Interrumpir el descanso.*** Un descanso corto se puede interrumpir de las siguientes formas:",
+   "text": "Interrumpir el descanso. Un descanso corto se puede interrumpir de las siguientes formas:"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se tira iniciativa;",
+   "text": "• si se tira iniciativa;"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se lanza un conjuro que no sea un truco;",
+   "text": "• si se lanza un conjuro que no sea un truco;"
+  },
+  {
+   "type": "list-item",
+   "page": 199,
+   "md": "• si se sufre daño.",
+   "text": "• si se sufre daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Un descanso corto interrumpido no otorga ningún beneficio.",
+   "text": "Un descanso corto interrumpido no otorga ningún beneficio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 199
+ }
+}

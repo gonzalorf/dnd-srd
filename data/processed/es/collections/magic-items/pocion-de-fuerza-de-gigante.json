@@ -1,0 +1,66 @@
+{
+ "id": "item.pocion-de-fuerza-de-gigante",
+ "name": "Poción de fuerza de gigante",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "varía",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, rareza variable",
+ "text": "Cuando bebas esta poción, tu puntuación de Fuerza cambiará durante 1 hora. El tipo de gigante determina la puntuación (consulta la tabla más adelante). La poción no tendrá ningún efecto si tu Fuerza es igual o superior a esa puntuación.\n\nEn el líquido transparente de la poción flota un fragmento de luz que parece la uña de un gigante.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, tu puntuación de Fuerza cambiará durante 1 hora. El tipo de gigante determina la puntuación (consulta la tabla más adelante). La poción no tendrá ningún efecto si tu Fuerza es igual o superior a esa puntuación.",
+   "text": "Cuando bebas esta poción, tu puntuación de Fuerza cambiará durante 1 hora. El tipo de gigante determina la puntuación (consulta la tabla más adelante). La poción no tendrá ningún efecto si tu Fuerza es igual o superior a esa puntuación."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "En el líquido transparente de la poción flota un fragmento de luz que parece la uña de un gigante.",
+   "text": "En el líquido transparente de la poción flota un fragmento de luz que parece la uña de un gigante."
+  },
+  {
+   "type": "table",
+   "page": 267,
+   "caption": null,
+   "header": [
+    "Poción",
+    "Fue",
+    "Rareza"
+   ],
+   "rows": [
+    [
+     "Poción de fuerza de gigante (colinas)",
+     "21",
+     "Infrecuente"
+    ],
+    [
+     "Poción de fuerza de gigante (escarcha o piedra)",
+     "23",
+     "Rara"
+    ],
+    [
+     "Poción de fuerza de gigante (fuego)",
+     "25",
+     "Rara"
+    ],
+    [
+     "Poción de fuerza de gigante (nubes)",
+     "27",
+     "Muy rara"
+    ],
+    [
+     "Poción de fuerza de gigante (tormentas)",
+     "29",
+     "Legendaria"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

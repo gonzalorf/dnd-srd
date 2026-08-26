@@ -1,0 +1,131 @@
+{
+ "id": "table.conjuros-de-mago-de-nivel-3",
+ "caption": "Conjuros de mago de nivel 3",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Acelerar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Animar a los muertos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Bola de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Círculo mágico",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Clarividencia",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Contrahechizo",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Corcel fantasma",
+   "Ilusionismo",
+   "R"
+  ],
+  [
+   "Desplazamiento",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Disipar magia",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Don de lenguas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Forma gaseosa",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Glifo custodio",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Hablar con los muertos",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Imagen mayor",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Imponer maldición",
+   "Nigromancia",
+   "C"
+  ],
+  [
+   "Indetectable",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Levantar maldición",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Nube apestosa",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Patrón hipnótico",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Pequeña choza",
+   "Evocación",
+   "R"
+  ],
+  [
+   "Protección contra energía",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Ralentizar",
+   "Transmutación",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Mago",
+  "Lista de conjuros de mago"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 74
+ }
+}

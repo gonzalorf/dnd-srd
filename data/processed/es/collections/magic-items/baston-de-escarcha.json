@@ -1,0 +1,78 @@
+{
+ "id": "item.baston-de-escarcha",
+ "name": "Bastón de escarcha",
+ "category": "Bastón",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": "un brujo, druida, hechicero o mago",
+ "subtitle": "Bastón, muy raro (requiere sintonización por parte de un brujo, druida, hechicero o mago)",
+ "text": "Mientras empuñes este bastón, tendrás resistencia al daño de frío.\n\nConjuros. El bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu CD de salvación de conjuros. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.\n\nhielo\n\nRecuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en agua y se destruye.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 240,
+   "md": "Mientras empuñes este bastón, tendrás resistencia al daño de frío.",
+   "text": "Mientras empuñes este bastón, tendrás resistencia al daño de frío."
+  },
+  {
+   "type": "definition",
+   "page": 240,
+   "md": "***Conjuros.*** El bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu CD de salvación de conjuros. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.",
+   "text": "Conjuros. El bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu CD de salvación de conjuros. En ella se indica cuántas cargas debes gastar para lanzar el conjuro."
+  },
+  {
+   "type": "table",
+   "page": 240,
+   "caption": null,
+   "header": [
+    "Conjuro",
+    "Coste en cargas",
+    "Conjuro",
+    "Coste en cargas"
+   ],
+   "rows": [
+    [
+     "Cono de frío",
+     "5",
+     "Nube de oscurecimiento",
+     "1"
+    ],
+    [
+     "Muro de hielo",
+     "4",
+     "Tormenta de",
+     "4"
+    ],
+    [
+     "Bola de fuego",
+     "3",
+     "Muro de fuego",
+     "4"
+    ],
+    [
+     "Manos ardientes",
+     "1",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "property",
+   "page": 240,
+   "md": "*hielo*",
+   "text": "hielo"
+  },
+  {
+   "type": "definition",
+   "page": 240,
+   "md": "***Recuperar cargas.*** El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en agua y se destruye.",
+   "text": "Recuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se convierte en agua y se destruye."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 240
+ }
+}

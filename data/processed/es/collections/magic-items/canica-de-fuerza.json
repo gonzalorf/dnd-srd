@@ -1,0 +1,35 @@
+{
+ "id": "item.canica-de-fuerza",
+ "name": "Canica de fuerza",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro",
+ "text": "Esta pequeña esfera negra mide 2 cm de diámetro y pesa 30 g. Normalmente, se encuentran 1d4 + 4 canicas de fuerza juntas.\n\nPuedes utilizar una acción de magia para lanzar la canica a 18 m o menos de distancia. La canica explota en una esfera de 3 m de radio al impactar y se destruye. Cada criatura que se encuentre en la esfera deberá superar una tirada de salvación de Destreza con CD 15 o recibirá 5d4 de daño de fuerza. Después, el área quedará encerrada en una esfera de fuerza transparente durante 1 minuto. Las criaturas que hayan fallado la tirada de salvación y estén dentro del área por completo quedarán atrapadas en el interior de la esfera. A las criaturas que hayan superado la tirada o que estén dentro del área solo parcialmente se las empujará lejos del centro de la esfera hasta que dejen de estar en su interior. A través de la pared de la esfera solo puede pasar el aire respirable; ningún ataque o efecto puede atravesarla.\n\nUna criatura encerrada puede emplear una acción de utilizar para empujar la pared de la esfera y hacerla moverse a hasta la mitad de la velocidad de la criatura. La esfera se puede recoger y su magia hace que solo pese 0,5 kg, independientemente de lo que pesen las criaturas que contenga.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Esta pequeña esfera negra mide 2 cm de diámetro y pesa 30 g. Normalmente, se encuentran 1d4 + 4 *canicas de fuerza* juntas.",
+   "text": "Esta pequeña esfera negra mide 2 cm de diámetro y pesa 30 g. Normalmente, se encuentran 1d4 + 4 canicas de fuerza juntas."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Puedes utilizar una acción de magia para lanzar la canica a 18 m o menos de distancia. La canica explota en una esfera de 3 m de radio al impactar y se destruye. Cada criatura que se encuentre en la esfera deberá superar una tirada de salvación de Destreza con CD 15 o recibirá 5d4 de daño de fuerza. Después, el área quedará encerrada en una esfera de fuerza transparente durante 1 minuto. Las criaturas que hayan fallado la tirada de salvación y estén dentro del área por completo quedarán atrapadas en el interior de la esfera. A las criaturas que hayan superado la tirada o que estén dentro del área solo parcialmente se las empujará lejos del centro de la esfera hasta que dejen de estar en su interior. A través de la pared de la esfera solo puede pasar el aire respirable; ningún ataque o efecto puede atravesarla.",
+   "text": "Puedes utilizar una acción de magia para lanzar la canica a 18 m o menos de distancia. La canica explota en una esfera de 3 m de radio al impactar y se destruye. Cada criatura que se encuentre en la esfera deberá superar una tirada de salvación de Destreza con CD 15 o recibirá 5d4 de daño de fuerza. Después, el área quedará encerrada en una esfera de fuerza transparente durante 1 minuto. Las criaturas que hayan fallado la tirada de salvación y estén dentro del área por completo quedarán atrapadas en el interior de la esfera. A las criaturas que hayan superado la tirada o que estén dentro del área solo parcialmente se las empujará lejos del centro de la esfera hasta que dejen de estar en su interior. A través de la pared de la esfera solo puede pasar el aire respirable; ningún ataque o efecto puede atravesarla."
+  },
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Una criatura encerrada puede emplear una acción de utilizar para empujar la pared de la esfera y hacerla moverse a hasta la mitad de la velocidad de la criatura. La esfera se puede recoger y su magia hace que solo pese 0,5 kg, independientemente de lo que pesen las criaturas que contenga.",
+   "text": "Una criatura encerrada puede emplear una acción de utilizar para empujar la pared de la esfera y hacerla moverse a hasta la mitad de la velocidad de la criatura. La esfera se puede recoger y su magia hace que solo pese 0,5 kg, independientemente de lo que pesen las criaturas que contenga."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ }
+}

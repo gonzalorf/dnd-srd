@@ -1,0 +1,723 @@
+{
+ "id": "class.guerrero",
+ "name": "Guerrero",
+ "coreTraits": {
+  "Característica principal": "Fuerza o Destreza",
+  "Dado de puntos de golpe": "1d10 por nivel de guerrero",
+  "Competencias en tiradas de salvación": "Fuerza y Constitución",
+  "Competencias en habilidades": "Elige dos: Acrobacias, Atletismo, Historia, Intimidación, Percepción, Perspicacia, Persuasión, Supervivencia o Trato con animales",
+  "Competencias con armas": "Armas sencillas y marciales",
+  "Entrenamiento con armaduras": "Armaduras ligeras, medias y pesadas y escudos",
+  "Equipo inicial": "Elige A, Bo C: (A) cota de malla, espadón, mangual, 8 jabalinas, paquete de explorador de mazmorras y 4 po; (B) armadura de cuero tachonado, cimitarra, espada corta, arco largo, 20 flechas, aljaba, paquete de explorador de mazmorras y 11 po, o (C) 155 po"
+ },
+ "progression": {
+  "caption": "Rasgos de guerrero",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Tomar aliento",
+   "Maestría con armas"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Estilo de combate, Maestría con armas, Tomar aliento",
+    "2",
+    "3"
+   ],
+   [
+    "2",
+    "+2",
+    "Acción súbita (un uso), Mente táctica",
+    "2",
+    "3"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de guerrero",
+    "2",
+    "3"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "3",
+    "4"
+   ],
+   [
+    "5",
+    "+3",
+    "Ataque adicional, Desplazamiento táctico",
+    "3",
+    "4"
+   ],
+   [
+    "6",
+    "+3",
+    "Mejora de característica",
+    "3",
+    "4"
+   ],
+   [
+    "7",
+    "+3",
+    "Rasgo de subclase",
+    "3",
+    "4"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "3",
+    "4"
+   ],
+   [
+    "9",
+    "+4",
+    "Indómito (un uso), Maestro táctico",
+    "3",
+    "4"
+   ],
+   [
+    "10",
+    "+4",
+    "Rasgo de subclase",
+    "4",
+    "5"
+   ],
+   [
+    "11",
+    "+4",
+    "Dos ataques adicionales",
+    "4",
+    "5"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "4",
+    "5"
+   ],
+   [
+    "13",
+    "+5",
+    "Indómito (dos usos), Ataques estudiados",
+    "4",
+    "5"
+   ],
+   [
+    "14",
+    "+5",
+    "Mejora de característica",
+    "4",
+    "5"
+   ],
+   [
+    "15",
+    "+5",
+    "Rasgo de subclase",
+    "4",
+    "5"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "4",
+    "6"
+   ],
+   [
+    "17",
+    "+6",
+    "Acción súbita (dos usos), Indómito (tres usos)",
+    "4",
+    "6"
+   ],
+   [
+    "18",
+    "+6",
+    "Rasgo de subclase",
+    "4",
+    "6"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "4",
+    "6"
+   ],
+   [
+    "20",
+    "+6",
+    "Tres ataques adicionales",
+    "4",
+    "6"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Estilo de combate",
+   "title": "Nivel 1: Estilo de combate",
+   "subclass": null,
+   "text": "Has pulido tu destreza marcial y obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). Se recomienda Defensa.\n\nCada vez que subas un nivel de guerrero, puedes sustituir la dote que hayas elegido por otra dote de estilo de combate.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 62,
+     "md": "Has pulido tu destreza marcial y obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). Se recomienda Defensa.",
+     "text": "Has pulido tu destreza marcial y obtienes una dote de estilo de combate de tu elección (consulta el capítulo “Dotes”). Se recomienda Defensa."
+    },
+    {
+     "type": "table",
+     "page": 62,
+     "caption": "Rasgos de guerrero",
+     "header": [
+      "Nivel",
+      "Bonificador por competencia",
+      "Rasgos de clase",
+      "Tomar aliento",
+      "Maestría con armas"
+     ],
+     "rows": [
+      [
+       "1",
+       "+2",
+       "Estilo de combate, Maestría con armas, Tomar aliento",
+       "2",
+       "3"
+      ],
+      [
+       "2",
+       "+2",
+       "Acción súbita (un uso), Mente táctica",
+       "2",
+       "3"
+      ],
+      [
+       "3",
+       "+2",
+       "Subclase de guerrero",
+       "2",
+       "3"
+      ],
+      [
+       "4",
+       "+2",
+       "Mejora de característica",
+       "3",
+       "4"
+      ],
+      [
+       "5",
+       "+3",
+       "Ataque adicional, Desplazamiento táctico",
+       "3",
+       "4"
+      ],
+      [
+       "6",
+       "+3",
+       "Mejora de característica",
+       "3",
+       "4"
+      ],
+      [
+       "7",
+       "+3",
+       "Rasgo de subclase",
+       "3",
+       "4"
+      ],
+      [
+       "8",
+       "+3",
+       "Mejora de característica",
+       "3",
+       "4"
+      ],
+      [
+       "9",
+       "+4",
+       "Indómito (un uso), Maestro táctico",
+       "3",
+       "4"
+      ],
+      [
+       "10",
+       "+4",
+       "Rasgo de subclase",
+       "4",
+       "5"
+      ],
+      [
+       "11",
+       "+4",
+       "Dos ataques adicionales",
+       "4",
+       "5"
+      ],
+      [
+       "12",
+       "+4",
+       "Mejora de característica",
+       "4",
+       "5"
+      ],
+      [
+       "13",
+       "+5",
+       "Indómito (dos usos), Ataques estudiados",
+       "4",
+       "5"
+      ],
+      [
+       "14",
+       "+5",
+       "Mejora de característica",
+       "4",
+       "5"
+      ],
+      [
+       "15",
+       "+5",
+       "Rasgo de subclase",
+       "4",
+       "5"
+      ],
+      [
+       "16",
+       "+5",
+       "Mejora de característica",
+       "4",
+       "6"
+      ],
+      [
+       "17",
+       "+6",
+       "Acción súbita (dos usos), Indómito (tres usos)",
+       "4",
+       "6"
+      ],
+      [
+       "18",
+       "+6",
+       "Rasgo de subclase",
+       "4",
+       "6"
+      ],
+      [
+       "19",
+       "+6",
+       "Don épico",
+       "4",
+       "6"
+      ],
+      [
+       "20",
+       "+6",
+       "Tres ataques adicionales",
+       "4",
+       "6"
+      ]
+     ]
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cada vez que subas un nivel de guerrero, puedes sustituir la dote que hayas elegido por otra dote de estilo de combate.",
+     "text": "Cada vez que subas un nivel de guerrero, puedes sustituir la dote que hayas elegido por otra dote de estilo de combate."
+    }
+   ],
+   "page": 62
+  },
+  {
+   "level": 1,
+   "name": "Maestría con armas",
+   "title": "Nivel 1: Maestría con armas",
+   "subclass": null,
+   "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con tres tipos de armas sencillas o marciales de tu elección. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.\n\nCuando alcances ciertos niveles de guerrero, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de guerrero”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con tres tipos de armas sencillas o marciales de tu elección. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.",
+     "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con tres tipos de armas sencillas o marciales de tu elección. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones."
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando alcances ciertos niveles de guerrero, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de guerrero”.",
+     "text": "Cuando alcances ciertos niveles de guerrero, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de guerrero”."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 1,
+   "name": "Tomar aliento",
+   "title": "Nivel 1: Tomar aliento",
+   "subclass": null,
+   "text": "Posees una pequeña reserva de resistencia física y mental a la que puedes recurrir. Como acción adicional, puedes usarla para recuperar una cantidad de puntos de golpe igual a 1d10 más tu nivel de guerrero.\n\nPuedes usar este rasgo dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.\n\nObtienes usos adicionales cuando alcanzas ciertos niveles de guerrero, como se muestra en la columna “Tomar aliento” de la tabla “Rasgos de guerrero”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Posees una pequeña reserva de resistencia física y mental a la que puedes recurrir. Como acción adicional, puedes usarla para recuperar una cantidad de puntos de golpe igual a 1d10 más tu nivel de guerrero.",
+     "text": "Posees una pequeña reserva de resistencia física y mental a la que puedes recurrir. Como acción adicional, puedes usarla para recuperar una cantidad de puntos de golpe igual a 1d10 más tu nivel de guerrero."
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Puedes usar este rasgo dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.",
+     "text": "Puedes usar este rasgo dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Obtienes usos adicionales cuando alcanzas ciertos niveles de guerrero, como se muestra en la columna “Tomar aliento” de la tabla “Rasgos de guerrero”.",
+     "text": "Obtienes usos adicionales cuando alcanzas ciertos niveles de guerrero, como se muestra en la columna “Tomar aliento” de la tabla “Rasgos de guerrero”."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 2,
+   "name": "Acción súbita",
+   "title": "Nivel 2: Acción súbita",
+   "subclass": null,
+   "text": "Puedes superar tus límites normales durante un instante. En tu turno, puedes llevar a cabo una acción más, salvo la acción de magia.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo. A partir del nivel 17, podrás usarlo dos veces antes de descansar, pero solo una vez por turno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Puedes superar tus límites normales durante un instante. En tu turno, puedes llevar a cabo una acción más, salvo la acción de magia.",
+     "text": "Puedes superar tus límites normales durante un instante. En tu turno, puedes llevar a cabo una acción más, salvo la acción de magia."
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo. A partir del nivel 17, podrás usarlo dos veces antes de descansar, pero solo una vez por turno.",
+     "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo. A partir del nivel 17, podrás usarlo dos veces antes de descansar, pero solo una vez por turno."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 2,
+   "name": "Mente táctica",
+   "title": "Nivel 2: Mente táctica",
+   "subclass": null,
+   "text": "Tienes facilidad para la estrategia dentro y fuera del campo de batalla. Cuando falles una prueba de característica, podrás gastar un uso de tu rasgo Tomar aliento para esforzarte por superarla. En vez de recuperar puntos de golpe, tiras 1d10 y sumas el resultado a la prueba de característica, lo que podría convertir el fallo en un éxito. Si sigues sin superar la prueba, este uso de Tomar aliento no se gasta.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Tienes facilidad para la estrategia dentro y fuera del campo de batalla. Cuando falles una prueba de característica, podrás gastar un uso de tu rasgo Tomar aliento para esforzarte por superarla. En vez de recuperar puntos de golpe, tiras 1d10 y sumas el resultado a la prueba de característica, lo que podría convertir el fallo en un éxito. Si sigues sin superar la prueba, este uso de Tomar aliento no se gasta.",
+     "text": "Tienes facilidad para la estrategia dentro y fuera del campo de batalla. Cuando falles una prueba de característica, podrás gastar un uso de tu rasgo Tomar aliento para esforzarte por superarla. En vez de recuperar puntos de golpe, tiras 1d10 y sumas el resultado a la prueba de característica, lo que podría convertir el fallo en un éxito. Si sigues sin superar la prueba, este uso de Tomar aliento no se gasta."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 3,
+   "name": "Subclase de guerrero",
+   "title": "Nivel 3: Subclase de guerrero",
+   "subclass": null,
+   "text": "Consigues una subclase de guerrero de tu elección. La subclase de campeón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de guerrero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de guerrero e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Consigues una subclase de guerrero de tu elección. La subclase de campeón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de guerrero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de guerrero e inferiores.",
+     "text": "Consigues una subclase de guerrero de tu elección. La subclase de campeón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de guerrero. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de guerrero e inferiores."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16 de guerrero.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16 de guerrero.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16 de guerrero."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 5,
+   "name": "Ataque adicional",
+   "title": "Nivel 5: Ataque adicional",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 5,
+   "name": "Desplazamiento táctico",
+   "title": "Nivel 5: Desplazamiento táctico",
+   "subclass": null,
+   "text": "Cuando uses tu rasgo Tomar aliento con una acción adicional, podrás moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando uses tu rasgo Tomar aliento con una acción adicional, podrás moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.",
+     "text": "Cuando uses tu rasgo Tomar aliento con una acción adicional, podrás moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 9,
+   "name": "Indómito",
+   "title": "Nivel 9: Indómito",
+   "subclass": null,
+   "text": "Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero. Deberás quedarte con el nuevo resultado y no podrás volver a utilizar este rasgo hasta que finalices un descanso largo.\n\nPuedes usar este rasgo dos veces entre descansos largos a partir del nivel 13 y tres veces entre descansos largos a partir del nivel 17.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero. Deberás quedarte con el nuevo resultado y no podrás volver a utilizar este rasgo hasta que finalices un descanso largo.",
+     "text": "Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero. Deberás quedarte con el nuevo resultado y no podrás volver a utilizar este rasgo hasta que finalices un descanso largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Puedes usar este rasgo dos veces entre descansos largos a partir del nivel 13 y tres veces entre descansos largos a partir del nivel 17.",
+     "text": "Puedes usar este rasgo dos veces entre descansos largos a partir del nivel 13 y tres veces entre descansos largos a partir del nivel 17."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 9,
+   "name": "Maestro táctico",
+   "title": "Nivel 9: Maestro táctico",
+   "subclass": null,
+   "text": "Cuando ataques usando un arma con la que puedas utilizar su propiedad de maestría, puedes sustituir la propiedad para ese ataque por la de debilitar, empujar o ralentizar.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando ataques usando un arma con la que puedas utilizar su propiedad de maestría, puedes sustituir la propiedad para ese ataque por la de debilitar, empujar o ralentizar.",
+     "text": "Cuando ataques usando un arma con la que puedas utilizar su propiedad de maestría, puedes sustituir la propiedad para ese ataque por la de debilitar, empujar o ralentizar."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 11,
+   "name": "Dos ataques adicionales",
+   "title": "Nivel 11: Dos ataques adicionales",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer tres ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer tres ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer tres ataques en lugar de uno."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 13,
+   "name": "Ataques estudiados",
+   "title": "Nivel 13: Ataques estudiados",
+   "subclass": null,
+   "text": "Estudias a tus adversarios y aprendes con cada ataque que realizas. Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Estudias a tus adversarios y aprendes con cada ataque que realizas. Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno.",
+     "text": "Estudias a tus adversarios y aprendes con cada ataque que realizas. Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don de la pericia en combate.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don de la pericia en combate.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don de la pericia en combate."
+    }
+   ],
+   "page": 63
+  },
+  {
+   "level": 20,
+   "name": "Tres ataques adicionales",
+   "title": "Nivel 20: Tres ataques adicionales",
+   "subclass": null,
+   "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer cuatro ataques en lugar de uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 63,
+     "md": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer cuatro ataques en lugar de uno.",
+     "text": "Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer cuatro ataques en lugar de uno."
+    }
+   ],
+   "page": 63
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de guerrero: Campeón",
+   "features": [
+    {
+     "level": 3,
+     "name": "Atleta sobresaliente",
+     "title": "Nivel 3: Atleta sobresaliente",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "Gracias a tus capacidades atléticas, tienes ventaja en las tiradas de iniciativa y las pruebas de Fuerza (Atletismo).\n\nAdemás, justo después de causar un crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Gracias a tus capacidades atléticas, tienes ventaja en las tiradas de iniciativa y las pruebas de Fuerza (Atletismo).",
+       "text": "Gracias a tus capacidades atléticas, tienes ventaja en las tiradas de iniciativa y las pruebas de Fuerza (Atletismo)."
+      },
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Además, justo después de causar un crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad.",
+       "text": "Además, justo después de causar un crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+      }
+     ],
+     "page": 64
+    },
+    {
+     "level": 3,
+     "name": "Crítico mejorado",
+     "title": "Nivel 3: Crítico mejorado",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "Tus tiradas de ataque con armas y tus ataques sin armas pueden causar críticos con un resultado de 19 o 20 en el d20.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Tus tiradas de ataque con armas y tus ataques sin armas pueden causar críticos con un resultado de 19 o 20 en el d20.",
+       "text": "Tus tiradas de ataque con armas y tus ataques sin armas pueden causar críticos con un resultado de 19 o 20 en el d20."
+      }
+     ],
+     "page": 64
+    },
+    {
+     "level": 7,
+     "name": "Estilo de combate adicional",
+     "title": "Nivel 7: Estilo de combate adicional",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "Obtienes otra dote de estilo de combate de tu elección.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Obtienes otra dote de estilo de combate de tu elección.",
+       "text": "Obtienes otra dote de estilo de combate de tu elección."
+      }
+     ],
+     "page": 64
+    },
+    {
+     "level": 10,
+     "name": "Guerrero heroico",
+     "title": "Nivel 10: Guerrero heroico",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "La emoción de la batalla te empuja hacia la victoria. Durante un combate, puedes otorgarte inspiración heroica siempre que empieces tu turno sin ella.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "La emoción de la batalla te empuja hacia la victoria. Durante un combate, puedes otorgarte inspiración heroica siempre que empieces tu turno sin ella.",
+       "text": "La emoción de la batalla te empuja hacia la victoria. Durante un combate, puedes otorgarte inspiración heroica siempre que empieces tu turno sin ella."
+      }
+     ],
+     "page": 64
+    },
+    {
+     "level": 15,
+     "name": "Crítico superior",
+     "title": "Nivel 15: Crítico superior",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "Tus tiradas de ataque con armas y tus ataques sin armas ahora pueden causar críticos con un resultado de 18 a 20 en el d20.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Tus tiradas de ataque con armas y tus ataques sin armas ahora pueden causar críticos con un resultado de 18 a 20 en el d20.",
+       "text": "Tus tiradas de ataque con armas y tus ataques sin armas ahora pueden causar críticos con un resultado de 18 a 20 en el d20."
+      }
+     ],
+     "page": 64
+    },
+    {
+     "level": 18,
+     "name": "Superviviente",
+     "title": "Nivel 18: Superviviente",
+     "subclass": "Subclase de guerrero: Campeón",
+     "text": "Alcanzas la cumbre de la resistencia en batalla, lo que te otorga estos beneficios:\n\nDesafiar a la muerte. Tienes ventaja en las tiradas de salvación contra muerte. Asimismo, cuando saques de 18 a 20 en una tirada de salvación contra muerte, obtendrás el beneficio de sacar un 20 en ella.\n\nMejoría heroica. Al principio de cada uno de tus turnos, recuperas una cantidad de puntos de golpe igual a 5 más tu modificador por Constitución si estás maltrecho y tienes al menos 1 punto de golpe.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 64,
+       "md": "Alcanzas la cumbre de la resistencia en batalla, lo que te otorga estos beneficios:",
+       "text": "Alcanzas la cumbre de la resistencia en batalla, lo que te otorga estos beneficios:"
+      },
+      {
+       "type": "definition",
+       "page": 64,
+       "md": "***Desafiar a la muerte.*** Tienes ventaja en las tiradas de salvación contra muerte. Asimismo, cuando saques de 18 a 20 en una tirada de salvación contra muerte, obtendrás el beneficio de sacar un 20 en ella.",
+       "text": "Desafiar a la muerte. Tienes ventaja en las tiradas de salvación contra muerte. Asimismo, cuando saques de 18 a 20 en una tirada de salvación contra muerte, obtendrás el beneficio de sacar un 20 en ella."
+      },
+      {
+       "type": "definition",
+       "page": 64,
+       "md": "***Mejoría heroica.*** Al principio de cada uno de tus turnos, recuperas una cantidad de puntos de golpe igual a 5 más tu modificador por Constitución si estás maltrecho y tienes al menos 1 punto de golpe.",
+       "text": "Mejoría heroica. Al principio de cada uno de tus turnos, recuperas una cantidad de puntos de golpe igual a 5 más tu modificador por Constitución si estás maltrecho y tienes al menos 1 punto de golpe."
+      }
+     ],
+     "page": 64
+    }
+   ]
+  }
+ ],
+ "spellLists": [],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 62
+ }
+}

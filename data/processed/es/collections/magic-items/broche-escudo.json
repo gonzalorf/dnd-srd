@@ -1,0 +1,26 @@
+{
+ "id": "item.broche-escudo",
+ "name": "Broche escudo",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Mientras lleves prendido este broche, tendrás resistencia al daño de fuerza e inmunidad al daño infligido por el conjuro proyectil mágico.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 246,
+   "md": "Mientras lleves prendido este broche, tendrás resistencia al daño de fuerza e inmunidad al daño infligido por el conjuro *proyectil mágico*.",
+   "text": "Mientras lleves prendido este broche, tendrás resistencia al daño de fuerza e inmunidad al daño infligido por el conjuro proyectil mágico."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 246
+ },
+ "refs": [
+  "spell.proyectil-magico"
+ ]
+}

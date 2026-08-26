@@ -1,0 +1,121 @@
+{
+ "id": "monster.cria-de-dragon-de-bronce",
+ "name": "Cría de dragón de bronce",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 301
+ },
+ "context": [
+  "Dragones de bronce"
+ ],
+ "metaRaw": "Dragón Mediano (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Mediano",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "39 (6d8 + 12)",
+  "average": 39,
+  "formula": "6d8 + 12"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 2
+ },
+ "senses": {
+  "raw": "visión ciega 3 m, visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "dracónico"
+ ],
+ "immunities": [
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 2
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 301,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza dos ataques de desgarro.",
+   "page": 301,
+   "description": "El dragón realiza dos ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño cortante.",
+   "page": 301,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño cortante."
+  },
+  {
+   "name": "Aliento de relámpago",
+   "md": "***Aliento de relámpago (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 12, todas las criaturas en una línea de 12 m de largo y 1,5 m de ancho. *Fallo:* 16 (3d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 301,
+   "description": ". *Tirada de salvación de Destreza:* CD 12, todas las criaturas en una línea de 12 m de largo y 1,5 m de ancho. *Fallo:* 16 (3d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento repulsor",
+   "md": "***Aliento repulsor.*** *Tirada de salvación de Fuerza:* CD 12, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 9 m respecto al dragón en línea recta y tiene el estado de derribado.",
+   "page": 301,
+   "description": "*Tirada de salvación de Fuerza:* CD 12, todas las criaturas en un cono de 9 m. *Fallo:* el objetivo es empujado hasta 9 m respecto al dragón en línea recta y tiene el estado de derribado."
+  }
+ ]
+}

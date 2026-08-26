@@ -1,0 +1,46 @@
+{
+ "id": "spell.danar",
+ "name": "Dañar",
+ "level": 6,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Constitución. Si la falla, sufre 14d6 de daño necrótico y sus puntos de golpe máximos se reducen en una cantidad igual al daño necrótico recibido. Si la supera, recibirá solo la mitad de daño. Este conjuro no puede reducir los puntos de golpe máximos del objetivo a menos de 1.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 138,
+   "md": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Constitución. Si la falla, sufre 14d6 de daño necrótico y sus puntos de golpe máximos se reducen en una cantidad igual al daño necrótico recibido. Si la supera, recibirá solo la mitad de daño. Este conjuro no puede reducir los puntos de golpe máximos del objetivo a menos de 1.",
+   "text": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Constitución. Si la falla, sufre 14d6 de daño necrótico y sus puntos de golpe máximos se reducen en una cantidad igual al daño necrótico recibido. Si la supera, recibirá solo la mitad de daño. Este conjuro no puede reducir los puntos de golpe máximos del objetivo a menos de 1."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 138
+ }
+}

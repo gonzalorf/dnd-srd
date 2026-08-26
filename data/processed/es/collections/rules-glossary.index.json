@@ -1,0 +1,818 @@
+[
+ {
+  "id": "rule.accion",
+  "name": "Acción",
+  "page": 194
+ },
+ {
+  "id": "rule.accion-adicional",
+  "name": "Acción adicional",
+  "page": 194
+ },
+ {
+  "id": "rule.actitud",
+  "name": "Actitud",
+  "page": 194
+ },
+ {
+  "id": "rule.agarrado",
+  "name": "Agarrado",
+  "kind": "estado",
+  "page": 194
+ },
+ {
+  "id": "rule.agarrar",
+  "name": "Agarrar",
+  "page": 194
+ },
+ {
+  "id": "rule.al-dia",
+  "name": "Al día",
+  "page": 195
+ },
+ {
+  "id": "rule.alcance",
+  "name": "Alcance",
+  "page": 195
+ },
+ {
+  "id": "rule.aliado",
+  "name": "Aliado",
+  "page": 195
+ },
+ {
+  "id": "rule.alineamiento",
+  "name": "Alineamiento",
+  "page": 195
+ },
+ {
+  "id": "rule.amistosa",
+  "name": "Amistosa",
+  "kind": "actitud",
+  "page": 195
+ },
+ {
+  "id": "rule.apresado",
+  "name": "Apresado",
+  "kind": "estado",
+  "page": 195
+ },
+ {
+  "id": "rule.area-de-efecto",
+  "name": "Área de efecto",
+  "page": 195
+ },
+ {
+  "id": "rule.arma",
+  "name": "Arma",
+  "page": 195
+ },
+ {
+  "id": "rule.armas-improvisadas",
+  "name": "Armas improvisadas",
+  "page": 195
+ },
+ {
+  "id": "rule.arrastrarse",
+  "name": "Arrastrarse",
+  "page": 196
+ },
+ {
+  "id": "rule.asfixia",
+  "name": "Asfixia",
+  "kind": "peligro",
+  "page": 196
+ },
+ {
+  "id": "rule.asustado",
+  "name": "Asustado",
+  "kind": "estado",
+  "page": 196
+ },
+ {
+  "id": "rule.atacar",
+  "name": "Atacar",
+  "kind": "acción",
+  "page": 196
+ },
+ {
+  "id": "rule.ataque-con-arma",
+  "name": "Ataque con arma",
+  "page": 196
+ },
+ {
+  "id": "rule.ataque-de-conjuro",
+  "name": "Ataque de conjuro",
+  "page": 196
+ },
+ {
+  "id": "rule.ataques-de-oportunidad",
+  "name": "Ataques de oportunidad",
+  "page": 196
+ },
+ {
+  "id": "rule.ataque-sin-armas",
+  "name": "Ataque sin armas",
+  "page": 196
+ },
+ {
+  "id": "rule.aturdido",
+  "name": "Aturdido",
+  "kind": "estado",
+  "page": 196
+ },
+ {
+  "id": "rule.aventura",
+  "name": "Aventura",
+  "page": 196
+ },
+ {
+  "id": "rule.ayudar",
+  "name": "Ayudar",
+  "kind": "acción",
+  "page": 196
+ },
+ {
+  "id": "rule.buscar",
+  "name": "Buscar",
+  "kind": "acción",
+  "page": 197
+ },
+ {
+  "id": "rule.caidas",
+  "name": "Caídas",
+  "kind": "peligro",
+  "page": 197
+ },
+ {
+  "id": "rule.cambio-de-forma",
+  "name": "Cambio de forma",
+  "page": 197
+ },
+ {
+  "id": "rule.campana",
+  "name": "Campaña",
+  "page": 197
+ },
+ {
+  "id": "rule.canalizador-magico",
+  "name": "Canalizador mágico",
+  "page": 197
+ },
+ {
+  "id": "rule.cansancio",
+  "name": "Cansancio",
+  "kind": "estado",
+  "page": 197
+ },
+ {
+  "id": "rule.capacidad-de-carga",
+  "name": "Capacidad de carga",
+  "page": 197
+ },
+ {
+  "id": "rule.cegado",
+  "name": "Cegado",
+  "kind": "estado",
+  "page": 197
+ },
+ {
+  "id": "rule.cilindro",
+  "name": "Cilindro",
+  "kind": "área de efecto",
+  "page": 198
+ },
+ {
+  "id": "rule.clase-de-armadura",
+  "name": "Clase de armadura",
+  "page": 198
+ },
+ {
+  "id": "rule.clase-de-dificultad",
+  "name": "Clase de dificultad",
+  "page": 198
+ },
+ {
+  "id": "rule.cobertura",
+  "name": "Cobertura",
+  "page": 198
+ },
+ {
+  "id": "rule.competencia",
+  "name": "Competencia",
+  "page": 198
+ },
+ {
+  "id": "rule.concentracion",
+  "name": "Concentración",
+  "page": 198
+ },
+ {
+  "id": "rule.conjuro",
+  "name": "Conjuro",
+  "page": 198
+ },
+ {
+  "id": "rule.cono",
+  "name": "Cono",
+  "kind": "área de efecto",
+  "page": 198
+ },
+ {
+  "id": "rule.correr",
+  "name": "Correr",
+  "kind": "acción",
+  "page": 198
+ },
+ {
+  "id": "rule.criatura",
+  "name": "Criatura",
+  "page": 198
+ },
+ {
+  "id": "rule.critico",
+  "name": "Crítico",
+  "page": 198
+ },
+ {
+  "id": "rule.cubo",
+  "name": "Cubo",
+  "kind": "área de efecto",
+  "page": 199
+ },
+ {
+  "id": "rule.curacion",
+  "name": "Curación",
+  "page": 199
+ },
+ {
+  "id": "rule.dados-de-puntos-de-golpe",
+  "name": "Dados de puntos de golpe",
+  "page": 199
+ },
+ {
+  "id": "rule.dano",
+  "name": "Daño",
+  "page": 199
+ },
+ {
+  "id": "rule.derribado",
+  "name": "Derribado",
+  "kind": "estado",
+  "page": 199
+ },
+ {
+  "id": "rule.descanso-corto",
+  "name": "Descanso corto",
+  "page": 199
+ },
+ {
+  "id": "rule.descanso-largo",
+  "name": "Descanso largo",
+  "page": 199
+ },
+ {
+  "id": "rule.deshidratacion",
+  "name": "Deshidratación",
+  "kind": "peligro",
+  "page": 200
+ },
+ {
+  "id": "rule.desnutricion",
+  "name": "Desnutrición",
+  "kind": "peligro",
+  "page": 200
+ },
+ {
+  "id": "rule.destrabarse",
+  "name": "Destrabarse",
+  "kind": "acción",
+  "page": 200
+ },
+ {
+  "id": "rule.desventaja",
+  "name": "Desventaja",
+  "page": 200
+ },
+ {
+  "id": "rule.efecto-magico",
+  "name": "Efecto mágico",
+  "page": 200
+ },
+ {
+  "id": "rule.efectos-simultaneos",
+  "name": "Efectos simultáneos",
+  "page": 200
+ },
+ {
+  "id": "rule.emanacion",
+  "name": "Emanación",
+  "kind": "área de efecto",
+  "page": 200
+ },
+ {
+  "id": "rule.encuentro",
+  "name": "Encuentro",
+  "page": 200
+ },
+ {
+  "id": "rule.enemigo",
+  "name": "Enemigo",
+  "page": 200
+ },
+ {
+  "id": "rule.ensordecido",
+  "name": "Ensordecido",
+  "kind": "estado",
+  "page": 200
+ },
+ {
+  "id": "rule.entrenamiento-con-armaduras",
+  "name": "Entrenamiento con armaduras",
+  "page": 200
+ },
+ {
+  "id": "rule.envenenado",
+  "name": "Envenenado",
+  "kind": "estado",
+  "page": 201
+ },
+ {
+  "id": "rule.esconderse",
+  "name": "Esconderse",
+  "kind": "acción",
+  "page": 201
+ },
+ {
+  "id": "rule.esfera",
+  "name": "Esfera",
+  "kind": "área de efecto",
+  "page": 201
+ },
+ {
+  "id": "rule.espacio-ocupado",
+  "name": "Espacio ocupado",
+  "page": 201
+ },
+ {
+  "id": "rule.espacio-sin-ocupar",
+  "name": "Espacio sin ocupar",
+  "page": 201
+ },
+ {
+  "id": "rule.esquivar",
+  "name": "Esquivar",
+  "kind": "acción",
+  "page": 201
+ },
+ {
+  "id": "rule.estable",
+  "name": "Estable",
+  "page": 201
+ },
+ {
+  "id": "rule.estado",
+  "name": "Estado",
+  "page": 201
+ },
+ {
+  "id": "rule.estudiar",
+  "name": "Estudiar",
+  "kind": "acción",
+  "page": 201
+ },
+ {
+  "id": "rule.fuego",
+  "name": "Fuego",
+  "kind": "peligro",
+  "page": 201
+ },
+ {
+  "id": "rule.habilidad",
+  "name": "Habilidad",
+  "page": 202
+ },
+ {
+  "id": "rule.hechizado",
+  "name": "Hechizado",
+  "kind": "estado",
+  "page": 202
+ },
+ {
+  "id": "rule.hoja-de-personaje",
+  "name": "Hoja de personaje",
+  "page": 202
+ },
+ {
+  "id": "rule.hostil",
+  "name": "Hostil",
+  "kind": "actitud",
+  "page": 202
+ },
+ {
+  "id": "rule.ilusiones",
+  "name": "Ilusiones",
+  "page": 202
+ },
+ {
+  "id": "rule.incapacitado",
+  "name": "Incapacitado",
+  "kind": "estado",
+  "page": 202
+ },
+ {
+  "id": "rule.inconsciente",
+  "name": "Inconsciente",
+  "kind": "estado",
+  "page": 202
+ },
+ {
+  "id": "rule.indiferente",
+  "name": "Indiferente",
+  "kind": "actitud",
+  "page": 202
+ },
+ {
+  "id": "rule.influir",
+  "name": "Influir",
+  "kind": "acción",
+  "page": 202
+ },
+ {
+  "id": "rule.iniciativa",
+  "name": "Iniciativa",
+  "page": 203
+ },
+ {
+  "id": "rule.inmunidad",
+  "name": "Inmunidad",
+  "page": 203
+ },
+ {
+  "id": "rule.inspiracion-heroica",
+  "name": "Inspiración heroica",
+  "page": 203
+ },
+ {
+  "id": "rule.invisible",
+  "name": "Invisible",
+  "kind": "estado",
+  "page": 203
+ },
+ {
+  "id": "rule.levitar",
+  "name": "Levitar",
+  "page": 203
+ },
+ {
+  "id": "rule.ligeramente-oscuro",
+  "name": "Ligeramente oscuro",
+  "page": 203
+ },
+ {
+  "id": "rule.linea",
+  "name": "Línea",
+  "kind": "área de efecto",
+  "page": 203
+ },
+ {
+  "id": "rule.luz-brillante",
+  "name": "Luz brillante",
+  "page": 203
+ },
+ {
+  "id": "rule.luz-tenue",
+  "name": "Luz tenue",
+  "page": 203
+ },
+ {
+  "id": "rule.magia",
+  "name": "Magia",
+  "kind": "acción",
+  "page": 203
+ },
+ {
+  "id": "rule.maldiciones",
+  "name": "Maldiciones",
+  "page": 203
+ },
+ {
+  "id": "rule.maltrecho",
+  "name": "Maltrecho",
+  "page": 203
+ },
+ {
+  "id": "rule.monstruo",
+  "name": "Monstruo",
+  "page": 203
+ },
+ {
+  "id": "rule.muerto",
+  "name": "Muerto",
+  "page": 204
+ },
+ {
+  "id": "rule.muy-oscuro",
+  "name": "Muy oscuro",
+  "page": 204
+ },
+ {
+  "id": "rule.nadar",
+  "name": "Nadar",
+  "page": 204
+ },
+ {
+  "id": "rule.noquear-a-una-criatura",
+  "name": "Noquear a una criatura",
+  "page": 204
+ },
+ {
+  "id": "rule.objetivo",
+  "name": "Objetivo",
+  "page": 204
+ },
+ {
+  "id": "rule.objeto",
+  "name": "Objeto",
+  "page": 204
+ },
+ {
+  "id": "rule.oscuridad",
+  "name": "Oscuridad",
+  "page": 204
+ },
+ {
+  "id": "rule.paralizado",
+  "name": "Paralizado",
+  "kind": "estado",
+  "page": 204
+ },
+ {
+  "id": "rule.peligro",
+  "name": "Peligro",
+  "page": 204
+ },
+ {
+  "id": "rule.percepcion-pasiva",
+  "name": "Percepción pasiva",
+  "page": 204
+ },
+ {
+  "id": "rule.perfil",
+  "name": "Perfil",
+  "page": 204
+ },
+ {
+  "id": "rule.pericia",
+  "name": "Pericia",
+  "page": 205
+ },
+ {
+  "id": "rule.personaje-jugador",
+  "name": "Personaje jugador",
+  "page": 205
+ },
+ {
+  "id": "rule.personaje-no-jugador",
+  "name": "Personaje no jugador",
+  "page": 205
+ },
+ {
+  "id": "rule.petrificado",
+  "name": "Petrificado",
+  "kind": "estado",
+  "page": 205
+ },
+ {
+  "id": "rule.posesion",
+  "name": "Posesión",
+  "page": 206
+ },
+ {
+  "id": "rule.preparar-una-accion",
+  "name": "Preparar una acción",
+  "kind": "acción",
+  "page": 206
+ },
+ {
+  "id": "rule.prueba-con-d20",
+  "name": "Prueba con d20",
+  "page": 206
+ },
+ {
+  "id": "rule.prueba-de-caracteristica",
+  "name": "Prueba de característica",
+  "page": 206
+ },
+ {
+  "id": "rule.puntos-de-experiencia",
+  "name": "Puntos de experiencia",
+  "page": 206
+ },
+ {
+  "id": "rule.puntos-de-golpe",
+  "name": "Puntos de golpe",
+  "page": 206
+ },
+ {
+  "id": "rule.puntos-de-golpe-temporales",
+  "name": "Puntos de golpe temporales",
+  "page": 206
+ },
+ {
+  "id": "rule.puntuacion-de-caracteristica-y-modificador",
+  "name": "Puntuación de característica y modificador",
+  "page": 206
+ },
+ {
+  "id": "rule.reaccion",
+  "name": "Reacción",
+  "page": 206
+ },
+ {
+  "id": "rule.redondear-hacia-abajo",
+  "name": "Redondear hacia abajo",
+  "page": 207
+ },
+ {
+  "id": "rule.resistencia",
+  "name": "Resistencia",
+  "page": 207
+ },
+ {
+  "id": "rule.ritual",
+  "name": "Ritual",
+  "page": 207
+ },
+ {
+  "id": "rule.romper-objetos",
+  "name": "Romper objetos",
+  "page": 207
+ },
+ {
+  "id": "rule.saltar",
+  "name": "Saltar",
+  "page": 207
+ },
+ {
+  "id": "rule.salto-de-altura",
+  "name": "Salto de altura",
+  "page": 207
+ },
+ {
+  "id": "rule.salto-de-longitud",
+  "name": "Salto de longitud",
+  "page": 207
+ },
+ {
+  "id": "rule.salvacion",
+  "name": "Salvación",
+  "page": 208
+ },
+ {
+  "id": "rule.sentir-vibraciones",
+  "name": "Sentir vibraciones",
+  "page": 208
+ },
+ {
+  "id": "rule.sintonizacion",
+  "name": "Sintonización",
+  "page": 208
+ },
+ {
+  "id": "rule.sorpresa",
+  "name": "Sorpresa",
+  "page": 208
+ },
+ {
+  "id": "rule.tamano",
+  "name": "Tamaño",
+  "page": 208
+ },
+ {
+  "id": "rule.telepatia",
+  "name": "Telepatía",
+  "page": 208
+ },
+ {
+  "id": "rule.teletransporte",
+  "name": "Teletransporte",
+  "page": 208
+ },
+ {
+  "id": "rule.terreno-dificil",
+  "name": "Terreno difícil",
+  "page": 208
+ },
+ {
+  "id": "rule.tipo-de-criatura",
+  "name": "Tipo de criatura",
+  "page": 208
+ },
+ {
+  "id": "rule.tipos-de-dano",
+  "name": "Tipos de daño",
+  "page": 209
+ },
+ {
+  "id": "rule.tirada-de-ataque",
+  "name": "Tirada de ataque",
+  "page": 209
+ },
+ {
+  "id": "rule.tirada-de-dano",
+  "name": "Tirada de daño",
+  "page": 209
+ },
+ {
+  "id": "rule.tirada-de-salvacion",
+  "name": "Tirada de salvación",
+  "page": 209
+ },
+ {
+  "id": "rule.tirada-de-salvacion-contra-muerte",
+  "name": "Tirada de salvación contra muerte",
+  "page": 209
+ },
+ {
+  "id": "rule.trepar",
+  "name": "Trepar",
+  "page": 209
+ },
+ {
+  "id": "rule.truco",
+  "name": "Truco",
+  "page": 209
+ },
+ {
+  "id": "rule.umbral-de-dano",
+  "name": "Umbral de daño",
+  "page": 209
+ },
+ {
+  "id": "rule.utilizar",
+  "name": "Utilizar",
+  "kind": "acción",
+  "page": 209
+ },
+ {
+  "id": "rule.valor-de-desafio",
+  "name": "Valor de desafío",
+  "page": 209
+ },
+ {
+  "id": "rule.velocidad",
+  "name": "Velocidad",
+  "page": 210
+ },
+ {
+  "id": "rule.velocidad-excavando",
+  "name": "Velocidad excavando",
+  "page": 210
+ },
+ {
+  "id": "rule.velocidad-nadando",
+  "name": "Velocidad nadando",
+  "page": 210
+ },
+ {
+  "id": "rule.velocidad-trepando",
+  "name": "Velocidad trepando",
+  "page": 210
+ },
+ {
+  "id": "rule.velocidad-volando",
+  "name": "Velocidad volando",
+  "page": 210
+ },
+ {
+  "id": "rule.ventaja",
+  "name": "Ventaja",
+  "page": 210
+ },
+ {
+  "id": "rule.vision-ciega",
+  "name": "Visión ciega",
+  "page": 210
+ },
+ {
+  "id": "rule.vision-en-la-oscuridad",
+  "name": "Visión en la oscuridad",
+  "page": 210
+ },
+ {
+  "id": "rule.vision-verdadera",
+  "name": "Visión verdadera",
+  "page": 210
+ },
+ {
+  "id": "rule.volar",
+  "name": "Volar",
+  "page": 210
+ },
+ {
+  "id": "rule.vulnerabilidad",
+  "name": "Vulnerabilidad",
+  "page": 210
+ }
+]

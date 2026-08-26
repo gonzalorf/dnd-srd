@@ -1,0 +1,48 @@
+{
+ "id": "table.atributos-basicos-de-picaro",
+ "caption": "Atributos básicos de pícaro",
+ "header": [],
+ "rows": [
+  [
+   "Característica principal",
+   "Destreza"
+  ],
+  [
+   "Dado de puntos de golpe",
+   "1d8 por nivel de pícaro"
+  ],
+  [
+   "Competencias en tiradas de salvación",
+   "Destreza e Inteligencia"
+  ],
+  [
+   "Competencias en habilidades",
+   "Elige cuatro: Acrobacias, Atletismo, Engaño, Intimidación, Investigación, Juego de manos, Percepción, Perspicacia, Persuasión o Sigilo"
+  ],
+  [
+   "Competencias con armas",
+   "Armas sencillas, además de marciales que tengan las propiedades “ligera” o “sutil”"
+  ],
+  [
+   "Competencias con herramientas",
+   "Herramientas de ladrón"
+  ],
+  [
+   "Entrenamiento con armaduras",
+   "Armaduras ligeras"
+  ],
+  [
+   "Equipo inicial",
+   "Elige A o B: (A) armadura de"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Pícaro"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 86
+ }
+}

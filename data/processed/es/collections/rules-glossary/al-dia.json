@@ -1,0 +1,17 @@
+{
+ "id": "rule.al-dia",
+ "name": "Al día",
+ "text": "Si una regla indica que puedes utilizar algo una cantidad determinada de veces al día, significa que debes finalizar un descanso largo para emplearlo de nuevo tras consumir todos los usos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Si una regla indica que puedes utilizar algo una cantidad determinada de veces al día, significa que debes finalizar un descanso largo para emplearlo de nuevo tras consumir todos los usos.",
+   "text": "Si una regla indica que puedes utilizar algo una cantidad determinada de veces al día, significa que debes finalizar un descanso largo para emplearlo de nuevo tras consumir todos los usos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

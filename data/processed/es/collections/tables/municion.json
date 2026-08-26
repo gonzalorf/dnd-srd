@@ -1,0 +1,58 @@
+{
+ "id": "table.municion",
+ "caption": "Munición",
+ "header": [
+  "Tipo",
+  "Cantidad",
+  "Recipiente",
+  "Peso",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Balas de arma de fuego",
+   "10",
+   "Bolsa",
+   "1 kg",
+   "3 po"
+  ],
+  [
+   "Dardos",
+   "50",
+   "Bolsa",
+   "0,5 kg",
+   "1 po"
+  ],
+  [
+   "Flechas",
+   "20",
+   "Aljaba",
+   "0,5 kg",
+   "1 po"
+  ],
+  [
+   "Proyectiles de honda",
+   "20",
+   "Bolsa",
+   "0,75 kg",
+   "4 pc"
+  ],
+  [
+   "Virotes",
+   "20",
+   "Estuche",
+   "0,75 kg",
+   "1 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Equipo de aventureros",
+  "Munición (variable)"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 106
+ }
+}

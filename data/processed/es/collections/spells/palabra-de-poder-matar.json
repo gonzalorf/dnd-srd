@@ -1,0 +1,49 @@
+{
+ "id": "spell.palabra-de-poder-matar",
+ "name": "Palabra de poder: matar",
+ "level": 9,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 puntos de golpe o menos, morirá. De lo contrario, sufrirá 12d12 de daño psíquico.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 171,
+   "md": "Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 puntos de golpe o menos, morirá. De lo contrario, sufrirá 12d12 de daño psíquico.",
+   "text": "Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 puntos de golpe o menos, morirá. De lo contrario, sufrirá 12d12 de daño psíquico."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 171
+ }
+}

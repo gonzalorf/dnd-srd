@@ -1,0 +1,30 @@
+{
+ "id": "rule.hechizado",
+ "name": "Hechizado",
+ "text": "Mientras tengas el estado de hechizado, experimentarás los siguientes efectos:\n\nNo puedes dañar a quien te haya hechizado. No puedes atacar ni elegir como objetivo de efectos dañinos o mágicos a quien te haya hechizado.\n\nVentaja social. Quien te haya hechizado tiene ventaja en las pruebas de característica para interactuar socialmente contigo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Mientras tengas el estado de hechizado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de hechizado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***No puedes dañar a quien te haya hechizado.*** No puedes atacar ni elegir como objetivo de efectos dañinos o mágicos a quien te haya hechizado.",
+   "text": "No puedes dañar a quien te haya hechizado. No puedes atacar ni elegir como objetivo de efectos dañinos o mágicos a quien te haya hechizado."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Ventaja social.*** Quien te haya hechizado tiene ventaja en las pruebas de característica para interactuar socialmente contigo.",
+   "text": "Ventaja social. Quien te haya hechizado tiene ventaja en las pruebas de característica para interactuar socialmente contigo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ },
+ "kind": "estado"
+}

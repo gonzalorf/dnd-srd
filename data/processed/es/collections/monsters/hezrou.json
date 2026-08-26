@@ -1,0 +1,134 @@
+{
+ "id": "monster.hezrou",
+ "name": "Hezrou",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 337
+ },
+ "context": [
+  "Hezrou"
+ ],
+ "metaRaw": "Infernal Grande (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 6,
+  "score": 16
+ },
+ "hp": {
+  "raw": "157 (15d10 + 75)",
+  "average": 157,
+  "formula": "15d10 + 75"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "abisal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "8 (3900 PX; BC +3)",
+  "cr": 8,
+  "xp": 3900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 7
+  },
+  "des": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 8
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Hedor",
+   "md": "***Hedor.*** *Tirada de salvación de Constitución:* CD 16, cualquier criatura que empiece su turno en una emanación de 3 m que se origina en el hezrou. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio de su siguiente turno.",
+   "page": 337,
+   "description": "*Tirada de salvación de Constitución:* CD 16, cualquier criatura que empiece su turno en una emanación de 3 m que se origina en el hezrou. *Fallo:* el objetivo tendrá el estado de envenenado hasta el principio de su siguiente turno."
+  },
+  {
+   "name": "Recuperación demoníaca",
+   "md": "***Recuperación demoníaca.*** Si el hezrou muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un",
+   "page": 337,
+   "description": "Si el hezrou muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un"
+  },
+  {
+   "name": null,
+   "md": "cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.",
+   "page": 337
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El hezrou tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 337,
+   "description": "El hezrou tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hezrou hace tres ataques de desgarro.",
+   "page": 337,
+   "description": "El hezrou hace tres ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño cortante más 9 (2d8) de daño de veneno.",
+   "page": 337,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 6 (1d4 + 4) de daño cortante más 9 (2d8) de daño de veneno."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto",
+   "md": "***Salto.*** El hezrou gasta 3 m de movimiento para saltar hasta 9 m.",
+   "page": 337,
+   "description": "El hezrou gasta 3 m de movimiento para saltar hasta 9 m."
+  }
+ ]
+}

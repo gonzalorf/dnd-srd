@@ -1,0 +1,62 @@
+{
+ "id": "spell.disco-flotante",
+ "name": "Disco flotante",
+ "level": 1,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una gota de mercurio)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gota de mercurio",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Este conjuro crea un plano de fuerza horizontal de 90 cm de diámetro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elección que puedas ver dentro del alcance. El disco dura hasta que termina el conjuro y puede soportar un peso de hasta 250 kg. Si se pone más peso sobre él, el conjuro termina y todo lo que hay en el disco cae al suelo.\n\nEl disco permanecerá inmóvil mientras estés a 6 m o menos de él. Si te alejas a más de 6 m de él, te seguirá para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevación de 3 m o más. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de él si se crea en el fondo de este.\n\nSi te alejas más de 30 m del disco (normalmente, porque no pueda superar un obstáculo para seguirte), el conjuro termina.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 142,
+   "md": "Este conjuro crea un plano de fuerza horizontal de 90 cm de diámetro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elección que puedas ver dentro del alcance. El disco dura hasta que termina el conjuro y puede soportar un peso de hasta 250 kg. Si se pone más peso sobre él, el conjuro termina y todo lo que hay en el disco cae al suelo.",
+   "text": "Este conjuro crea un plano de fuerza horizontal de 90 cm de diámetro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elección que puedas ver dentro del alcance. El disco dura hasta que termina el conjuro y puede soportar un peso de hasta 250 kg. Si se pone más peso sobre él, el conjuro termina y todo lo que hay en el disco cae al suelo."
+  },
+  {
+   "type": "paragraph",
+   "page": 142,
+   "md": "El disco permanecerá inmóvil mientras estés a 6 m o menos de él. Si te alejas a más de 6 m de él, te seguirá para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevación de 3 m o más. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de él si se crea en el fondo de este.",
+   "text": "El disco permanecerá inmóvil mientras estés a 6 m o menos de él. Si te alejas a más de 6 m de él, te seguirá para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevación de 3 m o más. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de él si se crea en el fondo de este."
+  },
+  {
+   "type": "paragraph",
+   "page": 142,
+   "md": "Si te alejas más de 30 m del disco (normalmente, porque no pueda superar un obstáculo para seguirte), el conjuro termina.",
+   "text": "Si te alejas más de 30 m del disco (normalmente, porque no pueda superar un obstáculo para seguirte), el conjuro termina."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 142
+ }
+}

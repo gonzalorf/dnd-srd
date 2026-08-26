@@ -1,0 +1,99 @@
+{
+ "id": "table.comida-bebida-y-alojamiento",
+ "caption": "Comida, bebida y alojamiento",
+ "header": [
+  "Elemento",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Cerveza (jarra)",
+   "4 pc"
+  ],
+  [
+   "Comida",
+   ""
+  ],
+  [
+   "Miserable",
+   "1 pc"
+  ],
+  [
+   "Pobre",
+   "2 pc"
+  ],
+  [
+   "Modesta",
+   "1 pp"
+  ],
+  [
+   "Copiosa",
+   "2 pp"
+  ],
+  [
+   "Lujosa",
+   "3 po"
+  ],
+  [
+   "Aristocrática",
+   "6 pp"
+  ],
+  [
+   "Estancia en posada por día",
+   ""
+  ],
+  [
+   "Miserable",
+   "7 pc"
+  ],
+  [
+   "Pobre",
+   "1 pp"
+  ],
+  [
+   "Modesta",
+   "5 pp"
+  ],
+  [
+   "Cómoda",
+   "8 pp"
+  ],
+  [
+   "Lujosa",
+   "2 po"
+  ],
+  [
+   "Aristocrática",
+   "4 po"
+  ],
+  [
+   "Pan (hogaza)",
+   "2 pc"
+  ],
+  [
+   "Queso (cuña)",
+   "1 pp"
+  ],
+  [
+   "Vino (botella)",
+   ""
+  ],
+  [
+   "Común",
+   "2 pp"
+  ],
+  [
+   "De calidad",
+   "10 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Comida, bebida y alojamiento"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "item.gema-del-resplandor",
+ "name": "Gema del resplandor",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Este prisma tiene 50 cargas. Mientras lo sujetas, puedes usar una acción de magia y pronunciar una de las tres palabras de activación para causar uno de los siguientes efectos:\n\nPrimera palabra de activación. La gema emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Este efecto no gasta una carga. Dura hasta que utilices una acción adicional para repetir la palabra de activación o hasta que emplees otra función de la gema.\n\nSegunda palabra de activación. Gastas 1 carga para que la gema dispare un rayo brillante de luz contra una criatura que puedas ver a 18 m o menos de ti. La criatura deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de cegada durante 1 minuto. La criatura repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.\n\nTercera palabra de activación. Gastas 5 cargas para que la gema refulja con una luz intensa en un cono de 9 m. Todas las criaturas situadas en el cono harán una tirada de salvación como si les hubiera afectado el rayo creado por la segunda palabra de activación.\n\nCuando todas las cargas de la gema se gasten, se convertirá en una joya no mágica con un valor de 50 po.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 259,
+   "md": "Este prisma tiene 50 cargas. Mientras lo sujetas, puedes usar una acción de magia y pronunciar una de las tres palabras de activación para causar uno de los siguientes efectos:",
+   "text": "Este prisma tiene 50 cargas. Mientras lo sujetas, puedes usar una acción de magia y pronunciar una de las tres palabras de activación para causar uno de los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 259,
+   "md": "**Primera palabra de activación.** La gema emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Este efecto no gasta una carga. Dura hasta que utilices una acción adicional para repetir la palabra de activación o hasta que emplees otra función de la gema.",
+   "text": "Primera palabra de activación. La gema emite luz brillante en un radio de 9 m y luz tenue 9 m más allá. Este efecto no gasta una carga. Dura hasta que utilices una acción adicional para repetir la palabra de activación o hasta que emplees otra función de la gema."
+  },
+  {
+   "type": "definition",
+   "page": 259,
+   "md": "**Segunda palabra de activación.** Gastas 1 carga para que la gema dispare un rayo brillante de luz contra una criatura que puedas ver a 18 m o menos de ti. La criatura deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de cegada durante 1 minuto. La criatura repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+   "text": "Segunda palabra de activación. Gastas 1 carga para que la gema dispare un rayo brillante de luz contra una criatura que puedas ver a 18 m o menos de ti. La criatura deberá superar una tirada de salvación de Constitución con CD 15 o tendrá el estado de cegada durante 1 minuto. La criatura repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto."
+  },
+  {
+   "type": "definition",
+   "page": 259,
+   "md": "**Tercera palabra de activación.** Gastas 5 cargas para que la gema refulja con una luz intensa en un cono de 9 m. Todas las criaturas situadas en el cono harán una tirada de salvación como si les hubiera afectado el rayo creado por la segunda palabra de activación.",
+   "text": "Tercera palabra de activación. Gastas 5 cargas para que la gema refulja con una luz intensa en un cono de 9 m. Todas las criaturas situadas en el cono harán una tirada de salvación como si les hubiera afectado el rayo creado por la segunda palabra de activación."
+  },
+  {
+   "type": "paragraph",
+   "page": 259,
+   "md": "Cuando todas las cargas de la gema se gasten, se convertirá en una joya no mágica con un valor de 50 po.",
+   "text": "Cuando todas las cargas de la gema se gasten, se convertirá en una joya no mágica con un valor de 50 po."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 259
+ }
+}

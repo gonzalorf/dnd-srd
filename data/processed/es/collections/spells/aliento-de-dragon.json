@@ -1,0 +1,56 @@
+{
+ "id": "spell.aliento-de-dragon",
+ "name": "Aliento de dragón",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción adicional",
+  "ritual": false,
+  "kind": "bonus-action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una guindilla)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una guindilla",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tocas a una criatura voluntaria y eliges ácido, frío, fuego, relámpago o veneno. Hasta que el conjuro termine, el objetivo puede usar una acción de magia para exhalar en un cono de 4,5 m. Todas las criaturas situadas en la zona hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño del tipo elegido si la fallan o la mitad del daño si la superan.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 119,
+   "md": "Tocas a una criatura voluntaria y eliges ácido, frío, fuego, relámpago o veneno. Hasta que el conjuro termine, el objetivo puede usar una acción de magia para exhalar en un cono de 4,5 m. Todas las criaturas situadas en la zona hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño del tipo elegido si la fallan o la mitad del daño si la superan.",
+   "text": "Tocas a una criatura voluntaria y eliges ácido, frío, fuego, relámpago o veneno. Hasta que el conjuro termine, el objetivo puede usar una acción de magia para exhalar en un cono de 4,5 m. Todas las criaturas situadas en la zona hacen una tirada de salvación de Destreza; sufrirán 3d6 de daño del tipo elegido si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "definition",
+   "page": 119,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 119
+ }
+}

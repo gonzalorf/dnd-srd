@@ -1,0 +1,59 @@
+{
+ "id": "spell.encontrar-el-camino",
+ "name": "Encontrar el camino",
+ "level": 6,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un juego de herramientas de adivinación, como cartas o runas, que valga al menos 100 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un juego de herramientas de adivinación, como cartas o runas, que valga al menos 100 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 día",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "día"
+ },
+ "text": "Percibes mágicamente el camino físico más corto hacia un lugar que nombres. Debes estar familiarizado con él, y el conjuro fallará si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza ambulante) o un destino inespecífico (como “la guarida de un dragón verde”).\n\nHasta que termine el conjuro y mientras estés en el mismo plano de existencia que el destino, sabrás lo lejos que está y en qué dirección se halla. Cuando te topes con una encrucijada mientras vas al destino, identificarás qué camino es el más corto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Percibes mágicamente el camino físico más corto hacia un lugar que nombres. Debes estar familiarizado con él, y el conjuro fallará si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza ambulante) o un destino inespecífico (como “la guarida de un dragón verde”).",
+   "text": "Percibes mágicamente el camino físico más corto hacia un lugar que nombres. Debes estar familiarizado con él, y el conjuro fallará si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza ambulante) o un destino inespecífico (como “la guarida de un dragón verde”)."
+  },
+  {
+   "type": "paragraph",
+   "page": 145,
+   "md": "Hasta que termine el conjuro y mientras estés en el mismo plano de existencia que el destino, sabrás lo lejos que está y en qué dirección se halla. Cuando te topes con una encrucijada mientras vas al destino, identificarás qué camino es el más corto.",
+   "text": "Hasta que termine el conjuro y mientras estés en el mismo plano de existencia que el destino, sabrás lo lejos que está y en qué dirección se halla. Cuando te topes con una encrucijada mientras vas al destino, identificarás qué camino es el más corto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 145
+ }
+}

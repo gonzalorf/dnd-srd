@@ -1,0 +1,47 @@
+{
+ "id": "background.criminal",
+ "name": "Criminal",
+ "text": "Puntuaciones de característica: Destreza, Constitu\n\nción, Inteligencia Dote: Alerta (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Juego de manos\n\ny Sigilo\n\nCompetencia con herramientas: herramientas\n\nde ladrón Equipo: elige A o B: (A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropas de viaje y 16 po, o (B) 50 po",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Puntuaciones de característica: Destreza, Constitu",
+   "text": "Puntuaciones de característica: Destreza, Constitu"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "ción, Inteligencia Dote: Alerta (consulta el capítulo “Dotes”)",
+   "text": "ción, Inteligencia Dote: Alerta (consulta el capítulo “Dotes”)"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencias en habilidades: Juego de manos",
+   "text": "Competencias en habilidades: Juego de manos"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "y Sigilo",
+   "text": "y Sigilo"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencia con herramientas: herramientas",
+   "text": "Competencia con herramientas: herramientas"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "de ladrón Equipo: *elige A o B:* (A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropas de viaje y 16 po, o (B) 50 po",
+   "text": "de ladrón Equipo: elige A o B: (A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropas de viaje y 16 po, o (B) 50 po"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 89
+ }
+}

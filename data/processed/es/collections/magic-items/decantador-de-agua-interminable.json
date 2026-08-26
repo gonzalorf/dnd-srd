@@ -1,0 +1,47 @@
+{
+ "id": "item.decantador-de-agua-interminable",
+ "name": "Decantador de agua interminable",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Este frasco con tapón suena cuando se agita, como si tuviera agua dentro. Pesa 1 kg.\n\nPuedes utilizar una acción de magia para retirar el tapón y pronunciar una de las tres palabras de activación. A continuación, cierta cantidad de agua dulce o salada (a tu elección) saldrá del frasco. El agua dejará de salir al principio de tu siguiente turno. Elige una de las siguientes palabras de activación:\n\nSalpicadura. El decantador produce 4 l de agua.\n\nFuente. El decantador produce 20 l de agua.\n\nGéiser. El decantador produce 120 l de agua que salen disparados en una línea de 9 m de largo y 30 cm de ancho. Si sostienes el decantador, puedes apuntar el géiser en una dirección (no requiere acción). Una criatura de tu elección en esa línea deberá superar una tirada de salvación de Fuerza con CD 13 o sufrirá 1d4 de daño contundente y tendrá el estado de derribada. En vez de una criatura, puedes apuntar a un objeto en esa línea que no lleve ni vista nadie y que no pese más de 100 kg. El géiser derribará ese objeto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Este frasco con tapón suena cuando se agita, como si tuviera agua dentro. Pesa 1 kg.",
+   "text": "Este frasco con tapón suena cuando se agita, como si tuviera agua dentro. Pesa 1 kg."
+  },
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Puedes utilizar una acción de magia para retirar el tapón y pronunciar una de las tres palabras de activación. A continuación, cierta cantidad de agua dulce o salada (a tu elección) saldrá del frasco. El agua dejará de salir al principio de tu siguiente turno. Elige una de las siguientes palabras de activación:",
+   "text": "Puedes utilizar una acción de magia para retirar el tapón y pronunciar una de las tres palabras de activación. A continuación, cierta cantidad de agua dulce o salada (a tu elección) saldrá del frasco. El agua dejará de salir al principio de tu siguiente turno. Elige una de las siguientes palabras de activación:"
+  },
+  {
+   "type": "definition",
+   "page": 251,
+   "md": "**Salpicadura.** El decantador produce 4 l de agua.",
+   "text": "Salpicadura. El decantador produce 4 l de agua."
+  },
+  {
+   "type": "definition",
+   "page": 251,
+   "md": "**Fuente.** El decantador produce 20 l de agua.",
+   "text": "Fuente. El decantador produce 20 l de agua."
+  },
+  {
+   "type": "definition",
+   "page": 251,
+   "md": "**Géiser.** El decantador produce 120 l de agua que salen disparados en una línea de 9 m de largo y 30 cm de ancho. Si sostienes el decantador, puedes apuntar el géiser en una dirección (no requiere acción). Una criatura de tu elección en esa línea deberá superar una tirada de salvación de Fuerza con CD 13 o sufrirá 1d4 de daño contundente y tendrá el estado de derribada. En vez de una criatura, puedes apuntar a un objeto en esa línea que no lleve ni vista nadie y que no pese más de 100 kg. El géiser derribará ese objeto.",
+   "text": "Géiser. El decantador produce 120 l de agua que salen disparados en una línea de 9 m de largo y 30 cm de ancho. Si sostienes el decantador, puedes apuntar el géiser en una dirección (no requiere acción). Una criatura de tu elección en esa línea deberá superar una tirada de salvación de Fuerza con CD 13 o sufrirá 1d4 de daño contundente y tendrá el estado de derribada. En vez de una criatura, puedes apuntar a un objeto en esa línea que no lleve ni vista nadie y que no pese más de 100 kg. El géiser derribará ese objeto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 251
+ }
+}

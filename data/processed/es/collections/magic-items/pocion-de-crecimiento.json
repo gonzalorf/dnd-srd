@@ -1,0 +1,32 @@
+{
+ "id": "item.pocion-de-crecimiento",
+ "name": "Poción de crecimiento",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, infrecuente",
+ "text": "Cuando bebas esta poción, obtendrás el efecto de “agrandar” del conjuro agrandar/reducir durante 10 minutos (no requiere concentración).\n\nEl color rojo del líquido de la poción se expande continuamente a partir de una gota diminuta para teñir el líquido transparente que la rodea. A continuación, se vuelve a contraer. Si agitas la botella, no se interrumpirá el proceso.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "Cuando bebas esta poción, obtendrás el efecto de “agrandar” del conjuro *agrandar/reducir* durante 10 minutos (no requiere concentración).",
+   "text": "Cuando bebas esta poción, obtendrás el efecto de “agrandar” del conjuro agrandar/reducir durante 10 minutos (no requiere concentración)."
+  },
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "El color rojo del líquido de la poción se expande continuamente a partir de una gota diminuta para teñir el líquido transparente que la rodea. A continuación, se vuelve a contraer. Si agitas la botella, no se interrumpirá el proceso.",
+   "text": "El color rojo del líquido de la poción se expande continuamente a partir de una gota diminuta para teñir el líquido transparente que la rodea. A continuación, se vuelve a contraer. Si agitas la botella, no se interrumpirá el proceso."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 266
+ },
+ "refs": [
+  "spell.agrandar-reducir"
+ ]
+}

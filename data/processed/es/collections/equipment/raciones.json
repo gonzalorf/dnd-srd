@@ -1,0 +1,36 @@
+{
+ "id": "gear.raciones",
+ "name": "Raciones",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Raciones",
+  "Peso": "1 kg",
+  "Precio": "5 pp"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "5 pp",
+  "amount": 5.0,
+  "coin": "pp",
+  "gp": 0.5
+ },
+ "text": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer.",
+   "text": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer."
+  }
+ ],
+ "descriptionPage": 107
+}

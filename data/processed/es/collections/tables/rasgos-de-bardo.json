@@ -1,0 +1,204 @@
+{
+ "id": "table.rasgos-de-bardo",
+ "caption": "Rasgos de bardo",
+ "header": [
+  "Nivel",
+  "Bonificador por competencia",
+  "Rasgos de clase",
+  "Dado bárdico",
+  "Trucos",
+  "Conjuros preparados",
+  "Espacios de conjuro por cada nivel de conjuro 123456789"
+ ],
+ "rows": [
+  [
+   "1",
+   "+2",
+   "Inspiración bárdica, Lanzamiento de conjuros",
+   "d6",
+   "2",
+   "4",
+   "2————————"
+  ],
+  [
+   "2",
+   "+2",
+   "Aprendiz de mucho, Pericia",
+   "d6",
+   "2",
+   "5",
+   "3————————"
+  ],
+  [
+   "3",
+   "+2",
+   "Subclase de bardo",
+   "d6",
+   "2",
+   "6",
+   "42———————"
+  ],
+  [
+   "4",
+   "+2",
+   "Mejora de característica",
+   "d6",
+   "3",
+   "7",
+   "43———————"
+  ],
+  [
+   "5",
+   "+3",
+   "Fuente de inspiración",
+   "d8",
+   "3",
+   "9",
+   "432——————"
+  ],
+  [
+   "6",
+   "+3",
+   "Rasgo de subclase",
+   "d8",
+   "3",
+   "10",
+   "433——————"
+  ],
+  [
+   "7",
+   "+3",
+   "Contraencantamiento",
+   "d8",
+   "3",
+   "11",
+   "4331—————"
+  ],
+  [
+   "8",
+   "+3",
+   "Mejora de característica",
+   "d8",
+   "3",
+   "12",
+   "4332—————"
+  ],
+  [
+   "9",
+   "+4",
+   "Pericia",
+   "d8",
+   "3",
+   "14",
+   "43331————"
+  ],
+  [
+   "10",
+   "+4",
+   "Secretos mágicos",
+   "d10",
+   "4",
+   "15",
+   "43332————"
+  ],
+  [
+   "11",
+   "+4",
+   "—",
+   "d10",
+   "4",
+   "16",
+   "433321———"
+  ],
+  [
+   "12",
+   "+4",
+   "Mejora de característica",
+   "d10",
+   "4",
+   "16",
+   "433321———"
+  ],
+  [
+   "13",
+   "+5",
+   "—",
+   "d10",
+   "4",
+   "17",
+   "4333211——"
+  ],
+  [
+   "14",
+   "+5",
+   "Rasgo de subclase",
+   "d10",
+   "4",
+   "17",
+   "4333211——"
+  ],
+  [
+   "15",
+   "+5",
+   "—",
+   "d12",
+   "4",
+   "18",
+   "43332111—"
+  ],
+  [
+   "16",
+   "+5",
+   "Mejora de característica",
+   "d12",
+   "4",
+   "18",
+   "43332111—"
+  ],
+  [
+   "17",
+   "+6",
+   "—",
+   "d12",
+   "4",
+   "19",
+   "433321111"
+  ],
+  [
+   "18",
+   "+6",
+   "Inspiración superior",
+   "d12",
+   "4",
+   "20",
+   "433331111"
+  ],
+  [
+   "19",
+   "+6",
+   "Don épico",
+   "d12",
+   "4",
+   "21",
+   "433332111"
+  ],
+  [
+   "20",
+   "+6",
+   "Palabras de creación",
+   "d12",
+   "4",
+   "22",
+   "433332211"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Clases",
+  "Bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 35
+ }
+}

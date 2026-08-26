@@ -1,0 +1,23 @@
+{
+ "id": "item.malla-elfica",
+ "name": "Malla élfica",
+ "category": "Armadura",
+ "variant": "camisa de malla o cota de malla",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (camisa de malla o cota de malla), rara",
+ "text": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. Se considera que tienes entrenamiento con esta armadura aunque normalmente no lo tuvieras con armaduras medias o pesadas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. Se considera que tienes entrenamiento con esta armadura aunque normalmente no lo tuvieras con armaduras medias o pesadas.",
+   "text": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. Se considera que tienes entrenamiento con esta armadura aunque normalmente no lo tuvieras con armaduras medias o pesadas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 261
+ }
+}

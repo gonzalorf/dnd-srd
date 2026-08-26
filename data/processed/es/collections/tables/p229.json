@@ -1,0 +1,46 @@
+{
+ "id": "table.p229",
+ "caption": null,
+ "header": [
+  "1d100",
+  "Tamaño",
+  "Capacidad",
+  "Velocidad volando"
+ ],
+ "rows": [
+  [
+   "01–20",
+   "90 cm × 1,5 m",
+   "100 kg",
+   "24 m"
+  ],
+  [
+   "21–55",
+   "1,2 m × 1,8 m",
+   "200 kg",
+   "18 m"
+  ],
+  [
+   "56–80",
+   "1,5 m × 2,1 m",
+   "300 kg",
+   "12 m"
+  ],
+  [
+   "81–00",
+   "1,8 m × 2,7 m",
+   "400 kg",
+   "9 m"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Alfombra voladora"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 229
+ }
+}

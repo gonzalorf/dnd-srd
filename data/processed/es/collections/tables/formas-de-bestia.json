@@ -1,0 +1,41 @@
+{
+ "id": "table.formas-de-bestia",
+ "caption": "Formas de bestia",
+ "header": [
+  "Nivel de druida",
+  "Formas conocidas",
+  "VD máx.",
+  "Velocidad volando"
+ ],
+ "rows": [
+  [
+   "2",
+   "4",
+   "1/4",
+   "No"
+  ],
+  [
+   "4",
+   "6",
+   "1/2",
+   "No"
+  ],
+  [
+   "8",
+   "8",
+   "1",
+   "Sí"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Rasgos de clase de druida",
+  "Nivel 2: Forma salvaje"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 54
+ }
+}

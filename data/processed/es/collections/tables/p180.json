@@ -1,0 +1,52 @@
+{
+ "id": "table.p180",
+ "caption": null,
+ "header": [
+  "1d10",
+  "Especie",
+  "1d10",
+  "Especie"
+ ],
+ "rows": [
+  [
+   "1",
+   "Vuelve a tirar",
+   "6",
+   "Goliat"
+  ],
+  [
+   "2",
+   "Dracónido",
+   "7",
+   "Humano"
+  ],
+  [
+   "3",
+   "Elfo",
+   "8",
+   "Mediano"
+  ],
+  [
+   "4",
+   "Enano",
+   "9",
+   "Orco"
+  ],
+  [
+   "5",
+   "Gnomo",
+   "10",
+   "Tiefling"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Reencarnar"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 180
+ }
+}

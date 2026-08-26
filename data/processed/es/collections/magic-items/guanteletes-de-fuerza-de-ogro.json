@@ -1,0 +1,23 @@
+{
+ "id": "item.guanteletes-de-fuerza-de-ogro",
+ "name": "Guanteletes de fuerza de ogro",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Tu Fuerza es de 19 mientras lleves estos guanteletes. No tienen efecto si tu Fuerza es de 19 o más sin ellos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 259,
+   "md": "Tu Fuerza es de 19 mientras lleves estos guanteletes. No tienen efecto si tu Fuerza es de 19 o más sin ellos.",
+   "text": "Tu Fuerza es de 19 mientras lleves estos guanteletes. No tienen efecto si tu Fuerza es de 19 o más sin ellos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 259
+ }
+}

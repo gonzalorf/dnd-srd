@@ -1,0 +1,32 @@
+{
+ "id": "item.pocion-de-heroismo",
+ "name": "Poción de heroísmo",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, rara",
+ "text": "Cuando bebas esta poción, obtendrás 10 puntos de golpe temporales que durarán 1 hora. Durante ese periodo, te encontrarás bajo el efecto del conjuro bendición (no requiere concentración).\n\nEl líquido azul de la poción borbotea y echa humo, como si estuviera hirviendo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, obtendrás 10 puntos de golpe temporales que durarán 1 hora. Durante ese periodo, te encontrarás bajo el efecto del conjuro *bendición* (no requiere concentración).",
+   "text": "Cuando bebas esta poción, obtendrás 10 puntos de golpe temporales que durarán 1 hora. Durante ese periodo, te encontrarás bajo el efecto del conjuro bendición (no requiere concentración)."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "El líquido azul de la poción borbotea y echa humo, como si estuviera hirviendo.",
+   "text": "El líquido azul de la poción borbotea y echa humo, como si estuviera hirviendo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ },
+ "refs": [
+  "spell.bendicion"
+ ]
+}

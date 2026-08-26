@@ -1,0 +1,98 @@
+{
+ "id": "monster.cangrejo-gigante",
+ "name": "Cangrejo gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 381,
+  "pages": [
+   381,
+   382
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "13 (3d8)",
+  "average": 13,
+  "formula": "3d8"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "skills": {
+  "Sigilo": 3
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El cangrejo puede respirar tanto dentro como fuera del agua.",
+   "page": 381,
+   "description": "El cangrejo puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Pinza",
+   "md": "***Pinza.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 11 para escapar) por una de las dos pinzas.",
+   "page": 382,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño contundente. Si el objetivo es una criatura Mediana o más pequeña, tendrá el estado de agarrada (CD 11 para escapar) por una de las dos pinzas."
+  }
+ ]
+}

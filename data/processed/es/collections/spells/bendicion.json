@@ -1,0 +1,57 @@
+{
+ "id": "spell.bendicion",
+ "name": "Bendición",
+ "level": 1,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un símbolo sagrado que valga al menos 5 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un símbolo sagrado que valga al menos 5 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 125,
+   "md": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada.",
+   "text": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada."
+  },
+  {
+   "type": "definition",
+   "page": 125,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 125
+ }
+}

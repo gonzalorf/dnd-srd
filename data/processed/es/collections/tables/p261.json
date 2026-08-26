@@ -1,0 +1,46 @@
+{
+ "id": "table.p261",
+ "caption": null,
+ "header": [
+  "1d20",
+  "Gólem",
+  "Tiempo",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "1–5",
+   "Gólem de arcilla",
+   "30 días",
+   "65 000 po"
+  ],
+  [
+   "6–17",
+   "Gólem de carne",
+   "60 días",
+   "50 000 po"
+  ],
+  [
+   "18",
+   "Gólem de hierro",
+   "120 días",
+   "100 000 po"
+  ],
+  [
+   "19–20",
+   "Gólem de piedra",
+   "90 días",
+   "80 000 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Manual de gólems"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 261
+ }
+}

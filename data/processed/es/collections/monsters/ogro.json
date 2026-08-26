@@ -1,0 +1,93 @@
+{
+ "id": "monster.ogro",
+ "name": "Ogro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 355
+ },
+ "context": [
+  "Ogro"
+ ],
+ "metaRaw": "Gigante Grande, caótico malvado",
+ "type": "Gigante",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "68 (8d10 + 24)",
+  "average": 68,
+  "formula": "8d10 + 24"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "común",
+  "gigante"
+ ],
+ "gear": [
+  "garrote grande",
+  "jabalinas (3)"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Garrote grande",
+   "md": "***Garrote grande.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente.",
+   "page": 355,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño contundente."
+  },
+  {
+   "name": "Jabalina",
+   "md": "***Jabalina.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 11 (2d6 + 4) de daño perforante.",
+   "page": 355,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 11 (2d6 + 4) de daño perforante."
+  }
+ ]
+}

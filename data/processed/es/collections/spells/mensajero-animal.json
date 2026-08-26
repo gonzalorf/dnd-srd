@@ -1,0 +1,64 @@
+{
+ "id": "spell.mensajero-animal",
+ "name": "Mensajero animal",
+ "level": 2,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (unas migajas de comida)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "unas migajas de comida",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Una bestia Diminuta de tu elección que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o intentará enviar un mensaje por ti (si el valor de desafío del objetivo no es 0, la supera automáticamente). Indica un lugar que hayas visitado y da una descripción general del destinatario, como “una persona que lleva un uniforme de guardia de la ciudad” o “una enana pelirroja con un gorro puntiagudo”. Además, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajará hacia el lugar elegido y recorrerá aproximadamente 37,5 km cada 24 horas o 75 km si puede volar.\n\nCuando llegue, la bestia entregará tu mensaje a la criatura que le hayas descrito e imitará tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro.\n\nCon un espacio de conjuro de nivel superior. La duración del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Una bestia Diminuta de tu elección que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o intentará enviar un mensaje por ti (si el valor de desafío del objetivo no es 0, la supera automáticamente). Indica un lugar que hayas visitado y da una descripción general del destinatario, como “una persona que lleva un uniforme de guardia de la ciudad” o “una enana pelirroja con un gorro puntiagudo”. Además, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajará hacia el lugar elegido y recorrerá aproximadamente 37,5 km cada 24 horas o 75 km si puede volar.",
+   "text": "Una bestia Diminuta de tu elección que puedas ver dentro del alcance deberá superar una tirada de salvación de Carisma o intentará enviar un mensaje por ti (si el valor de desafío del objetivo no es 0, la supera automáticamente). Indica un lugar que hayas visitado y da una descripción general del destinatario, como “una persona que lleva un uniforme de guardia de la ciudad” o “una enana pelirroja con un gorro puntiagudo”. Además, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajará hacia el lugar elegido y recorrerá aproximadamente 37,5 km cada 24 horas o 75 km si puede volar."
+  },
+  {
+   "type": "paragraph",
+   "page": 166,
+   "md": "Cuando llegue, la bestia entregará tu mensaje a la criatura que le hayas descrito e imitará tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro.",
+   "text": "Cuando llegue, la bestia entregará tu mensaje a la criatura que le hayas descrito e imitará tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 166,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La duración del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. La duración del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 166
+ }
+}

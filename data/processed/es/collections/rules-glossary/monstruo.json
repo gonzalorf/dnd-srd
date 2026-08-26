@@ -1,0 +1,17 @@
+{
+ "id": "rule.monstruo",
+ "name": "Monstruo",
+ "text": "Un monstruo es una criatura que controla el GM, aunque dicha criatura sea bondadosa. Consulta también “Criatura” y “PNJ”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Un monstruo es una criatura que controla el GM, aunque dicha criatura sea bondadosa. *Consulta también* “Criatura” y “PNJ”.",
+   "text": "Un monstruo es una criatura que controla el GM, aunque dicha criatura sea bondadosa. Consulta también “Criatura” y “PNJ”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-5",
+ "caption": "Conjuros de bardo de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Alterar los recuerdos",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Alzar a los muertos",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Animar objetos",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Apariencia",
+   "Ilusionismo",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 38
+ }
+}

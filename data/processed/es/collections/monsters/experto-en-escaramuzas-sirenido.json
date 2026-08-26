@@ -1,0 +1,96 @@
+{
+ "id": "monster.experto-en-escaramuzas-sirenido",
+ "name": "Experto en escaramuzas sirénido",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 368,
+  "pages": [
+   368,
+   369
+  ]
+ },
+ "context": [
+  "Sirénido"
+ ],
+ "metaRaw": "Elemental Mediano, neutral",
+ "type": "Elemental",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "11 (2d8 + 2)",
+  "average": 11,
+  "formula": "2d8 + 2"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "nadar": 12.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "común",
+  "primordial (acuano)"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El sirénido puede respirar tanto dentro como fuera del agua.",
+   "page": 369,
+   "description": "El sirénido puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Lanza marina",
+   "md": "***Lanza marina.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +2, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 3 (1d6) de daño perforante más 2 (1d4) de daño de frío. Si el objetivo es una criatura, su velocidad se reducirá en 3 m hasta el final de su siguiente turno. *Acierto o fallo:* la lanza regresa mágicamente a la mano del sirénido inmediatamente después de un ataque a distancia.",
+   "page": 369,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +2, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 3 (1d6) de daño perforante más 2 (1d4) de daño de frío. Si el objetivo es una criatura, su velocidad se reducirá en 3 m hasta el final de su siguiente turno. *Acierto o fallo:* la lanza regresa mágicamente a la mano del sirénido inmediatamente después de un ataque a distancia."
+  }
+ ]
+}

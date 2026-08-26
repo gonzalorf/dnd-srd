@@ -1,0 +1,58 @@
+{
+ "id": "spell.detectar-venenos-y-enfermedades",
+ "name": "Detectar venenos y enfermedades",
+ "level": 1,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "explorador",
+  "paladín"
+ ],
+ "ritual": true,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción o ritual",
+  "ritual": true,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una hoja de tejo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una hoja de tejo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Hasta que el conjuro termine, percibes la ubicación de venenos, criaturas venenosas y enfermedades mágicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.\n\nEl conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 142,
+   "md": "Hasta que el conjuro termine, percibes la ubicación de venenos, criaturas venenosas y enfermedades mágicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.",
+   "text": "Hasta que el conjuro termine, percibes la ubicación de venenos, criaturas venenosas y enfermedades mágicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso."
+  },
+  {
+   "type": "paragraph",
+   "page": 142,
+   "md": "El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo.",
+   "text": "El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 142
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "tool.utiles-de-cocinero",
+ "name": "Útiles de cocinero",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Sabiduría Peso: 4 kg\n\nUtilizar: mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)\n\nFabricar: raciones",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Sabiduría **Peso:** 4 kg",
+   "text": "Característica: Sabiduría Peso: 4 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)",
+   "text": "Utilizar: mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** raciones",
+   "text": "Fabricar: raciones"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ }
+}

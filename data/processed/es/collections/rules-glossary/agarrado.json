@@ -1,0 +1,36 @@
+{
+ "id": "rule.agarrado",
+ "name": "Agarrado",
+ "text": "Mientras tengas el estado de agarrado, experimentarás los siguientes efectos:\n\nVelocidad 0. Tu velocidad es 0 y no puede aumentar.\n\nAtaques afectados. Tienes desventaja en las tiradas de ataque contra cualquier objetivo que no sea quien te agarra.\n\nDesplazable. Quien te agarra puede arrastrarte o transportarte al moverse, pero cada metro de movimiento le cuesta 1 m adicional, salvo que seas Diminuto o tu tamaño sea dos o más categorías inferior al suyo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 194,
+   "md": "Mientras tengas el estado de agarrado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de agarrado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 194,
+   "md": "***Velocidad 0.*** Tu velocidad es 0 y no puede aumentar.",
+   "text": "Velocidad 0. Tu velocidad es 0 y no puede aumentar."
+  },
+  {
+   "type": "definition",
+   "page": 194,
+   "md": "***Ataques afectados.*** Tienes desventaja en las tiradas de ataque contra cualquier objetivo que no sea quien te agarra.",
+   "text": "Ataques afectados. Tienes desventaja en las tiradas de ataque contra cualquier objetivo que no sea quien te agarra."
+  },
+  {
+   "type": "definition",
+   "page": 194,
+   "md": "***Desplazable.*** Quien te agarra puede arrastrarte o transportarte al moverse, pero cada metro de movimiento le cuesta 1 m adicional, salvo que seas Diminuto o tu tamaño sea dos o más categorías inferior al suyo.",
+   "text": "Desplazable. Quien te agarra puede arrastrarte o transportarte al moverse, pero cada metro de movimiento le cuesta 1 m adicional, salvo que seas Diminuto o tu tamaño sea dos o más categorías inferior al suyo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 194
+ },
+ "kind": "estado"
+}

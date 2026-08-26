@@ -1,0 +1,18 @@
+{
+ "id": "rule.indiferente",
+ "name": "Indiferente",
+ "text": "Una criatura indiferente no tiene interés ni en ayudarte ni en obstaculizarte. Esta es la actitud por defecto de un monstruo. Consulta también “Influir”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Una criatura indiferente no tiene interés ni en ayudarte ni en obstaculizarte. Esta es la actitud por defecto de un monstruo. *Consulta también* “Influir”.",
+   "text": "Una criatura indiferente no tiene interés ni en ayudarte ni en obstaculizarte. Esta es la actitud por defecto de un monstruo. Consulta también “Influir”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ },
+ "kind": "actitud"
+}

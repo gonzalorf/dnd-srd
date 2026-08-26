@@ -1,0 +1,17 @@
+{
+ "id": "rule.dano",
+ "name": "Daño",
+ "text": "Recibir daño hace que una criatura o un objeto pierda puntos de golpe.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 199,
+   "md": "Recibir daño hace que una criatura o un objeto pierda puntos de golpe.",
+   "text": "Recibir daño hace que una criatura o un objeto pierda puntos de golpe."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 199
+ }
+}

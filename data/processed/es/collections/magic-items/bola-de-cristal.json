@@ -1,0 +1,26 @@
+{
+ "id": "item.bola-de-cristal",
+ "name": "Bola de cristal",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, muy raro (requiere sintonización)",
+ "text": "Mientras tocas este orbe de cristal, puedes lanzar escudriñar (CD de salvación 17) desde él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 242,
+   "md": "Mientras tocas este orbe de cristal, puedes lanzar *escudriñar* (CD de salvación 17) desde él.",
+   "text": "Mientras tocas este orbe de cristal, puedes lanzar escudriñar (CD de salvación 17) desde él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 242
+ },
+ "refs": [
+  "spell.escudrinar"
+ ]
+}

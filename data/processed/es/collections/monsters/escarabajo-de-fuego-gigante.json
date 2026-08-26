@@ -1,0 +1,94 @@
+{
+ "id": "monster.escarabajo-de-fuego-gigante",
+ "name": "Escarabajo de fuego gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 385
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Pequeña, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Pequeño",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "4 (1d6 + 1)",
+  "average": 4,
+  "formula": "1d6 + 1"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "trepar": 9.0
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "resistances": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Iluminación",
+   "md": "***Iluminación.*** El escarabajo emite luz brillante en un radio de 3 m y luz tenue 3 m más allá.",
+   "page": 385,
+   "description": "El escarabajo emite luz brillante en un radio de 3 m y luz tenue 3 m más allá."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +1, alcance 1,5 m. *Acierto:* 1 de daño de fuego.",
+   "page": 385,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +1, alcance 1,5 m. *Acierto:* 1 de daño de fuego."
+  }
+ ]
+}

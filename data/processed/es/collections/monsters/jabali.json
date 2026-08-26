@@ -1,0 +1,90 @@
+{
+ "id": "monster.jabali",
+ "name": "Jabalí",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 387
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Mediana, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "13 (2d8 + 4)",
+  "average": 13,
+  "formula": "2d8 + 4"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "traits": [
+  {
+   "name": "Furia maltrecha",
+   "md": "***Furia maltrecha.*** Mientras esté maltrecho, el jabalí tiene ventaja en las tiradas de ataque.",
+   "page": 387,
+   "description": "Mientras esté maltrecho, el jabalí tiene ventaja en las tiradas de ataque."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Colmillos",
+   "md": "***Colmillos.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña y el jabalí recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 3 (1d6) de daño perforante adicional y tendrá el estado de derribada.",
+   "page": 387,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño perforante. Si el objetivo es una criatura Mediana o más pequeña y el jabalí recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 3 (1d6) de daño perforante adicional y tendrá el estado de derribada."
+  }
+ ]
+}

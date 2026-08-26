@@ -1,0 +1,47 @@
+{
+ "id": "spell.crear-comida-y-agua",
+ "name": "Crear comida y agua",
+ "level": 3,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "clérigo",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrición y la deshidratación. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elección, mientras que el agua está limpia. La comida se estropea si no se consume en 24 horas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 136,
+   "md": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrición y la deshidratación. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elección, mientras que el agua está limpia. La comida se estropea si no se consume en 24 horas.",
+   "text": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrición y la deshidratación. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elección, mientras que el agua está limpia. La comida se estropea si no se consume en 24 horas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 136
+ }
+}

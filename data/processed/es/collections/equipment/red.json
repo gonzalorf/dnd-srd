@@ -1,0 +1,42 @@
+{
+ "id": "gear.red",
+ "name": "Red",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Red",
+  "Peso": "1,5 kg",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1,5 kg",
+  "kg": 1.5
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande.\n\nPara liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande.",
+   "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande."
+  },
+  {
+   "type": "paragraph",
+   "page": 107,
+   "md": "Para liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto.",
+   "text": "Para liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto."
+  }
+ ],
+ "descriptionPage": 107
+}

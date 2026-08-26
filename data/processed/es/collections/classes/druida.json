@@ -1,0 +1,1602 @@
+{
+ "id": "class.druida",
+ "name": "Druida",
+ "coreTraits": {
+  "Característica principal": "Sabiduría",
+  "Dado de puntos de golpe": "1d8 por nivel de druida",
+  "Competencias en tiradas de salvación": "Inteligencia y Sabiduría",
+  "Competencias en habilidades": "Elige dos: Conocimiento arcano, Medicina, Naturaleza, Percepción, Perspicacia, Religión, Supervivencia o Trato con animales",
+  "Competencias con armas": "Armas sencillas",
+  "Competencias con herramientas": "Útiles de herborista",
+  "Entrenamiento con armaduras": "Armaduras ligeras y escudos",
+  "Equipo inicial": "Elige A o B: (A) armadura de"
+ },
+ "progression": {
+  "caption": "Rasgos de druida",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Forma salvaje",
+   "Trucos",
+   "Conjuros preparados",
+   "—Espacios de conjuro por cada nivel de conjuro— 123456789"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Druídico, Lanzamiento de conjuros, Orden primigenia",
+    "—",
+    "2",
+    "4",
+    "2————————"
+   ],
+   [
+    "2",
+    "+2",
+    "Compañero salvaje, Forma salvaje",
+    "2",
+    "2",
+    "5",
+    "3————————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de druida",
+    "2",
+    "2",
+    "6",
+    "42———————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "2",
+    "3",
+    "7",
+    "43———————"
+   ],
+   [
+    "5",
+    "+3",
+    "Resurgimiento salvaje",
+    "2",
+    "3",
+    "9",
+    "432——————"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "3",
+    "3",
+    "10",
+    "433——————"
+   ],
+   [
+    "7",
+    "+3",
+    "Furia elemental",
+    "3",
+    "3",
+    "11",
+    "4331—————"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "3",
+    "3",
+    "12",
+    "4332—————"
+   ],
+   [
+    "9",
+    "+4",
+    "—",
+    "3",
+    "3",
+    "14",
+    "43331————"
+   ],
+   [
+    "10",
+    "+4",
+    "Rasgo de subclase",
+    "3",
+    "4",
+    "15",
+    "43332————"
+   ],
+   [
+    "11",
+    "+4",
+    "—",
+    "3",
+    "4",
+    "16",
+    "433321———"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "3",
+    "4",
+    "16",
+    "433321———"
+   ],
+   [
+    "13",
+    "+5",
+    "—",
+    "3",
+    "4",
+    "17",
+    "4333211——"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "3",
+    "4",
+    "17",
+    "4333211——"
+   ],
+   [
+    "15",
+    "+5",
+    "Furia elemental mejorada",
+    "3",
+    "4",
+    "18",
+    "43332111—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "3",
+    "4",
+    "18",
+    "43332111—"
+   ],
+   [
+    "17",
+    "+6",
+    "—",
+    "4",
+    "4",
+    "19",
+    "433321111"
+   ],
+   [
+    "18",
+    "+6",
+    "Conjurar como bestia",
+    "4",
+    "4",
+    "20",
+    "433331111"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "4",
+    "4",
+    "21",
+    "433332111"
+   ],
+   [
+    "20",
+    "+6",
+    "Archidruida",
+    "4",
+    "4",
+    "22",
+    "433332211"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Druídico",
+   "title": "Nivel 1: Druídico",
+   "subclass": null,
+   "text": "Sabes druídico, el idioma secreto de los druidas. Mientras aprendías esta lengua antigua, accediste a la magia para comunicarte con los animales, por lo que siempre tienes el conjuro hablar con los animales preparado.\n\nPuedes utilizar el druídico para dejar mensajes ocultos. Tanto tú como cualquiera que conozca este idioma os percataréis de inmediato de la presencia de estos mensajes. Los demás deberán superar una prueba de Inteligencia (Investigación) con CD 15 para detectarlos, pero no podrán descifrarlos sin recurrir a la magia.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Sabes druídico, el idioma secreto de los druidas. Mientras aprendías esta lengua antigua, accediste a la magia para comunicarte con los animales, por lo que siempre tienes el conjuro *hablar con los animales* preparado.",
+     "text": "Sabes druídico, el idioma secreto de los druidas. Mientras aprendías esta lengua antigua, accediste a la magia para comunicarte con los animales, por lo que siempre tienes el conjuro hablar con los animales preparado."
+    },
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Puedes utilizar el druídico para dejar mensajes ocultos. Tanto tú como cualquiera que conozca este idioma os percataréis de inmediato de la presencia de estos mensajes. Los demás deberán superar una prueba de Inteligencia (Investigación) con CD 15 para detectarlos, pero no podrán descifrarlos sin recurrir a la magia.",
+     "text": "Puedes utilizar el druídico para dejar mensajes ocultos. Tanto tú como cualquiera que conozca este idioma os percataréis de inmediato de la presencia de estos mensajes. Los demás deberán superar una prueba de Inteligencia (Investigación) con CD 15 para detectarlos, pero no podrán descifrarlos sin recurrir a la magia."
+    }
+   ],
+   "page": 53
+  },
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Has aprendido a lanzar conjuros estudiando las fuerzas místicas de la naturaleza. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de druida, que encontrarás más adelante en la lista de conjuros de druida de la descripción de la clase.\n\nTrucos. Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de druida. Se recomiendan crear llama y saber druídico. Cada vez que subas un nivel de druida, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de druida. Cuando alcances los niveles 4 y 10 de druida, aprenderás otro truco de tu elección de la lista de conjuros de druida, como se muestra en la columna “Trucos” de la tabla “Rasgos de druida”.\n\nEspacios de conjuro. La tabla “Rasgos de druida” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de druida. Se recomiendan curar heridas, encantar animal, fuego feérico y ola atronadora. El número de conjuros de tu lista aumenta conforme subes de nivel de druida, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de druida”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de druida hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une druida de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2.\n\nSi otro rasgo de druida te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de druida para ti.\n\nCambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de druida para los que tengas espacios de conjuro.\n\nAptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de druida.\n\nCanalizador mágico. Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de druida.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Has aprendido a lanzar conjuros estudiando las fuerzas místicas de la naturaleza. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de druida, que encontrarás más adelante en la lista de conjuros de druida de la descripción de la clase.",
+     "text": "Has aprendido a lanzar conjuros estudiando las fuerzas místicas de la naturaleza. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de druida, que encontrarás más adelante en la lista de conjuros de druida de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Trucos.*** Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de druida. Se recomiendan *crear llama* y *saber druídico*. Cada vez que subas un nivel de druida, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de druida. Cuando alcances los niveles 4 y 10 de druida, aprenderás otro truco de tu elección de la lista de conjuros de druida, como se muestra en la columna “Trucos” de la tabla “Rasgos de druida”.",
+     "text": "Trucos. Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de druida. Se recomiendan crear llama y saber druídico. Cada vez que subas un nivel de druida, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de druida. Cuando alcances los niveles 4 y 10 de druida, aprenderás otro truco de tu elección de la lista de conjuros de druida, como se muestra en la columna “Trucos” de la tabla “Rasgos de druida”."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de druida” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de druida” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de druida. Se recomiendan *curar heridas*, *encantar animal*, *fuego feérico* y *ola atronadora*. El número de conjuros de tu lista aumenta conforme subes de nivel de druida, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de druida”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de druida hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une druida de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2.",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de druida. Se recomiendan curar heridas, encantar animal, fuego feérico y ola atronadora. El número de conjuros de tu lista aumenta conforme subes de nivel de druida, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de druida”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de druida hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une druida de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2."
+    },
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Si otro rasgo de druida te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de druida para ti.",
+     "text": "Si otro rasgo de druida te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de druida para ti."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Cambiar los conjuros preparados.*** Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de druida para los que tengas espacios de conjuro.",
+     "text": "Cambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros conjuros de druida para los que tengas espacios de conjuro."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Aptitud mágica.*** La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de druida.",
+     "text": "Aptitud mágica. La Sabiduría es tu aptitud mágica en lo que respecta a tus conjuros de druida."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Canalizador mágico.*** Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de druida.",
+     "text": "Canalizador mágico. Puedes utilizar un canalizador druídico como canalizador mágico para los conjuros de druida."
+    }
+   ],
+   "page": 53
+  },
+  {
+   "level": 1,
+   "name": "Orden primigenia",
+   "title": "Nivel 1: Orden primigenia",
+   "subclass": null,
+   "text": "Te has consagrado a una de las siguientes funciones sacras, a tu elección.\n\nGuardián. Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras medias.\n\nNaturalista. Conoces un truco adicional de la lista de conjuros de druida. Además, tu conexión mística con la naturaleza te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Naturaleza). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1).",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Te has consagrado a una de las siguientes funciones sacras, a tu elección.",
+     "text": "Te has consagrado a una de las siguientes funciones sacras, a tu elección."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Guardián.*** Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras medias.",
+     "text": "Guardián. Te has entrenado para el combate y ganas competencia con armas marciales y entrenamiento con armaduras medias."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Naturalista.*** Conoces un truco adicional de la lista de conjuros de druida. Además, tu conexión mística con la naturaleza te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Naturaleza). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1).",
+     "text": "Naturalista. Conoces un truco adicional de la lista de conjuros de druida. Además, tu conexión mística con la naturaleza te proporciona un bonificador a tus pruebas de Inteligencia (Conocimiento arcano y Naturaleza). El bonificador es igual a tu modificador por Sabiduría (mínimo de +1)."
+    }
+   ],
+   "page": 53
+  },
+  {
+   "level": 2,
+   "name": "Compañero salvaje",
+   "title": "Nivel 2: Compañero salvaje",
+   "subclass": null,
+   "text": "Puedes invocar un espíritu de la naturaleza que adopta la forma de un animal para ayudarte. Como acción de magia, puedes gastar un espacio de conjuro o un uso de tu rasgo Forma salvaje para lanzar el conjuro encontrar familiar sin necesidad de componentes materiales.\n\nCuando lances el conjuro de esta forma, el familiar será un feérico y desaparecerá tras finalizar un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Puedes invocar un espíritu de la naturaleza que adopta la forma de un animal para ayudarte. Como acción de magia, puedes gastar un espacio de conjuro o un uso de tu rasgo Forma salvaje para lanzar el conjuro *encontrar familiar* sin necesidad de componentes materiales.",
+     "text": "Puedes invocar un espíritu de la naturaleza que adopta la forma de un animal para ayudarte. Como acción de magia, puedes gastar un espacio de conjuro o un uso de tu rasgo Forma salvaje para lanzar el conjuro encontrar familiar sin necesidad de componentes materiales."
+    },
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "Cuando lances el conjuro de esta forma, el familiar será un feérico y desaparecerá tras finalizar un descanso largo.",
+     "text": "Cuando lances el conjuro de esta forma, el familiar será un feérico y desaparecerá tras finalizar un descanso largo."
+    }
+   ],
+   "page": 53
+  },
+  {
+   "level": 2,
+   "name": "Forma salvaje",
+   "title": "Nivel 2: Forma salvaje",
+   "subclass": null,
+   "text": "El poder de la naturaleza te permite transformarte en un animal. Como acción adicional, adoptas la forma de una bestia que hayas aprendido para este rasgo (consulta “Formas conocidas” a continuación). Conservas esa forma durante una cantidad de horas igual a la mitad de tu nivel de druida o hasta que vuelvas a utilizar Forma salvaje, tengas el estado de incapacitado o mueras. También puedes abandonar la forma antes de tiempo como acción adicional.\n\nNúmero de usos. Puedes utilizar el rasgo Forma salvaje dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de druida, como se muestra en la columna “Forma salvaje” de la tabla “Rasgos de druida”.\n\nFormas conocidas. Conoces cuatro formas de bestia para este rasgo, escogidas de entre los perfiles de criaturas de tipo “bestia” que tengan un valor de desafío máximo de 1/4 y que no tengan una velocidad volando (consulta las opciones de perfiles en el apartado “Animales” del capítulo “Monstruos”). Se recomiendan las siguientes bestias: araña, caballo de monta, lobo y rata. Tras finalizar un descanso largo, podrás reemplazar una de tus formas conocidas por otra que cumpla los requisitos. Cuando alcances determinados niveles de druida, la cantidad de formas conocidas y el valor de desafío máximo de estas formas aumentan, como se muestra en la tabla “Formas de bestia”. Además, a partir del nivel 8 podrás adoptar una forma que tenga una velocidad volando. Al escoger las formas conocidas, puedes consultar otras fuentes para buscar más bestias si tu Game Master te lo permite.\n\nReglas con forma de bestia. Mientras tengas la forma de una bestia, conservas tu personalidad, recuerdos y capacidad de hablar, y se aplican las siguientes normas:\n\nPuntos de golpe temporales. Cuando te transformas usando Forma salvaje, obtienes una cantidad de puntos de golpe temporales igual a tu nivel de druida.\n\nPerfil. Tu perfil se sustituye por el perfil de la bestia, pero conservas tu tipo de criatura, puntos de golpe, dados de puntos de golpe, puntuaciones de Inteligencia, Sabiduría y Carisma, rasgos de clase, idiomas y dotes. También conservas tus competencias en habilidades y tiradas de salvación y utilizas tu bonificador por competencia con ellas, además de obtener las competencias de la criatura. Si el modificador de una habilidad o tirada de salvación del perfil de la bestia es superior al tuyo, usa el de la bestia.\n\nSin lanzamiento de conjuros. No puedes lanzar conjuros, pero cambiar de forma no te hace perder la concentración ni interfiere de ningún otro modo con un conjuro que ya hayas lanzado.\n\nObjetos. Tu capacidad de manejar objetos depende de las extremidades de la bestia cuya forma hayas adoptado. Además, eliges si tu equipo cae en tu\n\nespacio, se funde con la nueva forma o lo sigues llevando puesto. El equipo que lleves puesto funcionará con normalidad, pero tu GM determinará si es factible que la nueva forma pueda llevar un objeto de equipo concreto, en función del tamaño y la forma de la criatura. Tu equipo no cambia de forma o tamaño para adaptarse a la nueva forma y cualquier objeto que esta no pueda llevar puesto deberá caer al suelo o fundirse con la nueva forma. El equipo que se funde con la forma no tendrá efecto mientras conserves esa forma.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 53,
+     "md": "El poder de la naturaleza te permite transformarte en un animal. Como acción adicional, adoptas la forma de una bestia que hayas aprendido para este rasgo (consulta “Formas conocidas” a continuación). Conservas esa forma durante una cantidad de horas igual a la mitad de tu nivel de druida o hasta que vuelvas a utilizar Forma salvaje, tengas el estado de incapacitado o mueras. También puedes abandonar la forma antes de tiempo como acción adicional.",
+     "text": "El poder de la naturaleza te permite transformarte en un animal. Como acción adicional, adoptas la forma de una bestia que hayas aprendido para este rasgo (consulta “Formas conocidas” a continuación). Conservas esa forma durante una cantidad de horas igual a la mitad de tu nivel de druida o hasta que vuelvas a utilizar Forma salvaje, tengas el estado de incapacitado o mueras. También puedes abandonar la forma antes de tiempo como acción adicional."
+    },
+    {
+     "type": "definition",
+     "page": 53,
+     "md": "***Número de usos.*** Puedes utilizar el rasgo Forma salvaje dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de druida, como se muestra en la columna “Forma salvaje” de la tabla “Rasgos de druida”.",
+     "text": "Número de usos. Puedes utilizar el rasgo Forma salvaje dos veces. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de druida, como se muestra en la columna “Forma salvaje” de la tabla “Rasgos de druida”."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Formas conocidas.*** Conoces cuatro formas de bestia para este rasgo, escogidas de entre los perfiles de criaturas de tipo “bestia” que tengan un valor de desafío máximo de 1/4 y que no tengan una velocidad volando (consulta las opciones de perfiles en el apartado “Animales” del capítulo “Monstruos”). Se recomiendan las siguientes bestias: **araña, caballo de monta, lobo** y **rata**. Tras finalizar un descanso largo, podrás reemplazar una de tus formas conocidas por otra que cumpla los requisitos. Cuando alcances determinados niveles de druida, la cantidad de formas conocidas y el valor de desafío máximo de estas formas aumentan, como se muestra en la tabla “Formas de bestia”. Además, a partir del nivel 8 podrás adoptar una forma que tenga una velocidad volando. Al escoger las formas conocidas, puedes consultar otras fuentes para buscar más bestias si tu Game Master te lo permite.",
+     "text": "Formas conocidas. Conoces cuatro formas de bestia para este rasgo, escogidas de entre los perfiles de criaturas de tipo “bestia” que tengan un valor de desafío máximo de 1/4 y que no tengan una velocidad volando (consulta las opciones de perfiles en el apartado “Animales” del capítulo “Monstruos”). Se recomiendan las siguientes bestias: araña, caballo de monta, lobo y rata. Tras finalizar un descanso largo, podrás reemplazar una de tus formas conocidas por otra que cumpla los requisitos. Cuando alcances determinados niveles de druida, la cantidad de formas conocidas y el valor de desafío máximo de estas formas aumentan, como se muestra en la tabla “Formas de bestia”. Además, a partir del nivel 8 podrás adoptar una forma que tenga una velocidad volando. Al escoger las formas conocidas, puedes consultar otras fuentes para buscar más bestias si tu Game Master te lo permite."
+    },
+    {
+     "type": "table",
+     "page": 54,
+     "caption": "Formas de bestia",
+     "header": [
+      "Nivel de druida",
+      "Formas conocidas",
+      "VD máx.",
+      "Velocidad volando"
+     ],
+     "rows": [
+      [
+       "2",
+       "4",
+       "1/4",
+       "No"
+      ],
+      [
+       "4",
+       "6",
+       "1/2",
+       "No"
+      ],
+      [
+       "8",
+       "8",
+       "1",
+       "Sí"
+      ]
+     ]
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Reglas con forma de bestia.*** Mientras tengas la forma de una bestia, conservas tu personalidad, recuerdos y capacidad de hablar, y se aplican las siguientes normas:",
+     "text": "Reglas con forma de bestia. Mientras tengas la forma de una bestia, conservas tu personalidad, recuerdos y capacidad de hablar, y se aplican las siguientes normas:"
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "**Puntos de golpe temporales.** Cuando te transformas usando Forma salvaje, obtienes una cantidad de puntos de golpe temporales igual a tu nivel de druida.",
+     "text": "Puntos de golpe temporales. Cuando te transformas usando Forma salvaje, obtienes una cantidad de puntos de golpe temporales igual a tu nivel de druida."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "**Perfil.** Tu perfil se sustituye por el perfil de la bestia, pero conservas tu tipo de criatura, puntos de golpe, dados de puntos de golpe, puntuaciones de Inteligencia, Sabiduría y Carisma, rasgos de clase, idiomas y dotes. También conservas tus competencias en habilidades y tiradas de salvación y utilizas tu bonificador por competencia con ellas, además de obtener las competencias de la criatura. Si el modificador de una habilidad o tirada de salvación del perfil de la bestia es superior al tuyo, usa el de la bestia.",
+     "text": "Perfil. Tu perfil se sustituye por el perfil de la bestia, pero conservas tu tipo de criatura, puntos de golpe, dados de puntos de golpe, puntuaciones de Inteligencia, Sabiduría y Carisma, rasgos de clase, idiomas y dotes. También conservas tus competencias en habilidades y tiradas de salvación y utilizas tu bonificador por competencia con ellas, además de obtener las competencias de la criatura. Si el modificador de una habilidad o tirada de salvación del perfil de la bestia es superior al tuyo, usa el de la bestia."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "**Sin lanzamiento de conjuros.** No puedes lanzar conjuros, pero cambiar de forma no te hace perder la concentración ni interfiere de ningún otro modo con un conjuro que ya hayas lanzado.",
+     "text": "Sin lanzamiento de conjuros. No puedes lanzar conjuros, pero cambiar de forma no te hace perder la concentración ni interfiere de ningún otro modo con un conjuro que ya hayas lanzado."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "**Objetos.** Tu capacidad de manejar objetos depende de las extremidades de la bestia cuya forma hayas adoptado. Además, eliges si tu equipo cae en tu",
+     "text": "Objetos. Tu capacidad de manejar objetos depende de las extremidades de la bestia cuya forma hayas adoptado. Además, eliges si tu equipo cae en tu"
+    },
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "espacio, se funde con la nueva forma o lo sigues llevando puesto. El equipo que lleves puesto funcionará con normalidad, pero tu GM determinará si es factible que la nueva forma pueda llevar un objeto de equipo concreto, en función del tamaño y la forma de la criatura. Tu equipo no cambia de forma o tamaño para adaptarse a la nueva forma y cualquier objeto que esta no pueda llevar puesto deberá caer al suelo o fundirse con la nueva forma. El equipo que se funde con la forma no tendrá efecto mientras conserves esa forma.",
+     "text": "espacio, se funde con la nueva forma o lo sigues llevando puesto. El equipo que lleves puesto funcionará con normalidad, pero tu GM determinará si es factible que la nueva forma pueda llevar un objeto de equipo concreto, en función del tamaño y la forma de la criatura. Tu equipo no cambia de forma o tamaño para adaptarse a la nueva forma y cualquier objeto que esta no pueda llevar puesto deberá caer al suelo o fundirse con la nueva forma. El equipo que se funde con la forma no tendrá efecto mientras conserves esa forma."
+    }
+   ],
+   "page": 53
+  },
+  {
+   "level": 3,
+   "name": "Subclase de druida",
+   "title": "Nivel 3: Subclase de druida",
+   "subclass": null,
+   "text": "Consigues una subclase de druida de tu elección. La subclase del círculo de la tierra se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de druida. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de druida e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "Consigues una subclase de druida de tu elección. La subclase del círculo de la tierra se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de druida. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de druida e inferiores.",
+     "text": "Consigues una subclase de druida de tu elección. La subclase del círculo de la tierra se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de druida. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de druida e inferiores."
+    }
+   ],
+   "page": 54
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de druida.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de druida.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de druida."
+    }
+   ],
+   "page": 54
+  },
+  {
+   "level": 5,
+   "name": "Resurgimiento salvaje",
+   "title": "Nivel 5: Resurgimiento salvaje",
+   "subclass": null,
+   "text": "Una vez en cada uno de tus turnos, si no te quedan usos de Forma salvaje, puedes obtener un uso gastando un espacio de conjuro (no requiere acción).\n\nAdemás, puedes gastar un uso de tu rasgo Forma salvaje (no requiere acción) para obtener un espacio de conjuro de nivel 1, pero no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "Una vez en cada uno de tus turnos, si no te quedan usos de Forma salvaje, puedes obtener un uso gastando un espacio de conjuro (no requiere acción).",
+     "text": "Una vez en cada uno de tus turnos, si no te quedan usos de Forma salvaje, puedes obtener un uso gastando un espacio de conjuro (no requiere acción)."
+    },
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "Además, puedes gastar un uso de tu rasgo Forma salvaje (no requiere acción) para obtener un espacio de conjuro de nivel 1, pero no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Además, puedes gastar un uso de tu rasgo Forma salvaje (no requiere acción) para obtener un espacio de conjuro de nivel 1, pero no podrás volver a hacerlo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 54
+  },
+  {
+   "level": 7,
+   "name": "Furia elemental",
+   "title": "Nivel 7: Furia elemental",
+   "subclass": null,
+   "text": "El poder de los elementos fluye por ti. Obtienes una de las siguientes opciones, a tu elección.\n\nGolpe primordial. Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma o un ataque de una bestia en Forma salvaje, podrás hacer que el objetivo sufra 1d8 de daño de frío, fuego, relámpago o trueno adicional (elígelo cuando aciertes).\n\nLanzamiento potente. Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de druida.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "El poder de los elementos fluye por ti. Obtienes una de las siguientes opciones, a tu elección.",
+     "text": "El poder de los elementos fluye por ti. Obtienes una de las siguientes opciones, a tu elección."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Golpe primordial.*** Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma o un ataque de una bestia en Forma salvaje, podrás hacer que el objetivo sufra 1d8 de daño de frío, fuego, relámpago o trueno adicional (elígelo cuando aciertes).",
+     "text": "Golpe primordial. Una vez en cada uno de tus turnos, cuando aciertes a una criatura con una tirada de ataque usando un arma o un ataque de una bestia en Forma salvaje, podrás hacer que el objetivo sufra 1d8 de daño de frío, fuego, relámpago o trueno adicional (elígelo cuando aciertes)."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Lanzamiento potente.*** Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de druida.",
+     "text": "Lanzamiento potente. Sumas tu modificador por Sabiduría al daño que causas con cualquier truco de druida."
+    }
+   ],
+   "page": 54
+  },
+  {
+   "level": 15,
+   "name": "Furia elemental mejorada",
+   "title": "Nivel 15: Furia elemental mejorada",
+   "subclass": null,
+   "text": "La opción elegida para Furia elemental se vuelve más poderosa, como se detalla a continuación.\n\nGolpe primordial. El daño adicional de tu Golpe primordial aumenta a 2d8.\n\nLanzamiento potente. Cuando lances un truco de druida con un alcance de 3 m o más, el alcance del conjuro aumentará en 90 m.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 54,
+     "md": "La opción elegida para Furia elemental se vuelve más poderosa, como se detalla a continuación.",
+     "text": "La opción elegida para Furia elemental se vuelve más poderosa, como se detalla a continuación."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Golpe primordial.*** El daño adicional de tu Golpe primordial aumenta a 2d8.",
+     "text": "Golpe primordial. El daño adicional de tu Golpe primordial aumenta a 2d8."
+    },
+    {
+     "type": "definition",
+     "page": 54,
+     "md": "***Lanzamiento potente.*** Cuando lances un truco de druida con un alcance de 3 m o más, el alcance del conjuro aumentará en 90 m.",
+     "text": "Lanzamiento potente. Cuando lances un truco de druida con un alcance de 3 m o más, el alcance del conjuro aumentará en 90 m."
+    }
+   ],
+   "page": 54
+  },
+  {
+   "level": 18,
+   "name": "Conjurar como bestia",
+   "title": "Nivel 18: Conjurar como bestia",
+   "subclass": null,
+   "text": "Mientras utilices Forma salvaje, podrás lanzar conjuros en forma de bestia, salvo cualquier conjuro que tenga un componente material que tenga un coste especificado o que se consuma como parte del conjuro.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 55,
+     "md": "Mientras utilices Forma salvaje, podrás lanzar conjuros en forma de bestia, salvo cualquier conjuro que tenga un componente material que tenga un coste especificado o que se consuma como parte del conjuro.",
+     "text": "Mientras utilices Forma salvaje, podrás lanzar conjuros en forma de bestia, salvo cualquier conjuro que tenga un componente material que tenga un coste especificado o que se consuma como parte del conjuro."
+    }
+   ],
+   "page": 55
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 55,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional."
+    }
+   ],
+   "page": 55
+  },
+  {
+   "level": 20,
+   "name": "Archidruida",
+   "title": "Nivel 20: Archidruida",
+   "subclass": null,
+   "text": "La vitalidad de la naturaleza florece en ti de manera constante, lo que te otorga los siguientes beneficios.\n\nForma salvaje perenne. Cuando tires iniciativa y no te queden usos de Forma salvaje, recuperas uno de los usos gastados.\n\nMago de la naturaleza. Puedes convertir los usos de Forma salvaje en un espacio de conjuro (no requiere acción). Elige una cantidad de usos no gastados de Forma salvaje para convertirlos en un único espacio de conjuro. Cada uso aporta 2 niveles de conjuro. Por ejemplo, si conviertes dos usos de Forma salvaje, produces un espacio de conjuro de nivel 4. Cuando uses este beneficio, no podrás volver a hacerlo hasta que finalices un descanso largo.\n\nLongevidad. La magia primigenia que dominas ralentiza tu envejecimiento. Por cada diez años que pasen, tu cuerpo envejece solo uno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 55,
+     "md": "La vitalidad de la naturaleza florece en ti de manera constante, lo que te otorga los siguientes beneficios.",
+     "text": "La vitalidad de la naturaleza florece en ti de manera constante, lo que te otorga los siguientes beneficios."
+    },
+    {
+     "type": "definition",
+     "page": 55,
+     "md": "***Forma salvaje perenne.*** Cuando tires iniciativa y no te queden usos de Forma salvaje, recuperas uno de los usos gastados.",
+     "text": "Forma salvaje perenne. Cuando tires iniciativa y no te queden usos de Forma salvaje, recuperas uno de los usos gastados."
+    },
+    {
+     "type": "definition",
+     "page": 55,
+     "md": "***Mago de la naturaleza.*** Puedes convertir los usos de Forma salvaje en un espacio de conjuro (no requiere acción). Elige una cantidad de usos no gastados de Forma salvaje para convertirlos en un único espacio de conjuro. Cada uso aporta 2 niveles de conjuro. Por ejemplo, si conviertes dos usos de Forma salvaje, produces un espacio de conjuro de nivel 4. Cuando uses este beneficio, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Mago de la naturaleza. Puedes convertir los usos de Forma salvaje en un espacio de conjuro (no requiere acción). Elige una cantidad de usos no gastados de Forma salvaje para convertirlos en un único espacio de conjuro. Cada uso aporta 2 niveles de conjuro. Por ejemplo, si conviertes dos usos de Forma salvaje, produces un espacio de conjuro de nivel 4. Cuando uses este beneficio, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 55,
+     "md": "***Longevidad.*** La magia primigenia que dominas ralentiza tu envejecimiento. Por cada diez años que pasen, tu cuerpo envejece solo uno.",
+     "text": "Longevidad. La magia primigenia que dominas ralentiza tu envejecimiento. Por cada diez años que pasen, tu cuerpo envejece solo uno."
+    }
+   ],
+   "page": 55
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de druida: Círculo de la tierra",
+   "features": [
+    {
+     "level": 3,
+     "name": "Ayuda de la tierra",
+     "title": "Nivel 3: Ayuda de la tierra",
+     "subclass": "Subclase de druida: Círculo de la tierra",
+     "text": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y elegir un punto a 18 m o menos de ti. Unas flores que otorgan vitalidad y espinas que la absorben aparecen por un instante en una esfera de 3 m de radio centrada en ese punto. Todas las criaturas de tu elección situadas en la esfera deberán hacer una tirada de salvación de Constitución contra tu CD de salvación de conjuros; sufrirán 2d6 de daño necrótico si la fallan o la mitad del daño si la superan. Además, una criatura de tu elección situada en esa zona recuperará 2d6 puntos de golpe.\n\nEl daño y la curación aumentan en 1d6 cuando alcances los niveles 10 (3d6) y 14 (4d6) de druida.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y elegir un punto a 18 m o menos de ti. Unas flores que otorgan vitalidad y espinas que la absorben aparecen por un instante en una esfera de 3 m de radio centrada en ese punto. Todas las criaturas de tu elección situadas en la esfera deberán hacer una tirada de salvación de Constitución contra tu CD de salvación de conjuros; sufrirán 2d6 de daño necrótico si la fallan o la mitad del daño si la superan. Además, una criatura de tu elección situada en esa zona recuperará 2d6 puntos de golpe.",
+       "text": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y elegir un punto a 18 m o menos de ti. Unas flores que otorgan vitalidad y espinas que la absorben aparecen por un instante en una esfera de 3 m de radio centrada en ese punto. Todas las criaturas de tu elección situadas en la esfera deberán hacer una tirada de salvación de Constitución contra tu CD de salvación de conjuros; sufrirán 2d6 de daño necrótico si la fallan o la mitad del daño si la superan. Además, una criatura de tu elección situada en esa zona recuperará 2d6 puntos de golpe."
+      },
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "El daño y la curación aumentan en 1d6 cuando alcances los niveles 10 (3d6) y 14 (4d6) de druida.",
+       "text": "El daño y la curación aumentan en 1d6 cuando alcances los niveles 10 (3d6) y 14 (4d6) de druida."
+      }
+     ],
+     "page": 57
+    },
+    {
+     "level": 3,
+     "name": "Conjuros del círculo de la tierra",
+     "title": "Nivel 3: Conjuros del círculo de la tierra",
+     "subclass": "Subclase de druida: Círculo de la tierra",
+     "text": "Tras finalizar un descanso largo, elige un tipo de terreno: árido, polar, templado o tropical. Consulta a continuación la tabla que se corresponda con el tipo elegido. Tendrás preparados los conjuros que se mencionan para tu nivel de druida e inferiores.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "Tras finalizar un descanso largo, elige un tipo de terreno: árido, polar, templado o tropical. Consulta a continuación la tabla que se corresponda con el tipo elegido. Tendrás preparados los conjuros que se mencionan para tu nivel de druida e inferiores.",
+       "text": "Tras finalizar un descanso largo, elige un tipo de terreno: árido, polar, templado o tropical. Consulta a continuación la tabla que se corresponda con el tipo elegido. Tendrás preparados los conjuros que se mencionan para tu nivel de druida e inferiores."
+      },
+      {
+       "type": "table",
+       "page": 57,
+       "caption": "Terreno árido",
+       "header": [
+        "Nivel de druida",
+        "Conjuros de círculo"
+       ],
+       "rows": [
+        [
+         "3",
+         "Contorno borroso, descarga de fuego, manos ardientes"
+        ],
+        [
+         "5",
+         "Bola de fuego"
+        ],
+        [
+         "7",
+         "Marchitar"
+        ],
+        [
+         "9",
+         "Muro de piedra"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "page": 57,
+       "caption": "Terreno polar",
+       "header": [
+        "Nivel de druida",
+        "Conjuros de círculo"
+       ],
+       "rows": [
+        [
+         "3",
+         "Inmovilizar persona, nube de oscurecimiento, rayo de escarcha"
+        ],
+        [
+         "5",
+         "Tormenta de aguanieve"
+        ],
+        [
+         "7",
+         "Tormenta de hielo"
+        ],
+        [
+         "9",
+         "Cono de frío"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "page": 57,
+       "caption": "Terreno templado",
+       "header": [
+        "Nivel de druida",
+        "Conjuros de círculo"
+       ],
+       "rows": [
+        [
+         "3",
+         "Agarre electrizante, dormir, paso brumoso"
+        ],
+        [
+         "5",
+         "Relámpago"
+        ],
+        [
+         "7",
+         "Libertad de movimiento"
+        ],
+        [
+         "9",
+         "Paso arbóreo"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "page": 57,
+       "caption": "Terreno tropical",
+       "header": [
+        "Nivel de druida",
+        "Conjuros de círculo"
+       ],
+       "rows": [
+        [
+         "3",
+         "Rayo nauseabundo, salpicadura ácida, telaraña"
+        ],
+        [
+         "5",
+         "Nube apestosa"
+        ],
+        [
+         "7",
+         "Polimorfar"
+        ],
+        [
+         "9",
+         "Plaga de insectos"
+        ]
+       ]
+      }
+     ],
+     "page": 57
+    },
+    {
+     "level": 6,
+     "name": "Recuperación natural",
+     "title": "Nivel 6: Recuperación natural",
+     "subclass": "Subclase de druida: Círculo de la tierra",
+     "text": "Puedes lanzar un conjuro de nivel 1 o superior que tengas preparado por el rasgo Conjuros de círculo sin gastar un espacio de conjuro. Deberás finalizar un descanso largo antes de volver a hacerlo.\n\nAdemás, tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de druida (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une druida de nivel 6, puedes recuperar hasta tres niveles en espacios de conjuro: puedes recuperar un espacio de conjuro de nivel 3, un espacio de nivel 2 y otro de nivel 1 o tres espacios de nivel 1. Cuando recuperes espacios de conjuro con este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "Puedes lanzar un conjuro de nivel 1 o superior que tengas preparado por el rasgo Conjuros de círculo sin gastar un espacio de conjuro. Deberás finalizar un descanso largo antes de volver a hacerlo.",
+       "text": "Puedes lanzar un conjuro de nivel 1 o superior que tengas preparado por el rasgo Conjuros de círculo sin gastar un espacio de conjuro. Deberás finalizar un descanso largo antes de volver a hacerlo."
+      },
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "Además, tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de druida (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une druida de nivel 6, puedes recuperar hasta tres niveles en espacios de conjuro: puedes recuperar un espacio de conjuro de nivel 3, un espacio de nivel 2 y otro de nivel 1 o tres espacios de nivel 1. Cuando recuperes espacios de conjuro con este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+       "text": "Además, tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de druida (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une druida de nivel 6, puedes recuperar hasta tres niveles en espacios de conjuro: puedes recuperar un espacio de conjuro de nivel 3, un espacio de nivel 2 y otro de nivel 1 o tres espacios de nivel 1. Cuando recuperes espacios de conjuro con este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+      }
+     ],
+     "page": 57
+    },
+    {
+     "level": 10,
+     "name": "Protección de la naturaleza",
+     "title": "Nivel 10: Protección de la naturaleza",
+     "subclass": "Subclase de druida: Círculo de la tierra",
+     "text": "Eres inmune al estado de envenenado y tienes resistencia a un tipo de daño asociado con tu elección de terreno actual del rasgo Conjuros de círculo, como se muestra en la tabla “Protección de la naturaleza”.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 57,
+       "md": "Eres inmune al estado de envenenado y tienes resistencia a un tipo de daño asociado con tu elección de terreno actual del rasgo Conjuros de círculo, como se muestra en la tabla “Protección de la naturaleza”.",
+       "text": "Eres inmune al estado de envenenado y tienes resistencia a un tipo de daño asociado con tu elección de terreno actual del rasgo Conjuros de círculo, como se muestra en la tabla “Protección de la naturaleza”."
+      },
+      {
+       "type": "table",
+       "page": 57,
+       "caption": "Protección de la naturaleza",
+       "header": [
+        "Tipo de terreno",
+        "Resistencia"
+       ],
+       "rows": [
+        [
+         "Árido",
+         "Fuego"
+        ],
+        [
+         "Polar",
+         "Frío"
+        ],
+        [
+         "Templado",
+         "Relámpago"
+        ],
+        [
+         "Tropical",
+         "Veneno"
+        ]
+       ]
+      }
+     ],
+     "page": 57
+    },
+    {
+     "level": 14,
+     "name": "Santuario de la naturaleza",
+     "title": "Nivel 14: Santuario de la naturaleza",
+     "subclass": "Subclase de druida: Círculo de la tierra",
+     "text": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y hacer que aparezcan árboles y enredaderas espectrales en un cubo de 4,5 m de lado sobre el suelo a 36 m o menos de ti. Permanecerán ahí 1 minuto o hasta que tengas el estado de incapacitado o mueras. Tus aliados y tú tendréis cobertura media mientras estéis en esa zona y tus aliados obtendrán la resistencia actual de tu Protección de la naturaleza mientras estén ahí.\n\nComo acción adicional, puedes mover el cubo hasta 18 m a una parte del suelo que esté a 36 m o menos de ti.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 58,
+       "md": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y hacer que aparezcan árboles y enredaderas espectrales en un cubo de 4,5 m de lado sobre el suelo a 36 m o menos de ti. Permanecerán ahí 1 minuto o hasta que tengas el estado de incapacitado o mueras. Tus aliados y tú tendréis cobertura media mientras estéis en esa zona y tus aliados obtendrán la resistencia actual de tu Protección de la naturaleza mientras estén ahí.",
+       "text": "Como acción de magia, puedes gastar un uso de tu rasgo Forma salvaje y hacer que aparezcan árboles y enredaderas espectrales en un cubo de 4,5 m de lado sobre el suelo a 36 m o menos de ti. Permanecerán ahí 1 minuto o hasta que tengas el estado de incapacitado o mueras. Tus aliados y tú tendréis cobertura media mientras estéis en esa zona y tus aliados obtendrán la resistencia actual de tu Protección de la naturaleza mientras estén ahí."
+      },
+      {
+       "type": "paragraph",
+       "page": 58,
+       "md": "Como acción adicional, puedes mover el cubo hasta 18 m a una parte del suelo que esté a 36 m o menos de ti.",
+       "text": "Como acción adicional, puedes mover el cubo hasta 18 m a una parte del suelo que esté a 36 m o menos de ti."
+      }
+     ],
+     "page": 58
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de druida de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Crear llama",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Elementalismo",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Guía",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Mensaje",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Piedad con los moribundos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Reparar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Resistencia",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Rociada venenosa",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Saber druídico",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Shillelagh",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Voluta estelar",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 55
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de druida de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Buenas bayas",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Crear o destruir agua",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Cuchillo de hielo",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Curar heridas",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Detectar venenos y enfermedades",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Encantar animal",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Enmarañar",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Fuego feérico",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Hablar con los animales",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Hechizar persona",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Nube de oscurecimiento",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Ola atronadora",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Palabra de curación",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Protección contra el bien y el mal",
+     "Abjuración",
+     "C, M"
+    ],
+    [
+     "Purificar comida y bebida",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Salto",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Zancada prodigiosa",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 55
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de druida de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Agrandar/reducir",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Augurio",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Auxilio",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Calentar metal",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Crecimiento espinoso",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Detectar trampas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Esfera de llamas",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Hoja de fuego",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Llama permanente",
+     "Evocación",
+     "M"
+    ],
+    [
+     "Localizar animales o plantas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Localizar objeto",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Mensajero animal",
+     "Encantamiento",
+     "R"
+    ],
+    [
+     "Pasar sin rastro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Piel robliza",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Protección contra veneno",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Ráfaga de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Rayo de luna",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Restablecimiento menor",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Visión en la oscuridad",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 55
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de druida de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Caminar sobre el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Conjurar animales",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Crecimiento vegetal",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Fundirse con la piedra",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Hablar con las plantas",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Llamar al relámpago",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Luz del día",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Muro de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Protección contra energía",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Respirar bajo el agua",
+     "Transmutación",
+     "R"
+    ],
+    [
+     "Revivir",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Tormenta de aguanieve",
+     "Conjuración",
+     "C"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de druida de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Adivinación",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Confusión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Conjurar elementales menores",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Conjurar seres del bosque",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Controlar agua",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Dominar bestia",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Escudo de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Hechizar monstruo",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Insecto gigante",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Libertad de movimiento",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Localizar criatura",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Marchitar",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Moldear la piedra",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Muro de fuego",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Piel pétrea",
+     "Transmutación",
+     "C, M"
+    ],
+    [
+     "Polimorfar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Terreno alucinatorio",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Tormenta de hielo",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de druida de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Atadura planar",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Caparazón antivida",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Comunión con la naturaleza",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Conjurar elemental",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Cono de frío",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Contagio",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Curar heridas en masa",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Escudriñar",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Geas",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Muro de piedra",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Paso arbóreo",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Plaga de insectos",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Reencarnar",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Restablecimiento mayor",
+     "Abjuración",
+     "M"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de druida de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Conjurar feérico",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Curar",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "De la carne a la piedra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Encontrar el camino",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Festín de héroes",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Mover la tierra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Muro de espinas",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Rayo solar",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Viajar con el viento",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Viajar mediante plantas",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de druida de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Desplazamiento entre planos",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Espejismo arcano",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Invertir la gravedad",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Regenerar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Símbolo",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Tormenta de fuego",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de druida de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Antipatía/simpatía",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Aspectos animales",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Controlar el clima",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Explosión solar",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Nube incendiaria",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Ofuscación",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Terremoto",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Tsunami",
+     "Conjuración",
+     "C"
+    ]
+   ],
+   "page": 56
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de druida de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Cambiar de forma",
+     "Transmutación",
+     "C, M"
+    ],
+    [
+     "Presciencia",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Resurrección verdadera",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Tormenta de la venganza",
+     "Conjuración",
+     "C"
+    ]
+   ],
+   "page": 57
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 52
+ },
+ "refs": [
+  "spell.hablar-con-los-animales",
+  "spell.crear-llama",
+  "spell.saber-druidico",
+  "spell.curar-heridas",
+  "spell.encantar-animal",
+  "spell.fuego-feerico",
+  "spell.ola-atronadora",
+  "spell.encontrar-familiar"
+ ]
+}

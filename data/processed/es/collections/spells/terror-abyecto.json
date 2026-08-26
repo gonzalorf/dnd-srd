@@ -1,0 +1,55 @@
+{
+ "id": "spell.terror-abyecto",
+ "name": "Terror abyecto",
+ "level": 9,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "brujo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elección situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvación de Sabiduría. Si la fallan, los objetivos sufrirán 10d10 de daño psíquico y tendrán el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibirán la mitad de ese daño.\n\nUn objetivo asustado hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, sufrirá 5d10 de daño psíquico. Si la supera, el conjuro terminará para ese objetivo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elección situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvación de Sabiduría. Si la fallan, los objetivos sufrirán 10d10 de daño psíquico y tendrán el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibirán la mitad de ese daño.",
+   "text": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elección situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvación de Sabiduría. Si la fallan, los objetivos sufrirán 10d10 de daño psíquico y tendrán el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibirán la mitad de ese daño."
+  },
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Un objetivo asustado hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, sufrirá 5d10 de daño psíquico. Si la supera, el conjuro terminará para ese objetivo.",
+   "text": "Un objetivo asustado hará una tirada de salvación de Sabiduría al final de cada uno de sus turnos. Si la falla, sufrirá 5d10 de daño psíquico. Si la supera, el conjuro terminará para ese objetivo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 189
+ }
+}

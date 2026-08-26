@@ -1,0 +1,23 @@
+{
+ "id": "item.cuero-tachonado-encantado",
+ "name": "Cuero tachonado encantado",
+ "category": "Armadura",
+ "variant": "armadura de cuero tachonado",
+ "rarity": "raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (armadura de cuero tachonado), rara",
+ "text": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. También puedes usar una acción adicional para hacer que la armadura adopte el aspecto de una vestimenta normal o de otro tipo de armadura. Tú decides su apariencia, incluidos el color, estilo y accesorios, pero la armadura mantiene su peso y tamaño normales. La apariencia ilusoria dura hasta que emplees esta propiedad de nuevo o te quites la armadura.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 251,
+   "md": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. También puedes usar una acción adicional para hacer que la armadura adopte el aspecto de una vestimenta normal o de otro tipo de armadura. Tú decides su apariencia, incluidos el color, estilo y accesorios, pero la armadura mantiene su peso y tamaño normales. La apariencia ilusoria dura hasta que emplees esta propiedad de nuevo o te quites la armadura.",
+   "text": "Mientras lleves esta armadura, obtendrás un bonificador de +1 a la clase de armadura. También puedes usar una acción adicional para hacer que la armadura adopte el aspecto de una vestimenta normal o de otro tipo de armadura. Tú decides su apariencia, incluidos el color, estilo y accesorios, pero la armadura mantiene su peso y tamaño normales. La apariencia ilusoria dura hasta que emplees esta propiedad de nuevo o te quites la armadura."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 251
+ }
+}

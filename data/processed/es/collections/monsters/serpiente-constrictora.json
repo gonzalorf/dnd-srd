@@ -1,0 +1,93 @@
+{
+ "id": "monster.serpiente-constrictora",
+ "name": "Serpiente constrictora",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 394
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Grande, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Grande",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "13 (2d10 + 2)",
+  "average": 13,
+  "formula": "2d10 + 2"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0
+ },
+ "skills": {
+  "Percepción": 2,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 3 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/4 (50 PX; BC +2)",
+  "cr": 0.25,
+  "xp": 50,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "actions": [
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante.",
+   "page": 394,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 6 (1d8 + 2) de daño perforante."
+  },
+  {
+   "name": "Constreñir",
+   "md": "***Constreñir.*** *Tirada de salvación de Fuerza:* CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 1,5 m o menos. *Fallo:* 7 (3d4) de daño contundente y el objetivo tendrá el estado de agarrado (CD 12 para escapar).",
+   "page": 394,
+   "description": "*Tirada de salvación de Fuerza:* CD 12, una criatura Mediana o más pequeña que la serpiente pueda ver a 1,5 m o menos. *Fallo:* 7 (3d4) de daño contundente y el objetivo tendrá el estado de agarrado (CD 12 para escapar)."
+  }
+ ]
+}

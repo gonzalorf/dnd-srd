@@ -1,0 +1,131 @@
+{
+ "id": "monster.xorn",
+ "name": "Xorn",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 375,
+  "pages": [
+   375,
+   376
+  ]
+ },
+ "context": [
+  "Xorn"
+ ],
+ "metaRaw": "Elemental Mediano, neutral",
+ "type": "Elemental",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "84 (8d8 + 48)",
+  "average": 84,
+  "formula": "8d8 + 48"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "excavar": 6.0
+ },
+ "skills": {
+  "Percepción": 6,
+  "Sigilo": 6
+ },
+ "senses": {
+  "raw": "sentir vibraciones 18 m, visión en la oscuridad 18 m; Percepción pasiva 16",
+  "passivePerception": 16
+ },
+ "languages": [
+  "primordial (terrano)"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado",
+  "paralizado",
+  "petrificado"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Deslizarse por la tierra",
+   "md": "***Deslizarse por la tierra.*** El xorn puede excavar a través de la tierra y la piedra que no sean mágicas ni estén trabajadas. Al hacer esto, no desplaza ni perturba la materia a través de la que se mueve.",
+   "page": 375,
+   "description": "El xorn puede excavar a través de la tierra y la piedra que no sean mágicas ni estén trabajadas. Al hacer esto, no desplaza ni perturba la materia a través de la que se mueve."
+  },
+  {
+   "name": "Sentir tesoros",
+   "md": "***Sentir tesoros.*** El xorn puede localizar la ubicación de metales preciosos y piedras a 18 m o menos de él.",
+   "page": 375,
+   "description": "El xorn puede localizar la ubicación de metales preciosos y piedras a 18 m o menos de él."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El xorn realiza un ataque de mordisco y tres con sus garras.",
+   "page": 375,
+   "description": "El xorn realiza un ataque de mordisco y tres con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño cortante.",
+   "page": 375,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 8 (1d10 + 3) de daño cortante."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 17 (4d6 + 3) de daño perforante.",
+   "page": 375,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 17 (4d6 + 3) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Carga",
+   "md": "***Carga.*** El xorn se mueve hasta su velocidad o hasta su velocidad excavando en línea recta hacia un enemigo que pueda sentir.",
+   "page": 376,
+   "description": "El xorn se mueve hasta su velocidad o hasta su velocidad excavando en línea recta hacia un enemigo que pueda sentir."
+  }
+ ]
+}

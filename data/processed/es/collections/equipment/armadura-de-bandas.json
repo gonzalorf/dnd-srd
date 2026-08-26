@@ -1,0 +1,29 @@
+{
+ "id": "armor.armadura-de-bandas",
+ "name": "Armadura de bandas",
+ "kind": "armor",
+ "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+ "table": "Armaduras",
+ "fields": {
+  "Armadura": "Armadura de bandas",
+  "Clase de armadura (CA)": "17",
+  "Fuerza": "Fue 15",
+  "Sigilo": "Desventaja",
+  "Peso": "30 kg",
+  "Precio": "200 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 100
+ },
+ "weight": {
+  "raw": "30 kg",
+  "kg": 30.0
+ },
+ "price": {
+  "raw": "200 po",
+  "amount": 200.0,
+  "coin": "po",
+  "gp": 200.0
+ }
+}

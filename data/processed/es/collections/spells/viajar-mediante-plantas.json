@@ -1,0 +1,48 @@
+{
+ "id": "spell.viajar-mediante-plantas",
+ "name": "Viajar mediante plantas",
+ "level": 6,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Este conjuro crea un vínculo mágico entre una planta inanimada de tamaño Grande o mayor dentro del alcance y otra planta a cualquier distancia en el mismo plano de existencia. Tienes que haber visto o tocado la planta de destino al menos una vez antes. Hasta que termine el conjuro, cualquier criatura puede entrar en la planta objetivo y salir por la de destino gastando 1,5 m de movimiento.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 192,
+   "md": "Este conjuro crea un vínculo mágico entre una planta inanimada de tamaño Grande o mayor dentro del alcance y otra planta a cualquier distancia en el mismo plano de existencia. Tienes que haber visto o tocado la planta de destino al menos una vez antes. Hasta que termine el conjuro, cualquier criatura puede entrar en la planta objetivo y salir por la de destino gastando 1,5 m de movimiento.",
+   "text": "Este conjuro crea un vínculo mágico entre una planta inanimada de tamaño Grande o mayor dentro del alcance y otra planta a cualquier distancia en el mismo plano de existencia. Tienes que haber visto o tocado la planta de destino al menos una vez antes. Hasta que termine el conjuro, cualquier criatura puede entrar en la planta objetivo y salir por la de destino gastando 1,5 m de movimiento."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 192
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "table.crear-espacios-de-conjuro",
+ "caption": "Crear espacios de conjuro",
+ "header": [
+  "Nivel del espacio de conjuro",
+  "Coste en puntos de hechicería",
+  "Nivel mínimo de hechicero"
+ ],
+ "rows": [
+  [
+   "1",
+   "2",
+   "2"
+  ],
+  [
+   "2",
+   "3",
+   "3"
+  ],
+  [
+   "3",
+   "5",
+   "5"
+  ],
+  [
+   "4",
+   "6",
+   "7"
+  ],
+  [
+   "5",
+   "7",
+   "9"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Rasgos de clase de hechicero",
+  "Nivel 2: Fuente de magia"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 66
+ }
+}

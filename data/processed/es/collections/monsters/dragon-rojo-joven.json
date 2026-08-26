@@ -1,0 +1,108 @@
+{
+ "id": "monster.dragon-rojo-joven",
+ "name": "Dragón rojo joven",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 313
+ },
+ "context": [
+  "Dragones rojos"
+ ],
+ "metaRaw": "Dragón Grande (cromático), caótico malvado",
+ "type": "Dragón",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "cromático"
+ ],
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "178 (17d10 + 85)",
+  "average": 178,
+  "formula": "17d10 + 85"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 8,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 9 m, visión en la oscuridad 36 m; Percepción pasiva 18",
+  "passivePerception": 18
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "10 (5900 PX; BC +4)",
+  "cr": 10,
+  "xp": 5900,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 4
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 4
+  },
+  "car": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro.",
+   "page": 313,
+   "description": "El dragón realiza tres ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 3 (1d6) de daño de fuego.",
+   "page": 313,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 3 m. *Acierto:* 13 (2d6 + 6) de daño cortante más 3 (1d6) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 17, todas las criaturas en un cono de 9 m. *Fallo:* 56 (16d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 313,
+   "description": "*Tirada de salvación de Destreza:* CD 17, todas las criaturas en un cono de 9 m. *Fallo:* 56 (16d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

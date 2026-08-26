@@ -1,0 +1,70 @@
+{
+ "id": "spell.rafaga-de-viento",
+ "name": "Ráfaga de viento",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida",
+  "explorador",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (la semilla de una legumbre)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "la semilla de una legumbre",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "De ti surge una ráfaga de viento fuerte en una línea recta de 18 m de largo y 3 m de ancho en la dirección que elijas hasta que termine el conjuro. Todas las criaturas en esa línea deberán superar una tirada de salvación de Fuerza o serán empujadas 4,5 m en la dirección de la línea. Las criaturas que terminen su turno en ella también deberán hacer la tirada de salvación.\n\nCualquier criatura que esté en la línea deberá gastar 2 m de movimiento por cada metro que se mueva para acercarse a ti.\n\nLa ráfaga dispersa el gas o el vapor y apaga velas y otras llamas desprotegidas de la zona. Hace que las llamas protegidas, como las de los faroles, se agiten salvajemente y tienen un 50 % de probabilidad de apagarse.\n\nComo acción adicional en tus siguientes turnos, puedes cambiar la dirección en la que la línea surge de ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "De ti surge una ráfaga de viento fuerte en una línea recta de 18 m de largo y 3 m de ancho en la dirección que elijas hasta que termine el conjuro. Todas las criaturas en esa línea deberán superar una tirada de salvación de Fuerza o serán empujadas 4,5 m en la dirección de la línea. Las criaturas que terminen su turno en ella también deberán hacer la tirada de salvación.",
+   "text": "De ti surge una ráfaga de viento fuerte en una línea recta de 18 m de largo y 3 m de ancho en la dirección que elijas hasta que termine el conjuro. Todas las criaturas en esa línea deberán superar una tirada de salvación de Fuerza o serán empujadas 4,5 m en la dirección de la línea. Las criaturas que terminen su turno en ella también deberán hacer la tirada de salvación."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Cualquier criatura que esté en la línea deberá gastar 2 m de movimiento por cada metro que se mueva para acercarse a ti.",
+   "text": "Cualquier criatura que esté en la línea deberá gastar 2 m de movimiento por cada metro que se mueva para acercarse a ti."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "La ráfaga dispersa el gas o el vapor y apaga velas y otras llamas desprotegidas de la zona. Hace que las llamas protegidas, como las de los faroles, se agiten salvajemente y tienen un 50 % de probabilidad de apagarse.",
+   "text": "La ráfaga dispersa el gas o el vapor y apaga velas y otras llamas desprotegidas de la zona. Hace que las llamas protegidas, como las de los faroles, se agiten salvajemente y tienen un 50 % de probabilidad de apagarse."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Como acción adicional en tus siguientes turnos, puedes cambiar la dirección en la que la línea surge de ti.",
+   "text": "Como acción adicional en tus siguientes turnos, puedes cambiar la dirección en la que la línea surge de ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 178
+ }
+}

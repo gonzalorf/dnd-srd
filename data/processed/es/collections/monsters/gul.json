@@ -1,0 +1,100 @@
+{
+ "id": "monster.gul",
+ "name": "Gul",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 336
+ },
+ "context": [
+  "Gul"
+ ],
+ "metaRaw": "Muerto viviente Mediano, caótico malvado",
+ "type": "Muerto viviente",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "22 (5d8)",
+  "average": 22,
+  "formula": "5d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado",
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "1 (200 PX; BC +2)",
+  "cr": 1,
+  "xp": 200,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gul realiza dos ataques de mordisco.",
+   "page": 336,
+   "description": "El gul realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño cortante. Si el objetivo es una criatura que no sea un muerto viviente o un elfo, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 10. *Fallo:* el objetivo tendrá el estado de paralizado hasta el final de su siguiente turno.",
+   "page": 336,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño cortante. Si el objetivo es una criatura que no sea un muerto viviente o un elfo, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 10. *Fallo:* el objetivo tendrá el estado de paralizado hasta el final de su siguiente turno."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 3 (1d6) de daño necrótico.",
+   "page": 336,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 5 (1d6 + 2) de daño perforante más 3 (1d6) de daño necrótico."
+  }
+ ]
+}

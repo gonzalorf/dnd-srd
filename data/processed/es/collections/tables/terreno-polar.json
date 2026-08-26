@@ -1,0 +1,37 @@
+{
+ "id": "table.terreno-polar",
+ "caption": "Terreno polar",
+ "header": [
+  "Nivel de druida",
+  "Conjuros de círculo"
+ ],
+ "rows": [
+  [
+   "3",
+   "Inmovilizar persona, nube de oscurecimiento, rayo de escarcha"
+  ],
+  [
+   "5",
+   "Tormenta de aguanieve"
+  ],
+  [
+   "7",
+   "Tormenta de hielo"
+  ],
+  [
+   "9",
+   "Cono de frío"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Subclase de druida: Círculo de la tierra",
+  "Nivel 3: Conjuros del círculo de la tierra"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 57
+ }
+}

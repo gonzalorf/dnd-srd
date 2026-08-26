@@ -1,0 +1,63 @@
+{
+ "id": "spell.muro-de-viento",
+ "name": "Muro de viento",
+ "level": 3,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (un abanico y una pluma)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un abanico y una pluma",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Un muro conformado por un intenso viento surge del suelo en un punto de tu elección dentro del alcance. Puedes formar un muro de hasta 15 m de longitud, 4,5 m de altura y 30 cm de grosor. Puedes darle a ese muro la forma que quieras, siempre que trace una ruta continua por el suelo, y durará hasta que termine el conjuro.\n\nCuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 4d8 de daño contundente si la fallan o la mitad de daño si la superan.\n\nEl viento fuerte mantiene a raya la niebla, el humo y otros gases. Las criaturas voladoras de tamaño Pequeño o menor no pueden atravesar el muro. Los materiales sueltos de poco peso que entran en el muro salen volando hacia arriba. Las flechas, los virotes y otros proyectiles ordinarios lanzados a objetivos que estén detrás del muro salen despedidos hacia arriba y fallan automáticamente. Los pedruscos lanzados por gigantes o máquinas de asedio y los proyectiles similares no se ven afectados. Las criaturas en forma gaseosa no pueden atravesarlo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 168,
+   "md": "Un muro conformado por un intenso viento surge del suelo en un punto de tu elección dentro del alcance. Puedes formar un muro de hasta 15 m de longitud, 4,5 m de altura y 30 cm de grosor. Puedes darle a ese muro la forma que quieras, siempre que trace una ruta continua por el suelo, y durará hasta que termine el conjuro.",
+   "text": "Un muro conformado por un intenso viento surge del suelo en un punto de tu elección dentro del alcance. Puedes formar un muro de hasta 15 m de longitud, 4,5 m de altura y 30 cm de grosor. Puedes darle a ese muro la forma que quieras, siempre que trace una ruta continua por el suelo, y durará hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 168,
+   "md": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 4d8 de daño contundente si la fallan o la mitad de daño si la superan.",
+   "text": "Cuando aparezca el muro, todas las criaturas situadas en su área hacen una tirada de salvación de Fuerza; sufrirán 4d8 de daño contundente si la fallan o la mitad de daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 168,
+   "md": "El viento fuerte mantiene a raya la niebla, el humo y otros gases. Las criaturas voladoras de tamaño Pequeño o menor no pueden atravesar el muro. Los materiales sueltos de poco peso que entran en el muro salen volando hacia arriba. Las flechas, los virotes y otros proyectiles ordinarios lanzados a objetivos que estén detrás del muro salen despedidos hacia arriba y fallan automáticamente. Los pedruscos lanzados por gigantes o máquinas de asedio y los proyectiles similares no se ven afectados. Las criaturas en forma gaseosa no pueden atravesarlo.",
+   "text": "El viento fuerte mantiene a raya la niebla, el humo y otros gases. Las criaturas voladoras de tamaño Pequeño o menor no pueden atravesar el muro. Los materiales sueltos de poco peso que entran en el muro salen volando hacia arriba. Las flechas, los virotes y otros proyectiles ordinarios lanzados a objetivos que estén detrás del muro salen despedidos hacia arriba y fallan automáticamente. Los pedruscos lanzados por gigantes o máquinas de asedio y los proyectiles similares no se ven afectados. Las criaturas en forma gaseosa no pueden atravesarlo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 168
+ }
+}

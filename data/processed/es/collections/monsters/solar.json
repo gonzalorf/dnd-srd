@@ -1,0 +1,185 @@
+{
+ "id": "monster.solar",
+ "name": "Solar",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 369
+ },
+ "context": [
+  "Solar"
+ ],
+ "metaRaw": "Celestial Grande (ángel), legal bueno",
+ "type": "Celestial",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "tags": [
+  "ángel"
+ ],
+ "ac": 21,
+ "acRaw": "21",
+ "initiative": {
+  "mod": 20,
+  "score": 30
+ },
+ "hp": {
+  "raw": "297 (22d10 + 176)",
+  "average": 297,
+  "formula": "22d10 + 176"
+ },
+ "speeds": {
+  "caminando": 15.0,
+  "volar": 45.0
+ },
+ "skills": {
+  "Percepción": 14
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 24",
+  "passivePerception": 24
+ },
+ "languages": [
+  "todos",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "radiante",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "21 (33 000 PX; BC +7)",
+  "cr": 21,
+  "xp": 33000,
+  "proficiencyBonus": 7
+ },
+ "abilities": {
+  "fue": {
+   "score": 26,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "con": {
+   "score": 26,
+   "mod": 8,
+   "save": 8
+  },
+  "int": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "sab": {
+   "score": 25,
+   "mod": 7,
+   "save": 7
+  },
+  "car": {
+   "score": 30,
+   "mod": 10,
+   "save": 10
+  }
+ },
+ "traits": [
+  {
+   "name": "Percepción divina",
+   "md": "***Percepción divina.*** El solar reconoce cualquier mentira que escuche.",
+   "page": 369,
+   "description": "El solar reconoce cualquier mentira que escuche."
+  },
+  {
+   "name": "Recuperación exaltada",
+   "md": "***Recuperación exaltada.*** Si el solar muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia.",
+   "page": 369,
+   "description": "Si el solar muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día).*** El solar puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 369,
+   "description": "El solar puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día"
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El solar tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 369,
+   "description": "El solar tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El solar realiza dos ataques con su espada voladora. Puede sustituir un ataque por un uso de su arco asesino.",
+   "page": 369,
+   "description": "El solar realiza dos ataques con su espada voladora. Puede sustituir un ataque por un uso de su arco asesino."
+  },
+  {
+   "name": "Espada voladora",
+   "md": "***Espada voladora.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +15, alcance 3 m o 36 m a distancia. *Acierto:* 22 (4d6 + 8) de daño cortante más 36 (8d8) de daño radiante. *Acierto o fallo:* la espada regresa mágicamente a la mano del solar o levita a 1,5 m o menos de él inmediatamente después de un ataque a distancia.",
+   "page": 369,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +15, alcance 3 m o 36 m a distancia. *Acierto:* 22 (4d6 + 8) de daño cortante más 36 (8d8) de daño radiante. *Acierto o fallo:* la espada regresa mágicamente a la mano del solar o levita a 1,5 m o menos de él inmediatamente después de un ataque a distancia."
+  },
+  {
+   "name": "Arco asesino",
+   "md": "***Arco asesino.*** *Tirada de salvación de Destreza:* CD 21, una criatura que el solar pueda ver a 180 m o menos. *Fallo:* si la criatura tiene 100 puntos de golpe o menos, morirá. De lo contrario, sufrirá 24 (4d8 + 6) de daño perforante más 36 (8d8) de daño radiante.",
+   "page": 369,
+   "description": "*Tirada de salvación de Destreza:* CD 21, una criatura que el solar pueda ver a 180 m o menos. *Fallo:* si la criatura tiene 100 puntos de golpe o menos, morirá. De lo contrario, sufrirá 24 (4d8 + 6) de daño perforante más 36 (8d8) de daño radiante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El solar lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 25):",
+   "page": 369,
+   "description": "El solar lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 25):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar el bien y el mal* 1/día cada uno: *comunión*, *controlar el clima*, *disipar el bien y el mal*, *resurrección*",
+   "page": 369
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Auxilio divino",
+   "md": "***Auxilio divino (3/día).*** El solar lanza *curar heridas* (versión de nivel 2), *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 369,
+   "description": "El solar lanza *curar heridas* (versión de nivel 2), *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "3/día"
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Mirada cegadora",
+    "md": "***Mirada cegadora.*** *Tirada de salvación de Constitución:* CD 25, una criatura que el solar pueda ver a 36 m o menos. *Fallo:* el objetivo tendrá el estado de cegado durante 1 minuto. *Fallo o éxito:* el solar no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 369,
+    "description": "*Tirada de salvación de Constitución:* CD 25, una criatura que el solar pueda ver a 36 m o menos. *Fallo:* el objetivo tendrá el estado de cegado durante 1 minuto. *Fallo o éxito:* el solar no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Teletransporte radiante",
+    "md": "***Teletransporte radiante.*** El solar se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver. *Tirada de salvación de Destreza:* CD 25, todas las criaturas en una emanación de 3 m que se origina en el espacio de destino del solar. *Fallo:* 11 (2d10) de daño radiante. *Éxito:* la mitad del daño.",
+    "page": 369,
+    "description": "El solar se teletransporta hasta 18 m a un espacio sin ocupar que pueda ver. *Tirada de salvación de Destreza:* CD 25, todas las criaturas en una emanación de 3 m que se origina en el espacio de destino del solar. *Fallo:* 11 (2d10) de daño radiante. *Éxito:* la mitad del daño."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3. Justo después del turno de otra criatura, el solar puede emplear un uso para llevar a cabo una de las siguientes acciones. El solar recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3
+ },
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.comunion",
+  "spell.controlar-el-clima",
+  "spell.disipar-el-bien-y-el-mal",
+  "spell.resurreccion",
+  "spell.curar-heridas",
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-menor"
+ ]
+}

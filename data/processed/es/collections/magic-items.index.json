@@ -1,0 +1,2324 @@
+[
+ {
+  "id": "item.abalorio-de-nutricion",
+  "name": "Abalorio de nutrición",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "común",
+  "attunement": false,
+  "page": 228
+ },
+ {
+  "id": "item.abanico-del-viento",
+  "name": "Abanico del viento",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 228
+ },
+ {
+  "id": "item.aceite-de-afilado",
+  "name": "Aceite de afilado",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 228
+ },
+ {
+  "id": "item.aceite-de-etereidad",
+  "name": "Aceite de etereidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 228
+ },
+ {
+  "id": "item.aceite-escurridizo",
+  "name": "Aceite escurridizo",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 228
+ },
+ {
+  "id": "item.agujero-portatil",
+  "name": "Agujero portátil",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 229
+ },
+ {
+  "id": "item.alas-de-vuelo",
+  "name": "Alas de vuelo",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 229
+ },
+ {
+  "id": "item.alfombra-voladora",
+  "name": "Alfombra voladora",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 229
+ },
+ {
+  "id": "item.aljaba-eficiente",
+  "name": "Aljaba eficiente",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 229
+ },
+ {
+  "id": "item.amuleto-a-prueba-de-deteccion-y-localizacion",
+  "name": "Amuleto a prueba de detección y localización",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 229
+ },
+ {
+  "id": "item.amuleto-de-los-planos",
+  "name": "Amuleto de los planos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.amuleto-de-salud",
+  "name": "Amuleto de salud",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-almacenamiento-de-conjuros",
+  "name": "Anillo de almacenamiento de conjuros",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-caida-de-pluma",
+  "name": "Anillo de caída de pluma",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-calidez",
+  "name": "Anillo de calidez",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-caminar-sobre-las-aguas",
+  "name": "Anillo de caminar sobre las aguas",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-comandar-elementales",
+  "name": "Anillo de comandar elementales",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 230
+ },
+ {
+  "id": "item.anillo-de-escudo-mental",
+  "name": "Anillo de escudo mental",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 231
+ },
+ {
+  "id": "item.anillo-de-estrellas-fugaces",
+  "name": "Anillo de estrellas fugaces",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 231
+ },
+ {
+  "id": "item.anillo-de-evasion",
+  "name": "Anillo de evasión",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 231
+ },
+ {
+  "id": "item.anillo-de-influencia-animal",
+  "name": "Anillo de influencia animal",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-invisibilidad",
+  "name": "Anillo de invisibilidad",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-invocar-djinns",
+  "name": "Anillo de invocar djinns",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-libertad-de-accion",
+  "name": "Anillo de libertad de acción",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-los-tres-deseos",
+  "name": "Anillo de los tres deseos",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-natacion",
+  "name": "Anillo de natación",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-proteccion",
+  "name": "Anillo de protección",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-regeneracion",
+  "name": "Anillo de regeneración",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-resistencia",
+  "name": "Anillo de resistencia",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-retorno-de-conjuros",
+  "name": "Anillo de retorno de conjuros",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 232
+ },
+ {
+  "id": "item.anillo-de-salto",
+  "name": "Anillo de salto",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 233
+ },
+ {
+  "id": "item.anillo-de-telequinesis",
+  "name": "Anillo de telequinesis",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 233
+ },
+ {
+  "id": "item.anillo-de-vision-de-rayos-x",
+  "name": "Anillo de visión de rayos X",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 233
+ },
+ {
+  "id": "item.anillo-del-carnero",
+  "name": "Anillo del carnero",
+  "category": "Anillo",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 233
+ },
+ {
+  "id": "item.anteojos-de-encantamiento",
+  "name": "Anteojos de encantamiento",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 233
+ },
+ {
+  "id": "item.anteojos-de-la-noche",
+  "name": "Anteojos de la noche",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 233
+ },
+ {
+  "id": "item.anteojos-de-vision-minuciosa",
+  "name": "Anteojos de visión minuciosa",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 233
+ },
+ {
+  "id": "item.anteojos-de-vista-de-aguila",
+  "name": "Anteojos de vista de águila",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 233
+ },
+ {
+  "id": "item.aparato-del-crustaceo",
+  "name": "Aparato del crustáceo",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 233
+ },
+ {
+  "id": "item.arco-de-energia",
+  "name": "Arco de energía",
+  "category": "Arma",
+  "variant": "arco corto o largo",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 234
+ },
+ {
+  "id": "item.arco-juramentado",
+  "name": "Arco juramentado",
+  "category": "Arma",
+  "variant": "arco corto o largo",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 234
+ },
+ {
+  "id": "item.arma-1-2-o-3",
+  "name": "Arma +1, +2 o +3",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.arma-de-advertencia",
+  "name": "Arma de advertencia",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 235
+ },
+ {
+  "id": "item.arma-feroz",
+  "name": "Arma feroz",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-1-2-o-3",
+  "name": "Armadura +1, +2 o +3",
+  "category": "Armadura",
+  "variant": "ligera, media o pesada",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-adamantina",
+  "name": "Armadura adamantina",
+  "category": "Armadura",
+  "variant": "cualquier armadura media o pesada, salvo armadura de pieles",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-invulnerabilidad",
+  "name": "Armadura de invulnerabilidad",
+  "category": "Armadura",
+  "variant": "armadura de placas",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-mithral",
+  "name": "Armadura de mithral",
+  "category": "Armadura",
+  "variant": "cualquier armadura media o pesada, salvo armadura de pieles",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-placas-de-etereidad",
+  "name": "Armadura de placas de etereidad",
+  "category": "Armadura",
+  "variant": "armadura de placas o media armadura",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-placas-enana",
+  "name": "Armadura de placas enana",
+  "category": "Armadura",
+  "variant": "armadura de placas o media armadura",
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-resistencia",
+  "name": "Armadura de resistencia",
+  "category": "Armadura",
+  "variant": "ligera, media o pesada",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 235
+ },
+ {
+  "id": "item.armadura-de-vulnerabilidad",
+  "name": "Armadura de vulnerabilidad",
+  "category": "Armadura",
+  "variant": "ligera, media o pesada",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 236
+ },
+ {
+  "id": "item.armadura-demoniaca",
+  "name": "Armadura demoníaca",
+  "category": "Armadura",
+  "variant": "ligera, media o pesada",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 236
+ },
+ {
+  "id": "item.babuchas-de-trepar-cual-aracnido",
+  "name": "Babuchas de trepar cual arácnido",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 236
+ },
+ {
+  "id": "item.bandas-de-hierro",
+  "name": "Bandas de hierro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 236
+ },
+ {
+  "id": "item.baraja-de-ilusiones",
+  "name": "Baraja de ilusiones",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 236
+ },
+ {
+  "id": "item.baraja-misteriosa",
+  "name": "Baraja misteriosa",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 237
+ },
+ {
+  "id": "item.baston-de-acrobata",
+  "name": "Bastón de acróbata",
+  "category": "Arma",
+  "variant": "bastón",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 239
+ },
+ {
+  "id": "item.baston-de-curacion",
+  "name": "Bastón de curación",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 239
+ },
+ {
+  "id": "item.baston-de-enjambre-de-insectos",
+  "name": "Bastón de enjambre de insectos",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 239
+ },
+ {
+  "id": "item.baston-de-escarcha",
+  "name": "Bastón de escarcha",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 240
+ },
+ {
+  "id": "item.baston-de-fuego",
+  "name": "Bastón de fuego",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 240
+ },
+ {
+  "id": "item.baston-de-impacto",
+  "name": "Bastón de impacto",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 240
+ },
+ {
+  "id": "item.baston-de-la-piton",
+  "name": "Bastón de la pitón",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 240
+ },
+ {
+  "id": "item.baston-de-los-bosques",
+  "name": "Bastón de los bosques",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 240
+ },
+ {
+  "id": "item.baston-de-los-magos",
+  "name": "Bastón de los magos",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 241
+ },
+ {
+  "id": "item.baston-de-marchitamiento",
+  "name": "Bastón de marchitamiento",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 241
+ },
+ {
+  "id": "item.baston-de-poder",
+  "name": "Bastón de poder",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 241
+ },
+ {
+  "id": "item.baston-de-truenos-y-relampagos",
+  "name": "Bastón de truenos y relámpagos",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 242
+ },
+ {
+  "id": "item.baston-del-cautivador",
+  "name": "Bastón del cautivador",
+  "category": "Bastón",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 242
+ },
+ {
+  "id": "item.bola-de-cristal",
+  "name": "Bola de cristal",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 242
+ },
+ {
+  "id": "item.bola-de-cristal-de-leer-mentes",
+  "name": "Bola de cristal de leer mentes",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 243
+ },
+ {
+  "id": "item.bola-de-cristal-de-telepatia",
+  "name": "Bola de cristal de telepatía",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 243
+ },
+ {
+  "id": "item.bola-de-cristal-de-vision-veraz",
+  "name": "Bola de cristal de visión veraz",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 243
+ },
+ {
+  "id": "item.bolsa-de-contencion",
+  "name": "Bolsa de contención",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 243
+ },
+ {
+  "id": "item.bolsa-de-judias",
+  "name": "Bolsa de judías",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 243
+ },
+ {
+  "id": "item.bolsa-de-trucos",
+  "name": "Bolsa de trucos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 244
+ },
+ {
+  "id": "item.bolsa-devoradora",
+  "name": "Bolsa devoradora",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 244
+ },
+ {
+  "id": "item.botas-aladas",
+  "name": "Botas aladas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 245
+ },
+ {
+  "id": "item.botas-de-las-tierras-invernales",
+  "name": "Botas de las tierras invernales",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 245
+ },
+ {
+  "id": "item.botas-de-levitacion",
+  "name": "Botas de levitación",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 245
+ },
+ {
+  "id": "item.botas-de-velocidad",
+  "name": "Botas de velocidad",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 245
+ },
+ {
+  "id": "item.botas-de-zancadas-y-brincos",
+  "name": "Botas de zancadas y brincos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 245
+ },
+ {
+  "id": "item.botas-elficas",
+  "name": "Botas élficas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 245
+ },
+ {
+  "id": "item.botella-de-ifrit",
+  "name": "Botella de ifrit",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 245
+ },
+ {
+  "id": "item.botella-siemprehumeante",
+  "name": "Botella siemprehumeante",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 246
+ },
+ {
+  "id": "item.bote-plegable",
+  "name": "Bote plegable",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 246
+ },
+ {
+  "id": "item.brasero-para-controlar-elementales-de-fuego",
+  "name": "Brasero para controlar elementales de fuego",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 246
+ },
+ {
+  "id": "item.brazales-de-arqueria",
+  "name": "Brazales de arquería",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 246
+ },
+ {
+  "id": "item.brazales-de-defensa",
+  "name": "Brazales de defensa",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 246
+ },
+ {
+  "id": "item.broche-escudo",
+  "name": "Broche escudo",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 246
+ },
+ {
+  "id": "item.canica-de-fuerza",
+  "name": "Canica de fuerza",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 246
+ },
+ {
+  "id": "item.capa-aracnida",
+  "name": "Capa arácnida",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 246
+ },
+ {
+  "id": "item.capa-de-desplazamiento",
+  "name": "Capa de desplazamiento",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.capa-de-invisibilidad",
+  "name": "Capa de invisibilidad",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.capa-de-la-mantarraya",
+  "name": "Capa de la mantarraya",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.capa-de-murcielago",
+  "name": "Capa de murciélago",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.capa-de-proteccion",
+  "name": "Capa de protección",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.capa-del-charlatan",
+  "name": "Capa del charlatán",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 247
+ },
+ {
+  "id": "item.capa-elfica",
+  "name": "Capa élfica",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.carillon-de-apertura",
+  "name": "Carillón de apertura",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 247
+ },
+ {
+  "id": "item.cetro-de-mando",
+  "name": "Cetro de mando",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 247
+ },
+ {
+  "id": "item.cetro-de-poder-senorial",
+  "name": "Cetro de poder señorial",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 248
+ },
+ {
+  "id": "item.cimitarra-de-velocidad",
+  "name": "Cimitarra de velocidad",
+  "category": "Arma",
+  "variant": "cimitarra",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 248
+ },
+ {
+  "id": "item.cinturon-de-fuerza-de-gigante",
+  "name": "Cinturón de fuerza de gigante",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": true,
+  "page": 248
+ },
+ {
+  "id": "item.cinturon-enano",
+  "name": "Cinturón enano",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 249
+ },
+ {
+  "id": "item.colgante-de-inmunidad-al-veneno",
+  "name": "Colgante de inmunidad al veneno",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 249
+ },
+ {
+  "id": "item.collar-de-adaptacion",
+  "name": "Collar de adaptación",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 249
+ },
+ {
+  "id": "item.collar-de-bolas-de-fuego",
+  "name": "Collar de bolas de fuego",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 249
+ },
+ {
+  "id": "item.collar-de-plegarias",
+  "name": "Collar de plegarias",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 249
+ },
+ {
+  "id": "item.cota-de-escamas-de-dragon",
+  "name": "Cota de escamas de dragón",
+  "category": "Armadura",
+  "variant": "cota de escamas",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 249
+ },
+ {
+  "id": "item.cubo-de-fuerza",
+  "name": "Cubo de fuerza",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 250
+ },
+ {
+  "id": "item.cuenco-para-controlar-elementales-de-agua",
+  "name": "Cuenco para controlar elementales de agua",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 250
+ },
+ {
+  "id": "item.cuerda-de-escalada",
+  "name": "Cuerda de escalada",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 250
+ },
+ {
+  "id": "item.cuerda-enredadora",
+  "name": "Cuerda enredadora",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 250
+ },
+ {
+  "id": "item.cuerno-de-estallido",
+  "name": "Cuerno de estallido",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 251
+ },
+ {
+  "id": "item.cuerno-del-valhalla",
+  "name": "Cuerno del Valhalla",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 251
+ },
+ {
+  "id": "item.cuero-tachonado-encantado",
+  "name": "Cuero tachonado encantado",
+  "category": "Armadura",
+  "variant": "armadura de cuero tachonado",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 251
+ },
+ {
+  "id": "item.daga-de-la-ponzona",
+  "name": "Daga de la ponzoña",
+  "category": "Arma",
+  "variant": "daga",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 251
+ },
+ {
+  "id": "item.decantador-de-agua-interminable",
+  "name": "Decantador de agua interminable",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 251
+ },
+ {
+  "id": "item.defensora",
+  "name": "Defensora",
+  "category": "Arma",
+  "variant": "cualquier arma cuerpo a cuerpo",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 251
+ },
+ {
+  "id": "item.diadema-de-estallidos",
+  "name": "Diadema de estallidos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 252
+ },
+ {
+  "id": "item.diadema-de-intelecto",
+  "name": "Diadema de intelecto",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 252
+ },
+ {
+  "id": "item.disolvente-universal",
+  "name": "Disolvente universal",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 252
+ },
+ {
+  "id": "item.elixir-de-salud",
+  "name": "Elixir de salud",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 252
+ },
+ {
+  "id": "item.escarabajo-protector",
+  "name": "Escarabajo protector",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 252
+ },
+ {
+  "id": "item.escoba-voladora",
+  "name": "Escoba voladora",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 252
+ },
+ {
+  "id": "item.escudo-1-2-o-3",
+  "name": "Escudo +1, +2 o +3",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 252
+ },
+ {
+  "id": "item.escudo-animado",
+  "name": "Escudo animado",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 252
+ },
+ {
+  "id": "item.escudo-atrapaflechas",
+  "name": "Escudo atrapaflechas",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 252
+ },
+ {
+  "id": "item.escudo-centinela",
+  "name": "Escudo centinela",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 253
+ },
+ {
+  "id": "item.escudo-de-atraer-proyectiles",
+  "name": "Escudo de atraer proyectiles",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 253
+ },
+ {
+  "id": "item.escudo-de-caballero",
+  "name": "Escudo de caballero",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 253
+ },
+ {
+  "id": "item.escudo-de-guarda-contra-conjuros",
+  "name": "Escudo de guarda contra conjuros",
+  "category": "Armadura",
+  "variant": "escudo",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 253
+ },
+ {
+  "id": "item.esfera-de-aniquilacion",
+  "name": "Esfera de aniquilación",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 253
+ },
+ {
+  "id": "item.espada-danzarina",
+  "name": "Espada danzarina",
+  "category": "Arma",
+  "variant": "cimitarra, espada corta, espada larga, espadón o estoque",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espada-de-hoja-afilada",
+  "name": "Espada de hoja afilada",
+  "category": "Arma",
+  "variant": "cimitarra, espada larga, espadón o guja",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espada-hiriente",
+  "name": "Espada hiriente",
+  "category": "Arma",
+  "variant": "cimitarra, espada corta, espada larga, espadón, estoque o guja",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espada-ladrona-de-vida",
+  "name": "Espada ladrona de vida",
+  "category": "Arma",
+  "variant": "cimitarra, espada corta, espada larga, espadón, estoque o guja",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espada-solar",
+  "name": "Espada solar",
+  "category": "Arma",
+  "variant": "espada larga",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espada-vorpal",
+  "name": "Espada vorpal",
+  "category": "Arma",
+  "variant": "cimitarra, espada larga, espadón o guja",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 254
+ },
+ {
+  "id": "item.espejo-atrapavidas",
+  "name": "Espejo atrapavidas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 255
+ },
+ {
+  "id": "item.estatuilla-de-poder-maravilloso",
+  "name": "Estatuilla de poder maravilloso",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": false,
+  "page": 255
+ },
+ {
+  "id": "item.ficha-de-pluma",
+  "name": "Ficha de pluma",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": false,
+  "page": 256
+ },
+ {
+  "id": "item.filo-de-la-fortuna",
+  "name": "Filo de la fortuna",
+  "category": "Arma",
+  "variant": "cimitarra, espada corta, espada larga, espadón, estoque, guja u hoz",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 257
+ },
+ {
+  "id": "item.filtro-de-amor",
+  "name": "Filtro de amor",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 257
+ },
+ {
+  "id": "item.flauta-de-la-aparicion",
+  "name": "Flauta de la aparición",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 257
+ },
+ {
+  "id": "item.flauta-de-las-cloacas",
+  "name": "Flauta de las cloacas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 257
+ },
+ {
+  "id": "item.fortaleza-instantanea",
+  "name": "Fortaleza instantánea",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 258
+ },
+ {
+  "id": "item.frasco-de-hierro",
+  "name": "Frasco de hierro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 258
+ },
+ {
+  "id": "item.garrote-grande-atronador",
+  "name": "Garrote grande atronador",
+  "category": "Arma",
+  "variant": "garrote grande",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 258
+ },
+ {
+  "id": "item.gema-del-resplandor",
+  "name": "Gema del resplandor",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 259
+ },
+ {
+  "id": "item.gema-de-vision",
+  "name": "Gema de visión",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 259
+ },
+ {
+  "id": "item.gema-elemental",
+  "name": "Gema elemental",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 259
+ },
+ {
+  "id": "item.grilletes-dimensionales",
+  "name": "Grilletes dimensionales",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 259
+ },
+ {
+  "id": "item.guanteletes-de-fuerza-de-ogro",
+  "name": "Guanteletes de fuerza de ogro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 259
+ },
+ {
+  "id": "item.guantes-atrapaflechas",
+  "name": "Guantes atrapaflechas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 260
+ },
+ {
+  "id": "item.guantes-de-ladron",
+  "name": "Guantes de ladrón",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 260
+ },
+ {
+  "id": "item.guantes-de-natacion-y-escalada",
+  "name": "Guantes de natación y escalada",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 260
+ },
+ {
+  "id": "item.hacha-berserker",
+  "name": "Hacha berserker",
+  "category": "Arma",
+  "variant": "alabarda, hacha a dos manos o hacha de guerra",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 260
+ },
+ {
+  "id": "item.herraduras-de-velocidad",
+  "name": "Herraduras de velocidad",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 260
+ },
+ {
+  "id": "item.herraduras-del-cefiro",
+  "name": "Herraduras del céfiro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 260
+ },
+ {
+  "id": "item.hierro-de-escarcha",
+  "name": "Hierro de escarcha",
+  "category": "Arma",
+  "variant": "cimitarra, espada corta, espada larga, espadón, estoque o guja",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 260
+ },
+ {
+  "id": "item.incensario-de-controlar-elementales-de-aire",
+  "name": "Incensario de controlar elementales de aire",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 260
+ },
+ {
+  "id": "item.jabalina-del-relampago",
+  "name": "Jabalina del relámpago",
+  "category": "Arma",
+  "variant": "jabalina",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 261
+ },
+ {
+  "id": "item.ladrona-de-nueve-vidas",
+  "name": "Ladrona de nueve vidas",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 261
+ },
+ {
+  "id": "item.lengua-de-fuego",
+  "name": "Lengua de fuego",
+  "category": "Arma",
+  "variant": "cualquier arma cuerpo a cuerpo",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 261
+ },
+ {
+  "id": "item.linterna-de-revelacion",
+  "name": "Linterna de revelación",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 261
+ },
+ {
+  "id": "item.malla-elfica",
+  "name": "Malla élfica",
+  "category": "Armadura",
+  "variant": "camisa de malla o cota de malla",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 261
+ },
+ {
+  "id": "item.manto-de-resistencia-a-conjuros",
+  "name": "Manto de resistencia a conjuros",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 261
+ },
+ {
+  "id": "item.manual-de-golems",
+  "name": "Manual de gólems",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 261
+ },
+ {
+  "id": "item.manual-de-la-salud-corporal",
+  "name": "Manual de la salud corporal",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 261
+ },
+ {
+  "id": "item.manual-de-rapidez-de-accion",
+  "name": "Manual de rapidez de acción",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 262
+ },
+ {
+  "id": "item.manual-del-ejercicio-beneficioso",
+  "name": "Manual del ejercicio beneficioso",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 262
+ },
+ {
+  "id": "item.martillo-arrojadizo-enano",
+  "name": "Martillo arrojadizo enano",
+  "category": "Arma",
+  "variant": "martillo de guerra",
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 262
+ },
+ {
+  "id": "item.martillo-de-rayos",
+  "name": "Martillo de rayos",
+  "category": "Arma",
+  "variant": "martillo de guerra o maza a dos manos",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 262
+ },
+ {
+  "id": "item.matadragones",
+  "name": "Matadragones",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 262
+ },
+ {
+  "id": "item.matagigantes",
+  "name": "Matagigantes",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 262
+ },
+ {
+  "id": "item.maza-castigadora",
+  "name": "Maza castigadora",
+  "category": "Arma",
+  "variant": "maza",
+  "rarity": "raro",
+  "attunement": false,
+  "page": 262
+ },
+ {
+  "id": "item.maza-del-terror",
+  "name": "Maza del terror",
+  "category": "Arma",
+  "variant": "maza",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 262
+ },
+ {
+  "id": "item.maza-disruptiva",
+  "name": "Maza disruptiva",
+  "category": "Arma",
+  "variant": "maza",
+  "rarity": "raro",
+  "attunement": true,
+  "page": 263
+ },
+ {
+  "id": "item.medallon-de-los-pensamientos",
+  "name": "Medallón de los pensamientos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 263
+ },
+ {
+  "id": "item.morral-practico",
+  "name": "Morral práctico",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 263
+ },
+ {
+  "id": "item.municion-1-2-o-3",
+  "name": "Munición +1, +2 o +3",
+  "category": "Arma",
+  "variant": "cualquier munición",
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 263
+ },
+ {
+  "id": "item.municion-asesina",
+  "name": "Munición asesina",
+  "category": "Arma",
+  "variant": "cualquier munición",
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 263
+ },
+ {
+  "id": "item.orbe-dragontino",
+  "name": "Orbe Dragontino",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "artefacto",
+  "attunement": true,
+  "page": 263
+ },
+ {
+  "id": "item.pegamento-soberano",
+  "name": "Pegamento soberano",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 264
+ },
+ {
+  "id": "item.pergamino-de-conjuro",
+  "name": "Pergamino de conjuro",
+  "category": "Pergamino",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": false,
+  "page": 264
+ },
+ {
+  "id": "item.perla-de-poder",
+  "name": "Perla de poder",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 265
+ },
+ {
+  "id": "item.piedra-de-controlar-elementales-de-tierra",
+  "name": "Piedra de controlar elementales de tierra",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 265
+ },
+ {
+  "id": "item.piedra-de-la-buena-fortuna-piedra-de-la-suerte",
+  "name": "Piedra de la buena fortuna (piedra de la suerte)",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 265
+ },
+ {
+  "id": "item.piedra-ioun",
+  "name": "Piedra Ioun",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": true,
+  "page": 265
+ },
+ {
+  "id": "item.piedras-mensajeras",
+  "name": "Piedras mensajeras",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pigmentos-maravillosos",
+  "name": "Pigmentos maravillosos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-amistad-animal",
+  "name": "Poción de amistad animal",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-clarividencia",
+  "name": "Poción de clarividencia",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-crecimiento",
+  "name": "Poción de crecimiento",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-encoger",
+  "name": "Poción de encoger",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-forma-gaseosa",
+  "name": "Poción de forma gaseosa",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 266
+ },
+ {
+  "id": "item.pocion-de-fuerza-de-gigante",
+  "name": "Poción de fuerza de gigante",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-heroismo",
+  "name": "Poción de heroísmo",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-invisibilidad",
+  "name": "Poción de invisibilidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-invulnerabilidad",
+  "name": "Poción de invulnerabilidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-leer-mentes",
+  "name": "Poción de leer mentes",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-longevidad",
+  "name": "Poción de longevidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-resistencia",
+  "name": "Poción de resistencia",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-respirar-bajo-el-agua",
+  "name": "Poción de respirar bajo el agua",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-trepar",
+  "name": "Poción de trepar",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "común",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-velocidad",
+  "name": "Poción de velocidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-veneno",
+  "name": "Poción de veneno",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 267
+ },
+ {
+  "id": "item.pocion-de-vitalidad",
+  "name": "Poción de vitalidad",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.pocion-de-vuelo",
+  "name": "Poción de vuelo",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.pociones-de-curacion",
+  "name": "Pociones de curación",
+  "category": "Poción",
+  "variant": null,
+  "rarity": "varía",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.polvo-de-desaparicion",
+  "name": "Polvo de desaparición",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.polvo-de-estornudar-y-atragantarse",
+  "name": "Polvo de estornudar y atragantarse",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.polvo-de-sequedad",
+  "name": "Polvo de sequedad",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.portal-cubico",
+  "name": "Portal cúbico",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 268
+ },
+ {
+  "id": "item.pozo-de-los-muchos-mundos",
+  "name": "Pozo de los muchos mundos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": false,
+  "page": 269
+ },
+ {
+  "id": "item.sombrero-de-disfraz",
+  "name": "Sombrero de disfraz",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 269
+ },
+ {
+  "id": "item.sombrero-de-multiples-conjuros",
+  "name": "Sombrero de múltiples conjuros",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 269
+ },
+ {
+  "id": "item.talisman-de-cerrar-heridas",
+  "name": "Talismán de cerrar heridas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 270
+ },
+ {
+  "id": "item.talisman-de-la-esfera",
+  "name": "Talismán de la esfera",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 270
+ },
+ {
+  "id": "item.talisman-de-salud",
+  "name": "Talismán de salud",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 270
+ },
+ {
+  "id": "item.talisman-del-bien-puro",
+  "name": "Talismán del bien puro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 270
+ },
+ {
+  "id": "item.talisman-del-mal-definitivo",
+  "name": "Talismán del mal definitivo",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 270
+ },
+ {
+  "id": "item.tomo-de-entendimiento",
+  "name": "Tomo de entendimiento",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 271
+ },
+ {
+  "id": "item.tomo-de-liderazgo-e-influencia",
+  "name": "Tomo de liderazgo e influencia",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 271
+ },
+ {
+  "id": "item.tomo-de-pensamiento-claro",
+  "name": "Tomo de pensamiento claro",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 271
+ },
+ {
+  "id": "item.tridente-de-comandar-peces",
+  "name": "Tridente de comandar peces",
+  "category": "Arma",
+  "variant": "tridente",
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 271
+ },
+ {
+  "id": "item.tunica-de-colores-hipnoticos",
+  "name": "Túnica de colores hipnóticos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 271
+ },
+ {
+  "id": "item.tunica-del-archimago",
+  "name": "Túnica del archimago",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 271
+ },
+ {
+  "id": "item.tunica-de-las-estrellas",
+  "name": "Túnica de las estrellas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 271
+ },
+ {
+  "id": "item.tunica-de-los-ojos",
+  "name": "Túnica de los ojos",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 271
+ },
+ {
+  "id": "item.tunica-de-objetos-utiles",
+  "name": "Túnica de objetos útiles",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 272
+ },
+ {
+  "id": "item.vara-de-la-absorcion",
+  "name": "Vara de la absorción",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 272
+ },
+ {
+  "id": "item.vara-de-la-alerta",
+  "name": "Vara de la alerta",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 272
+ },
+ {
+  "id": "item.vara-de-la-resurreccion",
+  "name": "Vara de la resurrección",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 273
+ },
+ {
+  "id": "item.vara-de-la-seguridad",
+  "name": "Vara de la seguridad",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": false,
+  "page": 273
+ },
+ {
+  "id": "item.vara-inamovible",
+  "name": "Vara inamovible",
+  "category": "Vara",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 273
+ },
+ {
+  "id": "item.varita-de-atadura",
+  "name": "Varita de atadura",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 273
+ },
+ {
+  "id": "item.varita-de-bolas-de-fuego",
+  "name": "Varita de bolas de fuego",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 273
+ },
+ {
+  "id": "item.varita-de-deteccion-magica",
+  "name": "Varita de detección mágica",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 273
+ },
+ {
+  "id": "item.varita-de-detectar-enemigos",
+  "name": "Varita de detectar enemigos",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 273
+ },
+ {
+  "id": "item.varita-de-las-maravillas",
+  "name": "Varita de las maravillas",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 274
+ },
+ {
+  "id": "item.varita-de-paralisis",
+  "name": "Varita de parálisis",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 275
+ },
+ {
+  "id": "item.varita-de-polimorfar",
+  "name": "Varita de polimorfar",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 275
+ },
+ {
+  "id": "item.varita-de-proyectiles-magicos",
+  "name": "Varita de proyectiles mágicos",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 275
+ },
+ {
+  "id": "item.varita-de-relampagos",
+  "name": "Varita de relámpagos",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 275
+ },
+ {
+  "id": "item.varita-de-secretos",
+  "name": "Varita de secretos",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 275
+ },
+ {
+  "id": "item.varita-de-telarana",
+  "name": "Varita de telaraña",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 275
+ },
+ {
+  "id": "item.varita-del-mago-de-guerra-1-2-o-3",
+  "name": "Varita del mago de guerra +1, +2 o +3",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 275
+ },
+ {
+  "id": "item.varita-del-terror",
+  "name": "Varita del terror",
+  "category": "Varita",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 276
+ },
+ {
+  "id": "item.vela-de-invocacion",
+  "name": "Vela de invocación",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 276
+ },
+ {
+  "id": "item.vengadora-sagrada",
+  "name": "Vengadora sagrada",
+  "category": "Arma",
+  "variant": "cualquiera sencilla o marcial",
+  "rarity": "legendario",
+  "attunement": true,
+  "page": 276
+ },
+ {
+  "id": "item.yelmo-de-entender-idiomas",
+  "name": "Yelmo de entender idiomas",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": false,
+  "page": 276
+ },
+ {
+  "id": "item.yelmo-de-fulgor",
+  "name": "Yelmo de fulgor",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "muy raro",
+  "attunement": true,
+  "page": 276
+ },
+ {
+  "id": "item.yelmo-de-telepatia",
+  "name": "Yelmo de telepatía",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "infrecuente",
+  "attunement": true,
+  "page": 277
+ },
+ {
+  "id": "item.yelmo-de-teletransporte",
+  "name": "Yelmo de teletransporte",
+  "category": "Objeto maravilloso",
+  "variant": null,
+  "rarity": "raro",
+  "attunement": true,
+  "page": 277
+ }
+]

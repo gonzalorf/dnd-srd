@@ -1,0 +1,21 @@
+{
+ "id": "sidebar.identificar-un-conjuro-activo",
+ "title": "Identificar un conjuro activo",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "Si aún está activo, puedes intentar identificar un conjuro no instantáneo por sus efectos observables. Para ello, debes llevar a cabo una acción de estudiar y superar una prueba de Inteligencia (Conocimiento arcano) con CD 15.",
+   "text": "Si aún está activo, puedes intentar identificar un conjuro no instantáneo por sus efectos observables. Para ello, debes llevar a cabo una acción de estudiar y superar una prueba de Inteligencia (Conocimiento arcano) con CD 15."
+  }
+ ],
+ "context": [
+  "Conjuros",
+  "Lanzar conjuros",
+  "Efectos",
+  "Objetivos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 116
+ }
+}

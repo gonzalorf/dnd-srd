@@ -1,0 +1,24 @@
+{
+ "id": "feat.atacante-salvaje",
+ "name": "Atacante salvaje",
+ "text": "Dote de origen\n\nTe has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote de origen*",
+   "text": "Dote de origen"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Te has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo.",
+   "text": "Te has preparado para asestar golpes especialmente dañinos. Una vez por turno, cuando aciertes a un objetivo con un arma, podrás tirar dos veces los dados de daño del arma y usar el resultado que prefieras contra el objetivo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes de origen"
+}

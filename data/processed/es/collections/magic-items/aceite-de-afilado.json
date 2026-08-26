@@ -1,0 +1,29 @@
+{
+ "id": "item.aceite-de-afilado",
+ "name": "Aceite de afilado",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "muy raro",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, muy rara",
+ "text": "Un vial de este aceite puede recubrir un arma cuerpo a cuerpo o veinte unidades de munición, pero solo se verán afectadas las armas y munición no mágicas que causen daño cortante o perforante. Se tarda 1 minuto en aplicar el aceite, tras lo cual se filtra mágicamente en lo que recubra y convierte el arma en un arma +3 o la munición en munición +3.\n\nEste aceite transparente y gelatinoso brilla debido a las esquirlas de plata minúsculas y ultrafinas que contiene.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Un vial de este aceite puede recubrir un arma cuerpo a cuerpo o veinte unidades de munición, pero solo se verán afectadas las armas y munición no mágicas que causen daño cortante o perforante. Se tarda 1 minuto en aplicar el aceite, tras lo cual se filtra mágicamente en lo que recubra y convierte el arma en un *arma +3* o la munición en *munición +3*.",
+   "text": "Un vial de este aceite puede recubrir un arma cuerpo a cuerpo o veinte unidades de munición, pero solo se verán afectadas las armas y munición no mágicas que causen daño cortante o perforante. Se tarda 1 minuto en aplicar el aceite, tras lo cual se filtra mágicamente en lo que recubra y convierte el arma en un arma +3 o la munición en munición +3."
+  },
+  {
+   "type": "paragraph",
+   "page": 228,
+   "md": "Este aceite transparente y gelatinoso brilla debido a las esquirlas de plata minúsculas y ultrafinas que contiene.",
+   "text": "Este aceite transparente y gelatinoso brilla debido a las esquirlas de plata minúsculas y ultrafinas que contiene."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 228
+ }
+}

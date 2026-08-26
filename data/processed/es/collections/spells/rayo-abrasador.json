@@ -1,0 +1,53 @@
+{
+ "id": "spell.rayo-abrasador",
+ "name": "Rayo abrasador",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Lanzas tres rayos ardientes y los arrojas contra uno o varios objetivos dentro del alcance. Haz un ataque de conjuro a distancia por cada rayo. Si acierta, el objetivo recibe 2d6 de daño de fuego.\n\nCon un espacio de conjuro de nivel superior. Creas un rayo adicional por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Lanzas tres rayos ardientes y los arrojas contra uno o varios objetivos dentro del alcance. Haz un ataque de conjuro a distancia por cada rayo. Si acierta, el objetivo recibe 2d6 de daño de fuego.",
+   "text": "Lanzas tres rayos ardientes y los arrojas contra uno o varios objetivos dentro del alcance. Haz un ataque de conjuro a distancia por cada rayo. Si acierta, el objetivo recibe 2d6 de daño de fuego."
+  },
+  {
+   "type": "definition",
+   "page": 178,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Creas un rayo adicional por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Creas un rayo adicional por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 178
+ }
+}

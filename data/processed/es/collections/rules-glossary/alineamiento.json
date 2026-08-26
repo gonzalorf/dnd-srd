@@ -1,0 +1,17 @@
+{
+ "id": "rule.alineamiento",
+ "name": "Alineamiento",
+ "text": "El alineamiento de una criatura describe en términos generales su actitud e ideales éticos. El alineamiento es una combinación de dos factores: por una parte, la moralidad (bueno, malvado o neutral) y, por otra, la actitud hacia el orden (legal, caótico o neutral). Estos factores dan pie a nueve combinaciones posibles, como las de legal bueno y neutral malvado. Consulta también el capítulo “Creación de personajes” (“Crear tu personaje”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "El alineamiento de una criatura describe en términos generales su actitud e ideales éticos. El alineamiento es una combinación de dos factores: por una parte, la moralidad (bueno, malvado o neutral) y, por otra, la actitud hacia el orden (legal, caótico o neutral). Estos factores dan pie a nueve combinaciones posibles, como las de legal bueno y neutral malvado. *Consulta también* el capítulo “Creación de personajes” (“Crear tu personaje”).",
+   "text": "El alineamiento de una criatura describe en términos generales su actitud e ideales éticos. El alineamiento es una combinación de dos factores: por una parte, la moralidad (bueno, malvado o neutral) y, por otra, la actitud hacia el orden (legal, caótico o neutral). Estos factores dan pie a nueve combinaciones posibles, como las de legal bueno y neutral malvado. Consulta también el capítulo “Creación de personajes” (“Crear tu personaje”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

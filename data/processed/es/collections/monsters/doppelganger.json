@@ -1,0 +1,119 @@
+{
+ "id": "monster.doppelganger",
+ "name": "Doppelganger",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 297
+ },
+ "context": [
+  "Doppelganger"
+ ],
+ "metaRaw": "Monstruosidad Mediana, neutral",
+ "type": "Monstruosidad",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "52 (8d8 + 16)",
+  "average": 52,
+  "formula": "8d8 + 16"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Engaño": 6,
+  "Perspicacia": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "común y otros tres idiomas"
+ ],
+ "immunities": [
+  "hechizado"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El doppelganger realiza dos ataques con su golpe y usa su acción de rostro inquietante si está disponible.",
+   "page": 297,
+   "description": "El doppelganger realiza dos ataques con su golpe y usa su acción de rostro inquietante si está disponible."
+  },
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +6 (con ventaja durante el primer asalto de cada combate), alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño contundente.",
+   "page": 297,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6 (con ventaja durante el primer asalto de cada combate), alcance 1,5 m. *Acierto:* 11 (2d6 + 4) de daño contundente."
+  },
+  {
+   "name": "Leer pensamientos",
+   "md": "***Leer pensamientos.*** El doppelganger lanza *detectar pensamientos*, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 12).",
+   "page": 297,
+   "description": "El doppelganger lanza *detectar pensamientos*, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 12)."
+  },
+  {
+   "name": "Rostro inquietante",
+   "md": "***Rostro inquietante (recarga 6).*** *Tirada de salvación de Sabiduría:* CD 12, todas las criaturas en una emanación de 4,5 m que se origina en el doppelganger que puedan verlo. *Fallo:* el objetivo tendrá el estado de asustado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 297,
+   "description": "*Tirada de salvación de Sabiduría:* CD 12, todas las criaturas en una emanación de 4,5 m que se origina en el doppelganger que puedan verlo. *Fallo:* el objetivo tendrá el estado de asustado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "uses": "recarga 6"
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El doppelganger adopta la forma de un humanoide Mediano o Pequeño, o recupera su verdadera forma. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 297,
+   "description": "El doppelganger adopta la forma de un humanoide Mediano o Pequeño, o recupera su verdadera forma. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ],
+ "refs": [
+  "spell.detectar-pensamientos"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "spell.circulo-magico",
+ "name": "Círculo mágico",
+ "level": 3,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "brujo",
+  "clérigo",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "3 m",
+  "kind": "ranged",
+  "meters": 3
+ },
+ "components": {
+  "raw": "V, S, M (sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "1 hora",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Creas un cilindro de energía mágica de 3 m de radio y 6 m de altura centrado en un punto del suelo que puedas ver dentro del alcance. En los puntos de intersección entre el cilindro y el suelo o cualquier otra superficie aparecerán unas runas brillantes.\n\nElige uno o más de los siguientes tipos de criaturas: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a una criatura del tipo elegido de las siguientes formas:\n\n• La criatura no puede entrar voluntariamente en el cilindro por medios no mágicos. Si la criatura intenta usar el teletransporte o el viaje interpla\n\nnar para hacerlo, antes deberá superar una tirada de salvación de Carisma.\n\n• La criatura tiene desventaja en las tiradas de ataque contra objetivos que estén dentro del cilindro.\n\n• Los objetivos dentro del cilindro no pueden ser poseídos por la criatura ni obtener los estados de asustados o hechizados a causa de ella.\n\nCada vez que lances este conjuro, puedes hacer que su magia funcione en sentido inverso para impedir que una criatura del tipo especificado salga del cilindro y proteger así a los objetivos que estén fuera de él.\n\nCon un espacio de conjuro de nivel superior. La duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Creas un cilindro de energía mágica de 3 m de radio y 6 m de altura centrado en un punto del suelo que puedas ver dentro del alcance. En los puntos de intersección entre el cilindro y el suelo o cualquier otra superficie aparecerán unas runas brillantes.",
+   "text": "Creas un cilindro de energía mágica de 3 m de radio y 6 m de altura centrado en un punto del suelo que puedas ver dentro del alcance. En los puntos de intersección entre el cilindro y el suelo o cualquier otra superficie aparecerán unas runas brillantes."
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Elige uno o más de los siguientes tipos de criaturas: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a una criatura del tipo elegido de las siguientes formas:",
+   "text": "Elige uno o más de los siguientes tipos de criaturas: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a una criatura del tipo elegido de las siguientes formas:"
+  },
+  {
+   "type": "list-item",
+   "page": 129,
+   "md": "• La criatura no puede entrar voluntariamente en el cilindro por medios no mágicos. Si la criatura intenta usar el teletransporte o el viaje interpla",
+   "text": "• La criatura no puede entrar voluntariamente en el cilindro por medios no mágicos. Si la criatura intenta usar el teletransporte o el viaje interpla"
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "nar para hacerlo, antes deberá superar una tirada de salvación de Carisma.",
+   "text": "nar para hacerlo, antes deberá superar una tirada de salvación de Carisma."
+  },
+  {
+   "type": "list-item",
+   "page": 129,
+   "md": "• La criatura tiene desventaja en las tiradas de ataque contra objetivos que estén dentro del cilindro.",
+   "text": "• La criatura tiene desventaja en las tiradas de ataque contra objetivos que estén dentro del cilindro."
+  },
+  {
+   "type": "list-item",
+   "page": 129,
+   "md": "• Los objetivos dentro del cilindro no pueden ser poseídos por la criatura ni obtener los estados de asustados o hechizados a causa de ella.",
+   "text": "• Los objetivos dentro del cilindro no pueden ser poseídos por la criatura ni obtener los estados de asustados o hechizados a causa de ella."
+  },
+  {
+   "type": "paragraph",
+   "page": 129,
+   "md": "Cada vez que lances este conjuro, puedes hacer que su magia funcione en sentido inverso para impedir que una criatura del tipo especificado salga del cilindro y proteger así a los objetivos que estén fuera de él.",
+   "text": "Cada vez que lances este conjuro, puedes hacer que su magia funcione en sentido inverso para impedir que una criatura del tipo especificado salga del cilindro y proteger así a los objetivos que estén fuera de él."
+  },
+  {
+   "type": "definition",
+   "page": 129,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. La duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 129
+ }
+}

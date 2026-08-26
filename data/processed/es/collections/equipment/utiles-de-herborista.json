@@ -1,0 +1,40 @@
+{
+ "id": "tool.utiles-de-herborista",
+ "name": "Útiles de herborista",
+ "kind": "tool",
+ "group": "Otras herramientas",
+ "text": "Característica: Inteligencia Peso: 1,5 kg\n\nUtilizar: identificar una planta (CD 10)\n\nFabricar: antitoxina, poción de curación, útiles de sanador, vela",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Inteligencia **Peso:** 1,5 kg",
+   "text": "Característica: Inteligencia Peso: 1,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** identificar una planta (CD 10)",
+   "text": "Utilizar: identificar una planta (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** antitoxina, *poción de curación*, útiles de sanador, vela",
+   "text": "Fabricar: antitoxina, poción de curación, útiles de sanador, vela"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "refs": [
+  "gear.pocion-de-curacion"
+ ]
+}

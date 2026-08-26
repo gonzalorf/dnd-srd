@@ -1,0 +1,49 @@
+{
+ "id": "spell.rociada-de-color",
+ "name": "Rociada de color",
+ "level": 1,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una pizca de arena de colores)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pizca de arena de colores",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Emites una ráfaga de luces brillantes y parpadeantes de múltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deberán superar una tirada de salvación de Constitución o tendrán el estado de cegadas hasta el final de tu siguiente turno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 182,
+   "md": "Emites una ráfaga de luces brillantes y parpadeantes de múltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deberán superar una tirada de salvación de Constitución o tendrán el estado de cegadas hasta el final de tu siguiente turno.",
+   "text": "Emites una ráfaga de luces brillantes y parpadeantes de múltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deberán superar una tirada de salvación de Constitución o tendrán el estado de cegadas hasta el final de tu siguiente turno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 182
+ }
+}

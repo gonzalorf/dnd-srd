@@ -1,0 +1,119 @@
+{
+ "id": "monster.ent",
+ "name": "Ent",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 320
+ },
+ "context": [
+  "Ent"
+ ],
+ "metaRaw": "Planta Enorme, caótica buena",
+ "type": "Planta",
+ "alignment": "caótica buena",
+ "size": "Enorme",
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "138 (12d12 + 60)",
+  "average": 138,
+  "formula": "12d12 + 60"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "común",
+  "druídico",
+  "elfo",
+  "silvano"
+ ],
+ "resistances": [
+  "contundente",
+  "perforante"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "9 (5000 PX; BC +4)",
+  "cr": 9,
+  "xp": 5000,
+  "proficiencyBonus": 4
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "traits": [
+  {
+   "name": "Monstruo de asedio",
+   "md": "***Monstruo de asedio.*** El ent inflige el doble de daño a objetos y estructuras.",
+   "page": 320,
+   "description": "El ent inflige el doble de daño a objetos y estructuras."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El ent realiza dos ataques con su golpe.",
+   "page": 320,
+   "description": "El ent realiza dos ataques con su golpe."
+  },
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 16 (3d6 + 6) de daño contundente.",
+   "page": 320,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +10, alcance 1,5 m. *Acierto:* 16 (3d6 + 6) de daño contundente."
+  },
+  {
+   "name": "Lluvia de corteza",
+   "md": "***Lluvia de corteza.*** *Tirada de ataque a distancia:* +10, alcance 54 m. *Acierto:* 28 (4d10 + 6) de daño perforante.",
+   "page": 320,
+   "description": "*Tirada de ataque a distancia:* +10, alcance 54 m. *Acierto:* 28 (4d10 + 6) de daño perforante."
+  },
+  {
+   "name": "Animar árboles",
+   "md": "***Animar árboles (1/día).*** El ent anima mágicamente hasta dos árboles que pueda ver a 18 m o menos de él. Cada árbol usa el perfil del ent, salvo que sus puntuaciones de Inteligencia y Carisma son de 1, no puede hablar y no tiene esta acción. El árbol juega su turno justo después del ent en el mismo orden de iniciativa y obedece al ent. Un árbol permanece animado durante 1 día o hasta que muera, hasta que muera el ent o hasta que esté a 36 m o más de distancia de él. Luego, el árbol echa raíces si es posible.",
+   "page": 320,
+   "description": "El ent anima mágicamente hasta dos árboles que pueda ver a 18 m o menos de él. Cada árbol usa el perfil del ent, salvo que sus puntuaciones de Inteligencia y Carisma son de 1, no puede hablar y no tiene esta acción. El árbol juega su turno justo después del ent en el mismo orden de iniciativa y obedece al ent. Un árbol permanece animado durante 1 día o hasta que muera, hasta que muera el ent o hasta que esté a 36 m o más de distancia de él. Luego, el árbol echa raíces si es posible.",
+   "uses": "1/día"
+  }
+ ]
+}

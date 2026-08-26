@@ -1,0 +1,29 @@
+{
+ "id": "item.baston-de-marchitamiento",
+ "name": "Bastón de marchitamiento",
+ "category": "Bastón",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Bastón, raro (requiere sintonización)",
+ "text": "Este bastón tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer.\n\nEl bastón se puede usar a modo de bastón mágico. Si aciertas con él, causa daño como un bastón normal y puedes gastar 1 carga para infligir 2d10 de daño necrótico adicional al objetivo y obligarlo a hacer una tirada de salvación de Constitución con CD 15. Si la falla, tendrá desventaja durante 1 hora en cualquier prueba de característica o tirada de salvación que utilice la Fuerza o la Constitución.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 241,
+   "md": "Este bastón tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer.",
+   "text": "Este bastón tiene 3 cargas y recupera 1d3 cargas empleadas cada día, al amanecer."
+  },
+  {
+   "type": "paragraph",
+   "page": 241,
+   "md": "El bastón se puede usar a modo de bastón mágico. Si aciertas con él, causa daño como un bastón normal y puedes gastar 1 carga para infligir 2d10 de daño necrótico adicional al objetivo y obligarlo a hacer una tirada de salvación de Constitución con CD 15. Si la falla, tendrá desventaja durante 1 hora en cualquier prueba de característica o tirada de salvación que utilice la Fuerza o la Constitución.",
+   "text": "El bastón se puede usar a modo de bastón mágico. Si aciertas con él, causa daño como un bastón normal y puedes gastar 1 carga para infligir 2d10 de daño necrótico adicional al objetivo y obligarlo a hacer una tirada de salvación de Constitución con CD 15. Si la falla, tendrá desventaja durante 1 hora en cualquier prueba de característica o tirada de salvación que utilice la Fuerza o la Constitución."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 241
+ }
+}

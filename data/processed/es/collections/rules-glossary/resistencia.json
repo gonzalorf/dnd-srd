@@ -1,0 +1,17 @@
+{
+ "id": "rule.resistencia",
+ "name": "Resistencia",
+ "text": "Si tienes resistencia a un tipo de daño, el daño de ese tipo se reduce a la mitad contra ti (redondeando hacia abajo). La resistencia se aplica solo una vez a un efecto de daño. Consulta también el capítulo “Cómo jugar” (“Daño y curación”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 207,
+   "md": "Si tienes resistencia a un tipo de daño, el daño de ese tipo se reduce a la mitad contra ti (redondeando hacia abajo). La resistencia se aplica solo una vez a un efecto de daño. *Consulta también* el capítulo “Cómo jugar” (“Daño y curación”).",
+   "text": "Si tienes resistencia a un tipo de daño, el daño de ese tipo se reduce a la mitad contra ti (redondeando hacia abajo). La resistencia se aplica solo una vez a un efecto de daño. Consulta también el capítulo “Cómo jugar” (“Daño y curación”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 207
+ }
+}

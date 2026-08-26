@@ -1,0 +1,109 @@
+{
+ "id": "monster.simio-gigante",
+ "name": "Simio gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 395
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 5,
+  "score": 15
+ },
+ "hp": {
+  "raw": "168 (16d12 + 64)",
+  "average": 168,
+  "formula": "16d12 + 64"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 12.0
+ },
+ "skills": {
+  "Atletismo": 9,
+  "Percepción": 4,
+  "Supervivencia": 4
+ },
+ "senses": {
+  "raw": "Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "7 (2900 PX; BC +3)",
+  "cr": 7,
+  "xp": 2900,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 23,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El simio realiza dos ataques de puñetazo.",
+   "page": 395,
+   "description": "El simio realiza dos ataques de puñetazo."
+  },
+  {
+   "name": "Puñetazo",
+   "md": "***Puñetazo.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 22 (3d10 + 6) de daño contundente.",
+   "page": 395,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 3 m. *Acierto:* 22 (3d10 + 6) de daño contundente."
+  },
+  {
+   "name": "Lanzamiento de pedrusco",
+   "md": "***Lanzamiento de pedrusco (recarga 6).*** El simio arroja un pedrusco a un punto que pueda ver a 27 m o menos. *Tirada de salvación de Destreza:* CD 17, todas las criaturas en una esfera de 1,5 m de radio centrada en ese punto. *Fallo:* 24 (7d6) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada. *Éxito:* solo la mitad del daño.",
+   "page": 395,
+   "description": "El simio arroja un pedrusco a un punto que pueda ver a 27 m o menos. *Tirada de salvación de Destreza:* CD 17, todas las criaturas en una esfera de 1,5 m de radio centrada en ese punto. *Fallo:* 24 (7d6) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada. *Éxito:* solo la mitad del daño.",
+   "uses": "recarga 6"
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Salto",
+   "md": "***Salto.*** El simio gasta 3 m de movimiento para saltar hasta 9 m.",
+   "page": 395,
+   "description": "El simio gasta 3 m de movimiento para saltar hasta 9 m."
+  }
+ ]
+}

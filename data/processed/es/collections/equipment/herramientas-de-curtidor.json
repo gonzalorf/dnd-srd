@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-curtidor",
+ "name": "Herramientas de curtidor",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: añadir un diseño a un objeto de cuero (CD 10)\n\nFabricar: honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+   "text": "Característica: Destreza Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Utilizar:** añadir un diseño a un objeto de cuero (CD 10)",
+   "text": "Utilizar: añadir un diseño a un objeto de cuero (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 101,
+   "md": "**Fabricar:** honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino",
+   "text": "Fabricar: honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 101
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ }
+}

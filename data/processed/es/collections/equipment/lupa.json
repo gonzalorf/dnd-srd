@@ -1,0 +1,32 @@
+{
+ "id": "gear.lupa",
+ "name": "Lupa",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Lupa",
+  "Peso": "—",
+  "Precio": "100 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "100 po",
+  "amount": 100.0,
+  "coin": "po",
+  "gp": 100.0
+ },
+ "text": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego.",
+   "text": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego."
+  }
+ ],
+ "descriptionPage": 106
+}

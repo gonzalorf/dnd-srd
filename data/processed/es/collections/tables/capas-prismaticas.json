@@ -1,0 +1,76 @@
+{
+ "id": "table.capas-prismaticas",
+ "caption": "Capas prismáticas",
+ "header": [
+  "Orden",
+  "Efectos"
+ ],
+ "rows": [
+  [
+   "1",
+   "Roja. Si falla la tirada: 12d6 de daño de fuego. Si supera la tirada: la mitad de daño. Efectos adicionales: los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de daño de frío."
+  ],
+  [
+   "2",
+   "Naranja. Si falla la tirada: 12d6 de daño de ácido. Si supera la tirada: la mitad de daño. Efectos adicionales: los ataques a distancia mágicos no atraviesan esta capa, que puede destruirse mediante un viento fuerte (como el que crea ráfaga de viento)."
+  ],
+  [
+   "3",
+   "Amarilla. Si falla la tirada: 12d6 de daño de relámpago. Si supera la tirada: la mitad de daño. Efectos adicionales: la capa se destruye si recibe al menos 60 de daño de fuerza."
+  ],
+  [
+   "4",
+   "Verde. Si falla la tirada: 12d6 de daño de veneno. Si supera la tirada: la mitad de daño. Efectos adicionales: un conjuro pasamuros u otro del mismo nivel o superior que puedan abrir un portal en una superficie sólida destruirán esta capa."
+  ],
+  [
+   "5",
+   "Azul. Si falla la tirada: 12d6 de daño de frío. Si supera la tirada: la mitad de daño. Efectos adicionales: la capa se destruye si recibe al menos 25 de daño de fuego."
+  ],
+  [
+   "6",
+   "Añil. Si falla la tirada: el objetivo tendrá el"
+  ],
+  [
+   "7",
+   "Violeta. Si falla la tirada: el objetivo tendrá el"
+  ],
+  [
+   "",
+   "estado de cegado y hará una tirada de salva"
+  ],
+  [
+   "",
+   "ción de Sabiduría al principio de tu siguiente"
+  ],
+  [
+   "",
+   "turno. Si la supera, el estado terminará. Si la"
+  ],
+  [
+   "",
+   "falla, el estado terminará y la criatura se"
+  ],
+  [
+   "",
+   "teletransportará a otro plano de existencia"
+  ],
+  [
+   "",
+   "(a elección de tu GM). Efectos adicionales: esta"
+  ],
+  [
+   "",
+   "capa puede destruirse mediante disipar magia."
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Muro prismático"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 169
+ }
+}

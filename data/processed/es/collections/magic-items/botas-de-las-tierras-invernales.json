@@ -1,0 +1,35 @@
+{
+ "id": "item.botas-de-las-tierras-invernales",
+ "name": "Botas de las tierras invernales",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente (requiere sintonización)",
+ "text": "Estas botas forradas de pelaje son ceñidas y calentitas. Mientras las calces, obtienes los siguientes beneficios.\n\nCaminante invernal. El terreno difícil creado por hielo o nieve no te afecta.\n\nResistencia al frío. Tienes resistencia al daño de frío y puedes aguantar temperaturas de −18 °C o menos sin más protección.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 245,
+   "md": "Estas botas forradas de pelaje son ceñidas y calentitas. Mientras las calces, obtienes los siguientes beneficios.",
+   "text": "Estas botas forradas de pelaje son ceñidas y calentitas. Mientras las calces, obtienes los siguientes beneficios."
+  },
+  {
+   "type": "definition",
+   "page": 245,
+   "md": "***Caminante invernal.*** El terreno difícil creado por hielo o nieve no te afecta.",
+   "text": "Caminante invernal. El terreno difícil creado por hielo o nieve no te afecta."
+  },
+  {
+   "type": "definition",
+   "page": 245,
+   "md": "***Resistencia al frío.*** Tienes resistencia al daño de frío y puedes aguantar temperaturas de −18 °C o menos sin más protección.",
+   "text": "Resistencia al frío. Tienes resistencia al daño de frío y puedes aguantar temperaturas de −18 °C o menos sin más protección."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 245
+ }
+}

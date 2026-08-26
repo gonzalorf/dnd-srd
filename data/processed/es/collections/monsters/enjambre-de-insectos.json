@@ -1,0 +1,112 @@
+{
+ "id": "monster.enjambre-de-insectos",
+ "name": "Enjambre de insectos",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 384
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Enjambre Mediano de bestias Diminutas, sin alineamiento",
+ "type": "Enjambre de bestias Diminutas",
+ "alignment": "sin alineamiento",
+ "size": "Mediano",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "19 (3d8 + 6)",
+  "average": 19,
+  "formula": "3d8 + 6"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "trepar o volar": 6.0
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 8",
+  "passivePerception": 8
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "immunities": [
+  "agarrado",
+  "apresado",
+  "asustado",
+  "aturdido",
+  "derribado",
+  "hechizado",
+  "paralizado",
+  "petrificado"
+ ],
+ "resistances": [
+  "contundente",
+  "cortante",
+  "perforante"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  },
+  "des": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  },
+  "car": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  }
+ },
+ "traits": [
+  {
+   "name": "Enjambre",
+   "md": "***Enjambre.*** El enjambre puede ocupar el espacio de otra criatura y viceversa, y es capaz de atravesar cualquier abertura por la que quepa un insecto Diminuto. El enjambre no puede recuperar puntos de golpe ni obtener puntos de golpe temporales.",
+   "page": 384,
+   "description": "El enjambre puede ocupar el espacio de otra criatura y viceversa, y es capaz de atravesar cualquier abertura por la que quepa un insecto Diminuto. El enjambre no puede recuperar puntos de golpe ni obtener puntos de golpe temporales."
+  },
+  {
+   "name": "Trepar cual arácnido",
+   "md": "***Trepar cual arácnido.*** Si el enjambre tiene una velocidad trepando, podrá trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica.",
+   "page": 384,
+   "description": "Si el enjambre tiene una velocidad trepando, podrá trepar por superficies difíciles e incluso recorrer techos sin tener que realizar pruebas de característica."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Mordiscos",
+   "md": "***Mordiscos.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 6 (2d4 + 1) de daño de veneno o 3 (1d4 + 1) de daño de veneno si el enjambre está maltrecho.",
+   "page": 384,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 6 (2d4 + 1) de daño de veneno o 3 (1d4 + 1) de daño de veneno si el enjambre está maltrecho."
+  }
+ ]
+}

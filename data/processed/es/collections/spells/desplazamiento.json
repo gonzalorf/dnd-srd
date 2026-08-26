@@ -1,0 +1,54 @@
+{
+ "id": "spell.desplazamiento",
+ "name": "Desplazamiento",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tira 1d6 al final de cada uno de tus turnos hasta que el conjuro termine. Si el resultado es 4–6, desapareces de tu plano de existencia actual y apareces en el Plano Etéreo (el conjuro termina al instante si ya estabas en ese plano). Mientras estás en el Plano Etéreo, puedes percibir lo que sucede en el plano del que procedes, que se muestra en distintos tonos de gris, pero no puedes ver nada que esté a más de 18 m. Solo puedes afectar a criaturas que estén en el Plano Etéreo y solo estas criaturas te pueden afectar a ti. Las criaturas que estén en el otro plano no pueden percibirte en el Plano Etéreo a menos que tengan una capacidad especial que les permita percibir cosas en el Plano Etéreo.\n\nAl principio de tu siguiente turno, y si el conjuro acaba mientras estás en el Plano Etéreo, volverás al otro plano y aparecerás en un espacio sin ocupar de tu elección que puedas ver a 3 m o menos del espacio que hayas abandonado. Si no hay ningún espacio sin ocupar en ese alcance, aparecerás en el espacio sin ocupar más cercano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Tira 1d6 al final de cada uno de tus turnos hasta que el conjuro termine. Si el resultado es 4–6, desapareces de tu plano de existencia actual y apareces en el Plano Etéreo (el conjuro termina al instante si ya estabas en ese plano). Mientras estás en el Plano Etéreo, puedes percibir lo que sucede en el plano del que procedes, que se muestra en distintos tonos de gris, pero no puedes ver nada que esté a más de 18 m. Solo puedes afectar a criaturas que estén en el Plano Etéreo y solo estas criaturas te pueden afectar a ti. Las criaturas que estén en el otro plano no pueden percibirte en el Plano Etéreo a menos que tengan una capacidad especial que les permita percibir cosas en el Plano Etéreo.",
+   "text": "Tira 1d6 al final de cada uno de tus turnos hasta que el conjuro termine. Si el resultado es 4–6, desapareces de tu plano de existencia actual y apareces en el Plano Etéreo (el conjuro termina al instante si ya estabas en ese plano). Mientras estás en el Plano Etéreo, puedes percibir lo que sucede en el plano del que procedes, que se muestra en distintos tonos de gris, pero no puedes ver nada que esté a más de 18 m. Solo puedes afectar a criaturas que estén en el Plano Etéreo y solo estas criaturas te pueden afectar a ti. Las criaturas que estén en el otro plano no pueden percibirte en el Plano Etéreo a menos que tengan una capacidad especial que les permita percibir cosas en el Plano Etéreo."
+  },
+  {
+   "type": "paragraph",
+   "page": 140,
+   "md": "Al principio de tu siguiente turno, y si el conjuro acaba mientras estás en el Plano Etéreo, volverás al otro plano y aparecerás en un espacio sin ocupar de tu elección que puedas ver a 3 m o menos del espacio que hayas abandonado. Si no hay ningún espacio sin ocupar en ese alcance, aparecerás en el espacio sin ocupar más cercano.",
+   "text": "Al principio de tu siguiente turno, y si el conjuro acaba mientras estás en el Plano Etéreo, volverás al otro plano y aparecerás en un espacio sin ocupar de tu elección que puedas ver a 3 m o menos del espacio que hayas abandonado. Si no hay ningún espacio sin ocupar en ese alcance, aparecerás en el espacio sin ocupar más cercano."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 140
+ }
+}

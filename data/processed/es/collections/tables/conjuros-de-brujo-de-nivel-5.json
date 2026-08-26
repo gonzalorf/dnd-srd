@@ -1,0 +1,56 @@
+{
+ "id": "table.conjuros-de-brujo-de-nivel-5",
+ "caption": "Conjuros de brujo de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Atadura planar",
+   "Abjuración",
+   "M"
+  ],
+  [
+   "Círculo de teletransportación",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Contactar con otro plano",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Engañar",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Ensueño",
+   "Ilusionismo",
+   "—"
+  ],
+  [
+   "Escudriñar",
+   "Adivinación",
+   "C, M"
+  ],
+  [
+   "Inmovilizar monstruo",
+   "Encantamiento",
+   "C"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Brujo",
+  "Lista de conjuros de brujo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 45
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "spell.llama-permanente",
+ "name": "Llama permanente",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (polvo de rubí que valga al menos 50 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "polvo de rubí que valga al menos 50 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Una llama surge de un objeto que toques. El efecto emite una luz brillante en un radio de 6 m y una luz tenue 6 m más allá. Parece una llama normal, pero no genera calor ni consume combustible. La llama se puede tapar u ocultar, pero no se puede apagar ni extinguir.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 162,
+   "md": "Una llama surge de un objeto que toques. El efecto emite una luz brillante en un radio de 6 m y una luz tenue 6 m más allá. Parece una llama normal, pero no genera calor ni consume combustible. La llama se puede tapar u ocultar, pero no se puede apagar ni extinguir.",
+   "text": "Una llama surge de un objeto que toques. El efecto emite una luz brillante en un radio de 6 m y una luz tenue 6 m más allá. Parece una llama normal, pero no genera calor ni consume combustible. La llama se puede tapar u ocultar, pero no se puede apagar ni extinguir."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 162
+ }
+}

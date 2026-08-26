@@ -1,0 +1,29 @@
+{
+ "id": "item.aljaba-eficiente",
+ "name": "Aljaba eficiente",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Cada uno de los tres compartimentos de esta aljaba está conectado con un espacio extradimensional, lo que le permite contener muchos objetos sin pesar nunca más de 1 kg. El compartimento más pequeño puede albergar hasta 60 flechas, virotes u objetos similares. El compartimento intermedio puede contener hasta 18 jabalinas u objetos parecidos. En el compartimento más grande caben hasta 6 objetos largos, como arcos, bastones o lanzas.\n\nPuedes extraer cualquier objeto que contenga esta aljaba igual que lo harías con una aljaba o vaina normal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 229,
+   "md": "Cada uno de los tres compartimentos de esta aljaba está conectado con un espacio extradimensional, lo que le permite contener muchos objetos sin pesar nunca más de 1 kg. El compartimento más pequeño puede albergar hasta 60 flechas, virotes u objetos similares. El compartimento intermedio puede contener hasta 18 jabalinas u objetos parecidos. En el compartimento más grande caben hasta 6 objetos largos, como arcos, bastones o lanzas.",
+   "text": "Cada uno de los tres compartimentos de esta aljaba está conectado con un espacio extradimensional, lo que le permite contener muchos objetos sin pesar nunca más de 1 kg. El compartimento más pequeño puede albergar hasta 60 flechas, virotes u objetos similares. El compartimento intermedio puede contener hasta 18 jabalinas u objetos parecidos. En el compartimento más grande caben hasta 6 objetos largos, como arcos, bastones o lanzas."
+  },
+  {
+   "type": "paragraph",
+   "page": 229,
+   "md": "Puedes extraer cualquier objeto que contenga esta aljaba igual que lo harías con una aljaba o vaina normal.",
+   "text": "Puedes extraer cualquier objeto que contenga esta aljaba igual que lo harías con una aljaba o vaina normal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 229
+ }
+}

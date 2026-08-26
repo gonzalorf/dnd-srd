@@ -1,0 +1,36 @@
+{
+ "id": "rule.aturdido",
+ "name": "Aturdido",
+ "text": "Mientras tengas el estado de aturdido, experimentarás los siguientes efectos:\n\nIncapacitado. Tienes el estado de incapacitado.\n\nTiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen ventaja.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 196,
+   "md": "Mientras tengas el estado de aturdido, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de aturdido, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Incapacitado.*** Tienes el estado de incapacitado.",
+   "text": "Incapacitado. Tienes el estado de incapacitado."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Tiradas de salvación afectadas.*** Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.",
+   "text": "Tiradas de salvación afectadas. Fallas automáticamente las tiradas de salvación de Fuerza y Destreza."
+  },
+  {
+   "type": "definition",
+   "page": 196,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen ventaja.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen ventaja."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 196
+ },
+ "kind": "estado"
+}

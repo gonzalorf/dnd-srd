@@ -1,0 +1,29 @@
+{
+ "id": "weapon.espada-larga",
+ "name": "Espada larga",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Espada larga",
+  "Daño": "1d8 cortante",
+  "Propiedades": "Versátil (1d10)",
+  "Maestría": "Debilitar",
+  "Peso": "1,5 kg",
+  "Precio": "15 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "1,5 kg",
+  "kg": 1.5
+ },
+ "price": {
+  "raw": "15 po",
+  "amount": 15.0,
+  "coin": "po",
+  "gp": 15.0
+ }
+}

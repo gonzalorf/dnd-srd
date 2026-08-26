@@ -1,0 +1,26 @@
+{
+ "id": "item.varita-de-deteccion-magica",
+ "name": "Varita de detección mágica",
+ "category": "Varita",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Varita, infrecuente",
+ "text": "Esta varita tiene 3 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar detectar magia desde ella. La varita recupera 1d3 cargas empleadas cada día, al amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 273,
+   "md": "Esta varita tiene 3 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar *detectar magia* desde ella. La varita recupera 1d3 cargas empleadas cada día, al amanecer.",
+   "text": "Esta varita tiene 3 cargas. Mientras la sostengas, puedes gastar 1 carga para lanzar detectar magia desde ella. La varita recupera 1d3 cargas empleadas cada día, al amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 273
+ },
+ "refs": [
+  "spell.detectar-magia"
+ ]
+}

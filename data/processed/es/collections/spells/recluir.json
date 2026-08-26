@@ -1,0 +1,59 @@
+{
+ "id": "spell.recluir",
+ "name": "Recluir",
+ "level": 7,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Con un toque, recluyes mágicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinación, detectado con magia ni observado desde lejos mediante magia.\n\nSi el objetivo es una criatura, entra en un estado de animación suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer.\n\nPuedes establecer una condición para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1,5 km o menos del objetivo. Por ejemplo, “cuando transcurran 1000 años” o “cuando se despierte la tarasca”. Este conjuro también termina si el objetivo recibe cualquier daño.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Con un toque, recluyes mágicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinación, detectado con magia ni observado desde lejos mediante magia.",
+   "text": "Con un toque, recluyes mágicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinación, detectado con magia ni observado desde lejos mediante magia."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Si el objetivo es una criatura, entra en un estado de animación suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer.",
+   "text": "Si el objetivo es una criatura, entra en un estado de animación suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer."
+  },
+  {
+   "type": "paragraph",
+   "page": 179,
+   "md": "Puedes establecer una condición para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1,5 km o menos del objetivo. Por ejemplo, “cuando transcurran 1000 años” o “cuando se despierte la tarasca”. Este conjuro también termina si el objetivo recibe cualquier daño.",
+   "text": "Puedes establecer una condición para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1,5 km o menos del objetivo. Por ejemplo, “cuando transcurran 1000 años” o “cuando se despierte la tarasca”. Este conjuro también termina si el objetivo recibe cualquier daño."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 179
+ }
+}

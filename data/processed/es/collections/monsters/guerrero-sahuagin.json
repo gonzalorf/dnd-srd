@@ -1,0 +1,124 @@
+{
+ "id": "monster.guerrero-sahuagin",
+ "name": "Guerrero sahuagin",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 367
+ },
+ "context": [
+  "Sahuagin"
+ ],
+ "metaRaw": "Infernal Mediano, legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "22 (4d8 + 4)",
+  "average": 22,
+  "formula": "4d8 + 4"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 12.0
+ },
+ "skills": {
+  "Percepción": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "sahuagin"
+ ],
+ "resistances": [
+  "ácido",
+  "frío"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Frenesí sangriento",
+   "md": "***Frenesí sangriento.*** El sahuagin tiene ventaja en las tiradas de ataque contra cualquier criatura que no posea todos sus puntos de golpe.",
+   "page": 367,
+   "description": "El sahuagin tiene ventaja en las tiradas de ataque contra cualquier criatura que no posea todos sus puntos de golpe."
+  },
+  {
+   "name": "Parcialmente anfibio",
+   "md": "***Parcialmente anfibio.*** El sahuagin puede respirar tanto dentro del agua como fuera de ella, pero necesita sumergirse cada 4 horas para evitar asfixiarse fuera del agua.",
+   "page": 367,
+   "description": "El sahuagin puede respirar tanto dentro del agua como fuera de ella, pero necesita sumergirse cada 4 horas para evitar asfixiarse fuera del agua."
+  },
+  {
+   "name": "Telepatía con tiburones",
+   "md": "***Telepatía con tiburones.*** El sahuagin puede controlar mágicamente a los tiburones a 36 m o menos de él usando una telepatía especial.",
+   "page": 367,
+   "description": "El sahuagin puede controlar mágicamente a los tiburones a 36 m o menos de él usando una telepatía especial."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El sahuagin realiza dos ataques con sus garras.",
+   "page": 367,
+   "description": "El sahuagin realiza dos ataques con sus garras."
+  },
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante.",
+   "page": 367,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +3, alcance 1,5 m. *Acierto:* 4 (1d6 + 1) de daño cortante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Carga acuática",
+   "md": "***Carga acuática.*** El sahuagin nada hasta la mitad de su velocidad nadando en línea recta hacia un enemigo que pueda ver.",
+   "page": 367,
+   "description": "El sahuagin nada hasta la mitad de su velocidad nadando en línea recta hacia un enemigo que pueda ver."
+  }
+ ]
+}

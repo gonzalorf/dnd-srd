@@ -1,0 +1,104 @@
+{
+ "id": "monster.capitan-de-la-guardia",
+ "name": "Capitán de la guardia",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 335
+ },
+ "context": [
+  "Guardias"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 18,
+ "acRaw": "18",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "75 (10d8 + 30)",
+  "average": 75,
+  "formula": "10d8 + 30"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Atletismo": 6,
+  "Percepción": 4
+ },
+ "senses": {
+  "raw": "Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "coraza",
+  "escudo",
+  "espada larga",
+  "jabalinas (6)"
+ ],
+ "challenge": {
+  "raw": "4 (1100 PX; BC +2)",
+  "cr": 4,
+  "xp": 1100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "sab": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "car": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El guardia realiza dos ataques con su espada larga o sus jabalinas en cualquier combinación.",
+   "page": 335,
+   "description": "El guardia realiza dos ataques con su espada larga o sus jabalinas en cualquier combinación."
+  },
+  {
+   "name": "Espada larga",
+   "md": "***Espada larga.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 15 (2d10 + 4) de daño cortante.",
+   "page": 335,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 15 (2d10 + 4) de daño cortante."
+  },
+  {
+   "name": "Jabalina",
+   "md": "***Jabalina.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 14 (3d6 + 4) de daño perforante.",
+   "page": 335,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +6, alcance 1,5 m o 9/36 m a distancia. *Acierto:* 14 (3d6 + 4) de daño perforante."
+  }
+ ]
+}

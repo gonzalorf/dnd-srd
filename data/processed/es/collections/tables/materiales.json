@@ -1,0 +1,40 @@
+{
+ "id": "table.materiales",
+ "caption": "Materiales",
+ "header": [
+  "Material",
+  "Duración"
+ ],
+ "rows": [
+  [
+   "Materia vegetal",
+   "24 horas"
+  ],
+  [
+   "Piedra o cristal",
+   "12 horas"
+  ],
+  [
+   "Metales preciosos",
+   "1 hora"
+  ],
+  [
+   "Gemas",
+   "10 minutos"
+  ],
+  [
+   "Adamantina o mithral",
+   "1 minuto"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Creación"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 136
+ }
+}

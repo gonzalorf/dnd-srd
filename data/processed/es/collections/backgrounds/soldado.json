@@ -1,0 +1,47 @@
+{
+ "id": "background.soldado",
+ "name": "Soldado",
+ "text": "Puntuaciones de característica: Fuerza, Destreza,\n\nConstitución Dote: Atacante salvaje (consulta el capítulo “Dotes”)\n\nCompetencias en habilidades: Atletismo e\n\nIntimidación\n\nCompetencia con herramientas: elige un tipo de juego\n\n(consulta el capítulo “Equipo”) Equipo: elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Puntuaciones de característica: Fuerza, Destreza,",
+   "text": "Puntuaciones de característica: Fuerza, Destreza,"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "Constitución Dote: Atacante salvaje (consulta el capítulo “Dotes”)",
+   "text": "Constitución Dote: Atacante salvaje (consulta el capítulo “Dotes”)"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencias en habilidades: Atletismo e",
+   "text": "Competencias en habilidades: Atletismo e"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "Intimidación",
+   "text": "Intimidación"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "md": "Competencia con herramientas: *elige un tipo de juego*",
+   "text": "Competencia con herramientas: elige un tipo de juego"
+  },
+  {
+   "type": "callout",
+   "page": 89,
+   "md": "(consulta el capítulo “Equipo”) Equipo: *elige A o B:* (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po",
+   "text": "(consulta el capítulo “Equipo”) Equipo: elige A o B: (A) lanza, arco corto, 20 flechas, aljaba, juego (el mismo que arriba), útiles de sanador, ropas de viaje y 14 po, o (B) 50 po"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 89
+ }
+}

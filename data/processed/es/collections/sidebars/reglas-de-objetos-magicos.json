@@ -1,0 +1,40 @@
+{
+ "id": "sidebar.reglas-de-objetos-magicos",
+ "title": "Reglas de objetos mágicos",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "En el capítulo “Equipo” encontrarás reglas para usar objetos mágicos, identificarlos y sintonizarte con ellos. A continuación se presentan reglas adicionales.",
+   "text": "En el capítulo “Equipo” encontrarás reglas para usar objetos mágicos, identificarlos y sintonizarte con ellos. A continuación se presentan reglas adicionales."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Requisitos de sintonización.** Si un objeto mágico tiene un requisito de clase, una criatura debe ser miembro de esa clase para sintonizarse con él. Si el requisito para sintonizarse es ser un lanzador de conjuros, la criatura lo cumplirá si puede lanzar al menos un conjuro mediante sus atributos o rasgos, no con un objeto mágico o similar.",
+   "text": "Requisitos de sintonización. Si un objeto mágico tiene un requisito de clase, una criatura debe ser miembro de esa clase para sintonizarse con él. Si el requisito para sintonizarse es ser un lanzador de conjuros, la criatura lo cumplirá si puede lanzar al menos un conjuro mediante sus atributos o rasgos, no con un objeto mágico o similar."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Objetos creados para criaturas concretas.** Los objetos mágicos diseñados para llevarse puestos suelen ajustarse mágicamente a quien los porte. Sin embargo, podrías decidir que un objeto mágico no modifique su tamaño para ajustarse a quien lo lleve. Por ejemplo, un armero tal vez fabrique objetos que solo pueden llevar personas de tamaño y forma de enanos.",
+   "text": "Objetos creados para criaturas concretas. Los objetos mágicos diseñados para llevarse puestos suelen ajustarse mágicamente a quien los porte. Sin embargo, podrías decidir que un objeto mágico no modifique su tamaño para ajustarse a quien lo lleve. Por ejemplo, un armero tal vez fabrique objetos que solo pueden llevar personas de tamaño y forma de enanos."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Anatomía inusual.** A tu discreción, decide si una criatura puede vestir un objeto que no se diseñó para su anatomía. Un anillo colocado en un tentáculo podría funcionar, pero un yuan-ti con cola de serpiente en vez de piernas no podrá llevar botas mágicas.",
+   "text": "Anatomía inusual. A tu discreción, decide si una criatura puede vestir un objeto que no se diseñó para su anatomía. Un anillo colocado en un tentáculo podría funcionar, pero un yuan-ti con cola de serpiente en vez de piernas no podrá llevar botas mágicas."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Objetos emparejados.** Podrías permitir excepciones a la regla de que los objetos emparejados deben llevarse juntos. Por ejemplo, un personaje con un solo brazo podría usar un *guante atrapaflechas* mientras lleve el otro guante consigo.",
+   "text": "Objetos emparejados. Podrías permitir excepciones a la regla de que los objetos emparejados deben llevarse juntos. Por ejemplo, un personaje con un solo brazo podría usar un guante atrapaflechas mientras lleve el otro guante consigo."
+  }
+ ],
+ "context": [
+  "Objetos mágicos",
+  "Categorías de objetos mágicos",
+  "Varitas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 224
+ }
+}

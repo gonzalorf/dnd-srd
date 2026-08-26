@@ -1,0 +1,63 @@
+{
+ "id": "spell.espada-arcana",
+ "name": "Espada arcana",
+ "level": 7,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "bardo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V, S, M (una espada en miniatura que valga al menos 250 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una espada en miniatura que valga al menos 250 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Creas una espada espectral que levitará dentro del alcance y durará hasta que termine el conjuro.\n\nCuando aparezca la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra un objetivo que se encuentre a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 4d12 más tu modificador por aptitud mágica.\n\nEn tus turnos posteriores, puedes emplear una acción adicional para mover la espada hasta 9 m a un lugar que puedas ver y repetir el ataque contra el mismo objetivo u otro distinto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Creas una espada espectral que levitará dentro del alcance y durará hasta que termine el conjuro.",
+   "text": "Creas una espada espectral que levitará dentro del alcance y durará hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "Cuando aparezca la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra un objetivo que se encuentre a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 4d12 más tu modificador por aptitud mágica.",
+   "text": "Cuando aparezca la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra un objetivo que se encuentre a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 4d12 más tu modificador por aptitud mágica."
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "md": "En tus turnos posteriores, puedes emplear una acción adicional para mover la espada hasta 9 m a un lugar que puedas ver y repetir el ataque contra el mismo objetivo u otro distinto.",
+   "text": "En tus turnos posteriores, puedes emplear una acción adicional para mover la espada hasta 9 m a un lugar que puedas ver y repetir el ataque contra el mismo objetivo u otro distinto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 148
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "id": "monster.vrock",
+ "name": "Vrock",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 375
+ },
+ "context": [
+  "Vrock"
+ ],
+ "metaRaw": "Infernal Grande (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Grande",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "152 (16d10 + 64)",
+  "average": 152,
+  "formula": "16d10 + 64"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "abisal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "veneno",
+  "envenenado"
+ ],
+ "resistances": [
+  "frío",
+  "fuego",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "6 (2300 PX; BC +3)",
+  "cr": 6,
+  "xp": 2300,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 5
+  },
+  "con": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 4
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": 2
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación demoníaca",
+   "md": "***Recuperación demoníaca.*** Si el vrock muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.",
+   "page": 375,
+   "description": "Si el vrock muere fuera del Abismo, su cuerpo se disuelve en icor, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El vrock tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 375,
+   "description": "El vrock tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El vrock realiza dos ataques de desgarrar.",
+   "page": 375,
+   "description": "El vrock realiza dos ataques de desgarrar."
+  },
+  {
+   "name": "Desgarrar",
+   "md": "***Desgarrar.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante más 10 (3d6) de daño de veneno.",
+   "page": 375,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 10 (2d6 + 3) de daño perforante más 10 (3d6) de daño de veneno."
+  },
+  {
+   "name": "Chillido aturdidor",
+   "md": "***Chillido aturdidor (1/día).*** *Tirada de salvación de Constitución:* CD 15, todas las criaturas en una emanación de 6 m que se origina en el vrock (los demonios la superan automáticamente). *Fallo:* 10 (3d6) de daño de trueno y el objetivo tendrá el estado de aturdido hasta el final del siguiente turno del vrock.",
+   "page": 375,
+   "description": "*Tirada de salvación de Constitución:* CD 15, todas las criaturas en una emanación de 6 m que se origina en el vrock (los demonios la superan automáticamente). *Fallo:* 10 (3d6) de daño de trueno y el objetivo tendrá el estado de aturdido hasta el final del siguiente turno del vrock.",
+   "uses": "1/día"
+  },
+  {
+   "name": "Esporas",
+   "md": "***Esporas (recarga 6).*** *Tirada de salvación de Constitución:* CD 15, todas las criaturas en una emanación de 6 m que se origina en el vrock. *Fallo:* el objetivo tendrá el estado de envenenado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Mientras el objetivo esté envenenado, sufrirá 5 (1d10) de daño de veneno al principio de cada uno de sus turnos. Si se vacía un frasco de agua bendita sobre el objetivo, el efecto cesará.",
+   "page": 375,
+   "description": "*Tirada de salvación de Constitución:* CD 15, todas las criaturas en una emanación de 6 m que se origina en el vrock. *Fallo:* el objetivo tendrá el estado de envenenado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Mientras el objetivo esté envenenado, sufrirá 5 (1d10) de daño de veneno al principio de cada uno de sus turnos. Si se vacía un frasco de agua bendita sobre el objetivo, el efecto cesará.",
+   "uses": "recarga 6"
+  }
+ ]
+}

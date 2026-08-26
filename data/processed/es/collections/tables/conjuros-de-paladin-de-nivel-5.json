@@ -1,0 +1,41 @@
+{
+ "id": "table.conjuros-de-paladin-de-nivel-5",
+ "caption": "Conjuros de paladín de nivel 5",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Alzar a los muertos",
+   "Nigromancia",
+   "M"
+  ],
+  [
+   "Disipar el bien y el mal",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Geas",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Restablecimiento mayor",
+   "Abjuración",
+   "M"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Paladín",
+  "Lista de conjuros de paladín"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 84
+ }
+}

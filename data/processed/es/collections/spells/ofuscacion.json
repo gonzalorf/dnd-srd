@@ -1,0 +1,68 @@
+{
+ "id": "spell.ofuscacion",
+ "name": "Ofuscación",
+ "level": 8,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "brujo",
+  "druida",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (un llavero sin llaves)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un llavero sin llaves",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia.\n\nSi la falla, sufrirá 10d12 de daño psíquico y no podrá lanzar conjuros ni realizar acciones de magia. Al final de cada 30 días, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del efecto. También se puede finalizar este efecto mediante un conjuro curar, deseo o restablecimiento mayor.\n\nSi supera la tirada, solo sufrirá la mitad de ese daño.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia.",
+   "text": "Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia."
+  },
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Si la falla, sufrirá 10d12 de daño psíquico y no podrá lanzar conjuros ni realizar acciones de magia. Al final de cada 30 días, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del efecto. También se puede finalizar este efecto mediante un conjuro *curar*, *deseo* o *restablecimiento mayor*.",
+   "text": "Si la falla, sufrirá 10d12 de daño psíquico y no podrá lanzar conjuros ni realizar acciones de magia. Al final de cada 30 días, el objetivo repite la tirada de salvación y, si tiene éxito, se librará del efecto. También se puede finalizar este efecto mediante un conjuro curar, deseo o restablecimiento mayor."
+  },
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Si supera la tirada, solo sufrirá la mitad de ese daño.",
+   "text": "Si supera la tirada, solo sufrirá la mitad de ese daño."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 170
+ },
+ "refs": [
+  "spell.curar",
+  "spell.deseo",
+  "spell.restablecimiento-mayor"
+ ]
+}

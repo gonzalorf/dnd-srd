@@ -1,0 +1,58 @@
+{
+ "id": "spell.terror",
+ "name": "Terror",
+ "level": 3,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (una pluma blanca)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una pluma blanca",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Todas las criaturas situadas en un cono de 9 m deberán superar una tirada de salvación de Sabiduría o soltarán cualquier cosa que tengan agarrada y tendrán el estado de asustadas hasta que termine el conjuro.\n\nUna criatura asustada realizará la acción de correr en todos sus turnos para alejarse de ti por la ruta más segura, a menos que no haya por dónde huir. Si la criatura acaba su turno en un espacio desde el que no tenga línea de visión directa de ti, hará una tirada de salvación de Sabiduría. Si la supera, el conjuro terminará para ella.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Todas las criaturas situadas en un cono de 9 m deberán superar una tirada de salvación de Sabiduría o soltarán cualquier cosa que tengan agarrada y tendrán el estado de asustadas hasta que termine el conjuro.",
+   "text": "Todas las criaturas situadas en un cono de 9 m deberán superar una tirada de salvación de Sabiduría o soltarán cualquier cosa que tengan agarrada y tendrán el estado de asustadas hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 189,
+   "md": "Una criatura asustada realizará la acción de correr en todos sus turnos para alejarse de ti por la ruta más segura, a menos que no haya por dónde huir. Si la criatura acaba su turno en un espacio desde el que no tenga línea de visión directa de ti, hará una tirada de salvación de Sabiduría. Si la supera, el conjuro terminará para ella.",
+   "text": "Una criatura asustada realizará la acción de correr en todos sus turnos para alejarse de ti por la ruta más segura, a menos que no haya por dónde huir. Si la criatura acaba su turno en un espacio desde el que no tenga línea de visión directa de ti, hará una tirada de salvación de Sabiduría. Si la supera, el conjuro terminará para ella."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 189
+ }
+}

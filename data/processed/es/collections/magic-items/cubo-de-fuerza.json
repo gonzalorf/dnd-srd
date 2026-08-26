@@ -1,0 +1,64 @@
+{
+ "id": "item.cubo-de-fuerza",
+ "name": "Cubo de fuerza",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Este cubo mide aproximadamente 2,5 cm de lado. Cada cara tiene un signo específico. Puedes pulsar una de las caras del cubo y gastar el número correspondiente de cargas para lanzar el conjuro asociado a ella (CD de salvación 17), como se muestra en la tabla “Caras del cubo de fuerza”.\n\nEl cubo comienza con 10 cargas y recupera 1d6 cargas empleadas cada día, al amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "Este cubo mide aproximadamente 2,5 cm de lado. Cada cara tiene un signo específico. Puedes pulsar una de las caras del cubo y gastar el número correspondiente de cargas para lanzar el conjuro asociado a ella (CD de salvación 17), como se muestra en la tabla “Caras del cubo de fuerza”.",
+   "text": "Este cubo mide aproximadamente 2,5 cm de lado. Cada cara tiene un signo específico. Puedes pulsar una de las caras del cubo y gastar el número correspondiente de cargas para lanzar el conjuro asociado a ella (CD de salvación 17), como se muestra en la tabla “Caras del cubo de fuerza”."
+  },
+  {
+   "type": "paragraph",
+   "page": 250,
+   "md": "El cubo comienza con 10 cargas y recupera 1d6 cargas empleadas cada día, al amanecer.",
+   "text": "El cubo comienza con 10 cargas y recupera 1d6 cargas empleadas cada día, al amanecer."
+  },
+  {
+   "type": "table",
+   "page": 250,
+   "caption": "Caras del cubo de fuerza",
+   "header": [
+    "Conjuro",
+    "Coste en cargas"
+   ],
+   "rows": [
+    [
+     "Armadura de mago",
+     "1"
+    ],
+    [
+     "Escudo",
+     "1"
+    ],
+    [
+     "Pequeña choza",
+     "3"
+    ],
+    [
+     "Esfera elástica",
+     "4"
+    ],
+    [
+     "Sanctasanctórum privado",
+     "4"
+    ],
+    [
+     "Muro de fuerza",
+     "5"
+    ]
+   ]
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 250
+ }
+}

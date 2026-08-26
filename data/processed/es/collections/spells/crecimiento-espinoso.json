@@ -1,0 +1,57 @@
+{
+ "id": "spell.crecimiento-espinoso",
+ "name": "Crecimiento espinoso",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S, M (siete espinas)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "siete espinas",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Del suelo en una esfera de 6 m de radio centrada en un punto dentro del alcance brotan espinas y pinchos. La zona se vuelve terreno difícil hasta que termine el conjuro. Cuando una criatura entra en la zona o se desplaza por ella, recibe 2d4 de daño perforante por cada 1,5 m que avanza.\n\nLa transformación del suelo se camufla, de forma que parece natural. Cualquier criatura que no pueda ver la zona cuando se lanza el conjuro deberá emplear una acción de buscar y superar una prueba de Sabiduría (Percepción o Supervivencia) contra tu CD de salvación de conjuros para reconocer que el terreno es peligroso antes de adentrarse en él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "Del suelo en una esfera de 6 m de radio centrada en un punto dentro del alcance brotan espinas y pinchos. La zona se vuelve terreno difícil hasta que termine el conjuro. Cuando una criatura entra en la zona o se desplaza por ella, recibe 2d4 de daño perforante por cada 1,5 m que avanza.",
+   "text": "Del suelo en una esfera de 6 m de radio centrada en un punto dentro del alcance brotan espinas y pinchos. La zona se vuelve terreno difícil hasta que termine el conjuro. Cuando una criatura entra en la zona o se desplaza por ella, recibe 2d4 de daño perforante por cada 1,5 m que avanza."
+  },
+  {
+   "type": "paragraph",
+   "page": 137,
+   "md": "La transformación del suelo se camufla, de forma que parece natural. Cualquier criatura que no pueda ver la zona cuando se lanza el conjuro deberá emplear una acción de buscar y superar una prueba de Sabiduría (Percepción o Supervivencia) contra tu CD de salvación de conjuros para reconocer que el terreno es peligroso antes de adentrarse en él.",
+   "text": "La transformación del suelo se camufla, de forma que parece natural. Cualquier criatura que no pueda ver la zona cuando se lanza el conjuro deberá emplear una acción de buscar y superar una prueba de Sabiduría (Percepción o Supervivencia) contra tu CD de salvación de conjuros para reconocer que el terreno es peligroso antes de adentrarse en él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 137
+ }
+}

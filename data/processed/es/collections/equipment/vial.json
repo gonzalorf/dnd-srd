@@ -1,0 +1,32 @@
+{
+ "id": "gear.vial",
+ "name": "Vial",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Vial",
+  "Peso": "—",
+  "Precio": "1 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ },
+ "text": "En un vial caben 120 ml de líquido.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 108,
+   "md": "En un vial caben 120 ml de líquido.",
+   "text": "En un vial caben 120 ml de líquido."
+  }
+ ],
+ "descriptionPage": 108
+}

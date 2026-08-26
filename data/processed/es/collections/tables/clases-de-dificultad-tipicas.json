@@ -1,0 +1,41 @@
+{
+ "id": "table.clases-de-dificultad-tipicas",
+ "caption": "Clases de dificultad típicas",
+ "header": [
+  "Dificultad de la tarea",
+  "CD"
+ ],
+ "rows": [
+  [
+   "Muy fácil",
+   "5"
+  ],
+  [
+   "Fácil",
+   "10"
+  ],
+  [
+   "Dificultad media",
+   "15"
+  ],
+  [
+   "Muy difícil",
+   "25"
+  ],
+  [
+   "Casi imposible",
+   "30"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Cómo jugar",
+  "Las pruebas con d20",
+  "Pruebas de característica",
+  "Clase de dificultad"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 7
+ }
+}

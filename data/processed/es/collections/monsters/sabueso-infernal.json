@@ -1,0 +1,110 @@
+{
+ "id": "monster.sabueso-infernal",
+ "name": "Sabueso infernal",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 364
+ },
+ "context": [
+  "Sabueso infernal"
+ ],
+ "metaRaw": "Infernal Mediano, legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "58 (9d8 + 18)",
+  "average": 58,
+  "formula": "9d8 + 18"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "skills": {
+  "Percepción": 5
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 15",
+  "passivePerception": 15
+ },
+ "languages": [
+  "entiende infernal",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en manada",
+   "md": "***Atacar en manada.*** El sabueso tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del sabueso se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.",
+   "page": 364,
+   "description": "El sabueso tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del sabueso se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El sabueso realiza dos ataques de mordisco.",
+   "page": 364,
+   "description": "El sabueso realiza dos ataques de mordisco."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 3 (1d6) de daño de fuego.",
+   "page": 364,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño perforante más 3 (1d6) de daño de fuego."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 12, todas las criaturas en un cono de 4,5 m. *Fallo:* 17 (5d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 364,
+   "description": "*Tirada de salvación de Destreza:* CD 12, todas las criaturas en un cono de 4,5 m. *Fallo:* 17 (5d6) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "spell.geas",
+ "name": "Geas",
+ "level": 5,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "mago",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "30 días",
+  "concentration": false,
+  "kind": "timed",
+  "value": 30,
+  "unit": "día"
+ },
+ "text": "Das una orden verbal a una criatura que puedas ver dentro del alcance y la obligas a llevar a cabo un cometido o le impides realizar una acción o actividad, según desees. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. El objetivo la superará automáticamente si no entiende la orden.\n\nMientras esté hechizada, la criatura sufre 5d10 de daño psíquico si actúa de manera contraria a tus instrucciones, y solo podrá recibir este daño una vez al día.\n\nPuedes dar cualquier orden que quieras, siempre que no sea una actividad que suponga una muerte segura. Si das una orden suicida, el conjuro termina.\n\nUn conjuro deseo, levantar maldición o restablecimiento mayor también pone fin a este conjuro.\n\nCon un espacio de conjuro de nivel superior. Si usas un espacio de niveles 7 u 8, la duración será de 365 días. Si usas un espacio de nivel 9, el conjuro durará hasta que se le ponga fin mediante uno de los conjuros mencionados anteriormente.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Das una orden verbal a una criatura que puedas ver dentro del alcance y la obligas a llevar a cabo un cometido o le impides realizar una acción o actividad, según desees. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. El objetivo la superará automáticamente si no entiende la orden.",
+   "text": "Das una orden verbal a una criatura que puedas ver dentro del alcance y la obligas a llevar a cabo un cometido o le impides realizar una acción o actividad, según desees. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. El objetivo la superará automáticamente si no entiende la orden."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Mientras esté hechizada, la criatura sufre 5d10 de daño psíquico si actúa de manera contraria a tus instrucciones, y solo podrá recibir este daño una vez al día.",
+   "text": "Mientras esté hechizada, la criatura sufre 5d10 de daño psíquico si actúa de manera contraria a tus instrucciones, y solo podrá recibir este daño una vez al día."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Puedes dar cualquier orden que quieras, siempre que no sea una actividad que suponga una muerte segura. Si das una orden suicida, el conjuro termina.",
+   "text": "Puedes dar cualquier orden que quieras, siempre que no sea una actividad que suponga una muerte segura. Si das una orden suicida, el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Un conjuro *deseo*, *levantar maldición* o *restablecimiento mayor* también pone fin a este conjuro.",
+   "text": "Un conjuro deseo, levantar maldición o restablecimiento mayor también pone fin a este conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 152,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Si usas un espacio de niveles 7 u 8, la duración será de 365 días. Si usas un espacio de nivel 9, el conjuro durará hasta que se le ponga fin mediante uno de los conjuros mencionados anteriormente.",
+   "text": "Con un espacio de conjuro de nivel superior. Si usas un espacio de niveles 7 u 8, la duración será de 365 días. Si usas un espacio de nivel 9, el conjuro durará hasta que se le ponga fin mediante uno de los conjuros mencionados anteriormente."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 151
+ },
+ "refs": [
+  "spell.deseo",
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-mayor"
+ ]
+}

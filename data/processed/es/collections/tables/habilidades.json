@@ -1,0 +1,111 @@
+{
+ "id": "table.habilidades",
+ "caption": "Habilidades",
+ "header": [
+  "Habilidad",
+  "Característica",
+  "Ejemplos de usos"
+ ],
+ "rows": [
+  [
+   "Acrobacias",
+   "Destreza",
+   "Conservar el equilibrio en situaciones difíciles o realizar una proeza acrobática."
+  ],
+  [
+   "Atletismo",
+   "Fuerza",
+   "Saltar más lejos de lo normal, mantenerse a flote en aguas revueltas o romper algo."
+  ],
+  [
+   "Conocimiento arcano",
+   "Inteligencia",
+   "Recordar información acerca de conjuros, objetos mágicos y los planos de existencia."
+  ],
+  [
+   "Engaño",
+   "Carisma",
+   "Contar una mentira convincente o llevar un disfraz de manera creíble."
+  ],
+  [
+   "Historia",
+   "Inteligencia",
+   "Recordar información sobre acontecimientos, personas, naciones y culturas de carácter histórico."
+  ],
+  [
+   "Interpretación",
+   "Carisma",
+   "Actuar, contar una historia, tocar un instrumento o bailar."
+  ],
+  [
+   "Intimidación",
+   "Carisma",
+   "Asustar o amenazar a alguien para que haga lo que tú quieres."
+  ],
+  [
+   "Investigación",
+   "Inteligencia",
+   "Encontrar información oculta en libros o deducir cómo funciona algo."
+  ],
+  [
+   "Juego de manos",
+   "Destreza",
+   "Vaciar los bolsillos a alguien, ocultar un objeto que llevas en la mano o hacer trucos de prestidigitación."
+  ],
+  [
+   "Medicina",
+   "Sabiduría",
+   "Diagnosticar una enfermedad o determinar de qué ha muerto un fallecido reciente."
+  ],
+  [
+   "Naturaleza",
+   "Inteligencia",
+   "Recordar información acerca del terreno, la flora, la fauna y el clima."
+  ],
+  [
+   "Percepción",
+   "Sabiduría",
+   "Mediante una combinación de sentidos, darse cuenta de algo que es fácil pasar por alto."
+  ],
+  [
+   "Perspicacia",
+   "Sabiduría",
+   "Discernir el estado de ánimo y las intenciones de una persona."
+  ],
+  [
+   "Persuasión",
+   "Carisma",
+   "Convencer a alguien de algo de una manera sincera y amable."
+  ],
+  [
+   "Religión",
+   "Inteligencia",
+   "Recordar información sobre dioses, rituales religiosos y símbolos sagrados."
+  ],
+  [
+   "Sigilo",
+   "Destreza",
+   "Pasar desapercibido al caminar en silencio y ocultarse detrás de las cosas."
+  ],
+  [
+   "Supervivencia",
+   "Sabiduría",
+   "Seguir huellas, forrajear, encontrar un camino o evitar peligros naturales."
+  ],
+  [
+   "Trato con",
+   "Sabiduría",
+   "Tranquilizar o adiestrar a un animal, o conseguir que se comporte de una deter"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Cómo jugar",
+  "Competencia",
+  "Competencias en habilidades"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 9
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "table.conjuros-de-bardo-de-nivel-8",
+ "caption": "Conjuros de bardo de nivel 8",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Antipatía/simpatía",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Dominar monstruo",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Labia",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Ofuscación",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Palabra de poder: aturdir",
+   "Encantamiento",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Bardo",
+  "Lista de conjuros de bardo"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 39
+ }
+}

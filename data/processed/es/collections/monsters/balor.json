@@ -1,0 +1,148 @@
+{
+ "id": "monster.balor",
+ "name": "Balor",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 286
+ },
+ "context": [
+  "Balor"
+ ],
+ "metaRaw": "Infernal Enorme (demonio), caótico malvado",
+ "type": "Infernal",
+ "alignment": "caótico malvado",
+ "size": "Enorme",
+ "tags": [
+  "demonio"
+ ],
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "287 (23d12 + 138)",
+  "average": 287,
+  "formula": "23d12 + 138"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Percepción": 9
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 19",
+  "passivePerception": 19
+ },
+ "languages": [
+  "abisal",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "asustado",
+  "envenenado",
+  "hechizado"
+ ],
+ "resistances": [
+  "frío",
+  "relámpago"
+ ],
+ "challenge": {
+  "raw": "19 (22 000 PX; BC +6)",
+  "cr": 19,
+  "xp": 22000,
+  "proficiencyBonus": 6
+ },
+ "abilities": {
+  "fue": {
+   "score": 26,
+   "mod": 8,
+   "save": 8
+  },
+  "des": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 22,
+   "mod": 6,
+   "save": 12
+  },
+  "int": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 9
+  },
+  "car": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  }
+ },
+ "traits": [
+  {
+   "name": "Aura de fuego",
+   "md": "***Aura de fuego.*** Al final de cada turno del balor, todas las criaturas en una emanación de 1,5 m que se origina en él reciben 13 (3d8) de daño de fuego.",
+   "page": 286,
+   "description": "Al final de cada turno del balor, todas las criaturas en una emanación de 1,5 m que se origina en él reciben 13 (3d8) de daño de fuego."
+  },
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (3/día).*** El balor puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 286,
+   "description": "El balor puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "3/día"
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El balor tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 286,
+   "description": "El balor tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  },
+  {
+   "name": "Últimos estertores",
+   "md": "***Últimos estertores.*** El balor explota cuando muere. *Tirada de salvación de Destreza:* CD 20, todas las criaturas en una emanación de 9 m que se origina en el balor. *Fallo:* 31 (9d6) de daño de fuego más 31 (9d6) de daño de fuerza. *Éxito:* la mitad del daño. *Fallo o éxito:* si el balor muere fuera del Abismo, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.",
+   "page": 286,
+   "description": "El balor explota cuando muere. *Tirada de salvación de Destreza:* CD 20, todas las criaturas en una emanación de 9 m que se origina en el balor. *Fallo:* 31 (9d6) de daño de fuego más 31 (9d6) de daño de fuerza. *Éxito:* la mitad del daño. *Fallo o éxito:* si el balor muere fuera del Abismo, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El balor realiza un ataque con su látigo de llamas y un ataque con su hoja de relámpago.",
+   "page": 286,
+   "description": "El balor realiza un ataque con su látigo de llamas y un ataque con su hoja de relámpago."
+  },
+  {
+   "name": "Hoja de relámpago",
+   "md": "***Hoja de relámpago.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 21 (3d8 + 8) de daño de fuerza más 22 (4d10) de daño de relámpago y el objetivo no puede llevar a cabo reacciones hasta el principio del siguiente turno del balor.",
+   "page": 286,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 21 (3d8 + 8) de daño de fuerza más 22 (4d10) de daño de relámpago y el objetivo no puede llevar a cabo reacciones hasta el principio del siguiente turno del balor."
+  },
+  {
+   "name": "Látigo de llamas",
+   "md": "***Látigo de llamas.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 9 m. *Acierto:* 18 (3d6 + 8) de daño de fuerza más 17 (5d6) de daño de fuego. Si el objetivo es una criatura Enorme o más pequeña, el balor la atrae hasta 7,5 m en línea recta hacia él y dicho objetivo tiene el estado de derribado.",
+   "page": 286,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 9 m. *Acierto:* 18 (3d6 + 8) de daño de fuerza más 17 (5d6) de daño de fuego. Si el objetivo es una criatura Enorme o más pequeña, el balor la atrae hasta 7,5 m en línea recta hacia él y dicho objetivo tiene el estado de derribado."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Teletransporte",
+   "md": "***Teletransporte.*** El balor se teletransporta a sí mismo o a un demonio voluntario que esté a 3 m o menos de él hasta 18 m a un espacio sin ocupar que el balor pueda ver.",
+   "page": 286,
+   "description": "El balor se teletransporta a sí mismo o a un demonio voluntario que esté a 3 m o menos de él hasta 18 m a un espacio sin ocupar que el balor pueda ver."
+  }
+ ]
+}

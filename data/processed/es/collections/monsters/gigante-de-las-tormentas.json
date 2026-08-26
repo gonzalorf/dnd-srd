@@ -1,0 +1,146 @@
+{
+ "id": "monster.gigante-de-las-tormentas",
+ "name": "Gigante de las tormentas",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 329
+ },
+ "context": [
+  "Gigante de las tormentas"
+ ],
+ "metaRaw": "Gigante Enorme, caótico bueno",
+ "type": "Gigante",
+ "alignment": "caótico bueno",
+ "size": "Enorme",
+ "ac": 16,
+ "acRaw": "16",
+ "initiative": {
+  "mod": 7,
+  "score": 17
+ },
+ "hp": {
+  "raw": "230 (20d12 + 100)",
+  "average": 230,
+  "formula": "20d12 + 100"
+ },
+ "speeds": {
+  "caminando": 15.0,
+  "nadar": 15.0,
+  "volar": 7.5
+ },
+ "skills": {
+  "Atletismo": 14,
+  "Conocimiento arcano": 8,
+  "Historia": 8,
+  "Percepción": 10
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m, visión verdadera 9 m; Percepción pasiva 20",
+  "passivePerception": 20
+ },
+ "languages": [
+  "común",
+  "gigante"
+ ],
+ "immunities": [
+  "relámpago",
+  "trueno"
+ ],
+ "resistances": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "13 (10 000 PX; BC +5)",
+  "cr": 13,
+  "xp": 10000,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 29,
+   "mod": 9,
+   "save": 14
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 20,
+   "mod": 5,
+   "save": 10
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 20,
+   "mod": 5,
+   "save": 10
+  },
+  "car": {
+   "score": 18,
+   "mod": 4,
+   "save": 9
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El gigante puede respirar tanto dentro como fuera del agua.",
+   "page": 329,
+   "description": "El gigante puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gigante realiza dos ataques con su espada tormentosa o su rayo en cualquier combinación.",
+   "page": 329,
+   "description": "El gigante realiza dos ataques con su espada tormentosa o su rayo en cualquier combinación."
+  },
+  {
+   "name": "Espada tormentosa",
+   "md": "***Espada tormentosa.*** *Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 23 (4d6 + 9) de daño cortante más 13 (3d8) de daño de relámpago.",
+   "page": 329,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +14, alcance 3 m. *Acierto:* 23 (4d6 + 9) de daño cortante más 13 (3d8) de daño de relámpago."
+  },
+  {
+   "name": "Rayo",
+   "md": "***Rayo.*** *Tirada de ataque a distancia:* +14, alcance 150 m. *Acierto:* 22 (2d12 + 9) de daño de relámpago y el objetivo tendrá los estados de cegado y ensordecido hasta el principio del siguiente turno del gigante.",
+   "page": 329,
+   "description": "*Tirada de ataque a distancia:* +14, alcance 150 m. *Acierto:* 22 (2d12 + 9) de daño de relámpago y el objetivo tendrá los estados de cegado y ensordecido hasta el principio del siguiente turno del gigante."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El gigante lanza uno de los siguientes conjuros, que no requiere componentes ma",
+   "page": 329,
+   "description": "El gigante lanza uno de los siguientes conjuros, que no requiere componentes ma"
+  },
+  {
+   "name": null,
+   "md": "teriales y utiliza la Sabiduría como aptitud mágica (CD de salvación de conjuros 18):",
+   "page": 329
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar magia*, *luz* 1/día: *controlar el clima*",
+   "page": 329
+  },
+  {
+   "name": "Tormenta de relámpagos",
+   "md": "***Tormenta de relámpagos (recarga 5–6).*** *Tirada de salvación de Destreza:* CD 18, todas las criaturas en un cilindro de 3 m de radio y 12 m de alto que se origina en un punto que el gigante pueda ver a 150 m o menos. *Fallo:* 55 (10d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "page": 329,
+   "description": "*Tirada de salvación de Destreza:* CD 18, todas las criaturas en un cilindro de 3 m de radio y 12 m de alto que se origina en un punto que el gigante pueda ver a 150 m o menos. *Fallo:* 55 (10d10) de daño de relámpago. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  }
+ ],
+ "refs": [
+  "spell.detectar-magia",
+  "spell.luz",
+  "spell.controlar-el-clima"
+ ]
+}

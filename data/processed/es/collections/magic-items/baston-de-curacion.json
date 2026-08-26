@@ -1,0 +1,60 @@
+{
+ "id": "item.baston-de-curacion",
+ "name": "Bastón de curación",
+ "category": "Bastón",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": "un bardo, clérigo o druida",
+ "subtitle": "Bastón, raro (requiere sintonización por parte de un bardo, clérigo o druida)",
+ "text": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu modificador por aptitud mágica. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.\n\nRecuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se desvanece tras un destello y se pierde para siempre.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 239,
+   "md": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu modificador por aptitud mágica. En ella se indica cuántas cargas debes gastar para lanzar el conjuro.",
+   "text": "Este bastón tiene 10 cargas. Mientras lo empuñes, puedes lanzar un conjuro de la tabla a continuación desde él empleando tu modificador por aptitud mágica. En ella se indica cuántas cargas debes gastar para lanzar el conjuro."
+  },
+  {
+   "type": "table",
+   "page": 239,
+   "caption": null,
+   "header": [
+    "Conjuro",
+    "Coste en cargas"
+   ],
+   "rows": [
+    [
+     "Curar heridas",
+     "1 carga por nivel del conjuro (máximo 4 para un conjuro de nivel 4)"
+    ],
+    [
+     "Curar heridas en masa",
+     "5"
+    ],
+    [
+     "Restablecimiento menor",
+     "2"
+    ],
+    [
+     "Insecto gigante",
+     "4"
+    ],
+    [
+     "Plaga de insectos",
+     "5"
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 239,
+   "md": "***Recuperar cargas.*** El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se desvanece tras un destello y se pierde para siempre.",
+   "text": "Recuperar cargas. El bastón recupera 1d6 + 4 cargas empleadas cada día, al amanecer. Si gastas la última carga, tira 1d20. Si el resultado es 1, el bastón se desvanece tras un destello y se pierde para siempre."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 239
+ }
+}

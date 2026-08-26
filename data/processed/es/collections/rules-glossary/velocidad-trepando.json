@@ -1,0 +1,17 @@
+{
+ "id": "rule.velocidad-trepando",
+ "name": "Velocidad trepando",
+ "text": "Una velocidad trepando se puede utilizar en lugar de la velocidad para recorrer una superficie vertical sin gastar el movimiento adicional que normalmente se asocia a trepar. Consulta también “Trepar” y “Velocidad”.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 210,
+   "md": "Una velocidad trepando se puede utilizar en lugar de la velocidad para recorrer una superficie vertical sin gastar el movimiento adicional que normalmente se asocia a trepar. *Consulta también* “Trepar” y “Velocidad”.",
+   "text": "Una velocidad trepando se puede utilizar en lugar de la velocidad para recorrer una superficie vertical sin gastar el movimiento adicional que normalmente se asocia a trepar. Consulta también “Trepar” y “Velocidad”."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 210
+ }
+}

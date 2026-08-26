@@ -1,0 +1,22 @@
+{
+ "id": "mount.caballo-de-guerra",
+ "name": "Caballo de guerra",
+ "kind": "mount",
+ "group": null,
+ "table": "Monturas y otros animales",
+ "fields": {
+  "Animal": "Caballo de guerra",
+  "Capacidad de carga": "270 kg",
+  "Precio": "400 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ },
+ "price": {
+  "raw": "400 po",
+  "amount": 400.0,
+  "coin": "po",
+  "gp": 400.0
+ }
+}

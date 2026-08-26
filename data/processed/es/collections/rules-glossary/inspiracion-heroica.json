@@ -1,0 +1,23 @@
+{
+ "id": "rule.inspiracion-heroica",
+ "name": "Inspiración heroica",
+ "text": "Si tienes inspiración heroica (como personaje jugador), puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado.\n\nSi obtienes inspiración heroica y ya tenías, se desperdiciará salvo que se la concedas a un personaje jugador que carezca de ella.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Si tienes inspiración heroica (como personaje jugador), puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado.",
+   "text": "Si tienes inspiración heroica (como personaje jugador), puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado."
+  },
+  {
+   "type": "paragraph",
+   "page": 203,
+   "md": "Si obtienes inspiración heroica y ya tenías, se desperdiciará salvo que se la concedas a un personaje jugador que carezca de ella.",
+   "text": "Si obtienes inspiración heroica y ya tenías, se desperdiciará salvo que se la concedas a un personaje jugador que carezca de ella."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 203
+ }
+}

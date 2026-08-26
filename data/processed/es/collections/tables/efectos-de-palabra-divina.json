@@ -1,0 +1,31 @@
+{
+ "id": "table.efectos-de-palabra-divina",
+ "caption": "Efectos de palabra divina",
+ "header": [
+  "Puntos de golpeEfecto"
+ ],
+ "rows": [
+  [
+   "0–20El objetivo muere."
+  ],
+  [
+   "21–30El objetivo tiene los estados de aturdido, cegado y ensordecido durante 1 hora."
+  ],
+  [
+   "31–40El objetivo tiene los estados de cegado y ensordecido durante 10 minutos."
+  ],
+  [
+   "41–50El objetivo tiene el estado de ensordecido"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Palabra divina"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

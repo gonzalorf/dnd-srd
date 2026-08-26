@@ -1,0 +1,86 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-4",
+ "caption": "Conjuros de hechicero de nivel 4",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Confusión",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Destierro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Dominar bestia",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Escudo de fuego",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Esfera vitriólica",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Hechizar monstruo",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Invisibilidad mejorada",
+   "Ilusionismo",
+   "C"
+  ],
+  [
+   "Marchitar",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Muro de fuego",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Piel pétrea",
+   "Transmutación",
+   "C, M"
+  ],
+  [
+   "Polimorfar",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Puerta dimensional",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Tormenta de hielo",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 69
+ }
+}

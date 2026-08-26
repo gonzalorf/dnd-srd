@@ -1,0 +1,79 @@
+{
+ "id": "spell.jaula-de-fuerza",
+ "name": "Jaula de fuerza",
+ "level": 7,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "bardo",
+  "brujo",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "30 m",
+  "kind": "ranged",
+  "meters": 30
+ },
+ "components": {
+  "raw": "V, S, M (polvo de rubí que valga al menos 1500 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "polvo de rubí que valga al menos 1500 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Una prisión inmóvil e invisible con forma de cubo y compuesta de fuerza mágica surge en una zona de tu elección dentro del alcance. Puede ser una jaula o una caja de paredes sólidas, según desees.\n\nUna prisión con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de diámetro separados 1,25 cm entre sí. Una prisión con forma de caja puede tener hasta 3 m de lado. Creará una barrera sólida que impida que cualquier materia la atraviese y bloqueará cualquier conjuro que se lance a esa zona o desde ella.\n\nCuando lances el conjuro, cualquier criatura que esté completamente dentro del área de la jaula quedará atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del área o sean demasiado grandes para caber en ella se las empujará lejos del centro de la jaula hasta estar completamente fuera de la zona.\n\nUna criatura que esté dentro de la jaula no puede salir de ella por medios que no sean mágicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deberá hacer una tirada de salvación de Carisma. Si la supera, podrá usar esa magia para salir de la jaula. Si falla la tirada, no saldrá y se perderá el espacio de conjuro o el efecto. La jaula también se extiende hasta el Plano Etéreo e impide el viaje etéreo.\n\nEste conjuro no se puede eliminar mediante disipar magia.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Una prisión inmóvil e invisible con forma de cubo y compuesta de fuerza mágica surge en una zona de tu elección dentro del alcance. Puede ser una jaula o una caja de paredes sólidas, según desees.",
+   "text": "Una prisión inmóvil e invisible con forma de cubo y compuesta de fuerza mágica surge en una zona de tu elección dentro del alcance. Puede ser una jaula o una caja de paredes sólidas, según desees."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Una prisión con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de diámetro separados 1,25 cm entre sí. Una prisión con forma de caja puede tener hasta 3 m de lado. Creará una barrera sólida que impida que cualquier materia la atraviese y bloqueará cualquier conjuro que se lance a esa zona o desde ella.",
+   "text": "Una prisión con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de diámetro separados 1,25 cm entre sí. Una prisión con forma de caja puede tener hasta 3 m de lado. Creará una barrera sólida que impida que cualquier materia la atraviese y bloqueará cualquier conjuro que se lance a esa zona o desde ella."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Cuando lances el conjuro, cualquier criatura que esté completamente dentro del área de la jaula quedará atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del área o sean demasiado grandes para caber en ella se las empujará lejos del centro de la jaula hasta estar completamente fuera de la zona.",
+   "text": "Cuando lances el conjuro, cualquier criatura que esté completamente dentro del área de la jaula quedará atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del área o sean demasiado grandes para caber en ella se las empujará lejos del centro de la jaula hasta estar completamente fuera de la zona."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Una criatura que esté dentro de la jaula no puede salir de ella por medios que no sean mágicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deberá hacer una tirada de salvación de Carisma. Si la supera, podrá usar esa magia para salir de la jaula. Si falla la tirada, no saldrá y se perderá el espacio de conjuro o el efecto. La jaula también se extiende hasta el Plano Etéreo e impide el viaje etéreo.",
+   "text": "Una criatura que esté dentro de la jaula no puede salir de ella por medios que no sean mágicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deberá hacer una tirada de salvación de Carisma. Si la supera, podrá usar esa magia para salir de la jaula. Si falla la tirada, no saldrá y se perderá el espacio de conjuro o el efecto. La jaula también se extiende hasta el Plano Etéreo e impide el viaje etéreo."
+  },
+  {
+   "type": "paragraph",
+   "page": 161,
+   "md": "Este conjuro no se puede eliminar mediante *disipar magia*.",
+   "text": "Este conjuro no se puede eliminar mediante disipar magia."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 160
+ },
+ "refs": [
+  "spell.disipar-magia"
+ ]
+}

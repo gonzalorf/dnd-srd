@@ -1,0 +1,159 @@
+{
+ "id": "table.bagatelas",
+ "caption": "Bagatelas",
+ "header": [
+  "1d100",
+  "Bagatela"
+ ],
+ "rows": [
+  [
+   "01",
+   "La mano momificada de un goblin"
+  ],
+  [
+   "02",
+   "Un trozo de cristal que brilla débilmente a la luz de la luna"
+  ],
+  [
+   "03",
+   "Una moneda de oro acuñada en una tierra desconocida"
+  ],
+  [
+   "04",
+   "Un diario escrito en un idioma que desconoces"
+  ],
+  [
+   "05",
+   "Un anillo de latón que nunca pierde su lustre"
+  ],
+  [
+   "06",
+   "Una antigua pieza de ajedrez hecha de vidrio"
+  ],
+  [
+   "07",
+   "Un par de dados de hueso, ambos con una calavera en lugar del seis"
+  ],
+  [
+   "09",
+   "Un mechón de pelo de alguien"
+  ],
+  [
+   "10",
+   "La cédula de propiedad de un terreno situado en un reino que no conoces"
+  ],
+  [
+   "11",
+   "Un bloque de 30 g de un material desconocido"
+  ],
+  [
+   "12",
+   "Una pequeña muñeca de trapo atravesada por agujas"
+  ],
+  [
+   "13",
+   "Un diente de una bestia desconocida"
+  ],
+  [
+   "14",
+   "Una escama enorme, quizá de un dragón"
+  ],
+  [
+   "15",
+   "Una pluma de un color verde intenso"
+  ],
+  [
+   "16",
+   "Una antigua carta para adivinar el futuro que lleva tu efigie"
+  ],
+  [
+   "17",
+   "Un orbe de cristal lleno de humo serpenteante"
+  ],
+  [
+   "18",
+   "Un huevo con una cáscara de color rojo intenso que pesa 0,5 kg"
+  ],
+  [
+   "19",
+   "Una pipa que expulsa burbujas"
+  ],
+  [
+   "20",
+   "Un tarro de cristal que contiene un extraño trozo de carne encurtida"
+  ],
+  [
+   "21",
+   "Una cajita de música fabricada por gnomos que toca una canción que recuerdas vagamente de tu infancia"
+  ],
+  [
+   "22",
+   "Una estatuilla de madera que representa a un mediano engreído"
+  ],
+  [
+   "23",
+   "Un orbe de latón grabado con runas extrañas"
+  ],
+  [
+   "24",
+   "Un disco de piedra multicolor"
+  ],
+  [
+   "25",
+   "Un icono de plata de un cuervo"
+  ],
+  [
+   "26",
+   "Una bolsa que contiene cuarenta y siete dientes, uno de ellos podrido"
+  ],
+  [
+   "27",
+   "Una esquirla de obsidiana que siempre está caliente al tacto"
+  ],
+  [
+   "28",
+   "Una garra de dragón atada a un colgante de cuero"
+  ],
+  [
+   "29",
+   "Un par de calcetines viejos"
+  ],
+  [
+   "30",
+   "Un libro en blanco cuyas páginas no retienen la tinta, la tiza, el grafito u otras sustancias para escribir"
+  ],
+  [
+   "31",
+   "Un emblema de plata con la forma de una estrella de cinco puntas"
+  ],
+  [
+   "32",
+   "Un cuchillo que pertenecía a un familiar"
+  ],
+  [
+   "33",
+   "Un vial de cristal lleno de uñas cortadas"
+  ],
+  [
+   "34",
+   "Un artilugio metálico y rectangular con dos minúsculas copas de metal en uno de sus lados que lanza chispas cuando se moja"
+  ],
+  [
+   "35",
+   "Un guante blanco con lentejuelas de talla humana"
+  ],
+  [
+   "36",
+   "Un chaleco con cien bolsillos diminutos"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Bagatelas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 29
+ }
+}

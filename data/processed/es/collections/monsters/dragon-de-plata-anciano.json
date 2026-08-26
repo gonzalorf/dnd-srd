@@ -1,0 +1,174 @@
+{
+ "id": "monster.dragon-de-plata-anciano",
+ "name": "Dragón de plata anciano",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 310,
+  "pages": [
+   310,
+   311
+  ]
+ },
+ "context": [
+  "Dragones de plata"
+ ],
+ "metaRaw": "Dragón Gargantuesco (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Gargantuesco",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 22,
+ "acRaw": "22",
+ "initiative": {
+  "mod": 14,
+  "score": 24
+ },
+ "hp": {
+  "raw": "468 (24d20 + 216)",
+  "average": 468,
+  "formula": "24d20 + 216"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 24.0
+ },
+ "skills": {
+  "Historia": 11,
+  "Percepción": 16,
+  "Sigilo": 7
+ },
+ "senses": {
+  "raw": "visión ciega 18 m, visión en la oscuridad 36 m; Percepción pasiva 26",
+  "passivePerception": 26
+ },
+ "languages": [
+  "común",
+  "dracónico"
+ ],
+ "immunities": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "23 (50 000 PX o 62 000 en la guarida; BC +7)",
+  "cr": 23,
+  "xp": 50000,
+  "proficiencyBonus": 7,
+  "xpInLair": 62000
+ },
+ "abilities": {
+  "fue": {
+   "score": 30,
+   "mod": 10,
+   "save": 10
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 7
+  },
+  "con": {
+   "score": 29,
+   "mod": 9,
+   "save": 9
+  },
+  "int": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 15,
+   "mod": 2,
+   "save": 9
+  },
+  "car": {
+   "score": 26,
+   "mod": 8,
+   "save": 8
+  }
+ },
+ "traits": [
+  {
+   "name": "Resistencia legendaria",
+   "md": "***Resistencia legendaria (4/día o 5/día en la guarida).*** El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "page": 310,
+   "description": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
+   "uses": "4/día o 5/día en la guarida"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento paralizante o de (B) su lanzamiento de conjuros para lanzar *cuchillo de hielo* (versión de nivel 2).",
+   "page": 311,
+   "description": "El dragón realiza tres ataques de desgarro. Puede sustituir un ataque por un uso de (A) su aliento paralizante o de (B) su lanzamiento de conjuros para lanzar *cuchillo de hielo* (versión de nivel 2)."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +17, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 9 (2d8) de daño de frío.",
+   "page": 311,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +17, alcance 4,5 m. *Acierto:* 19 (2d8 + 10) de daño cortante más 9 (2d8) de daño de frío."
+  },
+  {
+   "name": "Aliento gélido",
+   "md": "***Aliento gélido (recarga 5–6)***. *Tirada de salvación de Constitución:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 67 (15d8) de daño de frío. *Éxito:* la mitad del daño.",
+   "page": 311,
+   "description": ". *Tirada de salvación de Constitución:* CD 24, todas las criaturas en un cono de 27 m. *Fallo:* 67 (15d8) de daño de frío. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento paralizante",
+   "md": "***Aliento paralizante.*** *Tirada de salvación de Constitución:* CD 24, todas las criaturas en un cono de 27 m. *Primer fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de paralizado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 311,
+   "description": "*Tirada de salvación de Constitución:* CD 24, todas las criaturas en un cono de 27 m. *Primer fallo:* el objetivo tendrá el estado de incapacitado hasta el final de su siguiente turno, momento en el que repetirá la tirada de salvación. *Segundo fallo:* el objetivo tendrá el estado de paralizado y repetirá la tirada de salvación al final de cada uno de sus turnos. Si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente."
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 23, +15 a acertar con ataques de conjuro):",
+   "page": 311,
+   "description": "El dragón lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 23, +15 a acertar con ataques de conjuro):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *cambiar de forma* (solo forma de bestia o humanoide, no se obtienen puntos de golpe temporales del conjuro y no se requieren concentración ni puntos de golpe temporales para mantener el conjuro), *cuchillo de hielo* (versión de nivel 2), *detectar magia*, *inmovilizar monstruo* 1/día cada uno: *controlar el clima*, *teletransporte*, *tormenta de hielo* (versión de nivel 7), *zona de la verdad*",
+   "page": 311
+  }
+ ],
+ "legendary": {
+  "actions": [
+   {
+    "name": "Abalanzarse",
+    "md": "***Abalanzarse.*** El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro.",
+    "page": 311,
+    "description": "El dragón se mueve hasta la mitad de su velocidad y realiza un ataque de desgarro."
+   },
+   {
+    "name": "Congelar",
+    "md": "***Congelar.*** El dragón utiliza su lanzamiento de conjuros para lanzar *inmovilizar monstruo*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 311,
+    "description": "El dragón utiliza su lanzamiento de conjuros para lanzar *inmovilizar monstruo*. El dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   },
+   {
+    "name": "Vendaval helado",
+    "md": "***Vendaval helado.*** *Tirada de salvación de Destreza:* CD 23, todas las criaturas en una línea de 18 m de largo y 3 m de ancho. *Fallo:* 14 (4d6) de daño de frío y el objetivo es empujado hasta 9 m respecto al dragón en línea recta. *Éxito:* solo la mitad del daño. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno.",
+    "page": 311,
+    "description": "*Tirada de salvación de Destreza:* CD 23, todas las criaturas en una línea de 18 m de largo y 3 m de ancho. *Fallo:* 14 (4d6) de daño de frío y el objetivo es empujado hasta 9 m respecto al dragón en línea recta. *Éxito:* solo la mitad del daño. *Fallo o éxito:* el dragón no puede volver a realizar esta acción hasta el principio de su siguiente turno."
+   }
+  ],
+  "intro": "Usos de acciones legendarias: 3 (4 en la guarida). Justo después del turno de otra criatura, el dragón puede emplear un uso para llevar a cabo una de las siguientes acciones. El dragón recupera todos los usos al principio de cada uno de sus turnos.",
+  "uses": 3,
+  "usesInLair": 4
+ },
+ "refs": [
+  "spell.cuchillo-de-hielo",
+  "spell.cambiar-de-forma",
+  "spell.detectar-magia",
+  "spell.inmovilizar-monstruo",
+  "spell.controlar-el-clima",
+  "spell.teletransporte",
+  "spell.tormenta-de-hielo",
+  "spell.zona-de-la-verdad"
+ ]
+}

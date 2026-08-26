@@ -1,0 +1,23 @@
+{
+ "id": "item.lengua-de-fuego",
+ "name": "Lengua de fuego",
+ "category": "Arma",
+ "variant": "cualquier arma cuerpo a cuerpo",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cualquier arma cuerpo a cuerpo), rara (requiere sintonización)",
+ "text": "Mientras sostengas esta arma mágica, puedes emplear una acción adicional y pronunciar una palabra de activación para hacer que el arma se cubra de llamas en la parte usada para herir. Estas llamas emiten luz brillante en un radio de 12 m y luz tenue 12 m más allá. Mientras el arma esté en llamas, causa 2d6 de daño de fuego adicional al acertar. Las llamas permanecen hasta que emplees una acción adicional para pronunciar la palabra de activación de nuevo o hasta que sueltes, guardes o envaines el arma.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 261,
+   "md": "Mientras sostengas esta arma mágica, puedes emplear una acción adicional y pronunciar una palabra de activación para hacer que el arma se cubra de llamas en la parte usada para herir. Estas llamas emiten luz brillante en un radio de 12 m y luz tenue 12 m más allá. Mientras el arma esté en llamas, causa 2d6 de daño de fuego adicional al acertar. Las llamas permanecen hasta que emplees una acción adicional para pronunciar la palabra de activación de nuevo o hasta que sueltes, guardes o envaines el arma.",
+   "text": "Mientras sostengas esta arma mágica, puedes emplear una acción adicional y pronunciar una palabra de activación para hacer que el arma se cubra de llamas en la parte usada para herir. Estas llamas emiten luz brillante en un radio de 12 m y luz tenue 12 m más allá. Mientras el arma esté en llamas, causa 2d6 de daño de fuego adicional al acertar. Las llamas permanecen hasta que emplees una acción adicional para pronunciar la palabra de activación de nuevo o hasta que sueltes, guardes o envaines el arma."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 261
+ }
+}

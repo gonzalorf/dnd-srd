@@ -1,0 +1,58 @@
+{
+ "id": "spell.encantar-animal",
+ "name": "Encantar animal",
+ "level": 1,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (unas migajas de comida)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "unas migajas de comida",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Haces objetivo a una bestia que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. Si alguno de tus aliados o tú dañáis al objetivo, el conjuro termina.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "Haces objetivo a una bestia que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. Si alguno de tus aliados o tú dañáis al objetivo, el conjuro termina.",
+   "text": "Haces objetivo a una bestia que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. Si alguno de tus aliados o tú dañáis al objetivo, el conjuro termina."
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 144
+ }
+}

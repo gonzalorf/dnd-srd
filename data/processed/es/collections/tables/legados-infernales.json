@@ -1,0 +1,41 @@
+{
+ "id": "table.legados-infernales",
+ "caption": "Legados infernales",
+ "header": [
+  "Legado",
+  "Nivel 1",
+  "Nivel 3",
+  "Nivel 5"
+ ],
+ "rows": [
+  [
+   "Abisal",
+   "Tienes resistencia al daño de veneno. También conoces el truco rociada venenosa.",
+   "Rayo nauseabundo",
+   "Inmovilizar persona"
+  ],
+  [
+   "Ctónico",
+   "Tienes resistencia al daño necrótico. También conoces el truco toque helado.",
+   "Falsa vida",
+   "Rayo debilitador"
+  ],
+  [
+   "Infernal",
+   "Tienes resistencia al daño de fuego. También conoces el truco descarga de fuego.",
+   "Reprensión infernal",
+   "Oscuridad"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Orígenes de personaje",
+  "Especies de personaje",
+  "Descripciones de las especies",
+  "Tiefling"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 93
+ }
+}

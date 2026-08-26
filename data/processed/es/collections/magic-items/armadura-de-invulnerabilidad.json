@@ -1,0 +1,29 @@
+{
+ "id": "item.armadura-de-invulnerabilidad",
+ "name": "Armadura de invulnerabilidad",
+ "category": "Armadura",
+ "variant": "armadura de placas",
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Armadura (armadura de placas), legendaria (requiere sintonización)",
+ "text": "Tienes resistencia al daño contundente, cortante y perforante mientras lleves esta armadura.\n\nArmazón de metal. Puedes emplear una acción de magia para concederte inmunidad al daño contundente, cortante y perforante durante 10 minutos o hasta que dejes de llevar esta armadura. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 235,
+   "md": "Tienes resistencia al daño contundente, cortante y perforante mientras lleves esta armadura.",
+   "text": "Tienes resistencia al daño contundente, cortante y perforante mientras lleves esta armadura."
+  },
+  {
+   "type": "definition",
+   "page": 235,
+   "md": "***Armazón de metal.*** Puedes emplear una acción de magia para concederte inmunidad al daño contundente, cortante y perforante durante 10 minutos o hasta que dejes de llevar esta armadura. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer.",
+   "text": "Armazón de metal. Puedes emplear una acción de magia para concederte inmunidad al daño contundente, cortante y perforante durante 10 minutos o hasta que dejes de llevar esta armadura. Una vez utilizada, esta propiedad no puede volver a usarse hasta el siguiente amanecer."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 235
+ }
+}

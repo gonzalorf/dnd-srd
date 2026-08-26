@@ -1,0 +1,361 @@
+{
+ "id": "table.armas",
+ "caption": "Armas",
+ "header": [
+  "Nombre",
+  "Daño",
+  "Propiedades",
+  "Maestría",
+  "Peso",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Armas cuerpo a cuerpo sencillas",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Bastón",
+   "1d6 contundente",
+   "Versátil (1d8)",
+   "Derribar",
+   "2 kg",
+   "2 pp"
+  ],
+  [
+   "Daga",
+   "1d4 perforante",
+   "Arrojadiza (alcance 6/18), ligera, sutil",
+   "Mellar",
+   "0,5 kg",
+   "2 po"
+  ],
+  [
+   "Garrote",
+   "1d4 contundente",
+   "Ligero",
+   "Ralentizar",
+   "1 kg",
+   "1 pp"
+  ],
+  [
+   "Garrote grande",
+   "1d8 contundente",
+   "A dos manos",
+   "Empujar",
+   "5 kg",
+   "2 pp"
+  ],
+  [
+   "Hacha de mano",
+   "1d6 cortante",
+   "Arrojadiza (alcance 6/18), ligera",
+   "Molestar",
+   "1 kg",
+   "5 po"
+  ],
+  [
+   "Hoz",
+   "1d4 cortante",
+   "Ligera",
+   "Mellar",
+   "1 kg",
+   "1 po"
+  ],
+  [
+   "Jabalina",
+   "1d6 perforante",
+   "Arrojadiza (alcance 9/36)",
+   "Ralentizar",
+   "1 kg",
+   "5 pp"
+  ],
+  [
+   "Lanza",
+   "1d6 perforante",
+   "Arrojadiza (alcance 6/18), versátil (1d8)",
+   "Debilitar",
+   "1,5 kg",
+   "1 po"
+  ],
+  [
+   "Martillo ligero",
+   "1d4 contundente",
+   "Arrojadizo (alcance 6/18), ligero",
+   "Mellar",
+   "1 kg",
+   "2 po"
+  ],
+  [
+   "Maza",
+   "1d6 contundente",
+   "—",
+   "Debilitar",
+   "2 kg",
+   "5 po"
+  ],
+  [
+   "Armas a distancia sencillas",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Arco corto",
+   "1d6 perforante",
+   "A dos manos, munición (alcance 24/96; flecha)",
+   "Molestar",
+   "1 kg",
+   "25 po"
+  ],
+  [
+   "Ballesta ligera",
+   "1d8 perforante",
+   "A dos manos, munición (alcance 24/96; virote), recarga",
+   "Ralentizar",
+   "2,5 kg",
+   "25 po"
+  ],
+  [
+   "Dardo",
+   "1d4 perforante",
+   "Arrojadizo (alcance 6/18), sutil",
+   "Molestar",
+   "125 g",
+   "5 pc"
+  ],
+  [
+   "Honda",
+   "1d4 contundente",
+   "Munición (alcance 9/36; proyectil)",
+   "Ralentizar",
+   "—",
+   "1 pp"
+  ],
+  [
+   "Armas cuerpo a cuerpo marciales",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Alabarda",
+   "1d10 cortante",
+   "A dos manos, gran alcance, pesada",
+   "Hender",
+   "3 kg",
+   "20 po"
+  ],
+  [
+   "Cimitarra",
+   "1d6 cortante",
+   "Ligera, sutil",
+   "Mellar",
+   "1,5 kg",
+   "25 po"
+  ],
+  [
+   "Espada corta",
+   "1d6 perforante",
+   "Ligera, sutil",
+   "Molestar",
+   "1 kg",
+   "10 po"
+  ],
+  [
+   "Espada larga",
+   "1d8 cortante",
+   "Versátil (1d10)",
+   "Debilitar",
+   "1,5 kg",
+   "15 po"
+  ],
+  [
+   "Espadón",
+   "2d6 cortante",
+   "A dos manos, pesado",
+   "Rozar",
+   "3 kg",
+   "50 po"
+  ],
+  [
+   "Estoque",
+   "1d8 perforante",
+   "Sutil",
+   "Molestar",
+   "1 kg",
+   "25 po"
+  ],
+  [
+   "Guja",
+   "1d10 cortante",
+   "A dos manos, gran alcance, pesada",
+   "Rozar",
+   "3 kg",
+   "20 po"
+  ],
+  [
+   "Hacha a dos manos",
+   "1d12 cortante",
+   "A dos manos, pesada",
+   "Hender",
+   "3,5 kg",
+   "30 po"
+  ],
+  [
+   "Hacha de guerra",
+   "1d8 cortante",
+   "Versátil (1d10)",
+   "Derribar",
+   "2 kg",
+   "10 po"
+  ],
+  [
+   "Lanza de caballería",
+   "1d10 perforante",
+   "A dos manos (salvo montado), gran alcance, pesada",
+   "Derribar",
+   "3 kg",
+   "10 po"
+  ],
+  [
+   "Látigo",
+   "1d4 cortante",
+   "Gran alcance, sutil",
+   "Ralentizar",
+   "1,5 kg",
+   "2 po"
+  ],
+  [
+   "Lucero del alba",
+   "1d8 perforante",
+   "—",
+   "Debilitar",
+   "2 kg",
+   "15 po"
+  ],
+  [
+   "Mangual",
+   "1d8 contundente",
+   "—",
+   "Debilitar",
+   "1 kg",
+   "10 po"
+  ],
+  [
+   "Martillo de guerra",
+   "1d8 contundente",
+   "Versátil (1d10)",
+   "Empujar",
+   "2,5 kg",
+   "15 po"
+  ],
+  [
+   "Maza a dos manos",
+   "2d6 contundente",
+   "A dos manos, pesada",
+   "Derribar",
+   "5 kg",
+   "10 po"
+  ],
+  [
+   "Pica",
+   "1d10 perforante",
+   "A dos manos, gran alcance, pesada",
+   "Empujar",
+   "9 kg",
+   "5 po"
+  ],
+  [
+   "Pico de guerra",
+   "1d8 perforante",
+   "Versátil (1d10)",
+   "Debilitar",
+   "1 kg",
+   "5 po"
+  ],
+  [
+   "Tridente",
+   "1d8 perforante",
+   "Arrojadizo (alcance 6/18), versátil (1d10)",
+   "Derribar",
+   "2 kg",
+   "5 po"
+  ],
+  [
+   "Armas a distancia marciales",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Arco largo",
+   "1d8 perforante",
+   "A dos manos, munición (alcance 45/180; flecha), pesado",
+   "Ralentizar",
+   "1 kg",
+   "50 po"
+  ],
+  [
+   "Ballesta de mano",
+   "1d6 perforante",
+   "Ligera, munición (alcance 9/36; virote), recarga",
+   "Molestar",
+   "1,5 kg",
+   "75 po"
+  ],
+  [
+   "Ballesta pesada",
+   "1d10 perforante",
+   "A dos manos, munición (alcance 30/120; virote), pesada, recarga",
+   "Empujar",
+   "9 kg",
+   "50 po"
+  ],
+  [
+   "Cerbatana",
+   "1 perforante",
+   "Munición (alcance 7,5/30; dardo), recarga",
+   "Molestar",
+   "0,5 kg",
+   "10 po"
+  ],
+  [
+   "Mosquete",
+   "1d12 perforante",
+   "A dos manos, munición (alcance 12/36; bala), recarga",
+   "Ralentizar",
+   "5 kg",
+   "500 po"
+  ],
+  [
+   "Pistola",
+   "1d10 perforante",
+   "Munición (alcance 9/27; bala), recarga",
+   "Molestar",
+   "1,5 kg",
+   "250 po"
+  ]
+ ],
+ "fullWidth": true,
+ "context": [
+  "Equipo",
+  "Armas",
+  "Propiedades de maestría",
+  "Rozar"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ }
+}

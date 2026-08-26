@@ -1,0 +1,2532 @@
+[
+ {
+  "id": "table.descripciones-de-las-caracteristicas",
+  "caption": "Descripciones de las características",
+  "context": [
+   "Cómo jugar",
+   "Las seis características"
+  ],
+  "page": 5
+ },
+ {
+  "id": "table.puntuaciones-de-caracteristica",
+  "caption": "Puntuaciones de característica",
+  "context": [
+   "Cómo jugar",
+   "Las seis características",
+   "Puntuaciones de característica"
+  ],
+  "page": 5
+ },
+ {
+  "id": "table.modificadores-por-caracteristica",
+  "caption": "Modificadores por característica",
+  "context": [
+   "Cómo jugar",
+   "Las seis características",
+   "Modificadores por característica"
+  ],
+  "page": 6
+ },
+ {
+  "id": "table.ejemplos-de-pruebas-de-caracteristica",
+  "caption": "Ejemplos de pruebas de característica",
+  "context": [
+   "Cómo jugar",
+   "Las pruebas con d20",
+   "Pruebas de característica",
+   "Modificador por característica"
+  ],
+  "page": 6
+ },
+ {
+  "id": "table.clases-de-dificultad-tipicas",
+  "caption": "Clases de dificultad típicas",
+  "context": [
+   "Cómo jugar",
+   "Las pruebas con d20",
+   "Pruebas de característica",
+   "Clase de dificultad"
+  ],
+  "page": 7
+ },
+ {
+  "id": "table.ejemplos-de-tiradas-de-salvacion",
+  "caption": "Ejemplos de tiradas de salvación",
+  "context": [
+   "Cómo jugar",
+   "Las pruebas con d20",
+   "Tiradas de salvación",
+   "Modificador por característica"
+  ],
+  "page": 7
+ },
+ {
+  "id": "table.caracteristicas-de-las-tiradas-de-ataque",
+  "caption": "Características de las tiradas de ataque",
+  "context": [
+   "Cómo jugar",
+   "Las pruebas con d20",
+   "Tiradas de ataque",
+   "Modificador por característica"
+  ],
+  "page": 7
+ },
+ {
+  "id": "table.bonificador-por-competencia",
+  "caption": "Bonificador por competencia",
+  "context": [
+   "Cómo jugar",
+   "Competencia"
+  ],
+  "page": 9
+ },
+ {
+  "id": "table.habilidades",
+  "caption": "Habilidades",
+  "context": [
+   "Cómo jugar",
+   "Competencia",
+   "Competencias en habilidades"
+  ],
+  "page": 9
+ },
+ {
+  "id": "table.acciones",
+  "caption": "Acciones",
+  "context": [
+   "Cómo jugar",
+   "Acciones"
+  ],
+  "page": 10
+ },
+ {
+  "id": "table.ritmo-de-viaje",
+  "caption": "Ritmo de viaje",
+  "context": [
+   "Cómo jugar",
+   "Exploración",
+   "Viajar",
+   "Ritmo de viaje"
+  ],
+  "page": 13
+ },
+ {
+  "id": "table.tamano-y-espacio-de-las-criaturas",
+  "caption": "Tamaño y espacio de las criaturas",
+  "context": [
+   "Cómo jugar",
+   "Combate",
+   "Movimiento y posición",
+   "Tamaño de una criatura"
+  ],
+  "page": 15
+ },
+ {
+  "id": "table.cobertura",
+  "caption": "Cobertura",
+  "context": [
+   "Cómo jugar",
+   "Combate",
+   "Cobertura"
+  ],
+  "page": 16
+ },
+ {
+  "id": "table.resumen-de-las-clases",
+  "caption": "Resumen de las clases",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 1: elegir una clase"
+  ],
+  "page": 21
+ },
+ {
+  "id": "table.puntuaciones-de-caracteristica-y-trasfondos",
+  "caption": "Puntuaciones de característica y trasfondos",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 2: origen del personaje",
+   "Elige un trasfondo"
+  ],
+  "page": 22
+ },
+ {
+  "id": "table.idiomas-estandar",
+  "caption": "Idiomas estándar",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 2: origen del personaje",
+   "Elige tus idiomas"
+  ],
+  "page": 22
+ },
+ {
+  "id": "table.idiomas-inusuales",
+  "caption": "Idiomas inusuales",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 2: origen del personaje",
+   "Elige tus idiomas"
+  ],
+  "page": 22
+ },
+ {
+  "id": "table.p23",
+  "caption": null,
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 2: origen del personaje",
+   "Elige tus idiomas"
+  ],
+  "page": 23
+ },
+ {
+  "id": "table.costes-en-puntos-de-las-puntuaciones-de-caracteristica",
+  "caption": "Costes en puntos de las puntuaciones de característica",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 3: puntuaciones de característica",
+   "Genera tus puntuaciones"
+  ],
+  "page": 23
+ },
+ {
+  "id": "table.conjunto-estandar-por-clase",
+  "caption": "Conjunto estándar por clase",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 3: puntuaciones de característica",
+   "Asigna las puntuaciones de característica"
+  ],
+  "page": 23
+ },
+ {
+  "id": "table.puntuaciones-de-caracteristica-y-modificadores",
+  "caption": "Puntuaciones de característica y modificadores",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 3: puntuaciones de característica",
+   "Determina los modificadores por característica"
+  ],
+  "page": 23
+ },
+ {
+  "id": "table.puntos-de-golpe-en-el-nivel-1-por-clase",
+  "caption": "Puntos de golpe en el nivel 1 por clase",
+  "context": [
+   "Creación de personajes",
+   "Crear tu personaje",
+   "Paso 5: detalles de la creación del personaje",
+   "Rellena los números"
+  ],
+  "page": 25
+ },
+ {
+  "id": "table.progreso-de-los-personajes",
+  "caption": "Progreso de los personajes",
+  "context": [
+   "Creación de personajes",
+   "Progresión de niveles"
+  ],
+  "page": 25
+ },
+ {
+  "id": "table.p26",
+  "caption": null,
+  "context": [
+   "Creación de personajes",
+   "Progresión de niveles"
+  ],
+  "page": 26
+ },
+ {
+  "id": "table.puntos-de-golpe-establecidos-por-clase",
+  "caption": "Puntos de golpe establecidos por clase",
+  "context": [
+   "Creación de personajes",
+   "Progresión de niveles",
+   "Subir de nivel"
+  ],
+  "page": 26
+ },
+ {
+  "id": "table.equipo-inicial-a-niveles-superiores",
+  "caption": "Equipo inicial a niveles superiores",
+  "context": [
+   "Creación de personajes",
+   "Multiclase",
+   "Puntos de golpe y dados de golpe"
+  ],
+  "page": 27
+ },
+ {
+  "id": "table.lanzador-de-conjuros-multiclase-espacios-de-conjuro-por-cada-nivel-de-conjuro",
+  "caption": "Lanzador de conjuros multiclase: espacios de conjuro por cada nivel de conjuro",
+  "context": [
+   "Creación de personajes",
+   "Multiclase",
+   "Rasgos de clase",
+   "Lanzamiento de conjuros"
+  ],
+  "page": 29
+ },
+ {
+  "id": "table.bagatelas",
+  "caption": "Bagatelas",
+  "context": [
+   "Creación de personajes",
+   "Bagatelas"
+  ],
+  "page": 29
+ },
+ {
+  "id": "table.p30",
+  "caption": null,
+  "context": [
+   "Creación de personajes",
+   "Bagatelas"
+  ],
+  "page": 30
+ },
+ {
+  "id": "table.p31",
+  "caption": null,
+  "context": [
+   "Creación de personajes",
+   "Bagatelas"
+  ],
+  "page": 31
+ },
+ {
+  "id": "table.atributos-basicos-de-barbaro",
+  "caption": "Atributos básicos de bárbaro",
+  "context": [
+   "Clases",
+   "Bárbaro"
+  ],
+  "page": 32
+ },
+ {
+  "id": "table.rasgos-de-barbaro",
+  "caption": "Rasgos de bárbaro",
+  "context": [
+   "Clases",
+   "Bárbaro",
+   "Rasgos de clase de bárbaro",
+   "Nivel 1: Defensa sin armadura"
+  ],
+  "page": 32
+ },
+ {
+  "id": "table.atributos-basicos-de-bardo",
+  "caption": "Atributos básicos de bardo",
+  "context": [
+   "Clases",
+   "Bardo"
+  ],
+  "page": 35
+ },
+ {
+  "id": "table.rasgos-de-bardo",
+  "caption": "Rasgos de bardo",
+  "context": [
+   "Clases",
+   "Bardo"
+  ],
+  "page": 35
+ },
+ {
+  "id": "table.trucos-conjuros-de-bardo-de-nivel-0",
+  "caption": "Trucos (conjuros de bardo de nivel 0)",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 37
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-1",
+  "caption": "Conjuros de bardo de nivel 1",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 38
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-2",
+  "caption": "Conjuros de bardo de nivel 2",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 38
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-3",
+  "caption": "Conjuros de bardo de nivel 3",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 38
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-4",
+  "caption": "Conjuros de bardo de nivel 4",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 38
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-5",
+  "caption": "Conjuros de bardo de nivel 5",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 38
+ },
+ {
+  "id": "table.p39",
+  "caption": null,
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 39
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-6",
+  "caption": "Conjuros de bardo de nivel 6",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 39
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-7",
+  "caption": "Conjuros de bardo de nivel 7",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 39
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-8",
+  "caption": "Conjuros de bardo de nivel 8",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 39
+ },
+ {
+  "id": "table.conjuros-de-bardo-de-nivel-9",
+  "caption": "Conjuros de bardo de nivel 9",
+  "context": [
+   "Clases",
+   "Bardo",
+   "Lista de conjuros de bardo"
+  ],
+  "page": 39
+ },
+ {
+  "id": "table.atributos-basicos-de-brujo",
+  "caption": "Atributos básicos de brujo",
+  "context": [
+   "Clases",
+   "Brujo"
+  ],
+  "page": 40
+ },
+ {
+  "id": "table.rasgos-de-brujo",
+  "caption": "Rasgos de brujo",
+  "context": [
+   "Clases",
+   "Brujo"
+  ],
+  "page": 40
+ },
+ {
+  "id": "table.trucos-conjuros-de-brujo-de-nivel-0",
+  "caption": "Trucos (conjuros de brujo de nivel 0)",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-1",
+  "caption": "Conjuros de brujo de nivel 1",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-2",
+  "caption": "Conjuros de brujo de nivel 2",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-3",
+  "caption": "Conjuros de brujo de nivel 3",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-4",
+  "caption": "Conjuros de brujo de nivel 4",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-5",
+  "caption": "Conjuros de brujo de nivel 5",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-6",
+  "caption": "Conjuros de brujo de nivel 6",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-7",
+  "caption": "Conjuros de brujo de nivel 7",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 45
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-8",
+  "caption": "Conjuros de brujo de nivel 8",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 46
+ },
+ {
+  "id": "table.conjuros-de-brujo-de-nivel-9",
+  "caption": "Conjuros de brujo de nivel 9",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Lista de conjuros de brujo"
+  ],
+  "page": 46
+ },
+ {
+  "id": "table.conjuros-del-infernal",
+  "caption": "Conjuros del infernal",
+  "context": [
+   "Clases",
+   "Brujo",
+   "Subclase de brujo: Patrón infernal",
+   "Nivel 3: Conjuros del infernal"
+  ],
+  "page": 46
+ },
+ {
+  "id": "table.atributos-basicos-de-clerigo",
+  "caption": "Atributos básicos de clérigo",
+  "context": [
+   "Clases",
+   "Clérigo"
+  ],
+  "page": 47
+ },
+ {
+  "id": "table.rasgos-de-clerigo",
+  "caption": "Rasgos de clérigo",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Convertirse en clérigo",
+   "Como personaje multiclase"
+  ],
+  "page": 47
+ },
+ {
+  "id": "table.trucos-conjuros-de-clerigo-de-nivel-0",
+  "caption": "Trucos (conjuros de clérigo de nivel 0)",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 49
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-1",
+  "caption": "Conjuros de clérigo de nivel 1",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 49
+ },
+ {
+  "id": "table.p50",
+  "caption": null,
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-2",
+  "caption": "Conjuros de clérigo de nivel 2",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-3",
+  "caption": "Conjuros de clérigo de nivel 3",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-4",
+  "caption": "Conjuros de clérigo de nivel 4",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-5",
+  "caption": "Conjuros de clérigo de nivel 5",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-6",
+  "caption": "Conjuros de clérigo de nivel 6",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 50
+ },
+ {
+  "id": "table.p51",
+  "caption": null,
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 51
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-7",
+  "caption": "Conjuros de clérigo de nivel 7",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 51
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-8",
+  "caption": "Conjuros de clérigo de nivel 8",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 51
+ },
+ {
+  "id": "table.conjuros-de-clerigo-de-nivel-9",
+  "caption": "Conjuros de clérigo de nivel 9",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Lista de conjuros de clérigo"
+  ],
+  "page": 51
+ },
+ {
+  "id": "table.conjuros-del-dominio-de-la-vida",
+  "caption": "Conjuros del dominio de la vida",
+  "context": [
+   "Clases",
+   "Clérigo",
+   "Subclase de clérigo: Dominio de la vida",
+   "Nivel 3: Conjuros del dominio de la vida"
+  ],
+  "page": 51
+ },
+ {
+  "id": "table.atributos-basicos-de-druida",
+  "caption": "Atributos básicos de druida",
+  "context": [
+   "Clases",
+   "Druida"
+  ],
+  "page": 52
+ },
+ {
+  "id": "table.rasgos-de-druida",
+  "caption": "Rasgos de druida",
+  "context": [
+   "Clases",
+   "Druida",
+   "Rasgos de clase de druida"
+  ],
+  "page": 52
+ },
+ {
+  "id": "table.formas-de-bestia",
+  "caption": "Formas de bestia",
+  "context": [
+   "Clases",
+   "Druida",
+   "Rasgos de clase de druida",
+   "Nivel 2: Forma salvaje"
+  ],
+  "page": 54
+ },
+ {
+  "id": "table.trucos-conjuros-de-druida-de-nivel-0",
+  "caption": "Trucos (conjuros de druida de nivel 0)",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 55
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-1",
+  "caption": "Conjuros de druida de nivel 1",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 55
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-2",
+  "caption": "Conjuros de druida de nivel 2",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 55
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-3",
+  "caption": "Conjuros de druida de nivel 3",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-4",
+  "caption": "Conjuros de druida de nivel 4",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-5",
+  "caption": "Conjuros de druida de nivel 5",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-6",
+  "caption": "Conjuros de druida de nivel 6",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-7",
+  "caption": "Conjuros de druida de nivel 7",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-8",
+  "caption": "Conjuros de druida de nivel 8",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 56
+ },
+ {
+  "id": "table.conjuros-de-druida-de-nivel-9",
+  "caption": "Conjuros de druida de nivel 9",
+  "context": [
+   "Clases",
+   "Druida",
+   "Lista de conjuros de druida"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.terreno-arido",
+  "caption": "Terreno árido",
+  "context": [
+   "Clases",
+   "Druida",
+   "Subclase de druida: Círculo de la tierra",
+   "Nivel 3: Conjuros del círculo de la tierra"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.terreno-polar",
+  "caption": "Terreno polar",
+  "context": [
+   "Clases",
+   "Druida",
+   "Subclase de druida: Círculo de la tierra",
+   "Nivel 3: Conjuros del círculo de la tierra"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.terreno-templado",
+  "caption": "Terreno templado",
+  "context": [
+   "Clases",
+   "Druida",
+   "Subclase de druida: Círculo de la tierra",
+   "Nivel 3: Conjuros del círculo de la tierra"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.terreno-tropical",
+  "caption": "Terreno tropical",
+  "context": [
+   "Clases",
+   "Druida",
+   "Subclase de druida: Círculo de la tierra",
+   "Nivel 3: Conjuros del círculo de la tierra"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.proteccion-de-la-naturaleza",
+  "caption": "Protección de la naturaleza",
+  "context": [
+   "Clases",
+   "Druida",
+   "Subclase de druida: Círculo de la tierra",
+   "Nivel 10: Protección de la naturaleza"
+  ],
+  "page": 57
+ },
+ {
+  "id": "table.atributos-basicos-de-explorador",
+  "caption": "Atributos básicos de explorador",
+  "context": [
+   "Clases",
+   "Explorador"
+  ],
+  "page": 58
+ },
+ {
+  "id": "table.rasgos-de-explorador",
+  "caption": "Rasgos de explorador",
+  "context": [
+   "Clases",
+   "Explorador"
+  ],
+  "page": 58
+ },
+ {
+  "id": "table.conjuros-de-explorador-de-nivel-1",
+  "caption": "Conjuros de explorador de nivel 1",
+  "context": [
+   "Clases",
+   "Explorador",
+   "Lista de conjuros de explorador"
+  ],
+  "page": 60
+ },
+ {
+  "id": "table.conjuros-de-explorador-de-nivel-2",
+  "caption": "Conjuros de explorador de nivel 2",
+  "context": [
+   "Clases",
+   "Explorador",
+   "Lista de conjuros de explorador"
+  ],
+  "page": 61
+ },
+ {
+  "id": "table.conjuros-de-explorador-de-nivel-3",
+  "caption": "Conjuros de explorador de nivel 3",
+  "context": [
+   "Clases",
+   "Explorador",
+   "Lista de conjuros de explorador"
+  ],
+  "page": 61
+ },
+ {
+  "id": "table.conjuros-de-explorador-de-nivel-4",
+  "caption": "Conjuros de explorador de nivel 4",
+  "context": [
+   "Clases",
+   "Explorador",
+   "Lista de conjuros de explorador"
+  ],
+  "page": 61
+ },
+ {
+  "id": "table.conjuros-de-explorador-de-nivel-5",
+  "caption": "Conjuros de explorador de nivel 5",
+  "context": [
+   "Clases",
+   "Explorador",
+   "Lista de conjuros de explorador"
+  ],
+  "page": 61
+ },
+ {
+  "id": "table.atributos-basicos-de-guerrero",
+  "caption": "Atributos básicos de guerrero",
+  "context": [
+   "Clases",
+   "Guerrero"
+  ],
+  "page": 62
+ },
+ {
+  "id": "table.rasgos-de-guerrero",
+  "caption": "Rasgos de guerrero",
+  "context": [
+   "Clases",
+   "Guerrero",
+   "Rasgos de clase de guerrero",
+   "Nivel 1: Estilo de combate"
+  ],
+  "page": 62
+ },
+ {
+  "id": "table.atributos-basicos-de-hechicero",
+  "caption": "Atributos básicos de hechicero",
+  "context": [
+   "Clases",
+   "Hechicero"
+  ],
+  "page": 64
+ },
+ {
+  "id": "table.rasgos-de-hechicero",
+  "caption": "Rasgos de hechicero",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Rasgos de clase de hechicero",
+   "Nivel 1: Lanzamiento de conjuros"
+  ],
+  "page": 65
+ },
+ {
+  "id": "table.crear-espacios-de-conjuro",
+  "caption": "Crear espacios de conjuro",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Rasgos de clase de hechicero",
+   "Nivel 2: Fuente de magia"
+  ],
+  "page": 66
+ },
+ {
+  "id": "table.trucos-conjuros-de-hechicero-de-nivel-0",
+  "caption": "Trucos (conjuros de hechicero de nivel 0)",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 68
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-1",
+  "caption": "Conjuros de hechicero de nivel 1",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 68
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-2",
+  "caption": "Conjuros de hechicero de nivel 2",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 68
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-3",
+  "caption": "Conjuros de hechicero de nivel 3",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 69
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-4",
+  "caption": "Conjuros de hechicero de nivel 4",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 69
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-5",
+  "caption": "Conjuros de hechicero de nivel 5",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 69
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-6",
+  "caption": "Conjuros de hechicero de nivel 6",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 69
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-7",
+  "caption": "Conjuros de hechicero de nivel 7",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 69
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-8",
+  "caption": "Conjuros de hechicero de nivel 8",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 70
+ },
+ {
+  "id": "table.conjuros-de-hechicero-de-nivel-9",
+  "caption": "Conjuros de hechicero de nivel 9",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Lista de conjuros de hechicero"
+  ],
+  "page": 70
+ },
+ {
+  "id": "table.conjuros-draconicos",
+  "caption": "Conjuros dracónicos",
+  "context": [
+   "Clases",
+   "Hechicero",
+   "Subclase de hechicero: Hechicería dracónica",
+   "Nivel 3: Conjuros dracónicos"
+  ],
+  "page": 70
+ },
+ {
+  "id": "table.atributos-basicos-de-mago",
+  "caption": "Atributos básicos de mago",
+  "context": [
+   "Clases",
+   "Mago"
+  ],
+  "page": 71
+ },
+ {
+  "id": "table.rasgos-de-mago",
+  "caption": "Rasgos de mago",
+  "context": [
+   "Clases",
+   "Mago",
+   "Rasgos de clase de mago"
+  ],
+  "page": 71
+ },
+ {
+  "id": "table.trucos-conjuros-de-mago-de-nivel-0",
+  "caption": "Trucos (conjuros de mago de nivel 0)",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 73
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-1",
+  "caption": "Conjuros de mago de nivel 1",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 73
+ },
+ {
+  "id": "table.p74",
+  "caption": null,
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 74
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-2",
+  "caption": "Conjuros de mago de nivel 2",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 74
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-3",
+  "caption": "Conjuros de mago de nivel 3",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 74
+ },
+ {
+  "id": "table.p75",
+  "caption": null,
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 75
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-4",
+  "caption": "Conjuros de mago de nivel 4",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 75
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-5",
+  "caption": "Conjuros de mago de nivel 5",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 75
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-6",
+  "caption": "Conjuros de mago de nivel 6",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 75
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-7",
+  "caption": "Conjuros de mago de nivel 7",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 76
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-8",
+  "caption": "Conjuros de mago de nivel 8",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 76
+ },
+ {
+  "id": "table.conjuros-de-mago-de-nivel-9",
+  "caption": "Conjuros de mago de nivel 9",
+  "context": [
+   "Clases",
+   "Mago",
+   "Lista de conjuros de mago"
+  ],
+  "page": 76
+ },
+ {
+  "id": "table.atributos-basicos-de-monje",
+  "caption": "Atributos básicos de monje",
+  "context": [
+   "Clases",
+   "Monje"
+  ],
+  "page": 77
+ },
+ {
+  "id": "table.rasgos-de-monje",
+  "caption": "Rasgos de monje",
+  "context": [
+   "Clases",
+   "Monje"
+  ],
+  "page": 77
+ },
+ {
+  "id": "table.atributos-basicos-de-paladin",
+  "caption": "Atributos básicos de paladín",
+  "context": [
+   "Clases",
+   "Paladín"
+  ],
+  "page": 81
+ },
+ {
+  "id": "table.rasgos-de-paladin",
+  "caption": "Rasgos de paladín",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Convertirse en paladín",
+   "Como personaje multiclase"
+  ],
+  "page": 81
+ },
+ {
+  "id": "table.conjuros-de-paladin-de-nivel-1",
+  "caption": "Conjuros de paladín de nivel 1",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Lista de conjuros de paladín"
+  ],
+  "page": 84
+ },
+ {
+  "id": "table.conjuros-de-paladin-de-nivel-2",
+  "caption": "Conjuros de paladín de nivel 2",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Lista de conjuros de paladín"
+  ],
+  "page": 84
+ },
+ {
+  "id": "table.conjuros-de-paladin-de-nivel-3",
+  "caption": "Conjuros de paladín de nivel 3",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Lista de conjuros de paladín"
+  ],
+  "page": 84
+ },
+ {
+  "id": "table.conjuros-de-paladin-de-nivel-4",
+  "caption": "Conjuros de paladín de nivel 4",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Lista de conjuros de paladín"
+  ],
+  "page": 84
+ },
+ {
+  "id": "table.conjuros-de-paladin-de-nivel-5",
+  "caption": "Conjuros de paladín de nivel 5",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Lista de conjuros de paladín"
+  ],
+  "page": 84
+ },
+ {
+  "id": "table.conjuros-del-juramento-de-entrega",
+  "caption": "Conjuros del juramento de entrega",
+  "context": [
+   "Clases",
+   "Paladín",
+   "Subclase de paladín: Juramento de entrega",
+   "Nivel 3: Conjuros del juramento de entrega"
+  ],
+  "page": 85
+ },
+ {
+  "id": "table.atributos-basicos-de-picaro",
+  "caption": "Atributos básicos de pícaro",
+  "context": [
+   "Clases",
+   "Pícaro"
+  ],
+  "page": 86
+ },
+ {
+  "id": "table.rasgos-de-picaro",
+  "caption": "Rasgos de pícaro",
+  "context": [
+   "Clases",
+   "Pícaro",
+   "Rasgos de clase de pícaro"
+  ],
+  "page": 86
+ },
+ {
+  "id": "table.ancestros-draconicos",
+  "caption": "Ancestros dracónicos",
+  "context": [
+   "Orígenes de personaje",
+   "Especies de personaje",
+   "Descripciones de las especies",
+   "Dracónido"
+  ],
+  "page": 90
+ },
+ {
+  "id": "table.linajes-elficos",
+  "caption": "Linajes élficos",
+  "context": [
+   "Orígenes de personaje",
+   "Especies de personaje",
+   "Descripciones de las especies",
+   "Elfo"
+  ],
+  "page": 91
+ },
+ {
+  "id": "table.legados-infernales",
+  "caption": "Legados infernales",
+  "context": [
+   "Orígenes de personaje",
+   "Especies de personaje",
+   "Descripciones de las especies",
+   "Tiefling"
+  ],
+  "page": 93
+ },
+ {
+  "id": "table.valores-de-monedas",
+  "caption": "Valores de monedas",
+  "context": [
+   "Equipo",
+   "Monedas"
+  ],
+  "page": 97
+ },
+ {
+  "id": "table.armas",
+  "caption": "Armas",
+  "context": [
+   "Equipo",
+   "Armas",
+   "Propiedades de maestría",
+   "Rozar"
+  ],
+  "page": 99
+ },
+ {
+  "id": "table.armaduras",
+  "caption": "Armaduras",
+  "context": [
+   "Equipo",
+   "Armaduras",
+   "Solo un tipo"
+  ],
+  "page": 100
+ },
+ {
+  "id": "table.equipo-de-aventureros",
+  "caption": "Equipo de aventureros",
+  "context": [
+   "Equipo",
+   "Equipo de aventureros",
+   "Abrojos (1 po)"
+  ],
+  "page": 103
+ },
+ {
+  "id": "table.canalizadores-arcanos",
+  "caption": "Canalizadores arcanos",
+  "context": [
+   "Equipo",
+   "Equipo de aventureros",
+   "Canalizador arcano (variable)"
+  ],
+  "page": 105
+ },
+ {
+  "id": "table.canalizadores-druidicos",
+  "caption": "Canalizadores druídicos",
+  "context": [
+   "Equipo",
+   "Equipo de aventureros",
+   "Canalizador druídico (variable)"
+  ],
+  "page": 105
+ },
+ {
+  "id": "table.municion",
+  "caption": "Munición",
+  "context": [
+   "Equipo",
+   "Equipo de aventureros",
+   "Munición (variable)"
+  ],
+  "page": 106
+ },
+ {
+  "id": "table.simbolos-sagrados",
+  "caption": "Símbolos sagrados",
+  "context": [
+   "Equipo",
+   "Equipo de aventureros",
+   "Símbolo sagrado (variable)"
+  ],
+  "page": 108
+ },
+ {
+  "id": "table.monturas-y-otros-animales",
+  "caption": "Monturas y otros animales",
+  "context": [
+   "Equipo",
+   "Monturas y vehículos",
+   "Sillas"
+  ],
+  "page": 109
+ },
+ {
+  "id": "table.arreos-arneses-y-vehiculos-tirados-por-animales",
+  "caption": "Arreos, arneses y vehículos tirados por animales",
+  "context": [
+   "Equipo",
+   "Monturas y vehículos",
+   "Sillas"
+  ],
+  "page": 109
+ },
+ {
+  "id": "table.vehiculos-acuaticos-y-aereos",
+  "caption": "Vehículos acuáticos y aéreos",
+  "context": [
+   "Equipo",
+   "Monturas y vehículos",
+   "Vehículos grandes",
+   "Umbral de daño"
+  ],
+  "page": 110
+ },
+ {
+  "id": "table.comida-bebida-y-alojamiento",
+  "caption": "Comida, bebida y alojamiento",
+  "context": [
+   "Equipo",
+   "Comida, bebida y alojamiento"
+  ],
+  "page": 110
+ },
+ {
+  "id": "table.asalariados",
+  "caption": "Asalariados",
+  "context": [
+   "Equipo",
+   "Asalariados"
+  ],
+  "page": 111
+ },
+ {
+  "id": "table.servicios-de-lanzamiento-de-conjuros",
+  "caption": "Servicios de lanzamiento de conjuros",
+  "context": [
+   "Equipo",
+   "Lanzamiento de conjuros"
+  ],
+  "page": 111
+ },
+ {
+  "id": "table.costes-de-pergaminos-de-conjuro",
+  "caption": "Costes de pergaminos de conjuro",
+  "context": [
+   "Equipo",
+   "Elaborar pergaminos de conjuro",
+   "Trucos"
+  ],
+  "page": 113
+ },
+ {
+  "id": "table.preparacion-de-conjuros-segun-clase",
+  "caption": "Preparación de conjuros según clase",
+  "context": [
+   "Conjuros",
+   "Obtener conjuros",
+   "Preparar conjuros"
+  ],
+  "page": 114
+ },
+ {
+  "id": "table.escuelas-magicas",
+  "caption": "Escuelas mágicas",
+  "context": [
+   "Conjuros",
+   "Lanzar conjuros",
+   "Escuela mágica"
+  ],
+  "page": 115
+ },
+ {
+  "id": "table.presagios",
+  "caption": "Presagios",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Augurio"
+  ],
+  "page": 123
+ },
+ {
+  "id": "table.p131",
+  "caption": null,
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Confusión"
+  ],
+  "page": 131
+ },
+ {
+  "id": "table.precipitaciones",
+  "caption": "Precipitaciones",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Controlar el clima"
+  ],
+  "page": 135
+ },
+ {
+  "id": "table.temperatura-viento",
+  "caption": "Temperatura Viento",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Controlar el clima"
+  ],
+  "page": 135
+ },
+ {
+  "id": "table.materiales",
+  "caption": "Materiales",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Creación"
+  ],
+  "page": 136
+ },
+ {
+  "id": "table.p147",
+  "caption": null,
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Escudriñar"
+  ],
+  "page": 147
+ },
+ {
+  "id": "table.p147-2",
+  "caption": null,
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Escudriñar"
+  ],
+  "page": 147
+ },
+ {
+  "id": "table.capas-prismaticas",
+  "caption": "Capas prismáticas",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Muro prismático"
+  ],
+  "page": 169
+ },
+ {
+  "id": "table.efectos-de-palabra-divina",
+  "caption": "Efectos de palabra divina",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Palabra divina"
+  ],
+  "page": 172
+ },
+ {
+  "id": "table.p180",
+  "caption": null,
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Reencarnar"
+  ],
+  "page": 180
+ },
+ {
+  "id": "table.rayos-prismaticos",
+  "caption": "Rayos prismáticos",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Rociada prismática"
+  ],
+  "page": 182
+ },
+ {
+  "id": "table.resultado-del-teletransporte",
+  "caption": "Resultado del teletransporte",
+  "context": [
+   "Conjuros",
+   "Descripciones de conjuros",
+   "Teletransporte"
+  ],
+  "page": 187
+ },
+ {
+  "id": "table.p194",
+  "caption": null,
+  "context": [
+   "Glosario de reglas",
+   "Convenciones del glosario"
+  ],
+  "page": 194
+ },
+ {
+  "id": "table.busqueda",
+  "caption": "Búsqueda",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Buscar [acción]"
+  ],
+  "page": 197
+ },
+ {
+  "id": "table.capacidad-de-carga",
+  "caption": "Capacidad de carga",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Capacidad de carga"
+  ],
+  "page": 197
+ },
+ {
+  "id": "table.consumo-de-agua-al-dia",
+  "caption": "Consumo de agua al día",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Deshidratación [peligro]"
+  ],
+  "page": 200
+ },
+ {
+  "id": "table.consumo-de-alimentos-al-dia",
+  "caption": "Consumo de alimentos al día",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Desnutrición [peligro]"
+  ],
+  "page": 200
+ },
+ {
+  "id": "table.areas-de-conocimiento",
+  "caption": "Áreas de conocimiento",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Estudiar [acción]"
+  ],
+  "page": 201
+ },
+ {
+  "id": "table.pruebas-de-influencia",
+  "caption": "Pruebas de influencia",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Influir [acción]"
+  ],
+  "page": 203
+ },
+ {
+  "id": "table.clase-de-armadura-de-objetos",
+  "caption": "Clase de armadura de objetos",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Romper objetos"
+  ],
+  "page": 207
+ },
+ {
+  "id": "table.puntos-de-golpe-de-objetos",
+  "caption": "Puntos de golpe de objetos",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Romper objetos"
+  ],
+  "page": 207
+ },
+ {
+  "id": "table.tipos-de-dano",
+  "caption": "Tipos de daño",
+  "context": [
+   "Glosario de reglas",
+   "Definiciones de las reglas",
+   "Tipos de daño"
+  ],
+  "page": 209
+ },
+ {
+  "id": "table.terreno-de-viaje",
+  "caption": "Terreno de viaje",
+  "context": [
+   "Herramientas del juego",
+   "Crear un trasfondo"
+  ],
+  "page": 211
+ },
+ {
+  "id": "table.muestras-de-cd-de-miedos",
+  "caption": "Muestras de CD de miedos",
+  "context": [
+   "Herramientas del juego",
+   "Miedo y estrés psicológico",
+   "Efectos de miedo"
+  ],
+  "page": 215
+ },
+ {
+  "id": "table.muestras-de-efectos-de-estres-psicologico",
+  "caption": "Muestras de efectos de estrés psicológico",
+  "context": [
+   "Herramientas del juego",
+   "Miedo y estrés psicológico",
+   "Efectos de estrés psicológico"
+  ],
+  "page": 215
+ },
+ {
+  "id": "table.p218",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Trampas",
+   "Trampas de ejemplo",
+   "Aguja envenenada"
+  ],
+  "page": 218
+ },
+ {
+  "id": "table.p219",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Trampas",
+   "Trampas de ejemplo",
+   "Estatua que escupe fuego"
+  ],
+  "page": 219
+ },
+ {
+  "id": "table.p219-2",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Trampas",
+   "Trampas de ejemplo",
+   "Pozo con pinchos"
+  ],
+  "page": 219
+ },
+ {
+  "id": "table.p220",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Trampas",
+   "Trampas de ejemplo",
+   "Pozo escondido"
+  ],
+  "page": 220
+ },
+ {
+  "id": "table.p221",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Trampas",
+   "Trampas de ejemplo",
+   "Techo que se hunde"
+  ],
+  "page": 221
+ },
+ {
+  "id": "table.presupuesto-de-px-por-personaje",
+  "caption": "Presupuesto de PX por personaje",
+  "context": [
+   "Herramientas del juego",
+   "Encuentros de combate",
+   "Dificultad de los encuentros de combate",
+   "Paso 2: definir tu presupuesto de PX"
+  ],
+  "page": 221
+ },
+ {
+  "id": "table.p222",
+  "caption": null,
+  "context": [
+   "Herramientas del juego",
+   "Encuentros de combate",
+   "Dificultad de los encuentros de combate",
+   "Paso 2: definir tu presupuesto de PX"
+  ],
+  "page": 222
+ },
+ {
+  "id": "table.categorias-de-objetos-magicos",
+  "caption": "Categorías de objetos mágicos",
+  "context": [
+   "Objetos mágicos",
+   "Categorías de objetos mágicos"
+  ],
+  "page": 223
+ },
+ {
+  "id": "table.miscibilidad-de-pociones",
+  "caption": "Miscibilidad de pociones",
+  "context": [
+   "Objetos mágicos",
+   "Categorías de objetos mágicos",
+   "Pociones"
+  ],
+  "page": 224
+ },
+ {
+  "id": "table.rareza-y-valor-de-objetos-magicos",
+  "caption": "Rareza y valor de objetos mágicos",
+  "context": [
+   "Objetos mágicos",
+   "Rareza de los objetos mágicos",
+   "Valor de objetos mágicos según su rareza"
+  ],
+  "page": 225
+ },
+ {
+  "id": "table.herramientas-para-objetos-magicos",
+  "caption": "Herramientas para objetos mágicos",
+  "context": [
+   "Objetos mágicos",
+   "Fabricar objetos mágicos",
+   "Herramientas"
+  ],
+  "page": 226
+ },
+ {
+  "id": "table.tiempo-y-precio-de-fabricacion-de-objetos-magicos",
+  "caption": "Tiempo y precio de fabricación de objetos mágicos",
+  "context": [
+   "Objetos mágicos",
+   "Fabricar objetos mágicos",
+   "Tiempo y precio"
+  ],
+  "page": 226
+ },
+ {
+  "id": "table.alineamiento-del-objeto-consciente",
+  "caption": "Alineamiento del objeto consciente",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos conscientes",
+   "Atributos de objetos mágicos conscientes",
+   "Propósito especial"
+  ],
+  "page": 227
+ },
+ {
+  "id": "table.comunicacion-del-objeto-consciente",
+  "caption": "Comunicación del objeto consciente",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos conscientes",
+   "Atributos de objetos mágicos conscientes",
+   "Propósito especial"
+  ],
+  "page": 227
+ },
+ {
+  "id": "table.sentidos-del-objeto-consciente",
+  "caption": "Sentidos del objeto consciente",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos conscientes",
+   "Atributos de objetos mágicos conscientes",
+   "Propósito especial"
+  ],
+  "page": 227
+ },
+ {
+  "id": "table.proposito-especial-del-objeto-consciente",
+  "caption": "Propósito especial del objeto consciente",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos conscientes",
+   "Atributos de objetos mágicos conscientes",
+   "Propósito especial"
+  ],
+  "page": 227
+ },
+ {
+  "id": "table.p228",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos conscientes",
+   "Atributos de objetos mágicos conscientes",
+   "Propósito especial"
+  ],
+  "page": 228
+ },
+ {
+  "id": "table.p229",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Alfombra voladora"
+  ],
+  "page": 229
+ },
+ {
+  "id": "table.p230",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Amuleto de los planos"
+  ],
+  "page": 230
+ },
+ {
+  "id": "table.p231",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Anillo de comandar elementales"
+  ],
+  "page": 231
+ },
+ {
+  "id": "table.p231-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Anillo de estrellas fugaces"
+  ],
+  "page": 231
+ },
+ {
+  "id": "table.p232",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Anillo de resistencia"
+  ],
+  "page": 232
+ },
+ {
+  "id": "table.palancas-del-aparato-del-crustaceo",
+  "caption": "Palancas del aparato del crustáceo",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Aparato del crustáceo"
+  ],
+  "page": 234
+ },
+ {
+  "id": "table.p235",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Armadura de resistencia"
+  ],
+  "page": 235
+ },
+ {
+  "id": "table.baraja-de-ilusiones",
+  "caption": "Baraja de ilusiones",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Baraja de ilusiones"
+  ],
+  "page": 237
+ },
+ {
+  "id": "table.baraja-misteriosa",
+  "caption": "Baraja misteriosa",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Baraja misteriosa"
+  ],
+  "page": 237
+ },
+ {
+  "id": "table.p239",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bastón de curación"
+  ],
+  "page": 239
+ },
+ {
+  "id": "table.p240",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bastón de escarcha"
+  ],
+  "page": 240
+ },
+ {
+  "id": "table.p240-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bastón de los bosques"
+  ],
+  "page": 240
+ },
+ {
+  "id": "table.p241",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bastón de los magos"
+  ],
+  "page": 241
+ },
+ {
+  "id": "table.p242",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bastón de poder"
+  ],
+  "page": 242
+ },
+ {
+  "id": "table.p243",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bolsa de judías"
+  ],
+  "page": 243
+ },
+ {
+  "id": "table.p244",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bolsa de judías"
+  ],
+  "page": 244
+ },
+ {
+  "id": "table.bolsa-de-trucos-gris",
+  "caption": "Bolsa de trucos gris",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bolsa de trucos"
+  ],
+  "page": 244
+ },
+ {
+  "id": "table.bolsa-de-trucos-rojiza",
+  "caption": "Bolsa de trucos rojiza",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bolsa de trucos"
+  ],
+  "page": 244
+ },
+ {
+  "id": "table.bolsa-de-trucos-marron",
+  "caption": "Bolsa de trucos marrón",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Bolsa de trucos"
+  ],
+  "page": 244
+ },
+ {
+  "id": "table.p245",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Botella de ifrit"
+  ],
+  "page": 245
+ },
+ {
+  "id": "table.p248",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Cinturón de fuerza de gigante"
+  ],
+  "page": 248
+ },
+ {
+  "id": "table.p249",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Cinturón de fuerza de gigante"
+  ],
+  "page": 249
+ },
+ {
+  "id": "table.p249-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Collar de plegarias"
+  ],
+  "page": 249
+ },
+ {
+  "id": "table.p250",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Cota de escamas de dragón"
+  ],
+  "page": 250
+ },
+ {
+  "id": "table.caras-del-cubo-de-fuerza",
+  "caption": "Caras del cubo de fuerza",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Cubo de fuerza"
+  ],
+  "page": 250
+ },
+ {
+  "id": "table.p251",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Cuerno del Valhalla"
+  ],
+  "page": 251
+ },
+ {
+  "id": "table.p254",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Esfera de aniquilación"
+  ],
+  "page": 254
+ },
+ {
+  "id": "table.fichas-de-pluma",
+  "caption": "Fichas de pluma",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Ficha de pluma"
+  ],
+  "page": 257
+ },
+ {
+  "id": "table.p259",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Gema elemental"
+  ],
+  "page": 259
+ },
+ {
+  "id": "table.p261",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Manual de gólems"
+  ],
+  "page": 261
+ },
+ {
+  "id": "table.p263",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Munición asesina"
+  ],
+  "page": 263
+ },
+ {
+  "id": "table.p264",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Orbe Dragontino"
+  ],
+  "page": 264
+ },
+ {
+  "id": "table.p264-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Pergamino de conjuro"
+  ],
+  "page": 264
+ },
+ {
+  "id": "table.p267",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Poción de fuerza de gigante"
+  ],
+  "page": 267
+ },
+ {
+  "id": "table.p267-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Poción de resistencia"
+  ],
+  "page": 267
+ },
+ {
+  "id": "table.p268",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Pociones de curación"
+  ],
+  "page": 268
+ },
+ {
+  "id": "table.p269",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Sombrero de múltiples conjuros"
+  ],
+  "page": 269
+ },
+ {
+  "id": "table.p270",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Sombrero de múltiples conjuros"
+  ],
+  "page": 270
+ },
+ {
+  "id": "table.p272",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Túnica de objetos útiles"
+  ],
+  "page": 272
+ },
+ {
+  "id": "table.p273",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Varita de atadura"
+  ],
+  "page": 273
+ },
+ {
+  "id": "table.efectos-de-la-varita-de-las-maravillas",
+  "caption": "Efectos de la varita de las maravillas",
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Varita de las maravillas"
+  ],
+  "page": 274
+ },
+ {
+  "id": "table.p274",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Varita de las maravillas"
+  ],
+  "page": 274
+ },
+ {
+  "id": "table.p275",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Varita de las maravillas"
+  ],
+  "page": 275
+ },
+ {
+  "id": "table.p276",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Varita del terror"
+  ],
+  "page": 276
+ },
+ {
+  "id": "table.p276-2",
+  "caption": null,
+  "context": [
+   "Objetos mágicos",
+   "Objetos mágicos de la A a la Z",
+   "Vela de invocación"
+  ],
+  "page": 276
+ },
+ {
+  "id": "table.dado-de-golpe-por-tamano",
+  "caption": "Dado de golpe por tamaño",
+  "context": [
+   "Monstruos",
+   "Partes de un perfil",
+   "Puntos de golpe"
+  ],
+  "page": 279
+ },
+ {
+  "id": "table.puntos-de-experiencia-por-valor-de-desafio",
+  "caption": "Puntos de experiencia por valor de desafío",
+  "context": [
+   "Monstruos",
+   "Partes de un perfil",
+   "Valor de desafío",
+   "Puntos de experiencia"
+  ],
+  "page": 280
+ },
+ {
+  "id": "table.p281",
+  "caption": null,
+  "context": [
+   "Monstruos",
+   "Partes de un perfil",
+   "Valor de desafío",
+   "Puntos de experiencia"
+  ],
+  "page": 281
+ },
+ {
+  "id": "table.bonificador-por-competencia-por-valor-de-desafio",
+  "caption": "Bonificador por competencia por valor de desafío",
+  "context": [
+   "Monstruos",
+   "Partes de un perfil",
+   "Valor de desafío",
+   "Bonificador por competencia"
+  ],
+  "page": 281
+ }
+]

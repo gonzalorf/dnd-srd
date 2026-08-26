@@ -1,0 +1,91 @@
+{
+ "id": "monster.triceratops",
+ "name": "Triceratops",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 398
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme (dinosaurio), sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "tags": [
+  "dinosaurio"
+ ],
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "114 (12d12 + 36)",
+  "average": 114,
+  "formula": "12d12 + 36"
+ },
+ "speeds": {
+  "caminando": 15.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 22,
+   "mod": 6,
+   "save": 6
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El triceratops realiza dos ataques de cornada.",
+   "page": 398,
+   "description": "El triceratops realiza dos ataques de cornada."
+  },
+  {
+   "name": "Cornada",
+   "md": "***Cornada.*** *Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 19 (2d12 + 6) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el triceratops recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 9 (2d8) de daño perforante adicional y tendrá el estado de derribada.",
+   "page": 398,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +9, alcance 1,5 m. *Acierto:* 19 (2d12 + 6) de daño perforante. Si el objetivo es una criatura Enorme o más pequeña y el triceratops recorre al menos 6 m en línea recta hacia ella justo antes de acertarle, esta recibirá 9 (2d8) de daño perforante adicional y tendrá el estado de derribada."
+  }
+ ]
+}

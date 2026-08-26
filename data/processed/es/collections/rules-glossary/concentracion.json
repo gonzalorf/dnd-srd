@@ -1,0 +1,35 @@
+{
+ "id": "rule.concentracion",
+ "name": "Concentración",
+ "text": "Algunos conjuros y otros efectos requieren concentración para permanecer activos, según se especifique en sus descripciones. Si el creador del efecto pierde la concentración, el efecto concluye. Si el efecto tiene una duración máxima, la descripción detalla cuánto tiempo puede concentrarse el creador en él: hasta 1 minuto, 1 hora u otra duración. El creador puede dejar de concentrarse en cualquier momento (no requiere acción). Los siguientes factores rompen la concentración:\n\nOtro efecto de concentración. Pierdes la concentración en un efecto en cuanto comienzas a lanzar un conjuro que también requiere concentración o activas otro efecto que requiere concentración.\n\nDaño. Si sufres daño, debes superar una tirada de salvación de Constitución para mantener la concentración. La CD es de 10 o la mitad del daño sufrido (redondeando hacia abajo), lo que sea mayor, hasta un máximo de 30.\n\nIncapacitado o muerto. Tu concentración acaba si tienes el estado de incapacitado o mueres.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 198,
+   "md": "Algunos conjuros y otros efectos requieren concentración para permanecer activos, según se especifique en sus descripciones. Si el creador del efecto pierde la concentración, el efecto concluye. Si el efecto tiene una duración máxima, la descripción detalla cuánto tiempo puede concentrarse el creador en él: hasta 1 minuto, 1 hora u otra duración. El creador puede dejar de concentrarse en cualquier momento (no requiere acción). Los siguientes factores rompen la concentración:",
+   "text": "Algunos conjuros y otros efectos requieren concentración para permanecer activos, según se especifique en sus descripciones. Si el creador del efecto pierde la concentración, el efecto concluye. Si el efecto tiene una duración máxima, la descripción detalla cuánto tiempo puede concentrarse el creador en él: hasta 1 minuto, 1 hora u otra duración. El creador puede dejar de concentrarse en cualquier momento (no requiere acción). Los siguientes factores rompen la concentración:"
+  },
+  {
+   "type": "definition",
+   "page": 198,
+   "md": "***Otro efecto de concentración.*** Pierdes la concentración en un efecto en cuanto comienzas a lanzar un conjuro que también requiere concentración o activas otro efecto que requiere concentración.",
+   "text": "Otro efecto de concentración. Pierdes la concentración en un efecto en cuanto comienzas a lanzar un conjuro que también requiere concentración o activas otro efecto que requiere concentración."
+  },
+  {
+   "type": "definition",
+   "page": 198,
+   "md": "***Daño.*** Si sufres daño, debes superar una tirada de salvación de Constitución para mantener la concentración. La CD es de 10 o la mitad del daño sufrido (redondeando hacia abajo), lo que sea mayor, hasta un máximo de 30.",
+   "text": "Daño. Si sufres daño, debes superar una tirada de salvación de Constitución para mantener la concentración. La CD es de 10 o la mitad del daño sufrido (redondeando hacia abajo), lo que sea mayor, hasta un máximo de 30."
+  },
+  {
+   "type": "definition",
+   "page": 198,
+   "md": "***Incapacitado o muerto.*** Tu concentración acaba si tienes el estado de incapacitado o mueres.",
+   "text": "Incapacitado o muerto. Tu concentración acaba si tienes el estado de incapacitado o mueres."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 198
+ }
+}

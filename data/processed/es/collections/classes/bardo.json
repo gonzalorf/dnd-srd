@@ -1,0 +1,1257 @@
+{
+ "id": "class.bardo",
+ "name": "Bardo",
+ "coreTraits": {
+  "Característica principal": "Carisma",
+  "Dado de puntos de golpe": "1d8 por nivel de bardo",
+  "Competencias en tiradas de salvación": "Destreza y Carisma",
+  "Competencias en habilidades": "Elige tres cualesquiera (consulta el capítulo “Cómo jugar”)",
+  "Competencias con armas": "Armas sencillas",
+  "Competencias con herramientas": "Elige tres instrumentos musicales (consulta el capítulo “Equipo”)",
+  "Entrenamiento con armaduras": "Armaduras ligeras",
+  "Equipo inicial": "Elige A o B: (A) armadura de"
+ },
+ "progression": {
+  "caption": "Rasgos de bardo",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Dado bárdico",
+   "Trucos",
+   "Conjuros preparados",
+   "Espacios de conjuro por cada nivel de conjuro 123456789"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Inspiración bárdica, Lanzamiento de conjuros",
+    "d6",
+    "2",
+    "4",
+    "2————————"
+   ],
+   [
+    "2",
+    "+2",
+    "Aprendiz de mucho, Pericia",
+    "d6",
+    "2",
+    "5",
+    "3————————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de bardo",
+    "d6",
+    "2",
+    "6",
+    "42———————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "d6",
+    "3",
+    "7",
+    "43———————"
+   ],
+   [
+    "5",
+    "+3",
+    "Fuente de inspiración",
+    "d8",
+    "3",
+    "9",
+    "432——————"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "d8",
+    "3",
+    "10",
+    "433——————"
+   ],
+   [
+    "7",
+    "+3",
+    "Contraencantamiento",
+    "d8",
+    "3",
+    "11",
+    "4331—————"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "d8",
+    "3",
+    "12",
+    "4332—————"
+   ],
+   [
+    "9",
+    "+4",
+    "Pericia",
+    "d8",
+    "3",
+    "14",
+    "43331————"
+   ],
+   [
+    "10",
+    "+4",
+    "Secretos mágicos",
+    "d10",
+    "4",
+    "15",
+    "43332————"
+   ],
+   [
+    "11",
+    "+4",
+    "—",
+    "d10",
+    "4",
+    "16",
+    "433321———"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "d10",
+    "4",
+    "16",
+    "433321———"
+   ],
+   [
+    "13",
+    "+5",
+    "—",
+    "d10",
+    "4",
+    "17",
+    "4333211——"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "d10",
+    "4",
+    "17",
+    "4333211——"
+   ],
+   [
+    "15",
+    "+5",
+    "—",
+    "d12",
+    "4",
+    "18",
+    "43332111—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "d12",
+    "4",
+    "18",
+    "43332111—"
+   ],
+   [
+    "17",
+    "+6",
+    "—",
+    "d12",
+    "4",
+    "19",
+    "433321111"
+   ],
+   [
+    "18",
+    "+6",
+    "Inspiración superior",
+    "d12",
+    "4",
+    "20",
+    "433331111"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "d12",
+    "4",
+    "21",
+    "433332111"
+   ],
+   [
+    "20",
+    "+6",
+    "Palabras de creación",
+    "d12",
+    "4",
+    "22",
+    "433332211"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Inspiración bárdica",
+   "title": "Nivel 1: Inspiración bárdica",
+   "subclass": null,
+   "text": "Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6.\n\nUtilizar la Inspiración bárdica. Como acción adicional, puedes inspirar a otra criatura que esté a 18 m o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica. Una sola vez durante la siguiente hora, cuando la criatura falle una prueba con d20, podrá tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.\n\nNúmero de usos. Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un descanso largo.\n\nA niveles superiores. Tu dado de inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna “Dado bárdico” de la tabla “Rasgos de bardo”. El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 36,
+     "md": "Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6.",
+     "text": "Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Utilizar la Inspiración bárdica.*** Como acción adicional, puedes inspirar a otra criatura que esté a 18 m o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica. Una sola vez durante la siguiente hora, cuando la criatura falle una prueba con d20, podrá tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.",
+     "text": "Utilizar la Inspiración bárdica. Como acción adicional, puedes inspirar a otra criatura que esté a 18 m o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica. Una sola vez durante la siguiente hora, cuando la criatura falle una prueba con d20, podrá tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Número de usos.*** Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un descanso largo.",
+     "text": "Número de usos. Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***A niveles superiores.*** Tu dado de inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna “Dado bárdico” de la tabla “Rasgos de bardo”. El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.",
+     "text": "A niveles superiores. Tu dado de inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna “Dado bárdico” de la tabla “Rasgos de bardo”. El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15."
+    }
+   ],
+   "page": 36
+  },
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Has aprendido a lanzar conjuros mediante tus artes bárdicas. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de bardo, que encontrarás más adelante en la lista de conjuros de bardo de la descripción de la clase.\n\nTrucos. Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de bardo. Se recomiendan burla dañina y luces danzantes. Cada vez que subas un nivel de bardo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de bardo. Cuando alcances los niveles 4 y 10 de bardo, aprenderás otro truco de tu elección de la lista de conjuros de bardo, como se muestra en la columna “Trucos” de la tabla “Rasgos de bardo”.\n\nEspacios de conjuro. La tabla “Rasgos de bardo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de bardo. Se recomiendan hechizar persona, palabra de curación, rociada de color y susurros discordantes. El número de conjuros de tu lista aumenta conforme subes de nivel de bardo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de bardo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de bardo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un bardo de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de bardo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de bardo para ti.\n\nCambiar los conjuros preparados. Cada vez que subas un nivel de bardo, puedes sustituir un conjuro de tu lista por otro conjuro de bardo para el que tengas espacios de conjuro.\n\nAptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de bardo.\n\nCanalizador mágico. Puedes utilizar un instrumento musical como canalizador mágico para tus conjuros de bardo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 36,
+     "md": "Has aprendido a lanzar conjuros mediante tus artes bárdicas. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de bardo, que encontrarás más adelante en la lista de conjuros de bardo de la descripción de la clase.",
+     "text": "Has aprendido a lanzar conjuros mediante tus artes bárdicas. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de bardo, que encontrarás más adelante en la lista de conjuros de bardo de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Trucos.*** Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de bardo. Se recomiendan *burla dañina* y *luces danzantes*. Cada vez que subas un nivel de bardo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de bardo. Cuando alcances los niveles 4 y 10 de bardo, aprenderás otro truco de tu elección de la lista de conjuros de bardo, como se muestra en la columna “Trucos” de la tabla “Rasgos de bardo”.",
+     "text": "Trucos. Conoces dos trucos de tu elección escogidos de entre los de la lista de conjuros de bardo. Se recomiendan burla dañina y luces danzantes. Cada vez que subas un nivel de bardo, puedes sustituir uno de tus trucos por otro truco de tu elección de la lista de conjuros de bardo. Cuando alcances los niveles 4 y 10 de bardo, aprenderás otro truco de tu elección de la lista de conjuros de bardo, como se muestra en la columna “Trucos” de la tabla “Rasgos de bardo”."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de bardo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de bardo” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de bardo. Se recomiendan *hechizar persona*, *palabra de curación*, *rociada de color* y *susurros discordantes*. El número de conjuros de tu lista aumenta conforme subes de nivel de bardo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de bardo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de bardo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un bardo de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de bardo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de bardo para ti.",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para empezar, elige cuatro conjuros de nivel 1 de la lista de conjuros de bardo. Se recomiendan hechizar persona, palabra de curación, rociada de color y susurros discordantes. El número de conjuros de tu lista aumenta conforme subes de nivel de bardo, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de bardo”. Cuando ese número aumente, elige conjuros adicionales de la lista de conjuros de bardo hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres un bardo de nivel 3, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Si otro rasgo de bardo te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de bardo para ti."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Cambiar los conjuros preparados.*** Cada vez que subas un nivel de bardo, puedes sustituir un conjuro de tu lista por otro conjuro de bardo para el que tengas espacios de conjuro.",
+     "text": "Cambiar los conjuros preparados. Cada vez que subas un nivel de bardo, puedes sustituir un conjuro de tu lista por otro conjuro de bardo para el que tengas espacios de conjuro."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Aptitud mágica.*** El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de bardo.",
+     "text": "Aptitud mágica. El Carisma es tu aptitud mágica en lo que respecta a tus conjuros de bardo."
+    },
+    {
+     "type": "definition",
+     "page": 36,
+     "md": "***Canalizador mágico.*** Puedes utilizar un instrumento musical como canalizador mágico para tus conjuros de bardo.",
+     "text": "Canalizador mágico. Puedes utilizar un instrumento musical como canalizador mágico para tus conjuros de bardo."
+    }
+   ],
+   "page": 36
+  },
+  {
+   "level": 2,
+   "name": "Aprendiz de mucho",
+   "title": "Nivel 2: Aprendiz de mucho",
+   "subclass": null,
+   "text": "Puedes sumar la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que hagas que utilice una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia.\n\nPor ejemplo, si haces una prueba de Fuerza (Atletismo) y no eres competente en Atletismo, puedes sumar la mitad de tu bonificador por competencia a la prueba.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Puedes sumar la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que hagas que utilice una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia.",
+     "text": "Puedes sumar la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que hagas que utilice una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia."
+    },
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Por ejemplo, si haces una prueba de Fuerza (Atletismo) y no eres competente en Atletismo, puedes sumar la mitad de tu bonificador por competencia a la prueba.",
+     "text": "Por ejemplo, si haces una prueba de Fuerza (Atletismo) y no eres competente en Atletismo, puedes sumar la mitad de tu bonificador por competencia a la prueba."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 2,
+   "name": "Pericia",
+   "title": "Nivel 2: Pericia",
+   "subclass": null,
+   "text": "Ganas pericia (consulta el capítulo “Glosario de reglas”) en dos de tus competencias en habilidades de tu elección. Se recomiendan Interpretación y Persuasión si eres competente en ellas.\n\nEn el nivel 9 de bardo ganas pericia en otras dos competencias de tu elección.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Ganas pericia (consulta el capítulo “Glosario de reglas”) en dos de tus competencias en habilidades de tu elección. Se recomiendan Interpretación y Persuasión si eres competente en ellas.",
+     "text": "Ganas pericia (consulta el capítulo “Glosario de reglas”) en dos de tus competencias en habilidades de tu elección. Se recomiendan Interpretación y Persuasión si eres competente en ellas."
+    },
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "En el nivel 9 de bardo ganas pericia en otras dos competencias de tu elección.",
+     "text": "En el nivel 9 de bardo ganas pericia en otras dos competencias de tu elección."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 3,
+   "name": "Subclase de bardo",
+   "title": "Nivel 3: Subclase de bardo",
+   "subclass": null,
+   "text": "Consigues una subclase de bardo de tu elección. La subclase del colegio del conocimiento se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bardo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bardo e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Consigues una subclase de bardo de tu elección. La subclase del colegio del conocimiento se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bardo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bardo e inferiores.",
+     "text": "Consigues una subclase de bardo de tu elección. La subclase del colegio del conocimiento se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de bardo. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de bardo e inferiores."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bardo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bardo.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de bardo."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 5,
+   "name": "Fuente de inspiración",
+   "title": "Nivel 5: Fuente de inspiración",
+   "subclass": null,
+   "text": "Ahora recuperas todos los usos de Inspiración bárdica tras finalizar un descanso corto o largo.\n\nAdemás, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Ahora recuperas todos los usos de Inspiración bárdica tras finalizar un descanso corto o largo.",
+     "text": "Ahora recuperas todos los usos de Inspiración bárdica tras finalizar un descanso corto o largo."
+    },
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica.",
+     "text": "Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 7,
+   "name": "Contraencantamiento",
+   "title": "Nivel 7: Contraencantamiento",
+   "subclass": null,
+   "text": "Puedes emplear notas musicales o palabras de poder para interrumpir los efectos que afectan a la mente. Si tú o una criatura que esté a 9 m o menos de ti falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes llevar a cabo una reacción para que se repita la tirada de salvación, y la nueva tirada tendrá ventaja.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Puedes emplear notas musicales o palabras de poder para interrumpir los efectos que afectan a la mente. Si tú o una criatura que esté a 9 m o menos de ti falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes llevar a cabo una reacción para que se repita la tirada de salvación, y la nueva tirada tendrá ventaja.",
+     "text": "Puedes emplear notas musicales o palabras de poder para interrumpir los efectos que afectan a la mente. Si tú o una criatura que esté a 9 m o menos de ti falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes llevar a cabo una reacción para que se repita la tirada de salvación, y la nueva tirada tendrá ventaja."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 10,
+   "name": "Secretos mágicos",
+   "title": "Nivel 10: Secretos mágicos",
+   "subclass": null,
+   "text": "Has aprendido secretos de diversas tradiciones mágicas. Cada vez que alcances un nivel de bardo (incluido este) y aumente la cantidad de conjuros preparados de la tabla “Rasgos de bardo”, podrás elegir cualquiera de los nuevos conjuros preparados de entre las listas de conjuros de bardo, clérigo, druida y mago. Los conjuros elegidos contarán como conjuros de bardo para ti (consulta las listas de conjuros en la sección de la clase correspondiente). Además, cuando sustituyas un conjuro preparado para esta clase, podrás hacerlo con un conjuro de esas listas.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Has aprendido secretos de diversas tradiciones mágicas. Cada vez que alcances un nivel de bardo (incluido este) y aumente la cantidad de conjuros preparados de la tabla “Rasgos de bardo”, podrás elegir cualquiera de los nuevos conjuros preparados de entre las listas de conjuros de bardo, clérigo, druida y mago. Los conjuros elegidos contarán como conjuros de bardo para ti (consulta las listas de conjuros en la sección de la clase correspondiente). Además, cuando sustituyas un conjuro preparado para esta clase, podrás hacerlo con un conjuro de esas listas.",
+     "text": "Has aprendido secretos de diversas tradiciones mágicas. Cada vez que alcances un nivel de bardo (incluido este) y aumente la cantidad de conjuros preparados de la tabla “Rasgos de bardo”, podrás elegir cualquiera de los nuevos conjuros preparados de entre las listas de conjuros de bardo, clérigo, druida y mago. Los conjuros elegidos contarán como conjuros de bardo para ti (consulta las listas de conjuros en la sección de la clase correspondiente). Además, cuando sustituyas un conjuro preparado para esta clase, podrás hacerlo con un conjuro de esas listas."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 18,
+   "name": "Inspiración superior",
+   "title": "Nivel 18: Inspiración superior",
+   "subclass": null,
+   "text": "Cuando tires iniciativa, recuperarás usos gastados de Inspiración bárdica hasta que tengas dos, si tuvieras menos de esta cifra.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Cuando tires iniciativa, recuperarás usos gastados de Inspiración bárdica hasta que tengas dos, si tuvieras menos de esta cifra.",
+     "text": "Cuando tires iniciativa, recuperarás usos gastados de Inspiración bárdica hasta que tengas dos, si tuvieras menos de esta cifra."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros."
+    }
+   ],
+   "page": 37
+  },
+  {
+   "level": 20,
+   "name": "Palabras de creación",
+   "title": "Nivel 20: Palabras de creación",
+   "subclass": null,
+   "text": "Ahora dominas dos de las palabras de creación: las palabras de la vida y de la muerte. Por tanto, siempre tienes preparados los conjuros palabra de poder: sanar y palabra de poder: matar. Cuando lances uno de estos conjuros, podrás hacer objetivo a una segunda criatura si esta se encuentra a 3 m o menos del primer objetivo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 37,
+     "md": "Ahora dominas dos de las palabras de creación: las palabras de la vida y de la muerte. Por tanto, siempre tienes preparados los conjuros *palabra de poder: sanar* y *palabra de poder: matar*. Cuando lances uno de estos conjuros, podrás hacer objetivo a una segunda criatura si esta se encuentra a 3 m o menos del primer objetivo.",
+     "text": "Ahora dominas dos de las palabras de creación: las palabras de la vida y de la muerte. Por tanto, siempre tienes preparados los conjuros palabra de poder: sanar y palabra de poder: matar. Cuando lances uno de estos conjuros, podrás hacer objetivo a una segunda criatura si esta se encuentra a 3 m o menos del primer objetivo."
+    }
+   ],
+   "page": 37
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de bardo: Colegio del conocimiento",
+   "features": [
+    {
+     "level": 3,
+     "name": "Competencias adicionales",
+     "title": "Nivel 3: Competencias adicionales",
+     "subclass": "Subclase de bardo: Colegio del conocimiento",
+     "text": "Ganas competencia en tres habilidades de tu elección.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 39,
+       "md": "Ganas competencia en tres habilidades de tu elección.",
+       "text": "Ganas competencia en tres habilidades de tu elección."
+      }
+     ],
+     "page": 39
+    },
+    {
+     "level": 3,
+     "name": "Palabras cortantes",
+     "title": "Nivel 3: Palabras cortantes",
+     "subclass": "Subclase de bardo: Colegio del conocimiento",
+     "text": "Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica; tira tu dado de Inspiración bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convierta el éxito en un fallo.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 39,
+       "md": "Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica; tira tu dado de Inspiración bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convierta el éxito en un fallo.",
+       "text": "Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica; tira tu dado de Inspiración bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convierta el éxito en un fallo."
+      }
+     ],
+     "page": 39
+    },
+    {
+     "level": 6,
+     "name": "Descubrimientos mágicos",
+     "title": "Nivel 6: Descubrimientos mágicos",
+     "subclass": "Subclase de bardo: Colegio del conocimiento",
+     "text": "Aprendes dos conjuros de tu elección. Estos conjuros pueden proceder de las listas de conjuros de clérigo, druida o mago, o de cualquier combinación de estas (consulta la lista de conjuros en la sección de la clase). Los conjuros que elijas deben ser trucos o conjuros para los que tengas espacios de conjuro, como se muestra en la tabla “Rasgos de bardo”.\n\nSiempre tienes preparados los conjuros elegidos y, cada vez que subas un nivel de bardo, podrás reemplazar uno de los conjuros por otro conjuro que cumpla estos requisitos.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 39,
+       "md": "Aprendes dos conjuros de tu elección. Estos conjuros pueden proceder de las listas de conjuros de clérigo, druida o mago, o de cualquier combinación de estas (consulta la lista de conjuros en la sección de la clase). Los conjuros que elijas deben ser trucos o conjuros para los que tengas espacios de conjuro, como se muestra en la tabla “Rasgos de bardo”.",
+       "text": "Aprendes dos conjuros de tu elección. Estos conjuros pueden proceder de las listas de conjuros de clérigo, druida o mago, o de cualquier combinación de estas (consulta la lista de conjuros en la sección de la clase). Los conjuros que elijas deben ser trucos o conjuros para los que tengas espacios de conjuro, como se muestra en la tabla “Rasgos de bardo”."
+      },
+      {
+       "type": "paragraph",
+       "page": 39,
+       "md": "Siempre tienes preparados los conjuros elegidos y, cada vez que subas un nivel de bardo, podrás reemplazar uno de los conjuros por otro conjuro que cumpla estos requisitos.",
+       "text": "Siempre tienes preparados los conjuros elegidos y, cada vez que subas un nivel de bardo, podrás reemplazar uno de los conjuros por otro conjuro que cumpla estos requisitos."
+      }
+     ],
+     "page": 39
+    },
+    {
+     "level": 14,
+     "name": "Habilidad sin parangón",
+     "title": "Nivel 14: Habilidad sin parangón",
+     "subclass": "Subclase de bardo: Colegio del conocimiento",
+     "text": "Cuando hagas una prueba de característica o una tirada de ataque y falles, podrás gastar un uso de Inspiración bárdica; tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir un fallo en un éxito. Si fallas la tirada, la Inspiración bárdica no se gasta.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 40,
+       "md": "Cuando hagas una prueba de característica o una tirada de ataque y falles, podrás gastar un uso de Inspiración bárdica; tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir un fallo en un éxito. Si fallas la tirada, la Inspiración bárdica no se gasta.",
+       "text": "Cuando hagas una prueba de característica o una tirada de ataque y falles, podrás gastar un uso de Inspiración bárdica; tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir un fallo en un éxito. Si fallas la tirada, la Inspiración bárdica no se gasta."
+      }
+     ],
+     "page": 40
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de bardo de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Burla dañina",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Ilusión menor",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Impacto certero",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Luces danzantes",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Luz",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Mano de mago",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Mensaje",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Prestidigitación",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Reparar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Voluta estelar",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 37
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de bardo de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Caída de pluma",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Curar heridas",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ],
+    [
+     "Disfrazarse",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Dormir",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Encantar animal",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Entender idiomas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Fuego feérico",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Hablar con los animales",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Hechizar persona",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Heroísmo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Identificar",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Imagen silenciosa",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Ola atronadora",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Orden imperiosa",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Palabra de curación",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Perdición",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Risa horrible",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Rociada de color",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Sirviente invisible",
+     "Conjuración",
+     "R"
+    ],
+    [
+     "Susurros discordantes",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Texto ilusorio",
+     "Ilusionismo",
+     "R, M"
+    ],
+    [
+     "Zancada prodigiosa",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 38
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de bardo de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Abrir",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Agrandar/reducir",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Auxilio",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Boca mágica",
+     "Ilusionismo",
+     "R, M"
+    ],
+    [
+     "Calentar metal",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Calmar emociones",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Detectar pensamientos",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Embelesar",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Hacer añicos",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Imagen múltiple",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Invisibilidad",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Localizar animales o plantas",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Localizar objeto",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Mensajero animal",
+     "Encantamiento",
+     "R"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Restablecimiento menor",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Sordera/ceguera",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Sugestión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Ver invisibilidad",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Zona de la verdad",
+     "Encantamiento",
+     "—"
+    ]
+   ],
+   "page": 38
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de bardo de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Clarividencia",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Crecimiento vegetal",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Don de lenguas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Glifo custodio",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Hablar con las plantas",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Hablar con los muertos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Imagen mayor",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Imponer maldición",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Indetectable",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Nube apestosa",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Palabra de curación en masa",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Patrón hipnótico",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Pequeña choza",
+     "Evocación",
+     "R"
+    ],
+    [
+     "Ralentizar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Recado",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Terror",
+     "Ilusionismo",
+     "C"
+    ]
+   ],
+   "page": 38
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de bardo de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Asesino fantasmal",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Compulsión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Confusión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Hechizar monstruo",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Invisibilidad mejorada",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Libertad de movimiento",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Localizar criatura",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Polimorfar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Puerta dimensional",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Terreno alucinatorio",
+     "Ilusionismo",
+     "—"
+    ]
+   ],
+   "page": 38
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de bardo de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Alterar los recuerdos",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Alzar a los muertos",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Animar objetos",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Apariencia",
+     "Ilusionismo",
+     "—"
+    ]
+   ],
+   "page": 38
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de bardo de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Baile irresistible",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Encontrar el camino",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Festín de héroes",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Guardas y guardias",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Ilusión programada",
+     "Ilusionismo",
+     "M"
+    ],
+    [
+     "Mal de ojo",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Sugestión en masa",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Visión veraz",
+     "Adivinación",
+     "M"
+    ]
+   ],
+   "page": 39
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de bardo de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Espada arcana",
+     "Evocación",
+     "C, M"
+    ],
+    [
+     "Espejismo arcano",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Excursión etérea",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Jaula de fuerza",
+     "Evocación",
+     "C, M"
+    ],
+    [
+     "Mansión magnífica",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Proyectar imagen",
+     "Ilusionismo",
+     "C, M"
+    ],
+    [
+     "Regenerar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Resurrección",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Rociada prismática",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Símbolo",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Teletransporte",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 39
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de bardo de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Antipatía/simpatía",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Dominar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Labia",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Ofuscación",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Palabra de poder: aturdir",
+     "Encantamiento",
+     "—"
+    ]
+   ],
+   "page": 39
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de bardo de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Muro prismático",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Palabra de poder: matar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Palabra de poder: sanar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Polimorfar verdadero",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Presciencia",
+     "Adivinación",
+     "—"
+    ]
+   ],
+   "page": 39
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 35
+ },
+ "refs": [
+  "spell.burla-danina",
+  "spell.luces-danzantes",
+  "spell.hechizar-persona",
+  "spell.palabra-de-curacion",
+  "spell.rociada-de-color",
+  "spell.susurros-discordantes",
+  "spell.palabra-de-poder-sanar",
+  "spell.palabra-de-poder-matar"
+ ]
+}

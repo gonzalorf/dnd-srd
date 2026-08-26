@@ -1,0 +1,19 @@
+{
+ "id": "vehicle.tripulacion",
+ "name": "Tripulación",
+ "kind": "vehicle",
+ "group": "Vehículos grandes",
+ "text": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 109,
+   "md": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla.",
+   "text": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ }
+}

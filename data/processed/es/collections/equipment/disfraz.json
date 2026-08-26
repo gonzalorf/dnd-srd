@@ -1,0 +1,36 @@
+{
+ "id": "gear.disfraz",
+ "name": "Disfraz",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Disfraz",
+  "Peso": "2 kg",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "2 kg",
+  "kg": 2.0
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "text": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 105,
+   "md": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.",
+   "text": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa."
+  }
+ ],
+ "descriptionPage": 105
+}

@@ -1,0 +1,47 @@
+{
+ "id": "item.escarabajo-protector",
+ "name": "Escarabajo protector",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario (requiere sintonización)",
+ "text": "Este medallón con forma de escarabajo proporciona tres beneficios mientras lo lleves contigo.\n\nDefensa. Recibes un bonificador de +1 a la clase de armadura.\n\nPreservación. El escarabajo tiene 12 cargas. Si fallas una tirada de salvación contra un conjuro de nigromancia o un efecto dañino de un muerto viviente, podrás utilizar una reacción y emplear 1 carga para superar la tirada de salvación. El esca\n\nrabajo se convertirá en polvo y se destruirá cuando se haya empleado la última carga.\n\nResistencia a conjuros. Tienes ventaja en las tiradas de salvación contra conjuros.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Este medallón con forma de escarabajo proporciona tres beneficios mientras lo lleves contigo.",
+   "text": "Este medallón con forma de escarabajo proporciona tres beneficios mientras lo lleves contigo."
+  },
+  {
+   "type": "definition",
+   "page": 252,
+   "md": "***Defensa.*** Recibes un bonificador de +1 a la clase de armadura.",
+   "text": "Defensa. Recibes un bonificador de +1 a la clase de armadura."
+  },
+  {
+   "type": "definition",
+   "page": 252,
+   "md": "***Preservación.*** El escarabajo tiene 12 cargas. Si fallas una tirada de salvación contra un conjuro de nigromancia o un efecto dañino de un muerto viviente, podrás utilizar una reacción y emplear 1 carga para superar la tirada de salvación. El esca",
+   "text": "Preservación. El escarabajo tiene 12 cargas. Si fallas una tirada de salvación contra un conjuro de nigromancia o un efecto dañino de un muerto viviente, podrás utilizar una reacción y emplear 1 carga para superar la tirada de salvación. El esca"
+  },
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "rabajo se convertirá en polvo y se destruirá cuando se haya empleado la última carga.",
+   "text": "rabajo se convertirá en polvo y se destruirá cuando se haya empleado la última carga."
+  },
+  {
+   "type": "definition",
+   "page": 252,
+   "md": "***Resistencia a conjuros.*** Tienes ventaja en las tiradas de salvación contra conjuros.",
+   "text": "Resistencia a conjuros. Tienes ventaja en las tiradas de salvación contra conjuros."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ }
+}

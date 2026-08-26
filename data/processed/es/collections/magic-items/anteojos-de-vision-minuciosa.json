@@ -1,0 +1,23 @@
+{
+ "id": "item.anteojos-de-vision-minuciosa",
+ "name": "Anteojos de visión minuciosa",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Estas lentes de cristal cubren los ojos. Mientras las lleves puestas, podrás ver mucho mejor de lo normal hasta una distancia de 30 cm: tendrás visión en la oscuridad hasta esa distancia y ventaja en las pruebas de Inteligencia (Investigación) para examinar algo a esa distancia o menos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 233,
+   "md": "Estas lentes de cristal cubren los ojos. Mientras las lleves puestas, podrás ver mucho mejor de lo normal hasta una distancia de 30 cm: tendrás visión en la oscuridad hasta esa distancia y ventaja en las pruebas de Inteligencia (Investigación) para examinar algo a esa distancia o menos.",
+   "text": "Estas lentes de cristal cubren los ojos. Mientras las lleves puestas, podrás ver mucho mejor de lo normal hasta una distancia de 30 cm: tendrás visión en la oscuridad hasta esa distancia y ventaja en las pruebas de Inteligencia (Investigación) para examinar algo a esa distancia o menos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 233
+ }
+}

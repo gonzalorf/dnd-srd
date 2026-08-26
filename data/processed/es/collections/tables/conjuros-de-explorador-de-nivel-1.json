@@ -1,0 +1,86 @@
+{
+ "id": "table.conjuros-de-explorador-de-nivel-1",
+ "caption": "Conjuros de explorador de nivel 1",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Alarma",
+   "Abjuración",
+   "R"
+  ],
+  [
+   "Buenas bayas",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Curar heridas",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Detectar magia",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Detectar venenos y enfermedades",
+   "Adivinación",
+   "C, R"
+  ],
+  [
+   "Encantar animal",
+   "Encantamiento",
+   "—"
+  ],
+  [
+   "Enmarañar",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Golpe apresador",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Hablar con los animales",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Marca del cazador",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Nube de oscurecimiento",
+   "Conjuración",
+   "C"
+  ],
+  [
+   "Salto",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Zancada prodigiosa",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Explorador",
+  "Lista de conjuros de explorador"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 60
+ }
+}

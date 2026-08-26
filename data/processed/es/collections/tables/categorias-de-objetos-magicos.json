@@ -1,0 +1,55 @@
+{
+ "id": "table.categorias-de-objetos-magicos",
+ "caption": "Categorías de objetos mágicos",
+ "header": [
+  "Categoría",
+  "Ejemplos"
+ ],
+ "rows": [
+  [
+   "Anillos",
+   "Anillo de invisibilidad"
+  ],
+  [
+   "Armaduras",
+   "Armadura de cuero +1, escudo +1"
+  ],
+  [
+   "Armas",
+   "Espada larga +1, munición +1"
+  ],
+  [
+   "Bastones",
+   "Bastón de impacto"
+  ],
+  [
+   "Objetos maravillosos",
+   "Bolsa de contención, botas élficas"
+  ],
+  [
+   "Pergaminos",
+   "Pergamino de conjuro"
+  ],
+  [
+   "Pociones",
+   "Poción de curación"
+  ],
+  [
+   "Varas",
+   "Vara inamovible"
+  ],
+  [
+   "Varitas",
+   "Varita de bolas de fuego"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Categorías de objetos mágicos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 223
+ }
+}

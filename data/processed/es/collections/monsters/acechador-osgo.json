@@ -1,0 +1,123 @@
+{
+ "id": "monster.acechador-osgo",
+ "name": "Acechador osgo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 356
+ },
+ "context": [
+  "Osgos"
+ ],
+ "metaRaw": "Feérico Mediano (trasgo), caótico malvado",
+ "type": "Feérico",
+ "alignment": "caótico malvado",
+ "size": "Mediano",
+ "tags": [
+  "trasgo"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "65 (10d8 + 20)",
+  "average": 65,
+  "formula": "10d8 + 20"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "skills": {
+  "Sigilo": 6,
+  "Supervivencia": 3
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "común",
+  "goblin"
+ ],
+ "gear": [
+  "camisa de malla",
+  "jabalinas (6)",
+  "lucero del alba"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 4
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 3
+  },
+  "car": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Rapto",
+   "md": "***Rapto.*** El osgo no necesita gastar movimiento adicional para desplazar a una criatura que tenga agarrada.",
+   "page": 356,
+   "description": "El osgo no necesita gastar movimiento adicional para desplazar a una criatura que tenga agarrada."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El osgo realiza dos ataques con sus jabalinas o su lucero del alba.",
+   "page": 356,
+   "description": "El osgo realiza dos ataques con sus jabalinas o su lucero del alba."
+  },
+  {
+   "name": "Jabalina",
+   "md": "***Jabalina.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 3 m o 9/36 m a distancia. *Acierto:* 13 (3d6 + 3) de daño perforante.",
+   "page": 356,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +5, alcance 3 m o 9/36 m a distancia. *Acierto:* 13 (3d6 + 3) de daño perforante."
+  },
+  {
+   "name": "Lucero del alba",
+   "md": "***Lucero del alba.*** *Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el osgo tiene agarrado al objetivo), alcance 3 m. *Acierto:* 12 (2d8 + 3) de daño perforante.",
+   "page": 356,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5 (con ventaja si el osgo tiene agarrado al objetivo), alcance 3 m. *Acierto:* 12 (2d8 + 3) de daño perforante."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Agarre rápido",
+   "md": "***Agarre rápido.*** *Tirada de salvación de Destreza:* CD 13, una criatura Mediana o más pequeña que el osgo pueda ver a 3 m o menos. *Fallo:* el objetivo tendrá el estado de agarrado (CD 13 para escapar).",
+   "page": 356,
+   "description": "*Tirada de salvación de Destreza:* CD 13, una criatura Mediana o más pequeña que el osgo pueda ver a 3 m o menos. *Fallo:* el objetivo tendrá el estado de agarrado (CD 13 para escapar)."
+  }
+ ]
+}

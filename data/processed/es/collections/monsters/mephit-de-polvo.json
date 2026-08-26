@@ -1,0 +1,121 @@
+{
+ "id": "monster.mephit-de-polvo",
+ "name": "Mephit de polvo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 350
+ },
+ "context": [
+  "Mephits"
+ ],
+ "metaRaw": "Elemental Pequeño, neutral malvado",
+ "type": "Elemental",
+ "alignment": "neutral malvado",
+ "size": "Pequeño",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "17 (5d6)",
+  "average": 17,
+  "formula": "5d6"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "volar": 9.0
+ },
+ "skills": {
+  "Percepción": 2,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "primordial (aurano",
+  "terrano)"
+ ],
+ "immunities": [
+  "veneno",
+  "cansancio",
+  "envenenado"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "1/2 (100 PX; BC +2)",
+  "cr": 0.5,
+  "xp": 100,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "con": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  }
+ },
+ "traits": [
+  {
+   "name": "Explotar al morir",
+   "md": "***Explotar al morir.*** El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño contundente. *Éxito:* la mitad del daño.",
+   "page": 350,
+   "description": "El mephit explota cuando muere. *Tirada de salvación de Destreza:* CD 10, todas las criaturas en una emanación de 1,5 m que se origina en el mephit. *Fallo:* 5 (2d4) de daño contundente. *Éxito:* la mitad del daño."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Garra",
+   "md": "***Garra.*** *Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño cortante.",
+   "page": 350,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +4, alcance 1,5 m. *Acierto:* 4 (1d4 + 2) de daño cortante."
+  },
+  {
+   "name": "Aliento cegador",
+   "md": "***Aliento cegador (recarga 6).*** *Tirada de salvación de Destreza:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* el objetivo tendrá el estado de cegado hasta el final del siguiente turno del mephit.",
+   "page": 350,
+   "description": "*Tirada de salvación de Destreza:* CD 10, todas las criaturas en un cono de 4,5 m. *Fallo:* el objetivo tendrá el estado de cegado hasta el final del siguiente turno del mephit.",
+   "uses": "recarga 6"
+  },
+  {
+   "name": "Dormir",
+   "md": "***Dormir (1/día).*** El mephit lanza el conjuro *dormir*, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 10).",
+   "page": 350,
+   "description": "El mephit lanza el conjuro *dormir*, que no requiere componentes y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 10).",
+   "uses": "1/día"
+  }
+ ],
+ "refs": [
+  "spell.dormir"
+ ]
+}

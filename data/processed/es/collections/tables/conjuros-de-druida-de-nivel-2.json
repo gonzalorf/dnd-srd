@@ -1,0 +1,126 @@
+{
+ "id": "table.conjuros-de-druida-de-nivel-2",
+ "caption": "Conjuros de druida de nivel 2",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Agrandar/reducir",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Augurio",
+   "Adivinación",
+   "R, M"
+  ],
+  [
+   "Auxilio",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Calentar metal",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Crecimiento espinoso",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Detectar trampas",
+   "Adivinación",
+   "—"
+  ],
+  [
+   "Esfera de llamas",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Hoja de fuego",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Inmovilizar persona",
+   "Encantamiento",
+   "C"
+  ],
+  [
+   "Llama permanente",
+   "Evocación",
+   "M"
+  ],
+  [
+   "Localizar animales o plantas",
+   "Adivinación",
+   "R"
+  ],
+  [
+   "Localizar objeto",
+   "Adivinación",
+   "C"
+  ],
+  [
+   "Mensajero animal",
+   "Encantamiento",
+   "R"
+  ],
+  [
+   "Pasar sin rastro",
+   "Abjuración",
+   "C"
+  ],
+  [
+   "Piel robliza",
+   "Transmutación",
+   "—"
+  ],
+  [
+   "Potenciar característica",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Protección contra veneno",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Ráfaga de viento",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Rayo de luna",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Restablecimiento menor",
+   "Abjuración",
+   "—"
+  ],
+  [
+   "Visión en la oscuridad",
+   "Transmutación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Lista de conjuros de druida"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 55
+ }
+}

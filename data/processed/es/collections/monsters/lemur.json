@@ -1,0 +1,111 @@
+{
+ "id": "monster.lemur",
+ "name": "Lémur",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 344,
+  "pages": [
+   344,
+   345
+  ]
+ },
+ "context": [
+  "Lémur"
+ ],
+ "metaRaw": "Infernal Mediano (diablo), legal malvado",
+ "type": "Infernal",
+ "alignment": "legal malvado",
+ "size": "Mediano",
+ "tags": [
+  "diablo"
+ ],
+ "ac": 9,
+ "acRaw": "9",
+ "initiative": {
+  "mod": -3,
+  "score": 7
+ },
+ "hp": {
+  "raw": "9 (2d8)",
+  "average": 9,
+  "formula": "2d8"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 36 m (no afectada por la oscuridad mágica); Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "entiende infernal",
+  "pero no puede hablar"
+ ],
+ "immunities": [
+  "fuego",
+  "veneno",
+  "asustado",
+  "envenenado",
+  "hechizado"
+ ],
+ "resistances": [
+  "frío"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "des": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 3,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Recuperación en los Infiernos",
+   "md": "***Recuperación en los Infiernos.*** Si el lémur muere en los Nueve Infiernos, revive con todos sus puntos de golpe al cabo de 1d10 días salvo si lo mata una criatura bajo los efectos de un conjuro *bendición* o si se rocían sus restos con agua bendita.",
+   "page": 345,
+   "description": "Si el lémur muere en los Nueve Infiernos, revive con todos sus puntos de golpe al cabo de 1d10 días salvo si lo mata una criatura bajo los efectos de un conjuro *bendición* o si se rocían sus restos con agua bendita."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Baba repulsiva",
+   "md": "***Baba repulsiva.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño de veneno.",
+   "page": 345,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 2 (1d4) de daño de veneno."
+  }
+ ],
+ "refs": [
+  "spell.bendicion"
+ ]
+}

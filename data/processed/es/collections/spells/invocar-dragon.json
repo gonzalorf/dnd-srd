@@ -1,0 +1,68 @@
+{
+ "id": "spell.invocar-dragon",
+ "name": "Invocar dragón",
+ "level": 5,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un objeto con la imagen de un dragón grabada en él que valga al menos 500 po)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un objeto con la imagen de un dragón grabada en él que valga al menos 500 po",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Invocas el espíritu de un dragón, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del espíritu dracónico. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina.\n\nLa criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro.\n\nCon un espacio de conjuro de nivel superior. Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "Invocas el espíritu de un dragón, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del **espíritu dracónico**. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina.",
+   "text": "Invocas el espíritu de un dragón, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del espíritu dracónico. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 160,
+   "md": "La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro.",
+   "text": "La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro."
+  },
+  {
+   "type": "definition",
+   "page": 160,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+   "text": "Con un espacio de conjuro de nivel superior. Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil."
+  },
+  {
+   "type": "statblock",
+   "page": 160,
+   "name": "Espíritu dracónico",
+   "ref": "statblock.espiritu-draconico"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 160
+ }
+}

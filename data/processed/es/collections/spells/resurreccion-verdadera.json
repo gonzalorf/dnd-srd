@@ -1,0 +1,62 @@
+{
+ "id": "spell.resurreccion-verdadera",
+ "name": "Resurrección verdadera",
+ "level": 9,
+ "cantrip": false,
+ "school": "Nigromancia",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 hora",
+  "ritual": false,
+  "kind": "time",
+  "value": 1,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Tocas a una criatura que no lleve más de 200 años muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe.\n\nEste conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades mágicas y levanta las maldiciones que afectaran a la criatura cuando murió. También sustituye los órganos y las extremidades que le falten o sufrieran daños. Si la criatura era un muerto viviente, la resucitará con su forma normal.\n\nEl conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuación, esta aparecerá en un espacio sin ocupar que elijas a 3 m o menos de ti.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Tocas a una criatura que no lleve más de 200 años muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe.",
+   "text": "Tocas a una criatura que no lleve más de 200 años muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe."
+  },
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades mágicas y levanta las maldiciones que afectaran a la criatura cuando murió. También sustituye los órganos y las extremidades que le falten o sufrieran daños. Si la criatura era un muerto viviente, la resucitará con su forma normal.",
+   "text": "Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades mágicas y levanta las maldiciones que afectaran a la criatura cuando murió. También sustituye los órganos y las extremidades que le falten o sufrieran daños. Si la criatura era un muerto viviente, la resucitará con su forma normal."
+  },
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuación, esta aparecerá en un espacio sin ocupar que elijas a 3 m o menos de ti.",
+   "text": "El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuación, esta aparecerá en un espacio sin ocupar que elijas a 3 m o menos de ti."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 181
+ }
+}

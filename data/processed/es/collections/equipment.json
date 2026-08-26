@@ -1,0 +1,6809 @@
+[
+ {
+  "id": "weapon.baston",
+  "name": "Bastón",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Bastón",
+   "Daño": "1d6 contundente",
+   "Propiedades": "Versátil (1d8)",
+   "Maestría": "Derribar",
+   "Peso": "2 kg",
+   "Precio": "2 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  }
+ },
+ {
+  "id": "weapon.daga",
+  "name": "Daga",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Daga",
+   "Daño": "1d4 perforante",
+   "Propiedades": "Arrojadiza (alcance 6/18), ligera, sutil",
+   "Maestría": "Mellar",
+   "Peso": "0,5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  }
+ },
+ {
+  "id": "weapon.garrote",
+  "name": "Garrote",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Garrote",
+   "Daño": "1d4 contundente",
+   "Propiedades": "Ligero",
+   "Maestría": "Ralentizar",
+   "Peso": "1 kg",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  }
+ },
+ {
+  "id": "weapon.garrote-grande",
+  "name": "Garrote grande",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Garrote grande",
+   "Daño": "1d8 contundente",
+   "Propiedades": "A dos manos",
+   "Maestría": "Empujar",
+   "Peso": "5 kg",
+   "Precio": "2 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  }
+ },
+ {
+  "id": "weapon.hacha-de-mano",
+  "name": "Hacha de mano",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Hacha de mano",
+   "Daño": "1d6 cortante",
+   "Propiedades": "Arrojadiza (alcance 6/18), ligera",
+   "Maestría": "Molestar",
+   "Peso": "1 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "weapon.hoz",
+  "name": "Hoz",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Hoz",
+   "Daño": "1d4 cortante",
+   "Propiedades": "Ligera",
+   "Maestría": "Mellar",
+   "Peso": "1 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "weapon.jabalina",
+  "name": "Jabalina",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Jabalina",
+   "Daño": "1d6 perforante",
+   "Propiedades": "Arrojadiza (alcance 9/36)",
+   "Maestría": "Ralentizar",
+   "Peso": "1 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  }
+ },
+ {
+  "id": "weapon.lanza",
+  "name": "Lanza",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Lanza",
+   "Daño": "1d6 perforante",
+   "Propiedades": "Arrojadiza (alcance 6/18), versátil (1d8)",
+   "Maestría": "Debilitar",
+   "Peso": "1,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "weapon.martillo-ligero",
+  "name": "Martillo ligero",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Martillo ligero",
+   "Daño": "1d4 contundente",
+   "Propiedades": "Arrojadizo (alcance 6/18), ligero",
+   "Maestría": "Mellar",
+   "Peso": "1 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  }
+ },
+ {
+  "id": "weapon.maza",
+  "name": "Maza",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Maza",
+   "Daño": "1d6 contundente",
+   "Propiedades": "—",
+   "Maestría": "Debilitar",
+   "Peso": "2 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "weapon.arco-corto",
+  "name": "Arco corto",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Arco corto",
+   "Daño": "1d6 perforante",
+   "Propiedades": "A dos manos, munición (alcance 24/96; flecha)",
+   "Maestría": "Molestar",
+   "Peso": "1 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "weapon.ballesta-ligera",
+  "name": "Ballesta ligera",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Ballesta ligera",
+   "Daño": "1d8 perforante",
+   "Propiedades": "A dos manos, munición (alcance 24/96; virote), recarga",
+   "Maestría": "Ralentizar",
+   "Peso": "2,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "weapon.dardo",
+  "name": "Dardo",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Dardo",
+   "Daño": "1d4 perforante",
+   "Propiedades": "Arrojadizo (alcance 6/18), sutil",
+   "Maestría": "Molestar",
+   "Peso": "125 g",
+   "Precio": "5 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  }
+ },
+ {
+  "id": "weapon.honda",
+  "name": "Honda",
+  "kind": "weapon",
+  "group": "Armas a distancia sencillas",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Honda",
+   "Daño": "1d4 contundente",
+   "Propiedades": "Munición (alcance 9/36; proyectil)",
+   "Maestría": "Ralentizar",
+   "Peso": "—",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  }
+ },
+ {
+  "id": "weapon.alabarda",
+  "name": "Alabarda",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Alabarda",
+   "Daño": "1d10 cortante",
+   "Propiedades": "A dos manos, gran alcance, pesada",
+   "Maestría": "Hender",
+   "Peso": "3 kg",
+   "Precio": "20 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "weapon.cimitarra",
+  "name": "Cimitarra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Cimitarra",
+   "Daño": "1d6 cortante",
+   "Propiedades": "Ligera, sutil",
+   "Maestría": "Mellar",
+   "Peso": "1,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "weapon.espada-corta",
+  "name": "Espada corta",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Espada corta",
+   "Daño": "1d6 perforante",
+   "Propiedades": "Ligera, sutil",
+   "Maestría": "Molestar",
+   "Peso": "1 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.espada-larga",
+  "name": "Espada larga",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Espada larga",
+   "Daño": "1d8 cortante",
+   "Propiedades": "Versátil (1d10)",
+   "Maestría": "Debilitar",
+   "Peso": "1,5 kg",
+   "Precio": "15 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "weapon.espadon",
+  "name": "Espadón",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Espadón",
+   "Daño": "2d6 cortante",
+   "Propiedades": "A dos manos, pesado",
+   "Maestría": "Rozar",
+   "Peso": "3 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "weapon.estoque",
+  "name": "Estoque",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Estoque",
+   "Daño": "1d8 perforante",
+   "Propiedades": "Sutil",
+   "Maestría": "Molestar",
+   "Peso": "1 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "weapon.guja",
+  "name": "Guja",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Guja",
+   "Daño": "1d10 cortante",
+   "Propiedades": "A dos manos, gran alcance, pesada",
+   "Maestría": "Rozar",
+   "Peso": "3 kg",
+   "Precio": "20 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "weapon.hacha-a-dos-manos",
+  "name": "Hacha a dos manos",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Hacha a dos manos",
+   "Daño": "1d12 cortante",
+   "Propiedades": "A dos manos, pesada",
+   "Maestría": "Hender",
+   "Peso": "3,5 kg",
+   "Precio": "30 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  }
+ },
+ {
+  "id": "weapon.hacha-de-guerra",
+  "name": "Hacha de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Hacha de guerra",
+   "Daño": "1d8 cortante",
+   "Propiedades": "Versátil (1d10)",
+   "Maestría": "Derribar",
+   "Peso": "2 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.lanza-de-caballeria",
+  "name": "Lanza de caballería",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Lanza de caballería",
+   "Daño": "1d10 perforante",
+   "Propiedades": "A dos manos (salvo montado), gran alcance, pesada",
+   "Maestría": "Derribar",
+   "Peso": "3 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.latigo",
+  "name": "Látigo",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Látigo",
+   "Daño": "1d4 cortante",
+   "Propiedades": "Gran alcance, sutil",
+   "Maestría": "Ralentizar",
+   "Peso": "1,5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  }
+ },
+ {
+  "id": "weapon.lucero-del-alba",
+  "name": "Lucero del alba",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Lucero del alba",
+   "Daño": "1d8 perforante",
+   "Propiedades": "—",
+   "Maestría": "Debilitar",
+   "Peso": "2 kg",
+   "Precio": "15 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "weapon.mangual",
+  "name": "Mangual",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Mangual",
+   "Daño": "1d8 contundente",
+   "Propiedades": "—",
+   "Maestría": "Debilitar",
+   "Peso": "1 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.martillo-de-guerra",
+  "name": "Martillo de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Martillo de guerra",
+   "Daño": "1d8 contundente",
+   "Propiedades": "Versátil (1d10)",
+   "Maestría": "Empujar",
+   "Peso": "2,5 kg",
+   "Precio": "15 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "weapon.maza-a-dos-manos",
+  "name": "Maza a dos manos",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Maza a dos manos",
+   "Daño": "2d6 contundente",
+   "Propiedades": "A dos manos, pesada",
+   "Maestría": "Derribar",
+   "Peso": "5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.pica",
+  "name": "Pica",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Pica",
+   "Daño": "1d10 perforante",
+   "Propiedades": "A dos manos, gran alcance, pesada",
+   "Maestría": "Empujar",
+   "Peso": "9 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "9 kg",
+   "kg": 9.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "weapon.pico-de-guerra",
+  "name": "Pico de guerra",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Pico de guerra",
+   "Daño": "1d8 perforante",
+   "Propiedades": "Versátil (1d10)",
+   "Maestría": "Debilitar",
+   "Peso": "1 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "weapon.tridente",
+  "name": "Tridente",
+  "kind": "weapon",
+  "group": "Armas cuerpo a cuerpo marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Tridente",
+   "Daño": "1d8 perforante",
+   "Propiedades": "Arrojadizo (alcance 6/18), versátil (1d10)",
+   "Maestría": "Derribar",
+   "Peso": "2 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "weapon.arco-largo",
+  "name": "Arco largo",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Arco largo",
+   "Daño": "1d8 perforante",
+   "Propiedades": "A dos manos, munición (alcance 45/180; flecha), pesado",
+   "Maestría": "Ralentizar",
+   "Peso": "1 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "weapon.ballesta-de-mano",
+  "name": "Ballesta de mano",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Ballesta de mano",
+   "Daño": "1d6 perforante",
+   "Propiedades": "Ligera, munición (alcance 9/36; virote), recarga",
+   "Maestría": "Molestar",
+   "Peso": "1,5 kg",
+   "Precio": "75 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  }
+ },
+ {
+  "id": "weapon.ballesta-pesada",
+  "name": "Ballesta pesada",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Ballesta pesada",
+   "Daño": "1d10 perforante",
+   "Propiedades": "A dos manos, munición (alcance 30/120; virote), pesada, recarga",
+   "Maestría": "Empujar",
+   "Peso": "9 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "9 kg",
+   "kg": 9.0
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "weapon.cerbatana",
+  "name": "Cerbatana",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Cerbatana",
+   "Daño": "1 perforante",
+   "Propiedades": "Munición (alcance 7,5/30; dardo), recarga",
+   "Maestría": "Molestar",
+   "Peso": "0,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "weapon.mosquete",
+  "name": "Mosquete",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Mosquete",
+   "Daño": "1d12 perforante",
+   "Propiedades": "A dos manos, munición (alcance 12/36; bala), recarga",
+   "Maestría": "Ralentizar",
+   "Peso": "5 kg",
+   "Precio": "500 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "500 po",
+   "amount": 500.0,
+   "coin": "po",
+   "gp": 500.0
+  }
+ },
+ {
+  "id": "weapon.pistola",
+  "name": "Pistola",
+  "kind": "weapon",
+  "group": "Armas a distancia marciales",
+  "table": "Armas",
+  "fields": {
+   "Nombre": "Pistola",
+   "Daño": "1d10 perforante",
+   "Propiedades": "Munición (alcance 9/27; bala), recarga",
+   "Maestría": "Molestar",
+   "Peso": "1,5 kg",
+   "Precio": "250 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 99
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "250 po",
+   "amount": 250.0,
+   "coin": "po",
+   "gp": 250.0
+  }
+ },
+ {
+  "id": "armor.armadura-acolchada",
+  "name": "Armadura acolchada",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura acolchada",
+   "Clase de armadura (CA)": "11 + modificador por Des",
+   "Fuerza": "—",
+   "Sigilo": "Desventaja",
+   "Peso": "4 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "4 kg",
+   "kg": 4.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "armor.armadura-de-cuero",
+  "name": "Armadura de cuero",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura de cuero",
+   "Clase de armadura (CA)": "11 + modificador por Des",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "armor.armadura-de-cuero-tachonado",
+  "name": "Armadura de cuero tachonado",
+  "kind": "armor",
+  "group": "Armaduras ligeras (1 minuto para ponérselas o quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura de cuero tachonado",
+   "Clase de armadura (CA)": "12 + modificador por Des",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "6,5 kg",
+   "Precio": "45 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "6,5 kg",
+   "kg": 6.5
+  },
+  "price": {
+   "raw": "45 po",
+   "amount": 45.0,
+   "coin": "po",
+   "gp": 45.0
+  }
+ },
+ {
+  "id": "armor.armadura-de-pieles",
+  "name": "Armadura de pieles",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura de pieles",
+   "Clase de armadura (CA)": "12 + modificador por Des (máx. 2)",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "6 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "6 kg",
+   "kg": 6.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "armor.camisa-de-malla",
+  "name": "Camisa de malla",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Camisa de malla",
+   "Clase de armadura (CA)": "13 + modificador por Des (máx. 2)",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "10 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "armor.cota-de-escamas",
+  "name": "Cota de escamas",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Cota de escamas",
+   "Clase de armadura (CA)": "14 + modificador por Des (máx. 2)",
+   "Fuerza": "—",
+   "Sigilo": "Desventaja",
+   "Peso": "22,5 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "22,5 kg",
+   "kg": 22.5
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "armor.coraza",
+  "name": "Coraza",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Coraza",
+   "Clase de armadura (CA)": "14 + modificador por Des (máx. 2)",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "10 kg",
+   "Precio": "400 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "price": {
+   "raw": "400 po",
+   "amount": 400.0,
+   "coin": "po",
+   "gp": 400.0
+  }
+ },
+ {
+  "id": "armor.media-armadura",
+  "name": "Media armadura",
+  "kind": "armor",
+  "group": "Armaduras medias (5 minutos para ponérselas y 1 minuto para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Media armadura",
+   "Clase de armadura (CA)": "15 + modificador por Des (máx. 2)",
+   "Fuerza": "—",
+   "Sigilo": "Desventaja",
+   "Peso": "20 kg",
+   "Precio": "750 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "price": {
+   "raw": "750 po",
+   "amount": 750.0,
+   "coin": "po",
+   "gp": 750.0
+  }
+ },
+ {
+  "id": "armor.cota-guarnecida",
+  "name": "Cota guarnecida",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Cota guarnecida",
+   "Clase de armadura (CA)": "14",
+   "Fuerza": "—",
+   "Sigilo": "Desventaja",
+   "Peso": "20 kg",
+   "Precio": "30 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  }
+ },
+ {
+  "id": "armor.cota-de-malla",
+  "name": "Cota de malla",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Cota de malla",
+   "Clase de armadura (CA)": "16",
+   "Fuerza": "Fue 13",
+   "Sigilo": "Desventaja",
+   "Peso": "27,5 kg",
+   "Precio": "75 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  }
+ },
+ {
+  "id": "armor.armadura-de-bandas",
+  "name": "Armadura de bandas",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura de bandas",
+   "Clase de armadura (CA)": "17",
+   "Fuerza": "Fue 15",
+   "Sigilo": "Desventaja",
+   "Peso": "30 kg",
+   "Precio": "200 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "30 kg",
+   "kg": 30.0
+  },
+  "price": {
+   "raw": "200 po",
+   "amount": 200.0,
+   "coin": "po",
+   "gp": 200.0
+  }
+ },
+ {
+  "id": "armor.armadura-de-placas",
+  "name": "Armadura de placas",
+  "kind": "armor",
+  "group": "Armaduras pesadas (10 minutos para ponérselas y 5 minutos para quitárselas)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Armadura de placas",
+   "Clase de armadura (CA)": "18",
+   "Fuerza": "Fue 15",
+   "Sigilo": "Desventaja",
+   "Peso": "32,5 kg",
+   "Precio": "1500 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "32,5 kg",
+   "kg": 32.5
+  },
+  "price": {
+   "raw": "1500 po",
+   "amount": 1500.0,
+   "coin": "po",
+   "gp": 1500.0
+  }
+ },
+ {
+  "id": "armor.escudo",
+  "name": "Escudo",
+  "kind": "armor",
+  "group": "Escudos (acción de utilizar para ponérselos o quitárselos)",
+  "table": "Armaduras",
+  "fields": {
+   "Armadura": "Escudo",
+   "Clase de armadura (CA)": "+2",
+   "Fuerza": "—",
+   "Sigilo": "—",
+   "Peso": "3 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 100
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "gear.abrojos",
+  "name": "Abrojos",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Abrojos",
+   "Peso": "1 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 102,
+    "md": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.",
+    "text": "Como acción de utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán 1 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos."
+   },
+   {
+    "type": "table",
+    "page": 103,
+    "caption": "Equipo de aventureros",
+    "header": [
+     "Objeto",
+     "Peso",
+     "Precio"
+    ],
+    "rows": [
+     [
+      "Abrojos",
+      "1 kg",
+      "1 po"
+     ],
+     [
+      "Aceite",
+      "0,5 kg",
+      "1 pp"
+     ],
+     [
+      "Ácido",
+      "0,5 kg",
+      "25 po"
+     ],
+     [
+      "Agua bendita",
+      "0,5 kg",
+      "25 po"
+     ],
+     [
+      "Aljaba",
+      "0,5 kg",
+      "1 po"
+     ],
+     [
+      "Antitoxina",
+      "—",
+      "50 po"
+     ],
+     [
+      "Antorcha",
+      "0,5 kg",
+      "1 pc"
+     ],
+     [
+      "Ariete portátil",
+      "17,5 kg",
+      "4 po"
+     ],
+     [
+      "Barril",
+      "35 kg",
+      "2 po"
+     ],
+     [
+      "Bolas de metal",
+      "1 kg",
+      "1 po"
+     ],
+     [
+      "Bolsa",
+      "0,5 kg",
+      "5 pp"
+     ],
+     [
+      "Botella de cristal",
+      "1 kg",
+      "2 po"
+     ],
+     [
+      "Cadena",
+      "5 kg",
+      "5 po"
+     ],
+     [
+      "Campana",
+      "—",
+      "1 po"
+     ],
+     [
+      "Canalizador arcano",
+      "Variable",
+      "Variable"
+     ],
+     [
+      "Canalizador druídico",
+      "Variable",
+      "Variable"
+     ],
+     [
+      "Cantimplora",
+      "2,5 kg (llena)",
+      "2 pp"
+     ],
+     [
+      "Catalejo",
+      "0,5 kg",
+      "1000 po"
+     ],
+     [
+      "Cerradura",
+      "0,5 kg",
+      "10 po"
+     ],
+     [
+      "Cesta",
+      "1 kg",
+      "4 pp"
+     ],
+     [
+      "Cofre",
+      "12,5 kg",
+      "5 po"
+     ],
+     [
+      "Cordel",
+      "—",
+      "1 pp"
+     ],
+     [
+      "Cubo",
+      "1 kg",
+      "5 pc"
+     ],
+     [
+      "Cuerda",
+      "2,5 kg",
+      "1 po"
+     ],
+     [
+      "Disfraz",
+      "2 kg",
+      "5 po"
+     ],
+     [
+      "Escalera",
+      "12,5 kg",
+      "1 pp"
+     ],
+     [
+      "Espejo",
+      "250 g",
+      "5 po"
+     ],
+     [
+      "Esposas",
+      "3 kg",
+      "2 po"
+     ],
+     [
+      "Estuche para mapas o pergaminos",
+      "0,5 kg",
+      "1 po"
+     ],
+     [
+      "Estuche para virotes de ballesta",
+      "0,5 kg",
+      "1 po"
+     ],
+     [
+      "Frasco",
+      "0,5 kg",
+      "2 pc"
+     ],
+     [
+      "Fuego de alquimista",
+      "0,5 kg",
+      "50 po"
+     ],
+     [
+      "Garfio de escalada",
+      "2 kg",
+      "2 po"
+     ],
+     [
+      "Jarro",
+      "2 kg",
+      "2 pc"
+     ],
+     [
+      "Lámpara",
+      "0,5 kg",
+      "5 pp"
+     ],
+     [
+      "Libro",
+      "2,5 kg",
+      "25 po"
+     ],
+     [
+      "Linterna de ojo de buey",
+      "1 kg",
+      "10 po"
+     ],
+     [
+      "Linterna sorda",
+      "1 kg",
+      "5 po"
+     ],
+     [
+      "Lupa",
+      "—",
+      "100 po"
+     ],
+     [
+      "Manta",
+      "1,5 kg",
+      "5 pp"
+     ],
+     [
+      "Mapa",
+      "—",
+      "1 po"
+     ],
+     [
+      "Mochila",
+      "2,5 kg",
+      "2 po"
+     ],
+     [
+      "Munición",
+      "Variable",
+      "Variable"
+     ],
+     [
+      "Olla de hierro",
+      "5 kg",
+      "2 po"
+     ],
+     [
+      "Pala",
+      "2,5 kg",
+      "2 po"
+     ],
+     [
+      "Palanqueta",
+      "2,5 kg",
+      "2 po"
+     ],
+     [
+      "Papel",
+      "—",
+      "2 pp"
+     ],
+     [
+      "Paquete de artista",
+      "29,25 kg",
+      "40 po"
+     ],
+     [
+      "Paquete de diplomático",
+      "19,5 kg",
+      "39 po"
+     ],
+     [
+      "Paquete de erudito",
+      "11 kg",
+      "40 po"
+     ],
+     [
+      "Paquete de explorador",
+      "27,5 kg",
+      "10 po"
+     ],
+     [
+      "Paquete de explorador de mazmorras",
+      "27,5 kg",
+      "12 po"
+     ],
+     [
+      "Paquete de ladrón",
+      "21 kg",
+      "16 po"
+     ],
+     [
+      "Paquete de sacerdote",
+      "14,5 kg",
+      "33 po"
+     ],
+     [
+      "Perfume",
+      "—",
+      "5 po"
+     ],
+     [
+      "Pergamino",
+      "—",
+      "1 pp"
+     ],
+     [
+      "Pergamino de conjuro (truco)",
+      "—",
+      "30 po"
+     ],
+     [
+      "Pergamino de conjuro (nivel 1)",
+      "—",
+      "50 po"
+     ],
+     [
+      "Petate",
+      "3,5 kg",
+      "1 po"
+     ],
+     [
+      "Pluma",
+      "—",
+      "2 pc"
+     ],
+     [
+      "Poción de curación",
+      "250 g",
+      "50 po"
+     ],
+     [
+      "Polipasto",
+      "2,5 kg",
+      "1 po"
+     ],
+     [
+      "Puntas de hierro",
+      "2,5 kg",
+      "1 po"
+     ],
+     [
+      "Raciones",
+      "1 kg",
+      "5 pp"
+     ],
+     [
+      "Red",
+      "1,5 kg",
+      "1 po"
+     ],
+     [
+      "Ropas de calidad",
+      "3 kg",
+      "15 po"
+     ],
+     [
+      "Ropas de viaje",
+      "2 kg",
+      "2 po"
+     ],
+     [
+      "Saco",
+      "250 g",
+      "1 pc"
+     ],
+     [
+      "Saquito de componentes",
+      "1 kg",
+      "25 po"
+     ],
+     [
+      "Silbato de supervivencia",
+      "—",
+      "5 pc"
+     ],
+     [
+      "Símbolo sagrado",
+      "Variable",
+      "Variable"
+     ],
+     [
+      "Tienda",
+      "10 kg",
+      "2 po"
+     ],
+     [
+      "Tinta",
+      "—",
+      "10 po"
+     ],
+     [
+      "Trampa para cazar",
+      "12,5 kg",
+      "5 po"
+     ],
+     [
+      "Túnica",
+      "2 kg",
+      "1 po"
+     ],
+     [
+      "Útiles de escalada",
+      "6 kg",
+      "25 po"
+     ],
+     [
+      "Útiles de sanador",
+      "1,5 kg",
+      "5 po"
+     ],
+     [
+      "Vara",
+      "3,5 kg",
+      "5 pc"
+     ],
+     [
+      "Vela",
+      "—",
+      "1 pc"
+     ],
+     [
+      "Veneno básico",
+      "—",
+      "100 po"
+     ],
+     [
+      "Vial",
+      "—",
+      "1 po"
+     ],
+     [
+      "Yesquero",
+      "0,5 kg",
+      "5 pp"
+     ]
+    ]
+   }
+  ],
+  "descriptionPage": 102
+ },
+ {
+  "id": "gear.aceite",
+  "name": "Aceite",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Aceite",
+   "Peso": "0,5 kg",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "text": "Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.\n\nEmpapar a una criatura o un objeto. Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Haz objetivo a una criatura u objeto a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o quedará cubierto de aceite. Si el objetivo sufre daño de fuego antes de que el aceite se seque (tras 1 minuto), recibirá 5 de daño de fuego adicional debido a que el aceite arderá.\n\nEmpapar un espacio. Puedes llevar a cabo la acción de utilizar para verter un frasco de aceite sobre un suelo plano para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Si se prende, el aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará 5 de daño de fuego a cualquier criatura que entre en la zona o termine su turno en ella. Una criatura solo puede sufrir este daño una vez por turno.\n\nCombustible. El aceite sirve de combustible para lámparas y linternas. Un frasco de aceite prendido arde durante 6 horas en una lámpara o linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como acción de utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.",
+    "text": "Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación."
+   },
+   {
+    "type": "definition",
+    "page": 104,
+    "md": "***Empapar a una criatura o un objeto.*** Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Haz objetivo a una criatura u objeto a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o quedará cubierto de aceite. Si el objetivo sufre daño de fuego antes de que el aceite se seque (tras 1 minuto), recibirá 5 de daño de fuego adicional debido a que el aceite arderá.",
+    "text": "Empapar a una criatura o un objeto. Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de aceite. Haz objetivo a una criatura u objeto a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o quedará cubierto de aceite. Si el objetivo sufre daño de fuego antes de que el aceite se seque (tras 1 minuto), recibirá 5 de daño de fuego adicional debido a que el aceite arderá."
+   },
+   {
+    "type": "definition",
+    "page": 104,
+    "md": "***Empapar un espacio.*** Puedes llevar a cabo la acción de utilizar para verter un frasco de aceite sobre un suelo plano para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Si se prende, el aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará 5 de daño de fuego a cualquier criatura que entre en la zona o termine su turno en ella. Una criatura solo puede sufrir este daño una vez por turno.",
+    "text": "Empapar un espacio. Puedes llevar a cabo la acción de utilizar para verter un frasco de aceite sobre un suelo plano para cubrir una zona cuadrada de 1,5 m de lado a 1,5 m o menos de ti. Si se prende, el aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará 5 de daño de fuego a cualquier criatura que entre en la zona o termine su turno en ella. Una criatura solo puede sufrir este daño una vez por turno."
+   },
+   {
+    "type": "definition",
+    "page": 104,
+    "md": "***Combustible.*** El aceite sirve de combustible para lámparas y linternas. Un frasco de aceite prendido arde durante 6 horas en una lámpara o linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como acción de utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas.",
+    "text": "Combustible. El aceite sirve de combustible para lámparas y linternas. Un frasco de aceite prendido arde durante 6 horas en una lámpara o linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como acción de utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.acido",
+  "name": "Ácido",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Ácido",
+   "Peso": "0,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un vial de ácido. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d6 de daño de ácido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un vial de ácido. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d6 de daño de ácido.",
+    "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un vial de ácido. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d6 de daño de ácido."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.agua-bendita",
+  "name": "Agua bendita",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Agua bendita",
+   "Peso": "0,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente.",
+    "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de agua bendita. Haz objetivo a una criatura que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 2d8 de daño radiante si es un infernal o un muerto viviente."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.aljaba",
+  "name": "Aljaba",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Aljaba",
+   "Peso": "0,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "En una aljaba caben hasta 20 flechas.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "En una aljaba caben hasta 20 flechas.",
+    "text": "En una aljaba caben hasta 20 flechas."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.antitoxina",
+  "name": "Antitoxina",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Antitoxina",
+   "Peso": "—",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "text": "Como acción adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado durante 1 hora.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Como acción adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado durante 1 hora.",
+    "text": "Como acción adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado durante 1 hora."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.antorcha",
+  "name": "Antorcha",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Antorcha",
+   "Peso": "0,5 kg",
+   "Precio": "1 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "text": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego.",
+    "text": "Una antorcha arde durante 1 hora y emite luz brillante en un radio de 6 m y luz tenue 6 m más allá. Cuando llevas a cabo la acción de atacar, puedes hacerlo con la antorcha como si fuera un arma cuerpo a cuerpo sencilla. Si acierta, el objetivo sufre 1 de daño de fuego."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.ariete-portatil",
+  "name": "Ariete portátil",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Ariete portátil",
+   "Peso": "17,5 kg",
+   "Precio": "4 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "17,5 kg",
+   "kg": 17.5
+  },
+  "price": {
+   "raw": "4 po",
+   "amount": 4.0,
+   "coin": "po",
+   "gp": 4.0
+  },
+  "text": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba.",
+    "text": "Puedes usar un ariete portátil para derribar puertas. Cuando lo hagas, obtendrás un bonificador de +4 a la prueba de Fuerza. Si otro personaje te ayuda a usar el ariete, tendrás ventaja en esta prueba."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.barril",
+  "name": "Barril",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Barril",
+   "Peso": "35 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "35 kg",
+   "kg": 35.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas.",
+    "text": "En un barril caben 160 l de líquido o un volumen de 120 l de mercancías secas."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.bolas-de-metal",
+  "name": "Bolas de metal",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Bolas de metal",
+   "Peso": "1 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal.",
+    "text": "Como acción de utilizar, puedes verter las bolas de metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m de lado a 3 m o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 10 o tendrán el estado de derribadas. Se tarda 10 minutos en recuperar las bolas de metal."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.bolsa",
+  "name": "Bolsa",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Bolsa",
+   "Peso": "0,5 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "text": "Una bolsa soporta hasta 3 kg en un volumen de 6 l.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Una bolsa soporta hasta 3 kg en un volumen de 6 l.",
+    "text": "Una bolsa soporta hasta 3 kg en un volumen de 6 l."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.botella-de-cristal",
+  "name": "Botella de cristal",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Botella de cristal",
+   "Peso": "1 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "En una botella de cristal caben hasta 0,75 l de líquido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "En una botella de cristal caben hasta 0,75 l de líquido.",
+    "text": "En una botella de cristal caben hasta 0,75 l de líquido."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.cadena",
+  "name": "Cadena",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cadena",
+   "Peso": "5 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Como acción de utilizar, puedes atar con una cadena a una criatura no voluntaria a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Fuerza (Atletismo) con CD 13. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cadena, deberá superar una prueba de Destreza (Acrobacias) con CD 18 como acción. Romper la cadena requiere superar una prueba de Fuerza (Atletismo) con CD 20 como acción.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Como acción de utilizar, puedes atar con una cadena a una criatura no voluntaria a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Fuerza (Atletismo) con CD 13. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cadena, deberá superar una prueba de Destreza (Acrobacias) con CD 18 como acción. Romper la cadena requiere superar una prueba de Fuerza (Atletismo) con CD 20 como acción.",
+    "text": "Como acción de utilizar, puedes atar con una cadena a una criatura no voluntaria a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Fuerza (Atletismo) con CD 13. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cadena, deberá superar una prueba de Destreza (Acrobacias) con CD 18 como acción. Romper la cadena requiere superar una prueba de Fuerza (Atletismo) con CD 20 como acción."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.campana",
+  "name": "Campana",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Campana",
+   "Peso": "—",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia.",
+    "text": "Al tañer una campana como acción de utilizar, producirá un sonido audible a 18 m de distancia."
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.canalizador-arcano",
+  "name": "Canalizador arcano",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Canalizador arcano",
+   "Peso": "Variable",
+   "Precio": "Variable"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "text": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 104,
+    "md": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos.",
+    "text": "Un canalizador arcano puede ser uno de los objetos de la tabla “Canalizadores arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los brujos, hechiceros o magos pueden utilizar estos objetos como canalizadores mágicos."
+   },
+   {
+    "type": "table",
+    "page": 105,
+    "caption": "Canalizadores arcanos",
+    "header": [
+     "Canalizador",
+     "Peso",
+     "Precio"
+    ],
+    "rows": [
+     [
+      "Bastón",
+      "2 kg",
+      "5 po"
+     ],
+     [
+      "Cristal",
+      "0,5 kg",
+      "10 po"
+     ],
+     [
+      "Orbe",
+      "1,5 kg",
+      "20 po"
+     ],
+     [
+      "Vara",
+      "1 kg",
+      "10 po"
+     ],
+     [
+      "Varita",
+      "0,5 kg",
+      "10 po"
+     ]
+    ]
+   }
+  ],
+  "descriptionPage": 104
+ },
+ {
+  "id": "gear.canalizador-druidico",
+  "name": "Canalizador druídico",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Canalizador druídico",
+   "Peso": "Variable",
+   "Precio": "Variable"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "text": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos.",
+    "text": "Un canalizador druídico puede ser uno de los objetos de la tabla “Canalizadores druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los druidas o exploradores pueden utilizar estos objetos como canalizadores mágicos."
+   },
+   {
+    "type": "table",
+    "page": 105,
+    "caption": "Canalizadores druídicos",
+    "header": [
+     "Canalizador",
+     "Peso",
+     "Precio"
+    ],
+    "rows": [
+     [
+      "Bastón de madera (también bastón)",
+      "2 kg",
+      "5 po"
+     ],
+     [
+      "Rama de muérdago",
+      "—",
+      "1 po"
+     ],
+     [
+      "Varita de tejo",
+      "0,5 kg",
+      "10 po"
+     ]
+    ]
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cantimplora",
+  "name": "Cantimplora",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cantimplora",
+   "Peso": "2,5 kg (llena)",
+   "Precio": "2 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "text": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”).",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”).",
+    "text": "En una cantimplora caben hasta 2 l de líquido. Si no bebes suficiente agua, te arriesgas a sufrir deshidratación (consulta el capítulo “Glosario de reglas”)."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.catalejo",
+  "name": "Catalejo",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Catalejo",
+   "Peso": "0,5 kg",
+   "Precio": "1000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1000 po",
+   "amount": 1000.0,
+   "coin": "po",
+   "gp": 1000.0
+  },
+  "text": "Los objetos que se observan a través de un catalejo se ven al doble de su tamaño real.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Los objetos que se observan a través de un catalejo se ven al doble de su tamaño real.",
+    "text": "Los objetos que se observan a través de un catalejo se ven al doble de su tamaño real."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cerradura",
+  "name": "Cerradura",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cerradura",
+   "Peso": "0,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "text": "Una cerradura viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura si supera una prueba de Destreza (Juego de manos) con CD 15.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Una cerradura viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura si supera una prueba de Destreza (Juego de manos) con CD 15.",
+    "text": "Una cerradura viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura si supera una prueba de Destreza (Juego de manos) con CD 15."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cesta",
+  "name": "Cesta",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cesta",
+   "Peso": "1 kg",
+   "Precio": "4 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "4 pp",
+   "amount": 4.0,
+   "coin": "pp",
+   "gp": 0.4
+  },
+  "text": "Una cesta soporta hasta 20 kg en un volumen de 60 l.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Una cesta soporta hasta 20 kg en un volumen de 60 l.",
+    "text": "Una cesta soporta hasta 20 kg en un volumen de 60 l."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cofre",
+  "name": "Cofre",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cofre",
+   "Peso": "12,5 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "En un cofre cabe un volumen de hasta 360 l de contenido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En un cofre cabe un volumen de hasta 360 l de contenido.",
+    "text": "En un cofre cabe un volumen de hasta 360 l de contenido."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cordel",
+  "name": "Cordel",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cordel",
+   "Peso": "—",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "text": "Un cordel mide 3 m de longitud. Puedes atar un nudo con él como acción de utilizar.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Un cordel mide 3 m de longitud. Puedes atar un nudo con él como acción de utilizar.",
+    "text": "Un cordel mide 3 m de longitud. Puedes atar un nudo con él como acción de utilizar."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cubo",
+  "name": "Cubo",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cubo",
+   "Peso": "1 kg",
+   "Precio": "5 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "text": "En un cubo cabe un volumen de 15 l de contenido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En un cubo cabe un volumen de 15 l de contenido.",
+    "text": "En un cubo cabe un volumen de 15 l de contenido."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.cuerda",
+  "name": "Cuerda",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Cuerda",
+   "Peso": "2,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20.\n\nPuedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20.",
+    "text": "Como acción de utilizar, puedes hacer un nudo con una cuerda si superas una prueba de Destreza (Juego de manos) con CD 10. Para romper la cuerda, se debe superar una prueba de Fuerza (Atletismo) con CD 20."
+   },
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Puedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción.",
+    "text": "Puedes atar a una criatura no voluntaria con la cuerda solo si tiene el estado de agarrada, apresada o incapacitada. Si la criatura tiene las piernas atadas, tendrá el estado de apresada hasta que se libere. Para liberarse de la cuerda, deberá superar una prueba de Destreza (Acrobacias) con CD 15 como acción."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.disfraz",
+  "name": "Disfraz",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Disfraz",
+   "Peso": "2 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa.",
+    "text": "Mientras lleves puesto un disfraz, tienes ventaja en cualquier prueba de característica que hagas para hacerte pasar por la persona o tipo de persona que representa."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.escalera",
+  "name": "Escalera",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Escalera",
+   "Peso": "12,5 kg",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "text": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella.",
+    "text": "Una escalera mide 3 m de altura. Debes trepar para subir o bajar por ella."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.espejo",
+  "name": "Espejo",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Espejo",
+   "Peso": "250 g",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal.",
+    "text": "Un espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.esposas",
+  "name": "Esposas",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Esposas",
+   "Peso": "3 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción.\n\nCada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción.",
+    "text": "Como acción de utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m o menos de ti que tenga el estado de agarrada, apresada o incapacitada si superas una prueba de Destreza (Juego de manos) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará apresada si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos) con CD 20 como acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo) con CD 25 como acción."
+   },
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15.",
+    "text": "Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar herramientas de ladrón para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos) con CD 15."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.estuche-para-mapas-o-pergaminos",
+  "name": "Estuche para mapas o pergaminos",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Estuche para mapas o pergaminos",
+   "Peso": "0,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "En un estuche para mapas o pergaminos caben hasta 10 hojas de papel o 5 hojas de pergamino.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En un estuche para mapas o pergaminos caben hasta 10 hojas de papel o 5 hojas de pergamino.",
+    "text": "En un estuche para mapas o pergaminos caben hasta 10 hojas de papel o 5 hojas de pergamino."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.estuche-para-virotes-de-ballesta",
+  "name": "Estuche para virotes de ballesta",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Estuche para virotes de ballesta",
+   "Peso": "0,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "En un estuche para virotes de ballesta caben hasta 20 virotes.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En un estuche para virotes de ballesta caben hasta 20 virotes.",
+    "text": "En un estuche para virotes de ballesta caben hasta 20 virotes."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.frasco",
+  "name": "Frasco",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Frasco",
+   "Peso": "0,5 kg",
+   "Precio": "2 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "text": "En un frasco caben hasta 0,5 l de líquido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 105,
+    "md": "En un frasco caben hasta 0,5 l de líquido.",
+    "text": "En un frasco caben hasta 0,5 l de líquido."
+   }
+  ],
+  "descriptionPage": 105
+ },
+ {
+  "id": "gear.fuego-de-alquimista",
+  "name": "Fuego de alquimista",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Fuego de alquimista",
+   "Peso": "0,5 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de fuego de alquimista. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 1d4 de daño de fuego y comenzará a arder (consulta el capítulo “Glosario de reglas”).",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de fuego de alquimista. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 1d4 de daño de fuego y comenzará a arder (consulta el capítulo “Glosario de reglas”).",
+    "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar un frasco de fuego de alquimista. Haz objetivo a una criatura u objeto que puedas ver a 6 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá 1d4 de daño de fuego y comenzará a arder (consulta el capítulo “Glosario de reglas”)."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.garfio-de-escalada",
+  "name": "Garfio de escalada",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Garfio de escalada",
+   "Peso": "2 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar.",
+    "text": "Como acción de utilizar, puedes lanzar un garfio de escalada a una barandilla, cornisa u otro saliente a 15 m o menos de ti, y el garfio se enganchará si superas una prueba de Destreza (Acrobacias) con CD 13. Si el garfio tiene una cuerda atada, podrás escalar."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.jarro",
+  "name": "Jarro",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Jarro",
+   "Peso": "2 kg",
+   "Precio": "2 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "text": "En un jarro caben hasta 4 l de líquido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "En un jarro caben hasta 4 l de líquido.",
+    "text": "En un jarro caben hasta 4 l de líquido."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.lampara",
+  "name": "Lámpara",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Lámpara",
+   "Peso": "0,5 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "text": "Una lámpara quema aceite como combustible para emitir luz brillante en un radio de 4,5 m y luz tenue 9 m más allá.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una lámpara quema aceite como combustible para emitir luz brillante en un radio de 4,5 m y luz tenue 9 m más allá.",
+    "text": "Una lámpara quema aceite como combustible para emitir luz brillante en un radio de 4,5 m y luz tenue 9 m más allá."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.libro",
+  "name": "Libro",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Libro",
+   "Peso": "2,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "text": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia.",
+    "text": "Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (Conocimiento arcano, Historia, Naturaleza o Religión) que hagas sobre esa materia."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.linterna-de-ojo-de-buey",
+  "name": "Linterna de ojo de buey",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Linterna de ojo de buey",
+   "Peso": "1 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "text": "Una linterna de ojo de buey quema aceite como combustible para emitir luz brillante en un cono de 18 m y luz tenue 18 m más allá.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una linterna de ojo de buey quema aceite como combustible para emitir luz brillante en un cono de 18 m y luz tenue 18 m más allá.",
+    "text": "Una linterna de ojo de buey quema aceite como combustible para emitir luz brillante en un cono de 18 m y luz tenue 18 m más allá."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.linterna-sorda",
+  "name": "Linterna sorda",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Linterna sorda",
+   "Peso": "1 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo.",
+    "text": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.lupa",
+  "name": "Lupa",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Lupa",
+   "Peso": "—",
+   "Precio": "100 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  },
+  "text": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego.",
+    "text": "Una lupa te da ventaja en las pruebas de característica que hagas para tasar o inspeccionar un objeto muy detallado. Para encender un fuego con una lupa, se necesita una luz tan brillante como la del sol para enfocar, yesca para prender y unos 5 minutos para que se encienda el fuego."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.manta",
+  "name": "Manta",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Manta",
+   "Peso": "1,5 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "text": "Mientras te envuelvas en una manta, tendrás ventaja en las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”).",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Mientras te envuelvas en una manta, tendrás ventaja en las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”).",
+    "text": "Mientras te envuelvas en una manta, tendrás ventaja en las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”)."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.mapa",
+  "name": "Mapa",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Mapa",
+   "Peso": "—",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él.",
+    "text": "Si consultas un mapa preciso, recibes un bonificador de +5 a las pruebas de Sabiduría (Supervivencia) que hagas para orientarte en el lugar representado en él."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.mochila",
+  "name": "Mochila",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Mochila",
+   "Peso": "2,5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Una mochila soporta hasta 15 kg en un volumen de 30 l. También puede servir de alforja.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una mochila soporta hasta 15 kg en un volumen de 30 l. También puede servir de alforja.",
+    "text": "Una mochila soporta hasta 15 kg en un volumen de 30 l. También puede servir de alforja."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.municion",
+  "name": "Munición",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Munición",
+   "Peso": "Variable",
+   "Precio": "Variable"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "text": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 98,
+    "md": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él.",
+    "text": "Solo puedes realizar un ataque a distancia usando un arma con esta propiedad si tienes munición para ella. El tipo de munición necesaria se especifica junto con el alcance del arma. Cada ataque gasta una unidad de munición. Extraer la munición forma parte del ataque (necesitas una mano libre para cargar un arma de una mano). Tras un combate, puedes dedicar 1 minuto a recuperar la mitad de la munición (redondeada hacia abajo) que hayas usado en él."
+   }
+  ],
+  "descriptionPage": 98
+ },
+ {
+  "id": "gear.olla-de-hierro",
+  "name": "Olla de hierro",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Olla de hierro",
+   "Peso": "5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "En una olla de hierro caben hasta 4 l.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "En una olla de hierro caben hasta 4 l.",
+    "text": "En una olla de hierro caben hasta 4 l."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.pala",
+  "name": "Pala",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Pala",
+   "Peso": "2,5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar.",
+    "text": "Con 1 hora de trabajo, puedes usar una pala para cavar un agujero cúbico de 1,5 m de lado en la tierra o en un material similar."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.palanqueta",
+  "name": "Palanqueta",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Palanqueta",
+   "Peso": "2,5 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.",
+    "text": "Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.papel",
+  "name": "Papel",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Papel",
+   "Peso": "—",
+   "Precio": "2 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "2 pp",
+   "amount": 2.0,
+   "coin": "pp",
+   "gp": 0.2
+  },
+  "text": "En una hoja de papel caben unas 250 palabras escritas a mano.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "En una hoja de papel caben unas 250 palabras escritas a mano.",
+    "text": "En una hoja de papel caben unas 250 palabras escritas a mano."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.paquete-de-artista",
+  "name": "Paquete de artista",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de artista",
+   "Peso": "29,25 kg",
+   "Precio": "40 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "29,25 kg",
+   "kg": 29.25
+  },
+  "price": {
+   "raw": "40 po",
+   "amount": 40.0,
+   "coin": "po",
+   "gp": 40.0
+  },
+  "text": "Un paquete de artista contiene los siguientes objetos: campana, cantimplora, 3 disfraces, espejo, 8 frascos de aceite, linterna de ojo de buey, mochila, petate, raciones para 9 días y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Un paquete de artista contiene los siguientes objetos: campana, cantimplora, 3 disfraces, espejo, 8 frascos de aceite, linterna de ojo de buey, mochila, petate, raciones para 9 días y yesquero.",
+    "text": "Un paquete de artista contiene los siguientes objetos: campana, cantimplora, 3 disfraces, espejo, 8 frascos de aceite, linterna de ojo de buey, mochila, petate, raciones para 9 días y yesquero."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.paquete-de-diplomatico",
+  "name": "Paquete de diplomático",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de diplomático",
+   "Peso": "19,5 kg",
+   "Precio": "39 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "19,5 kg",
+   "kg": 19.5
+  },
+  "price": {
+   "raw": "39 po",
+   "amount": 39.0,
+   "coin": "po",
+   "gp": 39.0
+  },
+  "text": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 106,
+    "md": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero.",
+    "text": "Un paquete de diplomático contiene los siguientes objetos: cofre, 2 estuches para mapas o pergaminos, 4 frascos de aceite, 5 hojas de papel, 5 hojas de pergamino, lámpara, perfume, 5 plumas, ropas de calidad, tinta y yesquero."
+   }
+  ],
+  "descriptionPage": 106
+ },
+ {
+  "id": "gear.paquete-de-erudito",
+  "name": "Paquete de erudito",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de erudito",
+   "Peso": "11 kg",
+   "Precio": "40 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "11 kg",
+   "kg": 11.0
+  },
+  "price": {
+   "raw": "40 po",
+   "amount": 40.0,
+   "coin": "po",
+   "gp": 40.0
+  },
+  "text": "Un paquete de erudito contiene los siguientes objetos: 10 frascos de aceite, 10 hojas de pergamino, lámpara, libro, mochila, pluma, tinta y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un paquete de erudito contiene los siguientes objetos: 10 frascos de aceite, 10 hojas de pergamino, lámpara, libro, mochila, pluma, tinta y yesquero.",
+    "text": "Un paquete de erudito contiene los siguientes objetos: 10 frascos de aceite, 10 hojas de pergamino, lámpara, libro, mochila, pluma, tinta y yesquero."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.paquete-de-explorador",
+  "name": "Paquete de explorador",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de explorador",
+   "Peso": "27,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "text": "Un paquete de explorador contiene los siguientes objetos: 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, petate, raciones para 10 días y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un paquete de explorador contiene los siguientes objetos: 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, petate, raciones para 10 días y yesquero.",
+    "text": "Un paquete de explorador contiene los siguientes objetos: 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, petate, raciones para 10 días y yesquero."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.paquete-de-explorador-de-mazmorras",
+  "name": "Paquete de explorador de mazmorras",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de explorador de mazmorras",
+   "Peso": "27,5 kg",
+   "Precio": "12 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "27,5 kg",
+   "kg": 27.5
+  },
+  "price": {
+   "raw": "12 po",
+   "amount": 12.0,
+   "coin": "po",
+   "gp": 12.0
+  },
+  "text": "Un paquete de explorador de mazmorras contiene los siguientes objetos: abrojos, 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, palanqueta, raciones para 10 días y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un paquete de explorador de mazmorras contiene los siguientes objetos: abrojos, 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, palanqueta, raciones para 10 días y yesquero.",
+    "text": "Un paquete de explorador de mazmorras contiene los siguientes objetos: abrojos, 10 antorchas, cantimplora, cuerda, 2 frascos de aceite, mochila, palanqueta, raciones para 10 días y yesquero."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.paquete-de-ladron",
+  "name": "Paquete de ladrón",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de ladrón",
+   "Peso": "21 kg",
+   "Precio": "16 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "21 kg",
+   "kg": 21.0
+  },
+  "price": {
+   "raw": "16 po",
+   "amount": 16.0,
+   "coin": "po",
+   "gp": 16.0
+  },
+  "text": "Un paquete de ladrón contiene los siguientes objetos: bolas de metal, campana, cantimplora, cuerda, 7 frascos de aceite, linterna sorda, mochila, palanqueta, raciones para 5 días, 10 velas y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un paquete de ladrón contiene los siguientes objetos: bolas de metal, campana, cantimplora, cuerda, 7 frascos de aceite, linterna sorda, mochila, palanqueta, raciones para 5 días, 10 velas y yesquero.",
+    "text": "Un paquete de ladrón contiene los siguientes objetos: bolas de metal, campana, cantimplora, cuerda, 7 frascos de aceite, linterna sorda, mochila, palanqueta, raciones para 5 días, 10 velas y yesquero."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.paquete-de-sacerdote",
+  "name": "Paquete de sacerdote",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Paquete de sacerdote",
+   "Peso": "14,5 kg",
+   "Precio": "33 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "14,5 kg",
+   "kg": 14.5
+  },
+  "price": {
+   "raw": "33 po",
+   "amount": 33.0,
+   "coin": "po",
+   "gp": 33.0
+  },
+  "text": "Un paquete de sacerdote contiene los siguientes objetos: agua bendita, lámpara, manta, mochila, raciones para 7 días, túnica y yesquero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un paquete de sacerdote contiene los siguientes objetos: agua bendita, lámpara, manta, mochila, raciones para 7 días, túnica y yesquero.",
+    "text": "Un paquete de sacerdote contiene los siguientes objetos: agua bendita, lámpara, manta, mochila, raciones para 7 días, túnica y yesquero."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.perfume",
+  "name": "Perfume",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Perfume",
+   "Peso": "—",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti.",
+    "text": "El perfume viene en un vial de 120 ml. Después de ponerte el perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (Persuasión) que hagas para influir en un humanoide indiferente situado a 1,5 m o menos de ti."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.pergamino",
+  "name": "Pergamino",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Pergamino",
+   "Peso": "—",
+   "Precio": "1 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 pp",
+   "amount": 1.0,
+   "coin": "pp",
+   "gp": 0.1
+  },
+  "text": "En una hoja de pergamino caben unas 250 palabras escritas a mano.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "En una hoja de pergamino caben unas 250 palabras escritas a mano.",
+    "text": "En una hoja de pergamino caben unas 250 palabras escritas a mano."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.pergamino-de-conjuro-truco",
+  "name": "Pergamino de conjuro (truco)",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Pergamino de conjuro (truco)",
+   "Peso": "—",
+   "Precio": "30 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  }
+ },
+ {
+  "id": "gear.pergamino-de-conjuro-nivel-1",
+  "name": "Pergamino de conjuro (nivel 1)",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Pergamino de conjuro (nivel 1)",
+   "Peso": "—",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "gear.petate",
+  "name": "Petate",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Petate",
+   "Peso": "3,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "En un petate puede dormir una criatura Pequeña o Mediana. Mientras estés en un petate, superarás automáticamente las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”).",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "En un petate puede dormir una criatura Pequeña o Mediana. Mientras estés en un petate, superarás automáticamente las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”).",
+    "text": "En un petate puede dormir una criatura Pequeña o Mediana. Mientras estés en un petate, superarás automáticamente las tiradas de salvación contra el frío extremo (consulta el capítulo “Herramientas del juego”)."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.pluma",
+  "name": "Pluma",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Pluma",
+   "Peso": "—",
+   "Precio": "2 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "2 pc",
+   "amount": 2.0,
+   "coin": "pc",
+   "gp": 0.02
+  },
+  "text": "Una pluma sirve para escribir o dibujar con tinta.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Una pluma sirve para escribir o dibujar con tinta.",
+    "text": "Una pluma sirve para escribir o dibujar con tinta."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.pocion-de-curacion",
+  "name": "Poción de curación",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Poción de curación",
+   "Peso": "250 g",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  },
+  "text": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe.",
+    "text": "Esta poción es un objeto mágico. Como acción adicional, puedes beberla o administrarla a otra criatura que se encuentre a 1,5 m o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará 2d4 + 2 puntos de golpe."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.polipasto",
+  "name": "Polipasto",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Polipasto",
+   "Peso": "2,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Un polipasto te permite levantar hasta cuatro veces el peso que normalmente puedes levantar.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Un polipasto te permite levantar hasta cuatro veces el peso que normalmente puedes levantar.",
+    "text": "Un polipasto te permite levantar hasta cuatro veces el peso que normalmente puedes levantar."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.puntas-de-hierro",
+  "name": "Puntas de hierro",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Puntas de hierro",
+   "Peso": "2,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2,5 kg",
+   "kg": 2.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta.",
+    "text": "Las puntas de hierro vienen en lotes de diez. Como acción de utilizar, puedes usar un objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.raciones",
+  "name": "Raciones",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Raciones",
+   "Peso": "1 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "text": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer.",
+    "text": "Las raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta “Desnutrición” en el capítulo “Glosario de reglas” para saber los riesgos que implica no comer."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.red",
+  "name": "Red",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Red",
+   "Peso": "1,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande.\n\nPara liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande.",
+    "text": "Cuando lleves a cabo la acción de atacar, puedes sustituir uno de tus ataques por lanzar una red. Haz objetivo a una criatura que puedas ver a 4,5 m o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o tendrá el estado de apresado hasta que se libere. El objetivo la superará automáticamente si es Enorme o más grande."
+   },
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Para liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto.",
+    "text": "Para liberarse, el objetivo o una criatura que esté a 1,5 m o menos de él deberá usar una acción para hacer una prueba de Fuerza (Atletismo) con CD 10; si la supera, la criatura apresada se liberará. Si se destruye la red (CA 10, 5 pg; inmunidad al daño contundente, psíquico y de veneno), también se libera al objetivo y se pone fin al efecto."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.ropas-de-calidad",
+  "name": "Ropas de calidad",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Ropas de calidad",
+   "Peso": "3 kg",
+   "Precio": "15 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "3 kg",
+   "kg": 3.0
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  },
+  "text": "Las ropas de calidad están confeccionadas con telas caras y ornamentadas con detalles elaborados por manos expertas. Algunos eventos y lugares admiten solo a gente que lleve esta indumentaria.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Las ropas de calidad están confeccionadas con telas caras y ornamentadas con detalles elaborados por manos expertas. Algunos eventos y lugares admiten solo a gente que lleve esta indumentaria.",
+    "text": "Las ropas de calidad están confeccionadas con telas caras y ornamentadas con detalles elaborados por manos expertas. Algunos eventos y lugares admiten solo a gente que lleve esta indumentaria."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.ropas-de-viaje",
+  "name": "Ropas de viaje",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Ropas de viaje",
+   "Peso": "2 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "Las ropas de viaje son prendas resistentes y diseñadas para viajar por diversos entornos.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 107,
+    "md": "Las ropas de viaje son prendas resistentes y diseñadas para viajar por diversos entornos.",
+    "text": "Las ropas de viaje son prendas resistentes y diseñadas para viajar por diversos entornos."
+   }
+  ],
+  "descriptionPage": 107
+ },
+ {
+  "id": "gear.saco",
+  "name": "Saco",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Saco",
+   "Peso": "250 g",
+   "Precio": "1 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "text": "Un saco soporta hasta 15 kg en un volumen de 30 l.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Un saco soporta hasta 15 kg en un volumen de 30 l.",
+    "text": "Un saco soporta hasta 15 kg en un volumen de 30 l."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.saquito-de-componentes",
+  "name": "Saquito de componentes",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Saquito de componentes",
+   "Peso": "1 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "text": "Un saquito de componentes es una bolsa hermética y llena de compartimentos que contienen todos los componentes materiales gratuitos para tus conjuros.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Un saquito de componentes es una bolsa hermética y llena de compartimentos que contienen todos los componentes materiales gratuitos para tus conjuros.",
+    "text": "Un saquito de componentes es una bolsa hermética y llena de compartimentos que contienen todos los componentes materiales gratuitos para tus conjuros."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.silbato-de-supervivencia",
+  "name": "Silbato de supervivencia",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Silbato de supervivencia",
+   "Peso": "—",
+   "Precio": "5 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "text": "Cuando se sopla como acción de utilizar, un silbato de supervivencia produce un sonido que se puede oír a 180 m de distancia.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Cuando se sopla como acción de utilizar, un silbato de supervivencia produce un sonido que se puede oír a 180 m de distancia.",
+    "text": "Cuando se sopla como acción de utilizar, un silbato de supervivencia produce un sonido que se puede oír a 180 m de distancia."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.simbolo-sagrado",
+  "name": "Símbolo sagrado",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Símbolo sagrado",
+   "Peso": "Variable",
+   "Precio": "Variable"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "text": "Un símbolo sagrado puede ser uno de los objetos de la tabla “Símbolos sagrados” y está ornamentado o pintado para canalizar la magia divina. Los clérigos o paladines pueden utilizar un símbolo sagrado como canalizador mágico.\n\nLa tabla indica si un símbolo sagrado se debe sostener, llevar puesto o mostrar en tela (como un tabardo o un estandarte) o en un escudo.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Un símbolo sagrado puede ser uno de los objetos de la tabla “Símbolos sagrados” y está ornamentado o pintado para canalizar la magia divina. Los clérigos o paladines pueden utilizar un símbolo sagrado como canalizador mágico.",
+    "text": "Un símbolo sagrado puede ser uno de los objetos de la tabla “Símbolos sagrados” y está ornamentado o pintado para canalizar la magia divina. Los clérigos o paladines pueden utilizar un símbolo sagrado como canalizador mágico."
+   },
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "La tabla indica si un símbolo sagrado se debe sostener, llevar puesto o mostrar en tela (como un tabardo o un estandarte) o en un escudo.",
+    "text": "La tabla indica si un símbolo sagrado se debe sostener, llevar puesto o mostrar en tela (como un tabardo o un estandarte) o en un escudo."
+   },
+   {
+    "type": "table",
+    "page": 108,
+    "caption": "Símbolos sagrados",
+    "header": [
+     "Símbolo",
+     "Peso",
+     "Precio"
+    ],
+    "rows": [
+     [
+      "Amuleto (puesto o sostenido)",
+      "0,5 kg",
+      "5 po"
+     ],
+     [
+      "Emblema (en tela o en escudo)",
+      "—",
+      "5 po"
+     ],
+     [
+      "Relicario (sostenido)",
+      "1 kg",
+      "5 po"
+     ]
+    ]
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.tienda",
+  "name": "Tienda",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Tienda",
+   "Peso": "10 kg",
+   "Precio": "2 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "10 kg",
+   "kg": 10.0
+  },
+  "price": {
+   "raw": "2 po",
+   "amount": 2.0,
+   "coin": "po",
+   "gp": 2.0
+  },
+  "text": "En una tienda pueden dormir hasta dos criaturas Pequeñas o Medianas.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "En una tienda pueden dormir hasta dos criaturas Pequeñas o Medianas.",
+    "text": "En una tienda pueden dormir hasta dos criaturas Pequeñas o Medianas."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.tinta",
+  "name": "Tinta",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Tinta",
+   "Peso": "—",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "text": "La tinta viene en un frasco de 30 ml que basta para escribir unas 500 páginas.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "La tinta viene en un frasco de 30 ml que basta para escribir unas 500 páginas.",
+    "text": "La tinta viene en un frasco de 30 ml que basta para escribir unas 500 páginas."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.trampa-para-cazar",
+  "name": "Trampa para cazar",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Trampa para cazar",
+   "Peso": "12,5 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Como acción de utilizar, puedes poner una trampa para cazar, que consiste en una anilla dentada de acero que se cierra cuando una criatura pisa una placa de presión situada en su centro. La trampa se fija mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa, deberá superar una tirada de salvación de Destreza con CD 13 o sufrirá 1d4 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. A partir de ese momento y hasta que la criatura se libere de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 90 cm). Una criatura puede emplear su acción para hacer una prueba de Fuerza (Atletismo) con CD 13 para liberarse a sí misma o a otra criatura que esté a su alcance si la supera. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Como acción de utilizar, puedes poner una trampa para cazar, que consiste en una anilla dentada de acero que se cierra cuando una criatura pisa una placa de presión situada en su centro. La trampa se fija mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa, deberá superar una tirada de salvación de Destreza con CD 13 o sufrirá 1d4 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. A partir de ese momento y hasta que la criatura se libere de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 90 cm). Una criatura puede emplear su acción para hacer una prueba de Fuerza (Atletismo) con CD 13 para liberarse a sí misma o a otra criatura que esté a su alcance si la supera. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.",
+    "text": "Como acción de utilizar, puedes poner una trampa para cazar, que consiste en una anilla dentada de acero que se cierra cuando una criatura pisa una placa de presión situada en su centro. La trampa se fija mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa, deberá superar una tirada de salvación de Destreza con CD 13 o sufrirá 1d4 de daño perforante y su velocidad se reducirá a 0 hasta el principio de su siguiente turno. A partir de ese momento y hasta que la criatura se libere de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 90 cm). Una criatura puede emplear su acción para hacer una prueba de Fuerza (Atletismo) con CD 13 para liberarse a sí misma o a otra criatura que esté a su alcance si la supera. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.tunica",
+  "name": "Túnica",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Túnica",
+   "Peso": "2 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "Una túnica tiene un significado vocacional y ceremonial. Algunos eventos y lugares admiten solo a gente que vista una túnica con determinados colores o símbolos.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Una túnica tiene un significado vocacional y ceremonial. Algunos eventos y lugares admiten solo a gente que vista una túnica con determinados colores o símbolos.",
+    "text": "Una túnica tiene un significado vocacional y ceremonial. Algunos eventos y lugares admiten solo a gente que vista una túnica con determinados colores o símbolos."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.utiles-de-escalada",
+  "name": "Útiles de escalada",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Útiles de escalada",
+   "Peso": "6 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "6 kg",
+   "kg": 6.0
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  },
+  "text": "Los útiles de escalada incluyen arnés, guantes, pitones y puntas para las botas. Como acción de utilizar, puedes emplear los útiles de escalada para anclarte; cuando lo hagas, no podrás caer más de 7,5 m desde el punto de anclaje ni podrás alejarte más de 7,5 m de ahí si no quitas la sujeción como acción adicional.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Los útiles de escalada incluyen arnés, guantes, pitones y puntas para las botas. Como acción de utilizar, puedes emplear los útiles de escalada para anclarte; cuando lo hagas, no podrás caer más de 7,5 m desde el punto de anclaje ni podrás alejarte más de 7,5 m de ahí si no quitas la sujeción como acción adicional.",
+    "text": "Los útiles de escalada incluyen arnés, guantes, pitones y puntas para las botas. Como acción de utilizar, puedes emplear los útiles de escalada para anclarte; cuando lo hagas, no podrás caer más de 7,5 m desde el punto de anclaje ni podrás alejarte más de 7,5 m de ahí si no quitas la sujeción como acción adicional."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.utiles-de-sanador",
+  "name": "Útiles de sanador",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Útiles de sanador",
+   "Peso": "1,5 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "text": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).",
+    "text": "Los útiles de sanador tienen diez usos. Como acción de utilizar, puedes gastar uno de ellos para estabilizar a una criatura inconsciente que tenga 0 puntos de golpe sin necesidad de hacer una prueba de Sabiduría (Medicina)."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.vara",
+  "name": "Vara",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Vara",
+   "Peso": "3,5 kg",
+   "Precio": "5 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "3,5 kg",
+   "kg": 3.5
+  },
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  },
+  "text": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba.",
+    "text": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.vela",
+  "name": "Vela",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Vela",
+   "Peso": "—",
+   "Precio": "1 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 pc",
+   "amount": 1.0,
+   "coin": "pc",
+   "gp": 0.01
+  },
+  "text": "Durante 1 hora, una vela encendida emite luz brillante en un radio de 1,5 m y luz tenue 1,5 m más allá.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Durante 1 hora, una vela encendida emite luz brillante en un radio de 1,5 m y luz tenue 1,5 m más allá.",
+    "text": "Durante 1 hora, una vela encendida emite luz brillante en un radio de 1,5 m y luz tenue 1,5 m más allá."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.veneno-basico",
+  "name": "Veneno básico",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Veneno básico",
+   "Peso": "—",
+   "Precio": "100 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  },
+  "text": "Como acción adicional, puedes usar un vial de veneno básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán 1d4 de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Como acción adicional, puedes usar un vial de veneno básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán 1d4 de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero.",
+    "text": "Como acción adicional, puedes usar un vial de veneno básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán 1d4 de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.vial",
+  "name": "Vial",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Vial",
+   "Peso": "—",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  },
+  "text": "En un vial caben 120 ml de líquido.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "En un vial caben 120 ml de líquido.",
+    "text": "En un vial caben 120 ml de líquido."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "gear.yesquero",
+  "name": "Yesquero",
+  "kind": "gear",
+  "group": null,
+  "table": "Equipo de aventureros",
+  "fields": {
+   "Objeto": "Yesquero",
+   "Peso": "0,5 kg",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 103
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  },
+  "text": "Un yesquero es un pequeño recipiente que contiene un pedernal, un chispero y yescas (normalmente, tela seca untada en aceite) y se utiliza para encender un fuego. Se necesita una acción adicional para prender con él una antorcha, lámpara, linterna o vela (o cualquier otra cosa con combustible expuesto). Encender cualquier otro tipo de fuego lleva 1 minuto.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Un yesquero es un pequeño recipiente que contiene un pedernal, un chispero y yescas (normalmente, tela seca untada en aceite) y se utiliza para encender un fuego. Se necesita una acción adicional para prender con él una antorcha, lámpara, linterna o vela (o cualquier otra cosa con combustible expuesto). Encender cualquier otro tipo de fuego lleva 1 minuto.",
+    "text": "Un yesquero es un pequeño recipiente que contiene un pedernal, un chispero y yescas (normalmente, tela seca untada en aceite) y se utiliza para encender un fuego. Se necesita una acción adicional para prender con él una antorcha, lámpara, linterna o vela (o cualquier otra cosa con combustible expuesto). Encender cualquier otro tipo de fuego lleva 1 minuto."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "focus.baston",
+  "name": "Bastón",
+  "kind": "focus",
+  "group": null,
+  "table": "Canalizadores arcanos",
+  "fields": {
+   "Canalizador": "Bastón",
+   "Peso": "2 kg",
+   "Precio": "5 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 105
+  },
+  "weight": {
+   "raw": "2 kg",
+   "kg": 2.0
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "focus.cristal",
+  "name": "Cristal",
+  "kind": "focus",
+  "group": null,
+  "table": "Canalizadores arcanos",
+  "fields": {
+   "Canalizador": "Cristal",
+   "Peso": "0,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 105
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "focus.orbe",
+  "name": "Orbe",
+  "kind": "focus",
+  "group": null,
+  "table": "Canalizadores arcanos",
+  "fields": {
+   "Canalizador": "Orbe",
+   "Peso": "1,5 kg",
+   "Precio": "20 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 105
+  },
+  "weight": {
+   "raw": "1,5 kg",
+   "kg": 1.5
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "focus.vara",
+  "name": "Vara",
+  "kind": "focus",
+  "group": null,
+  "table": "Canalizadores arcanos",
+  "fields": {
+   "Canalizador": "Vara",
+   "Peso": "1 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 105
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "text": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 108,
+    "md": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba.",
+    "text": "Una vara mide 3 m de longitud. Puedes usarla para tocar algo que esté a hasta 3 m de distancia. Si tienes que hacer una prueba de Fuerza (Atletismo) como parte de un salto de altura o longitud, puedes impulsarte con la vara, lo que te dará ventaja en la prueba."
+   }
+  ],
+  "descriptionPage": 108
+ },
+ {
+  "id": "focus.varita",
+  "name": "Varita",
+  "kind": "focus",
+  "group": null,
+  "table": "Canalizadores arcanos",
+  "fields": {
+   "Canalizador": "Varita",
+   "Peso": "0,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 105
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "ammunition.balas-de-arma-de-fuego",
+  "name": "Balas de arma de fuego",
+  "kind": "ammunition",
+  "group": null,
+  "table": "Munición",
+  "fields": {
+   "Tipo": "Balas de arma de fuego",
+   "Cantidad": "10",
+   "Recipiente": "Bolsa",
+   "Peso": "1 kg",
+   "Precio": "3 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 106
+  },
+  "weight": {
+   "raw": "1 kg",
+   "kg": 1.0
+  },
+  "price": {
+   "raw": "3 po",
+   "amount": 3.0,
+   "coin": "po",
+   "gp": 3.0
+  }
+ },
+ {
+  "id": "ammunition.dardos",
+  "name": "Dardos",
+  "kind": "ammunition",
+  "group": null,
+  "table": "Munición",
+  "fields": {
+   "Tipo": "Dardos",
+   "Cantidad": "50",
+   "Recipiente": "Bolsa",
+   "Peso": "0,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 106
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "ammunition.flechas",
+  "name": "Flechas",
+  "kind": "ammunition",
+  "group": null,
+  "table": "Munición",
+  "fields": {
+   "Tipo": "Flechas",
+   "Cantidad": "20",
+   "Recipiente": "Aljaba",
+   "Peso": "0,5 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 106
+  },
+  "weight": {
+   "raw": "0,5 kg",
+   "kg": 0.5
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "ammunition.proyectiles-de-honda",
+  "name": "Proyectiles de honda",
+  "kind": "ammunition",
+  "group": null,
+  "table": "Munición",
+  "fields": {
+   "Tipo": "Proyectiles de honda",
+   "Cantidad": "20",
+   "Recipiente": "Bolsa",
+   "Peso": "0,75 kg",
+   "Precio": "4 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 106
+  },
+  "weight": {
+   "raw": "0,75 kg",
+   "kg": 0.75
+  },
+  "price": {
+   "raw": "4 pc",
+   "amount": 4.0,
+   "coin": "pc",
+   "gp": 0.04
+  }
+ },
+ {
+  "id": "ammunition.virotes",
+  "name": "Virotes",
+  "kind": "ammunition",
+  "group": null,
+  "table": "Munición",
+  "fields": {
+   "Tipo": "Virotes",
+   "Cantidad": "20",
+   "Recipiente": "Estuche",
+   "Peso": "0,75 kg",
+   "Precio": "1 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 106
+  },
+  "weight": {
+   "raw": "0,75 kg",
+   "kg": 0.75
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "mount.caballo-de-guerra",
+  "name": "Caballo de guerra",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Caballo de guerra",
+   "Capacidad de carga": "270 kg",
+   "Precio": "400 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "400 po",
+   "amount": 400.0,
+   "coin": "po",
+   "gp": 400.0
+  }
+ },
+ {
+  "id": "mount.caballo-de-monta",
+  "name": "Caballo de monta",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Caballo de monta",
+   "Capacidad de carga": "240 kg",
+   "Precio": "75 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "75 po",
+   "amount": 75.0,
+   "coin": "po",
+   "gp": 75.0
+  }
+ },
+ {
+  "id": "mount.caballo-de-tiro",
+  "name": "Caballo de tiro",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Caballo de tiro",
+   "Capacidad de carga": "270 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "mount.camello",
+  "name": "Camello",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Camello",
+   "Capacidad de carga": "225 kg",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "mount.elefante",
+  "name": "Elefante",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Elefante",
+   "Capacidad de carga": "660 kg",
+   "Precio": "200 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "200 po",
+   "amount": 200.0,
+   "coin": "po",
+   "gp": 200.0
+  }
+ },
+ {
+  "id": "mount.mastin",
+  "name": "Mastín",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Mastín",
+   "Capacidad de carga": "97,5 kg",
+   "Precio": "25 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "mount.mula",
+  "name": "Mula",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Mula",
+   "Capacidad de carga": "210 kg",
+   "Precio": "8 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "8 po",
+   "amount": 8.0,
+   "coin": "po",
+   "gp": 8.0
+  }
+ },
+ {
+  "id": "mount.poni",
+  "name": "Poni",
+  "kind": "mount",
+  "group": null,
+  "table": "Monturas y otros animales",
+  "fields": {
+   "Animal": "Poni",
+   "Capacidad de carga": "112,5 kg",
+   "Precio": "30 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  }
+ },
+ {
+  "id": "tack.alimento-por-dia",
+  "name": "Alimento por día",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Alimento por día",
+   "Peso": "5 kg",
+   "Precio": "5 pc"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "5 kg",
+   "kg": 5.0
+  },
+  "price": {
+   "raw": "5 pc",
+   "amount": 5.0,
+   "coin": "pc",
+   "gp": 0.05
+  }
+ },
+ {
+  "id": "tack.carreta",
+  "name": "Carreta",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Carreta",
+   "Peso": "100 kg",
+   "Precio": "15 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "100 kg",
+   "kg": 100.0
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "tack.carro",
+  "name": "Carro",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Carro",
+   "Peso": "200 kg",
+   "Precio": "35 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "200 kg",
+   "kg": 200.0
+  },
+  "price": {
+   "raw": "35 po",
+   "amount": 35.0,
+   "coin": "po",
+   "gp": 35.0
+  }
+ },
+ {
+  "id": "tack.carro-de-guerra",
+  "name": "Carro de guerra",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Carro de guerra",
+   "Peso": "50 kg",
+   "Precio": "250 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "50 kg",
+   "kg": 50.0
+  },
+  "price": {
+   "raw": "250 po",
+   "amount": 250.0,
+   "coin": "po",
+   "gp": 250.0
+  }
+ },
+ {
+  "id": "tack.carruaje",
+  "name": "Carruaje",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Carruaje",
+   "Peso": "300 kg",
+   "Precio": "100 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "300 kg",
+   "kg": 300.0
+  },
+  "price": {
+   "raw": "100 po",
+   "amount": 100.0,
+   "coin": "po",
+   "gp": 100.0
+  }
+ },
+ {
+  "id": "tack.estabulado-por-dia",
+  "name": "Estabulado por día",
+  "kind": "tack",
+  "group": null,
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Estabulado por día",
+   "Peso": "—",
+   "Precio": "5 pp"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "price": {
+   "raw": "5 pp",
+   "amount": 5.0,
+   "coin": "pp",
+   "gp": 0.5
+  }
+ },
+ {
+  "id": "tack.de-monta",
+  "name": "De monta",
+  "kind": "tack",
+  "group": "Silla",
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "De monta",
+   "Peso": "12,5 kg",
+   "Precio": "10 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "12,5 kg",
+   "kg": 12.5
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "tack.exotica",
+  "name": "Exótica",
+  "kind": "tack",
+  "group": "Silla",
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Exótica",
+   "Peso": "20 kg",
+   "Precio": "60 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "20 kg",
+   "kg": 20.0
+  },
+  "price": {
+   "raw": "60 po",
+   "amount": 60.0,
+   "coin": "po",
+   "gp": 60.0
+  }
+ },
+ {
+  "id": "tack.militar",
+  "name": "Militar",
+  "kind": "tack",
+  "group": "Silla",
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Militar",
+   "Peso": "15 kg",
+   "Precio": "20 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "15 kg",
+   "kg": 15.0
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "tack.trineo",
+  "name": "Trineo",
+  "kind": "tack",
+  "group": "Silla",
+  "table": "Arreos, arneses y vehículos tirados por animales",
+  "fields": {
+   "Animal": "Trineo",
+   "Peso": "150 kg",
+   "Precio": "20 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  },
+  "weight": {
+   "raw": "150 kg",
+   "kg": 150.0
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "vehicle.aeronave",
+  "name": "Aeronave",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Aeronave",
+   "Velocidad": "12 km/h",
+   "Tripulación": "10",
+   "Pasajeros": "20",
+   "Cargamento (toneladas)": "1",
+   "CA": "13",
+   "PG": "300",
+   "Umbral de daño": "—",
+   "Precio": "40 000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ },
+ {
+  "id": "vehicle.barcaza",
+  "name": "Barcaza",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Barcaza",
+   "Velocidad": "1,5 km/h",
+   "Tripulación": "1",
+   "Pasajeros": "6",
+   "Cargamento (toneladas)": "1/2",
+   "CA": "15",
+   "PG": "100",
+   "Umbral de daño": "10",
+   "Precio": "3000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  },
+  "price": {
+   "raw": "3000 po",
+   "amount": 3000.0,
+   "coin": "po",
+   "gp": 3000.0
+  }
+ },
+ {
+  "id": "vehicle.bote-de-remos",
+  "name": "Bote de remos",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Bote de remos",
+   "Velocidad": "2,4 km/h",
+   "Tripulación": "1",
+   "Pasajeros": "3",
+   "Cargamento (toneladas)": "—",
+   "CA": "11",
+   "PG": "50",
+   "Umbral de daño": "—",
+   "Precio": "50 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "vehicle.drakkar",
+  "name": "Drakkar",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Drakkar",
+   "Velocidad": "4,5 km/h",
+   "Tripulación": "40",
+   "Pasajeros": "150",
+   "Cargamento (toneladas)": "10",
+   "CA": "15",
+   "PG": "300",
+   "Umbral de daño": "15",
+   "Precio": "10 000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ },
+ {
+  "id": "vehicle.galera",
+  "name": "Galera",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Galera",
+   "Velocidad": "6 km/h",
+   "Tripulación": "80",
+   "Pasajeros": "—",
+   "Cargamento (toneladas)": "150",
+   "CA": "15",
+   "PG": "500",
+   "Umbral de daño": "20",
+   "Precio": "30 000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ },
+ {
+  "id": "vehicle.navio-de-guerra",
+  "name": "Navío de guerra",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Navío de guerra",
+   "Velocidad": "4 km/h",
+   "Tripulación": "60",
+   "Pasajeros": "60",
+   "Cargamento (toneladas)": "200",
+   "CA": "15",
+   "PG": "500",
+   "Umbral de daño": "20",
+   "Precio": "25 000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ },
+ {
+  "id": "vehicle.velero",
+  "name": "Velero",
+  "kind": "vehicle",
+  "group": null,
+  "table": "Vehículos acuáticos y aéreos",
+  "fields": {
+   "Vehículo": "Velero",
+   "Velocidad": "3 km/h",
+   "Tripulación": "20",
+   "Pasajeros": "20",
+   "Cargamento (toneladas)": "100",
+   "CA": "15",
+   "PG": "300",
+   "Umbral de daño": "15",
+   "Precio": "10 000 po"
+  },
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ },
+ {
+  "id": "tool.herramientas-de-albanil",
+  "name": "Herramientas de albañil",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Fuerza Peso: 4 kg\n\nUtilizar: esculpir un símbolo o un agujero en la piedra (CD 10)\n\nFabricar: polipasto",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Fuerza **Peso:** 4 kg",
+    "text": "Característica: Fuerza Peso: 4 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** esculpir un símbolo o un agujero en la piedra (CD 10)",
+    "text": "Utilizar: esculpir un símbolo o un agujero en la piedra (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** polipasto",
+    "text": "Fabricar: polipasto"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-alfarero",
+  "name": "Herramientas de alfarero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Inteligencia Peso: 1,5 kg\n\nUtilizar: distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)\n\nFabricar: jarro, lámpara",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Inteligencia **Peso:** 1,5 kg",
+    "text": "Característica: Inteligencia Peso: 1,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)",
+    "text": "Utilizar: distinguir lo que ha contenido un objeto de cerámica durante las últimas 24 horas (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** jarro, lámpara",
+    "text": "Fabricar: jarro, lámpara"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-carpintero",
+  "name": "Herramientas de carpintero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Fuerza Peso: 3 kg\n\nUtilizar: sellar o forzar una puerta o un recipiente (CD 20)\n\nFabricar: bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Fuerza **Peso:** 3 kg",
+    "text": "Característica: Fuerza Peso: 3 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** sellar o forzar una puerta o un recipiente (CD 20)",
+    "text": "Utilizar: sellar o forzar una puerta o un recipiente (CD 20)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara",
+    "text": "Fabricar: bastón, garrote, garrote grande, antorcha, ariete portátil, barril, cofre, escalera, vara"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "8 po",
+   "amount": 8.0,
+   "coin": "po",
+   "gp": 8.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-cartografo",
+  "name": "Herramientas de cartógrafo",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Sabiduría Peso: 3 kg\n\nUtilizar: dibujar un mapa de una zona pequeña (CD 15)\n\nFabricar: mapa",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Sabiduría **Peso:** 3 kg",
+    "text": "Característica: Sabiduría Peso: 3 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** dibujar un mapa de una zona pequeña (CD 15)",
+    "text": "Utilizar: dibujar un mapa de una zona pequeña (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** mapa",
+    "text": "Fabricar: mapa"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-curtidor",
+  "name": "Herramientas de curtidor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: añadir un diseño a un objeto de cuero (CD 10)\n\nFabricar: honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** añadir un diseño a un objeto de cuero (CD 10)",
+    "text": "Utilizar: añadir un diseño a un objeto de cuero (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino",
+    "text": "Fabricar: honda, látigo, armadura de cuero, armadura de cuero tachonado, armadura de pieles, aljaba, bolsa, cantimplora, estuche para mapas o pergaminos, estuche para virotes de ballesta, mochila, pergamino"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-ebanista",
+  "name": "Herramientas de ebanista",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: tallar un dibujo en madera (CD 10)\n\nFabricar: bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** tallar un dibujo en madera (CD 10)",
+    "text": "Utilizar: tallar un dibujo en madera (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes",
+    "text": "Fabricar: bastón, garrote, garrote grande, armas a distancia (salvo honda, mosquete y pistola), canalizador arcano, canalizador druídico, dardos, flechas, pluma, virotes"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-herrero",
+  "name": "Herramientas de herrero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Fuerza Peso: 4 kg\n\nUtilizar: forzar una puerta o un recipiente (CD 20)\n\nFabricar: cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Fuerza **Peso:** 4 kg",
+    "text": "Característica: Fuerza Peso: 4 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** forzar una puerta o un recipiente (CD 20)",
+    "text": "Utilizar: forzar una puerta o un recipiente (CD 20)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro",
+    "text": "Fabricar: cualquier arma cuerpo a cuerpo (salvo bastón, garrote, garrote grande y látigo), armaduras medias (salvo de pieles), armaduras pesadas, abrojos, balas de arma de fuego, bolas de metal, cadena, cubo, garfio de escalada, olla de hierro, palanqueta, proyectiles de honda, puntas de hierro"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-joyero",
+  "name": "Herramientas de joyero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Inteligencia Peso: 1 kg\n\nUtilizar: discernir el valor de una gema (CD 15)\n\nFabricar: canalizador arcano, símbolo sagrado",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Inteligencia **Peso:** 1 kg",
+    "text": "Característica: Inteligencia Peso: 1 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** discernir el valor de una gema (CD 15)",
+    "text": "Utilizar: discernir el valor de una gema (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** canalizador arcano, símbolo sagrado",
+    "text": "Fabricar: canalizador arcano, símbolo sagrado"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-manitas",
+  "name": "Herramientas de manitas",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 5 kg\n\nUtilizar: montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)\n\nFabricar: mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Destreza **Peso:** 5 kg",
+    "text": "Característica: Destreza Peso: 5 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)",
+    "text": "Utilizar: montar un objeto Diminuto compuesto de chatarra, que se desarmará tras 1 minuto (CD 20)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero",
+    "text": "Fabricar: mosquete, pistola, campana, cerradura, espejo, esposas, frasco, linterna de ojo de buey, linterna sorda, pala, silbato de supervivencia, trampa para cazar, yesquero"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-soplador-de-vidrio",
+  "name": "Herramientas de soplador de vidrio",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Inteligencia Peso: 2,5 kg\n\nUtilizar: distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)\n\nFabricar: botella de cristal, catalejo, lupa, vial",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Característica:** Inteligencia **Peso:** 2,5 kg",
+    "text": "Característica: Inteligencia Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Utilizar:** distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)",
+    "text": "Utilizar: distinguir lo que ha contenido un objeto de vidrio durante las últimas 24 horas (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 101,
+    "md": "**Fabricar:** botella de cristal, catalejo, lupa, vial",
+    "text": "Fabricar: botella de cristal, catalejo, lupa, vial"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 101
+  },
+  "price": {
+   "raw": "30 po",
+   "amount": 30.0,
+   "coin": "po",
+   "gp": 30.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-tejedor",
+  "name": "Herramientas de tejedor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)\n\nFabricar: armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)",
+    "text": "Utilizar: remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica",
+    "text": "Fabricar: armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-zapatero",
+  "name": "Herramientas de zapatero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)\n\nFabricar: útiles de escalada",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)",
+    "text": "Utilizar: modificar calzado para dar ventaja a la siguiente prueba de Destreza (Acrobacias) de quien lo lleve (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** útiles de escalada",
+    "text": "Fabricar: útiles de escalada"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  }
+ },
+ {
+  "id": "tool.suministros-de-alquimista",
+  "name": "Suministros de alquimista",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Inteligencia Peso: 4 kg\n\nUtilizar: identificar una sustancia (CD 15) o encender un fuego (CD 15)\n\nFabricar: aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Inteligencia **Peso:** 4 kg",
+    "text": "Característica: Inteligencia Peso: 4 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** identificar una sustancia (CD 15) o encender un fuego (CD 15)",
+    "text": "Utilizar: identificar una sustancia (CD 15) o encender un fuego (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes",
+    "text": "Fabricar: aceite, ácido, fuego de alquimista, papel, perfume, saquito de componentes"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "tool.suministros-de-caligrafo",
+  "name": "Suministros de calígrafo",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: escribir texto lleno de florituras que no se pueda falsificar (CD 15)\n\nFabricar: pergamino de conjuro, tinta",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** escribir texto lleno de florituras que no se pueda falsificar (CD 15)",
+    "text": "Utilizar: escribir texto lleno de florituras que no se pueda falsificar (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** *pergamino de conjuro*, tinta",
+    "text": "Fabricar: pergamino de conjuro, tinta"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  },
+  "refs": [
+   "item.pergamino-de-conjuro"
+  ]
+ },
+ {
+  "id": "tool.suministros-de-cervecero",
+  "name": "Suministros de cervecero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Inteligencia Peso: 4,5 kg\n\nUtilizar: detectar bebida envenenada (CD 15) o identificar alcohol (CD 10)\n\nFabricar: antitoxina",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Inteligencia **Peso:** 4,5 kg",
+    "text": "Característica: Inteligencia Peso: 4,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** detectar bebida envenenada (CD 15) o identificar alcohol (CD 10)",
+    "text": "Utilizar: detectar bebida envenenada (CD 15) o identificar alcohol (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** antitoxina",
+    "text": "Fabricar: antitoxina"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "20 po",
+   "amount": 20.0,
+   "coin": "po",
+   "gp": 20.0
+  }
+ },
+ {
+  "id": "tool.suministros-de-pintor",
+  "name": "Suministros de pintor",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Sabiduría Peso: 2,5 kg\n\nUtilizar: pintar una imagen reconocible de algo que hayas visto (CD 10)\n\nFabricar: canalizador druídico, símbolo sagrado",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Sabiduría **Peso:** 2,5 kg",
+    "text": "Característica: Sabiduría Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** pintar una imagen reconocible de algo que hayas visto (CD 10)",
+    "text": "Utilizar: pintar una imagen reconocible de algo que hayas visto (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** canalizador druídico, símbolo sagrado",
+    "text": "Fabricar: canalizador druídico, símbolo sagrado"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "10 po",
+   "amount": 10.0,
+   "coin": "po",
+   "gp": 10.0
+  }
+ },
+ {
+  "id": "tool.utiles-de-cocinero",
+  "name": "Útiles de cocinero",
+  "kind": "tool",
+  "group": "Herramientas de artesano",
+  "text": "Característica: Sabiduría Peso: 4 kg\n\nUtilizar: mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)\n\nFabricar: raciones",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Sabiduría **Peso:** 4 kg",
+    "text": "Característica: Sabiduría Peso: 4 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)",
+    "text": "Utilizar: mejorar el sabor de la comida (CD 10) o detectar alimentos podridos o envenenados (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** raciones",
+    "text": "Fabricar: raciones"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "1 po",
+   "amount": 1.0,
+   "coin": "po",
+   "gp": 1.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-ladron",
+  "name": "Herramientas de ladrón",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Destreza Peso: 0,5 kg\n\nUtilizar: forzar una cerradura (CD 15) o desarmar una trampa (CD 15)",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Destreza **Peso:** 0,5 kg",
+    "text": "Característica: Destreza Peso: 0,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** forzar una cerradura (CD 15) o desarmar una trampa (CD 15)",
+    "text": "Utilizar: forzar una cerradura (CD 15) o desarmar una trampa (CD 15)"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "tool.herramientas-de-navegante",
+  "name": "Herramientas de navegante",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Sabiduría Peso: 1 kg\n\nUtilizar: trazar un rumbo (CD 10) o determinar la posición contemplando las estrellas (CD 15)",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Sabiduría **Peso:** 1 kg",
+    "text": "Característica: Sabiduría Peso: 1 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** trazar un rumbo (CD 10) o determinar la posición contemplando las estrellas (CD 15)",
+    "text": "Utilizar: trazar un rumbo (CD 10) o determinar la posición contemplando las estrellas (CD 15)"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "tool.instrumento-musical-variable",
+  "name": "Instrumento musical (variable)",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Carisma Peso: variable\n\nUtilizar: tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)\n\nVariantes: chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Carisma **Peso:** variable",
+    "text": "Característica: Carisma Peso: variable"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)",
+    "text": "Utilizar: tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Variantes:** chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)",
+    "text": "Variantes: chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  }
+ },
+ {
+  "id": "tool.juego-variable",
+  "name": "Juego (variable)",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Sabiduría Peso: —\n\nUtilizar: distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)\n\nVariantes: ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Sabiduría **Peso:** —",
+    "text": "Característica: Sabiduría Peso: —"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)",
+    "text": "Utilizar: distinguir si alguien hace trampas (CD 10) o ganar la partida (CD 20)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Variantes:** ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)",
+    "text": "Variantes: ajedrez dragón (1 po), apuesta de los tres dragones (1 po), dados (1 pp), naipes (5 pp)"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  }
+ },
+ {
+  "id": "tool.utiles-de-envenenador",
+  "name": "Útiles de envenenador",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Inteligencia Peso: 1 kg\n\nUtilizar: detectar un objeto envenenado (CD 10)\n\nFabricar: veneno básico",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Inteligencia **Peso:** 1 kg",
+    "text": "Característica: Inteligencia Peso: 1 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** detectar un objeto envenenado (CD 10)",
+    "text": "Utilizar: detectar un objeto envenenado (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** veneno básico",
+    "text": "Fabricar: veneno básico"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "50 po",
+   "amount": 50.0,
+   "coin": "po",
+   "gp": 50.0
+  }
+ },
+ {
+  "id": "tool.utiles-de-herborista",
+  "name": "Útiles de herborista",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Inteligencia Peso: 1,5 kg\n\nUtilizar: identificar una planta (CD 10)\n\nFabricar: antitoxina, poción de curación, útiles de sanador, vela",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Inteligencia **Peso:** 1,5 kg",
+    "text": "Característica: Inteligencia Peso: 1,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** identificar una planta (CD 10)",
+    "text": "Utilizar: identificar una planta (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** antitoxina, *poción de curación*, útiles de sanador, vela",
+    "text": "Fabricar: antitoxina, poción de curación, útiles de sanador, vela"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "5 po",
+   "amount": 5.0,
+   "coin": "po",
+   "gp": 5.0
+  },
+  "refs": [
+   "gear.pocion-de-curacion"
+  ]
+ },
+ {
+  "id": "tool.utiles-para-disfrazarse",
+  "name": "Útiles para disfrazarse",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Carisma Peso: 1,5 kg\n\nUtilizar: maquillar (CD 10)\n\nFabricar: disfraz",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Carisma **Peso:** 1,5 kg",
+    "text": "Característica: Carisma Peso: 1,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** maquillar (CD 10)",
+    "text": "Utilizar: maquillar (CD 10)"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Fabricar:** disfraz",
+    "text": "Fabricar: disfraz"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "25 po",
+   "amount": 25.0,
+   "coin": "po",
+   "gp": 25.0
+  }
+ },
+ {
+  "id": "tool.utiles-para-falsificar",
+  "name": "Útiles para falsificar",
+  "kind": "tool",
+  "group": "Otras herramientas",
+  "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)",
+  "blocks": [
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+    "text": "Característica: Destreza Peso: 2,5 kg"
+   },
+   {
+    "type": "property",
+    "page": 102,
+    "md": "**Utilizar:** escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)",
+    "text": "Utilizar: escribir 10 o menos palabras imitando la letra de otra persona (CD 15) o duplicar un sello de cera (CD 20)"
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 102
+  },
+  "price": {
+   "raw": "15 po",
+   "amount": 15.0,
+   "coin": "po",
+   "gp": 15.0
+  }
+ },
+ {
+  "id": "vehicle.velocidad",
+  "name": "Velocidad",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "text": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 109,
+    "md": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg.",
+    "text": "Una embarcación que navega contra un viento fuerte se desplaza a mitad de su velocidad. Con calma chicha (sin viento), ninguna embarcación podrá desplazarse con las velas, sino que deberá recurrir a los remos. Los botes de remos y las barcazas se utilizan en lagos y ríos. Si se desplazan siguiendo la corriente, suma la velocidad de esta (normalmente 4,5 km/h) a la del vehículo. Sin embargo, estos vehículos no pueden remar a contracorriente si esta es significativa, aunque podrían ser arrastrados río arriba por animales de tiro desde la orilla. Se puede cargar con un bote de remos, que pesa 50 kg."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  }
+ },
+ {
+  "id": "vehicle.tripulacion",
+  "name": "Tripulación",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "text": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 109,
+    "md": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla.",
+    "text": "Los vehículos más grandes que una barcaza o un bote de remos necesitan una tripulación de asalariados cualificados (consulta la sección “Asalariados” más adelante en el capítulo “Equipo”) para manejarlos. La cantidad mínima de asalariados cualificados necesarios para tripular un vehículo depende del tipo de vehículo, como se muestra en la tabla."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  }
+ },
+ {
+  "id": "vehicle.pasajeros",
+  "name": "Pasajeros",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "text": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 109,
+    "md": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día.",
+    "text": "La tabla indica la cantidad de pasajeros Pequeños y Medianos que el vehículo puede alojar en hamacas. Un vehículo equipado con camarotes privados puede transportar una quinta parte de ese número de pasajeros. Un pasajero suele pagar 5 pp al día por una hamaca, pero los precios pueden variar de un vehículo a otro. Un camarote privado pequeño suele costar 2 po al día."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  }
+ },
+ {
+  "id": "vehicle.umbral-de-dano",
+  "name": "Umbral de daño",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "text": "Si un vehículo tiene un umbral de daño (consulta el capítulo “Glosario de reglas”), aparecerá en la tabla.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 109,
+    "md": "Si un vehículo tiene un umbral de daño (consulta el capítulo “Glosario de reglas”), aparecerá en la tabla.",
+    "text": "Si un vehículo tiene un umbral de daño (consulta el capítulo “Glosario de reglas”), aparecerá en la tabla."
+   },
+   {
+    "type": "table",
+    "page": 110,
+    "caption": "Vehículos acuáticos y aéreos",
+    "header": [
+     "Vehículo",
+     "Velocidad",
+     "Tripulación",
+     "Pasajeros",
+     "Cargamento (toneladas)",
+     "CA",
+     "PG",
+     "Umbral de daño",
+     "Precio"
+    ],
+    "rows": [
+     [
+      "Aeronave",
+      "12 km/h",
+      "10",
+      "20",
+      "1",
+      "13",
+      "300",
+      "—",
+      "40 000 po"
+     ],
+     [
+      "Barcaza",
+      "1,5 km/h",
+      "1",
+      "6",
+      "1/2",
+      "15",
+      "100",
+      "10",
+      "3000 po"
+     ],
+     [
+      "Bote de remos",
+      "2,4 km/h",
+      "1",
+      "3",
+      "—",
+      "11",
+      "50",
+      "—",
+      "50 po"
+     ],
+     [
+      "Drakkar",
+      "4,5 km/h",
+      "40",
+      "150",
+      "10",
+      "15",
+      "300",
+      "15",
+      "10 000 po"
+     ],
+     [
+      "Galera",
+      "6 km/h",
+      "80",
+      "—",
+      "150",
+      "15",
+      "500",
+      "20",
+      "30 000 po"
+     ],
+     [
+      "Navío de guerra",
+      "4 km/h",
+      "60",
+      "60",
+      "200",
+      "15",
+      "500",
+      "20",
+      "25 000 po"
+     ],
+     [
+      "Velero",
+      "3 km/h",
+      "20",
+      "20",
+      "100",
+      "15",
+      "300",
+      "15",
+      "10 000 po"
+     ]
+    ]
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 109
+  }
+ },
+ {
+  "id": "vehicle.reparacion-de-vehiculos",
+  "name": "Reparación de vehículos",
+  "kind": "vehicle",
+  "group": "Vehículos grandes",
+  "text": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad.",
+  "blocks": [
+   {
+    "type": "paragraph",
+    "page": 110,
+    "md": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad.",
+    "text": "Se pueden hacer reparaciones a un vehículo dañado mientras esté atracado. Reparar 1 punto de golpe de daño requiere dedicar 1 día e invertir 20 po por los materiales y la mano de obra. Si las reparaciones se llevan a cabo en un lugar donde haya suficientes suministros y personal cualificado, como el astillero de una ciudad, el tiempo y precio de las reparaciones se reducen a la mitad."
+   }
+  ],
+  "source": {
+   "book": "SRD 5.2.1 es",
+   "page": 110
+  }
+ }
+]

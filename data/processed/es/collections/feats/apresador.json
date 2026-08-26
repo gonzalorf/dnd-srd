@@ -1,0 +1,48 @@
+{
+ "id": "feat.apresador",
+ "name": "Apresador",
+ "text": "Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)\n\nObtienes los siguientes beneficios:\n\nMejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.\n\nGolpear y agarrar. Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno.\n\nVentaja al atacar. Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando.\n\nLuchador rápido. No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña.",
+ "blocks": [
+  {
+   "type": "subtitle",
+   "page": 94,
+   "md": "*Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)*",
+   "text": "Dote general (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "md": "Obtienes los siguientes beneficios:",
+   "text": "Obtienes los siguientes beneficios:"
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Mejora de característica.*** Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.",
+   "text": "Mejora de característica. Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Golpear y agarrar.*** Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno.",
+   "text": "Golpear y agarrar. Cuando aciertes a una criatura con un ataque sin armas como parte de la acción de atacar en tu turno, puedes utilizar las opciones de daño y agarre. Solo puedes usar este beneficio una vez por turno."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Ventaja al atacar.*** Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando.",
+   "text": "Ventaja al atacar. Tienes ventaja en las tiradas de ataque contra una criatura a la que estés agarrando."
+  },
+  {
+   "type": "definition",
+   "page": 94,
+   "md": "***Luchador rápido.*** No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña.",
+   "text": "Luchador rápido. No tienes que invertir movimiento adicional para mover a una criatura a la que estés agarrando si la criatura es de tu tamaño o más pequeña."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 94
+ },
+ "category": "Dotes generales"
+}

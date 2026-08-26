@@ -1,0 +1,64 @@
+{
+ "id": "spell.ralentizar",
+ "name": "Ralentizar",
+ "level": 3,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "36 m",
+  "kind": "ranged",
+  "meters": 36
+ },
+ "components": {
+  "raw": "V, S, M (una gota de melaza)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gota de melaza",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un cubo de 12 m de lado dentro del alcance. Cada objetivo deberá superar una tirada de salvación de Sabiduría o se verá afectado hasta que termine el conjuro.\n\nUn objetivo afectado ve cómo su velocidad se reduce a la mitad, sufre un penalizador de −2 a la CA y a las tiradas de salvación de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acción o una acción adicional, pero no ambas, y solo puede hacer un ataque si emplea la acción de atacar. Si lanza un conjuro con un componente somático, hay un 25 % de probabilidades de que el conjuro falle porque el objetivo haga los gestos demasiado despacio.\n\nUn objetivo afectado repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un cubo de 12 m de lado dentro del alcance. Cada objetivo deberá superar una tirada de salvación de Sabiduría o se verá afectado hasta que termine el conjuro.",
+   "text": "Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un cubo de 12 m de lado dentro del alcance. Cada objetivo deberá superar una tirada de salvación de Sabiduría o se verá afectado hasta que termine el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Un objetivo afectado ve cómo su velocidad se reduce a la mitad, sufre un penalizador de −2 a la CA y a las tiradas de salvación de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acción o una acción adicional, pero no ambas, y solo puede hacer un ataque si emplea la acción de atacar. Si lanza un conjuro con un componente somático, hay un 25 % de probabilidades de que el conjuro falle porque el objetivo haga los gestos demasiado despacio.",
+   "text": "Un objetivo afectado ve cómo su velocidad se reduce a la mitad, sufre un penalizador de −2 a la CA y a las tiradas de salvación de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acción o una acción adicional, pero no ambas, y solo puede hacer un ataque si emplea la acción de atacar. Si lanza un conjuro con un componente somático, hay un 25 % de probabilidades de que el conjuro falle porque el objetivo haga los gestos demasiado despacio."
+  },
+  {
+   "type": "paragraph",
+   "page": 178,
+   "md": "Un objetivo afectado repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro.",
+   "text": "Un objetivo afectado repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 178
+ }
+}

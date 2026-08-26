@@ -1,0 +1,108 @@
+{
+ "id": "species.elfo",
+ "name": "Elfo",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,5 y 1,8 m de altura)\n\nVelocidad: 9 m\n\nComo elfo, tienes estos atributos especiales:\n\nLinaje élfico. Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla “Linajes élficos”. Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de ha\n\ncerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado.\n\nLa Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje).\n\nLinaje feérico. Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado.\n\nSentidos agudos. Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia.\n\nTrance. No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 90,
+   "md": "Tamaño: Mediano (entre 1,5 y 1,8 m de altura)",
+   "text": "Tamaño: Mediano (entre 1,5 y 1,8 m de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Como elfo, tienes estos atributos especiales:",
+   "text": "Como elfo, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Linaje élfico.*** Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla “Linajes élficos”. Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de ha",
+   "text": "Linaje élfico. Formas parte de un linaje que te otorga capacidades sobrenaturales. Elige un linaje de la tabla “Linajes élficos”. Obtienes el beneficio de nivel 1 de ese linaje. Cuando alcanzas los niveles 3 y 5 de personaje, aprendes un conjuro de nivel superior, como se muestra en la tabla. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de ha"
+  },
+  {
+   "type": "table",
+   "page": 91,
+   "caption": "Linajes élficos",
+   "header": [
+    "Linaje",
+    "Nivel 1",
+    "Nivel 3",
+    "Nivel 5"
+   ],
+   "rows": [
+    [
+     "Alto elfo",
+     "Conoces el truco prestidigitación. Tras finalizar un descanso largo, puedes sustituirese truco por otro truco diferente de la lista de conjuros de mago.",
+     "Detectar magia",
+     "Paso brumoso"
+    ],
+    [
+     "Drow",
+     "El alcance de tu visión en la oscuridad aumenta a 36 m. También conoces el truco luces danzantes.",
+     "Fuego feérico",
+     "Oscuridad"
+    ],
+    [
+     "Elfo de los bosques",
+     "Tu velocidad aumenta a 10,5 m. También conoces el truco saber druídico.",
+     "Zancada prodigiosa",
+     "Pasar sin rastro"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "cerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado.",
+   "text": "cerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas del nivel apropiado."
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "md": "La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje).",
+   "text": "La Inteligencia, la Sabiduría o el Carisma es tu aptitud mágica para los conjuros que lances con este atributo (elige la característica al seleccionar el linaje)."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Linaje feérico.*** Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado.",
+   "text": "Linaje feérico. Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Sentidos agudos.*** Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia.",
+   "text": "Sentidos agudos. Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Trance.*** No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia.",
+   "text": "Trance. No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas si las pasas en una meditación similar a un trance, tiempo durante el cual conservas la consciencia."
+  },
+  {
+   "type": "definition",
+   "page": 91,
+   "md": "***Visión en la oscuridad.*** Tienes visión en la oscuridad hasta 18 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 18 m."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 90
+ }
+}

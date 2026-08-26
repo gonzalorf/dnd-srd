@@ -1,0 +1,29 @@
+{
+ "id": "item.pocion-de-trepar",
+ "name": "Poción de trepar",
+ "category": "Poción",
+ "variant": null,
+ "rarity": "común",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Poción, común",
+ "text": "Cuando bebas esta poción, obtendrás una velocidad trepando igual a tu velocidad durante 1 hora. Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza (Atletismo) para trepar.\n\nEsta poción se separa en tres capas (marrón, plateada y gris) que parecen los estratos de una roca. Si agitas la botella, los colores no se mezclan.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Cuando bebas esta poción, obtendrás una velocidad trepando igual a tu velocidad durante 1 hora. Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza (Atletismo) para trepar.",
+   "text": "Cuando bebas esta poción, obtendrás una velocidad trepando igual a tu velocidad durante 1 hora. Durante ese tiempo, tendrás ventaja en las pruebas de Fuerza (Atletismo) para trepar."
+  },
+  {
+   "type": "paragraph",
+   "page": 267,
+   "md": "Esta poción se separa en tres capas (marrón, plateada y gris) que parecen los estratos de una roca. Si agitas la botella, los colores no se mezclan.",
+   "text": "Esta poción se separa en tres capas (marrón, plateada y gris) que parecen los estratos de una roca. Si agitas la botella, los colores no se mezclan."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 267
+ }
+}

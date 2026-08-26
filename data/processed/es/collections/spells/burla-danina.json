@@ -1,0 +1,52 @@
+{
+ "id": "spell.burla-danina",
+ "name": "Burla dañina",
+ "level": 0,
+ "cantrip": true,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno.\n\nMejora de truco. El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 126,
+   "md": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno.",
+   "text": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 126,
+   "md": "***Mejora de truco.*** El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+   "text": "Mejora de truco. El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 126
+ }
+}

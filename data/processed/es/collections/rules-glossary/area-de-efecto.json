@@ -1,0 +1,35 @@
+{
+ "id": "rule.area-de-efecto",
+ "name": "Área de efecto",
+ "text": "Las descripciones de muchos conjuros y otros rasgos especifican que tienen un área de efecto, que suele tener una de seis formas posibles. Estas formas se definen en otras partes del glosario:\n\nCilindro Cubo Esfera Cono Emanación Línea\n\nLas áreas de efecto poseen un punto de origen, un lugar desde el que surge la energía del efecto. Las reglas de cada forma especifican cuál es el punto de origen. Si todas las líneas rectas que se extienden desde el punto de origen hasta un lugar del área de efecto están bloqueadas, ese lugar no estará incluido en el área de efecto. Para bloquear una línea, un obstáculo debe proporcionar cobertura completa. Consulta también “Cobertura”.\n\nSi el creador de un área de efecto la sitúa en un punto que no vea y una obstrucción (como un muro) está entre dicho punto y el creador, el origen se moverá hasta el lado de la obstrucción más cercano a él.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Las descripciones de muchos conjuros y otros rasgos especifican que tienen un área de efecto, que suele tener una de seis formas posibles. Estas formas se definen en otras partes del glosario:",
+   "text": "Las descripciones de muchos conjuros y otros rasgos especifican que tienen un área de efecto, que suele tener una de seis formas posibles. Estas formas se definen en otras partes del glosario:"
+  },
+  {
+   "type": "callout",
+   "page": 195,
+   "md": "Cilindro Cubo Esfera Cono Emanación Línea",
+   "text": "Cilindro Cubo Esfera Cono Emanación Línea"
+  },
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Las áreas de efecto poseen un punto de origen, un lugar desde el que surge la energía del efecto. Las reglas de cada forma especifican cuál es el punto de origen. Si todas las líneas rectas que se extienden desde el punto de origen hasta un lugar del área de efecto están bloqueadas, ese lugar no estará incluido en el área de efecto. Para bloquear una línea, un obstáculo debe proporcionar cobertura completa. *Consulta también* “Cobertura”.",
+   "text": "Las áreas de efecto poseen un punto de origen, un lugar desde el que surge la energía del efecto. Las reglas de cada forma especifican cuál es el punto de origen. Si todas las líneas rectas que se extienden desde el punto de origen hasta un lugar del área de efecto están bloqueadas, ese lugar no estará incluido en el área de efecto. Para bloquear una línea, un obstáculo debe proporcionar cobertura completa. Consulta también “Cobertura”."
+  },
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Si el creador de un área de efecto la sitúa en un punto que no vea y una obstrucción (como un muro) está entre dicho punto y el creador, el origen se moverá hasta el lado de la obstrucción más cercano a él.",
+   "text": "Si el creador de un área de efecto la sitúa en un punto que no vea y una obstrucción (como un muro) está entre dicho punto y el creador, el origen se moverá hasta el lado de la obstrucción más cercano a él."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

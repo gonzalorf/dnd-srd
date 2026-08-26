@@ -1,0 +1,94 @@
+{
+ "id": "monster.guerrero-de-infanteria",
+ "name": "Guerrero de infantería",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 335
+ },
+ "context": [
+  "Guerreros"
+ ],
+ "metaRaw": "Humanoide Mediano o Pequeño, neutral",
+ "type": "Humanoide",
+ "alignment": "neutral",
+ "size": "Mediano",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "9 (2d8)",
+  "average": 9,
+  "formula": "2d8"
+ },
+ "speeds": {
+  "caminando": 9.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común"
+ ],
+ "gear": [
+  "camisa de malla",
+  "lanza"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 13,
+   "mod": 1,
+   "save": 1
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Atacar en grupo",
+   "md": "***Atacar en grupo.*** El guerrero tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del guerrero se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado.",
+   "page": 335,
+   "description": "El guerrero tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del guerrero se encuentra a 1,5 m o menos de la criatura y no tiene el estado de incapacitado."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Lanza",
+   "md": "***Lanza.*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +3, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d6 + 1) de daño perforante.",
+   "page": 335,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +3, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 4 (1d6 + 1) de daño perforante."
+  }
+ ]
+}

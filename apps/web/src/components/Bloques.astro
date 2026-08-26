@@ -1,0 +1,120 @@
+---
+/**
+ * Renderiza los nodos del árbol tal y como salen del extractor.
+ *
+ * Es recursivo y cubre todos los tipos que produce `document.json`, así que
+ * cualquier parte del libro se muestra con el mismo componente. Los tipos que
+ * llegasen sin cubrir se marcarían visiblemente en vez de desaparecer: perder
+ * contenido en silencio es el error que hay que evitar.
+ */
+import { renderMd, slugify, type Node } from "../lib/srd";
+
+export interface Props {
+  nodes: Node[];
+  /** Nivel de título de partida; se incrementa al bajar en el árbol. */
+  depth?: number;
+  /** Id de la ficha actual, para no enlazarla consigo misma. */
+  selfId?: string;
+}
+const { nodes, depth = 2, selfId } = Astro.props;
+const H = `h${Math.min(depth, 6)}`;
+---
+
+{
+  nodes.map((node) => {
+    const page = node.source?.page;
+    switch (node.type) {
+      case "chapter":
+      case "section":
+      case "subsection":
+      case "entry":
+        return (
+          <section class={`bloque ${node.type}`} id={slugify(node.title ?? "")}>
+            <H>
+              <a href={`#${slugify(node.title ?? "")}`} class="ancla">{node.title}</a>
+              <span class="pag">p{page}</span>
+            </H>
+            <Astro.self nodes={node.children ?? []} depth={depth + 1} selfId={selfId} />
+          </section>
+        );
+
+      case "subtitle":
+        return <p class="subtitulo" set:html={renderMd(node.md ?? "", selfId)} />;
+
+      case "property":
+        return (
+          <p class="propiedad">
+            <strong>{node.label}:</strong> {node.value}
+          </p>
+        );
+
+      case "paragraph":
+      case "definition":
+      case "step":
+        return <p class={node.type} set:html={renderMd(node.md ?? "", selfId)} />;
+
+      case "list-item":
+        return <p class="vineta" set:html={renderMd((node.md ?? "").replace(/^•\s*/, ""), selfId)} />;
+
+      case "callout":
+        return <p class="formula" set:html={renderMd(node.md ?? "", selfId)} />;
+
+      case "toc-entry":
+        return <p class="toc">{node.text}</p>;
+
+      case "table":
+        return (
+          <figure class="tabla">
+            {node.caption && (
+              <figcaption>
+                {node.caption} <span class="pag">p{page}</span>
+              </figcaption>
+            )}
+            <div class="scroll">
+              <table>
+                {node.header && node.header.length > 0 && (
+                  <thead>
+                    <tr>{node.header.map((h) => <th>{h}</th>)}</tr>
+                  </thead>
+                )}
+                <tbody>
+                  {(node.rows ?? []).map((row) => (
+                    <tr>{row.map((cell) => <td set:html={renderMd(cell, selfId)} />)}</tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </figure>
+        );
+
+      case "sidebar":
+        return (
+          <aside class="cuadro">
+            <h4>
+              {node.title} <span class="pag">p{page}</span>
+            </h4>
+            <Astro.self nodes={node.children ?? []} depth={depth + 1} selfId={selfId} />
+          </aside>
+        );
+
+      case "statblock":
+        return (
+          <div class="perfil" id={slugify(node.name ?? "")}>
+            <h4>
+              {node.name} <span class="pag">p{page}</span>
+            </h4>
+            {(node.parts ?? []).map((part) =>
+              part.type === "section" ? (
+                <h5 class="perfil-seccion">{part.text}</h5>
+              ) : (
+                <p class={`perfil-${part.type}`} set:html={renderMd(part.md ?? "", selfId)} />
+              ),
+            )}
+          </div>
+        );
+
+      default:
+        return <p class="sin-cubrir">[{node.type}] {node.text}</p>;
+    }
+  })
+}

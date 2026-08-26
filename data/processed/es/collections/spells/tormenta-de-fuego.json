@@ -1,0 +1,54 @@
+{
+ "id": "spell.tormenta-de-fuego",
+ "name": "Tormenta de fuego",
+ "level": 7,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "clérigo",
+  "druida",
+  "hechicero"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "45 m",
+  "kind": "ranged",
+  "meters": 45
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una tormenta de llamas aparece dentro del alcance. El área de la tormenta consta de hasta diez cubos de 3 m de lado que puedes disponer según desees, cada uno de los cuales debe estar adyacente al menos a otro. Todas las criaturas situadas en la zona de 4,5 m deberán realizar una tirada de salvación de Destreza; sufrirán 7d10 de daño de fuego si la fallan o la mitad del daño si la superan.\n\nLos objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Una tormenta de llamas aparece dentro del alcance. El área de la tormenta consta de hasta diez cubos de 3 m de lado que puedes disponer según desees, cada uno de los cuales debe estar adyacente al menos a otro. Todas las criaturas situadas en la zona de 4,5 m deberán realizar una tirada de salvación de Destreza; sufrirán 7d10 de daño de fuego si la fallan o la mitad del daño si la superan.",
+   "text": "Una tormenta de llamas aparece dentro del alcance. El área de la tormenta consta de hasta diez cubos de 3 m de lado que puedes disponer según desees, cada uno de los cuales debe estar adyacente al menos a otro. Todas las criaturas situadas en la zona de 4,5 m deberán realizar una tirada de salvación de Destreza; sufrirán 7d10 de daño de fuego si la fallan o la mitad del daño si la superan."
+  },
+  {
+   "type": "paragraph",
+   "page": 190,
+   "md": "Los objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder.",
+   "text": "Los objetos inflamables dentro del área que no lleve o vista nadie empezarán a arder."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 190
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "rule.tipo-de-criatura",
+ "name": "Tipo de criatura",
+ "text": "Todas las criaturas, incluidos los personajes de los jugadores, tienen una etiqueta en las reglas que identifica su tipo de criatura. La mayoría de los personajes de los jugadores son de tipo humanoide. Estos son los tipos de criaturas del juego:\n\nAberración Dragón Infernal Autómata Elemental Monstruosidad Bestia Feérico Muerto viviente Celestial Gigante Planta Cieno Humanoide\n\nEstos tipos no tienen reglas en sí mismos, pero hay reglas del juego que afectan de manera distinta a criaturas de ciertos tipos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 208,
+   "md": "Todas las criaturas, incluidos los personajes de los jugadores, tienen una etiqueta en las reglas que identifica su tipo de criatura. La mayoría de los personajes de los jugadores son de tipo humanoide. Estos son los tipos de criaturas del juego:",
+   "text": "Todas las criaturas, incluidos los personajes de los jugadores, tienen una etiqueta en las reglas que identifica su tipo de criatura. La mayoría de los personajes de los jugadores son de tipo humanoide. Estos son los tipos de criaturas del juego:"
+  },
+  {
+   "type": "callout",
+   "page": 209,
+   "md": "Aberración Dragón Infernal Autómata Elemental Monstruosidad Bestia Feérico Muerto viviente Celestial Gigante Planta Cieno Humanoide",
+   "text": "Aberración Dragón Infernal Autómata Elemental Monstruosidad Bestia Feérico Muerto viviente Celestial Gigante Planta Cieno Humanoide"
+  },
+  {
+   "type": "paragraph",
+   "page": 209,
+   "md": "Estos tipos no tienen reglas en sí mismos, pero hay reglas del juego que afectan de manera distinta a criaturas de ciertos tipos.",
+   "text": "Estos tipos no tienen reglas en sí mismos, pero hay reglas del juego que afectan de manera distinta a criaturas de ciertos tipos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 208
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "spell.trepar-cual-aracnido",
+ "name": "Trepar cual arácnido",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (una gota de betún y una araña)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una gota de betún y una araña",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Además, el objetivo obtiene una velocidad trepando igual a su velocidad.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 191,
+   "md": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Además, el objetivo obtiene una velocidad trepando igual a su velocidad.",
+   "text": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, así como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Además, el objetivo obtiene una velocidad trepando igual a su velocidad."
+  },
+  {
+   "type": "definition",
+   "page": 191,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 191
+ }
+}

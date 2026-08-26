@@ -1,0 +1,23 @@
+{
+ "id": "item.escudo-centinela",
+ "name": "Escudo centinela",
+ "category": "Armadura",
+ "variant": "escudo",
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Armadura (escudo), infrecuente",
+ "text": "Mientras lleves embrazado este escudo, tienes ventaja en las tiradas de iniciativa y en las pruebas de Sabiduría (Percepción). El blasón que lo adorna posee el símbolo de un ojo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 253,
+   "md": "Mientras lleves embrazado este escudo, tienes ventaja en las tiradas de iniciativa y en las pruebas de Sabiduría (Percepción). El blasón que lo adorna posee el símbolo de un ojo.",
+   "text": "Mientras lleves embrazado este escudo, tienes ventaja en las tiradas de iniciativa y en las pruebas de Sabiduría (Percepción). El blasón que lo adorna posee el símbolo de un ojo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 253
+ }
+}

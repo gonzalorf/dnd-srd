@@ -1,0 +1,656 @@
+{
+ "id": "class.picaro",
+ "name": "Pícaro",
+ "coreTraits": {
+  "Característica principal": "Destreza",
+  "Dado de puntos de golpe": "1d8 por nivel de pícaro",
+  "Competencias en tiradas de salvación": "Destreza e Inteligencia",
+  "Competencias en habilidades": "Elige cuatro: Acrobacias, Atletismo, Engaño, Intimidación, Investigación, Juego de manos, Percepción, Perspicacia, Persuasión o Sigilo",
+  "Competencias con armas": "Armas sencillas, además de marciales que tengan las propiedades “ligera” o “sutil”",
+  "Competencias con herramientas": "Herramientas de ladrón",
+  "Entrenamiento con armaduras": "Armaduras ligeras",
+  "Equipo inicial": "Elige A o B: (A) armadura de"
+ },
+ "progression": {
+  "caption": "Rasgos de pícaro",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Ataque furtivo"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Ataque furtivo, Jerga de ladrones, Maestría con armas, Pericia",
+    "1d6"
+   ],
+   [
+    "2",
+    "+2",
+    "Acción astuta",
+    "1d6"
+   ],
+   [
+    "3",
+    "+2",
+    "Puntería certera, subclase de pícaro",
+    "2d6"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "2d6"
+   ],
+   [
+    "5",
+    "+3",
+    "Esquiva asombrosa, Golpe astuto",
+    "3d6"
+   ],
+   [
+    "6",
+    "+3",
+    "Pericia",
+    "3d6"
+   ],
+   [
+    "7",
+    "+3",
+    "Evasión, Talentos fiables",
+    "4d6"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "4d6"
+   ],
+   [
+    "9",
+    "+4",
+    "Rasgo de subclase",
+    "5d6"
+   ],
+   [
+    "10",
+    "+4",
+    "Mejora de característica",
+    "5d6"
+   ],
+   [
+    "11",
+    "+4",
+    "Golpe astuto mejorado",
+    "6d6"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "6d6"
+   ],
+   [
+    "13",
+    "+5",
+    "Rasgo de subclase",
+    "7d6"
+   ],
+   [
+    "14",
+    "+5",
+    "Golpes taimados",
+    "7d6"
+   ],
+   [
+    "15",
+    "+5",
+    "Mente escurridiza",
+    "8d6"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "8d6"
+   ],
+   [
+    "17",
+    "+6",
+    "Rasgo de subclase",
+    "9d6"
+   ],
+   [
+    "18",
+    "+6",
+    "Elusivo",
+    "9d6"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "10d6"
+   ],
+   [
+    "20",
+    "+6",
+    "Golpe de suerte",
+    "10d6"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Ataque furtivo",
+   "title": "Nivel 1: Ataque furtivo",
+   "subclass": null,
+   "text": "Sabes cómo atacar sutilmente y aprovecharte de un enemigo distraído. Una vez por turno, puedes infligir 1d6 de daño adicional a una criatura a la que aciertes con una tirada de ataque si tienes ventaja en la tirada y si ha sido utilizando un arma sutil o a distancia. El daño adicional es del mismo tipo que el del arma.\n\nNo necesitas tener ventaja en la tirada de ataque si al menos uno de tus aliados está a 1,5 m o menos del objetivo, dicho aliado no tiene el estado de incapacitado y no sufres desventaja en la tirada de ataque.\n\nEl daño adicional aumenta conforme subes de nivel de pícaro, como se muestra en la columna “Ataque furtivo” de la tabla “Rasgos de pícaro”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Sabes cómo atacar sutilmente y aprovecharte de un enemigo distraído. Una vez por turno, puedes infligir 1d6 de daño adicional a una criatura a la que aciertes con una tirada de ataque si tienes ventaja en la tirada y si ha sido utilizando un arma sutil o a distancia. El daño adicional es del mismo tipo que el del arma.",
+     "text": "Sabes cómo atacar sutilmente y aprovecharte de un enemigo distraído. Una vez por turno, puedes infligir 1d6 de daño adicional a una criatura a la que aciertes con una tirada de ataque si tienes ventaja en la tirada y si ha sido utilizando un arma sutil o a distancia. El daño adicional es del mismo tipo que el del arma."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "No necesitas tener ventaja en la tirada de ataque si al menos uno de tus aliados está a 1,5 m o menos del objetivo, dicho aliado no tiene el estado de incapacitado y no sufres desventaja en la tirada de ataque.",
+     "text": "No necesitas tener ventaja en la tirada de ataque si al menos uno de tus aliados está a 1,5 m o menos del objetivo, dicho aliado no tiene el estado de incapacitado y no sufres desventaja en la tirada de ataque."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "El daño adicional aumenta conforme subes de nivel de pícaro, como se muestra en la columna “Ataque furtivo” de la tabla “Rasgos de pícaro”.",
+     "text": "El daño adicional aumenta conforme subes de nivel de pícaro, como se muestra en la columna “Ataque furtivo” de la tabla “Rasgos de pícaro”."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 1,
+   "name": "Jerga de ladrones",
+   "title": "Nivel 1: Jerga de ladrones",
+   "subclass": null,
+   "text": "Has aprendido varios idiomas en las comunidades donde empleabas tus talentos de pícaro. Conoces la jerga de ladrones y otro idioma de tu elección de las tablas de idiomas del capítulo “Creación de personajes”.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Has aprendido varios idiomas en las comunidades donde empleabas tus talentos de pícaro. Conoces la jerga de ladrones y otro idioma de tu elección de las tablas de idiomas del capítulo “Creación de personajes”.",
+     "text": "Has aprendido varios idiomas en las comunidades donde empleabas tus talentos de pícaro. Conoces la jerga de ladrones y otro idioma de tu elección de las tablas de idiomas del capítulo “Creación de personajes”."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 1,
+   "name": "Maestría con armas",
+   "title": "Nivel 1: Maestría con armas",
+   "subclass": null,
+   "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como dagas y arcos cortos.\n\nTras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas cortas.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como dagas y arcos cortos.",
+     "text": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas de tu elección con las que tengas competencia, como dagas y arcos cortos."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Tras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas cortas.",
+     "text": "Tras finalizar un descanso largo, puedes cambiar los tipos de armas elegidas. Por ejemplo, podrías pasar a utilizar las propiedades de maestría con cimitarras y espadas cortas."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 1,
+   "name": "Pericia",
+   "title": "Nivel 1: Pericia",
+   "subclass": null,
+   "text": "Ganas pericia en dos de tus competencias en habilidades de tu elección. Se recomiendan Juego de manos y Sigilo si eres competente en ellas.\n\nEn el nivel 6 de pícaro ganas pericia en otras dos competencias en habilidades de tu elección.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Ganas pericia en dos de tus competencias en habilidades de tu elección. Se recomiendan Juego de manos y Sigilo si eres competente en ellas.",
+     "text": "Ganas pericia en dos de tus competencias en habilidades de tu elección. Se recomiendan Juego de manos y Sigilo si eres competente en ellas."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "En el nivel 6 de pícaro ganas pericia en otras dos competencias en habilidades de tu elección.",
+     "text": "En el nivel 6 de pícaro ganas pericia en otras dos competencias en habilidades de tu elección."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 2,
+   "name": "Acción astuta",
+   "title": "Nivel 2: Acción astuta",
+   "subclass": null,
+   "text": "Tu agilidad mental y tu rapidez te permiten moverte y actuar con presteza. En tu turno, puedes llevar a cabo una de las siguientes acciones como acción adicional: correr, destrabarse o esconderse.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Tu agilidad mental y tu rapidez te permiten moverte y actuar con presteza. En tu turno, puedes llevar a cabo una de las siguientes acciones como acción adicional: correr, destrabarse o esconderse.",
+     "text": "Tu agilidad mental y tu rapidez te permiten moverte y actuar con presteza. En tu turno, puedes llevar a cabo una de las siguientes acciones como acción adicional: correr, destrabarse o esconderse."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 3,
+   "name": "Puntería certera",
+   "title": "Nivel 3: Puntería certera",
+   "subclass": null,
+   "text": "Como acción adicional, te concedes ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno y, después de usarlo, tu velocidad es 0 hasta el final del turno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Como acción adicional, te concedes ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno y, después de usarlo, tu velocidad es 0 hasta el final del turno.",
+     "text": "Como acción adicional, te concedes ventaja en tu siguiente tirada de ataque del turno actual. Solo puedes usar este rasgo si no te has movido durante este turno y, después de usarlo, tu velocidad es 0 hasta el final del turno."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 3,
+   "name": "Subclase de pícaro",
+   "title": "Nivel 3: Subclase de pícaro",
+   "subclass": null,
+   "text": "Consigues una subclase de pícaro de tu elección. La subclase de ladrón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de pícaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de pícaro e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Consigues una subclase de pícaro de tu elección. La subclase de ladrón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de pícaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de pícaro e inferiores.",
+     "text": "Consigues una subclase de pícaro de tu elección. La subclase de ladrón se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de pícaro. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de pícaro e inferiores."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16 de pícaro.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16 de pícaro.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16 de pícaro."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 5,
+   "name": "Golpe astuto",
+   "title": "Nivel 5: Golpe astuto",
+   "subclass": null,
+   "text": "Has desarrollado formas astutas de usar tu Ataque furtivo. Cuando infliges daño de Ataque furtivo, puedes añadir uno de los siguientes efectos de Golpe astuto. Cada uno tiene un coste en dados que es la cantidad de dados de daño de Ataque furtivo a los que debes renunciar para añadir el efecto. Retiras la cantidad de dados antes de tirar y el efecto se produce inmediatamente después de que se cause el daño del ataque. Por ejemplo, si añades el efecto de veneno, quita 1d6 del daño de Ataque furtivo antes de tirar.\n\nSi un efecto de Golpe astuto requiere una tirada de salvación, la CD es igual a 8 más tu modificador por Destreza y tu bonificador por competencia.\n\nPara usar este efecto, debes llevar contigo unos útiles de envenenador.\n\nRetirada (coste: 1d6). Justo después del ataque, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad.\n\nTropiezo (coste: 1d6). Si el objetivo es Grande o más pequeño, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado.\n\nVeneno (coste: 1d6). Añades una toxina a tu golpe, lo que obliga al objetivo a hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de envenenado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo envenenado repetirá la tirada de salvación y, si tiene éxito, se librará del efecto.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Has desarrollado formas astutas de usar tu Ataque furtivo. Cuando infliges daño de Ataque furtivo, puedes añadir uno de los siguientes efectos de Golpe astuto. Cada uno tiene un coste en dados que es la cantidad de dados de daño de Ataque furtivo a los que debes renunciar para añadir el efecto. Retiras la cantidad de dados antes de tirar y el efecto se produce inmediatamente después de que se cause el daño del ataque. Por ejemplo, si añades el efecto de veneno, quita 1d6 del daño de Ataque furtivo antes de tirar.",
+     "text": "Has desarrollado formas astutas de usar tu Ataque furtivo. Cuando infliges daño de Ataque furtivo, puedes añadir uno de los siguientes efectos de Golpe astuto. Cada uno tiene un coste en dados que es la cantidad de dados de daño de Ataque furtivo a los que debes renunciar para añadir el efecto. Retiras la cantidad de dados antes de tirar y el efecto se produce inmediatamente después de que se cause el daño del ataque. Por ejemplo, si añades el efecto de veneno, quita 1d6 del daño de Ataque furtivo antes de tirar."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Si un efecto de Golpe astuto requiere una tirada de salvación, la CD es igual a 8 más tu modificador por Destreza y tu bonificador por competencia.",
+     "text": "Si un efecto de Golpe astuto requiere una tirada de salvación, la CD es igual a 8 más tu modificador por Destreza y tu bonificador por competencia."
+    },
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Para usar este efecto, debes llevar contigo unos útiles de envenenador.",
+     "text": "Para usar este efecto, debes llevar contigo unos útiles de envenenador."
+    },
+    {
+     "type": "definition",
+     "page": 87,
+     "md": "***Retirada (coste: 1d6).*** Justo después del ataque, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad.",
+     "text": "Retirada (coste: 1d6). Justo después del ataque, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+    },
+    {
+     "type": "definition",
+     "page": 87,
+     "md": "***Tropiezo (coste: 1d6).*** Si el objetivo es Grande o más pequeño, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado.",
+     "text": "Tropiezo (coste: 1d6). Si el objetivo es Grande o más pequeño, deberá superar una tirada de salvación de Destreza o tendrá el estado de derribado."
+    },
+    {
+     "type": "definition",
+     "page": 87,
+     "md": "***Veneno (coste: 1d6).*** Añades una toxina a tu golpe, lo que obliga al objetivo a hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de envenenado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo envenenado repetirá la tirada de salvación y, si tiene éxito, se librará del efecto.",
+     "text": "Veneno (coste: 1d6). Añades una toxina a tu golpe, lo que obliga al objetivo a hacer una tirada de salvación de Constitución. Si la falla, tendrá el estado de envenenado durante 1 minuto. Al final de cada uno de sus turnos, el objetivo envenenado repetirá la tirada de salvación y, si tiene éxito, se librará del efecto."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 5,
+   "name": "Esquiva asombrosa",
+   "title": "Nivel 5: Esquiva asombrosa",
+   "subclass": null,
+   "text": "Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que te causa dicho ataque (redondeando hacia abajo).",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que te causa dicho ataque (redondeando hacia abajo).",
+     "text": "Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que te causa dicho ataque (redondeando hacia abajo)."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 7,
+   "name": "Evasión",
+   "title": "Nivel 7: Evasión",
+   "subclass": null,
+   "text": "Puedes esquivar con agilidad ciertos peligros. Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas. No puedes usar este rasgo si tienes el estado de incapacitado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Puedes esquivar con agilidad ciertos peligros. Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas. No puedes usar este rasgo si tienes el estado de incapacitado.",
+     "text": "Puedes esquivar con agilidad ciertos peligros. Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad si la fallas. No puedes usar este rasgo si tienes el estado de incapacitado."
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 7,
+   "name": "Talentos fiables",
+   "title": "Nivel 7: Talentos fiables",
+   "subclass": null,
+   "text": "Cuando hagas una prueba de característica que utilice una de tus competencias en habilidades o con herramientas, puedes sustituir un resultado de 9 o menos en el d20 por un 10",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 87,
+     "md": "Cuando hagas una prueba de característica que utilice una de tus competencias en habilidades o con herramientas, puedes sustituir un resultado de 9 o menos en el d20 por un 10",
+     "text": "Cuando hagas una prueba de característica que utilice una de tus competencias en habilidades o con herramientas, puedes sustituir un resultado de 9 o menos en el d20 por un 10"
+    }
+   ],
+   "page": 87
+  },
+  {
+   "level": 11,
+   "name": "Golpe astuto mejorado",
+   "title": "Nivel 11: Golpe astuto mejorado",
+   "subclass": null,
+   "text": "Puedes usar hasta dos efectos de Golpe astuto cuando inflijas daño de Ataque furtivo pagando el coste en dados por cada efecto.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Puedes usar hasta dos efectos de Golpe astuto cuando inflijas daño de Ataque furtivo pagando el coste en dados por cada efecto.",
+     "text": "Puedes usar hasta dos efectos de Golpe astuto cuando inflijas daño de Ataque furtivo pagando el coste en dados por cada efecto."
+    }
+   ],
+   "page": 88
+  },
+  {
+   "level": 14,
+   "name": "Golpes taimados",
+   "title": "Nivel 14: Golpes taimados",
+   "subclass": null,
+   "text": "Has practicado nuevas formas de usar tu Ataque furtivo de forma artera. Entre las opciones de Golpe astuto se encuentran ahora los siguientes efectos.\n\nConfundir (coste: 2d6). El objetivo deberá superar una tirada de salvación de Constitución. Si no lo hace, en su próximo turno solo podrá moverse, realizar una acción o realizar una acción adicional.\n\nNoquear (coste: 6d6). El objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de inconsciente durante 1 minuto o hasta recibir daño. El objetivo inconsciente repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.\n\nOfuscar (coste: 3d6). El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de cegado hasta el final de su siguiente turno.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Has practicado nuevas formas de usar tu Ataque furtivo de forma artera. Entre las opciones de Golpe astuto se encuentran ahora los siguientes efectos.",
+     "text": "Has practicado nuevas formas de usar tu Ataque furtivo de forma artera. Entre las opciones de Golpe astuto se encuentran ahora los siguientes efectos."
+    },
+    {
+     "type": "definition",
+     "page": 88,
+     "md": "***Confundir (coste: 2d6).*** El objetivo deberá superar una tirada de salvación de Constitución. Si no lo hace, en su próximo turno solo podrá moverse, realizar una acción o realizar una acción adicional.",
+     "text": "Confundir (coste: 2d6). El objetivo deberá superar una tirada de salvación de Constitución. Si no lo hace, en su próximo turno solo podrá moverse, realizar una acción o realizar una acción adicional."
+    },
+    {
+     "type": "definition",
+     "page": 88,
+     "md": "***Noquear (coste: 6d6).*** El objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de inconsciente durante 1 minuto o hasta recibir daño. El objetivo inconsciente repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+     "text": "Noquear (coste: 6d6). El objetivo deberá superar una tirada de salvación de Constitución o tendrá el estado de inconsciente durante 1 minuto o hasta recibir daño. El objetivo inconsciente repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto."
+    },
+    {
+     "type": "definition",
+     "page": 88,
+     "md": "***Ofuscar (coste: 3d6).*** El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de cegado hasta el final de su siguiente turno.",
+     "text": "Ofuscar (coste: 3d6). El objetivo deberá superar una tirada de salvación de Destreza o tendrá el estado de cegado hasta el final de su siguiente turno."
+    }
+   ],
+   "page": 88
+  },
+  {
+   "level": 15,
+   "name": "Mente escurridiza",
+   "title": "Nivel 15: Mente escurridiza",
+   "subclass": null,
+   "text": "Tu mente astuta es excepcionalmente difícil de controlar. Ganas competencia en las tiradas de salvación de Sabiduría y Carisma.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Tu mente astuta es excepcionalmente difícil de controlar. Ganas competencia en las tiradas de salvación de Sabiduría y Carisma.",
+     "text": "Tu mente astuta es excepcionalmente difícil de controlar. Ganas competencia en las tiradas de salvación de Sabiduría y Carisma."
+    }
+   ],
+   "page": 88
+  },
+  {
+   "level": 18,
+   "name": "Elusivo",
+   "title": "Nivel 18: Elusivo",
+   "subclass": null,
+   "text": "Eres tan escurridizo que será raro que un atacante pueda golpearte con facilidad. Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Eres tan escurridizo que será raro que un atacante pueda golpearte con facilidad. Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado.",
+     "text": "Eres tan escurridizo que será raro que un atacante pueda golpearte con facilidad. Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado."
+    }
+   ],
+   "page": 88
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del espíritu de la noche.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del espíritu de la noche.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del espíritu de la noche."
+    }
+   ],
+   "page": 88
+  },
+  {
+   "level": 20,
+   "name": "Golpe de suerte",
+   "title": "Nivel 20: Golpe de suerte",
+   "subclass": null,
+   "text": "Has desarrollado una capacidad asombrosa para tener éxito justo cuando lo necesitas. Si fallas una prueba con d20, puedes convertir el resultado de la tirada en un 20.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Has desarrollado una capacidad asombrosa para tener éxito justo cuando lo necesitas. Si fallas una prueba con d20, puedes convertir el resultado de la tirada en un 20.",
+     "text": "Has desarrollado una capacidad asombrosa para tener éxito justo cuando lo necesitas. Si fallas una prueba con d20, puedes convertir el resultado de la tirada en un 20."
+    },
+    {
+     "type": "paragraph",
+     "page": 88,
+     "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo.",
+     "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso corto o largo."
+    }
+   ],
+   "page": 88
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de pícaro: Ladrón",
+   "features": [
+    {
+     "level": 3,
+     "name": "Manos rápidas",
+     "title": "Nivel 3: Manos rápidas",
+     "subclass": "Subclase de pícaro: Ladrón",
+     "text": "Como acción adicional, puedes hacer una de las siguientes cosas:\n\nJuego de manos. Haz una prueba de Destreza (Juego de manos) para robarle a alguien o usar herramientas de ladrón para forzar una cerradura o desarmar una trampa.\n\nUsar un objeto. Emplea la acción de utilizar o la acción de magia para usar un objeto mágico que necesite una acción.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 88,
+       "md": "Como acción adicional, puedes hacer una de las siguientes cosas:",
+       "text": "Como acción adicional, puedes hacer una de las siguientes cosas:"
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Juego de manos.*** Haz una prueba de Destreza (Juego de manos) para robarle a alguien o usar herramientas de ladrón para forzar una cerradura o desarmar una trampa.",
+       "text": "Juego de manos. Haz una prueba de Destreza (Juego de manos) para robarle a alguien o usar herramientas de ladrón para forzar una cerradura o desarmar una trampa."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Usar un objeto.*** Emplea la acción de utilizar o la acción de magia para usar un objeto mágico que necesite una acción.",
+       "text": "Usar un objeto. Emplea la acción de utilizar o la acción de magia para usar un objeto mágico que necesite una acción."
+      }
+     ],
+     "page": 88
+    },
+    {
+     "level": 3,
+     "name": "Balconero",
+     "title": "Nivel 3: Balconero",
+     "subclass": "Subclase de pícaro: Ladrón",
+     "text": "Te has entrenado para llegar a lugares especialmente difíciles de alcanzar, lo que te otorga los siguientes beneficios.\n\nEscalador. Obtienes una velocidad trepando igual a tu velocidad.\n\nSaltador. Puedes determinar tu distancia de salto empleando tu Destreza en lugar de tu Fuerza.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 88,
+       "md": "Te has entrenado para llegar a lugares especialmente difíciles de alcanzar, lo que te otorga los siguientes beneficios.",
+       "text": "Te has entrenado para llegar a lugares especialmente difíciles de alcanzar, lo que te otorga los siguientes beneficios."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Escalador.*** Obtienes una velocidad trepando igual a tu velocidad.",
+       "text": "Escalador. Obtienes una velocidad trepando igual a tu velocidad."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Saltador.*** Puedes determinar tu distancia de salto empleando tu Destreza en lugar de tu Fuerza.",
+       "text": "Saltador. Puedes determinar tu distancia de salto empleando tu Destreza en lugar de tu Fuerza."
+      }
+     ],
+     "page": 88
+    },
+    {
+     "level": 9,
+     "name": "Sigilo supremo",
+     "title": "Nivel 9: Sigilo supremo",
+     "subclass": "Subclase de pícaro: Ladrón",
+     "text": "Obtienes la siguiente opción de Golpe astuto.\n\nAtaque sigiloso (coste: 1d6). Si tienes el estado de invisible por una acción de esconderse, este ataque no pone fin a ese estado si terminas el turno tras una cobertura tres cuartos o cobertura completa.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 88,
+       "md": "Obtienes la siguiente opción de Golpe astuto.",
+       "text": "Obtienes la siguiente opción de Golpe astuto."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Ataque sigiloso (coste: 1d6).*** Si tienes el estado de invisible por una acción de esconderse, este ataque no pone fin a ese estado si terminas el turno tras una cobertura tres cuartos o cobertura completa.",
+       "text": "Ataque sigiloso (coste: 1d6). Si tienes el estado de invisible por una acción de esconderse, este ataque no pone fin a ese estado si terminas el turno tras una cobertura tres cuartos o cobertura completa."
+      }
+     ],
+     "page": 88
+    },
+    {
+     "level": 13,
+     "name": "Usar objetos mágicos",
+     "title": "Nivel 13: Usar objetos mágicos",
+     "subclass": "Subclase de pícaro: Ladrón",
+     "text": "Has aprendido a sacarles el máximo provecho a los objetos mágicos, lo que te otorga los siguientes beneficios.\n\nCargas. Siempre que uses una propiedad de objeto mágico que gaste cargas, tira 1d6. Si sacas un 6, usa la propiedad sin gastar cargas.\n\nPergaminos. Puedes usar cualquier pergamino de conjuro empleando la Inteligencia como aptitud mágica para el conjuro. Si el conjuro es de nivel 1 o un truco, puedes lanzarlo de forma fiable. Si el pergamino contiene un conjuro de mayor nivel, primero deberás superar una prueba de Inteligencia (Conocimiento arcano) con CD 10 más el nivel conjuro. Si la superas, podrás lanzar el conjuro desde el pergamino. Si la fallas, el pergamino se desintegrará.\n\nSintonización. Puedes sintonizarte con hasta cuatro objetos mágicos a la vez.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 88,
+       "md": "Has aprendido a sacarles el máximo provecho a los objetos mágicos, lo que te otorga los siguientes beneficios.",
+       "text": "Has aprendido a sacarles el máximo provecho a los objetos mágicos, lo que te otorga los siguientes beneficios."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Cargas.*** Siempre que uses una propiedad de objeto mágico que gaste cargas, tira 1d6. Si sacas un 6, usa la propiedad sin gastar cargas.",
+       "text": "Cargas. Siempre que uses una propiedad de objeto mágico que gaste cargas, tira 1d6. Si sacas un 6, usa la propiedad sin gastar cargas."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Pergaminos.*** Puedes usar cualquier *pergamino de conjuro* empleando la Inteligencia como aptitud mágica para el conjuro. Si el conjuro es de nivel 1 o un truco, puedes lanzarlo de forma fiable. Si el pergamino contiene un conjuro de mayor nivel, primero deberás superar una prueba de Inteligencia (Conocimiento arcano) con CD 10 más el nivel conjuro. Si la superas, podrás lanzar el conjuro desde el pergamino. Si la fallas, el pergamino se desintegrará.",
+       "text": "Pergaminos. Puedes usar cualquier pergamino de conjuro empleando la Inteligencia como aptitud mágica para el conjuro. Si el conjuro es de nivel 1 o un truco, puedes lanzarlo de forma fiable. Si el pergamino contiene un conjuro de mayor nivel, primero deberás superar una prueba de Inteligencia (Conocimiento arcano) con CD 10 más el nivel conjuro. Si la superas, podrás lanzar el conjuro desde el pergamino. Si la fallas, el pergamino se desintegrará."
+      },
+      {
+       "type": "definition",
+       "page": 88,
+       "md": "***Sintonización.*** Puedes sintonizarte con hasta cuatro objetos mágicos a la vez.",
+       "text": "Sintonización. Puedes sintonizarte con hasta cuatro objetos mágicos a la vez."
+      }
+     ],
+     "page": 88
+    },
+    {
+     "level": 17,
+     "name": "Reflejos de ladrón",
+     "title": "Nivel 17: Reflejos de ladrón",
+     "subclass": "Subclase de pícaro: Ladrón",
+     "text": "Eres experto en tender emboscadas y escapar rápidamente del peligro. Puedes actuar dos turnos durante el primer asalto de cualquier combate. Llevarás a cabo tu primer turno según tu iniciativa normal y el segundo en tu iniciativa menos 10.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 88,
+       "md": "Eres experto en tender emboscadas y escapar rápidamente del peligro. Puedes actuar dos turnos durante el primer asalto de cualquier combate. Llevarás a cabo tu primer turno según tu iniciativa normal y el segundo en tu iniciativa menos 10.",
+       "text": "Eres experto en tender emboscadas y escapar rápidamente del peligro. Puedes actuar dos turnos durante el primer asalto de cualquier combate. Llevarás a cabo tu primer turno según tu iniciativa normal y el segundo en tu iniciativa menos 10."
+      }
+     ],
+     "page": 88
+    }
+   ]
+  }
+ ],
+ "spellLists": [],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 86
+ },
+ "refs": [
+  "item.pergamino-de-conjuro"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "table.p219-2",
+ "caption": null,
+ "header": [
+  "Niveles",
+  "Profundidad del pozoDaño"
+ ],
+ "rows": [
+  [
+   "5–10",
+   "9 m10 (3d6) contundente más 13 (3d8) perforante"
+  ],
+  [
+   "11–16",
+   "18 m21 (6d6) contundente más 36 (8d8) perforante"
+  ],
+  [
+   "17–20",
+   "36 m42 (12d6) contundente más 57 (13d8) perforante"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Herramientas del juego",
+  "Trampas",
+  "Trampas de ejemplo",
+  "Pozo con pinchos"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 219
+ }
+}

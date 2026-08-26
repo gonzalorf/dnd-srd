@@ -1,0 +1,48 @@
+{
+ "id": "spell.contorno-borroso",
+ "name": "Contorno borroso",
+ "level": 2,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tu cuerpo se vuelve borroso. Hasta que termine el conjuro, todas las criaturas tendrán desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si te percibe mediante visión ciega o visión verdadera.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 134,
+   "md": "Tu cuerpo se vuelve borroso. Hasta que termine el conjuro, todas las criaturas tendrán desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si te percibe mediante visión ciega o visión verdadera.",
+   "text": "Tu cuerpo se vuelve borroso. Hasta que termine el conjuro, todas las criaturas tendrán desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si te percibe mediante visión ciega o visión verdadera."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 134
+ }
+}

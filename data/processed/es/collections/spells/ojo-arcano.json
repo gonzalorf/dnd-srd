@@ -1,0 +1,56 @@
+{
+ "id": "spell.ojo-arcano",
+ "name": "Ojo arcano",
+ "level": 4,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (un poco de pelo de murciélago)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un poco de pelo de murciélago",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente información visual desde el ojo, que puede mirar en cualquier dirección y tiene visión en la oscuridad hasta 9 m.\n\nComo acción adicional, puedes mover el ojo hasta 9 m en cualquier dirección. El ojo no podrá atravesar una barrera sólida, pero podrá pasar por cualquier abertura de 2,5 cm de diámetro como mínimo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente información visual desde el ojo, que puede mirar en cualquier dirección y tiene visión en la oscuridad hasta 9 m.",
+   "text": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente información visual desde el ojo, que puede mirar en cualquier dirección y tiene visión en la oscuridad hasta 9 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 170,
+   "md": "Como acción adicional, puedes mover el ojo hasta 9 m en cualquier dirección. El ojo no podrá atravesar una barrera sólida, pero podrá pasar por cualquier abertura de 2,5 cm de diámetro como mínimo.",
+   "text": "Como acción adicional, puedes mover el ojo hasta 9 m en cualquier dirección. El ojo no podrá atravesar una barrera sólida, pero podrá pasar por cualquier abertura de 2,5 cm de diámetro como mínimo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 170
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "rule.incapacitado",
+ "name": "Incapacitado",
+ "text": "Mientras tengas el estado de incapacitado, experimentarás los siguientes efectos:\n\nInactivo. No puedes llevar a cabo ninguna acción, acción adicional o reacción.\n\nPérdida de concentración. Pierdes la concentración.\n\nMudo. No puedes hablar.\n\nSorprendido. Si tienes el estado de incapacitado cuando tiras iniciativa, tendrás desventaja en la tirada.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 202,
+   "md": "Mientras tengas el estado de incapacitado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de incapacitado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Inactivo.*** No puedes llevar a cabo ninguna acción, acción adicional o reacción.",
+   "text": "Inactivo. No puedes llevar a cabo ninguna acción, acción adicional o reacción."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Pérdida de concentración.*** Pierdes la concentración.",
+   "text": "Pérdida de concentración. Pierdes la concentración."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Mudo.*** No puedes hablar.",
+   "text": "Mudo. No puedes hablar."
+  },
+  {
+   "type": "definition",
+   "page": 202,
+   "md": "***Sorprendido.*** Si tienes el estado de incapacitado cuando tiras iniciativa, tendrás desventaja en la tirada.",
+   "text": "Sorprendido. Si tienes el estado de incapacitado cuando tiras iniciativa, tendrás desventaja en la tirada."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 202
+ },
+ "kind": "estado"
+}

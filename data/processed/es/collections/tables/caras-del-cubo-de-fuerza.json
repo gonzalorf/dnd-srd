@@ -1,0 +1,44 @@
+{
+ "id": "table.caras-del-cubo-de-fuerza",
+ "caption": "Caras del cubo de fuerza",
+ "header": [
+  "Conjuro",
+  "Coste en cargas"
+ ],
+ "rows": [
+  [
+   "Armadura de mago",
+   "1"
+  ],
+  [
+   "Escudo",
+   "1"
+  ],
+  [
+   "Pequeña choza",
+   "3"
+  ],
+  [
+   "Esfera elástica",
+   "4"
+  ],
+  [
+   "Sanctasanctórum privado",
+   "4"
+  ],
+  [
+   "Muro de fuerza",
+   "5"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Objetos mágicos",
+  "Objetos mágicos de la A a la Z",
+  "Cubo de fuerza"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 250
+ }
+}

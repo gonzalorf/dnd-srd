@@ -1,0 +1,17 @@
+{
+ "id": "rule.arma",
+ "name": "Arma",
+ "text": "Un arma es un objeto que pertenece a la categoría de armas sencillas o marciales. Consulta también el capítulo “Equipo” (“Armas”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Un arma es un objeto que pertenece a la categoría de armas sencillas o marciales. *Consulta también* el capítulo “Equipo” (“Armas”).",
+   "text": "Un arma es un objeto que pertenece a la categoría de armas sencillas o marciales. Consulta también el capítulo “Equipo” (“Armas”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ }
+}

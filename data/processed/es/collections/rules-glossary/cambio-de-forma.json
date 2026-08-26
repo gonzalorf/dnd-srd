@@ -1,0 +1,20 @@
+{
+ "id": "rule.cambio-de-forma",
+ "name": "Cambio de forma",
+ "text": "Si un efecto, como el rasgo Forma salvaje o el conjuro polimorfar, te permite cambiar de forma, su descripción especifica lo que te ocurre. Salvo que se indique lo contrario, cualquier efecto que te esté afectando (estados, conjuros, maldiciones y similares) se conserva de una forma a otra. Si mueres, recuperas tu forma verdadera.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 197,
+   "md": "Si un efecto, como el rasgo Forma salvaje o el conjuro *polimorfar*, te permite cambiar de forma, su descripción especifica lo que te ocurre. Salvo que se indique lo contrario, cualquier efecto que te esté afectando (estados, conjuros, maldiciones y similares) se conserva de una forma a otra. Si mueres, recuperas tu forma verdadera.",
+   "text": "Si un efecto, como el rasgo Forma salvaje o el conjuro polimorfar, te permite cambiar de forma, su descripción especifica lo que te ocurre. Salvo que se indique lo contrario, cualquier efecto que te esté afectando (estados, conjuros, maldiciones y similares) se conserva de una forma a otra. Si mueres, recuperas tu forma verdadera."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 197
+ },
+ "refs": [
+  "spell.polimorfar"
+ ]
+}

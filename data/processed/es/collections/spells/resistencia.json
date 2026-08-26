@@ -1,0 +1,48 @@
+{
+ "id": "spell.resistencia",
+ "name": "Resistencia",
+ "level": 0,
+ "cantrip": true,
+ "school": "Abjuración",
+ "classes": [
+  "clérigo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Tocas a una criatura voluntaria y eliges un tipo de daño: ácido, contundente, cortante, frío, fuego, necrótico, perforante, radiante, relámpago, trueno o veneno. Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 181,
+   "md": "Tocas a una criatura voluntaria y eliges un tipo de daño: ácido, contundente, cortante, frío, fuego, necrótico, perforante, radiante, relámpago, trueno o veneno. Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.",
+   "text": "Tocas a una criatura voluntaria y eliges un tipo de daño: ácido, contundente, cortante, frío, fuego, necrótico, perforante, radiante, relámpago, trueno o veneno. Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 181
+ }
+}

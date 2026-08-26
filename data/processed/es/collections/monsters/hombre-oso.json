@@ -1,0 +1,122 @@
+{
+ "id": "monster.hombre-oso",
+ "name": "Hombre oso",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 339,
+  "pages": [
+   339,
+   340
+  ]
+ },
+ "context": [
+  "Hombre oso"
+ ],
+ "metaRaw": "Monstruosidad Mediana o Pequeña (licántropo), neutral buena",
+ "type": "Monstruosidad",
+ "alignment": "neutral buena",
+ "size": "Mediano",
+ "tags": [
+  "licántropo"
+ ],
+ "ac": 15,
+ "acRaw": "15",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "135 (18d8 + 54)",
+  "average": 135,
+  "formula": "18d8 + 54"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "trepar": 9.0
+ },
+ "skills": {
+  "Percepción": 7
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 17",
+  "passivePerception": 17
+ },
+ "languages": [
+  "común (no puede hablar en forma de oso)"
+ ],
+ "gear": [
+  "hachas de mano (4)"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El hombre oso realiza dos ataques de desgarro o con sus hachas de mano en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco.",
+   "page": 340,
+   "description": "El hombre oso realiza dos ataques de desgarro o con sus hachas de mano en cualquier combinación. Puede sustituir uno de ellos por un ataque de mordisco."
+  },
+  {
+   "name": "Desgarro (solo en forma de oso o híbrida)",
+   "md": "***Desgarro (solo en forma de oso o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño cortante.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 13 (2d8 + 4) de daño cortante."
+  },
+  {
+   "name": "Hacha de mano (solo en forma humanoide o híbrida)",
+   "md": "***Hacha de mano (solo en forma humanoide o híbrida).*** *Tirada de ataque cuerpo a cuerpo o a distancia:* +7, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 14 (3d6 + 4) de daño cortante.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo o a distancia:* +7, alcance 1,5 m o 6/18 m a distancia. *Acierto:* 14 (3d6 + 4) de daño cortante."
+  },
+  {
+   "name": "Mordisco (solo en forma de oso o híbrida)",
+   "md": "***Mordisco (solo en forma de oso o híbrida).*** *Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 17 (2d12 + 4) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 14. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre oso controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre oso durante 24 horas.",
+   "page": 340,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +7, alcance 1,5 m. *Acierto:* 17 (2d12 + 4) de daño perforante. Si el objetivo es un humanoide, sufre el siguiente efecto. *Tirada de salvación de Constitución:* CD 14. *Fallo:* el objetivo estará maldito. Si los puntos de golpe del objetivo maldito se reducen a 0, en vez de ello, se convertirá en un hombre oso controlado por el GM y tendrá 10 puntos de golpe. *Éxito:* el objetivo será inmune a la maldición de este hombre oso durante 24 horas."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Cambio de forma",
+   "md": "***Cambio de forma.*** El hombre oso adopta la forma de un híbrido de oso-humanoide Grande o de un oso Grande, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará.",
+   "page": 340,
+   "description": "El hombre oso adopta la forma de un híbrido de oso-humanoide Grande o de un oso Grande, o recupera su verdadera forma humanoide. Su perfil, salvo por el tamaño, es el mismo en todas las formas. Cualquier equipo que vista o lleve no se transformará."
+  }
+ ]
+}

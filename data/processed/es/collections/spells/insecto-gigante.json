@@ -1,0 +1,66 @@
+{
+ "id": "spell.insecto-gigante",
+ "name": "Insecto gigante",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Invocas una araña, una avispa o un ciempiés gigante (a tu elección cuando lanzas el conjuro). Se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y utiliza el perfil del insecto gigante. La forma que elijas determina ciertos aspectos de su perfil. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina.\n\nLa criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro.\n\nCon un espacio de conjuro de nivel superior. Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 159,
+   "md": "Invocas una araña, una avispa o un ciempiés gigante (a tu elección cuando lanzas el conjuro). Se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y utiliza el perfil del **insecto gigante**. La forma que elijas determina ciertos aspectos de su perfil. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina.",
+   "text": "Invocas una araña, una avispa o un ciempiés gigante (a tu elección cuando lanzas el conjuro). Se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y utiliza el perfil del insecto gigante. La forma que elijas determina ciertos aspectos de su perfil. La criatura desaparecerá si sus puntos de golpe se reducen a 0 o si el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 159,
+   "md": "La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro.",
+   "text": "La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo después del tuyo, obedece tus órdenes verbales (no requiere acción) y, si no le das ninguna, realiza la acción de esquivar y usa su movimiento para evitar el peligro."
+  },
+  {
+   "type": "definition",
+   "page": 159,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+   "text": "Con un espacio de conjuro de nivel superior. Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil."
+  },
+  {
+   "type": "statblock",
+   "page": 159,
+   "name": "Insecto gigante",
+   "ref": "statblock.insecto-gigante"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 159
+ }
+}

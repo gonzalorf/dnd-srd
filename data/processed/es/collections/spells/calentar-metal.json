@@ -1,0 +1,63 @@
+{
+ "id": "spell.calentar-metal",
+ "name": "Calentar metal",
+ "level": 2,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "bardo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S, M (un trozo de hierro y una llama)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un trozo de hierro y una llama",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Elige un objeto metálico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura metálica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que esté en contacto físico con el objeto recibirá 2d8 de daño de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a causar este daño si el objeto está dentro del alcance.\n\nSi una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de Constitución o dejará caer el objeto si puede. Si no lo deja caer, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el principio de tu siguiente turno.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 126,
+   "md": "Elige un objeto metálico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura metálica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que esté en contacto físico con el objeto recibirá 2d8 de daño de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a causar este daño si el objeto está dentro del alcance.",
+   "text": "Elige un objeto metálico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura metálica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que esté en contacto físico con el objeto recibirá 2d8 de daño de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a causar este daño si el objeto está dentro del alcance."
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "md": "Si una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de Constitución o dejará caer el objeto si puede. Si no lo deja caer, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el principio de tu siguiente turno.",
+   "text": "Si una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de Constitución o dejará caer el objeto si puede. Si no lo deja caer, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el principio de tu siguiente turno."
+  },
+  {
+   "type": "definition",
+   "page": 126,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 126
+ }
+}

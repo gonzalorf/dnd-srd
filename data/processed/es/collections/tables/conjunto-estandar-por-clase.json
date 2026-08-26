@@ -1,0 +1,134 @@
+{
+ "id": "table.conjunto-estandar-por-clase",
+ "caption": "Conjunto estándar por clase",
+ "header": [
+  "Clase",
+  "Fue",
+  "Des",
+  "Con",
+  "Int",
+  "Sab",
+  "Car"
+ ],
+ "rows": [
+  [
+   "Bárbaro",
+   "15",
+   "13",
+   "14",
+   "10",
+   "12",
+   "8"
+  ],
+  [
+   "Bardo",
+   "8",
+   "14",
+   "12",
+   "13",
+   "10",
+   "15"
+  ],
+  [
+   "Brujo",
+   "8",
+   "14",
+   "13",
+   "12",
+   "10",
+   "15"
+  ],
+  [
+   "Clérigo",
+   "14",
+   "8",
+   "13",
+   "10",
+   "15",
+   "12"
+  ],
+  [
+   "Druida",
+   "8",
+   "12",
+   "14",
+   "13",
+   "15",
+   "10"
+  ],
+  [
+   "Explorador",
+   "12",
+   "15",
+   "13",
+   "8",
+   "14",
+   "10"
+  ],
+  [
+   "Guerrero",
+   "15",
+   "14",
+   "13",
+   "8",
+   "10",
+   "12"
+  ],
+  [
+   "Hechicero",
+   "10",
+   "13",
+   "14",
+   "8",
+   "12",
+   "15"
+  ],
+  [
+   "Mago",
+   "8",
+   "12",
+   "13",
+   "15",
+   "14",
+   "10"
+  ],
+  [
+   "Monje",
+   "12",
+   "15",
+   "13",
+   "10",
+   "14",
+   "8"
+  ],
+  [
+   "Paladín",
+   "15",
+   "10",
+   "13",
+   "8",
+   "12",
+   "14"
+  ],
+  [
+   "Pícaro",
+   "12",
+   "15",
+   "13",
+   "14",
+   "10",
+   "8"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Creación de personajes",
+  "Crear tu personaje",
+  "Paso 3: puntuaciones de característica",
+  "Asigna las puntuaciones de característica"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 23
+ }
+}

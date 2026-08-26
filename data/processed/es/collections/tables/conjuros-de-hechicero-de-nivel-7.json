@@ -1,0 +1,61 @@
+{
+ "id": "table.conjuros-de-hechicero-de-nivel-7",
+ "caption": "Conjuros de hechicero de nivel 7",
+ "header": [
+  "Conjuro",
+  "Escuela",
+  "Especial"
+ ],
+ "rows": [
+  [
+   "Bola de fuego de explosión retardada",
+   "Evocación",
+   "C"
+  ],
+  [
+   "Dedo de la muerte",
+   "Nigromancia",
+   "—"
+  ],
+  [
+   "Desplazamiento entre planos",
+   "Conjuración",
+   "M"
+  ],
+  [
+   "Excursión etérea",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Invertir la gravedad",
+   "Transmutación",
+   "C"
+  ],
+  [
+   "Rociada prismática",
+   "Evocación",
+   "—"
+  ],
+  [
+   "Teletransporte",
+   "Conjuración",
+   "—"
+  ],
+  [
+   "Tormenta de fuego",
+   "Evocación",
+   "—"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Hechicero",
+  "Lista de conjuros de hechicero"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 69
+ }
+}

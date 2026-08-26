@@ -1,0 +1,22 @@
+{
+ "id": "vehicle.navio-de-guerra",
+ "name": "Navío de guerra",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Navío de guerra",
+  "Velocidad": "4 km/h",
+  "Tripulación": "60",
+  "Pasajeros": "60",
+  "Cargamento (toneladas)": "200",
+  "CA": "15",
+  "PG": "500",
+  "Umbral de daño": "20",
+  "Precio": "25 000 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "spell.simulacro",
+ "name": "Simulacro",
+ "level": 7,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "12 horas",
+  "ritual": false,
+  "kind": "time",
+  "value": 12,
+  "unit": "hora"
+ },
+ "range": {
+  "raw": "Toque",
+  "kind": "touch"
+ },
+ "components": {
+  "raw": "V, S, M (rubí en polvo que valga al menos 1500 po, que se consume como parte del conjuro)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "rubí en polvo que valga al menos 1500 po, que se consume como parte del conjuro",
+  "consumed": true
+ },
+ "duration": {
+  "raw": "Hasta que sea disipado",
+  "concentration": false,
+  "kind": "until-dispelled"
+ },
+ "text": "Creas un simulacro de una bestia o humanoide que permanezca a 3 m o menos de ti durante todo el tiempo de lanzamiento del conjuro. Para finalizar el lanzamiento, tocas a la criatura y una pila de hielo o nieve de su mismo tamaño, de modo que la pila se transformará en un simulacro y será una criatura. El simulacro tendrá el perfil de la criatura original en el momento del lanzamiento, excepto que es un autómata, tiene la mitad de puntos de golpe máximos y no puede lanzar este conjuro.\n\nEl simulacro es amistoso contigo y con las criaturas que designes, obedece tus órdenes y actúa en tu turno en combate. Además, no puede subir de nivel ni hacer descansos cortos o largos.\n\nSi el simulacro sufre daño, la única forma de restaurar sus puntos de golpe es repararlo cuando hagas un descanso largo. En ese momento, puedes gastar componentes con un valor de 100 po por cada punto de golpe recuperado. Para repararlo, el simulacro debe permanecer a 1,5 m o menos de ti.\n\nEl simulacro dura hasta que sus puntos de golpe se reducen a 0, momento en el que vuelve a convertirse en nieve o hielo y se derrite. Si vuelves a lanzar este conjuro, cualquier simulacro que hayas creado antes con él se destruye al instante.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "Creas un simulacro de una bestia o humanoide que permanezca a 3 m o menos de ti durante todo el tiempo de lanzamiento del conjuro. Para finalizar el lanzamiento, tocas a la criatura y una pila de hielo o nieve de su mismo tamaño, de modo que la pila se transformará en un simulacro y será una criatura. El simulacro tendrá el perfil de la criatura original en el momento del lanzamiento, excepto que es un autómata, tiene la mitad de puntos de golpe máximos y no puede lanzar este conjuro.",
+   "text": "Creas un simulacro de una bestia o humanoide que permanezca a 3 m o menos de ti durante todo el tiempo de lanzamiento del conjuro. Para finalizar el lanzamiento, tocas a la criatura y una pila de hielo o nieve de su mismo tamaño, de modo que la pila se transformará en un simulacro y será una criatura. El simulacro tendrá el perfil de la criatura original en el momento del lanzamiento, excepto que es un autómata, tiene la mitad de puntos de golpe máximos y no puede lanzar este conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "El simulacro es amistoso contigo y con las criaturas que designes, obedece tus órdenes y actúa en tu turno en combate. Además, no puede subir de nivel ni hacer descansos cortos o largos.",
+   "text": "El simulacro es amistoso contigo y con las criaturas que designes, obedece tus órdenes y actúa en tu turno en combate. Además, no puede subir de nivel ni hacer descansos cortos o largos."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "Si el simulacro sufre daño, la única forma de restaurar sus puntos de golpe es repararlo cuando hagas un descanso largo. En ese momento, puedes gastar componentes con un valor de 100 po por cada punto de golpe recuperado. Para repararlo, el simulacro debe permanecer a 1,5 m o menos de ti.",
+   "text": "Si el simulacro sufre daño, la única forma de restaurar sus puntos de golpe es repararlo cuando hagas un descanso largo. En ese momento, puedes gastar componentes con un valor de 100 po por cada punto de golpe recuperado. Para repararlo, el simulacro debe permanecer a 1,5 m o menos de ti."
+  },
+  {
+   "type": "paragraph",
+   "page": 185,
+   "md": "El simulacro dura hasta que sus puntos de golpe se reducen a 0, momento en el que vuelve a convertirse en nieve o hielo y se derrite. Si vuelves a lanzar este conjuro, cualquier simulacro que hayas creado antes con él se destruye al instante.",
+   "text": "El simulacro dura hasta que sus puntos de golpe se reducen a 0, momento en el que vuelve a convertirse en nieve o hielo y se derrite. Si vuelves a lanzar este conjuro, cualquier simulacro que hayas creado antes con él se destruye al instante."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 185
+ }
+}

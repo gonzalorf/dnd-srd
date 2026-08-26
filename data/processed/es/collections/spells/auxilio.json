@@ -1,0 +1,60 @@
+{
+ "id": "spell.auxilio",
+ "name": "Auxilio",
+ "level": 2,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "bardo",
+  "clérigo",
+  "druida",
+  "explorador",
+  "paladín"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una tira de tela blanca)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una tira de tela blanca",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Elige hasta tres criaturas dentro del alcance. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 hasta que termine el conjuro.\n\nCon un espacio de conjuro de nivel superior. Los puntos de golpe de cada objetivo aumentan en 5 adicionales por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 124,
+   "md": "Elige hasta tres criaturas dentro del alcance. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 hasta que termine el conjuro.",
+   "text": "Elige hasta tres criaturas dentro del alcance. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 hasta que termine el conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 124,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Los puntos de golpe de cada objetivo aumentan en 5 adicionales por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. Los puntos de golpe de cada objetivo aumentan en 5 adicionales por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 124
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "id": "sidebar.inspiracion-heroica",
+ "title": "Inspiración heroica",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "md": "A veces, tu GM o una regla te conceden inspiración heroica. Si tienes inspiración heroica, puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado.",
+   "text": "A veces, tu GM o una regla te conceden inspiración heroica. Si tienes inspiración heroica, puedes gastarla para volver a tirar cualquier dado inmediatamente después de lanzarlo; si lo haces, deberás utilizar el nuevo resultado."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Solo una cada vez.** Nunca puedes tener más de una inspiración heroica a la vez. Si algo te proporciona inspiración heroica y ya dispones de ella, puedes cedérsela a otro personaje jugador que no la tenga.",
+   "text": "Solo una cada vez. Nunca puedes tener más de una inspiración heroica a la vez. Si algo te proporciona inspiración heroica y ya dispones de ella, puedes cedérsela a otro personaje jugador que no la tenga."
+  },
+  {
+   "type": "paragraph",
+   "md": "**Obtener inspiración heroica.** Tu GM puede concederte inspiración heroica por diversos motivos. Por lo general, te recompensará con ella cuando hagas algo especialmente heroico, entretenido o propio de tu personaje. Se trata de una recompensa por hacer que la partida sea más divertida para todos los jugadores. Otras reglas podrían permitir que tu personaje obtenga inspiración heroica al margen de la decisión de tu GM. Por ejemplo, los personajes humanos comienzan cada día con inspiración heroica.",
+   "text": "Obtener inspiración heroica. Tu GM puede concederte inspiración heroica por diversos motivos. Por lo general, te recompensará con ella cuando hagas algo especialmente heroico, entretenido o propio de tu personaje. Se trata de una recompensa por hacer que la partida sea más divertida para todos los jugadores. Otras reglas podrían permitir que tu personaje obtenga inspiración heroica al margen de la decisión de tu GM. Por ejemplo, los personajes humanos comienzan cada día con inspiración heroica."
+  }
+ ],
+ "context": [
+  "Cómo jugar",
+  "Las pruebas con d20",
+  "Tiradas de ataque",
+  "Bonificador por competencia"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 8
+ }
+}

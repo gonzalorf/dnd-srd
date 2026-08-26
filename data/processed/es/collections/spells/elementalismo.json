@@ -1,0 +1,84 @@
+{
+ "id": "spell.elementalismo",
+ "name": "Elementalismo",
+ "level": 0,
+ "cantrip": true,
+ "school": "Transmutación",
+ "classes": [
+  "druida",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:\n\nEsculpir los elementos. Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora.\n\nInvocar el agua. Creas un rocío de fría niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente\n\nabierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto.\n\nInvocar el aire. Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.\n\nInvocar el fuego. Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. Tú eliges el color y el olor, y las ascuas pueden encender velas, antorchas o lámparas dentro de la zona. El aroma del humo permanece durante 1 minuto.\n\nInvocar la tierra. Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:",
+   "text": "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:"
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Esculpir los elementos.*** Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora.",
+   "text": "Esculpir los elementos. Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora."
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Invocar el agua.*** Creas un rocío de fría niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente",
+   "text": "Invocar el agua. Creas un rocío de fría niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente"
+  },
+  {
+   "type": "paragraph",
+   "page": 144,
+   "md": "abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto.",
+   "text": "abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Invocar el aire.*** Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.",
+   "text": "Invocar el aire. Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas."
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Invocar el fuego.*** Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. Tú eliges el color y el olor, y las ascuas pueden encender velas, antorchas o lámparas dentro de la zona. El aroma del humo permanece durante 1 minuto.",
+   "text": "Invocar el fuego. Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. Tú eliges el color y el olor, y las ascuas pueden encender velas, antorchas o lámparas dentro de la zona. El aroma del humo permanece durante 1 minuto."
+  },
+  {
+   "type": "definition",
+   "page": 144,
+   "md": "***Invocar la tierra.*** Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.",
+   "text": "Invocar la tierra. Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 144
+ }
+}

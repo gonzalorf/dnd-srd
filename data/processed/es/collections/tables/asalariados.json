@@ -1,0 +1,31 @@
+{
+ "id": "table.asalariados",
+ "caption": "Asalariados",
+ "header": [
+  "Servicio",
+  "Remuneración"
+ ],
+ "rows": [
+  [
+   "Asalariado cualificado",
+   "2 po al día"
+  ],
+  [
+   "Asalariado no cualificado",
+   "2 pp al día"
+  ],
+  [
+   "Mensajero",
+   "1 o 2 pc por kilómetro"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Asalariados"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 111
+ }
+}

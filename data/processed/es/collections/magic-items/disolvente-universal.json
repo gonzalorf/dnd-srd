@@ -1,0 +1,32 @@
+{
+ "id": "item.disolvente-universal",
+ "name": "Disolvente universal",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "legendario",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, legendario",
+ "text": "Este tubo contiene un líquido lechoso con un fuerte olor a alcohol. En el momento de encontrar el tubo, contendrá 30 g + 1d6 × 30 g.\n\nPuedes emplear una acción de utilizar para verter 30 g o más de disolvente en una superficie dentro del alcance. Con cada 30 g se disolverán de manera instantánea hasta 0,1 m2 de adhesivo que toque, incluido el pegamento soberano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Este tubo contiene un líquido lechoso con un fuerte olor a alcohol. En el momento de encontrar el tubo, contendrá 30 g + 1d6 × 30 g.",
+   "text": "Este tubo contiene un líquido lechoso con un fuerte olor a alcohol. En el momento de encontrar el tubo, contendrá 30 g + 1d6 × 30 g."
+  },
+  {
+   "type": "paragraph",
+   "page": 252,
+   "md": "Puedes emplear una acción de utilizar para verter 30 g o más de disolvente en una superficie dentro del alcance. Con cada 30 g se disolverán de manera instantánea hasta 0,1 m2 de adhesivo que toque, incluido el *pegamento soberano*.",
+   "text": "Puedes emplear una acción de utilizar para verter 30 g o más de disolvente en una superficie dentro del alcance. Con cada 30 g se disolverán de manera instantánea hasta 0,1 m2 de adhesivo que toque, incluido el pegamento soberano."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 252
+ },
+ "refs": [
+  "item.pegamento-soberano"
+ ]
+}

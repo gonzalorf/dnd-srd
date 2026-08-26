@@ -1,0 +1,53 @@
+{
+ "id": "table.p222",
+ "caption": null,
+ "header": [
+  "Nivel del grupo",
+  "——— Dificultad del encuentro ——— BajaModeradaAlta"
+ ],
+ "rows": [
+  [
+   "13",
+   "260042005400"
+  ],
+  [
+   "14",
+   "290049006200"
+  ],
+  [
+   "15",
+   "330054007800"
+  ],
+  [
+   "16",
+   "380061009800"
+  ],
+  [
+   "17",
+   "4500720011 700"
+  ],
+  [
+   "18",
+   "5000870014 200"
+  ],
+  [
+   "19",
+   "550010 70017 200"
+  ],
+  [
+   "20",
+   "640013 20022 000"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Herramientas del juego",
+  "Encuentros de combate",
+  "Dificultad de los encuentros de combate",
+  "Paso 2: definir tu presupuesto de PX"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 222
+ }
+}

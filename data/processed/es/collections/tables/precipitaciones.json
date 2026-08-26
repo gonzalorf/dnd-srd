@@ -1,0 +1,40 @@
+{
+ "id": "table.precipitaciones",
+ "caption": "Precipitaciones",
+ "header": [
+  "Nivel",
+  "Estado"
+ ],
+ "rows": [
+  [
+   "1",
+   "Despejado"
+  ],
+  [
+   "2",
+   "Nubes escasas"
+  ],
+  [
+   "3",
+   "Cielo cubierto o niebla de superficie"
+  ],
+  [
+   "4",
+   "Lluvia, granizo o nieve"
+  ],
+  [
+   "5",
+   "Lluvia torrencial, tormenta de granizo o ventisca"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Conjuros",
+  "Descripciones de conjuros",
+  "Controlar el clima"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 135
+ }
+}

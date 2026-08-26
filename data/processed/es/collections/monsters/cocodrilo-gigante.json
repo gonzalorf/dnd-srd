@@ -1,0 +1,110 @@
+{
+ "id": "monster.cocodrilo-gigante",
+ "name": "Cocodrilo gigante",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 382,
+  "pages": [
+   382,
+   383
+  ]
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Enorme, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Enorme",
+ "ac": 14,
+ "acRaw": "14",
+ "initiative": {
+  "mod": -1,
+  "score": 9
+ },
+ "hp": {
+  "raw": "85 (9d12 + 27)",
+  "average": 85,
+  "formula": "9d12 + 27"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 15.0
+ },
+ "skills": {
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "traits": [
+  {
+   "name": "Aguantar la respiración",
+   "md": "***Aguantar la respiración.*** El cocodrilo puede aguantar la respiración durante 1 hora.",
+   "page": 383,
+   "description": "El cocodrilo puede aguantar la respiración durante 1 hora."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El cocodrilo realiza un ataque de mordisco y uno con su cola.",
+   "page": 383,
+   "description": "El cocodrilo realiza un ataque de mordisco y uno con su cola."
+  },
+  {
+   "name": "Cola",
+   "md": "***Cola.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 18 (3d8 + 5) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.",
+   "page": 383,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 18 (3d8 + 5) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Mordisco",
+   "md": "***Mordisco.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 21 (3d10 + 5) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 15 para escapar). Mientras esté agarrada, tendrá el estado de apresada y no podrá ser objetivo de la cola del cocodrilo.",
+   "page": 383,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 1,5 m. *Acierto:* 21 (3d10 + 5) de daño perforante. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de agarrada (CD 15 para escapar). Mientras esté agarrada, tendrá el estado de apresada y no podrá ser objetivo de la cola del cocodrilo."
+  }
+ ]
+}

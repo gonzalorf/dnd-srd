@@ -1,0 +1,55 @@
+{
+ "id": "spell.fuego-feerico",
+ "name": "Fuego feérico",
+ "level": 1,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "bardo",
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "El conjuro ilumina con luz azul, verde o violeta, a tu elección, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. También se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvación de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitirán luz tenue en un radio de 3 m y no podrán beneficiarse del estado de invisibles.\n\nLas tiradas de ataque contra las criaturas u objetos afectados tendrán ventaja si el atacante puede verlos.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "El conjuro ilumina con luz azul, verde o violeta, a tu elección, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. También se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvación de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitirán luz tenue en un radio de 3 m y no podrán beneficiarse del estado de invisibles.",
+   "text": "El conjuro ilumina con luz azul, verde o violeta, a tu elección, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. También se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvación de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitirán luz tenue en un radio de 3 m y no podrán beneficiarse del estado de invisibles."
+  },
+  {
+   "type": "paragraph",
+   "page": 151,
+   "md": "Las tiradas de ataque contra las criaturas u objetos afectados tendrán ventaja si el atacante puede verlos.",
+   "text": "Las tiradas de ataque contra las criaturas u objetos afectados tendrán ventaja si el atacante puede verlos."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 151
+ }
+}

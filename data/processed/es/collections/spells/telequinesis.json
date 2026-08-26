@@ -1,0 +1,61 @@
+{
+ "id": "spell.telequinesis",
+ "name": "Telequinesis",
+ "level": 5,
+ "cantrip": false,
+ "school": "Transmutación",
+ "classes": [
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acción de magia en tus siguientes hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejará de estar afectado por el conjuro.\n\nCriatura. Puedes intentar mover a una criatura Enorme o más pequeña. El objetivo deberá superar una tirada de salvación de Fuerza o lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendrá el estado de apresada y, si la elevas en el aire, quedará suspendida. Caerá al final de tu siguiente turno a menos que vuelvas a usar esta opción y falle la tirada de salvación.\n\nObjeto. Puedes intentar mover un objeto Enorme o más pequeño. Si el objeto no lo lleva ni viste nadie, lo mueves automáticamente hasta 9 m en cualquier dirección dentro del alcance del conjuro. Si una criatura lleva o viste el objeto, deberá superar una tirada de salvación de Fuerza o tirarás del objeto y lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Puedes ejercer un control más preciso de los objetos con tu agarre telequinético, como manipular una herramienta sencilla.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 187,
+   "md": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acción de magia en tus siguientes hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejará de estar afectado por el conjuro.",
+   "text": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acción de magia en tus siguientes hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejará de estar afectado por el conjuro."
+  },
+  {
+   "type": "definition",
+   "page": 187,
+   "md": "***Criatura.*** Puedes intentar mover a una criatura Enorme o más pequeña. El objetivo deberá superar una tirada de salvación de Fuerza o lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendrá el estado de apresada y, si la elevas en el aire, quedará suspendida. Caerá al final de tu siguiente turno a menos que vuelvas a usar esta opción y falle la tirada de salvación.",
+   "text": "Criatura. Puedes intentar mover a una criatura Enorme o más pequeña. El objetivo deberá superar una tirada de salvación de Fuerza o lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendrá el estado de apresada y, si la elevas en el aire, quedará suspendida. Caerá al final de tu siguiente turno a menos que vuelvas a usar esta opción y falle la tirada de salvación."
+  },
+  {
+   "type": "definition",
+   "page": 187,
+   "md": "***Objeto.*** Puedes intentar mover un objeto Enorme o más pequeño. Si el objeto no lo lleva ni viste nadie, lo mueves automáticamente hasta 9 m en cualquier dirección dentro del alcance del conjuro. Si una criatura lleva o viste el objeto, deberá superar una tirada de salvación de Fuerza o tirarás del objeto y lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Puedes ejercer un control más preciso de los objetos con tu agarre telequinético, como manipular una herramienta sencilla.",
+   "text": "Objeto. Puedes intentar mover un objeto Enorme o más pequeño. Si el objeto no lo lleva ni viste nadie, lo mueves automáticamente hasta 9 m en cualquier dirección dentro del alcance del conjuro. Si una criatura lleva o viste el objeto, deberá superar una tirada de salvación de Fuerza o tirarás del objeto y lo moverás hasta 9 m en cualquier dirección dentro del alcance del conjuro. Puedes ejercer un control más preciso de los objetos con tu agarre telequinético, como manipular una herramienta sencilla."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 187
+ }
+}

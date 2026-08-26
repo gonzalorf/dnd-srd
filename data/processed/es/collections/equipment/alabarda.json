@@ -1,0 +1,29 @@
+{
+ "id": "weapon.alabarda",
+ "name": "Alabarda",
+ "kind": "weapon",
+ "group": "Armas cuerpo a cuerpo marciales",
+ "table": "Armas",
+ "fields": {
+  "Nombre": "Alabarda",
+  "Daño": "1d10 cortante",
+  "Propiedades": "A dos manos, gran alcance, pesada",
+  "Maestría": "Hender",
+  "Peso": "3 kg",
+  "Precio": "20 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 99
+ },
+ "weight": {
+  "raw": "3 kg",
+  "kg": 3.0
+ },
+ "price": {
+  "raw": "20 po",
+  "amount": 20.0,
+  "coin": "po",
+  "gp": 20.0
+ }
+}

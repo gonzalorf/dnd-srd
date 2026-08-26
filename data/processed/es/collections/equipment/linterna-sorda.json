@@ -1,0 +1,36 @@
+{
+ "id": "gear.linterna-sorda",
+ "name": "Linterna sorda",
+ "kind": "gear",
+ "group": null,
+ "table": "Equipo de aventureros",
+ "fields": {
+  "Objeto": "Linterna sorda",
+  "Peso": "1 kg",
+  "Precio": "5 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 103
+ },
+ "weight": {
+  "raw": "1 kg",
+  "kg": 1.0
+ },
+ "price": {
+  "raw": "5 po",
+  "amount": 5.0,
+  "coin": "po",
+  "gp": 5.0
+ },
+ "text": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 106,
+   "md": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo.",
+   "text": "Una linterna sorda quema aceite como combustible para emitir luz brillante en un radio de 9 m y luz tenue 9 m más allá. Como acción adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 1,5 m, o abrirla de nuevo."
+  }
+ ],
+ "descriptionPage": 106
+}

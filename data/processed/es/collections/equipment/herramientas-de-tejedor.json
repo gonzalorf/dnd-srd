@@ -1,0 +1,37 @@
+{
+ "id": "tool.herramientas-de-tejedor",
+ "name": "Herramientas de tejedor",
+ "kind": "tool",
+ "group": "Herramientas de artesano",
+ "text": "Característica: Destreza Peso: 2,5 kg\n\nUtilizar: remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)\n\nFabricar: armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Destreza **Peso:** 2,5 kg",
+   "text": "Característica: Destreza Peso: 2,5 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)",
+   "text": "Utilizar: remendar un roto en una prenda (CD 10) o coser un diseño Diminuto (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica",
+   "text": "Fabricar: armadura acolchada, cesta, cordel, cuerda, manta, petate, red, ropas de calidad, ropas de viaje, saco, tienda, túnica"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "1 po",
+  "amount": 1.0,
+  "coin": "po",
+  "gp": 1.0
+ }
+}

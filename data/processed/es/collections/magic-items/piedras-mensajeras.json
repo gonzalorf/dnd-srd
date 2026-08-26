@@ -1,0 +1,32 @@
+{
+ "id": "item.piedras-mensajeras",
+ "name": "Piedras mensajeras",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Las piedras mensajeras vienen de dos en dos y cada una de ellas está tallada de forma que su pareja sea fácilmente identificable. Mientras tocas una piedra, puedes lanzar recado desde ella. El objetivo es el portador de la otra piedra. Si no hay nadie portándola, lo sabrás en cuanto emplees la tuya y no llegarás a lanzar el conjuro.\n\nEn cuanto se lance recado desde una de las dos piedras, no podrán volver a usarse hasta el siguiente amanecer. Si se destruye una de las piedras de la pareja, la otra deja de ser mágica.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "Las *piedras mensajeras* vienen de dos en dos y cada una de ellas está tallada de forma que su pareja sea fácilmente identificable. Mientras tocas una piedra, puedes lanzar *recado* desde ella. El objetivo es el portador de la otra piedra. Si no hay nadie portándola, lo sabrás en cuanto emplees la tuya y no llegarás a lanzar el conjuro.",
+   "text": "Las piedras mensajeras vienen de dos en dos y cada una de ellas está tallada de forma que su pareja sea fácilmente identificable. Mientras tocas una piedra, puedes lanzar recado desde ella. El objetivo es el portador de la otra piedra. Si no hay nadie portándola, lo sabrás en cuanto emplees la tuya y no llegarás a lanzar el conjuro."
+  },
+  {
+   "type": "paragraph",
+   "page": 266,
+   "md": "En cuanto se lance *recado* desde una de las dos piedras, no podrán volver a usarse hasta el siguiente amanecer. Si se destruye una de las piedras de la pareja, la otra deja de ser mágica.",
+   "text": "En cuanto se lance recado desde una de las dos piedras, no podrán volver a usarse hasta el siguiente amanecer. Si se destruye una de las piedras de la pareja, la otra deja de ser mágica."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 266
+ },
+ "refs": [
+  "spell.recado"
+ ]
+}

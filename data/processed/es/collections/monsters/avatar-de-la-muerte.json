@@ -1,0 +1,103 @@
+{
+ "id": "monster.avatar-de-la-muerte",
+ "name": "Avatar de la muerte",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 238
+ },
+ "context": [
+  "Baraja misteriosa"
+ ],
+ "metaRaw": "Muerto viviente Mediano, neutral malvado",
+ "type": "Muerto viviente",
+ "alignment": "neutral malvado",
+ "size": "Mediano",
+ "ac": 20,
+ "acRaw": "20",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "la mitad de los pg máximos de su invocador"
+ },
+ "speeds": {
+  "caminando": 18.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "visión verdadera 18 m, Percepción pasiva 13",
+  "passivePerception": 13
+ },
+ "languages": [
+  "todos los que conozca su invocador"
+ ],
+ "immunities": [
+  "necrótico",
+  "veneno",
+  "asustado",
+  "cansancio",
+  "envenenado",
+  "hechizado",
+  "inconsciente",
+  "paralizado",
+  "petrificado"
+ ],
+ "challenge": {
+  "raw": "ninguno (0 PX; BC igual al de su invocador)"
+ },
+ "abilities": {
+  "fue": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "sab": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Movimiento incorpóreo",
+   "md": "***Movimiento incorpóreo.*** El avatar puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto.",
+   "page": 238,
+   "description": "El avatar puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. Recibe 5 (1d10) de daño de fuerza si acaba su turno dentro de un objeto."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El avatar realiza una cantidad de ataques con su guadaña segadora igual a la mitad del bonificador por competencia de su invocador (redondeando hacia arriba).",
+   "page": 238,
+   "description": "El avatar realiza una cantidad de ataques con su guadaña segadora igual a la mitad del bonificador por competencia de su invocador (redondeando hacia arriba)."
+  },
+  {
+   "name": "Guadaña segadora",
+   "md": "***Guadaña segadora.*** *Tirada de ataque cuerpo a cuerpo:* acierto automático, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante más 4 (1d8) de daño necrótico.",
+   "page": 238,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* acierto automático, alcance 1,5 m. *Acierto:* 7 (1d8 + 3) de daño cortante más 4 (1d8) de daño necrótico."
+  }
+ ]
+}

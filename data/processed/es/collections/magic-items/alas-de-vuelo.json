@@ -1,0 +1,23 @@
+{
+ "id": "item.alas-de-vuelo",
+ "name": "Alas de vuelo",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, raro (requiere sintonización)",
+ "text": "Mientras lleves puesta esta capa, puedes emplear una acción de magia para convertirla en un par de alas que se colocan en tu espalda. Las alas durarán 1 hora o hasta que pongas fin al efecto antes de tiempo como acción de magia. Las alas te otorgan una velocidad volando de 18 m. Si estás en el aire cuando desaparezcan las alas, caerás. Cuando desaparezcan, no podrás usarlas de nuevo durante 1d12 horas.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 229,
+   "md": "Mientras lleves puesta esta capa, puedes emplear una acción de magia para convertirla en un par de alas que se colocan en tu espalda. Las alas durarán 1 hora o hasta que pongas fin al efecto antes de tiempo como acción de magia. Las alas te otorgan una velocidad volando de 18 m. Si estás en el aire cuando desaparezcan las alas, caerás. Cuando desaparezcan, no podrás usarlas de nuevo durante 1d12 horas.",
+   "text": "Mientras lleves puesta esta capa, puedes emplear una acción de magia para convertirla en un par de alas que se colocan en tu espalda. Las alas durarán 1 hora o hasta que pongas fin al efecto antes de tiempo como acción de magia. Las alas te otorgan una velocidad volando de 18 m. Si estás en el aire cuando desaparezcan las alas, caerás. Cuando desaparezcan, no podrás usarlas de nuevo durante 1d12 horas."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 229
+ }
+}

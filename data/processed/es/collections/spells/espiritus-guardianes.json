@@ -1,0 +1,61 @@
+{
+ "id": "spell.espiritus-guardianes",
+ "name": "Espíritus guardianes",
+ "level": 3,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S, M (un pergamino de plegarias)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "un pergamino de plegarias",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 10 minutos",
+  "concentration": true,
+  "kind": "timed",
+  "value": 10,
+  "unit": "minuto"
+ },
+ "text": "Unos espíritus protectores revolotean a tu alrededor en una emanación de 4,5 m hasta que el conjuro termine. Si tu alineamiento es bueno o neutral, su forma espectral parece angelical o feérica (a tu elección). Si es malvado, su forma es infernal.\n\nCuando lanzas este conjuro, puedes elegir criaturas para que no les afecte. La velocidad de las demás criaturas se reducirá a la mitad en la emanación. Cuando esta entre en el espacio de una criatura o cuando una criatura entre en la emanación o termine su turno en ella, la criatura deberá hacer una tirada de salvación de Sabiduría. Si la falla, recibirá 3d8 de daño radiante (si tu alineamiento es bueno o neutral) o 3d8 de daño necrótico (si tu alineamiento es malvado). Si la supera, recibirá la mitad de daño. Una criatura solo hace esta tirada una vez por turno.\n\nCon un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Unos espíritus protectores revolotean a tu alrededor en una emanación de 4,5 m hasta que el conjuro termine. Si tu alineamiento es bueno o neutral, su forma espectral parece angelical o feérica (a tu elección). Si es malvado, su forma es infernal.",
+   "text": "Unos espíritus protectores revolotean a tu alrededor en una emanación de 4,5 m hasta que el conjuro termine. Si tu alineamiento es bueno o neutral, su forma espectral parece angelical o feérica (a tu elección). Si es malvado, su forma es infernal."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Cuando lanzas este conjuro, puedes elegir criaturas para que no les afecte. La velocidad de las demás criaturas se reducirá a la mitad en la emanación. Cuando esta entre en el espacio de una criatura o cuando una criatura entre en la emanación o termine su turno en ella, la criatura deberá hacer una tirada de salvación de Sabiduría. Si la falla, recibirá 3d8 de daño radiante (si tu alineamiento es bueno o neutral) o 3d8 de daño necrótico (si tu alineamiento es malvado). Si la supera, recibirá la mitad de daño. Una criatura solo hace esta tirada una vez por turno.",
+   "text": "Cuando lanzas este conjuro, puedes elegir criaturas para que no les afecte. La velocidad de las demás criaturas se reducirá a la mitad en la emanación. Cuando esta entre en el espacio de una criatura o cuando una criatura entre en la emanación o termine su turno en ella, la criatura deberá hacer una tirada de salvación de Sabiduría. Si la falla, recibirá 3d8 de daño radiante (si tu alineamiento es bueno o neutral) o 3d8 de daño necrótico (si tu alineamiento es malvado). Si la supera, recibirá la mitad de daño. Una criatura solo hace esta tirada una vez por turno."
+  },
+  {
+   "type": "definition",
+   "page": 149,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 149
+ }
+}

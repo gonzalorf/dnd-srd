@@ -1,0 +1,97 @@
+{
+ "id": "monster.gigante-de-las-colinas",
+ "name": "Gigante de las colinas",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 328
+ },
+ "context": [
+  "Gigante de las colinas"
+ ],
+ "metaRaw": "Gigante Enorme, caótico malvado",
+ "type": "Gigante",
+ "alignment": "caótico malvado",
+ "size": "Enorme",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 2,
+  "score": 12
+ },
+ "hp": {
+  "raw": "105 (10d12 + 40)",
+  "average": 105,
+  "formula": "10d12 + 40"
+ },
+ "speeds": {
+  "caminando": 12.0
+ },
+ "skills": {
+  "Percepción": 2
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "gigante"
+ ],
+ "challenge": {
+  "raw": "5 (1800 PX; BC +3)",
+  "cr": 5,
+  "xp": 1800,
+  "proficiencyBonus": 3
+ },
+ "abilities": {
+  "fue": {
+   "score": 21,
+   "mod": 5,
+   "save": 5
+  },
+  "des": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "con": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "int": {
+   "score": 5,
+   "mod": -3,
+   "save": -3
+  },
+  "sab": {
+   "score": 9,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El gigante hace dos ataques con su árbol garrote o su lanzamiento de basura en cualquier combinación.",
+   "page": 328,
+   "description": "El gigante hace dos ataques con su árbol garrote o su lanzamiento de basura en cualquier combinación."
+  },
+  {
+   "name": "Árbol garrote",
+   "md": "***Árbol garrote.*** *Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 18 (3d8 + 5) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada.",
+   "page": 328,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +8, alcance 3 m. *Acierto:* 18 (3d8 + 5) de daño contundente. Si el objetivo es una criatura Grande o más pequeña, tendrá el estado de derribada."
+  },
+  {
+   "name": "Lanzamiento de basura",
+   "md": "***Lanzamiento de basura.*** *Tirada de ataque a distancia:* +8, alcance 18/72 m. *Acierto:* 16 (2d10 + 5) de daño contundente y el objetivo tendrá el estado de envenenado hasta el final de su siguiente turno.",
+   "page": 328,
+   "description": "*Tirada de ataque a distancia:* +8, alcance 18/72 m. *Acierto:* 16 (2d10 + 5) de daño contundente y el objetivo tendrá el estado de envenenado hasta el final de su siguiente turno."
+  }
+ ]
+}

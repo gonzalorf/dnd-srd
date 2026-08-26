@@ -1,0 +1,75 @@
+{
+ "id": "spell.excursion-eterea",
+ "name": "Excursión etérea",
+ "level": 7,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "brujo",
+  "clérigo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Hasta 8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Entras en las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en la Frontera Etérea hasta que termine el conjuro. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada metro de movimiento te cuesta 1 m adicional. Puedes percibir el plano del que vienes, que se mostrará gris, y no puedes ver más allá de 18 m.\n\nMientras estés en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que haya en dicho plano. Las criaturas que no estén en él no podrán percibirte o interactuar contigo a menos que un rasgo les otorgue la capacidad de hacerlo.\n\nCuando el conjuro termine, reaparecerás en el plano del que viniste en el mismo sitio que se corresponde con tu espacio en la Frontera Etérea. Si apareces en un espacio ocupado, te desplazarás al espacio sin ocupar más cercano y recibirás 2 de daño de fuerza por cada 30 cm que te hayas movido.\n\nEste conjuro termina al instante si lo lanzas mientras estás en el Plano Etéreo o en un plano que no tenga frontera con él, como alguno de los Planos Exteriores.\n\nCon un espacio de conjuro de nivel superior. Puedes hacer objetivo a hasta tres criaturas voluntarias (incluyéndote a ti) por cada nivel por encima de 7 que tenga el espacio. Estas criaturas deben estar a 3 m o menos de ti cuando lances el conjuro.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Entras en las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en la Frontera Etérea hasta que termine el conjuro. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada metro de movimiento te cuesta 1 m adicional. Puedes percibir el plano del que vienes, que se mostrará gris, y no puedes ver más allá de 18 m.",
+   "text": "Entras en las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en la Frontera Etérea hasta que termine el conjuro. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada metro de movimiento te cuesta 1 m adicional. Puedes percibir el plano del que vienes, que se mostrará gris, y no puedes ver más allá de 18 m."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Mientras estés en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que haya en dicho plano. Las criaturas que no estén en él no podrán percibirte o interactuar contigo a menos que un rasgo les otorgue la capacidad de hacerlo.",
+   "text": "Mientras estés en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que haya en dicho plano. Las criaturas que no estén en él no podrán percibirte o interactuar contigo a menos que un rasgo les otorgue la capacidad de hacerlo."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Cuando el conjuro termine, reaparecerás en el plano del que viniste en el mismo sitio que se corresponde con tu espacio en la Frontera Etérea. Si apareces en un espacio ocupado, te desplazarás al espacio sin ocupar más cercano y recibirás 2 de daño de fuerza por cada 30 cm que te hayas movido.",
+   "text": "Cuando el conjuro termine, reaparecerás en el plano del que viniste en el mismo sitio que se corresponde con tu espacio en la Frontera Etérea. Si apareces en un espacio ocupado, te desplazarás al espacio sin ocupar más cercano y recibirás 2 de daño de fuerza por cada 30 cm que te hayas movido."
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "md": "Este conjuro termina al instante si lo lanzas mientras estás en el Plano Etéreo o en un plano que no tenga frontera con él, como alguno de los Planos Exteriores.",
+   "text": "Este conjuro termina al instante si lo lanzas mientras estás en el Plano Etéreo o en un plano que no tenga frontera con él, como alguno de los Planos Exteriores."
+  },
+  {
+   "type": "definition",
+   "page": 149,
+   "md": "***Con un espacio de conjuro de nivel superior.*** Puedes hacer objetivo a hasta tres criaturas voluntarias (incluyéndote a ti) por cada nivel por encima de 7 que tenga el espacio. Estas criaturas deben estar a 3 m o menos de ti cuando lances el conjuro.",
+   "text": "Con un espacio de conjuro de nivel superior. Puedes hacer objetivo a hasta tres criaturas voluntarias (incluyéndote a ti) por cada nivel por encima de 7 que tenga el espacio. Estas criaturas deben estar a 3 m o menos de ti cuando lances el conjuro."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 149
+ }
+}

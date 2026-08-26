@@ -1,0 +1,22 @@
+{
+ "id": "vehicle.drakkar",
+ "name": "Drakkar",
+ "kind": "vehicle",
+ "group": null,
+ "table": "Vehículos acuáticos y aéreos",
+ "fields": {
+  "Vehículo": "Drakkar",
+  "Velocidad": "4,5 km/h",
+  "Tripulación": "40",
+  "Pasajeros": "150",
+  "Cargamento (toneladas)": "10",
+  "CA": "15",
+  "PG": "300",
+  "Umbral de daño": "15",
+  "Precio": "10 000 po"
+ },
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 110
+ }
+}

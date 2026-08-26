@@ -1,0 +1,94 @@
+{
+ "id": "monster.cangrejo",
+ "name": "Cangrejo",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 381
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 11,
+ "acRaw": "11",
+ "initiative": {
+  "mod": 0,
+  "score": 10
+ },
+ "hp": {
+  "raw": "3 (1d4 + 1)",
+  "average": 3,
+  "formula": "1d4 + 1"
+ },
+ "speeds": {
+  "caminando": 6.0,
+  "nadar": 6.0
+ },
+ "skills": {
+  "Sigilo": 2
+ },
+ "senses": {
+  "raw": "visión ciega 9 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (10 PX; BC +2)",
+  "cr": 0,
+  "xp": 10,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "des": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "con": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El cangrejo puede respirar tanto dentro como fuera del agua.",
+   "page": 381,
+   "description": "El cangrejo puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Pinza",
+   "md": "***Pinza.*** *Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente.",
+   "page": 381,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +2, alcance 1,5 m. *Acierto:* 1 de daño contundente."
+  }
+ ]
+}

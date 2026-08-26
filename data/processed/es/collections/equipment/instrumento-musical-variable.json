@@ -1,0 +1,31 @@
+{
+ "id": "tool.instrumento-musical-variable",
+ "name": "Instrumento musical (variable)",
+ "kind": "tool",
+ "group": "Otras herramientas",
+ "text": "Característica: Carisma Peso: variable\n\nUtilizar: tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)\n\nVariantes: chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Carisma **Peso:** variable",
+   "text": "Característica: Carisma Peso: variable"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)",
+   "text": "Utilizar: tocar una melodía conocida (CD 10) o improvisar una canción (CD 15)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Variantes:** chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)",
+   "text": "Variantes: chirimía (2 po, 0,5 kg), cuerno (3 po, 1 kg), dulcémele (25 po, 5 kg), flauta (2 po, 0,5 kg), flauta de pan (12 po, 1 kg), gaita (30 po, 3 kg), laúd (35 po, 1 kg), lira (30 po, 1 kg), tambor (6 po, 1,5 kg), viola (30 po, 0,5 kg)"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "id": "rule.ensordecido",
+ "name": "Ensordecido",
+ "text": "Mientras tengas el estado de ensordecido, experimentarás el siguiente efecto:\n\nNo puedes oír. No puedes oír y fallas automáticamente las pruebas de característica que requieran el oído.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Mientras tengas el estado de ensordecido, experimentarás el siguiente efecto:",
+   "text": "Mientras tengas el estado de ensordecido, experimentarás el siguiente efecto:"
+  },
+  {
+   "type": "definition",
+   "page": 200,
+   "md": "***No puedes oír.*** No puedes oír y fallas automáticamente las pruebas de característica que requieran el oído.",
+   "text": "No puedes oír. No puedes oír y fallas automáticamente las pruebas de característica que requieran el oído."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ },
+ "kind": "estado"
+}

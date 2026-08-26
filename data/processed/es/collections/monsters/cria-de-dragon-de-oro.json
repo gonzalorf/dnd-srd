@@ -1,0 +1,121 @@
+{
+ "id": "monster.cria-de-dragon-de-oro",
+ "name": "Cría de dragón de oro",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 305
+ },
+ "context": [
+  "Dragones de oro"
+ ],
+ "metaRaw": "Dragón Mediano (metálico), legal bueno",
+ "type": "Dragón",
+ "alignment": "legal bueno",
+ "size": "Mediano",
+ "tags": [
+  "metálico"
+ ],
+ "ac": 17,
+ "acRaw": "17",
+ "initiative": {
+  "mod": 4,
+  "score": 14
+ },
+ "hp": {
+  "raw": "60 (8d8 + 24)",
+  "average": 60,
+  "formula": "8d8 + 24"
+ },
+ "speeds": {
+  "caminando": 9.0,
+  "nadar": 9.0,
+  "volar": 18.0
+ },
+ "skills": {
+  "Percepción": 4,
+  "Sigilo": 4
+ },
+ "senses": {
+  "raw": "visión ciega 3 m, visión en la oscuridad 18 m; Percepción pasiva 14",
+  "passivePerception": 14
+ },
+ "languages": [
+  "dracónico"
+ ],
+ "immunities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "3 (700 PX; BC +2)",
+  "cr": 3,
+  "xp": 700,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 14,
+   "mod": 2,
+   "save": 4
+  },
+  "con": {
+   "score": 17,
+   "mod": 3,
+   "save": 3
+  },
+  "int": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "sab": {
+   "score": 11,
+   "mod": 0,
+   "save": 2
+  },
+  "car": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  }
+ },
+ "traits": [
+  {
+   "name": "Anfibio",
+   "md": "***Anfibio.*** El dragón puede respirar tanto dentro como fuera del agua.",
+   "page": 305,
+   "description": "El dragón puede respirar tanto dentro como fuera del agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El dragón realiza dos ataques de desgarro.",
+   "page": 305,
+   "description": "El dragón realiza dos ataques de desgarro."
+  },
+  {
+   "name": "Desgarro",
+   "md": "***Desgarro.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (1d10 + 4) de daño cortante.",
+   "page": 305,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 1,5 m. *Acierto:* 9 (1d10 + 4) de daño cortante."
+  },
+  {
+   "name": "Aliento de fuego",
+   "md": "***Aliento de fuego (recarga 5–6)***. *Tirada de salvación de Destreza:* CD 13, todas las criaturas en un cono de 4,5 m. *Fallo:* 22 (4d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "page": 305,
+   "description": ". *Tirada de salvación de Destreza:* CD 13, todas las criaturas en un cono de 4,5 m. *Fallo:* 22 (4d10) de daño de fuego. *Éxito:* la mitad del daño.",
+   "uses": "recarga 5–6"
+  },
+  {
+   "name": "Aliento debilitador",
+   "md": "***Aliento debilitador.*** *Tirada de salvación de Fuerza:* CD 13, todas las criaturas que no estén afectadas ya por este aliento en un cono de 4,5 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 2 (1d4) a sus tiradas de daño. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente.",
+   "page": 305,
+   "description": "*Tirada de salvación de Fuerza:* CD 13, todas las criaturas que no estén afectadas ya por este aliento en un cono de 4,5 m. *Fallo:* el objetivo tendrá desventaja en las pruebas con d20 basadas en la Fuerza y restará 2 (1d4) a sus tiradas de daño. Repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto. Tras 1 minuto, tendrá éxito automáticamente."
+  }
+ ]
+}

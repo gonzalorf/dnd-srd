@@ -1,0 +1,37 @@
+{
+ "id": "table.terreno-tropical",
+ "caption": "Terreno tropical",
+ "header": [
+  "Nivel de druida",
+  "Conjuros de círculo"
+ ],
+ "rows": [
+  [
+   "3",
+   "Rayo nauseabundo, salpicadura ácida, telaraña"
+  ],
+  [
+   "5",
+   "Nube apestosa"
+  ],
+  [
+   "7",
+   "Polimorfar"
+  ],
+  [
+   "9",
+   "Plaga de insectos"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Clases",
+  "Druida",
+  "Subclase de druida: Círculo de la tierra",
+  "Nivel 3: Conjuros del círculo de la tierra"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 57
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "rule.puntuacion-de-caracteristica-y-modificador",
+ "name": "Puntuación de característica y modificador",
+ "text": "Las criaturas tienen seis puntuaciones de característica: Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma, que tienen su modificador correspondiente. Suma el modificador cuando hagas una prueba con d20 con la característica que corresponda o cuando una regla te lo pida. Consulta también el capítulo “Cómo jugar” (“Las seis características”).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 206,
+   "md": "Las criaturas tienen seis puntuaciones de característica: Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma, que tienen su modificador correspondiente. Suma el modificador cuando hagas una prueba con d20 con la característica que corresponda o cuando una regla te lo pida. *Consulta también* el capítulo “Cómo jugar” (“Las seis características”).",
+   "text": "Las criaturas tienen seis puntuaciones de característica: Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma, que tienen su modificador correspondiente. Suma el modificador cuando hagas una prueba con d20 con la característica que corresponda o cuando una regla te lo pida. Consulta también el capítulo “Cómo jugar” (“Las seis características”)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 206
+ }
+}

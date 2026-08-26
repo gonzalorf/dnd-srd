@@ -1,0 +1,37 @@
+{
+ "id": "tool.utiles-de-envenenador",
+ "name": "Útiles de envenenador",
+ "kind": "tool",
+ "group": "Otras herramientas",
+ "text": "Característica: Inteligencia Peso: 1 kg\n\nUtilizar: detectar un objeto envenenado (CD 10)\n\nFabricar: veneno básico",
+ "blocks": [
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Característica:** Inteligencia **Peso:** 1 kg",
+   "text": "Característica: Inteligencia Peso: 1 kg"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Utilizar:** detectar un objeto envenenado (CD 10)",
+   "text": "Utilizar: detectar un objeto envenenado (CD 10)"
+  },
+  {
+   "type": "property",
+   "page": 102,
+   "md": "**Fabricar:** veneno básico",
+   "text": "Fabricar: veneno básico"
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 102
+ },
+ "price": {
+  "raw": "50 po",
+  "amount": 50.0,
+  "coin": "po",
+  "gp": 50.0
+ }
+}

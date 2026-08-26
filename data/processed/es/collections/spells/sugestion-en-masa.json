@@ -1,0 +1,70 @@
+{
+ "id": "spell.sugestion-en-masa",
+ "name": "Sugestión en masa",
+ "level": 6,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V, M (una lengua de serpiente)",
+  "v": true,
+  "s": false,
+  "m": true,
+  "material": "una lengua de serpiente",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "24 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 24,
+  "unit": "hora"
+ },
+ "text": "Sugieres un curso de acción (de no más de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan oír y entender.\n\nLa sugerencia tiene que parecer factible y no ser claramente dañina para cualquiera de los objetivos o sus aliados. Por ejemplo, podrías decir: “Id hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca”, o quizá “no es momento de luchar; soltad las armas, poneos a bailar y no paréis hasta dentro de una hora”.\n\nTodos los objetivos deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o tú les hagáis daño. Cada objetivo hechizado llevará a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminará sobre un objetivo cuando la complete.\n\nCon un espacio de conjuro de nivel superior. La duración aumenta al usar espacios de nivel 7 (10 días), 8 (30 días) o 9 (366 días).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Sugieres un curso de acción (de no más de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan oír y entender.",
+   "text": "Sugieres un curso de acción (de no más de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan oír y entender."
+  },
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "La sugerencia tiene que parecer factible y no ser claramente dañina para cualquiera de los objetivos o sus aliados. Por ejemplo, podrías decir: “Id hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca”, o quizá “no es momento de luchar; soltad las armas, poneos a bailar y no paréis hasta dentro de una hora”.",
+   "text": "La sugerencia tiene que parecer factible y no ser claramente dañina para cualquiera de los objetivos o sus aliados. Por ejemplo, podrías decir: “Id hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca”, o quizá “no es momento de luchar; soltad las armas, poneos a bailar y no paréis hasta dentro de una hora”."
+  },
+  {
+   "type": "paragraph",
+   "page": 186,
+   "md": "Todos los objetivos deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o tú les hagáis daño. Cada objetivo hechizado llevará a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminará sobre un objetivo cuando la complete.",
+   "text": "Todos los objetivos deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o tú les hagáis daño. Cada objetivo hechizado llevará a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminará sobre un objetivo cuando la complete."
+  },
+  {
+   "type": "definition",
+   "page": 186,
+   "md": "***Con un espacio de conjuro de nivel superior.*** La duración aumenta al usar espacios de nivel 7 (10 días), 8 (30 días) o 9 (366 días).",
+   "text": "Con un espacio de conjuro de nivel superior. La duración aumenta al usar espacios de nivel 7 (10 días), 8 (30 días) o 9 (366 días)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 186
+ }
+}

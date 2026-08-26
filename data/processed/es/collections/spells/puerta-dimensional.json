@@ -1,0 +1,61 @@
+{
+ "id": "spell.puerta-dimensional",
+ "name": "Puerta dimensional",
+ "level": 4,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "150 m",
+  "kind": "ranged",
+  "meters": 150
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Te teletransportas a una ubicación dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la dirección, como “60 m en línea recta hacia abajo” o “90 m hacia arriba y hacia el noroeste en un ángulo de 45 grados”.\n\nTambién puedes teletransportar contigo a una criatura voluntaria. La criatura deberá estar a 1,5 m o menos de ti cuando te teletransportes y aparecerá en un espacio a 1,5 m o menos de tu espacio de destino.\n\nSi la otra criatura, tú o las dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o más objetos, la criatura que viaje contigo y tú sufriréis 4d6 de daño de fuerza y la teletransportación fallará.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Te teletransportas a una ubicación dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la dirección, como “60 m en línea recta hacia abajo” o “90 m hacia arriba y hacia el noroeste en un ángulo de 45 grados”.",
+   "text": "Te teletransportas a una ubicación dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la dirección, como “60 m en línea recta hacia abajo” o “90 m hacia arriba y hacia el noroeste en un ángulo de 45 grados”."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "También puedes teletransportar contigo a una criatura voluntaria. La criatura deberá estar a 1,5 m o menos de ti cuando te teletransportes y aparecerá en un espacio a 1,5 m o menos de tu espacio de destino.",
+   "text": "También puedes teletransportar contigo a una criatura voluntaria. La criatura deberá estar a 1,5 m o menos de ti cuando te teletransportes y aparecerá en un espacio a 1,5 m o menos de tu espacio de destino."
+  },
+  {
+   "type": "paragraph",
+   "page": 177,
+   "md": "Si la otra criatura, tú o las dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o más objetos, la criatura que viaje contigo y tú sufriréis 4d6 de daño de fuerza y la teletransportación fallará.",
+   "text": "Si la otra criatura, tú o las dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o más objetos, la criatura que viaje contigo y tú sufriréis 4d6 de daño de fuerza y la teletransportación fallará."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 177
+ }
+}

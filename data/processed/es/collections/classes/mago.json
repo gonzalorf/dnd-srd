@@ -1,0 +1,1583 @@
+{
+ "id": "class.mago",
+ "name": "Mago",
+ "coreTraits": {
+  "Característica principal": "Inteligencia",
+  "Dado de puntos de golpe": "1d6 por nivel de mago",
+  "Competencias en tiradas de salvación": "Inteligencia y Sabiduría",
+  "Competencias en habilidades": "Elige dos: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza, Perspicacia o Religión",
+  "Competencias con armas": "Amas sencillas",
+  "Entrenamiento con armaduras": "Ninguna",
+  "Equipo inicial": "Elige A o B: (A) 2 dagas, canalizador arcano (bastón), libro de conjuros, paquete de erudito, túnica y 5 po, o (B) 55 po"
+ },
+ "progression": {
+  "caption": "Rasgos de mago",
+  "header": [
+   "Nivel",
+   "Bonificador por competencia",
+   "Rasgos de clase",
+   "Trucos",
+   "Conjuros preparados",
+   "Espacios de conjuro por cada nivel de conjuro 123456789"
+  ],
+  "rows": [
+   [
+    "1",
+    "+2",
+    "Lanzamiento de conjuros, Adepto en rituales, Recuperación arcana",
+    "3",
+    "4",
+    "2————————"
+   ],
+   [
+    "2",
+    "+2",
+    "Académico",
+    "3",
+    "5",
+    "3————————"
+   ],
+   [
+    "3",
+    "+2",
+    "Subclase de mago",
+    "3",
+    "6",
+    "42———————"
+   ],
+   [
+    "4",
+    "+2",
+    "Mejora de característica",
+    "4",
+    "7",
+    "43———————"
+   ],
+   [
+    "5",
+    "+3",
+    "Memorizar conjuro",
+    "4",
+    "9",
+    "432——————"
+   ],
+   [
+    "6",
+    "+3",
+    "Rasgo de subclase",
+    "4",
+    "10",
+    "433——————"
+   ],
+   [
+    "7",
+    "+3",
+    "—",
+    "4",
+    "11",
+    "4331—————"
+   ],
+   [
+    "8",
+    "+3",
+    "Mejora de característica",
+    "4",
+    "12",
+    "4332—————"
+   ],
+   [
+    "9",
+    "+4",
+    "—",
+    "4",
+    "14",
+    "43331————"
+   ],
+   [
+    "10",
+    "+4",
+    "Rasgo de subclase",
+    "5",
+    "15",
+    "43332————"
+   ],
+   [
+    "11",
+    "+4",
+    "—",
+    "5",
+    "16",
+    "433321———"
+   ],
+   [
+    "12",
+    "+4",
+    "Mejora de característica",
+    "5",
+    "16",
+    "433321———"
+   ],
+   [
+    "13",
+    "+5",
+    "—",
+    "5",
+    "17",
+    "4333211——"
+   ],
+   [
+    "14",
+    "+5",
+    "Rasgo de subclase",
+    "5",
+    "18",
+    "4333211——"
+   ],
+   [
+    "15",
+    "+5",
+    "—",
+    "5",
+    "19",
+    "43332111—"
+   ],
+   [
+    "16",
+    "+5",
+    "Mejora de característica",
+    "5",
+    "21",
+    "43332111—"
+   ],
+   [
+    "17",
+    "+6",
+    "—",
+    "5",
+    "22",
+    "433321111"
+   ],
+   [
+    "18",
+    "+6",
+    "Maestría sobre conjuros",
+    "5",
+    "23",
+    "433331111"
+   ],
+   [
+    "19",
+    "+6",
+    "Don épico",
+    "5",
+    "24",
+    "433332111"
+   ],
+   [
+    "20",
+    "+6",
+    "Conjuros característicos",
+    "5",
+    "25",
+    "433332211"
+   ]
+  ]
+ },
+ "features": [
+  {
+   "level": 1,
+   "name": "Lanzamiento de conjuros",
+   "title": "Nivel 1: Lanzamiento de conjuros",
+   "subclass": null,
+   "text": "Como estudiante de magia arcana que eres, has aprendido a lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de mago, que encontrarás más adelante en la lista de conjuros de mago de la descripción de la clase.\n\nTrucos. Conoces tres trucos de mago de tu elección. Se recomiendan luz, mano de mago y rayo de escarcha. Tras finalizar un descanso largo, puedes sustituir uno de tus trucos de este rasgo por otro truco de mago de tu elección. Cuando alcanzas los niveles 4 y 10 de mago, aprendes otro truco de mago de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de mago”.\n\nLibro de conjuros. Tu aprendizaje de mago culminó con la creación de un libro único: tu libro de conjuros. Es un objeto Diminuto que pesa 1,5 kg, contiene 100 páginas y solo podéis leerlo tú o alguien que lance identificar. Tú decides la apariencia y los materiales del libro; por ejemplo, puede ser un volumen con los cantos cubiertos de pan de oro o páginas de vitela cosidas con bramante. El libro contiene los conjuros de nivel 1 y superiores que conoces. Empiezas con seis conjuros de mago de nivel 1 de tu elección. Se recomiendan armadura de mago, caída de pluma, detectar magia, dormir, ola atronadora y proyectil mágico. Siempre que subas un nivel de mago después del 1, añade dos conjuros de mago de tu elección a tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro, como se indica en la tabla “Rasgos de mago”. Los conjuros son el resultado de la investigación arcana que llevas a cabo de forma habitual.\n\nEspacios de conjuro. La tabla “Rasgos de mago” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.\n\nConjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para ello, elige cuatro conjuros de tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. El número de conjuros de tu lista aumenta conforme subes de nivel de mago, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de mago”. Cuando ese número aumente, elige conjuros de mago adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une mague de nivel 3, podrías\n\npreparar cualquier combinación de seis conjuros de nivel 1 o 2 de tu libro de conjuros.\n\nSi otro rasgo de mago te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de mago para ti.\n\nCambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros de tu libro de conjuros.\n\nAptitud mágica. La Inteligencia es tu aptitud mágica en lo que respecta a tus conjuros de mago.\n\nCanalizador mágico. Puedes utilizar un canalizador arcano o tu libro de conjuros como canalizador mágico para tus conjuros de mago.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Como estudiante de magia arcana que eres, has aprendido a lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de mago, que encontrarás más adelante en la lista de conjuros de mago de la descripción de la clase.",
+     "text": "Como estudiante de magia arcana que eres, has aprendido a lanzar conjuros. Consulta el capítulo “Conjuros” para ver las reglas sobre el lanzamiento de conjuros. La información presentada a continuación detalla cómo usar esas reglas con los conjuros de mago, que encontrarás más adelante en la lista de conjuros de mago de la descripción de la clase."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Trucos.*** Conoces tres trucos de mago de tu elección. Se recomiendan *luz*, *mano de mago* y *rayo de escarcha*. Tras finalizar un descanso largo, puedes sustituir uno de tus trucos de este rasgo por otro truco de mago de tu elección. Cuando alcanzas los niveles 4 y 10 de mago, aprendes otro truco de mago de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de mago”.",
+     "text": "Trucos. Conoces tres trucos de mago de tu elección. Se recomiendan luz, mano de mago y rayo de escarcha. Tras finalizar un descanso largo, puedes sustituir uno de tus trucos de este rasgo por otro truco de mago de tu elección. Cuando alcanzas los niveles 4 y 10 de mago, aprendes otro truco de mago de tu elección, como se muestra en la columna “Trucos” de la tabla “Rasgos de mago”."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Libro de conjuros.*** Tu aprendizaje de mago culminó con la creación de un libro único: tu libro de conjuros. Es un objeto Diminuto que pesa 1,5 kg, contiene 100 páginas y solo podéis leerlo tú o alguien que lance *identificar*. Tú decides la apariencia y los materiales del libro; por ejemplo, puede ser un volumen con los cantos cubiertos de pan de oro o páginas de vitela cosidas con bramante. El libro contiene los conjuros de nivel 1 y superiores que conoces. Empiezas con seis conjuros de mago de nivel 1 de tu elección. Se recomiendan *armadura de mago*, *caída de pluma*, *detectar magia*, *dormir*, *ola atronadora* y *proyectil mágico*. Siempre que subas un nivel de mago después del 1, añade dos conjuros de mago de tu elección a tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro, como se indica en la tabla “Rasgos de mago”. Los conjuros son el resultado de la investigación arcana que llevas a cabo de forma habitual.",
+     "text": "Libro de conjuros. Tu aprendizaje de mago culminó con la creación de un libro único: tu libro de conjuros. Es un objeto Diminuto que pesa 1,5 kg, contiene 100 páginas y solo podéis leerlo tú o alguien que lance identificar. Tú decides la apariencia y los materiales del libro; por ejemplo, puede ser un volumen con los cantos cubiertos de pan de oro o páginas de vitela cosidas con bramante. El libro contiene los conjuros de nivel 1 y superiores que conoces. Empiezas con seis conjuros de mago de nivel 1 de tu elección. Se recomiendan armadura de mago, caída de pluma, detectar magia, dormir, ola atronadora y proyectil mágico. Siempre que subas un nivel de mago después del 1, añade dos conjuros de mago de tu elección a tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro, como se indica en la tabla “Rasgos de mago”. Los conjuros son el resultado de la investigación arcana que llevas a cabo de forma habitual."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Espacios de conjuro.*** La tabla “Rasgos de mago” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo.",
+     "text": "Espacios de conjuro. La tabla “Rasgos de mago” muestra cuántos espacios de conjuro tienes para lanzar tus conjuros de nivel 1 y superiores. Recuperas todos los espacios utilizados tras finalizar un descanso largo."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Conjuros preparados de nivel 1 y superiores.*** Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para ello, elige cuatro conjuros de tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. El número de conjuros de tu lista aumenta conforme subes de nivel de mago, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de mago”. Cuando ese número aumente, elige conjuros de mago adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une mague de nivel 3, podrías",
+     "text": "Conjuros preparados de nivel 1 y superiores. Preparas una serie de conjuros de nivel 1 y superiores, que son los que podrás lanzar con este rasgo. Para ello, elige cuatro conjuros de tu libro de conjuros. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. El número de conjuros de tu lista aumenta conforme subes de nivel de mago, como se muestra en la columna “Conjuros preparados” de la tabla “Rasgos de mago”. Cuando ese número aumente, elige conjuros de mago adicionales hasta que el número de conjuros de tu lista coincida con el número de la tabla. Estos conjuros deben ser de un nivel para el que tengas espacios de conjuro. Por ejemplo, si eres une mague de nivel 3, podrías"
+    },
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "preparar cualquier combinación de seis conjuros de nivel 1 o 2 de tu libro de conjuros.",
+     "text": "preparar cualquier combinación de seis conjuros de nivel 1 o 2 de tu libro de conjuros."
+    },
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Si otro rasgo de mago te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de mago para ti.",
+     "text": "Si otro rasgo de mago te proporciona conjuros que siempre tienes preparados, esos conjuros no cuentan para el total que puedes preparar con este rasgo, pero sí que cuentan como conjuros de mago para ti."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Cambiar los conjuros preparados.*** Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros de tu libro de conjuros.",
+     "text": "Cambiar los conjuros preparados. Tras finalizar un descanso largo, puedes cambiar los conjuros que tienes preparados sustituyendo los que quieras por otros de tu libro de conjuros."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Aptitud mágica.*** La Inteligencia es tu aptitud mágica en lo que respecta a tus conjuros de mago.",
+     "text": "Aptitud mágica. La Inteligencia es tu aptitud mágica en lo que respecta a tus conjuros de mago."
+    },
+    {
+     "type": "definition",
+     "page": 72,
+     "md": "***Canalizador mágico.*** Puedes utilizar un canalizador arcano o tu libro de conjuros como canalizador mágico para tus conjuros de mago.",
+     "text": "Canalizador mágico. Puedes utilizar un canalizador arcano o tu libro de conjuros como canalizador mágico para tus conjuros de mago."
+    }
+   ],
+   "page": 72
+  },
+  {
+   "level": 1,
+   "name": "Adepto en rituales",
+   "title": "Nivel 1: Adepto en rituales",
+   "subclass": null,
+   "text": "Puedes lanzar de forma ritual cualquier conjuro de mago que figure en tu libro de conjuros y esté marcado como “ritual”. No necesitas tenerlo preparado, pero debes leerlo del libro para lanzarlo de esta forma.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Puedes lanzar de forma ritual cualquier conjuro de mago que figure en tu libro de conjuros y esté marcado como “ritual”. No necesitas tenerlo preparado, pero debes leerlo del libro para lanzarlo de esta forma.",
+     "text": "Puedes lanzar de forma ritual cualquier conjuro de mago que figure en tu libro de conjuros y esté marcado como “ritual”. No necesitas tenerlo preparado, pero debes leerlo del libro para lanzarlo de esta forma."
+    }
+   ],
+   "page": 72
+  },
+  {
+   "level": 1,
+   "name": "Recuperación arcana",
+   "title": "Nivel 1: Recuperación arcana",
+   "subclass": null,
+   "text": "Puedes recuperar parte de tu energía mágica estudiando tu libro de conjuros. Tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une mague de nivel 4, podrás recuperar hasta dos niveles en espacios de conjuro, ya sea un espacio de conjuro de nivel 2 o dos espacios de nivel 1.\n\nCuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Puedes recuperar parte de tu energía mágica estudiando tu libro de conjuros. Tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une mague de nivel 4, podrás recuperar hasta dos niveles en espacios de conjuro, ya sea un espacio de conjuro de nivel 2 o dos espacios de nivel 1.",
+     "text": "Puedes recuperar parte de tu energía mágica estudiando tu libro de conjuros. Tras finalizar un descanso corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o más. Por ejemplo, si eres une mague de nivel 4, podrás recuperar hasta dos niveles en espacios de conjuro, ya sea un espacio de conjuro de nivel 2 o dos espacios de nivel 1."
+    },
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+     "text": "Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+    }
+   ],
+   "page": 72
+  },
+  {
+   "level": 2,
+   "name": "Académico",
+   "title": "Nivel 2: Académico",
+   "subclass": null,
+   "text": "Mientras estudiabas magia, también te especializaste en otro campo. Elige una de las siguientes habilidades en la que tengas competencia: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión. Ganas pericia en la habilidad elegida.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Mientras estudiabas magia, también te especializaste en otro campo. Elige una de las siguientes habilidades en la que tengas competencia: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión. Ganas pericia en la habilidad elegida.",
+     "text": "Mientras estudiabas magia, también te especializaste en otro campo. Elige una de las siguientes habilidades en la que tengas competencia: Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión. Ganas pericia en la habilidad elegida."
+    }
+   ],
+   "page": 72
+  },
+  {
+   "level": 3,
+   "name": "Subclase de mago",
+   "title": "Nivel 3: Subclase de mago",
+   "subclass": null,
+   "text": "Consigues una subclase de mago de tu elección. La subclase de evocador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de mago. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de mago e inferiores.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 72,
+     "md": "Consigues una subclase de mago de tu elección. La subclase de evocador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de mago. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de mago e inferiores.",
+     "text": "Consigues una subclase de mago de tu elección. La subclase de evocador se detalla tras la descripción de esta clase. Una subclase es una especialización que te proporciona rasgos cuando alcanzas ciertos niveles de mago. De aquí en adelante, obtienes todos los rasgos de tu subclase que sean de tu nivel de mago e inferiores."
+    }
+   ],
+   "page": 72
+  },
+  {
+   "level": 4,
+   "name": "Mejora de característica",
+   "title": "Nivel 4: Mejora de característica",
+   "subclass": null,
+   "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de mago.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de mago.",
+     "text": "Obtienes la dote Mejora de característica (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16 de mago."
+    }
+   ],
+   "page": 73
+  },
+  {
+   "level": 5,
+   "name": "Memorizar conjuro",
+   "title": "Nivel 5: Memorizar conjuro",
+   "subclass": null,
+   "text": "Tras finalizar un descanso corto, puedes estudiar tu libro de conjuros y sustituir un conjuro de mago de nivel 1 o superior que tengas preparado con tu rasgo Lanzamiento de conjuros por otro de nivel 1 o superior del libro.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Tras finalizar un descanso corto, puedes estudiar tu libro de conjuros y sustituir un conjuro de mago de nivel 1 o superior que tengas preparado con tu rasgo Lanzamiento de conjuros por otro de nivel 1 o superior del libro.",
+     "text": "Tras finalizar un descanso corto, puedes estudiar tu libro de conjuros y sustituir un conjuro de mago de nivel 1 o superior que tengas preparado con tu rasgo Lanzamiento de conjuros por otro de nivel 1 o superior del libro."
+    }
+   ],
+   "page": 73
+  },
+  {
+   "level": 18,
+   "name": "Maestría sobre conjuros",
+   "title": "Nivel 18: Maestría sobre conjuros",
+   "subclass": null,
+   "text": "Has alcanzado tal maestría sobre ciertos conjuros que puedes lanzarlos a voluntad. Elige un conjuro de nivel 1 y otro de nivel 2 de tu libro de conjuros con un tiempo de lanzamiento de una acción. Siempre tienes esos conjuros preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro.\n\nTras finalizar un descanso largo, puedes estudiar tu libro de conjuros y sustituir uno de los conjuros por otro del libro del mismo nivel que cumpla los requisitos.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Has alcanzado tal maestría sobre ciertos conjuros que puedes lanzarlos a voluntad. Elige un conjuro de nivel 1 y otro de nivel 2 de tu libro de conjuros con un tiempo de lanzamiento de una acción. Siempre tienes esos conjuros preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro.",
+     "text": "Has alcanzado tal maestría sobre ciertos conjuros que puedes lanzarlos a voluntad. Elige un conjuro de nivel 1 y otro de nivel 2 de tu libro de conjuros con un tiempo de lanzamiento de una acción. Siempre tienes esos conjuros preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro."
+    },
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Tras finalizar un descanso largo, puedes estudiar tu libro de conjuros y sustituir uno de los conjuros por otro del libro del mismo nivel que cumpla los requisitos.",
+     "text": "Tras finalizar un descanso largo, puedes estudiar tu libro de conjuros y sustituir uno de los conjuros por otro del libro del mismo nivel que cumpla los requisitos."
+    },
+    {
+     "type": "sidebar",
+     "page": 73,
+     "md": "",
+     "text": ""
+    }
+   ],
+   "page": 73
+  },
+  {
+   "level": 19,
+   "name": "Don épico",
+   "title": "Nivel 19: Don épico",
+   "subclass": null,
+   "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros.",
+     "text": "Obtienes una dote de don épico (consulta el capítulo “Dotes”) u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del recuerdo de conjuros."
+    }
+   ],
+   "page": 73
+  },
+  {
+   "level": 20,
+   "name": "Conjuros característicos",
+   "title": "Nivel 20: Conjuros característicos",
+   "subclass": null,
+   "text": "Escoge dos conjuros de nivel 3 que figuren en tu libro de conjuros como conjuros característicos. Siempre tienes esos conjuros preparados y puedes lanzar cada uno de ellos una vez a nivel 3 sin gastar un espacio de conjuro. Una vez que los lances, no podrás volver a hacerlo de este modo hasta que finalices un descanso corto o largo. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro.",
+   "blocks": [
+    {
+     "type": "paragraph",
+     "page": 73,
+     "md": "Escoge dos conjuros de nivel 3 que figuren en tu libro de conjuros como conjuros característicos. Siempre tienes esos conjuros preparados y puedes lanzar cada uno de ellos una vez a nivel 3 sin gastar un espacio de conjuro. Una vez que los lances, no podrás volver a hacerlo de este modo hasta que finalices un descanso corto o largo. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro.",
+     "text": "Escoge dos conjuros de nivel 3 que figuren en tu libro de conjuros como conjuros característicos. Siempre tienes esos conjuros preparados y puedes lanzar cada uno de ellos una vez a nivel 3 sin gastar un espacio de conjuro. Una vez que los lances, no podrás volver a hacerlo de este modo hasta que finalices un descanso corto o largo. Para lanzar cualquiera de ellos a un nivel superior, deberás gastar un espacio de conjuro."
+    }
+   ],
+   "page": 73
+  }
+ ],
+ "subclasses": [
+  {
+   "name": "Subclase de mago: Evocador",
+   "features": [
+    {
+     "level": 3,
+     "name": "Experto en evocación",
+     "title": "Nivel 3: Experto en evocación",
+     "subclass": "Subclase de mago: Evocador",
+     "text": "Elige dos conjuros de mago de la escuela de evocación de nivel 2 o inferior y añádelos a tu libro de conjuros sin coste.\n\nAdemás, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de mago de la escuela de evocación a tu libro de conjuros sin coste. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 76,
+       "md": "Elige dos conjuros de mago de la escuela de evocación de nivel 2 o inferior y añádelos a tu libro de conjuros sin coste.",
+       "text": "Elige dos conjuros de mago de la escuela de evocación de nivel 2 o inferior y añádelos a tu libro de conjuros sin coste."
+      },
+      {
+       "type": "paragraph",
+       "page": 76,
+       "md": "Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de mago de la escuela de evocación a tu libro de conjuros sin coste. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro.",
+       "text": "Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de mago de la escuela de evocación a tu libro de conjuros sin coste. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro."
+      }
+     ],
+     "page": 76
+    },
+    {
+     "level": 3,
+     "name": "Truco potente",
+     "title": "Nivel 3: Truco potente",
+     "subclass": "Subclase de mago: Evocador",
+     "text": "Tus trucos que causen daño pueden afectar incluso a las criaturas que hayan evitado la peor parte del efecto. Cuando lances un truco a una criatura y falles la tirada de ataque o el objetivo supere la tirada de salvación contra el truco, el objetivo recibirá la mitad del daño del truco (si es que causa alguno), pero no sufrirá ningún otro de sus efectos adicionales.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 76,
+       "md": "Tus trucos que causen daño pueden afectar incluso a las criaturas que hayan evitado la peor parte del efecto. Cuando lances un truco a una criatura y falles la tirada de ataque o el objetivo supere la tirada de salvación contra el truco, el objetivo recibirá la mitad del daño del truco (si es que causa alguno), pero no sufrirá ningún otro de sus efectos adicionales.",
+       "text": "Tus trucos que causen daño pueden afectar incluso a las criaturas que hayan evitado la peor parte del efecto. Cuando lances un truco a una criatura y falles la tirada de ataque o el objetivo supere la tirada de salvación contra el truco, el objetivo recibirá la mitad del daño del truco (si es que causa alguno), pero no sufrirá ningún otro de sus efectos adicionales."
+      }
+     ],
+     "page": 76
+    },
+    {
+     "level": 6,
+     "name": "Esculpir conjuros",
+     "title": "Nivel 6: Esculpir conjuros",
+     "subclass": "Subclase de mago: Evocador",
+     "text": "Puedes crear espacios de relativa seguridad en el interior de los efectos generados por tu magia de evocación. Cuando lances un conjuro de evocación que afecte a otras criaturas que puedas ver, puedes elegir una cantidad de ellas igual a 1 más el nivel del conjuro. Las criaturas elegidas tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño alguno si normalmente recibirían la mitad de daño del mismo al superar una tirada de salvación.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 76,
+       "md": "Puedes crear espacios de relativa seguridad en el interior de los efectos generados por tu magia de evocación. Cuando lances un conjuro de evocación que afecte a otras criaturas que puedas ver, puedes elegir una cantidad de ellas igual a 1 más el nivel del conjuro. Las criaturas elegidas tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño alguno si normalmente recibirían la mitad de daño del mismo al superar una tirada de salvación.",
+       "text": "Puedes crear espacios de relativa seguridad en el interior de los efectos generados por tu magia de evocación. Cuando lances un conjuro de evocación que afecte a otras criaturas que puedas ver, puedes elegir una cantidad de ellas igual a 1 más el nivel del conjuro. Las criaturas elegidas tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño alguno si normalmente recibirían la mitad de daño del mismo al superar una tirada de salvación."
+      }
+     ],
+     "page": 76
+    },
+    {
+     "level": 10,
+     "name": "Evocación potenciada",
+     "title": "Nivel 10: Evocación potenciada",
+     "subclass": "Subclase de mago: Evocador",
+     "text": "Siempre que lances un conjuro de mago de la escuela de evocación, puedes sumar tu modificador por Inteligencia a una tirada de daño del conjuro.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 76,
+       "md": "Siempre que lances un conjuro de mago de la escuela de evocación, puedes sumar tu modificador por Inteligencia a una tirada de daño del conjuro.",
+       "text": "Siempre que lances un conjuro de mago de la escuela de evocación, puedes sumar tu modificador por Inteligencia a una tirada de daño del conjuro."
+      }
+     ],
+     "page": 76
+    },
+    {
+     "level": 14,
+     "name": "Sobrecanalizar",
+     "title": "Nivel 14: Sobrecanalizar",
+     "subclass": "Subclase de mago: Evocador",
+     "text": "Puedes aumentar el poder de tus conjuros. Cuando lances un conjuro de mago que cause daño usando un espacio de conjuro de niveles entre 1 y 5, puedes infligir el máximo daño posible con ese conjuro el turno en que lo lanzas.\n\nLa primera vez que hagas esto no sufrirás ningún efecto negativo, pero si usas este rasgo de nuevo sin haber finalizado un descanso largo antes, recibirás 2d12 de daño necrótico por cada nivel del espacio de conjuro inmediatamente después de lanzarlo. Este daño ignora cualquier resistencia e inmunidad.\n\nCada vez que vuelvas a utilizar este rasgo sin haber terminado un descanso largo, el daño necrótico por cada nivel del conjuro aumentará en 1d12.",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "page": 77,
+       "md": "Puedes aumentar el poder de tus conjuros. Cuando lances un conjuro de mago que cause daño usando un espacio de conjuro de niveles entre 1 y 5, puedes infligir el máximo daño posible con ese conjuro el turno en que lo lanzas.",
+       "text": "Puedes aumentar el poder de tus conjuros. Cuando lances un conjuro de mago que cause daño usando un espacio de conjuro de niveles entre 1 y 5, puedes infligir el máximo daño posible con ese conjuro el turno en que lo lanzas."
+      },
+      {
+       "type": "paragraph",
+       "page": 77,
+       "md": "La primera vez que hagas esto no sufrirás ningún efecto negativo, pero si usas este rasgo de nuevo sin haber finalizado un descanso largo antes, recibirás 2d12 de daño necrótico por cada nivel del espacio de conjuro inmediatamente después de lanzarlo. Este daño ignora cualquier resistencia e inmunidad.",
+       "text": "La primera vez que hagas esto no sufrirás ningún efecto negativo, pero si usas este rasgo de nuevo sin haber finalizado un descanso largo antes, recibirás 2d12 de daño necrótico por cada nivel del espacio de conjuro inmediatamente después de lanzarlo. Este daño ignora cualquier resistencia e inmunidad."
+      },
+      {
+       "type": "paragraph",
+       "page": 77,
+       "md": "Cada vez que vuelvas a utilizar este rasgo sin haber terminado un descanso largo, el daño necrótico por cada nivel del conjuro aumentará en 1d12.",
+       "text": "Cada vez que vuelvas a utilizar este rasgo sin haber terminado un descanso largo, el daño necrótico por cada nivel del conjuro aumentará en 1d12."
+      }
+     ],
+     "page": 77
+    }
+   ]
+  }
+ ],
+ "spellLists": [
+  {
+   "level": 0,
+   "caption": "Trucos (conjuros de mago de nivel 0)",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Agarre electrizante",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Descarga de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Elementalismo",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Ilusión menor",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Impacto certero",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Luces danzantes",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Luz",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Mano de mago",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Mensaje",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Prestidigitación",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Rayo de escarcha",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Reparar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Rociada venenosa",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Salpicadura ácida",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Toque helado",
+     "Nigromancia",
+     "—"
+    ]
+   ],
+   "page": 73
+  },
+  {
+   "level": 1,
+   "caption": "Conjuros de mago de nivel 1",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Alarma",
+     "Abjuración",
+     "R"
+    ],
+    [
+     "Armadura de mago",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Caída de pluma",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Cuchillo de hielo",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Detectar magia",
+     "Adivinación",
+     "C, R"
+    ]
+   ],
+   "page": 73
+  },
+  {
+   "level": 2,
+   "caption": "Conjuros de mago de nivel 2",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Abrir",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Agrandar/reducir",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Aliento de dragón",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Alterar el propio aspecto",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Arma mágica",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Augurio",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Aura mágica de arcanista",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Boca mágica",
+     "Ilusionismo",
+     "R, M"
+    ],
+    [
+     "Cerradura arcana",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Clavo mental",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Contorno borroso",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Detectar pensamientos",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Dulce descanso",
+     "Nigromancia",
+     "R, M"
+    ],
+    [
+     "Esfera de llamas",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Flecha ácida",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Hacer añicos",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Imagen múltiple",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Inmovilizar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Invisibilidad",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Levitar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Llama permanente",
+     "Evocación",
+     "M"
+    ],
+    [
+     "Localizar objeto",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Oscuridad",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Paso brumoso",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Potenciar característica",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Ráfaga de viento",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Rayo abrasador",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Rayo debilitador",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Sordera/ceguera",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Sugestión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Telaraña",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Trepar cual arácnido",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Truco de la cuerda",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Ver invisibilidad",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Visión en la oscuridad",
+     "Transmutación",
+     "—"
+    ]
+   ],
+   "page": 74
+  },
+  {
+   "level": 3,
+   "caption": "Conjuros de mago de nivel 3",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Acelerar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Animar a los muertos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Bola de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Círculo mágico",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Clarividencia",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Contrahechizo",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Corcel fantasma",
+     "Ilusionismo",
+     "R"
+    ],
+    [
+     "Desplazamiento",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Disipar magia",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Don de lenguas",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Forma gaseosa",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Glifo custodio",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Hablar con los muertos",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Imagen mayor",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Imponer maldición",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Indetectable",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Levantar maldición",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Nube apestosa",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Patrón hipnótico",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Pequeña choza",
+     "Evocación",
+     "R"
+    ],
+    [
+     "Protección contra energía",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Ralentizar",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 74
+  },
+  {
+   "level": 4,
+   "caption": "Conjuros de mago de nivel 4",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Adivinación",
+     "Adivinación",
+     "R, M"
+    ],
+    [
+     "Asesino fantasmal",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Cofre oculto",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Confusión",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Conjurar elementales menores",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Controlar agua",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Destierro",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Escudo de fuego",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Esfera elástica",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Esfera vitriólica",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Fabricar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Hechizar monstruo",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Invisibilidad mejorada",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Localizar criatura",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Marchitar",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Mastín fiel",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Moldear la piedra",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Muro de fuego",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Ojo arcano",
+     "Adivinación",
+     "C"
+    ],
+    [
+     "Piel pétrea",
+     "Transmutación",
+     "C, M"
+    ],
+    [
+     "Polimorfar",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Puerta dimensional",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Sanctasanctórum privado",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Tentáculos negros",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Terreno alucinatorio",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Tormenta de hielo",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 75
+  },
+  {
+   "level": 5,
+   "caption": "Conjuros de mago de nivel 5",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Alterar los recuerdos",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Animar objetos",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Apariencia",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Atadura planar",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Círculo de teletransportación",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Cono de frío",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Conocer las leyendas",
+     "Adivinación",
+     "M"
+    ],
+    [
+     "Contactar con otro plano",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Creación",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Dominar persona",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Engañar",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Enlace telepático",
+     "Adivinación",
+     "R"
+    ],
+    [
+     "Ensueño",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Escudriñar",
+     "Adivinación",
+     "C, M"
+    ],
+    [
+     "Geas",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Inmovilizar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Invocar dragón",
+     "Conjuración",
+     "C, M"
+    ],
+    [
+     "Mano arcana",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Muro de fuerza",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Muro de piedra",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Nube aniquiladora",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Pasamuros",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Telequinesis",
+     "Transmutación",
+     "C"
+    ]
+   ],
+   "page": 75
+  },
+  {
+   "level": 6,
+   "caption": "Conjuros de mago de nivel 6",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Baile irresistible",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Círculo de muerte",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Contingencia",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Crear muerto viviente",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "De la carne a la piedra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Desintegrar",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Esfera congelante",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Globo de invulnerabilidad",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Guardas y guardias",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Ilusión programada",
+     "Ilusionismo",
+     "M"
+    ],
+    [
+     "Invocación instantánea",
+     "Conjuración",
+     "R, M"
+    ],
+    [
+     "Mal de ojo",
+     "Nigromancia",
+     "C"
+    ],
+    [
+     "Mover la tierra",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Muro de hielo",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Rayo solar",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Relámpago en cadena",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Sugestión en masa",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Urna mágica",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Visión veraz",
+     "Adivinación",
+     "M"
+    ]
+   ],
+   "page": 75
+  },
+  {
+   "level": 7,
+   "caption": "Conjuros de mago de nivel 7",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Bola de fuego de explosión retardada",
+     "Evocación",
+     "C"
+    ],
+    [
+     "Dedo de la muerte",
+     "Nigromancia",
+     "—"
+    ],
+    [
+     "Desplazamiento entre planos",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Espada arcana",
+     "Evocación",
+     "C, M"
+    ],
+    [
+     "Espejismo arcano",
+     "Ilusionismo",
+     "—"
+    ],
+    [
+     "Excursión etérea",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Invertir la gravedad",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Jaula de fuerza",
+     "Evocación",
+     "C, M"
+    ],
+    [
+     "Mansión magnífica",
+     "Conjuración",
+     "M"
+    ],
+    [
+     "Proyectar imagen",
+     "Ilusionismo",
+     "C, M"
+    ],
+    [
+     "Recluir",
+     "Transmutación",
+     "M"
+    ],
+    [
+     "Rociada prismática",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Símbolo",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Simulacro",
+     "Ilusionismo",
+     "M"
+    ],
+    [
+     "Teletransporte",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 76
+  },
+  {
+   "level": 8,
+   "caption": "Conjuros de mago de nivel 8",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Antipatía/simpatía",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Campo antimagia",
+     "Abjuración",
+     "C"
+    ],
+    [
+     "Clon",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Controlar el clima",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Dominar monstruo",
+     "Encantamiento",
+     "C"
+    ],
+    [
+     "Explosión solar",
+     "Evocación",
+     "—"
+    ],
+    [
+     "Laberinto",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Mente en blanco",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Nube incendiaria",
+     "Conjuración",
+     "C"
+    ],
+    [
+     "Ofuscación",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Palabra de poder: aturdir",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Semiplano",
+     "Conjuración",
+     "—"
+    ]
+   ],
+   "page": 76
+  },
+  {
+   "level": 9,
+   "caption": "Conjuros de mago de nivel 9",
+   "header": [
+    "Conjuro",
+    "Escuela",
+    "Especial"
+   ],
+   "rows": [
+    [
+     "Cambiar de forma",
+     "Transmutación",
+     "C, M"
+    ],
+    [
+     "Cautiverio",
+     "Abjuración",
+     "M"
+    ],
+    [
+     "Deseo",
+     "Conjuración",
+     "—"
+    ],
+    [
+     "Muro prismático",
+     "Abjuración",
+     "—"
+    ],
+    [
+     "Palabra de poder: matar",
+     "Encantamiento",
+     "—"
+    ],
+    [
+     "Parar el tiempo",
+     "Transmutación",
+     "—"
+    ],
+    [
+     "Polimorfar verdadero",
+     "Transmutación",
+     "C"
+    ],
+    [
+     "Portal",
+     "Conjuración",
+     "C, M"
+    ],
+    [
+     "Presciencia",
+     "Adivinación",
+     "—"
+    ],
+    [
+     "Proyección astral",
+     "Nigromancia",
+     "M"
+    ],
+    [
+     "Terror abyecto",
+     "Ilusionismo",
+     "C"
+    ],
+    [
+     "Tormenta de meteoritos",
+     "Evocación",
+     "—"
+    ]
+   ],
+   "page": 76
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 71
+ },
+ "refs": [
+  "spell.luz",
+  "spell.mano-de-mago",
+  "spell.rayo-de-escarcha",
+  "spell.identificar",
+  "spell.armadura-de-mago",
+  "spell.caida-de-pluma",
+  "spell.detectar-magia",
+  "spell.dormir",
+  "spell.ola-atronadora",
+  "spell.proyectil-magico"
+ ]
+}

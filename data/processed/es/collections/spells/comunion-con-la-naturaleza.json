@@ -1,0 +1,90 @@
+{
+ "id": "spell.comunion-con-la-naturaleza",
+ "name": "Comunión con la naturaleza",
+ "level": 5,
+ "cantrip": false,
+ "school": "Adivinación",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto o un ritual",
+  "ritual": true,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Comulgas con espíritus de la naturaleza y obtienes información sobre la zona circundante. En exteriores, el conjuro te proporciona información de la zona a 4,5 km a tu alrededor. En cavernas y otros entornos naturales subterráneos, el radio se ve limitado a 90 m. El conjuro no funciona en lugares en los que la naturaleza ha sido sustituida por construcciones, como castillos y asentamientos.\n\nElige tres de los siguientes hechos, que aprenderás según corresponda a la zona del conjuro:\n\n• Ubicaciones de asentamientos.\n\n• Ubicaciones de portales a otros planos de existencia.\n\n• La ubicación de una criatura con un valor de desafío de 10 o más (a elección de tu GM) que sea celestial, elemental, feérico, infernal o muerto viviente.\n\n• El tipo de planta, mineral o bestia más frecuente (tú decides cuál).\n\n• Ubicaciones de masas de agua.\n\nPor ejemplo, podrías determinar el paradero de un monstruo poderoso en la zona y la ubicación de masas de agua y de cualquier pueblo cercano.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 131,
+   "md": "Comulgas con espíritus de la naturaleza y obtienes información sobre la zona circundante. En exteriores, el conjuro te proporciona información de la zona a 4,5 km a tu alrededor. En cavernas y otros entornos naturales subterráneos, el radio se ve limitado a 90 m. El conjuro no funciona en lugares en los que la naturaleza ha sido sustituida por construcciones, como castillos y asentamientos.",
+   "text": "Comulgas con espíritus de la naturaleza y obtienes información sobre la zona circundante. En exteriores, el conjuro te proporciona información de la zona a 4,5 km a tu alrededor. En cavernas y otros entornos naturales subterráneos, el radio se ve limitado a 90 m. El conjuro no funciona en lugares en los que la naturaleza ha sido sustituida por construcciones, como castillos y asentamientos."
+  },
+  {
+   "type": "paragraph",
+   "page": 131,
+   "md": "Elige tres de los siguientes hechos, que aprenderás según corresponda a la zona del conjuro:",
+   "text": "Elige tres de los siguientes hechos, que aprenderás según corresponda a la zona del conjuro:"
+  },
+  {
+   "type": "list-item",
+   "page": 131,
+   "md": "• Ubicaciones de asentamientos.",
+   "text": "• Ubicaciones de asentamientos."
+  },
+  {
+   "type": "list-item",
+   "page": 131,
+   "md": "• Ubicaciones de portales a otros planos de existencia.",
+   "text": "• Ubicaciones de portales a otros planos de existencia."
+  },
+  {
+   "type": "list-item",
+   "page": 131,
+   "md": "• La ubicación de una criatura con un valor de desafío de 10 o más (a elección de tu GM) que sea celestial, elemental, feérico, infernal o muerto viviente.",
+   "text": "• La ubicación de una criatura con un valor de desafío de 10 o más (a elección de tu GM) que sea celestial, elemental, feérico, infernal o muerto viviente."
+  },
+  {
+   "type": "list-item",
+   "page": 131,
+   "md": "• El tipo de planta, mineral o bestia más frecuente (tú decides cuál).",
+   "text": "• El tipo de planta, mineral o bestia más frecuente (tú decides cuál)."
+  },
+  {
+   "type": "list-item",
+   "page": 131,
+   "md": "• Ubicaciones de masas de agua.",
+   "text": "• Ubicaciones de masas de agua."
+  },
+  {
+   "type": "paragraph",
+   "page": 131,
+   "md": "Por ejemplo, podrías determinar el paradero de un monstruo poderoso en la zona y la ubicación de masas de agua y de cualquier pueblo cercano.",
+   "text": "Por ejemplo, podrías determinar el paradero de un monstruo poderoso en la zona y la ubicación de masas de agua y de cualquier pueblo cercano."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 130
+ }
+}

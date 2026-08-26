@@ -1,0 +1,54 @@
+{
+ "id": "spell.paso-arboreo",
+ "name": "Paso arbóreo",
+ "level": 5,
+ "cantrip": false,
+ "school": "Conjuración",
+ "classes": [
+  "druida",
+  "explorador"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 minuto",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "Obtienes la capacidad de entrar en un árbol y moverte desde dentro al interior de otro árbol del mismo tipo que esté a 150 m o menos. Ambos árboles tienen que estar vivos y ser al menos del mismo tamaño que tú. Para entrar en un árbol debes gastar 1,5 m de movimiento. Al instante conoces la ubicación de todos los demás árboles del mismo tipo situados a 150 m o menos y, como parte del movimiento gastado para entrar en el árbol, puedes pasar al interior de uno de esos árboles o salir del árbol en el que estás. Apareces en un punto de tu elección a 1,5 m o menos del árbol de destino gastando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m o menos del árbol en el que entraste.\n\nPuedes usar esta capacidad de transporte solo una vez en cada uno de tus turnos y debes terminar cada turno fuera de un árbol.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Obtienes la capacidad de entrar en un árbol y moverte desde dentro al interior de otro árbol del mismo tipo que esté a 150 m o menos. Ambos árboles tienen que estar vivos y ser al menos del mismo tamaño que tú. Para entrar en un árbol debes gastar 1,5 m de movimiento. Al instante conoces la ubicación de todos los demás árboles del mismo tipo situados a 150 m o menos y, como parte del movimiento gastado para entrar en el árbol, puedes pasar al interior de uno de esos árboles o salir del árbol en el que estás. Apareces en un punto de tu elección a 1,5 m o menos del árbol de destino gastando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m o menos del árbol en el que entraste.",
+   "text": "Obtienes la capacidad de entrar en un árbol y moverte desde dentro al interior de otro árbol del mismo tipo que esté a 150 m o menos. Ambos árboles tienen que estar vivos y ser al menos del mismo tamaño que tú. Para entrar en un árbol debes gastar 1,5 m de movimiento. Al instante conoces la ubicación de todos los demás árboles del mismo tipo situados a 150 m o menos y, como parte del movimiento gastado para entrar en el árbol, puedes pasar al interior de uno de esos árboles o salir del árbol en el que estás. Apareces en un punto de tu elección a 1,5 m o menos del árbol de destino gastando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m o menos del árbol en el que entraste."
+  },
+  {
+   "type": "paragraph",
+   "page": 173,
+   "md": "Puedes usar esta capacidad de transporte solo una vez en cada uno de tus turnos y debes terminar cada turno fuera de un árbol.",
+   "text": "Puedes usar esta capacidad de transporte solo una vez en cada uno de tus turnos y debes terminar cada turno fuera de un árbol."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 173
+ }
+}

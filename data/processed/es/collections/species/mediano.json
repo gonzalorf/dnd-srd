@@ -1,0 +1,59 @@
+{
+ "id": "species.mediano",
+ "name": "Mediano",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Pequeño (entre 60 y 90 cm de altura)\n\nVelocidad: 9 m\n\nComo mediano, tienes estos atributos especiales:\n\nAgilidad de mediano. Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio.\n\nFortuna. Cuando saques un 1 en una prueba con d20, podrás repetir la tirada y deberás utilizar el nuevo resultado.\n\nSigiloso por naturaleza. Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo.\n\nValiente. Tienes ventaja en las tiradas de salvación que hagas para evitar o poner fin al estado de asustado.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 92,
+   "md": "Tamaño: Pequeño (entre 60 y 90 cm de altura)",
+   "text": "Tamaño: Pequeño (entre 60 y 90 cm de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "md": "Como mediano, tienes estos atributos especiales:",
+   "text": "Como mediano, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Agilidad de mediano.*** Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio.",
+   "text": "Agilidad de mediano. Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Fortuna.*** Cuando saques un 1 en una prueba con d20, podrás repetir la tirada y deberás utilizar el nuevo resultado.",
+   "text": "Fortuna. Cuando saques un 1 en una prueba con d20, podrás repetir la tirada y deberás utilizar el nuevo resultado."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Sigiloso por naturaleza.*** Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo.",
+   "text": "Sigiloso por naturaleza. Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo."
+  },
+  {
+   "type": "definition",
+   "page": 92,
+   "md": "***Valiente.*** Tienes ventaja en las tiradas de salvación que hagas para evitar o poner fin al estado de asustado.",
+   "text": "Valiente. Tienes ventaja en las tiradas de salvación que hagas para evitar o poner fin al estado de asustado."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 92
+ }
+}

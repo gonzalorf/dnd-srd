@@ -1,0 +1,166 @@
+{
+ "id": "monster.planetar",
+ "name": "Planetar",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 360
+ },
+ "context": [
+  "Planetar"
+ ],
+ "metaRaw": "Celestial Grande (ángel), legal bueno",
+ "type": "Celestial",
+ "alignment": "legal bueno",
+ "size": "Grande",
+ "tags": [
+  "ángel"
+ ],
+ "ac": 19,
+ "acRaw": "19",
+ "initiative": {
+  "mod": 10,
+  "score": 20
+ },
+ "hp": {
+  "raw": "262 (21d10 + 147)",
+  "average": 262,
+  "formula": "21d10 + 147"
+ },
+ "speeds": {
+  "caminando": 12.0,
+  "volar": 36.0
+ },
+ "skills": {
+  "Percepción": 11
+ },
+ "senses": {
+  "raw": "visión verdadera 36 m; Percepción pasiva 21",
+  "passivePerception": 21
+ },
+ "languages": [
+  "todos",
+  "telepatía 36 m"
+ ],
+ "immunities": [
+  "asustado",
+  "cansancio",
+  "hechizado"
+ ],
+ "resistances": [
+  "radiante"
+ ],
+ "challenge": {
+  "raw": "16 (15 000 PX; BC +5)",
+  "cr": 16,
+  "xp": 15000,
+  "proficiencyBonus": 5
+ },
+ "abilities": {
+  "fue": {
+   "score": 24,
+   "mod": 7,
+   "save": 12
+  },
+  "des": {
+   "score": 20,
+   "mod": 5,
+   "save": 5
+  },
+  "con": {
+   "score": 24,
+   "mod": 7,
+   "save": 12
+  },
+  "int": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "sab": {
+   "score": 22,
+   "mod": 6,
+   "save": 11
+  },
+  "car": {
+   "score": 25,
+   "mod": 7,
+   "save": 12
+  }
+ },
+ "traits": [
+  {
+   "name": "Percepción divina",
+   "md": "***Percepción divina.*** El planetar reconoce cualquier mentira que escuche.",
+   "page": 360,
+   "description": "El planetar reconoce cualquier mentira que escuche."
+  },
+  {
+   "name": "Recuperación exaltada",
+   "md": "***Recuperación exaltada.*** Si el planetar muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia.",
+   "page": 360,
+   "description": "Si el planetar muere fuera del Monte Celestia, su cuerpo desaparece, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Monte Celestia."
+  },
+  {
+   "name": "Resistencia mágica",
+   "md": "***Resistencia mágica.*** El planetar tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.",
+   "page": 360,
+   "description": "El planetar tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Ataque múltiple",
+   "md": "***Ataque múltiple.*** El planetar realiza tres ataques con su espada radiante o emplea su estallido sagrado dos veces.",
+   "page": 360,
+   "description": "El planetar realiza tres ataques con su espada radiante o emplea su estallido sagrado dos veces."
+  },
+  {
+   "name": "Espada radiante",
+   "md": "***Espada radiante.*** *Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 14 (2d6 + 7) de daño cortante más 18 (4d8) de daño radiante.",
+   "page": 360,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +12, alcance 3 m. *Acierto:* 14 (2d6 + 7) de daño cortante más 18 (4d8) de daño radiante."
+  },
+  {
+   "name": "Estallido sagrado",
+   "md": "***Estallido sagrado.*** *Tirada de salvación de Destreza:* CD 20, todos los enemigos en una esfera de 6 m de radio centrada en un punto que el planetar pueda ver",
+   "page": 360,
+   "description": "*Tirada de salvación de Destreza:* CD 20, todos los enemigos en una esfera de 6 m de radio centrada en un punto que el planetar pueda ver"
+  },
+  {
+   "name": null,
+   "md": "a 36 m o menos. *Fallo:* 24 (7d6) de daño radiante. *Éxito:* la mitad del daño.",
+   "page": 360
+  },
+  {
+   "name": "Lanzamiento de conjuros",
+   "md": "***Lanzamiento de conjuros.*** El planetar lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 20):",
+   "page": 360,
+   "description": "El planetar lanza uno de los siguientes conjuros, que no requiere componentes materiales y utiliza el Carisma como aptitud mágica (CD de salvación de conjuros 20):"
+  },
+  {
+   "name": null,
+   "md": "A voluntad: *detectar el bien y el mal* 1/día cada uno: *alzar a los muertos*, *comunión*, *controlar el clima*, *disipar el bien y el mal*",
+   "page": 360
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Auxilio divino",
+   "md": "***Auxilio divino (2/día).*** El planetar lanza *curar heridas*, *invisibilidad*, *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "page": 360,
+   "description": "El planetar lanza *curar heridas*, *invisibilidad*, *levantar maldición* o *restablecimiento menor* usando la misma aptitud mágica que para su lanzamiento de conjuros.",
+   "uses": "2/día"
+  }
+ ],
+ "refs": [
+  "spell.detectar-el-bien-y-el-mal",
+  "spell.alzar-a-los-muertos",
+  "spell.comunion",
+  "spell.controlar-el-clima",
+  "spell.disipar-el-bien-y-el-mal",
+  "spell.curar-heridas",
+  "spell.invisibilidad",
+  "spell.levantar-maldicion",
+  "spell.restablecimiento-menor"
+ ]
+}

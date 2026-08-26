@@ -1,0 +1,54 @@
+{
+ "id": "spell.flecha-acida",
+ "name": "Flecha ácida",
+ "level": 2,
+ "cantrip": false,
+ "school": "Evocación",
+ "classes": [
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "27 m",
+  "kind": "ranged",
+  "meters": 27
+ },
+ "components": {
+  "raw": "V, S, M (ruibarbo en polvo)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "ruibarbo en polvo",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de ácido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de daño de ácido y 2d4 de daño de ácido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con ácido y solo le causa la mitad del daño inicial.\n\nCon un espacio de conjuro de nivel superior. El daño (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 150,
+   "md": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de ácido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de daño de ácido y 2d4 de daño de ácido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con ácido y solo le causa la mitad del daño inicial.",
+   "text": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de ácido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de daño de ácido y 2d4 de daño de ácido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con ácido y solo le causa la mitad del daño inicial."
+  },
+  {
+   "type": "definition",
+   "page": 150,
+   "md": "***Con un espacio de conjuro de nivel superior.*** El daño (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.",
+   "text": "Con un espacio de conjuro de nivel superior. El daño (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 150
+ }
+}

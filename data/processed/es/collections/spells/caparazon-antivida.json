@@ -1,0 +1,53 @@
+{
+ "id": "spell.caparazon-antivida",
+ "name": "Caparazón antivida",
+ "level": 5,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "druida"
+ ],
+ "ritual": false,
+ "concentration": true,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "Concentración, hasta 1 hora",
+  "concentration": true,
+  "kind": "timed",
+  "value": 1,
+  "unit": "hora"
+ },
+ "text": "Un aura se extiende alrededor de ti en una emanación de 3 m hasta que el conjuro termine. El aura impide que las criaturas que no sean autómatas o muertos vivientes penetren total o parcialmente en ella, pero sí que pueden lanzar conjuros o realizar ataques con armas a distancia o de gran alcance a través de la barrera.\n\nSi tu movimiento obliga a que una criatura afectada atraviese la barrera, el conjuro termina.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Un aura se extiende alrededor de ti en una emanación de 3 m hasta que el conjuro termine. El aura impide que las criaturas que no sean autómatas o muertos vivientes penetren total o parcialmente en ella, pero sí que pueden lanzar conjuros o realizar ataques con armas a distancia o de gran alcance a través de la barrera.",
+   "text": "Un aura se extiende alrededor de ti en una emanación de 3 m hasta que el conjuro termine. El aura impide que las criaturas que no sean autómatas o muertos vivientes penetren total o parcialmente en ella, pero sí que pueden lanzar conjuros o realizar ataques con armas a distancia o de gran alcance a través de la barrera."
+  },
+  {
+   "type": "paragraph",
+   "page": 127,
+   "md": "Si tu movimiento obliga a que una criatura afectada atraviese la barrera, el conjuro termina.",
+   "text": "Si tu movimiento obliga a que una criatura afectada atraviese la barrera, el conjuro termina."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 127
+ }
+}

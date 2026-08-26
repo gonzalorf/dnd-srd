@@ -1,0 +1,108 @@
+{
+ "id": "species.draconido",
+ "name": "Dracónido",
+ "text": "Tipo de criatura: humanoide\n\nTamaño: Mediano (entre 1,5 y 2,1 m de altura)\n\nVelocidad: 9 m\n\nComo dracónido, tienes estos atributos especiales:\n\nLinaje dracónico. Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón en la tabla “Ancestros dracónicos”. Tu elección afectará a tus atributos Ataque de aliento y Resistencia al daño además de a tu aspecto.\n\nAtaque de aliento. Cuando lleves a cabo la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo y 1,5 m de ancho (elige la forma cada vez). Todas las criaturas situadas en esa zona deberán hacer una tirada de salvación de Destreza (CD 8 más tu modificador por Constitución y tu bonificador por competencia). Si la fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje dracónico. Si la superan, sufrirán la mitad de ese daño. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.\n\nResistencia al daño. Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico.\n\nVisión en la oscuridad. Tienes visión en la oscuridad hasta 18 m.\n\nVuelo dracónico. Cuando alcanzas el nivel 5 de personaje, puedes canalizar la magia dracónica para volar de forma temporal. Como acción adicional, haces que en la espalda te broten unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o tengas el estado de incapacitado. Durante ese tiempo, tendrás una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu ataque de aliento. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Tipo de criatura: humanoide",
+   "text": "Tipo de criatura: humanoide"
+  },
+  {
+   "type": "callout",
+   "page": 90,
+   "md": "Tamaño: Mediano (entre 1,5 y 2,1 m de altura)",
+   "text": "Tamaño: Mediano (entre 1,5 y 2,1 m de altura)"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Velocidad: 9 m",
+   "text": "Velocidad: 9 m"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "md": "Como dracónido, tienes estos atributos especiales:",
+   "text": "Como dracónido, tienes estos atributos especiales:"
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Linaje dracónico.*** Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón en la tabla “Ancestros dracónicos”. Tu elección afectará a tus atributos Ataque de aliento y Resistencia al daño además de a tu aspecto.",
+   "text": "Linaje dracónico. Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón en la tabla “Ancestros dracónicos”. Tu elección afectará a tus atributos Ataque de aliento y Resistencia al daño además de a tu aspecto."
+  },
+  {
+   "type": "table",
+   "page": 90,
+   "caption": "Ancestros dracónicos",
+   "header": [
+    "Dragón",
+    "Tipo de daño",
+    "Dragón",
+    "Tipo de daño"
+   ],
+   "rows": [
+    [
+     "Azul",
+     "Relámpago",
+     "Oro",
+     "Fuego"
+    ],
+    [
+     "Blanco",
+     "Frío",
+     "Oropel",
+     "Fuego"
+    ],
+    [
+     "Bronce",
+     "Relámpago",
+     "Plata",
+     "Frío"
+    ],
+    [
+     "Cobre",
+     "Ácido",
+     "Rojo",
+     "Fuego"
+    ],
+    [
+     "Negro",
+     "Ácido",
+     "Verde",
+     "Veneno"
+    ]
+   ]
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Ataque de aliento.*** Cuando lleves a cabo la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo y 1,5 m de ancho (elige la forma cada vez). Todas las criaturas situadas en esa zona deberán hacer una tirada de salvación de Destreza (CD 8 más tu modificador por Constitución y tu bonificador por competencia). Si la fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje dracónico. Si la superan, sufrirán la mitad de ese daño. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo.",
+   "text": "Ataque de aliento. Cuando lleves a cabo la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo y 1,5 m de ancho (elige la forma cada vez). Todas las criaturas situadas en esa zona deberán hacer una tirada de salvación de Destreza (CD 8 más tu modificador por Constitución y tu bonificador por competencia). Si la fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje dracónico. Si la superan, sufrirán la mitad de ese daño. El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un descanso largo."
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Resistencia al daño.*** Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico.",
+   "text": "Resistencia al daño. Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico."
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Visión en la oscuridad.*** Tienes visión en la oscuridad hasta 18 m.",
+   "text": "Visión en la oscuridad. Tienes visión en la oscuridad hasta 18 m."
+  },
+  {
+   "type": "definition",
+   "page": 90,
+   "md": "***Vuelo dracónico.*** Cuando alcanzas el nivel 5 de personaje, puedes canalizar la magia dracónica para volar de forma temporal. Como acción adicional, haces que en la espalda te broten unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o tengas el estado de incapacitado. Durante ese tiempo, tendrás una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu ataque de aliento. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo.",
+   "text": "Vuelo dracónico. Cuando alcanzas el nivel 5 de personaje, puedes canalizar la magia dracónica para volar de forma temporal. Como acción adicional, haces que en la espalda te broten unas alas espectrales que duran 10 minutos o hasta que las repliegues (no requiere acción) o tengas el estado de incapacitado. Durante ese tiempo, tendrás una velocidad volando igual a tu velocidad. Tus alas parecen hechas de la misma energía que tu ataque de aliento. Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un descanso largo."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 90
+ }
+}

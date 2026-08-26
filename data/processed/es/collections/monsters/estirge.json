@@ -1,0 +1,83 @@
+{
+ "id": "monster.estirge",
+ "name": "Estirge",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 324
+ },
+ "context": [
+  "Estirge"
+ ],
+ "metaRaw": "Monstruosidad Diminuta, sin alineamiento",
+ "type": "Monstruosidad",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": 3,
+  "score": 13
+ },
+ "hp": {
+  "raw": "5 (2d4)",
+  "average": 5,
+  "formula": "2d4"
+ },
+ "speeds": {
+  "caminando": 3.0,
+  "volar": 12.0
+ },
+ "senses": {
+  "raw": "visión en la oscuridad 18 m; Percepción pasiva 9",
+  "passivePerception": 9
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "1/8 (25 PX; BC +2)",
+  "cr": 0.125,
+  "xp": 25,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 4,
+   "mod": -3,
+   "save": -3
+  },
+  "des": {
+   "score": 16,
+   "mod": 3,
+   "save": 3
+  },
+  "con": {
+   "score": 11,
+   "mod": 0,
+   "save": 0
+  },
+  "int": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  },
+  "sab": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "car": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Probóscide",
+   "md": "***Probóscide.*** *Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante y la estirge se engancha al objetivo. Mientras esté enganchada, no podrá hacer ataques con su probóscide y el objetivo sufrirá 5 (2d4) de daño necrótico al principio de cada turno de la estirge. La estirge puede usar 1,5 m de su movimiento para desengancharse. Como acción, el objetivo o una criatura a 1,5 m o menos de él puede desenganchar a la estirge.",
+   "page": 324,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +5, alcance 1,5 m. *Acierto:* 6 (1d6 + 3) de daño perforante y la estirge se engancha al objetivo. Mientras esté enganchada, no podrá hacer ataques con su probóscide y el objetivo sufrirá 5 (2d4) de daño necrótico al principio de cada turno de la estirge. La estirge puede usar 1,5 m de su movimiento para desengancharse. Como acción, el objetivo o una criatura a 1,5 m o menos de él puede desenganchar a la estirge."
+  }
+ ]
+}

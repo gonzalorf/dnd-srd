@@ -1,0 +1,76 @@
+{
+ "id": "table.arreos-arneses-y-vehiculos-tirados-por-animales",
+ "caption": "Arreos, arneses y vehículos tirados por animales",
+ "header": [
+  "Animal",
+  "Peso",
+  "Precio"
+ ],
+ "rows": [
+  [
+   "Alimento por día",
+   "5 kg",
+   "5 pc"
+  ],
+  [
+   "Carreta",
+   "100 kg",
+   "15 po"
+  ],
+  [
+   "Carro",
+   "200 kg",
+   "35 po"
+  ],
+  [
+   "Carro de guerra",
+   "50 kg",
+   "250 po"
+  ],
+  [
+   "Carruaje",
+   "300 kg",
+   "100 po"
+  ],
+  [
+   "Estabulado por día",
+   "—",
+   "5 pp"
+  ],
+  [
+   "Silla",
+   "",
+   ""
+  ],
+  [
+   "De monta",
+   "12,5 kg",
+   "10 po"
+  ],
+  [
+   "Exótica",
+   "20 kg",
+   "60 po"
+  ],
+  [
+   "Militar",
+   "15 kg",
+   "20 po"
+  ],
+  [
+   "Trineo",
+   "150 kg",
+   "20 po"
+  ]
+ ],
+ "fullWidth": false,
+ "context": [
+  "Equipo",
+  "Monturas y vehículos",
+  "Sillas"
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 109
+ }
+}

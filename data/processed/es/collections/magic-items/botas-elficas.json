@@ -1,0 +1,23 @@
+{
+ "id": "item.botas-elficas",
+ "name": "Botas élficas",
+ "category": "Objeto maravilloso",
+ "variant": null,
+ "rarity": "infrecuente",
+ "attunement": false,
+ "attunementRequires": null,
+ "subtitle": "Objeto maravilloso, infrecuente",
+ "text": "Mientras calces estas botas, tus pasos no harán ruido, independientemente de la superficie que pises. También tendrás ventaja en las pruebas de Destreza (Sigilo).",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 245,
+   "md": "Mientras calces estas botas, tus pasos no harán ruido, independientemente de la superficie que pises. También tendrás ventaja en las pruebas de Destreza (Sigilo).",
+   "text": "Mientras calces estas botas, tus pasos no harán ruido, independientemente de la superficie que pises. También tendrás ventaja en las pruebas de Destreza (Sigilo)."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 245
+ }
+}

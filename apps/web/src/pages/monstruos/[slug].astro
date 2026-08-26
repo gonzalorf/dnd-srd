@@ -1,0 +1,61 @@
+---
+import Base from "../../layouts/Base.astro";
+import { collections, slugOf, renderMd } from "../../lib/srd";
+
+export function getStaticPaths() {
+  return collections.monsters().map((m) => ({ params: { slug: slugOf(m.id) }, props: { m } }));
+}
+const { m } = Astro.props as any;
+const ABREV = { fue: "FUE", des: "DES", con: "CON", int: "INT", sab: "SAB", car: "CAR" };
+const secciones = [
+  ["Atributos", m.traits], ["Acciones", m.actions],
+  ["Acciones adicionales", m.bonusActions], ["Reacciones", m.reactions],
+].filter(([, v]) => v?.length);
+const vd = m.challenge?.cr;
+---
+
+<Base title={m.name} page={m.source.page} subtitle={m.metaRaw}>
+  <article class="perfil-ficha" data-pagefind-body>
+    <p class="subtitulo">{m.metaRaw}</p>
+
+    <dl class="propiedades">
+      <dt>CA</dt><dd>{m.acRaw ?? m.ac}</dd>
+      {m.initiative && <><dt>Iniciativa</dt><dd>{m.initiative.mod >= 0 ? "+" : ""}{m.initiative.mod}{m.initiative.score ? ` (${m.initiative.score})` : ""}</dd></>}
+      <dt>PG</dt><dd>{m.hp?.raw}</dd>
+      <dt>Velocidad</dt><dd>{Object.entries(m.speeds ?? {}).map(([k, v]) => `${k} ${v} m`).join(", ")}</dd>
+      {m.senses && <><dt>Sentidos</dt><dd>{m.senses.raw}</dd></>}
+      {m.languages && <><dt>Idiomas</dt><dd>{m.languages.join(", ")}</dd></>}
+      <dt>VD</dt><dd>{m.challenge?.raw ?? "—"}</dd>
+    </dl>
+
+    <table class="caracteristicas">
+      <thead><tr><th></th><th>Punt.</th><th>Mod.</th><th>Salv.</th></tr></thead>
+      <tbody>
+        {Object.entries(m.abilities ?? {}).map(([k, a]: any) => (
+          <tr><th>{ABREV[k]}</th><td>{a.score}</td>
+            <td>{a.mod >= 0 ? "+" : ""}{a.mod}</td>
+            <td>{a.save >= 0 ? "+" : ""}{a.save}</td></tr>
+        ))}
+      </tbody>
+    </table>
+
+    {m.skills && <p><strong>Habilidades:</strong> {Object.entries(m.skills).map(([k, v]: any) => `${k} ${v >= 0 ? "+" : ""}${v}`).join(", ")}</p>}
+    {m.immunities && <p><strong>Inmunidades:</strong> {m.immunities.join(", ")}</p>}
+    {m.resistances && <p><strong>Resistencias:</strong> {m.resistances.join(", ")}</p>}
+
+    {secciones.map(([titulo, entradas]: any) => (
+      <section>
+        <h2>{titulo}</h2>
+        {entradas.map((e: any) => <p set:html={renderMd(e.md, m.id)} />)}
+      </section>
+    ))}
+
+    {m.legendary && (
+      <section>
+        <h2>Acciones legendarias</h2>
+        {m.legendary.intro && <p class="intro-legendaria">{m.legendary.intro}</p>}
+        {m.legendary.actions.map((e: any) => <p set:html={renderMd(e.md, m.id)} />)}
+      </section>
+    )}
+  </article>
+</Base>

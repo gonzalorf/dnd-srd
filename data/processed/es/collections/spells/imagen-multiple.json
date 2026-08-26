@@ -1,0 +1,62 @@
+{
+ "id": "spell.imagen-multiple",
+ "name": "Imagen múltiple",
+ "level": 2,
+ "cantrip": false,
+ "school": "Ilusionismo",
+ "classes": [
+  "bardo",
+  "brujo",
+  "hechicero",
+  "mago"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "Lanzador",
+  "kind": "self"
+ },
+ "components": {
+  "raw": "V, S",
+  "v": true,
+  "s": true,
+  "m": false
+ },
+ "duration": {
+  "raw": "1 minuto",
+  "concentration": false,
+  "kind": "timed",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "text": "En tu espacio aparecen tres duplicados ilusorios de ti. Hasta que el conjuro termine, estos duplicados se mueven a la vez que tú e imitan tus acciones cambiando de posición, por lo que es imposible saber cuál es la imagen real.\n\nCada vez que una criatura te acierte con una tirada de ataque mientras dure el conjuro, tira 1d6 por cada uno de tus duplicados restantes. Si cualquiera de los resultados es de 3 o más, uno de los duplicados recibe el golpe en tu lugar y es destruido. Por lo demás, los duplicados ignoran el resto del daño y efectos. Cuando los tres duplicados son destruidos, el conjuro termina.\n\nUna criatura no se verá afectada por este conjuro si tiene el estado de cegada, visión ciega o visión verdadera.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "En tu espacio aparecen tres duplicados ilusorios de ti. Hasta que el conjuro termine, estos duplicados se mueven a la vez que tú e imitan tus acciones cambiando de posición, por lo que es imposible saber cuál es la imagen real.",
+   "text": "En tu espacio aparecen tres duplicados ilusorios de ti. Hasta que el conjuro termine, estos duplicados se mueven a la vez que tú e imitan tus acciones cambiando de posición, por lo que es imposible saber cuál es la imagen real."
+  },
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Cada vez que una criatura te acierte con una tirada de ataque mientras dure el conjuro, tira 1d6 por cada uno de tus duplicados restantes. Si cualquiera de los resultados es de 3 o más, uno de los duplicados recibe el golpe en tu lugar y es destruido. Por lo demás, los duplicados ignoran el resto del daño y efectos. Cuando los tres duplicados son destruidos, el conjuro termina.",
+   "text": "Cada vez que una criatura te acierte con una tirada de ataque mientras dure el conjuro, tira 1d6 por cada uno de tus duplicados restantes. Si cualquiera de los resultados es de 3 o más, uno de los duplicados recibe el golpe en tu lugar y es destruido. Por lo demás, los duplicados ignoran el resto del daño y efectos. Cuando los tres duplicados son destruidos, el conjuro termina."
+  },
+  {
+   "type": "paragraph",
+   "page": 157,
+   "md": "Una criatura no se verá afectada por este conjuro si tiene el estado de cegada, visión ciega o visión verdadera.",
+   "text": "Una criatura no se verá afectada por este conjuro si tiene el estado de cegada, visión ciega o visión verdadera."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 157
+ }
+}

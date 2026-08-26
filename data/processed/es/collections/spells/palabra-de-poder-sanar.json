@@ -1,0 +1,47 @@
+{
+ "id": "spell.palabra-de-poder-sanar",
+ "name": "Palabra de poder: sanar",
+ "level": 9,
+ "cantrip": false,
+ "school": "Encantamiento",
+ "classes": [
+  "bardo",
+  "clérigo"
+ ],
+ "ritual": false,
+ "concentration": false,
+ "castingTime": {
+  "raw": "Acción",
+  "ritual": false,
+  "kind": "action"
+ },
+ "range": {
+  "raw": "18 m",
+  "kind": "ranged",
+  "meters": 18
+ },
+ "components": {
+  "raw": "V",
+  "v": true,
+  "s": false,
+  "m": false
+ },
+ "duration": {
+  "raw": "Instantáneo",
+  "concentration": false,
+  "kind": "instantaneous"
+ },
+ "text": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energía sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacción para levantarse.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 172,
+   "md": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energía sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacción para levantarse.",
+   "text": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energía sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacción para levantarse."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 172
+ }
+}

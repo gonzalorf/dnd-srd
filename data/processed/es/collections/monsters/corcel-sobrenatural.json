@@ -1,0 +1,110 @@
+{
+ "id": "monster.corcel-sobrenatural",
+ "name": "Corcel sobrenatural",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 155
+ },
+ "context": [
+  "Hallar corcel"
+ ],
+ "metaRaw": "Celestial, feérico o infernal Grande (a tu elección), neutral",
+ "type": "Celestial, feérico infernal",
+ "alignment": "neutral",
+ "size": "Grande",
+ "tags": [
+  "a tu elección"
+ ],
+ "ac": 10,
+ "acRaw": "10 + 1 por cada nivel del conjuro",
+ "hp": {
+  "raw": "5 + 10 por cada nivel del conjuro (el corcel tiene una cantidad de dados de golpe [d10] igual al nivel del conjuro)",
+  "average": 5
+ },
+ "speeds": {
+  "caminando": 18.0,
+  "volar": 18.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 11",
+  "passivePerception": 11
+ },
+ "languages": [
+  "telepatía 1",
+  "5 km (solo funciona contigo)"
+ ],
+ "challenge": {
+  "raw": "ninguno (0 PX; BC igual a tu bonificador por competencia)"
+ },
+ "abilities": {
+  "fue": {
+   "score": 18,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 14,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "sab": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "car": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  }
+ },
+ "traits": [
+  {
+   "name": "Vínculo vital",
+   "md": "***Vínculo vital.*** Cuando recuperas puntos de golpe mediante un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de puntos de golpe si estás a 1,5 m o menos de él.",
+   "page": 155,
+   "description": "Cuando recuperas puntos de golpe mediante un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de puntos de golpe si estás a 1,5 m o menos de él."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Golpetazo sobrenatural",
+   "md": "***Golpetazo sobrenatural.*** *Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m. *Acierto:* 1d8 más el nivel de daño radiante (celestial), psíquico (feérico) o necrótico (infernal).",
+   "page": 155,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m. *Acierto:* 1d8 más el nivel de daño radiante (celestial), psíquico (feérico) o necrótico (infernal)."
+  }
+ ],
+ "bonusActions": [
+  {
+   "name": "Mirada siniestra",
+   "md": "***Mirada siniestra (solo infernal; se recarga tras un descanso largo).*** *Tirada de salvación de Sabiduría:* CD igual a tu CD de salvación de conjuros, una criatura a 18 m o menos que el corcel pueda ver. *Fallo:* el objetivo tiene el estado de asustado hasta el final de tu siguiente turno.",
+   "page": 155,
+   "description": "*Tirada de salvación de Sabiduría:* CD igual a tu CD de salvación de conjuros, una criatura a 18 m o menos que el corcel pueda ver. *Fallo:* el objetivo tiene el estado de asustado hasta el final de tu siguiente turno.",
+   "uses": "solo infernal; se recarga tras un descanso largo"
+  },
+  {
+   "name": "Paso feérico",
+   "md": "***Paso feérico (solo feérico; se recarga tras un descanso largo).*** El corcel se teletransporta, junto con su jinete, a un espacio sin ocupar de tu elección a 18 m o menos del corcel.",
+   "page": 155,
+   "description": "El corcel se teletransporta, junto con su jinete, a un espacio sin ocupar de tu elección a 18 m o menos del corcel.",
+   "uses": "solo feérico; se recarga tras un descanso largo"
+  },
+  {
+   "name": "Toque sanador",
+   "md": "***Toque sanador (solo celestial; se recarga tras un descanso largo).*** Una criatura a 1,5 m o menos del corcel recupera una cantidad de puntos de golpe igual a 2d8 más el nivel del conjuro.",
+   "page": 155,
+   "description": "Una criatura a 1,5 m o menos del corcel recupera una cantidad de puntos de golpe igual a 2d8 más el nivel del conjuro.",
+   "uses": "solo celestial; se recarga tras un descanso largo"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "rule.apresado",
+ "name": "Apresado",
+ "text": "Mientras tengas el estado de apresado, experimentarás los siguientes efectos:\n\nVelocidad 0. Tu velocidad es 0 y no puede aumentar.\n\nAtaques afectados. Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja.\n\nTiradas de salvación afectadas. Tienes desventaja en las tiradas de salvación de Destreza.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 195,
+   "md": "Mientras tengas el estado de apresado, experimentarás los siguientes efectos:",
+   "text": "Mientras tengas el estado de apresado, experimentarás los siguientes efectos:"
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Velocidad 0.*** Tu velocidad es 0 y no puede aumentar.",
+   "text": "Velocidad 0. Tu velocidad es 0 y no puede aumentar."
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Ataques afectados.*** Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja.",
+   "text": "Ataques afectados. Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja."
+  },
+  {
+   "type": "definition",
+   "page": 195,
+   "md": "***Tiradas de salvación afectadas.*** Tienes desventaja en las tiradas de salvación de Destreza.",
+   "text": "Tiradas de salvación afectadas. Tienes desventaja en las tiradas de salvación de Destreza."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 195
+ },
+ "kind": "estado"
+}

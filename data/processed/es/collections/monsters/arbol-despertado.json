@@ -1,0 +1,89 @@
+{
+ "id": "monster.arbol-despertado",
+ "name": "Árbol despertado",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 360
+ },
+ "context": [
+  "Plantas despertadas"
+ ],
+ "metaRaw": "Planta Enorme, neutral",
+ "type": "Planta",
+ "alignment": "neutral",
+ "size": "Enorme",
+ "ac": 13,
+ "acRaw": "13",
+ "initiative": {
+  "mod": -2,
+  "score": 8
+ },
+ "hp": {
+  "raw": "59 (7d12 + 14)",
+  "average": 59,
+  "formula": "7d12 + 14"
+ },
+ "speeds": {
+  "caminando": 6.0
+ },
+ "senses": {
+  "raw": "Percepción pasiva 10",
+  "passivePerception": 10
+ },
+ "languages": [
+  "común y otro cualquiera"
+ ],
+ "resistances": [
+  "contundente",
+  "perforante"
+ ],
+ "vulnerabilities": [
+  "fuego"
+ ],
+ "challenge": {
+  "raw": "2 (450 PX; BC +2)",
+  "cr": 2,
+  "xp": 450,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 19,
+   "mod": 4,
+   "save": 4
+  },
+  "des": {
+   "score": 6,
+   "mod": -2,
+   "save": -2
+  },
+  "con": {
+   "score": 15,
+   "mod": 2,
+   "save": 2
+  },
+  "int": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 7,
+   "mod": -2,
+   "save": -2
+  }
+ },
+ "actions": [
+  {
+   "name": "Golpe",
+   "md": "***Golpe.*** *Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 14 (3d6 + 4) de daño contundente.",
+   "page": 360,
+   "description": "*Tirada de ataque cuerpo a cuerpo:* +6, alcance 3 m. *Acierto:* 14 (3d6 + 4) de daño contundente."
+  }
+ ]
+}

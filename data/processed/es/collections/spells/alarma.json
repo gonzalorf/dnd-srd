@@ -1,0 +1,65 @@
+{
+ "id": "spell.alarma",
+ "name": "Alarma",
+ "level": 1,
+ "cantrip": false,
+ "school": "Abjuración",
+ "classes": [
+  "explorador",
+  "mago"
+ ],
+ "ritual": true,
+ "concentration": false,
+ "castingTime": {
+  "raw": "1 minuto o un ritual",
+  "ritual": true,
+  "kind": "time",
+  "value": 1,
+  "unit": "minuto"
+ },
+ "range": {
+  "raw": "9 m",
+  "kind": "ranged",
+  "meters": 9
+ },
+ "components": {
+  "raw": "V, S, M (una campana e hilo de plata)",
+  "v": true,
+  "s": true,
+  "m": true,
+  "material": "una campana e hilo de plata",
+  "consumed": false
+ },
+ "duration": {
+  "raw": "8 horas",
+  "concentration": false,
+  "kind": "timed",
+  "value": 8,
+  "unit": "hora"
+ },
+ "text": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora:\n\nAlarma mental. La alarma te avisará con un sonido dentro de tu mente si estás a 1,5 km o menos de la zona vigilada. Si estás durmiendo, te despertará.\n\nAlarma sonora. La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m o menos de la zona vigilada.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 119,
+   "md": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora:",
+   "text": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora:"
+  },
+  {
+   "type": "definition",
+   "page": 119,
+   "md": "**Alarma mental.** La alarma te avisará con un sonido dentro de tu mente si estás a 1,5 km o menos de la zona vigilada. Si estás durmiendo, te despertará.",
+   "text": "Alarma mental. La alarma te avisará con un sonido dentro de tu mente si estás a 1,5 km o menos de la zona vigilada. Si estás durmiendo, te despertará."
+  },
+  {
+   "type": "definition",
+   "page": 119,
+   "md": "**Alarma sonora.** La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m o menos de la zona vigilada.",
+   "text": "Alarma sonora. La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m o menos de la zona vigilada."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 119
+ }
+}

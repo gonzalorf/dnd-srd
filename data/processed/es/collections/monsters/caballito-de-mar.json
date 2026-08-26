@@ -1,0 +1,94 @@
+{
+ "id": "monster.caballito-de-mar",
+ "name": "Caballito de mar",
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 380
+ },
+ "context": [
+  "Animales"
+ ],
+ "metaRaw": "Bestia Diminuta, sin alineamiento",
+ "type": "Bestia",
+ "alignment": "sin alineamiento",
+ "size": "Diminuto",
+ "ac": 12,
+ "acRaw": "12",
+ "initiative": {
+  "mod": 1,
+  "score": 11
+ },
+ "hp": {
+  "raw": "1 (1d4 − 1)",
+  "average": 1
+ },
+ "speeds": {
+  "caminando": 1.5,
+  "nadar": 6.0
+ },
+ "skills": {
+  "Percepción": 2,
+  "Sigilo": 5
+ },
+ "senses": {
+  "raw": "Percepción pasiva 12",
+  "passivePerception": 12
+ },
+ "languages": [
+  "ninguno"
+ ],
+ "challenge": {
+  "raw": "0 (0 PX; BC +2)",
+  "cr": 0,
+  "xp": 0,
+  "proficiencyBonus": 2
+ },
+ "abilities": {
+  "fue": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "des": {
+   "score": 12,
+   "mod": 1,
+   "save": 1
+  },
+  "con": {
+   "score": 8,
+   "mod": -1,
+   "save": -1
+  },
+  "int": {
+   "score": 1,
+   "mod": -5,
+   "save": -5
+  },
+  "sab": {
+   "score": 10,
+   "mod": 0,
+   "save": 0
+  },
+  "car": {
+   "score": 2,
+   "mod": -4,
+   "save": -4
+  }
+ },
+ "traits": [
+  {
+   "name": "Respirar en el agua",
+   "md": "***Respirar en el agua.*** El caballito de mar solo puede respirar bajo el agua.",
+   "page": 380,
+   "description": "El caballito de mar solo puede respirar bajo el agua."
+  }
+ ],
+ "actions": [
+  {
+   "name": "Carrera burbujeante",
+   "md": "***Carrera burbujeante.*** Mientras está bajo el agua, el caballito de mar se mueve hasta su velocidad nadando sin provocar ataques de oportunidad.",
+   "page": 380,
+   "description": "Mientras está bajo el agua, el caballito de mar se mueve hasta su velocidad nadando sin provocar ataques de oportunidad."
+  }
+ ]
+}

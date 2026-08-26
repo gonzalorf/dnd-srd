@@ -1,0 +1,17 @@
+{
+ "id": "rule.enemigo",
+ "name": "Enemigo",
+ "text": "Una criatura es tu enemiga si se opone a ti en combate, si tiene intención de perjudicarte o si las reglas o tu GM la designan como tal.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 200,
+   "md": "Una criatura es tu enemiga si se opone a ti en combate, si tiene intención de perjudicarte o si las reglas o tu GM la designan como tal.",
+   "text": "Una criatura es tu enemiga si se opone a ti en combate, si tiene intención de perjudicarte o si las reglas o tu GM la designan como tal."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 200
+ }
+}

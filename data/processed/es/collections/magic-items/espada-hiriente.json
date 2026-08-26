@@ -1,0 +1,23 @@
+{
+ "id": "item.espada-hiriente",
+ "name": "Espada hiriente",
+ "category": "Arma",
+ "variant": "cimitarra, espada corta, espada larga, espadón, estoque o guja",
+ "rarity": "raro",
+ "attunement": true,
+ "attunementRequires": null,
+ "subtitle": "Arma (cimitarra, espada corta, espada larga, espadón, estoque o guja), rara (requiere sintonización)",
+ "text": "Cuando aciertes a una criatura con un ataque usando esta arma mágica, el objetivo recibirá 2d6 de daño necrótico adicional y deberá superar una tirada de salvación de Constitución con CD 15 o no podrá recuperar puntos de golpe durante 1 hora. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 254,
+   "md": "Cuando aciertes a una criatura con un ataque usando esta arma mágica, el objetivo recibirá 2d6 de daño necrótico adicional y deberá superar una tirada de salvación de Constitución con CD 15 o no podrá recuperar puntos de golpe durante 1 hora. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto.",
+   "text": "Cuando aciertes a una criatura con un ataque usando esta arma mágica, el objetivo recibirá 2d6 de daño necrótico adicional y deberá superar una tirada de salvación de Constitución con CD 15 o no podrá recuperar puntos de golpe durante 1 hora. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del efecto."
+  }
+ ],
+ "source": {
+  "book": "SRD 5.2.1 es",
+  "page": 254
+ }
+}
