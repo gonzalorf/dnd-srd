@@ -209,3 +209,58 @@ export function chapters() {
         .map((s) => ({ title: s.title ?? "", slug: slugify(s.title ?? ""), page: s.source.page })),
     }));
 }
+
+/**
+ * Destino de una entrada del índice general o del índice de perfiles.
+ *
+ * El índice del PDF es una lista de títulos y páginas; en la web puede ser
+ * navegable. Se resuelve por slug exacto contra las secciones del libro, las
+ * entradas partidas y los perfiles de criatura. Si no hay coincidencia exacta
+ * devuelve null y la entrada se queda como texto: más vale una entrada sin
+ * enlace que un enlace que no lleva a donde dice.
+ */
+let destinosIndice: Map<string, string> | null = null;
+
+function construirDestinos(): Map<string, string> {
+  const destinos = new Map<string, string>();
+  const anotar = (titulo: string, href: string) => {
+    const clave = slugify(titulo);
+    if (clave && !destinos.has(clave)) destinos.set(clave, href);
+  };
+
+  for (const capitulo of chapters()) {
+    anotar(capitulo.title, `/libro/${capitulo.slug}/`);
+    for (const seccion of capitulo.sections) {
+      anotar(seccion.title, `/libro/${capitulo.slug}/${seccion.slug}/`);
+    }
+  }
+  for (const seccion of bookSections()) {
+    if (seccion.split) {
+      // Las secciones muy largas reparten sus entradas en páginas propias, y el
+      // índice de perfiles apunta justo a esas (Aboleth, Ankheg, Arpía…).
+      for (const entrada of seccion.node.children ?? []) {
+        if (entrada.type !== "entry" || !entrada.title) continue;
+        anotar(entrada.title, `/libro/${seccion.slug}/${slugify(entrada.title)}/`);
+      }
+    } else {
+      // Y lo que vive dentro de una página de sección —subsecciones y
+      // entradas— se alcanza por su ancla, que `Bloques.astro` ya emite.
+      for (const [, nodo] of walk(seccion.node)) {
+        if (nodo === seccion.node || !nodo.title) continue;
+        if (nodo.type !== "subsection" && nodo.type !== "entry") continue;
+        anotar(nodo.title, `/libro/${seccion.slug}/#${slugify(nodo.title)}`);
+      }
+    }
+  }
+  // Y las fichas con página propia fuera del libro.
+  for (const [id, ficha] of Object.entries(byId)) {
+    const href = hrefOf(id);
+    if (href && ficha.name) anotar(ficha.name, href);
+  }
+  return destinos;
+}
+
+export function tocHref(titulo: string): string | null {
+  destinosIndice ??= construirDestinos();
+  return destinosIndice.get(slugify(titulo)) ?? null;
+}

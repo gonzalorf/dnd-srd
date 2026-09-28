@@ -39,6 +39,7 @@ EXPECTED = {
                 "backgrounds": 4,
             },
             "crossrefs": 632,
+            "toc": {"entries": 480, "withPage": 480},
         }
     }
 }
@@ -147,6 +148,13 @@ def validate(document: dict, fingerprint: dict, lang: Language, collections_dir=
             len(fingerprint["unknown_styles"]),
             expected["unknown_styles"],
         )
+    if expected.get("toc"):
+        from .toc import summarize as toc_summary
+
+        got = toc_summary(document)
+        check("entradas del índice", got["entries"], expected["toc"]["entries"])
+        check("entradas del índice con página", got["withPage"], expected["toc"]["withPage"])
+
     checks.append(("todos los nodos con página", not missing_page, f"{len(missing_page)} sin página"))
     checks.append(("títulos no vacíos", not empty, f"{len(empty)} vacíos"))
     # Cualquier bloque con texto que no produzca nodo es contenido perdido.

@@ -7,7 +7,7 @@
  * llegasen sin cubrir se marcarían visiblemente en vez de desaparecer: perder
  * contenido en silencio es el error que hay que evitar.
  */
-import { renderMd, slugify, type Node } from "../lib/srd";
+import { tocHref, renderMd, slugify, type Node } from "../lib/srd";
 
 export interface Props {
   nodes: Node[];
@@ -59,8 +59,27 @@ const H = `h${Math.min(depth, 6)}`;
       case "callout":
         return <p class="formula" set:html={renderMd(node.md ?? "", selfId)} />;
 
-      case "toc-entry":
-        return <p class="toc">{node.text}</p>;
+      case "toc":
+        // El índice del PDF une título y página con una fila de puntos. Aquí
+        // se dibuja con una rejilla y una guía punteada de CSS, y cada entrada
+        // enlaza a su sección del sitio cuando el título coincide con una que
+        // existe. Si no coincide, queda como texto: nunca un enlace roto.
+        return (
+          <ol class="indice">
+            {(node.entries ?? []).map((e: any) => {
+              const destino = tocHref(e.title);
+              return (
+                <li class={`n${e.level ?? 2}`}>
+                  {destino
+                    ? <a class="rotulo" href={destino}>{e.title}</a>
+                    : <span class="rotulo">{e.title}</span>}
+                  <span class="guia" aria-hidden="true"></span>
+                  {e.page != null && <span class="folio">{e.page}</span>}
+                </li>
+              );
+            })}
+          </ol>
+        );
 
       case "table":
         return (

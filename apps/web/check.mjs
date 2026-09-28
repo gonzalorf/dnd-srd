@@ -145,6 +145,31 @@ try {
     `${capActivo.trim()} › ${secActiva.trim()}, ${hermanas} secciones desplegadas`,
   );
 
+  // --- el indice general ---------------------------------------------------
+  // En el PDF va a tres columnas y une titulo y pagina con puntos de relleno.
+  // Aqui tiene que ser una lista navegable, sin un solo punto en el texto.
+  await pagina.goto(`${BASE}/libro/contenido/`, { waitUntil: "networkidle" });
+  const filas = await pagina.locator(".indice li").count();
+  const conEnlace = await pagina.locator(".indice a.rotulo").count();
+  const conPuntos = await pagina.locator(".indice .rotulo").evaluateAll(
+    (nodos) => nodos.filter((n) => n.textContent.includes("..")).length,
+  );
+  comprobar(
+    "el indice general sale separado y enlazado",
+    filas === 148 && conEnlace === 147 && conPuntos === 0,
+    `${filas} entradas, ${conEnlace} enlazadas, ${conPuntos} con puntos de relleno`,
+  );
+
+  // Y el enlace tiene que llevar de verdad a la seccion.
+  await pagina.locator(".indice a.rotulo", { hasText: "Las seis características" }).first().click();
+  await pagina.waitForLoadState("networkidle");
+  const destinoIndice = await pagina.locator("h1").innerText();
+  comprobar(
+    "una entrada del indice navega a su seccion",
+    destinoIndice.trim() === "Las seis características",
+    `«${destinoIndice.trim()}»`,
+  );
+
   // --- nada sin renderizar -------------------------------------------------
   // `Bloques.astro` marca con la clase `sin-cubrir` cualquier tipo de nodo que
   // no sepa dibujar, en vez de descartarlo en silencio.

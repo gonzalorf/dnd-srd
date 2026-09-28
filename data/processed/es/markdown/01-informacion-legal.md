@@ -7,5 +7,3 @@ Esta obra incluye material procedente del documento de referencia del sistema 5.
 Te pedimos que no incluyas más atribuciones o reconocimientos a Wizards, su empresa matriz o sus filiales que los indicados anteriormente. Sin embargo, puedes incluir una declaración en tu obra indicando que es “compatible con la quinta edición” o “compatible con la 5E”.
 
 La sección 5 de la licencia CC-BY-4.0 incluye una exención de garantías y una limitación de responsabilidad que limitan nuestras responsabilidades respecto a ti.
-
-Subclase de clérigo: Dominio de la vida.........................................................51 Elaborar pociones de curación.......... 112

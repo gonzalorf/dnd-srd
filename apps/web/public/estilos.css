@@ -437,6 +437,41 @@ tbody tr:nth-child(odd) { background: var(--panel); }
 .relacionado { margin-top: 2rem; font-size: 0.92rem; }
 .relacionado ul { columns: 2; }
 
+/* --- índice general e índice de perfiles --------------------------------- */
+
+/* El PDF une título y página con una fila de puntos, que es maquetación de
+ * papel. Aquí se resuelve con una rejilla de tres columnas y una guía punteada
+ * elástica: se alinea siempre, a cualquier ancho, y el texto que se copia no
+ * arrastra los puntos. */
+.indice {
+  list-style: none;
+  margin: 1.2rem 0;
+  padding: 0;
+  font-family: var(--titulo);
+  font-size: 0.95rem;
+  columns: 2;
+  column-gap: 2.5rem;
+}
+.indice li {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: baseline;
+  gap: 0 0.4rem;
+  padding: 0.12rem 0;
+  break-inside: avoid;
+}
+.indice .rotulo { color: var(--tinta); text-decoration: none; }
+.indice a.rotulo:hover { color: var(--rojo-enlace); text-decoration: underline; }
+.indice .guia { border-bottom: 1px dotted var(--linea); transform: translateY(-0.25em); }
+.indice .folio { color: var(--tenue); font-size: 0.85em; font-variant-numeric: tabular-nums; }
+.indice .n1 { margin-top: 0.7rem; }
+.indice .n1 .rotulo { font-weight: 600; color: var(--rojo); }
+.indice .n1:first-child { margin-top: 0; }
+
+@media (max-width: 46rem) {
+  .indice { columns: 1; }
+}
+
 /* --- buscador ------------------------------------------------------------ */
 
 /* Pagefind se dibuja solo; estas variables lo traen a la paleta de la tapa. */

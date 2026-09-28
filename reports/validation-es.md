@@ -15,6 +15,8 @@ SHA-256: `9ecc1b980016b104004424a4323a65cdd6b396fce4f12b49bc524ebbab8088b5`
 | perfiles de criatura | OK | esperado 336, obtenido 336 |
 | cuadros destacados | OK | esperado 18, obtenido 18 |
 | huellas tipográficas sin clasificar | OK | esperado 0, obtenido 0 |
+| entradas del índice | OK | esperado 480, obtenido 480 |
+| entradas del índice con página | OK | esperado 480, obtenido 480 |
 | todos los nodos con página | OK | 0 sin página |
 | títulos no vacíos | OK | 0 vacíos |
 | bloques sin nodo en el árbol | OK | 0 descartados: {} |
@@ -60,7 +62,7 @@ SHA-256: `9ecc1b980016b104004424a4323a65cdd6b396fce4f12b49bc524ebbab8088b5`
 | list-item | 131 |
 | callout | 47 |
 | step | 22 |
-| toc-entry | 18 |
 | sidebar | 18 |
 | chapter | 16 |
+| toc | 5 |
 | document | 1 |

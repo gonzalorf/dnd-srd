@@ -5,7 +5,7 @@ datos accesible elemento a elemento, con la página de origen de cada fragmento.
 
 Estado: **pipeline completo y sitio web funcionando**. De PDF a colecciones de
 dominio y sitio estático navegable con buscador.
-51/51 pruebas y 31/31 invariantes en verde.
+54/54 pruebas y 33/33 invariantes en verde.
 
 **Todo se regenera desde el PDF con un solo comando.** No hay ni un dato del
 libro escrito a mano: ver [Reproducibilidad](#reproducibilidad).
@@ -50,7 +50,7 @@ maquetación es idéntica en todas las traducciones.
 | `data/processed/es/markdown/` | Un fichero por capítulo, para comparar versiones |
 | `schemas/es/` | Un JSON Schema por colección |
 | `config/ids.es.lock.json` | Identificadores fijados entre versiones |
-| `reports/validation-es.md` | 31 invariantes del árbol y de las colecciones |
+| `reports/validation-es.md` | 33 invariantes del árbol y de las colecciones |
 
 ### Colecciones
 
@@ -269,7 +269,14 @@ directa del PDF no funcione:
     se reparten por el ROL tipográfico —etiqueta en negrita, valor en redonda—,
     que es inmune al problema.
 
-16. **Una entradilla en negrita puede ocupar dos líneas.** La segunda también
+16. **Los dos índices (pp. 2-4) van a TRES columnas**, no a dos como el resto
+    del libro, y unen título y página con una fila de puntos. Con el modelo de
+    dos columnas las entradas de columnas distintas se funden en una sola línea:
+    «Druida……52 Elaborar pergaminos de conjuro…… 112 Lista de…». Tienen un paso
+    propio, `extractor/toc.py`, que los separa y extrae título, página y nivel
+    sin perder el texto original.
+
+17. **Una entradilla en negrita puede ocupar dos líneas.** La segunda también
     empieza en negrita, así que partía el ítem en dos. La pista es que la línea
     anterior acaba en negrita y sin punto: el término sigue abierto.
 
@@ -337,7 +344,7 @@ concretos y revisables:
   cualquiera que `config/styles.yaml` no cubra. Una versión futura con
   tipografía retocada no puede colarse en silencio.
 - **`extract` calcula el SHA-256 del PDF** y lo guarda en `fingerprint.json`.
-- **`validate` comprueba 30 invariantes**: cifras del árbol y de cada colección,
+- **`validate` comprueba 33 invariantes**: cifras del árbol y de cada colección,
   identificadores únicos, conjuros con sus cuatro propiedades y su escuela,
   perfiles con las seis características y tamaño, clases con progresión de 20
   niveles, objetos con categoría y rareza, y el número de referencias cruzadas.
@@ -451,6 +458,11 @@ JavaScript. Sale con código distinto de cero si algo falla.
   más de 40 entradas (conjuros, objetos, monstruos) se convierten en índice y
   cada entrada recibe página propia. Cada título lleva su página del PDF y un
   ancla enlazable.
+- **Los dos índices del libro, navegables.** Las 480 entradas del índice general
+  y del índice de perfiles salen con su título y su página separados, y 477
+  enlazan a su sección o a su ficha. Los puntos de relleno del papel se dibujan
+  con una guía de CSS, así que se alinean a cualquier ancho y el texto que se
+  copia no los arrastra.
 - **1436 enlaces cruzados** repartidos por el texto: las cursivas del SRD que
   nombran un conjuro o un objeto se convierten en enlaces a su ficha. Es lo que
   el PDF no puede hacer.
@@ -463,7 +475,7 @@ JavaScript. Sale con código distinto de cero si algo falla.
   340 KB, no el libro entero. Es insensible a acentos: «sintonizacion» encuentra
   «Sintonización».
 
-Comprobado en un navegador real con Playwright (`npm run check`, 12
+Comprobado en un navegador real con Playwright (`npm run check`, 14
 comprobaciones): la búsqueda devuelve resultados e ignora los acentos, los
 filtros cuentan bien (16 conjuros de nivel 9, 12 de ellos de mago), los enlaces
 cruzados navegan, la portada y su lámina cargan, el índice lateral lista los 16

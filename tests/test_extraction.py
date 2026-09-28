@@ -183,6 +183,58 @@ def test_marcado_inline_valido(document):
     assert not culpables, culpables[:3]
 
 
+# --- pp. 2-4: los dos índices ------------------------------------------------
+
+
+def test_indice_separado_en_entradas(document):
+    """El índice va a TRES columnas y une título y página con puntos.
+
+    El resto del libro va a dos columnas, así que sin un paso propio las
+    entradas de dos columnas distintas se funden en una sola línea.
+    """
+    indices = [n for n in walk(document) if n["type"] == "toc"]
+    assert len(indices) == 5
+
+    general = next(i for i in indices if i["source"]["page"] == 2 and len(i["entries"]) > 100)
+    titulos = [e["title"] for e in general["entries"]]
+    # Orden de lectura: por columnas, no por filas.
+    assert titulos[:4] == [
+        "Información legal", "Cómo jugar", "El ritmo de juego", "Las seis características",
+    ]
+    assert general["entries"][0] == {"title": "Información legal", "page": 1, "level": 1}
+    # El peso de la fuente distingue capítulo de sección.
+    assert general["entries"][2]["level"] == 2
+
+    # Ni puntos de relleno ni números pegados al título.
+    for entrada in general["entries"]:
+        assert ".." not in entrada["title"], entrada
+        assert " " not in entrada["title"], entrada
+
+
+def test_el_indice_conserva_el_texto_original(document):
+    """Limpiar no es perder: el texto tal cual viene del PDF sigue ahí."""
+    general = next(
+        n for n in walk(document)
+        if n["type"] == "toc" and n["source"]["page"] == 2 and len(n["entries"]) > 100
+    )
+    assert "...." in general["text"]
+    assert "Información legal" in general["text"]
+
+
+def test_indice_de_perfiles_completo(document):
+    """Las 330 criaturas del índice de perfiles, con su página.
+
+    Arranca al pie de la página 2, bajo el índice general, y sigue en la 3 y la
+    4: por eso se busca por capítulo y no por número de página.
+    """
+    capitulo = find(document, type="chapter", title="Índice de perfiles")
+    entradas = [e for n in walk(capitulo) if n["type"] == "toc" for e in n["entries"]]
+    assert len(entradas) == 330
+    assert all(e["page"] for e in entradas)
+    assert entradas[0]["title"] == "Aboleth" and entradas[0]["page"] == 283
+    assert entradas[-1]["title"] == "Zombi"
+
+
 # --- p. 5: cuadro destacado y versalitas -------------------------------------
 
 

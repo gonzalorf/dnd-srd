@@ -15,6 +15,7 @@ from collections import Counter
 from .blocks import Block, markdown
 from .config import Language, Styles
 from .textutil import slugify
+from .toc import parse_blocks as parse_toc
 
 CONTENT_TYPES = {
     "paragraph": "paragraph",
@@ -61,6 +62,28 @@ def _source(block: Block) -> dict:
     if len(pages) > 1:
         src["pages"] = pages
     return src
+
+
+def _toc_node(group: list[Block], styles: Styles) -> dict | None:
+    """Índice general e índice de perfiles, ya separados en entradas.
+
+    Es el único sitio del libro con tres columnas y con puntos de relleno entre
+    el título y la página. Ver `extractor/toc.py`: el texto original se conserva
+    íntegro en `text`, no se pierde nada.
+    """
+    entries = parse_toc(group)
+    if not entries:
+        return None
+    node = {
+        "type": "toc",
+        "source": _source(group[0]),
+        "entries": entries,
+        "text": " ".join(b.text for b in group),
+    }
+    pages = sorted({p for b in group for p in b.pages})
+    if len(pages) > 1:
+        node["source"]["pages"] = pages
+    return node
 
 
 def _content_node(block: Block, styles: Styles, ids: IdFactory) -> dict | None:
@@ -172,6 +195,19 @@ def build_document(blocks: list[Block], styles: Styles, lang: Language) -> dict:
                 group.append(blocks[index])
                 index += 1
             container().setdefault("children", []).append(_statblock_node(group, styles, ids))
+            continue
+
+        # --- índice: se agrupa la página entera para respetar el orden
+        # de lectura por columnas
+        if block.type == "toc":
+            page = block.page
+            group = []
+            while index < len(blocks) and blocks[index].type == "toc" and blocks[index].page == page:
+                group.append(blocks[index])
+                index += 1
+            node = _toc_node(group, styles)
+            if node:
+                container().setdefault("children", []).append(node)
             continue
 
         # --- cuadro destacado: agrupa por región

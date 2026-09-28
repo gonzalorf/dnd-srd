@@ -81,7 +81,7 @@
      "md": "La sección 5 de la licencia CC-BY-4.0 incluye una exención de garantías y una limitación de responsabilidad que limitan nuestras responsabilidades respecto a ti."
     },
     {
-     "type": "toc-entry",
+     "type": "toc",
      "source": {
       "page": 2,
       "column": 0,
@@ -92,8 +92,19 @@
        61.2
       ]
      },
-     "text": "Subclase de clérigo: Dominio de la vida.........................................................51 Elaborar pociones de curación.......... 112",
-     "md": "Subclase de clérigo: Dominio de la vida.........................................................51 Elaborar pociones de curación.......... 112"
+     "entries": [
+      {
+       "title": "Subclase de clérigo: Dominio de la vida",
+       "page": 51,
+       "level": 2
+      },
+      {
+       "title": "Elaborar pociones de curación",
+       "page": 112,
+       "level": 2
+      }
+     ],
+     "text": "Subclase de clérigo: Dominio de la vida.........................................................51 Elaborar pociones de curación.......... 112"
     }
    ]
   },
@@ -114,7 +125,7 @@
    },
    "children": [
     {
-     "type": "toc-entry",
+     "type": "toc",
      "source": {
       "page": 2,
       "column": 0,
@@ -125,188 +136,749 @@
        82.2
       ]
      },
-     "text": "Druida................................................................52 Elaborar pergaminos de conjuro...... 112 Lista de conjuros de druida...............55",
-     "md": "Druida................................................................52 Elaborar pergaminos de conjuro...... 112 Lista de conjuros de druida...............55"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       73.8,
-       307.7,
-       92.7
-      ]
-     },
-     "text": "Información legal....................................1 Subclase de druida:",
-     "md": "**Información legal....................................1** Subclase de druida:"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       87.9,
-       372.1,
-       341.1
-      ]
-     },
-     "text": "Cómo jugar.................................................5 Círculo de la tierra...............................57 El ritmo de juego.............................................5 Explorador.......................................................58 Las seis características................................5 Lista de conjuros de explorador......60 Las pruebas con d20......................................6 Subclase de explorador: Cazador....61 Pruebas de característica......................6 Guerrero...........................................................62 Tiradas de salvación.................................7 Subclase de guerrero: Campeón......64 Tiradas de ataque......................................7 Hechicero.........................................................64 Ventaja y desventaja.................................8 Opciones de metamagia.......................67 Competencia......................................................8 Lista de conjuros de hechicero.........68 Acciones............................................................10 Subclase de hechicero: Hechicería Acciones adicionales.............................11 dracónica..................................................70 Reacciones..................................................11 Mago...................................................................71 Interacciones sociales................................11 Lista de conjuros de mago..................73 Exploración.....................................................12 Subclase de mago: Evocador.............76 Visión e iluminación..............................12 Monje..................................................................77 Esconderse.................................................12 Subclase de monje: Guerrero Interactuar con objetos.......................12 de la mano abierta................................80 Peligros........................................................13 Paladín...............................................................81 Viajar.............................................................13 Lista de conjuros de paladín.............84 Combate............................................................14 Subclase de paladín: Juramento Estructura de un combate..................14 de entrega.................................................84 Movimiento y posición.........................15 Pícaro.................................................................86 Atacar............................................................16 Subclase de pícaro: Ladrón................88 Ataques a distancia................................16",
-     "md": "**Cómo jugar.................................................5** Círculo de la tierra...............................57 El ritmo de juego.............................................5 Explorador.......................................................58 Las seis características................................5 Lista de conjuros de explorador......60 Las pruebas con d20......................................6 Subclase de explorador: Cazador....61 Pruebas de característica......................6 Guerrero...........................................................62 Tiradas de salvación.................................7 Subclase de guerrero: Campeón......64 Tiradas de ataque......................................7 Hechicero.........................................................64 Ventaja y desventaja.................................8 Opciones de metamagia.......................67 Competencia......................................................8 Lista de conjuros de hechicero.........68 Acciones............................................................10 Subclase de hechicero: Hechicería Acciones adicionales.............................11 dracónica..................................................70 Reacciones..................................................11 Mago...................................................................71 Interacciones sociales................................11 Lista de conjuros de mago..................73 Exploración.....................................................12 Subclase de mago: Evocador.............76 Visión e iluminación..............................12 Monje..................................................................77 Esconderse.................................................12 Subclase de monje: Guerrero Interactuar con objetos.......................12 de la mano abierta................................80 Peligros........................................................13 Paladín...............................................................81 Viajar.............................................................13 Lista de conjuros de paladín.............84 Combate............................................................14 Subclase de paladín: Juramento Estructura de un combate..................14 de entrega.................................................84 Movimiento y posición.........................15 Pícaro.................................................................86 Atacar............................................................16 Subclase de pícaro: Ladrón................88 Ataques a distancia................................16"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       336.6,
-       372.1,
-       495.3
-      ]
-     },
-     "text": "Orígenes de personaje.......................89 Ataques cuerpo a cuerpo....................17 Trasfondos de personaje..........................89 Combate montado...................................17 Acólito...........................................................89 Combate bajo el agua............................17 Criminal.......................................................89 Daño y curación............................................17 Erudito.........................................................89 Puntos de golpe........................................17 Soldado.........................................................89 Tiradas de daño.......................................18 Especies de personaje................................89 Críticos.........................................................18 Dracónido....................................................90 Tiradas de salvación y daño..............18 Elfo.................................................................90 Tipos de daño............................................18 Enano............................................................91 Resistencia y vulnerabilidad.............18 Gnomo...........................................................91 Inmunidad..................................................19 Goliat.............................................................92 Curación.......................................................19 Humano........................................................92 Llegar a 0 puntos de golpe..................19 Mediano.......................................................92 Puntos de golpe temporales..............20 Orco................................................................92",
-     "md": "**Orígenes de personaje.......................89** Ataques cuerpo a cuerpo....................17 Trasfondos de personaje..........................89 Combate montado...................................17 Acólito...........................................................89 Combate bajo el agua............................17 Criminal.......................................................89 Daño y curación............................................17 Erudito.........................................................89 Puntos de golpe........................................17 Soldado.........................................................89 Tiradas de daño.......................................18 Especies de personaje................................89 Críticos.........................................................18 Dracónido....................................................90 Tiradas de salvación y daño..............18 Elfo.................................................................90 Tipos de daño............................................18 Enano............................................................91 Resistencia y vulnerabilidad.............18 Gnomo...........................................................91 Inmunidad..................................................19 Goliat.............................................................92 Curación.......................................................19 Humano........................................................92 Llegar a 0 puntos de golpe..................19 Mediano.......................................................92 Puntos de golpe temporales..............20 Orco................................................................92"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       490.5,
-       372.1,
-       512.7
-      ]
-     },
-     "text": "Creación de personajes...................... 21 Tiefling.........................................................93 Elegir una hoja de personaje..................21",
-     "md": "**Creación de personajes...................... 21** Tiefling.........................................................93 Elegir una hoja de personaje..................21"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       508.2,
-       372.1,
-       572.4
-      ]
-     },
-     "text": "Dotes.........................................................94 Crear tu personaje.......................................21 Descripciones de dotes.............................94 Progresión de niveles................................25 Dotes de origen........................................94 Comenzar en niveles superiores..........27 Dotes generales........................................94 Multiclase.........................................................27 Dotes de estilo de combate................95 Bagatelas..........................................................29 Dotes de don épico..................................95",
-     "md": "**Dotes.........................................................94** Crear tu personaje.......................................21 Descripciones de dotes.............................94 Progresión de niveles................................25 Dotes de origen........................................94 Comenzar en niveles superiores..........27 Dotes generales........................................94 Multiclase.........................................................27 Dotes de estilo de combate................95 Bagatelas..........................................................29 Dotes de don épico..................................95"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 0,
-      "bbox": [
-       54.0,
-       567.6,
-       372.1,
-       726.3
-      ]
-     },
-     "text": "Clases........................................................ 32 Equipo.......................................................97 Bárbaro.............................................................32 Monedas............................................................97 Subclase de bárbaro: Armas.................................................................97 Senda del berserker.............................34 Propiedades...............................................97 Bardo..................................................................35 Propiedades de maestría....................98 Lista de conjuros de bardo.................37 Armaduras................................................... 100 Subclase de bardo: Herramientas.............................................. 101 Colegio del conocimiento.................39 Equipo de aventureros........................... 102 Brujo...................................................................40 Monturas y vehículos.............................. 109 Opciones de invocación Gastos relativos al nivel de vida.........110 sobrenatural...........................................42 Comida, bebida y alojamiento..............110 Lista de conjuros de brujo..................45 Asalariados.................................................. 111 Subclase de brujo: Patrón infernal...46 Lanzamiento de conjuros..................... 111 Clérigo................................................................47 Objetos mágicos......................................... 111 Lista de conjuros de clérigo...............49",
-     "md": "**Clases........................................................ 32 Equipo.......................................................97** Bárbaro.............................................................32 Monedas............................................................97 Subclase de bárbaro: Armas.................................................................97 Senda del berserker.............................34 Propiedades...............................................97 Bardo..................................................................35 Propiedades de maestría....................98 Lista de conjuros de bardo.................37 Armaduras................................................... 100 Subclase de bardo: Herramientas.............................................. 101 Colegio del conocimiento.................39 Equipo de aventureros........................... 102 Brujo...................................................................40 Monturas y vehículos.............................. 109 Opciones de invocación Gastos relativos al nivel de vida.........110 sobrenatural...........................................42 Comida, bebida y alojamiento..............110 Lista de conjuros de brujo..................45 Asalariados.................................................. 111 Subclase de brujo: Patrón infernal...46 Lanzamiento de conjuros..................... 111 Clérigo................................................................47 Objetos mágicos......................................... 111 Lista de conjuros de clérigo...............49"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       39.0,
-       536.9,
-       50.7
-      ]
-     },
-     "text": "Fabricar objetos no mágicos................ 112",
-     "md": "Fabricar objetos no mágicos................ 112"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       74.1,
-       536.9,
-       117.3
-      ]
-     },
-     "text": "Conjuros.................................................114 Obtener conjuros........................................114 Lanzar conjuros..........................................114 Descripciones de conjuros................... 118",
-     "md": "**Conjuros.................................................114** Obtener conjuros........................................114 Lanzar conjuros..........................................114 Descripciones de conjuros................... 118"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       119.7,
-       536.9,
-       240.0
-      ]
-     },
-     "text": "Glosario de reglas..............................194 Herramientas del juego...................211 Ritmo de viaje............................................. 211 Crear un trasfondo................................... 211 Maldiciones y enfermedades mágicas...................................................... 212 Efectos ambientales..................................214 Miedo y estrés psicológico................... 215 Veneno............................................................ 216 Trampas......................................................... 218 Encuentros de combate......................... 221",
-     "md": "**Glosario de reglas..............................194 Herramientas del juego...................211** Ritmo de viaje............................................. 211 Crear un trasfondo................................... 211 Maldiciones y enfermedades mágicas...................................................... 212 Efectos ambientales..................................214 Miedo y estrés psicológico................... 215 Veneno............................................................ 216 Trampas......................................................... 218 Encuentros de combate......................... 221"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       242.4,
-       536.9,
-       348.6
-      ]
-     },
-     "text": "Objetos mágicos..................................223 Categorías de objetos mágicos...........223 Rareza de los objetos mágicos............224 Activar un objeto mágico......................225 “El siguiente amanecer”........................225 Objetos malditos........................................225 Resistencia de los objetos mágicos...225 Fabricar objetos mágicos......................226 Objetos mágicos conscientes..............226 Objetos mágicos de la A a la Z.............228",
-     "md": "**Objetos mágicos..................................223** Categorías de objetos mágicos...........223 Rareza de los objetos mágicos............224 Activar un objeto mágico......................225 “El siguiente amanecer”........................225 Objetos malditos........................................225 Resistencia de los objetos mágicos...225 Fabricar objetos mágicos......................226 Objetos mágicos conscientes..............226 Objetos mágicos de la A a la Z.............228"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       351.0,
-       536.9,
-       394.2
-      ]
-     },
-     "text": "Monstruos.............................................278 Descripción general de los perfiles.... 278 Partes de un perfil.................................... 278 Interpretar a un monstruo...................279",
-     "md": "**Monstruos.............................................278** Descripción general de los perfiles.... 278 Partes de un perfil.................................... 278 Interpretar a un monstruo...................279"
-    },
-    {
-     "type": "toc-entry",
-     "source": {
-      "page": 2,
-      "column": 1,
-      "bbox": [
-       383.9,
-       396.6,
-       536.9,
-       422.4
-      ]
-     },
-     "text": "Monstruos de la A a la Z...................283 Animales................................................376",
-     "md": "**Monstruos de la A a la Z...................283 Animales................................................376**"
+     "entries": [
+      {
+       "title": "Información legal",
+       "page": 1,
+       "level": 1
+      },
+      {
+       "title": "Cómo jugar",
+       "page": 5,
+       "level": 1
+      },
+      {
+       "title": "El ritmo de juego",
+       "page": 5,
+       "level": 2
+      },
+      {
+       "title": "Las seis características",
+       "page": 5,
+       "level": 2
+      },
+      {
+       "title": "Las pruebas con d20",
+       "page": 6,
+       "level": 2
+      },
+      {
+       "title": "Pruebas de característica",
+       "page": 6,
+       "level": 2
+      },
+      {
+       "title": "Tiradas de salvación",
+       "page": 7,
+       "level": 2
+      },
+      {
+       "title": "Tiradas de ataque",
+       "page": 7,
+       "level": 2
+      },
+      {
+       "title": "Ventaja y desventaja",
+       "page": 8,
+       "level": 2
+      },
+      {
+       "title": "Competencia",
+       "page": 8,
+       "level": 2
+      },
+      {
+       "title": "Acciones",
+       "page": 10,
+       "level": 2
+      },
+      {
+       "title": "Acciones adicionales",
+       "page": 11,
+       "level": 2
+      },
+      {
+       "title": "Reacciones",
+       "page": 11,
+       "level": 2
+      },
+      {
+       "title": "Interacciones sociales",
+       "page": 11,
+       "level": 2
+      },
+      {
+       "title": "Exploración",
+       "page": 12,
+       "level": 2
+      },
+      {
+       "title": "Visión e iluminación",
+       "page": 12,
+       "level": 2
+      },
+      {
+       "title": "Esconderse",
+       "page": 12,
+       "level": 2
+      },
+      {
+       "title": "Interactuar con objetos",
+       "page": 12,
+       "level": 2
+      },
+      {
+       "title": "Peligros",
+       "page": 13,
+       "level": 2
+      },
+      {
+       "title": "Viajar",
+       "page": 13,
+       "level": 2
+      },
+      {
+       "title": "Combate",
+       "page": 14,
+       "level": 2
+      },
+      {
+       "title": "Estructura de un combate",
+       "page": 14,
+       "level": 2
+      },
+      {
+       "title": "Movimiento y posición",
+       "page": 15,
+       "level": 2
+      },
+      {
+       "title": "Atacar",
+       "page": 16,
+       "level": 2
+      },
+      {
+       "title": "Ataques a distancia",
+       "page": 16,
+       "level": 2
+      },
+      {
+       "title": "Ataques cuerpo a cuerpo",
+       "page": 17,
+       "level": 2
+      },
+      {
+       "title": "Combate montado",
+       "page": 17,
+       "level": 2
+      },
+      {
+       "title": "Combate bajo el agua",
+       "page": 17,
+       "level": 2
+      },
+      {
+       "title": "Daño y curación",
+       "page": 17,
+       "level": 2
+      },
+      {
+       "title": "Puntos de golpe",
+       "page": 17,
+       "level": 2
+      },
+      {
+       "title": "Tiradas de daño",
+       "page": 18,
+       "level": 2
+      },
+      {
+       "title": "Críticos",
+       "page": 18,
+       "level": 2
+      },
+      {
+       "title": "Tiradas de salvación y daño",
+       "page": 18,
+       "level": 2
+      },
+      {
+       "title": "Tipos de daño",
+       "page": 18,
+       "level": 2
+      },
+      {
+       "title": "Resistencia y vulnerabilidad",
+       "page": 18,
+       "level": 2
+      },
+      {
+       "title": "Inmunidad",
+       "page": 19,
+       "level": 2
+      },
+      {
+       "title": "Curación",
+       "page": 19,
+       "level": 2
+      },
+      {
+       "title": "Llegar a 0 puntos de golpe",
+       "page": 19,
+       "level": 2
+      },
+      {
+       "title": "Puntos de golpe temporales",
+       "page": 20,
+       "level": 2
+      },
+      {
+       "title": "Creación de personajes",
+       "page": 21,
+       "level": 1
+      },
+      {
+       "title": "Elegir una hoja de personaje",
+       "page": 21,
+       "level": 2
+      },
+      {
+       "title": "Crear tu personaje",
+       "page": 21,
+       "level": 2
+      },
+      {
+       "title": "Progresión de niveles",
+       "page": 25,
+       "level": 2
+      },
+      {
+       "title": "Comenzar en niveles superiores",
+       "page": 27,
+       "level": 2
+      },
+      {
+       "title": "Multiclase",
+       "page": 27,
+       "level": 2
+      },
+      {
+       "title": "Bagatelas",
+       "page": 29,
+       "level": 2
+      },
+      {
+       "title": "Clases",
+       "page": 32,
+       "level": 1
+      },
+      {
+       "title": "Bárbaro",
+       "page": 32,
+       "level": 2
+      },
+      {
+       "title": "Subclase de bárbaro: Senda del berserker",
+       "page": 34,
+       "level": 2
+      },
+      {
+       "title": "Bardo",
+       "page": 35,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de bardo",
+       "page": 37,
+       "level": 2
+      },
+      {
+       "title": "Subclase de bardo: Colegio del conocimiento",
+       "page": 39,
+       "level": 2
+      },
+      {
+       "title": "Brujo",
+       "page": 40,
+       "level": 2
+      },
+      {
+       "title": "Opciones de invocación sobrenatural",
+       "page": 42,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de brujo",
+       "page": 45,
+       "level": 2
+      },
+      {
+       "title": "Subclase de brujo: Patrón infernal",
+       "page": 46,
+       "level": 2
+      },
+      {
+       "title": "Clérigo",
+       "page": 47,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de clérigo",
+       "page": 49,
+       "level": 2
+      },
+      {
+       "title": "Druida",
+       "page": 52,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de druida",
+       "page": 55,
+       "level": 2
+      },
+      {
+       "title": "Subclase de druida: Círculo de la tierra",
+       "page": 57,
+       "level": 2
+      },
+      {
+       "title": "Explorador",
+       "page": 58,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de explorador",
+       "page": 60,
+       "level": 2
+      },
+      {
+       "title": "Subclase de explorador: Cazador",
+       "page": 61,
+       "level": 2
+      },
+      {
+       "title": "Guerrero",
+       "page": 62,
+       "level": 2
+      },
+      {
+       "title": "Subclase de guerrero: Campeón",
+       "page": 64,
+       "level": 2
+      },
+      {
+       "title": "Hechicero",
+       "page": 64,
+       "level": 2
+      },
+      {
+       "title": "Opciones de metamagia",
+       "page": 67,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de hechicero",
+       "page": 68,
+       "level": 2
+      },
+      {
+       "title": "Subclase de hechicero: Hechicería dracónica",
+       "page": 70,
+       "level": 2
+      },
+      {
+       "title": "Mago",
+       "page": 71,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de mago",
+       "page": 73,
+       "level": 2
+      },
+      {
+       "title": "Subclase de mago: Evocador",
+       "page": 76,
+       "level": 2
+      },
+      {
+       "title": "Monje",
+       "page": 77,
+       "level": 2
+      },
+      {
+       "title": "Subclase de monje: Guerrero de la mano abierta",
+       "page": 80,
+       "level": 2
+      },
+      {
+       "title": "Paladín",
+       "page": 81,
+       "level": 2
+      },
+      {
+       "title": "Lista de conjuros de paladín",
+       "page": 84,
+       "level": 2
+      },
+      {
+       "title": "Subclase de paladín: Juramento de entrega",
+       "page": 84,
+       "level": 2
+      },
+      {
+       "title": "Pícaro",
+       "page": 86,
+       "level": 2
+      },
+      {
+       "title": "Subclase de pícaro: Ladrón",
+       "page": 88,
+       "level": 2
+      },
+      {
+       "title": "Orígenes de personaje",
+       "page": 89,
+       "level": 1
+      },
+      {
+       "title": "Trasfondos de personaje",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Acólito",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Criminal",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Erudito",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Soldado",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Especies de personaje",
+       "page": 89,
+       "level": 2
+      },
+      {
+       "title": "Dracónido",
+       "page": 90,
+       "level": 2
+      },
+      {
+       "title": "Elfo",
+       "page": 90,
+       "level": 2
+      },
+      {
+       "title": "Enano",
+       "page": 91,
+       "level": 2
+      },
+      {
+       "title": "Gnomo",
+       "page": 91,
+       "level": 2
+      },
+      {
+       "title": "Goliat",
+       "page": 92,
+       "level": 2
+      },
+      {
+       "title": "Humano",
+       "page": 92,
+       "level": 2
+      },
+      {
+       "title": "Mediano",
+       "page": 92,
+       "level": 2
+      },
+      {
+       "title": "Orco",
+       "page": 92,
+       "level": 2
+      },
+      {
+       "title": "Tiefling",
+       "page": 93,
+       "level": 2
+      },
+      {
+       "title": "Dotes",
+       "page": 94,
+       "level": 1
+      },
+      {
+       "title": "Descripciones de dotes",
+       "page": 94,
+       "level": 2
+      },
+      {
+       "title": "Dotes de origen",
+       "page": 94,
+       "level": 2
+      },
+      {
+       "title": "Dotes generales",
+       "page": 94,
+       "level": 2
+      },
+      {
+       "title": "Dotes de estilo de combate",
+       "page": 95,
+       "level": 2
+      },
+      {
+       "title": "Dotes de don épico",
+       "page": 95,
+       "level": 2
+      },
+      {
+       "title": "Equipo",
+       "page": 97,
+       "level": 1
+      },
+      {
+       "title": "Monedas",
+       "page": 97,
+       "level": 2
+      },
+      {
+       "title": "Armas",
+       "page": 97,
+       "level": 2
+      },
+      {
+       "title": "Propiedades",
+       "page": 97,
+       "level": 2
+      },
+      {
+       "title": "Propiedades de maestría",
+       "page": 98,
+       "level": 2
+      },
+      {
+       "title": "Armaduras",
+       "page": 100,
+       "level": 2
+      },
+      {
+       "title": "Herramientas",
+       "page": 101,
+       "level": 2
+      },
+      {
+       "title": "Equipo de aventureros",
+       "page": 102,
+       "level": 2
+      },
+      {
+       "title": "Monturas y vehículos",
+       "page": 109,
+       "level": 2
+      },
+      {
+       "title": "Gastos relativos al nivel de vida",
+       "page": 110,
+       "level": 2
+      },
+      {
+       "title": "Comida, bebida y alojamiento",
+       "page": 110,
+       "level": 2
+      },
+      {
+       "title": "Asalariados",
+       "page": 111,
+       "level": 2
+      },
+      {
+       "title": "Lanzamiento de conjuros",
+       "page": 111,
+       "level": 2
+      },
+      {
+       "title": "Objetos mágicos",
+       "page": 111,
+       "level": 2
+      },
+      {
+       "title": "Fabricar objetos no mágicos",
+       "page": 112,
+       "level": 2
+      },
+      {
+       "title": "Elaborar pergaminos de conjuro",
+       "page": 112,
+       "level": 2
+      },
+      {
+       "title": "Conjuros",
+       "page": 114,
+       "level": 1
+      },
+      {
+       "title": "Obtener conjuros",
+       "page": 114,
+       "level": 2
+      },
+      {
+       "title": "Lanzar conjuros",
+       "page": 114,
+       "level": 2
+      },
+      {
+       "title": "Descripciones de conjuros",
+       "page": 118,
+       "level": 2
+      },
+      {
+       "title": "Glosario de reglas",
+       "page": 194,
+       "level": 1
+      },
+      {
+       "title": "Herramientas del juego",
+       "page": 211,
+       "level": 1
+      },
+      {
+       "title": "Ritmo de viaje",
+       "page": 211,
+       "level": 2
+      },
+      {
+       "title": "Crear un trasfondo",
+       "page": 211,
+       "level": 2
+      },
+      {
+       "title": "Maldiciones y enfermedades mágicas",
+       "page": 212,
+       "level": 2
+      },
+      {
+       "title": "Efectos ambientales",
+       "page": 214,
+       "level": 2
+      },
+      {
+       "title": "Miedo y estrés psicológico",
+       "page": 215,
+       "level": 2
+      },
+      {
+       "title": "Veneno",
+       "page": 216,
+       "level": 2
+      },
+      {
+       "title": "Trampas",
+       "page": 218,
+       "level": 2
+      },
+      {
+       "title": "Encuentros de combate",
+       "page": 221,
+       "level": 2
+      },
+      {
+       "title": "Objetos mágicos",
+       "page": 223,
+       "level": 1
+      },
+      {
+       "title": "Categorías de objetos mágicos",
+       "page": 223,
+       "level": 2
+      },
+      {
+       "title": "Rareza de los objetos mágicos",
+       "page": 224,
+       "level": 2
+      },
+      {
+       "title": "Activar un objeto mágico",
+       "page": 225,
+       "level": 2
+      },
+      {
+       "title": "“El siguiente amanecer”",
+       "page": 225,
+       "level": 2
+      },
+      {
+       "title": "Objetos malditos",
+       "page": 225,
+       "level": 2
+      },
+      {
+       "title": "Resistencia de los objetos mágicos",
+       "page": 225,
+       "level": 2
+      },
+      {
+       "title": "Fabricar objetos mágicos",
+       "page": 226,
+       "level": 2
+      },
+      {
+       "title": "Objetos mágicos conscientes",
+       "page": 226,
+       "level": 2
+      },
+      {
+       "title": "Objetos mágicos de la A a la Z",
+       "page": 228,
+       "level": 2
+      },
+      {
+       "title": "Monstruos",
+       "page": 278,
+       "level": 1
+      },
+      {
+       "title": "Descripción general de los perfiles",
+       "page": 278,
+       "level": 2
+      },
+      {
+       "title": "Partes de un perfil",
+       "page": 278,
+       "level": 2
+      },
+      {
+       "title": "Interpretar a un monstruo",
+       "page": 279,
+       "level": 2
+      },
+      {
+       "title": "Monstruos de la A a la Z",
+       "page": 283,
+       "level": 1
+      },
+      {
+       "title": "Animales",
+       "page": 376,
+       "level": 1
+      }
+     ],
+     "text": "Druida................................................................52 Elaborar pergaminos de conjuro...... 112 Lista de conjuros de druida...............55 Información legal....................................1 Subclase de druida: Cómo jugar.................................................5 Círculo de la tierra...............................57 El ritmo de juego.............................................5 Explorador.......................................................58 Las seis características................................5 Lista de conjuros de explorador......60 Las pruebas con d20......................................6 Subclase de explorador: Cazador....61 Pruebas de característica......................6 Guerrero...........................................................62 Tiradas de salvación.................................7 Subclase de guerrero: Campeón......64 Tiradas de ataque......................................7 Hechicero.........................................................64 Ventaja y desventaja.................................8 Opciones de metamagia.......................67 Competencia......................................................8 Lista de conjuros de hechicero.........68 Acciones............................................................10 Subclase de hechicero: Hechicería Acciones adicionales.............................11 dracónica..................................................70 Reacciones..................................................11 Mago...................................................................71 Interacciones sociales................................11 Lista de conjuros de mago..................73 Exploración.....................................................12 Subclase de mago: Evocador.............76 Visión e iluminación..............................12 Monje..................................................................77 Esconderse.................................................12 Subclase de monje: Guerrero Interactuar con objetos.......................12 de la mano abierta................................80 Peligros........................................................13 Paladín...............................................................81 Viajar.............................................................13 Lista de conjuros de paladín.............84 Combate............................................................14 Subclase de paladín: Juramento Estructura de un combate..................14 de entrega.................................................84 Movimiento y posición.........................15 Pícaro.................................................................86 Atacar............................................................16 Subclase de pícaro: Ladrón................88 Ataques a distancia................................16 Orígenes de personaje.......................89 Ataques cuerpo a cuerpo....................17 Trasfondos de personaje..........................89 Combate montado...................................17 Acólito...........................................................89 Combate bajo el agua............................17 Criminal.......................................................89 Daño y curación............................................17 Erudito.........................................................89 Puntos de golpe........................................17 Soldado.........................................................89 Tiradas de daño.......................................18 Especies de personaje................................89 Críticos.........................................................18 Dracónido....................................................90 Tiradas de salvación y daño..............18 Elfo.................................................................90 Tipos de daño............................................18 Enano............................................................91 Resistencia y vulnerabilidad.............18 Gnomo...........................................................91 Inmunidad..................................................19 Goliat.............................................................92 Curación.......................................................19 Humano........................................................92 Llegar a 0 puntos de golpe..................19 Mediano.......................................................92 Puntos de golpe temporales..............20 Orco................................................................92 Creación de personajes...................... 21 Tiefling.........................................................93 Elegir una hoja de personaje..................21 Dotes.........................................................94 Crear tu personaje.......................................21 Descripciones de dotes.............................94 Progresión de niveles................................25 Dotes de origen........................................94 Comenzar en niveles superiores..........27 Dotes generales........................................94 Multiclase.........................................................27 Dotes de estilo de combate................95 Bagatelas..........................................................29 Dotes de don épico..................................95 Clases........................................................ 32 Equipo.......................................................97 Bárbaro.............................................................32 Monedas............................................................97 Subclase de bárbaro: Armas.................................................................97 Senda del berserker.............................34 Propiedades...............................................97 Bardo..................................................................35 Propiedades de maestría....................98 Lista de conjuros de bardo.................37 Armaduras................................................... 100 Subclase de bardo: Herramientas.............................................. 101 Colegio del conocimiento.................39 Equipo de aventureros........................... 102 Brujo...................................................................40 Monturas y vehículos.............................. 109 Opciones de invocación Gastos relativos al nivel de vida.........110 sobrenatural...........................................42 Comida, bebida y alojamiento..............110 Lista de conjuros de brujo..................45 Asalariados.................................................. 111 Subclase de brujo: Patrón infernal...46 Lanzamiento de conjuros..................... 111 Clérigo................................................................47 Objetos mágicos......................................... 111 Lista de conjuros de clérigo...............49 Fabricar objetos no mágicos................ 112 Conjuros.................................................114 Obtener conjuros........................................114 Lanzar conjuros..........................................114 Descripciones de conjuros................... 118 Glosario de reglas..............................194 Herramientas del juego...................211 Ritmo de viaje............................................. 211 Crear un trasfondo................................... 211 Maldiciones y enfermedades mágicas...................................................... 212 Efectos ambientales..................................214 Miedo y estrés psicológico................... 215 Veneno............................................................ 216 Trampas......................................................... 218 Encuentros de combate......................... 221 Objetos mágicos..................................223 Categorías de objetos mágicos...........223 Rareza de los objetos mágicos............224 Activar un objeto mágico......................225 “El siguiente amanecer”........................225 Objetos malditos........................................225 Resistencia de los objetos mágicos...225 Fabricar objetos mágicos......................226 Objetos mágicos conscientes..............226 Objetos mágicos de la A a la Z.............228 Monstruos.............................................278 Descripción general de los perfiles.... 278 Partes de un perfil.................................... 278 Interpretar a un monstruo...................279 Monstruos de la A a la Z...................283 Animales................................................376"
     }
    ]
   },
@@ -327,7 +899,7 @@
    },
    "children": [
     {
-     "type": "toc-entry",
+     "type": "toc",
      "source": {
       "page": 2,
       "column": 1,
@@ -338,11 +910,117 @@
        720.3
       ]
      },
-     "text": "Aboleth...........................................................283 Acechador invisible..................................283 Acechador osgo..........................................356 Águila...............................................................376 Águila gigante..............................................376 Alce....................................................................376 Alce gigante.................................................377 Alfombra asfixiante animada.............355 Alosaurio.......................................................377 Ankheg...........................................................284 Anquilosaurio.............................................377 Aparición.......................................................284 Araña...............................................................377 Araña de fase...............................................284 Araña gigante............................................. 378 Árbol despertado......................................360 Arbusto despertado.................................360 Archelon........................................................ 378 Archimago.................................................... 347 Armadura animada..................................355 Arpía................................................................285",
-     "md": "Aboleth...........................................................283 Acechador invisible..................................283 Acechador osgo..........................................356 Águila...............................................................376 Águila gigante..............................................376 Alce....................................................................376 Alce gigante.................................................377 Alfombra asfixiante animada.............355 Alosaurio.......................................................377 Ankheg...........................................................284 Anquilosaurio.............................................377 Aparición.......................................................284 Araña...............................................................377 Araña de fase...............................................284 Araña gigante............................................. 378 Árbol despertado......................................360 Arbusto despertado.................................360 Archelon........................................................ 378 Archimago.................................................... 347 Armadura animada..................................355 Arpía................................................................285"
+     "entries": [
+      {
+       "title": "Aboleth",
+       "page": 283,
+       "level": 2
+      },
+      {
+       "title": "Acechador invisible",
+       "page": 283,
+       "level": 2
+      },
+      {
+       "title": "Acechador osgo",
+       "page": 356,
+       "level": 2
+      },
+      {
+       "title": "Águila",
+       "page": 376,
+       "level": 2
+      },
+      {
+       "title": "Águila gigante",
+       "page": 376,
+       "level": 2
+      },
+      {
+       "title": "Alce",
+       "page": 376,
+       "level": 2
+      },
+      {
+       "title": "Alce gigante",
+       "page": 377,
+       "level": 2
+      },
+      {
+       "title": "Alfombra asfixiante animada",
+       "page": 355,
+       "level": 2
+      },
+      {
+       "title": "Alosaurio",
+       "page": 377,
+       "level": 2
+      },
+      {
+       "title": "Ankheg",
+       "page": 284,
+       "level": 2
+      },
+      {
+       "title": "Anquilosaurio",
+       "page": 377,
+       "level": 2
+      },
+      {
+       "title": "Aparición",
+       "page": 284,
+       "level": 2
+      },
+      {
+       "title": "Araña",
+       "page": 377,
+       "level": 2
+      },
+      {
+       "title": "Araña de fase",
+       "page": 284,
+       "level": 2
+      },
+      {
+       "title": "Araña gigante",
+       "page": 378,
+       "level": 2
+      },
+      {
+       "title": "Árbol despertado",
+       "page": 360,
+       "level": 2
+      },
+      {
+       "title": "Arbusto despertado",
+       "page": 360,
+       "level": 2
+      },
+      {
+       "title": "Archelon",
+       "page": 378,
+       "level": 2
+      },
+      {
+       "title": "Archimago",
+       "page": 347,
+       "level": 2
+      },
+      {
+       "title": "Armadura animada",
+       "page": 355,
+       "level": 2
+      },
+      {
+       "title": "Arpía",
+       "page": 285,
+       "level": 2
+      }
+     ],
+     "text": "Aboleth...........................................................283 Acechador invisible..................................283 Acechador osgo..........................................356 Águila...............................................................376 Águila gigante..............................................376 Alce....................................................................376 Alce gigante.................................................377 Alfombra asfixiante animada.............355 Alosaurio.......................................................377 Ankheg...........................................................284 Anquilosaurio.............................................377 Aparición.......................................................284 Araña...............................................................377 Araña de fase...............................................284 Araña gigante............................................. 378 Árbol despertado......................................360 Arbusto despertado.................................360 Archelon........................................................ 378 Archimago.................................................... 347 Armadura animada..................................355 Arpía................................................................285"
     },
     {
-     "type": "toc-entry",
+     "type": "toc",
      "source": {
       "page": 3,
       "column": 0,
@@ -353,26 +1031,987 @@
        723.7
       ]
      },
-     "text": "Asesino...........................................................285 Djinn................................................................296 Avispa gigante............................................ 378 Doppelganger..............................................297 Babuino.......................................................... 378 Dragón azul adulto...................................298 Balor................................................................286 Dragón azul anciano................................299 Bandido..........................................................286 Dragón azul joven.....................................298 Basilisco.........................................................287 Dragón blanco adulto..............................300 Batidor............................................................287 Dragón blanco anciano...........................300 Behir................................................................287 Dragón blanco joven................................299 Berserker......................................................288 Dragón de bronce adulto.......................302 Bocón barbotante.....................................288 Dragón de bronce anciano....................302 Broza movediza.........................................289 Dragón de bronce joven......................... 301 Búho................................................................. 379 Dragón de cobre adulto..........................303 Búho gigante............................................... 379 Dragón de cobre anciano......................304 Buitre.............................................................. 379 Dragón de cobre joven............................303 Buitre gigante............................................. 379 Dragón de oro adulto..............................306 Bulette............................................................289 Dragón de oro anciano...........................306 Caballero.......................................................289 Dragón de oro joven.................................305 Caballito de mar........................................380 Dragón de oropel adulto........................308 Caballito de mar gigante.......................380 Dragón de oropel anciano.....................308 Caballo de guerra......................................380 Dragón de oropel joven..........................307 Caballo de guerra esqueleto................ 323 Dragón de plata adulto............................310 Caballo de monta.......................................380 Dragón de plata anciano.........................310 Caballo de tiro............................................380 Dragón de plata joven.............................309 Cabra...............................................................381 Dragón negro adulto............................... 312 Cabra gigante..............................................381 Dragón negro anciano............................ 312 Camello...........................................................381 Dragón negro joven.................................. 311 Cangrejo.........................................................381 Dragón rojo adulto................................... 313 Cangrejo gigante.......................................381 Dragón rojo anciano.................................314 Capitán bandido........................................287 Dragón rojo joven...................................... 313 Capitán de la guardia..............................335 Dragón tortuga........................................... 316 Capitán hobgoblin.....................................338 Dragón verde adulto................................ 315 Capitán pirata............................................. 359 Dragón verde anciano............................. 316 Centinela azer.............................................286 Dragón verde joven.................................. 315 Chacal..............................................................382 Draña................................................................317 Chuul...............................................................290 Dretch..............................................................317 Ciempiés gigante.......................................382 Dríade..............................................................317 Cieno gris......................................................290 Druida............................................................. 318 Ciervo..............................................................382 Duende........................................................... 318 Cocatriz..........................................................291 Elefante..........................................................383 Cocodrilo.......................................................382 Elemental de agua.................................... 318 Cocodrilo gigante......................................382 Elemental de aire.......................................319 Comadreja.....................................................383 Elemental de fuego....................................319 Comadreja gigante...................................383 Elemental de tierra.................................. 320 Couatl..............................................................291 Engendro vampírico................................373 Cría de dragón azul..................................298 Enjambre de cuervos...............................384 Cría de dragón blanco.............................299 Enjambre de garras reptantes........... 326 Cría de dragón de bronce...................... 301 Enjambre de insectos..............................384 Cría de dragón de cobre.........................303 Enjambre de murciélagos.....................384 Cría de dragón de oro..............................305 Enjambre de pirañas...............................384 Cría de dragón de oropel.......................307 Enjambre de ratas.....................................385 Cría de dragón de plata..........................309 Enjambre de serpientes venenosas...385 Cría de dragón negro............................... 311 Ent..................................................................... 320 Cría de dragón rojo................................... 313 Erinia............................................................... 320 Cría de dragón verde................................314 Escarabajo de fuego gigante................385 Cubo gelatinoso..........................................292 Escorpión......................................................385 Cuervo.............................................................383 Escorpión gigante.....................................386 Deva.................................................................292 Esfinge de las maravillas...................... 321 Diablillo..........................................................293 Esfinge del conocimiento...................... 321 Diablo astado..............................................293 Esfinge del valor........................................ 322 Diablo barbado...........................................293 Espada voladora animada....................355 Diablo de las cadenas..............................294 Espectro........................................................ 323 Diablo de la sima........................................294 Espía................................................................ 323 Diablo gélido................................................295 Esqueleto....................................................... 323 Diablo óseo...................................................296 Estirge............................................................ 324 Diablo punzante.........................................296 Ettercap......................................................... 324",
-     "md": "Asesino...........................................................285 Djinn................................................................296 Avispa gigante............................................ 378 Doppelganger..............................................297 Babuino.......................................................... 378 Dragón azul adulto...................................298 Balor................................................................286 Dragón azul anciano................................299 Bandido..........................................................286 Dragón azul joven.....................................298 Basilisco.........................................................287 Dragón blanco adulto..............................300 Batidor............................................................287 Dragón blanco anciano...........................300 Behir................................................................287 Dragón blanco joven................................299 Berserker......................................................288 Dragón de bronce adulto.......................302 Bocón barbotante.....................................288 Dragón de bronce anciano....................302 Broza movediza.........................................289 Dragón de bronce joven......................... 301 Búho................................................................. 379 Dragón de cobre adulto..........................303 Búho gigante............................................... 379 Dragón de cobre anciano......................304 Buitre.............................................................. 379 Dragón de cobre joven............................303 Buitre gigante............................................. 379 Dragón de oro adulto..............................306 Bulette............................................................289 Dragón de oro anciano...........................306 Caballero.......................................................289 Dragón de oro joven.................................305 Caballito de mar........................................380 Dragón de oropel adulto........................308 Caballito de mar gigante.......................380 Dragón de oropel anciano.....................308 Caballo de guerra......................................380 Dragón de oropel joven..........................307 Caballo de guerra esqueleto................ 323 Dragón de plata adulto............................310 Caballo de monta.......................................380 Dragón de plata anciano.........................310 Caballo de tiro............................................380 Dragón de plata joven.............................309 Cabra...............................................................381 Dragón negro adulto............................... 312 Cabra gigante..............................................381 Dragón negro anciano............................ 312 Camello...........................................................381 Dragón negro joven.................................. 311 Cangrejo.........................................................381 Dragón rojo adulto................................... 313 Cangrejo gigante.......................................381 Dragón rojo anciano.................................314 Capitán bandido........................................287 Dragón rojo joven...................................... 313 Capitán de la guardia..............................335 Dragón tortuga........................................... 316 Capitán hobgoblin.....................................338 Dragón verde adulto................................ 315 Capitán pirata............................................. 359 Dragón verde anciano............................. 316 Centinela azer.............................................286 Dragón verde joven.................................. 315 Chacal..............................................................382 Draña................................................................317 Chuul...............................................................290 Dretch..............................................................317 Ciempiés gigante.......................................382 Dríade..............................................................317 Cieno gris......................................................290 Druida............................................................. 318 Ciervo..............................................................382 Duende........................................................... 318 Cocatriz..........................................................291 Elefante..........................................................383 Cocodrilo.......................................................382 Elemental de agua.................................... 318 Cocodrilo gigante......................................382 Elemental de aire.......................................319 Comadreja.....................................................383 Elemental de fuego....................................319 Comadreja gigante...................................383 Elemental de tierra.................................. 320 Couatl..............................................................291 Engendro vampírico................................373 Cría de dragón azul..................................298 Enjambre de cuervos...............................384 Cría de dragón blanco.............................299 Enjambre de garras reptantes........... 326 Cría de dragón de bronce...................... 301 Enjambre de insectos..............................384 Cría de dragón de cobre.........................303 Enjambre de murciélagos.....................384 Cría de dragón de oro..............................305 Enjambre de pirañas...............................384 Cría de dragón de oropel.......................307 Enjambre de ratas.....................................385 Cría de dragón de plata..........................309 Enjambre de serpientes venenosas...385 Cría de dragón negro............................... 311 Ent..................................................................... 320 Cría de dragón rojo................................... 313 Erinia............................................................... 320 Cría de dragón verde................................314 Escarabajo de fuego gigante................385 Cubo gelatinoso..........................................292 Escorpión......................................................385 Cuervo.............................................................383 Escorpión gigante.....................................386 Deva.................................................................292 Esfinge de las maravillas...................... 321 Diablillo..........................................................293 Esfinge del conocimiento...................... 321 Diablo astado..............................................293 Esfinge del valor........................................ 322 Diablo barbado...........................................293 Espada voladora animada....................355 Diablo de las cadenas..............................294 Espectro........................................................ 323 Diablo de la sima........................................294 Espía................................................................ 323 Diablo gélido................................................295 Esqueleto....................................................... 323 Diablo óseo...................................................296 Estirge............................................................ 324 Diablo punzante.........................................296 Ettercap......................................................... 324"
+     "entries": [
+      {
+       "title": "Asesino",
+       "page": 285,
+       "level": 2
+      },
+      {
+       "title": "Avispa gigante",
+       "page": 378,
+       "level": 2
+      },
+      {
+       "title": "Babuino",
+       "page": 378,
+       "level": 2
+      },
+      {
+       "title": "Balor",
+       "page": 286,
+       "level": 2
+      },
+      {
+       "title": "Bandido",
+       "page": 286,
+       "level": 2
+      },
+      {
+       "title": "Basilisco",
+       "page": 287,
+       "level": 2
+      },
+      {
+       "title": "Batidor",
+       "page": 287,
+       "level": 2
+      },
+      {
+       "title": "Behir",
+       "page": 287,
+       "level": 2
+      },
+      {
+       "title": "Berserker",
+       "page": 288,
+       "level": 2
+      },
+      {
+       "title": "Bocón barbotante",
+       "page": 288,
+       "level": 2
+      },
+      {
+       "title": "Broza movediza",
+       "page": 289,
+       "level": 2
+      },
+      {
+       "title": "Búho",
+       "page": 379,
+       "level": 2
+      },
+      {
+       "title": "Búho gigante",
+       "page": 379,
+       "level": 2
+      },
+      {
+       "title": "Buitre",
+       "page": 379,
+       "level": 2
+      },
+      {
+       "title": "Buitre gigante",
+       "page": 379,
+       "level": 2
+      },
+      {
+       "title": "Bulette",
+       "page": 289,
+       "level": 2
+      },
+      {
+       "title": "Caballero",
+       "page": 289,
+       "level": 2
+      },
+      {
+       "title": "Caballito de mar",
+       "page": 380,
+       "level": 2
+      },
+      {
+       "title": "Caballito de mar gigante",
+       "page": 380,
+       "level": 2
+      },
+      {
+       "title": "Caballo de guerra",
+       "page": 380,
+       "level": 2
+      },
+      {
+       "title": "Caballo de guerra esqueleto",
+       "page": 323,
+       "level": 2
+      },
+      {
+       "title": "Caballo de monta",
+       "page": 380,
+       "level": 2
+      },
+      {
+       "title": "Caballo de tiro",
+       "page": 380,
+       "level": 2
+      },
+      {
+       "title": "Cabra",
+       "page": 381,
+       "level": 2
+      },
+      {
+       "title": "Cabra gigante",
+       "page": 381,
+       "level": 2
+      },
+      {
+       "title": "Camello",
+       "page": 381,
+       "level": 2
+      },
+      {
+       "title": "Cangrejo",
+       "page": 381,
+       "level": 2
+      },
+      {
+       "title": "Cangrejo gigante",
+       "page": 381,
+       "level": 2
+      },
+      {
+       "title": "Capitán bandido",
+       "page": 287,
+       "level": 2
+      },
+      {
+       "title": "Capitán de la guardia",
+       "page": 335,
+       "level": 2
+      },
+      {
+       "title": "Capitán hobgoblin",
+       "page": 338,
+       "level": 2
+      },
+      {
+       "title": "Capitán pirata",
+       "page": 359,
+       "level": 2
+      },
+      {
+       "title": "Centinela azer",
+       "page": 286,
+       "level": 2
+      },
+      {
+       "title": "Chacal",
+       "page": 382,
+       "level": 2
+      },
+      {
+       "title": "Chuul",
+       "page": 290,
+       "level": 2
+      },
+      {
+       "title": "Ciempiés gigante",
+       "page": 382,
+       "level": 2
+      },
+      {
+       "title": "Cieno gris",
+       "page": 290,
+       "level": 2
+      },
+      {
+       "title": "Ciervo",
+       "page": 382,
+       "level": 2
+      },
+      {
+       "title": "Cocatriz",
+       "page": 291,
+       "level": 2
+      },
+      {
+       "title": "Cocodrilo",
+       "page": 382,
+       "level": 2
+      },
+      {
+       "title": "Cocodrilo gigante",
+       "page": 382,
+       "level": 2
+      },
+      {
+       "title": "Comadreja",
+       "page": 383,
+       "level": 2
+      },
+      {
+       "title": "Comadreja gigante",
+       "page": 383,
+       "level": 2
+      },
+      {
+       "title": "Couatl",
+       "page": 291,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón azul",
+       "page": 298,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón blanco",
+       "page": 299,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón de bronce",
+       "page": 301,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón de cobre",
+       "page": 303,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón de oro",
+       "page": 305,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón de oropel",
+       "page": 307,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón de plata",
+       "page": 309,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón negro",
+       "page": 311,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón rojo",
+       "page": 313,
+       "level": 2
+      },
+      {
+       "title": "Cría de dragón verde",
+       "page": 314,
+       "level": 2
+      },
+      {
+       "title": "Cubo gelatinoso",
+       "page": 292,
+       "level": 2
+      },
+      {
+       "title": "Cuervo",
+       "page": 383,
+       "level": 2
+      },
+      {
+       "title": "Deva",
+       "page": 292,
+       "level": 2
+      },
+      {
+       "title": "Diablillo",
+       "page": 293,
+       "level": 2
+      },
+      {
+       "title": "Diablo astado",
+       "page": 293,
+       "level": 2
+      },
+      {
+       "title": "Diablo barbado",
+       "page": 293,
+       "level": 2
+      },
+      {
+       "title": "Diablo de las cadenas",
+       "page": 294,
+       "level": 2
+      },
+      {
+       "title": "Diablo de la sima",
+       "page": 294,
+       "level": 2
+      },
+      {
+       "title": "Diablo gélido",
+       "page": 295,
+       "level": 2
+      },
+      {
+       "title": "Diablo óseo",
+       "page": 296,
+       "level": 2
+      },
+      {
+       "title": "Diablo punzante",
+       "page": 296,
+       "level": 2
+      },
+      {
+       "title": "Djinn",
+       "page": 296,
+       "level": 2
+      },
+      {
+       "title": "Doppelganger",
+       "page": 297,
+       "level": 2
+      },
+      {
+       "title": "Dragón azul adulto",
+       "page": 298,
+       "level": 2
+      },
+      {
+       "title": "Dragón azul anciano",
+       "page": 299,
+       "level": 2
+      },
+      {
+       "title": "Dragón azul joven",
+       "page": 298,
+       "level": 2
+      },
+      {
+       "title": "Dragón blanco adulto",
+       "page": 300,
+       "level": 2
+      },
+      {
+       "title": "Dragón blanco anciano",
+       "page": 300,
+       "level": 2
+      },
+      {
+       "title": "Dragón blanco joven",
+       "page": 299,
+       "level": 2
+      },
+      {
+       "title": "Dragón de bronce adulto",
+       "page": 302,
+       "level": 2
+      },
+      {
+       "title": "Dragón de bronce anciano",
+       "page": 302,
+       "level": 2
+      },
+      {
+       "title": "Dragón de bronce joven",
+       "page": 301,
+       "level": 2
+      },
+      {
+       "title": "Dragón de cobre adulto",
+       "page": 303,
+       "level": 2
+      },
+      {
+       "title": "Dragón de cobre anciano",
+       "page": 304,
+       "level": 2
+      },
+      {
+       "title": "Dragón de cobre joven",
+       "page": 303,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oro adulto",
+       "page": 306,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oro anciano",
+       "page": 306,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oro joven",
+       "page": 305,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oropel adulto",
+       "page": 308,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oropel anciano",
+       "page": 308,
+       "level": 2
+      },
+      {
+       "title": "Dragón de oropel joven",
+       "page": 307,
+       "level": 2
+      },
+      {
+       "title": "Dragón de plata adulto",
+       "page": 310,
+       "level": 2
+      },
+      {
+       "title": "Dragón de plata anciano",
+       "page": 310,
+       "level": 2
+      },
+      {
+       "title": "Dragón de plata joven",
+       "page": 309,
+       "level": 2
+      },
+      {
+       "title": "Dragón negro adulto",
+       "page": 312,
+       "level": 2
+      },
+      {
+       "title": "Dragón negro anciano",
+       "page": 312,
+       "level": 2
+      },
+      {
+       "title": "Dragón negro joven",
+       "page": 311,
+       "level": 2
+      },
+      {
+       "title": "Dragón rojo adulto",
+       "page": 313,
+       "level": 2
+      },
+      {
+       "title": "Dragón rojo anciano",
+       "page": 314,
+       "level": 2
+      },
+      {
+       "title": "Dragón rojo joven",
+       "page": 313,
+       "level": 2
+      },
+      {
+       "title": "Dragón tortuga",
+       "page": 316,
+       "level": 2
+      },
+      {
+       "title": "Dragón verde adulto",
+       "page": 315,
+       "level": 2
+      },
+      {
+       "title": "Dragón verde anciano",
+       "page": 316,
+       "level": 2
+      },
+      {
+       "title": "Dragón verde joven",
+       "page": 315,
+       "level": 2
+      },
+      {
+       "title": "Draña",
+       "page": 317,
+       "level": 2
+      },
+      {
+       "title": "Dretch",
+       "page": 317,
+       "level": 2
+      },
+      {
+       "title": "Dríade",
+       "page": 317,
+       "level": 2
+      },
+      {
+       "title": "Druida",
+       "page": 318,
+       "level": 2
+      },
+      {
+       "title": "Duende",
+       "page": 318,
+       "level": 2
+      },
+      {
+       "title": "Elefante",
+       "page": 383,
+       "level": 2
+      },
+      {
+       "title": "Elemental de agua",
+       "page": 318,
+       "level": 2
+      },
+      {
+       "title": "Elemental de aire",
+       "page": 319,
+       "level": 2
+      },
+      {
+       "title": "Elemental de fuego",
+       "page": 319,
+       "level": 2
+      },
+      {
+       "title": "Elemental de tierra",
+       "page": 320,
+       "level": 2
+      },
+      {
+       "title": "Engendro vampírico",
+       "page": 373,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de cuervos",
+       "page": 384,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de garras reptantes",
+       "page": 326,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de insectos",
+       "page": 384,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de murciélagos",
+       "page": 384,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de pirañas",
+       "page": 384,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de ratas",
+       "page": 385,
+       "level": 2
+      },
+      {
+       "title": "Enjambre de serpientes venenosas",
+       "page": 385,
+       "level": 2
+      },
+      {
+       "title": "Ent",
+       "page": 320,
+       "level": 2
+      },
+      {
+       "title": "Erinia",
+       "page": 320,
+       "level": 2
+      },
+      {
+       "title": "Escarabajo de fuego gigante",
+       "page": 385,
+       "level": 2
+      },
+      {
+       "title": "Escorpión",
+       "page": 385,
+       "level": 2
+      },
+      {
+       "title": "Escorpión gigante",
+       "page": 386,
+       "level": 2
+      },
+      {
+       "title": "Esfinge de las maravillas",
+       "page": 321,
+       "level": 2
+      },
+      {
+       "title": "Esfinge del conocimiento",
+       "page": 321,
+       "level": 2
+      },
+      {
+       "title": "Esfinge del valor",
+       "page": 322,
+       "level": 2
+      },
+      {
+       "title": "Espada voladora animada",
+       "page": 355,
+       "level": 2
+      },
+      {
+       "title": "Espectro",
+       "page": 323,
+       "level": 2
+      },
+      {
+       "title": "Espía",
+       "page": 323,
+       "level": 2
+      },
+      {
+       "title": "Esqueleto",
+       "page": 323,
+       "level": 2
+      },
+      {
+       "title": "Estirge",
+       "page": 324,
+       "level": 2
+      },
+      {
+       "title": "Ettercap",
+       "page": 324,
+       "level": 2
+      },
+      {
+       "title": "Ettin",
+       "page": 325,
+       "level": 2
+      },
+      {
+       "title": "Experto en escaramuzas sirénido",
+       "page": 368,
+       "level": 2
+      },
+      {
+       "title": "Extremidad de troll",
+       "page": 372,
+       "level": 2
+      },
+      {
+       "title": "Fanático sectario",
+       "page": 368,
+       "level": 2
+      },
+      {
+       "title": "Fantasma",
+       "page": 325,
+       "level": 2
+      },
+      {
+       "title": "Fuego fatuo",
+       "page": 326,
+       "level": 2
+      },
+      {
+       "title": "Gárgola",
+       "page": 326,
+       "level": 2
+      },
+      {
+       "title": "Gato",
+       "page": 386,
+       "level": 2
+      },
+      {
+       "title": "Gelatina ocre",
+       "page": 327,
+       "level": 2
+      },
+      {
+       "title": "Ghast",
+       "page": 327,
+       "level": 2
+      },
+      {
+       "title": "Gigante de escarcha",
+       "page": 327,
+       "level": 2
+      },
+      {
+       "title": "Gigante de fuego",
+       "page": 328,
+       "level": 2
+      },
+      {
+       "title": "Gigante de las colinas",
+       "page": 328,
+       "level": 2
+      },
+      {
+       "title": "Gigante de las nubes",
+       "page": 328,
+       "level": 2
+      },
+      {
+       "title": "Gigante de las tormentas",
+       "page": 329,
+       "level": 2
+      },
+      {
+       "title": "Gigante de piedra",
+       "page": 329,
+       "level": 2
+      },
+      {
+       "title": "Glabrezu",
+       "page": 330,
+       "level": 2
+      },
+      {
+       "title": "Gladiador",
+       "page": 330,
+       "level": 2
+      },
+      {
+       "title": "Gólem de arcilla",
+       "page": 331,
+       "level": 2
+      },
+      {
+       "title": "Gólem de carne",
+       "page": 332,
+       "level": 2
+      },
+      {
+       "title": "Gólem de hierro",
+       "page": 332,
+       "level": 2
+      },
+      {
+       "title": "Gólem de piedra",
+       "page": 333,
+       "level": 2
+      },
+      {
+       "title": "Gorgon",
+       "page": 333,
+       "level": 2
+      },
+      {
+       "title": "Grick",
+       "page": 334,
+       "level": 2
+      },
+      {
+       "title": "Grifo",
+       "page": 334,
+       "level": 2
+      },
+      {
+       "title": "Grimlock",
+       "page": 334,
+       "level": 2
+      },
+      {
+       "title": "Guardia",
+       "page": 335,
+       "level": 2
+      },
+      {
+       "title": "Guardián escudo",
+       "page": 334,
+       "level": 2
+      },
+      {
+       "title": "Guerrero de infantería",
+       "page": 335,
+       "level": 2
+      },
+      {
+       "title": "Guerrero gnoll",
+       "page": 330,
+       "level": 2
+      },
+      {
+       "title": "Guerrero goblin",
+       "page": 331,
+       "level": 2
+      },
+      {
+       "title": "Guerrero hobgoblin",
+       "page": 338,
+       "level": 2
+      },
+      {
+       "title": "Guerrero kobold",
+       "page": 343,
+       "level": 2
+      },
+      {
+       "title": "Guerrero osgo",
+       "page": 356,
+       "level": 2
+      },
+      {
+       "title": "Guerrero sahuagin",
+       "page": 367,
+       "level": 2
+      },
+      {
+       "title": "Guerrero veterano",
+       "page": 335,
+       "level": 2
+      },
+      {
+       "title": "Guiverno",
+       "page": 336,
+       "level": 2
+      },
+      {
+       "title": "Gul",
+       "page": 336,
+       "level": 2
+      },
+      {
+       "title": "Gusano púrpura",
+       "page": 336,
+       "level": 2
+      },
+      {
+       "title": "Halcón",
+       "page": 386,
+       "level": 2
+      },
+      {
+       "title": "Halcón sangriento",
+       "page": 386,
+       "level": 2
+      },
+      {
+       "title": "Hezrou",
+       "page": 337,
+       "level": 2
+      },
+      {
+       "title": "Hidra",
+       "page": 337,
+       "level": 2
+      },
+      {
+       "title": "Hiena",
+       "page": 386,
+       "level": 2
+      },
+      {
+       "title": "Hiena gigante",
+       "page": 387,
+       "level": 2
+      },
+      {
+       "title": "Hipogrifo",
+       "page": 338,
+       "level": 2
+      },
+      {
+       "title": "Hipopótamo",
+       "page": 387,
+       "level": 2
+      },
+      {
+       "title": "Hombre jabalí",
+       "page": 338,
+       "level": 2
+      },
+      {
+       "title": "Hombre lobo",
+       "page": 339,
+       "level": 2
+      },
+      {
+       "title": "Hombre oso",
+       "page": 339,
+       "level": 2
+      },
+      {
+       "title": "Hombre rata",
+       "page": 340,
+       "level": 2
+      },
+      {
+       "title": "Hombre tigre",
+       "page": 340,
+       "level": 2
+      },
+      {
+       "title": "Homúnculo",
+       "page": 341,
+       "level": 2
+      },
+      {
+       "title": "Hongo chillón",
+       "page": 341,
+       "level": 2
+      },
+      {
+       "title": "Hongo violeta",
+       "page": 341,
+       "level": 2
+      },
+      {
+       "title": "Huargo",
+       "page": 341,
+       "level": 2
+      },
+      {
+       "title": "Ifrit",
+       "page": 342,
+       "level": 2
+      },
+      {
+       "title": "Íncubo",
+       "page": 342,
+       "level": 2
+      },
+      {
+       "title": "Jabalí",
+       "page": 387,
+       "level": 2
+      },
+      {
+       "title": "Jabalí gigante",
+       "page": 387,
+       "level": 2
+      },
+      {
+       "title": "Jefe goblin",
+       "page": 331,
+       "level": 2
+      },
+      {
+       "title": "Jefe pendenciero",
+       "page": 358,
+       "level": 2
+      },
+      {
+       "title": "Kraken",
+       "page": 343,
+       "level": 2
+      },
+      {
+       "title": "Lacero",
+       "page": 344,
+       "level": 2
+      },
+      {
+       "title": "Lagarto",
+       "page": 388,
+       "level": 2
+      }
+     ],
+     "text": "Asesino...........................................................285 Djinn................................................................296 Avispa gigante............................................ 378 Doppelganger..............................................297 Babuino.......................................................... 378 Dragón azul adulto...................................298 Balor................................................................286 Dragón azul anciano................................299 Bandido..........................................................286 Dragón azul joven.....................................298 Basilisco.........................................................287 Dragón blanco adulto..............................300 Batidor............................................................287 Dragón blanco anciano...........................300 Behir................................................................287 Dragón blanco joven................................299 Berserker......................................................288 Dragón de bronce adulto.......................302 Bocón barbotante.....................................288 Dragón de bronce anciano....................302 Broza movediza.........................................289 Dragón de bronce joven......................... 301 Búho................................................................. 379 Dragón de cobre adulto..........................303 Búho gigante............................................... 379 Dragón de cobre anciano......................304 Buitre.............................................................. 379 Dragón de cobre joven............................303 Buitre gigante............................................. 379 Dragón de oro adulto..............................306 Bulette............................................................289 Dragón de oro anciano...........................306 Caballero.......................................................289 Dragón de oro joven.................................305 Caballito de mar........................................380 Dragón de oropel adulto........................308 Caballito de mar gigante.......................380 Dragón de oropel anciano.....................308 Caballo de guerra......................................380 Dragón de oropel joven..........................307 Caballo de guerra esqueleto................ 323 Dragón de plata adulto............................310 Caballo de monta.......................................380 Dragón de plata anciano.........................310 Caballo de tiro............................................380 Dragón de plata joven.............................309 Cabra...............................................................381 Dragón negro adulto............................... 312 Cabra gigante..............................................381 Dragón negro anciano............................ 312 Camello...........................................................381 Dragón negro joven.................................. 311 Cangrejo.........................................................381 Dragón rojo adulto................................... 313 Cangrejo gigante.......................................381 Dragón rojo anciano.................................314 Capitán bandido........................................287 Dragón rojo joven...................................... 313 Capitán de la guardia..............................335 Dragón tortuga........................................... 316 Capitán hobgoblin.....................................338 Dragón verde adulto................................ 315 Capitán pirata............................................. 359 Dragón verde anciano............................. 316 Centinela azer.............................................286 Dragón verde joven.................................. 315 Chacal..............................................................382 Draña................................................................317 Chuul...............................................................290 Dretch..............................................................317 Ciempiés gigante.......................................382 Dríade..............................................................317 Cieno gris......................................................290 Druida............................................................. 318 Ciervo..............................................................382 Duende........................................................... 318 Cocatriz..........................................................291 Elefante..........................................................383 Cocodrilo.......................................................382 Elemental de agua.................................... 318 Cocodrilo gigante......................................382 Elemental de aire.......................................319 Comadreja.....................................................383 Elemental de fuego....................................319 Comadreja gigante...................................383 Elemental de tierra.................................. 320 Couatl..............................................................291 Engendro vampírico................................373 Cría de dragón azul..................................298 Enjambre de cuervos...............................384 Cría de dragón blanco.............................299 Enjambre de garras reptantes........... 326 Cría de dragón de bronce...................... 301 Enjambre de insectos..............................384 Cría de dragón de cobre.........................303 Enjambre de murciélagos.....................384 Cría de dragón de oro..............................305 Enjambre de pirañas...............................384 Cría de dragón de oropel.......................307 Enjambre de ratas.....................................385 Cría de dragón de plata..........................309 Enjambre de serpientes venenosas...385 Cría de dragón negro............................... 311 Ent..................................................................... 320 Cría de dragón rojo................................... 313 Erinia............................................................... 320 Cría de dragón verde................................314 Escarabajo de fuego gigante................385 Cubo gelatinoso..........................................292 Escorpión......................................................385 Cuervo.............................................................383 Escorpión gigante.....................................386 Deva.................................................................292 Esfinge de las maravillas...................... 321 Diablillo..........................................................293 Esfinge del conocimiento...................... 321 Diablo astado..............................................293 Esfinge del valor........................................ 322 Diablo barbado...........................................293 Espada voladora animada....................355 Diablo de las cadenas..............................294 Espectro........................................................ 323 Diablo de la sima........................................294 Espía................................................................ 323 Diablo gélido................................................295 Esqueleto....................................................... 323 Diablo óseo...................................................296 Estirge............................................................ 324 Diablo punzante.........................................296 Ettercap......................................................... 324 Ettin................................................................. 325 Experto en escaramuzas sirénido....368 Extremidad de troll..................................372 Fanático sectario.......................................368 Fantasma....................................................... 325 Fuego fatuo................................................... 326 Gárgola........................................................... 326 Gato..................................................................386 Gelatina ocre............................................... 327 Ghast................................................................ 327 Gigante de escarcha................................. 327 Gigante de fuego........................................328 Gigante de las colinas..............................328 Gigante de las nubes................................328 Gigante de las tormentas......................329 Gigante de piedra...................................... 329 Glabrezu.........................................................330 Gladiador.......................................................330 Gólem de arcilla......................................... 331 Gólem de carne........................................... 332 Gólem de hierro......................................... 332 Gólem de piedra.........................................333 Gorgon............................................................ 333 Grick.................................................................334 Grifo.................................................................334 Grimlock........................................................334 Guardia........................................................... 335 Guardián escudo........................................334 Guerrero de infantería...........................335 Guerrero gnoll............................................330 Guerrero goblin.......................................... 331 Guerrero hobgoblin.................................338 Guerrero kobold........................................343 Guerrero osgo.............................................356 Guerrero sahuagin................................... 367 Guerrero veterano....................................335 Guiverno........................................................336 Gul.....................................................................336 Gusano púrpura.........................................336 Halcón.............................................................386 Halcón sangriento....................................386 Hezrou............................................................ 337 Hidra................................................................ 337 Hiena...............................................................386 Hiena gigante..............................................387 Hipogrifo.......................................................338 Hipopótamo.................................................387 Hombre jabalí..............................................338 Hombre lobo................................................339 Hombre oso..................................................339 Hombre rata.................................................340 Hombre tigre...............................................340 Homúnculo................................................... 341 Hongo chillón.............................................. 341 Hongo violeta.............................................. 341 Huargo............................................................ 341 Ifrit...................................................................342 Íncubo.............................................................342 Jabalí................................................................387 Jabalí gigante...............................................387 Jefe goblin..................................................... 331 Jefe pendenciero........................................358 Kraken............................................................343 Lacero.............................................................344 Lagarto...........................................................388"
     },
     {
-     "type": "toc-entry",
-     "source": {
-      "page": 3,
-      "column": 1,
-      "bbox": [
-       397.7,
-       40.0,
-       550.7,
-       723.7
-      ]
-     },
-     "text": "Ettin................................................................. 325 Experto en escaramuzas sirénido....368 Extremidad de troll..................................372 Fanático sectario.......................................368 Fantasma....................................................... 325 Fuego fatuo................................................... 326 Gárgola........................................................... 326 Gato..................................................................386 Gelatina ocre............................................... 327 Ghast................................................................ 327 Gigante de escarcha................................. 327 Gigante de fuego........................................328 Gigante de las colinas..............................328 Gigante de las nubes................................328 Gigante de las tormentas......................329 Gigante de piedra...................................... 329 Glabrezu.........................................................330 Gladiador.......................................................330 Gólem de arcilla......................................... 331 Gólem de carne........................................... 332 Gólem de hierro......................................... 332 Gólem de piedra.........................................333 Gorgon............................................................ 333 Grick.................................................................334 Grifo.................................................................334 Grimlock........................................................334 Guardia........................................................... 335 Guardián escudo........................................334 Guerrero de infantería...........................335 Guerrero gnoll............................................330 Guerrero goblin.......................................... 331 Guerrero hobgoblin.................................338 Guerrero kobold........................................343 Guerrero osgo.............................................356 Guerrero sahuagin................................... 367 Guerrero veterano....................................335 Guiverno........................................................336 Gul.....................................................................336 Gusano púrpura.........................................336 Halcón.............................................................386 Halcón sangriento....................................386 Hezrou............................................................ 337 Hidra................................................................ 337 Hiena...............................................................386 Hiena gigante..............................................387 Hipogrifo.......................................................338 Hipopótamo.................................................387 Hombre jabalí..............................................338 Hombre lobo................................................339 Hombre oso..................................................339 Hombre rata.................................................340 Hombre tigre...............................................340 Homúnculo................................................... 341 Hongo chillón.............................................. 341 Hongo violeta.............................................. 341 Huargo............................................................ 341 Ifrit...................................................................342 Íncubo.............................................................342 Jabalí................................................................387 Jabalí gigante...............................................387 Jefe goblin..................................................... 331 Jefe pendenciero........................................358 Kraken............................................................343 Lacero.............................................................344 Lagarto...........................................................388",
-     "md": "Ettin................................................................. 325 Experto en escaramuzas sirénido....368 Extremidad de troll..................................372 Fanático sectario.......................................368 Fantasma....................................................... 325 Fuego fatuo................................................... 326 Gárgola........................................................... 326 Gato..................................................................386 Gelatina ocre............................................... 327 Ghast................................................................ 327 Gigante de escarcha................................. 327 Gigante de fuego........................................328 Gigante de las colinas..............................328 Gigante de las nubes................................328 Gigante de las tormentas......................329 Gigante de piedra...................................... 329 Glabrezu.........................................................330 Gladiador.......................................................330 Gólem de arcilla......................................... 331 Gólem de carne........................................... 332 Gólem de hierro......................................... 332 Gólem de piedra.........................................333 Gorgon............................................................ 333 Grick.................................................................334 Grifo.................................................................334 Grimlock........................................................334 Guardia........................................................... 335 Guardián escudo........................................334 Guerrero de infantería...........................335 Guerrero gnoll............................................330 Guerrero goblin.......................................... 331 Guerrero hobgoblin.................................338 Guerrero kobold........................................343 Guerrero osgo.............................................356 Guerrero sahuagin................................... 367 Guerrero veterano....................................335 Guiverno........................................................336 Gul.....................................................................336 Gusano púrpura.........................................336 Halcón.............................................................386 Halcón sangriento....................................386 Hezrou............................................................ 337 Hidra................................................................ 337 Hiena...............................................................386 Hiena gigante..............................................387 Hipogrifo.......................................................338 Hipopótamo.................................................387 Hombre jabalí..............................................338 Hombre lobo................................................339 Hombre oso..................................................339 Hombre rata.................................................340 Hombre tigre...............................................340 Homúnculo................................................... 341 Hongo chillón.............................................. 341 Hongo violeta.............................................. 341 Huargo............................................................ 341 Ifrit...................................................................342 Íncubo.............................................................342 Jabalí................................................................387 Jabalí gigante...............................................387 Jefe goblin..................................................... 331 Jefe pendenciero........................................358 Kraken............................................................343 Lacero.............................................................344 Lagarto...........................................................388"
-    },
-    {
-     "type": "toc-entry",
+     "type": "toc",
      "source": {
       "page": 4,
       "column": 0,
@@ -383,8 +2022,579 @@
        723.7
       ]
      },
-     "text": "Lagarto gigante..........................................388 Rana gigante................................................392 Lamia...............................................................344 Rata..................................................................393 Lémur..............................................................344 Rata gigante.................................................393 León.................................................................388 Remorhaz......................................................363 Liche................................................................345 Rinoceronte.................................................393 Lobo.................................................................388 Roc....................................................................364 Lobo invernal..............................................346 Sabueso infernal........................................364 Lobo terrible................................................389 Sacerdote.......................................................365 Magmin..........................................................346 Sacerdote acólito.......................................364 Mago................................................................346 Saga cetrina.................................................365 Mamut.............................................................389 Saga de la noche.........................................365 Mantícora...................................................... 347 Saga de los mares......................................366 Manto.............................................................. 347 Salamandra.................................................. 367 Mantoscuro..................................................348 Sapo gigante................................................394 Marilith..........................................................348 Sátiro............................................................... 367 Mastín.............................................................389 Sectario..........................................................368 Medusa...........................................................349 Secuaz goblin.............................................. 331 Mephit de hielo...........................................349 Semidragón..................................................368 Mephit de magma......................................349 Señor de las momias................................ 352 Mephit de polvo..........................................350 Serpiente constrictora...........................394 Mephit de vapor.........................................350 Serpiente constrictora gigante..........394 Merrow...........................................................350 Serpiente venenosa..................................394 Mimeto........................................................... 351 Serpiente venenosa gigante.................395 Minotauro de Bafomet............................ 351 Serpiente voladora...................................395 Minotauro esqueleto............................... 324 Siervo de vampiro.....................................373 Momia............................................................. 351 Simio................................................................395 Monstruo corrosivo.................................353 Simio gigante...............................................395 Mula.................................................................389 Solar.................................................................369 Murciélago....................................................389 Soldado centauro......................................290 Murciélago gigante...................................390 Sombra...........................................................369 Naga espiritual...........................................353 Súcubo............................................................ 370 Naga guardiana..........................................353 Tarántula gigante.....................................395 Nalfeshnee....................................................354 Tarasca........................................................... 370 Noble................................................................354 Tejón................................................................396 Ogro................................................................. 355 Tejón gigante...............................................396 Ogro zombi....................................................376 Tiburón cazador........................................396 Oni.................................................................... 355 Tiburón de arrecife..................................396 Orca..................................................................390 Tiburón gigante.........................................396 Oso lechuza.................................................. 357 Tigre................................................................397 Oso negro......................................................390 Tigre dientes de sable.............................397 Oso pardo......................................................390 Tiranosaurio rex........................................397 Oso polar.......................................................390 Triceratops...................................................398 Otyugh............................................................ 357 Troll.................................................................. 371 Pantera........................................................... 391 Tumulario.....................................................372 Pegaso............................................................. 357 Unicornio.......................................................372 Pendenciero................................................. 357 Vampiro..........................................................374 Perro del inframundo.............................358 Vrock............................................................... 375 Perro intermitente...................................358 Xorn.................................................................. 375 Pesadilla........................................................ 359 Zombi...............................................................376 Pico de hacha............................................... 359 Piraña.............................................................. 391 Pirata............................................................... 359 Planetar.........................................................360 Plebeyo........................................................... 361 Plesiosaurio................................................. 391 Poni.................................................................. 391 Pseudodragón............................................. 361 Pteranodon.................................................. 391 Pudin negro................................................. 361 Pulpo...............................................................392 Pulpo gigante..............................................392 Quasit..............................................................362 Quimera.........................................................362 Rakshasa.......................................................362 Rana.................................................................392",
-     "md": "Lagarto gigante..........................................388 Rana gigante................................................392 Lamia...............................................................344 Rata..................................................................393 Lémur..............................................................344 Rata gigante.................................................393 León.................................................................388 Remorhaz......................................................363 Liche................................................................345 Rinoceronte.................................................393 Lobo.................................................................388 Roc....................................................................364 Lobo invernal..............................................346 Sabueso infernal........................................364 Lobo terrible................................................389 Sacerdote.......................................................365 Magmin..........................................................346 Sacerdote acólito.......................................364 Mago................................................................346 Saga cetrina.................................................365 Mamut.............................................................389 Saga de la noche.........................................365 Mantícora...................................................... 347 Saga de los mares......................................366 Manto.............................................................. 347 Salamandra.................................................. 367 Mantoscuro..................................................348 Sapo gigante................................................394 Marilith..........................................................348 Sátiro............................................................... 367 Mastín.............................................................389 Sectario..........................................................368 Medusa...........................................................349 Secuaz goblin.............................................. 331 Mephit de hielo...........................................349 Semidragón..................................................368 Mephit de magma......................................349 Señor de las momias................................ 352 Mephit de polvo..........................................350 Serpiente constrictora...........................394 Mephit de vapor.........................................350 Serpiente constrictora gigante..........394 Merrow...........................................................350 Serpiente venenosa..................................394 Mimeto........................................................... 351 Serpiente venenosa gigante.................395 Minotauro de Bafomet............................ 351 Serpiente voladora...................................395 Minotauro esqueleto............................... 324 Siervo de vampiro.....................................373 Momia............................................................. 351 Simio................................................................395 Monstruo corrosivo.................................353 Simio gigante...............................................395 Mula.................................................................389 Solar.................................................................369 Murciélago....................................................389 Soldado centauro......................................290 Murciélago gigante...................................390 Sombra...........................................................369 Naga espiritual...........................................353 Súcubo............................................................ 370 Naga guardiana..........................................353 Tarántula gigante.....................................395 Nalfeshnee....................................................354 Tarasca........................................................... 370 Noble................................................................354 Tejón................................................................396 Ogro................................................................. 355 Tejón gigante...............................................396 Ogro zombi....................................................376 Tiburón cazador........................................396 Oni.................................................................... 355 Tiburón de arrecife..................................396 Orca..................................................................390 Tiburón gigante.........................................396 Oso lechuza.................................................. 357 Tigre................................................................397 Oso negro......................................................390 Tigre dientes de sable.............................397 Oso pardo......................................................390 Tiranosaurio rex........................................397 Oso polar.......................................................390 Triceratops...................................................398 Otyugh............................................................ 357 Troll.................................................................. 371 Pantera........................................................... 391 Tumulario.....................................................372 Pegaso............................................................. 357 Unicornio.......................................................372 Pendenciero................................................. 357 Vampiro..........................................................374 Perro del inframundo.............................358 Vrock............................................................... 375 Perro intermitente...................................358 Xorn.................................................................. 375 Pesadilla........................................................ 359 Zombi...............................................................376 Pico de hacha............................................... 359 Piraña.............................................................. 391 Pirata............................................................... 359 Planetar.........................................................360 Plebeyo........................................................... 361 Plesiosaurio................................................. 391 Poni.................................................................. 391 Pseudodragón............................................. 361 Pteranodon.................................................. 391 Pudin negro................................................. 361 Pulpo...............................................................392 Pulpo gigante..............................................392 Quasit..............................................................362 Quimera.........................................................362 Rakshasa.......................................................362 Rana.................................................................392"
+     "entries": [
+      {
+       "title": "Lagarto gigante",
+       "page": 388,
+       "level": 2
+      },
+      {
+       "title": "Lamia",
+       "page": 344,
+       "level": 2
+      },
+      {
+       "title": "Lémur",
+       "page": 344,
+       "level": 2
+      },
+      {
+       "title": "León",
+       "page": 388,
+       "level": 2
+      },
+      {
+       "title": "Liche",
+       "page": 345,
+       "level": 2
+      },
+      {
+       "title": "Lobo",
+       "page": 388,
+       "level": 2
+      },
+      {
+       "title": "Lobo invernal",
+       "page": 346,
+       "level": 2
+      },
+      {
+       "title": "Lobo terrible",
+       "page": 389,
+       "level": 2
+      },
+      {
+       "title": "Magmin",
+       "page": 346,
+       "level": 2
+      },
+      {
+       "title": "Mago",
+       "page": 346,
+       "level": 2
+      },
+      {
+       "title": "Mamut",
+       "page": 389,
+       "level": 2
+      },
+      {
+       "title": "Mantícora",
+       "page": 347,
+       "level": 2
+      },
+      {
+       "title": "Manto",
+       "page": 347,
+       "level": 2
+      },
+      {
+       "title": "Mantoscuro",
+       "page": 348,
+       "level": 2
+      },
+      {
+       "title": "Marilith",
+       "page": 348,
+       "level": 2
+      },
+      {
+       "title": "Mastín",
+       "page": 389,
+       "level": 2
+      },
+      {
+       "title": "Medusa",
+       "page": 349,
+       "level": 2
+      },
+      {
+       "title": "Mephit de hielo",
+       "page": 349,
+       "level": 2
+      },
+      {
+       "title": "Mephit de magma",
+       "page": 349,
+       "level": 2
+      },
+      {
+       "title": "Mephit de polvo",
+       "page": 350,
+       "level": 2
+      },
+      {
+       "title": "Mephit de vapor",
+       "page": 350,
+       "level": 2
+      },
+      {
+       "title": "Merrow",
+       "page": 350,
+       "level": 2
+      },
+      {
+       "title": "Mimeto",
+       "page": 351,
+       "level": 2
+      },
+      {
+       "title": "Minotauro de Bafomet",
+       "page": 351,
+       "level": 2
+      },
+      {
+       "title": "Minotauro esqueleto",
+       "page": 324,
+       "level": 2
+      },
+      {
+       "title": "Momia",
+       "page": 351,
+       "level": 2
+      },
+      {
+       "title": "Monstruo corrosivo",
+       "page": 353,
+       "level": 2
+      },
+      {
+       "title": "Mula",
+       "page": 389,
+       "level": 2
+      },
+      {
+       "title": "Murciélago",
+       "page": 389,
+       "level": 2
+      },
+      {
+       "title": "Murciélago gigante",
+       "page": 390,
+       "level": 2
+      },
+      {
+       "title": "Naga espiritual",
+       "page": 353,
+       "level": 2
+      },
+      {
+       "title": "Naga guardiana",
+       "page": 353,
+       "level": 2
+      },
+      {
+       "title": "Nalfeshnee",
+       "page": 354,
+       "level": 2
+      },
+      {
+       "title": "Noble",
+       "page": 354,
+       "level": 2
+      },
+      {
+       "title": "Ogro",
+       "page": 355,
+       "level": 2
+      },
+      {
+       "title": "Ogro zombi",
+       "page": 376,
+       "level": 2
+      },
+      {
+       "title": "Oni",
+       "page": 355,
+       "level": 2
+      },
+      {
+       "title": "Orca",
+       "page": 390,
+       "level": 2
+      },
+      {
+       "title": "Oso lechuza",
+       "page": 357,
+       "level": 2
+      },
+      {
+       "title": "Oso negro",
+       "page": 390,
+       "level": 2
+      },
+      {
+       "title": "Oso pardo",
+       "page": 390,
+       "level": 2
+      },
+      {
+       "title": "Oso polar",
+       "page": 390,
+       "level": 2
+      },
+      {
+       "title": "Otyugh",
+       "page": 357,
+       "level": 2
+      },
+      {
+       "title": "Pantera",
+       "page": 391,
+       "level": 2
+      },
+      {
+       "title": "Pegaso",
+       "page": 357,
+       "level": 2
+      },
+      {
+       "title": "Pendenciero",
+       "page": 357,
+       "level": 2
+      },
+      {
+       "title": "Perro del inframundo",
+       "page": 358,
+       "level": 2
+      },
+      {
+       "title": "Perro intermitente",
+       "page": 358,
+       "level": 2
+      },
+      {
+       "title": "Pesadilla",
+       "page": 359,
+       "level": 2
+      },
+      {
+       "title": "Pico de hacha",
+       "page": 359,
+       "level": 2
+      },
+      {
+       "title": "Piraña",
+       "page": 391,
+       "level": 2
+      },
+      {
+       "title": "Pirata",
+       "page": 359,
+       "level": 2
+      },
+      {
+       "title": "Planetar",
+       "page": 360,
+       "level": 2
+      },
+      {
+       "title": "Plebeyo",
+       "page": 361,
+       "level": 2
+      },
+      {
+       "title": "Plesiosaurio",
+       "page": 391,
+       "level": 2
+      },
+      {
+       "title": "Poni",
+       "page": 391,
+       "level": 2
+      },
+      {
+       "title": "Pseudodragón",
+       "page": 361,
+       "level": 2
+      },
+      {
+       "title": "Pteranodon",
+       "page": 391,
+       "level": 2
+      },
+      {
+       "title": "Pudin negro",
+       "page": 361,
+       "level": 2
+      },
+      {
+       "title": "Pulpo",
+       "page": 392,
+       "level": 2
+      },
+      {
+       "title": "Pulpo gigante",
+       "page": 392,
+       "level": 2
+      },
+      {
+       "title": "Quasit",
+       "page": 362,
+       "level": 2
+      },
+      {
+       "title": "Quimera",
+       "page": 362,
+       "level": 2
+      },
+      {
+       "title": "Rakshasa",
+       "page": 362,
+       "level": 2
+      },
+      {
+       "title": "Rana",
+       "page": 392,
+       "level": 2
+      },
+      {
+       "title": "Rana gigante",
+       "page": 392,
+       "level": 2
+      },
+      {
+       "title": "Rata",
+       "page": 393,
+       "level": 2
+      },
+      {
+       "title": "Rata gigante",
+       "page": 393,
+       "level": 2
+      },
+      {
+       "title": "Remorhaz",
+       "page": 363,
+       "level": 2
+      },
+      {
+       "title": "Rinoceronte",
+       "page": 393,
+       "level": 2
+      },
+      {
+       "title": "Roc",
+       "page": 364,
+       "level": 2
+      },
+      {
+       "title": "Sabueso infernal",
+       "page": 364,
+       "level": 2
+      },
+      {
+       "title": "Sacerdote",
+       "page": 365,
+       "level": 2
+      },
+      {
+       "title": "Sacerdote acólito",
+       "page": 364,
+       "level": 2
+      },
+      {
+       "title": "Saga cetrina",
+       "page": 365,
+       "level": 2
+      },
+      {
+       "title": "Saga de la noche",
+       "page": 365,
+       "level": 2
+      },
+      {
+       "title": "Saga de los mares",
+       "page": 366,
+       "level": 2
+      },
+      {
+       "title": "Salamandra",
+       "page": 367,
+       "level": 2
+      },
+      {
+       "title": "Sapo gigante",
+       "page": 394,
+       "level": 2
+      },
+      {
+       "title": "Sátiro",
+       "page": 367,
+       "level": 2
+      },
+      {
+       "title": "Sectario",
+       "page": 368,
+       "level": 2
+      },
+      {
+       "title": "Secuaz goblin",
+       "page": 331,
+       "level": 2
+      },
+      {
+       "title": "Semidragón",
+       "page": 368,
+       "level": 2
+      },
+      {
+       "title": "Señor de las momias",
+       "page": 352,
+       "level": 2
+      },
+      {
+       "title": "Serpiente constrictora",
+       "page": 394,
+       "level": 2
+      },
+      {
+       "title": "Serpiente constrictora gigante",
+       "page": 394,
+       "level": 2
+      },
+      {
+       "title": "Serpiente venenosa",
+       "page": 394,
+       "level": 2
+      },
+      {
+       "title": "Serpiente venenosa gigante",
+       "page": 395,
+       "level": 2
+      },
+      {
+       "title": "Serpiente voladora",
+       "page": 395,
+       "level": 2
+      },
+      {
+       "title": "Siervo de vampiro",
+       "page": 373,
+       "level": 2
+      },
+      {
+       "title": "Simio",
+       "page": 395,
+       "level": 2
+      },
+      {
+       "title": "Simio gigante",
+       "page": 395,
+       "level": 2
+      },
+      {
+       "title": "Solar",
+       "page": 369,
+       "level": 2
+      },
+      {
+       "title": "Soldado centauro",
+       "page": 290,
+       "level": 2
+      },
+      {
+       "title": "Sombra",
+       "page": 369,
+       "level": 2
+      },
+      {
+       "title": "Súcubo",
+       "page": 370,
+       "level": 2
+      },
+      {
+       "title": "Tarántula gigante",
+       "page": 395,
+       "level": 2
+      },
+      {
+       "title": "Tarasca",
+       "page": 370,
+       "level": 2
+      },
+      {
+       "title": "Tejón",
+       "page": 396,
+       "level": 2
+      },
+      {
+       "title": "Tejón gigante",
+       "page": 396,
+       "level": 2
+      },
+      {
+       "title": "Tiburón cazador",
+       "page": 396,
+       "level": 2
+      },
+      {
+       "title": "Tiburón de arrecife",
+       "page": 396,
+       "level": 2
+      },
+      {
+       "title": "Tiburón gigante",
+       "page": 396,
+       "level": 2
+      },
+      {
+       "title": "Tigre",
+       "page": 397,
+       "level": 2
+      },
+      {
+       "title": "Tigre dientes de sable",
+       "page": 397,
+       "level": 2
+      },
+      {
+       "title": "Tiranosaurio rex",
+       "page": 397,
+       "level": 2
+      },
+      {
+       "title": "Triceratops",
+       "page": 398,
+       "level": 2
+      },
+      {
+       "title": "Troll",
+       "page": 371,
+       "level": 2
+      },
+      {
+       "title": "Tumulario",
+       "page": 372,
+       "level": 2
+      },
+      {
+       "title": "Unicornio",
+       "page": 372,
+       "level": 2
+      },
+      {
+       "title": "Vampiro",
+       "page": 374,
+       "level": 2
+      },
+      {
+       "title": "Vrock",
+       "page": 375,
+       "level": 2
+      },
+      {
+       "title": "Xorn",
+       "page": 375,
+       "level": 2
+      },
+      {
+       "title": "Zombi",
+       "page": 376,
+       "level": 2
+      }
+     ],
+     "text": "Lagarto gigante..........................................388 Rana gigante................................................392 Lamia...............................................................344 Rata..................................................................393 Lémur..............................................................344 Rata gigante.................................................393 León.................................................................388 Remorhaz......................................................363 Liche................................................................345 Rinoceronte.................................................393 Lobo.................................................................388 Roc....................................................................364 Lobo invernal..............................................346 Sabueso infernal........................................364 Lobo terrible................................................389 Sacerdote.......................................................365 Magmin..........................................................346 Sacerdote acólito.......................................364 Mago................................................................346 Saga cetrina.................................................365 Mamut.............................................................389 Saga de la noche.........................................365 Mantícora...................................................... 347 Saga de los mares......................................366 Manto.............................................................. 347 Salamandra.................................................. 367 Mantoscuro..................................................348 Sapo gigante................................................394 Marilith..........................................................348 Sátiro............................................................... 367 Mastín.............................................................389 Sectario..........................................................368 Medusa...........................................................349 Secuaz goblin.............................................. 331 Mephit de hielo...........................................349 Semidragón..................................................368 Mephit de magma......................................349 Señor de las momias................................ 352 Mephit de polvo..........................................350 Serpiente constrictora...........................394 Mephit de vapor.........................................350 Serpiente constrictora gigante..........394 Merrow...........................................................350 Serpiente venenosa..................................394 Mimeto........................................................... 351 Serpiente venenosa gigante.................395 Minotauro de Bafomet............................ 351 Serpiente voladora...................................395 Minotauro esqueleto............................... 324 Siervo de vampiro.....................................373 Momia............................................................. 351 Simio................................................................395 Monstruo corrosivo.................................353 Simio gigante...............................................395 Mula.................................................................389 Solar.................................................................369 Murciélago....................................................389 Soldado centauro......................................290 Murciélago gigante...................................390 Sombra...........................................................369 Naga espiritual...........................................353 Súcubo............................................................ 370 Naga guardiana..........................................353 Tarántula gigante.....................................395 Nalfeshnee....................................................354 Tarasca........................................................... 370 Noble................................................................354 Tejón................................................................396 Ogro................................................................. 355 Tejón gigante...............................................396 Ogro zombi....................................................376 Tiburón cazador........................................396 Oni.................................................................... 355 Tiburón de arrecife..................................396 Orca..................................................................390 Tiburón gigante.........................................396 Oso lechuza.................................................. 357 Tigre................................................................397 Oso negro......................................................390 Tigre dientes de sable.............................397 Oso pardo......................................................390 Tiranosaurio rex........................................397 Oso polar.......................................................390 Triceratops...................................................398 Otyugh............................................................ 357 Troll.................................................................. 371 Pantera........................................................... 391 Tumulario.....................................................372 Pegaso............................................................. 357 Unicornio.......................................................372 Pendenciero................................................. 357 Vampiro..........................................................374 Perro del inframundo.............................358 Vrock............................................................... 375 Perro intermitente...................................358 Xorn.................................................................. 375 Pesadilla........................................................ 359 Zombi...............................................................376 Pico de hacha............................................... 359 Piraña.............................................................. 391 Pirata............................................................... 359 Planetar.........................................................360 Plebeyo........................................................... 361 Plesiosaurio................................................. 391 Poni.................................................................. 391 Pseudodragón............................................. 361 Pteranodon.................................................. 391 Pudin negro................................................. 361 Pulpo...............................................................392 Pulpo gigante..............................................392 Quasit..............................................................362 Quimera.........................................................362 Rakshasa.......................................................362 Rana.................................................................392"
     }
    ]
   },
