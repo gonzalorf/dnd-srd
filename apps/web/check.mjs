@@ -113,6 +113,38 @@ try {
     `${destino} → «${titulo}»`,
   );
 
+  // --- la portada y el indice lateral --------------------------------------
+  await pagina.goto(`${BASE}/`, { waitUntil: "networkidle" });
+  // `innerText` devuelve el texto tal como se pinta, y el rotulo va en versales
+  // por CSS, asi que se compara sin distinguir caja.
+  const rotulo = (await pagina.locator(".portada .rotulo").innerText()).replace(/\s+/g, " ").trim();
+  comprobar(
+    "la portada lleva el rotulo del concepto",
+    rotulo.toLowerCase() === "dungeons & dragons",
+    `«${rotulo}»`,
+  );
+
+  // La lamina es el elemento con mas peso de la portada: si su ruta se rompe,
+  // la pagina sigue maquetando bien y el fallo pasa desapercibido.
+  const lamina = await pagina.locator(".portada .ilustracion").evaluate(
+    (img) => img.complete && img.naturalWidth > 0,
+  );
+  comprobar("la ilustracion de portada carga", lamina === true);
+
+  const capitulos = await pagina.locator(".indice-lateral > ol > li.cap").count();
+  comprobar("el indice lateral lista los 16 capitulos", capitulos === 16, `${capitulos} capitulos`);
+
+  // --- el indice resalta donde estas ---------------------------------------
+  await pagina.goto(`${BASE}/libro/clases/barbaro/`, { waitUntil: "networkidle" });
+  const capActivo = await pagina.locator(".indice-lateral li.cap.aqui > a").innerText();
+  const secActiva = await pagina.locator(".indice-lateral .subsecciones li.aqui > a").innerText();
+  const hermanas = await pagina.locator(".indice-lateral .subsecciones li").count();
+  comprobar(
+    "el indice resalta el capitulo y la seccion actuales",
+    capActivo.trim() === "Clases" && secActiva.trim() === "Bárbaro" && hermanas === 12,
+    `${capActivo.trim()} › ${secActiva.trim()}, ${hermanas} secciones desplegadas`,
+  );
+
   // --- nada sin renderizar -------------------------------------------------
   // `Bloques.astro` marca con la clase `sin-cubrir` cualquier tipo de nodo que
   // no sepa dibujar, en vez de descartarlo en silencio.

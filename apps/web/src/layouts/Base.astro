@@ -2,18 +2,41 @@
 /**
  * Plantilla única del sitio.
  *
- * Sin framework de UI y sin JavaScript salvo en la página de búsqueda: lo que
- * se sirve es HTML con una hoja de estilos. Eso es lo que permite alojarlo en
- * cualquier hosting de ficheros y lo que hace que abra rápido en un lector
- * lento o con la conexión justa.
+ * Lleva un índice del libro a la izquierda, fijo en pantallas anchas. Muestra
+ * siempre los 16 capítulos y despliega las secciones del capítulo en el que
+ * estás, en vez de las 245 de golpe: el listado completo en cada una de las
+ * 2033 páginas añadiría unos 16 KB por página, más de 30 MB al sitio, para
+ * repetir lo que ya hay en /libro/.
+ *
+ * En móvil el índice cae debajo del contenido, porque va después en el HTML y
+ * es `grid` quien lo coloca a la izquierda en pantalla ancha. Así nadie tiene
+ * que bajar por 261 enlaces para llegar al texto y no hace falta JavaScript
+ * para plegarlo.
  */
+import { chapters } from "../lib/srd";
+
 export interface Props {
   title: string;
   page?: number;
   subtitle?: string;
+  /** Capítulo y sección activos, para resaltarlos en el índice. */
+  chapterSlug?: string;
+  sectionSlug?: string;
+  /** La portada compone su propio encabezado. */
+  bare?: boolean;
 }
-const { title, page, subtitle } = Astro.props;
+
+const { title, page, subtitle, chapterSlug, sectionSlug, bare } = Astro.props;
 const path = Astro.url.pathname;
+const caps = chapters();
+
+const enlaces = [
+  ["/libro/", "Libro"],
+  ["/conjuros/", "Conjuros"],
+  ["/monstruos/", "Monstruos"],
+  ["/objetos/", "Objetos"],
+  ["/buscar/", "Buscar"],
+] as const;
 ---
 
 <!doctype html>
@@ -22,35 +45,73 @@ const path = Astro.url.pathname;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} — SRD 5.2.1</title>
-    <meta name="description" content={subtitle ?? `${title}. Documento de referencia del sistema 5.2.1 en español.`} />
+    <meta
+      name="description"
+      content={subtitle ?? `${title}. Documento de referencia del sistema 5.2.1 en español.`}
+    />
+    <link rel="preload" href="/fuentes/jost-500-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="/estilos.css" />
   </head>
   <body>
     <a class="saltar" href="#contenido">Saltar al contenido</a>
 
     <header class="cabecera">
-      <a class="marca" href="/">SRD 5.2.1</a>
-      <nav>
-        <a href="/libro/" class={path.startsWith("/libro") ? "activo" : ""}>Libro</a>
-        <a href="/conjuros/" class={path.startsWith("/conjuros") ? "activo" : ""}>Conjuros</a>
-        <a href="/monstruos/" class={path.startsWith("/monstruos") ? "activo" : ""}>Monstruos</a>
-        <a href="/objetos/" class={path.startsWith("/objetos") ? "activo" : ""}>Objetos</a>
-        <a href="/buscar/" class={path.startsWith("/buscar") ? "activo" : ""}>Buscar</a>
+      <a class="marca" href="/">SRD <span>5.2.1</span></a>
+      <nav aria-label="Secciones del sitio">
+        {enlaces.map(([href, texto]) => (
+          <a href={href} class={path.startsWith(href) && href !== "/" ? "activo" : ""}>{texto}</a>
+        ))}
       </nav>
     </header>
 
-    <main id="contenido">
-      <h1>{title}</h1>
-      {page && <p class="pagina-origen">Página {page} del PDF</p>}
-      <slot />
-    </main>
+    <div class="disposicion">
+      <main id="contenido">
+        {!bare && <h1>{title}</h1>}
+        {!bare && page && <p class="pagina-origen">Página {page} del PDF</p>}
+        <slot />
+      </main>
+
+      <nav class="indice-lateral" aria-label="Índice del libro">
+        <h2>Contenido</h2>
+        <ol>
+          {caps.map((cap) => {
+            const aqui = cap.slug === chapterSlug;
+            return (
+              <li class={aqui ? "cap aqui" : "cap"}>
+                <a href={`/libro/${cap.slug}/`} aria-current={aqui ? "true" : undefined}>{cap.title}</a>
+                {aqui && cap.sections.length > 0 && (
+                  <ul class="subsecciones">
+                    {cap.sections.map((sec) => (
+                      <li class={sec.slug === sectionSlug ? "aqui" : ""}>
+                        <a
+                          href={`/libro/${cap.slug}/${sec.slug}/`}
+                          aria-current={sec.slug === sectionSlug ? "true" : undefined}
+                        >{sec.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ol>
+        <p class="ver-todo"><a href="/libro/">Índice completo del libro →</a></p>
+      </nav>
+    </div>
 
     <footer class="pie">
       <p>
-        Contenido del <strong>System Reference Document 5.2.1</strong> de Wizards of the Coast LLC,
-        bajo <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>.
+        Esta obra incluye material procedente del documento de referencia del sistema 5.2.1
+        («SRD 5.2.1») de Wizards of the Coast LLC, disponible en
+        <a href="https://www.dndbeyond.com/srd">dndbeyond.com/srd</a>. La licencia sobre el
+        SRD 5.2.1 se concede de acuerdo con la
+        <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">licencia
+        internacional de atribución 4.0 de Creative Commons</a>.
       </p>
-      <p>Cada fragmento indica su página en el PDF original.</p>
+      <p>
+        Sitio no oficial, sin relación con Wizards of the Coast. Cada fragmento indica su
+        página en el PDF original.
+      </p>
     </footer>
   </body>
 </html>

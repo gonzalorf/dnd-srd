@@ -425,13 +425,24 @@ JavaScript. Sale con código distinto de cero si algo falla.
 | | |
 |---|---|
 | Páginas generadas | 2037 |
-| Peso total | 19 MB (8,1 MB son el índice de búsqueda) |
-| Página mediana | 2 KB |
-| Página más pesada | 102 KB |
-| JavaScript en las páginas del libro | **ninguno** |
+| Peso total | 28 MB (9 MB el índice de búsqueda, 1,1 MB imágenes y fuentes) |
+| Página mediana | 4 KB |
+| Página más pesada | 103 KB |
+| Páginas con JavaScript | 4 de 2033: los tres listados filtrables y el buscador |
 
 **Qué hay:**
 
+- **Portada e identidad visual** tomadas del concepto
+  `docs/Tapa Concept de D&D SRD 2024.pdf`: papel blanco, tinta negra, rojo puro
+  como único acento y las dos familias del documento, Jost y Barlow Condensed,
+  autoalojadas (198 KB, y el navegador solo descarga el subconjunto que usa).
+- **Índice del libro a la izquierda**, fijo al desplazarse. Muestra los 16
+  capítulos y despliega las secciones del capítulo en el que estás, resaltando
+  la actual. No lista las 245 secciones de golpe a propósito: repetirlas en cada
+  una de las 2033 páginas añadiría más de 30 MB al sitio para duplicar lo que ya
+  hay en `/libro/`. Va después del contenido en el HTML y es `grid` quien lo
+  coloca a la izquierda, así que en móvil cae al final y no hace falta
+  JavaScript para plegarlo.
 - **El libro completo, navegable.** Una página por sección; las secciones con
   más de 40 entradas (conjuros, objetos, monstruos) se convierten en índice y
   cada entrada recibe página propia. Cada título lleva su página del PDF y un
@@ -448,9 +459,26 @@ JavaScript. Sale con código distinto de cero si algo falla.
   340 KB, no el libro entero. Es insensible a acentos: «sintonizacion» encuentra
   «Sintonización».
 
-Comprobado en un navegador real con Playwright: la búsqueda devuelve resultados,
-los filtros cuentan bien (16 conjuros de nivel 9, 12 de ellos de mago), los
-enlaces cruzados navegan y no hay ni un error de JavaScript.
+Comprobado en un navegador real con Playwright (`npm run check`, 11
+comprobaciones): la búsqueda devuelve resultados e ignora los acentos, los
+filtros cuentan bien (16 conjuros de nivel 9, 12 de ellos de mago), los enlaces
+cruzados navegan, la portada y su lámina cargan, el índice lateral lista los 16
+capítulos y resalta dónde estás, y no hay ni un error de JavaScript.
+
+### Sobre la portada y las marcas
+
+El concepto se reproduce salvo en dos puntos, a propósito:
+
+- **No se usa el logotipo de Dungeons & Dragons.** La CC BY 4.0 del SRD cubre el
+  contenido, pero su cláusula 2(b)(2) excluye expresamente las marcas. El rótulo
+  va compuesto con tipografía, que es uso nominativo del nombre del juego.
+- **No aparece «Publicado por Wizards of the Coast LLC».** El propio SRD pide no
+  añadir más atribuciones a Wizards que la declaración obligatoria, y en un sitio
+  no oficial daría a entender que lo publica Wizards.
+
+El pie de cada página lleva la atribución exigida y deja claro que es un sitio no
+oficial. La lámina de portada procede del documento de concepto, no del SRD: el
+PDF del SRD no contiene ni una imagen.
 
 
 ## Pendiente

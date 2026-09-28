@@ -18,7 +18,13 @@ export function getStaticPaths() {
   for (const chapter of caps) {
     paths.push({
       params: { ruta: chapter.slug },
-      props: { kind: "chapter", chapter, title: chapter.title, page: chapter.page },
+      props: {
+        kind: "chapter",
+        chapter,
+        title: chapter.title,
+        page: chapter.page,
+        chapterSlug: chapter.slug,
+      },
     });
   }
 
@@ -32,6 +38,7 @@ export function getStaticPaths() {
           title: section.title,
           page: section.page,
           chapterSlug: section.chapterSlug,
+          sectionSlug: slugify(section.title),
           chapterTitle: section.chapter,
           entries: entries.map((e: Node) => ({
             title: e.title,
@@ -48,6 +55,7 @@ export function getStaticPaths() {
             title: entry.title,
             page: entry.source.page,
             chapterSlug: section.chapterSlug,
+            sectionSlug: slugify(section.title),
             chapterTitle: section.chapter,
             parentSlug: section.slug,
             parentTitle: section.title,
@@ -63,6 +71,7 @@ export function getStaticPaths() {
           title: section.title,
           page: section.page,
           chapterSlug: section.chapterSlug,
+          sectionSlug: slugify(section.title),
           chapterTitle: section.chapter,
           nodes: section.node.children ?? [],
         },
@@ -75,7 +84,12 @@ export function getStaticPaths() {
 const props = Astro.props as any;
 ---
 
-<Base title={props.title} page={props.page}>
+<Base
+  title={props.title}
+  page={props.page}
+  chapterSlug={props.chapterSlug}
+  sectionSlug={props.sectionSlug}
+>
   {props.kind !== "chapter" && (
     <nav class="migas">
       <a href="/libro/">Libro</a> ›

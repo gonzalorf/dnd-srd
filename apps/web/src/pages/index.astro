@@ -1,36 +1,99 @@
 ---
+/**
+ * Portada del sitio.
+ *
+ * Reproduce la composición del concepto «Tapa Concept de D&D SRD 2024»:
+ * rótulo en rojo, reclamo centrado en condensada, la lámina a tinta, el título
+ * del documento en rojo y el pie de edición.
+ *
+ * Dos cosas del concepto NO se reproducen, a propósito:
+ *
+ * - El logotipo de Dungeons & Dragons. La CC BY 4.0 del SRD cubre el contenido,
+ *   pero su cláusula 2(b)(2) excluye expresamente las marcas. El rótulo va
+ *   compuesto con tipografía, que es uso nominativo del nombre del juego.
+ * - La línea «Publicado por Wizards of the Coast LLC». El propio SRD pide no
+ *   añadir más atribuciones a Wizards que la declaración obligatoria, y en un
+ *   sitio no oficial daría a entender que lo publica Wizards.
+ */
 import Base from "../layouts/Base.astro";
-import { chapters } from "../lib/srd";
-const caps = chapters();
 ---
 
-<Base title="Documento de referencia del sistema 5.2.1" subtitle="El SRD 5.2.1 en español, navegable y con buscador.">
-  <p class="entradilla">
-    El SRD 5.2.1 en español, con enlaces entre conjuros, objetos y reglas, y la
-    página del PDF original en cada fragmento.
-  </p>
+<Base
+  title="Documento de referencia del sistema 5.2.1"
+  subtitle="El SRD 5.2.1 de D&D en español: el libro completo, navegable, con enlaces entre conjuros, objetos y reglas, y buscador."
+  bare
+>
+  <div class="portada">
+    <p class="rotulo">Dungeons <span class="amp">&amp;</span> Dragons</p>
 
-  <div class="atajos">
-    <a href="/conjuros/"><strong>339</strong> conjuros</a>
-    <a href="/monstruos/"><strong>336</strong> perfiles</a>
-    <a href="/objetos/"><strong>258</strong> objetos mágicos</a>
-    <a href="/buscar/"><strong>Buscar</strong> en todo el libro</a>
+    <p class="reclamo">
+      Contenido de las reglas de D&amp;D que puedes usar y consultar para
+      publicar contenido bajo una licencia Creative Commons
+    </p>
+
+    <p class="credito">
+      Basado en el juego D&amp;D original creado por<br />
+      <strong>GYGAX &amp; ARNESON</strong>
+    </p>
+
+    <img
+      class="ilustracion"
+      src="/img/portada.jpg"
+      srcset="/img/portada-768.jpg 768w, /img/portada.jpg 1536w"
+      sizes="(min-width: 46rem) 42rem, 100vw"
+      width="1536"
+      height="1024"
+      alt="Lámina a tinta: un guerrero, un enano, una hechicera y un mago ante unas ruinas, con un dragón sobrevolándolas."
+    />
+
+    <h1 class="titulo-doc">Documento de referencia del sistema v5.2.1</h1>
+    <p class="edicion">Edición en español · Compatible con la 5E</p>
+
+    <div class="portada-acciones">
+      <a class="principal" href="/libro/">Leer el libro</a>
+      <a href="/buscar/">Buscar</a>
+    </div>
   </div>
 
-  <h2>Contenido</h2>
-  <ol class="capitulos">
-    {caps.map((c) => (
-      <li>
-        <a href={`/libro/${c.slug}/`}>{c.title}</a> <span class="pag">p{c.page}</span>
-        {c.sections.length > 0 && (
-          <ul>
-            {c.sections.slice(0, 12).map((s) => (
-              <li><a href={`/libro/${c.slug}/${s.slug}/`}>{s.title}</a></li>
-            ))}
-            {c.sections.length > 12 && <li class="mas"><a href={`/libro/${c.slug}/`}>… y {c.sections.length - 12} más</a></li>}
-          </ul>
-        )}
-      </li>
-    ))}
-  </ol>
+  <nav class="cifras" aria-label="Atajos a las colecciones">
+    <a href="/conjuros/"><strong>339</strong><span>conjuros</span></a>
+    <a href="/monstruos/"><strong>336</strong><span>perfiles</span></a>
+    <a href="/objetos/"><strong>258</strong><span>objetos mágicos</span></a>
+    <a href="/libro/"><strong>16</strong><span>capítulos</span></a>
+  </nav>
+
+  <section class="historia">
+    <h2>Qué es Dungeons &amp; Dragons</h2>
+    <p>
+      Dungeons &amp; Dragons es un juego de rol de fantasía heroica actualmente
+      publicado por Wizards of the Coast. El juego original fue diseñado en
+      Estados Unidos por Gary Gygax y Dave Arneson y publicado por primera vez
+      en 1974 por la compañía de Gygax, Tactical Studies Rules (TSR).
+    </p>
+    <p>
+      Originalmente derivado de juegos de tablero jugados con lápiz, papel y
+      dados, la primera publicación de Dungeons &amp; Dragons es bien conocida
+      como el principio de los juegos de rol modernos y por consiguiente de la
+      industria de los juegos de rol.
+    </p>
+    <p>
+      Desde su aparición este juego ha sido publicado a lo largo de un gran
+      número de ediciones y muchas de ellas han sido traducidas al castellano,
+      pero conservando siempre en las traducciones el título original en inglés:
+      Dungeons &amp; Dragons. Desde 2022, Wizards of the Coast ha estado
+      desarrollando una nueva iteración de la Quinta Edición, éste es su
+      S.&nbsp;R.&nbsp;D., que mantiene compatibilidad hacia atrás, pero
+      introduce cambios significativos en los libros de reglas principales. El
+      <em>Player’s Handbook</em> (2024) salió el 17 de septiembre de 2024,
+      seguido por el <em>Dungeon Master’s Guide</em> (12 de noviembre de 2024) y
+      el <em>Monster Manual</em> (18 de febrero de 2025).
+    </p>
+    <img
+      src="/img/dnd-1974.jpg"
+      width="720"
+      height="858"
+      loading="lazy"
+      alt="Los cuadernillos de la caja original de Dungeons &amp; Dragons de 1974."
+    />
+  </section>
 </Base>
