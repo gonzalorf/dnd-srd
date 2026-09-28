@@ -436,6 +436,10 @@ JavaScript. Sale con código distinto de cero si algo falla.
   `docs/Tapa Concept de D&D SRD 2024.pdf`: papel blanco, tinta negra, rojo puro
   como único acento y las dos familias del documento, Jost y Barlow Condensed,
   autoalojadas (198 KB, y el navegador solo descarga el subconjunto que usa).
+  **No hay modo oscuro**, y es deliberado: la tapa es blanca y negra, así que
+  seguir la preferencia del sistema pintaba el sitio en negativo y la lámina
+  invertida. El `color-scheme: light` es necesario además para que los
+  desplegables de los filtros no se dibujen oscuros sobre fondo blanco.
 - **Índice del libro a la izquierda**, fijo al desplazarse. Muestra los 16
   capítulos y despliega las secciones del capítulo en el que estás, resaltando
   la actual. No lista las 245 secciones de golpe a propósito: repetirlas en cada
@@ -459,11 +463,12 @@ JavaScript. Sale con código distinto de cero si algo falla.
   340 KB, no el libro entero. Es insensible a acentos: «sintonizacion» encuentra
   «Sintonización».
 
-Comprobado en un navegador real con Playwright (`npm run check`, 11
+Comprobado en un navegador real con Playwright (`npm run check`, 12
 comprobaciones): la búsqueda devuelve resultados e ignora los acentos, los
 filtros cuentan bien (16 conjuros de nivel 9, 12 de ellos de mago), los enlaces
 cruzados navegan, la portada y su lámina cargan, el índice lateral lista los 16
-capítulos y resalta dónde estás, y no hay ni un error de JavaScript.
+capítulos y resalta dónde estás, el diseño se mantiene claro aunque el sistema
+esté en modo oscuro, y no hay ni un error de JavaScript.
 
 ### Sobre la portada y las marcas
 

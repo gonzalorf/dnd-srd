@@ -26,21 +26,15 @@
   --ancho: 44rem;
   --lateral: 17.5rem;
 
+  /* El diseño es el de la tapa: papel blanco, tinta negra y rojo. No hay modo
+   * oscuro y hay que decirlo: si no, con el sistema en oscuro el navegador
+   * pinta en oscuro los <select> de los filtros y el campo del buscador, y
+   * quedan ilegibles sobre el fondo blanco. */
+  color-scheme: light;
+
   --display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --titulo: "Jost", "Futura", "Century Gothic", sans-serif;
   --cuerpo: Georgia, "Iowan Old Style", "Times New Roman", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --rojo: #ff3b30;
-    --rojo-enlace: #ff6a60;
-    --tinta: #ececec;
-    --papel: #0e0e0e;
-    --tenue: #9a9a9a;
-    --linea: #2c2c2c;
-    --panel: #1a1a1a;
-  }
 }
 
 * { box-sizing: border-box; }
@@ -235,11 +229,6 @@ h4, h5 { font-size: 1rem; }
   width: 100%;
   height: auto;
   margin: 2rem 0 1.8rem;
-}
-@media (prefers-color-scheme: dark) {
-  /* La lámina es tinta negra sobre blanco: invertirla la integra en el modo
-   * oscuro sin tener que generar una segunda versión del fichero. */
-  .portada .ilustracion, .historia img { filter: invert(1) hue-rotate(180deg); }
 }
 .portada .titulo-doc {
   font-family: var(--titulo);
@@ -447,6 +436,20 @@ tbody tr:nth-child(odd) { background: var(--panel); }
 
 .relacionado { margin-top: 2rem; font-size: 0.92rem; }
 .relacionado ul { columns: 2; }
+
+/* --- buscador ------------------------------------------------------------ */
+
+/* Pagefind se dibuja solo; estas variables lo traen a la paleta de la tapa. */
+.pagefind-ui {
+  --pagefind-ui-primary: var(--rojo-enlace);
+  --pagefind-ui-text: var(--tinta);
+  --pagefind-ui-background: var(--papel);
+  --pagefind-ui-border: var(--linea);
+  --pagefind-ui-tag: var(--panel);
+  --pagefind-ui-font: var(--titulo);
+  --pagefind-ui-border-radius: 0;
+  --pagefind-ui-border-width: 1px;
+}
 
 /* --- impresión ----------------------------------------------------------- */
 

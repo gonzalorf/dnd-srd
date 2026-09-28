@@ -156,6 +156,24 @@ try {
   comprobar("ningún tipo de contenido sin renderizar", sinCubrir === 0, `${sinCubrir} bloques`);
 
   comprobar("sin errores de JavaScript", erroresJs.length === 0, erroresJs.slice(0, 2).join(" | "));
+
+  // --- el diseno no sigue al sistema ---------------------------------------
+  // La tapa es papel blanco, tinta negra y rojo. Con un modo oscuro automatico
+  // el sitio se veia en negativo y la lamina invertida, que es justo lo que el
+  // concepto no es. Se comprueba con el navegador declarado en modo oscuro.
+  const oscuro = await navegador.newContext({ colorScheme: "dark" });
+  const pOscuro = await oscuro.newPage();
+  await pOscuro.goto(`${BASE}/`, { waitUntil: "networkidle" });
+  const fondo = await pOscuro.evaluate(() => getComputedStyle(document.body).backgroundColor);
+  const filtro = await pOscuro.evaluate(
+    () => getComputedStyle(document.querySelector(".portada .ilustracion")).filter,
+  );
+  comprobar(
+    "el sitio sigue claro con el sistema en oscuro",
+    fondo === "rgb(255, 255, 255)" && filtro === "none",
+    `fondo ${fondo}, filtro de la lámina ${filtro}`,
+  );
+  await oscuro.close();
 } catch (error) {
   // El fallo más probable es haber saltado el `build`: sin el índice de
   // Pagefind el buscador ni siquiera se dibuja, y la espera vence sin más.
